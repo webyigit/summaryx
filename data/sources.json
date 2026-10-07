@@ -2209,5 +2209,57 @@
     "K-디자인 어워드"
    ]
   }
+ ],
+ "productd": [
+  {
+   "name": "Dezeen (Design)",
+   "url": "https://www.dezeen.com/design/",
+   "keywords": [
+    "product design",
+    "furniture",
+    "lighting",
+    "sustainable material"
+   ]
+  },
+  {
+   "name": "Yanko Design",
+   "url": "https://www.yankodesign.com/",
+   "keywords": [
+    "product design",
+    "gadget",
+    "home",
+    "EDC"
+   ]
+  },
+  {
+   "name": "Core77",
+   "url": "https://www.core77.com/",
+   "keywords": [
+    "industrial design",
+    "furniture design",
+    "tools",
+    "UX"
+   ]
+  },
+  {
+   "name": "Wallpaper* Design & Interiors",
+   "url": "https://www.wallpaper.com/design-interiors",
+   "keywords": [
+    "furniture",
+    "lighting",
+    "reissue",
+    "design launch"
+   ]
+  },
+  {
+   "name": "월간 디자인 (design.co.kr)",
+   "url": "https://design.co.kr/",
+   "keywords": [
+    "프로덕트",
+    "산업디자인",
+    "디자인 어워드",
+    "디자이너 인터뷰"
+   ]
+  }
  ]
 }
