@@ -24,9 +24,9 @@ from datetime import datetime, timedelta, timezone
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 KEEP_DAYS = 14
-CATS = ["ai", "ax", "car", "ccm", "christian", "it", "fashion", "art", "design", "meme"]
+CATS = ["ai", "art", "ax", "car", "ccm", "christian", "design", "fashion", "it", "uxui", "meme"]
 CAT_NAME = {"ai": "AI", "ax": "AX", "car": "CAR", "ccm": "CCM", "christian": "CHRISTIAN",
-            "it": "IT", "fashion": "FASHION", "art": "ART", "design": "DESIGN", "meme": "밈"}
+            "it": "IT", "fashion": "FASHION", "art": "ART", "design": "DESIGN", "uxui": "UX/UI", "meme": "밈"}
 KST = timezone(timedelta(hours=9))
 REQUIRED = ("title", "source", "url", "summary")
 
@@ -59,7 +59,7 @@ SHARE_TMPL = """<!doctype html>
 <meta property="og:type" content="article">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
-<meta name="twitter:card" content="summary">
+{ogimage}<meta name="twitter:card" content="{card}">
 <link rel="canonical" href="../../#/a/{id}">
 <script>location.replace('../../#/a/{id}');</script>
 </head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
@@ -75,7 +75,9 @@ def share_page(a):
     desc = " ".join(a["summary"])[:150]
     body = "".join("<p>%s</p>" % html.escape(p) for p in a["summary"])
     out = SHARE_TMPL.format(title=html.escape(a["title"]), desc=html.escape(desc),
-                            id=a["id"], body=body, url=html.escape(a["url"]))
+                            id=a["id"], body=body, url=html.escape(a["url"]),
+                            ogimage=('<meta property="og:image" content="%s">\n' % html.escape(a["image"])) if a.get("image") else "",
+                            card="summary_large_image" if a.get("image") else "summary")
     path = os.path.join(ROOT, "a", a["id"], "index.html")
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
@@ -161,13 +163,23 @@ def main():
                 print("skip (필수 항목 누락):", a.get("url"), file=sys.stderr)
                 continue
             if norm_url(a["url"]) in seen:
-                print("skip (중복):", a["url"], file=sys.stderr)
+                # 이미 있는 기사: 비어 있던 이미지만 채운다
+                ex = next((x for x in articles if norm_url(x["url"]) == norm_url(a["url"])), None)
+                if ex is not None and a.get("image") and not ex.get("image"):
+                    ex["image"] = a["image"]
+                    write(os.path.join(DATA, "items", ex["id"] + ".json"), ex)
+                    share_page(ex)
+                    print("image 보강:", ex["id"], file=sys.stderr)
+                else:
+                    print("skip (중복):", a["url"], file=sys.stderr)
                 continue
             n += 1
             a = dict(a)
             a["id"] = "%s-%s-%02d" % (stamp, cat, n)
             a["category"] = cat
             a["collectedAt"] = now.isoformat(timespec="seconds")
+            if a.get("image") and not str(a["image"]).startswith("https://"):
+                a["image"] = None
             if isinstance(a["summary"], str):
                 a["summary"] = [p for p in a["summary"].split("\n") if p.strip()]
             seen.add(norm_url(a["url"]))

@@ -1,0 +1,21 @@
+{
+ "title": "앤트로픽, 구글 문서·시트·슬라이드에 '클로드' 직접 통합",
+ "originalTitle": "You can now open Claude directly in Google Docs, Sheets and Slides (and vice versa, open and edit the files in Claude)",
+ "source": "VentureBeat",
+ "url": "https://venturebeat.com/technology/you-can-now-open-claude-directly-in-google-docs-sheets-and-slides-and-vice-versa-open-and-edit-the-files-in-claude",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "업무용 생산성 도구 안에서 AI 비서 경쟁이 치열해지는 가운데, 앤트로픽이 클로드를 구글 문서·시트·슬라이드에 직접 넣었다. 모든 유료 요금제에서 공개 베타로 쓸 수 있으며, 구글 앱의 사이드바에서 클로드를 부르거나 반대로 클로드 화면에서 구글 파일을 열어 편집할 수 있다.",
+  "문서에서는 서식을 유지한 채 문장과 제목을 바로 고치고, 큰 수정은 검토용 제안으로 보여준다. 시트에서는 수식 작성, 피벗 테이블과 기본 차트 생성, 파이썬 기반 데이터 처리를 지원한다. 슬라이드에서는 기존 레이아웃과 테마를 활용해 장표를 만들고 결과물 품질을 점검한다. 기본값은 수정 전에 묻는 모드이고, 모든 수정을 자동 수락하는 모드도 고를 수 있다.",
+  "이번 통합으로 클로드는 구글 워크스페이스 안에서 구글 제미나이, 마이크로소프트 코파일럿과 정면으로 맞붙게 됐다. 기존 커넥터·스킬·컴플라이언스 기능도 워크스페이스로 이어지며, 현재 유료 요금제 외에 별도 가격은 발표되지 않았다."
+ ],
+ "keyPoints": [
+  "클로드, 구글 문서·시트·슬라이드에 통합",
+  "모든 유료 요금제에 공개 베타 제공",
+  "제미나이·코파일럿과 업무도구 경쟁"
+ ],
+ "image": "https://images.ctfassets.net/jdtwqhzvc2n1/1aeIHrc790GxeNfNBusuZT/538f3c21f55d7216ef1cd38495af6e22/Retro_Computer_Data_Collage.png?w=800&q=75",
+ "id": "261007-ai-05",
+ "category": "ai",
+ "collectedAt": "2026-10-07T08:00:00+09:00"
+}

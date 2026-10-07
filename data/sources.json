@@ -21,6 +21,28 @@
     "AI 규제",
     "AI 투자"
    ]
+  },
+  {
+   "name": "VentureBeat AI",
+   "url": "https://venturebeat.com/category/ai/",
+   "keywords": [
+    "enterprise AI",
+    "AI agents",
+    "LLM release",
+    "Claude",
+    "GPT"
+   ]
+  },
+  {
+   "name": "지디넷코리아 인공지능",
+   "url": "https://zdnet.co.kr/newskey/?lstcode=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",
+   "keywords": [
+    "인공지능",
+    "생성형 AI",
+    "AI 에이전트",
+    "LLM",
+    "AI 반도체"
+   ]
   }
  ],
  "ax": [
@@ -61,6 +83,24 @@
     "사내 AI 사용",
     "AX 사례"
    ]
+  },
+  {
+   "name": "지디넷코리아",
+   "url": "https://zdnet.co.kr",
+   "keywords": [
+    "공공 AX",
+    "AI 도입 제도",
+    "국가AI전략위원회"
+   ]
+  },
+  {
+   "name": "뉴스핌",
+   "url": "https://www.newspim.com",
+   "keywords": [
+    "AI 에이전트 도입",
+    "금융 AX",
+    "AI 상담"
+   ]
   }
  ],
  "car": [
@@ -92,6 +132,35 @@
     "전기차",
     "현대차",
     "시승기"
+   ]
+  },
+  {
+   "name": "TechCrunch Transportation",
+   "url": "https://techcrunch.com/category/transportation/",
+   "keywords": [
+    "robotaxi",
+    "EV startup",
+    "autonomous",
+    "mobility"
+   ]
+  },
+  {
+   "name": "오토헤럴드",
+   "url": "https://www.autoherald.co.kr/",
+   "keywords": [
+    "신차",
+    "전기차",
+    "수입차",
+    "공개"
+   ]
+  },
+  {
+   "name": "전자신문 모빌리티",
+   "url": "https://www.etnews.com/",
+   "keywords": [
+    "수입차 등록",
+    "전기차 판매",
+    "자율주행"
    ]
   }
  ],
@@ -125,12 +194,13 @@
    ]
   },
   {
-   "name": "크리스천투데이",
-   "url": "https://www.christiantoday.co.kr/",
+   "name": "크리스천투데이 (뮤직/CCM)",
+   "url": "https://www.christiantoday.co.kr/sections/cul_33",
    "keywords": [
     "CCM",
     "찬양 앨범",
-    "워십"
+    "워십",
+    "시편 150 프로젝트"
    ]
   }
  ],
@@ -212,6 +282,26 @@
     "energy tech",
     "battery"
    ]
+  },
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/",
+   "keywords": [
+    "gadgets",
+    "smartglasses",
+    "wearables",
+    "Microsoft Surface"
+   ]
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/news/",
+   "keywords": [
+    "Samsung Galaxy",
+    "Pixel",
+    "One UI",
+    "Android"
+   ]
   }
  ],
  "fashion": [
@@ -245,21 +335,41 @@
    ]
   },
   {
-   "name": "SCMP Style",
-   "url": "https://www.scmp.com/magazines/style/fashion",
-   "keywords": [
-    "fashion week",
-    "luxury brands",
-    "Asia"
-   ]
-  },
-  {
    "name": "Fashionista",
    "url": "https://fashionista.com/",
    "keywords": [
     "fashion business",
     "collections",
     "retail"
+   ]
+  },
+  {
+   "name": "패션서울",
+   "url": "https://fashionseoul.com/",
+   "keywords": [
+    "K-패션",
+    "컬렉션",
+    "패션위크",
+    "브랜드"
+   ]
+  },
+  {
+   "name": "한국섬유신문",
+   "url": "https://www.ktnews.com/",
+   "keywords": [
+    "패션 기업",
+    "유통",
+    "무신사",
+    "실적"
+   ]
+  },
+  {
+   "name": "Retail Dive",
+   "url": "https://www.retaildive.com/",
+   "keywords": [
+    "apparel retail",
+    "earnings",
+    "restructuring"
    ]
   }
  ],
@@ -300,6 +410,17 @@
     "Frieze London",
     "Frieze Masters",
     "contemporary art"
+   ]
+  },
+  {
+   "name": "뉴시스 문화(미술)",
+   "url": "https://www.newsis.com/culture/list/?cid=10700&scid=10701",
+   "keywords": [
+    "전시",
+    "미술관",
+    "갤러리",
+    "작가",
+    "컬렉터"
    ]
   }
  ],
@@ -401,6 +522,82 @@
    "keywords": [
     "TikTok meme explained",
     "viral trend"
+   ]
+  },
+  {
+   "name": "Know Your Meme Trending (Guides)",
+   "url": "https://trending.knowyourmeme.com/",
+   "keywords": [
+    "meme explained",
+    "TikTok trend"
+   ]
+  },
+  {
+   "name": "인스타공백닷컴 밈 사전",
+   "url": "https://www.instablank.com/meme?year=2026",
+   "keywords": [
+    "월별 밈",
+    "최신 유행 밈"
+   ]
+  }
+ ],
+ "uxui": [
+  {
+   "name": "Smashing Magazine",
+   "url": "https://www.smashingmagazine.com/articles/",
+   "keywords": [
+    "UX",
+    "design systems",
+    "accessibility",
+    "CSS"
+   ]
+  },
+  {
+   "name": "Nielsen Norman Group",
+   "url": "https://www.nngroup.com/articles/",
+   "keywords": [
+    "UX research",
+    "AI UX",
+    "usability"
+   ]
+  },
+  {
+   "name": "UX Magazine",
+   "url": "https://uxmag.com/articles",
+   "keywords": [
+    "agentic AI UX",
+    "service design",
+    "dark patterns"
+   ]
+  },
+  {
+   "name": "디지털 인사이트 (DIGITAL iNSIGHT)",
+   "url": "https://ditoday.com/tag/ui/",
+   "keywords": [
+    "UI",
+    "UX",
+    "앱 개편",
+    "폰트"
+   ]
+  },
+  {
+   "name": "9to5Google / 9to5Mac",
+   "url": "https://9to5google.com/",
+   "keywords": [
+    "redesign",
+    "Material",
+    "Liquid Glass",
+    "UI update"
+   ]
+  },
+  {
+   "name": "Figma Blog / Release Notes",
+   "url": "https://www.figma.com/blog/",
+   "keywords": [
+    "Figma agent",
+    "Figma Make",
+    "auto layout",
+    "release notes"
    ]
   }
  ]

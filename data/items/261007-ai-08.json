@@ -1,0 +1,21 @@
+{
+ "title": "아틀라시안, 오픈AI와 지출 약정으로 협력 강화…멀티모델 전략은 유지",
+ "originalTitle": "Atlassian deepens its OpenAI partnership with a spend commitment — but its platform stays firmly multi-model",
+ "source": "VentureBeat",
+ "url": "https://venturebeat.com/orchestration/atlassian-deepens-its-openai-partnership-with-a-spend-commitment-but-its-platform-stays-firmly-multi-model",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "지라·컨플루언스로 알려진 아틀라시안이 오픈AI와의 협력을 넓히며 지출 약정을 맺었다. 다만 독점 계약은 아니어서, 앤트로픽 클로드 등 다른 모델도 계속 쓰는 멀티모델 전략을 유지한다.",
+  "아틀라시안의 AI 플랫폼 '로보(Rovo)'에는 오픈AI의 최신 모델인 GPT-6 아스트라와 GPT-5.6 시리즈가 들어간다. 새로 만든 MCP 서버는 220여 개 도구에 걸쳐 하루 1500만 건 이상의 호출을 처리하고, 비슷한 작업에서 토큰을 최대 25% 줄인다. 에이전트가 한 번의 요청으로 풀 리퀘스트를 살피고 명세를 읽어 작업 항목 초안을 만들 수 있다. 보안 면에서는 OAuth 2.1과 PKCE를 기본 적용하고, 조회 시점에 사용자 권한을 확인하며, 읽기·쓰기·파괴적 작업을 위험 등급별로 나눈다.",
+  "아스트라 가격은 입력 100만 토큰당 10달러, 출력 100만 토큰당 50달러다. 이 모델은 사이버보안 위험 '치명적' 기준에 도달해 무단 행동을 멈추는 안전장치를 갖췄다. 적격 기업 고객에게는 데이터 무보존 옵션이 제공되며, 오픈AI는 고객 입출력 데이터로 학습하지 않는다."
+ ],
+ "keyPoints": [
+  "오픈AI와 지출 약정, 독점은 아냐",
+  "로보에 GPT-6 아스트라·GPT-5.6 탑재",
+  "MCP 서버 하루 1500만 건, 토큰 25%↓"
+ ],
+ "image": "https://images.ctfassets.net/jdtwqhzvc2n1/3KEl81Pz9KfN804RDjG3eg/e3e1f5d8a9f78f22c49dacb0ecaf3a9d/Retro-Futurist_Binary_Network_Analyst.png?w=800&q=75",
+ "id": "261007-ai-08",
+ "category": "ai",
+ "collectedAt": "2026-10-07T08:00:00+09:00"
+}

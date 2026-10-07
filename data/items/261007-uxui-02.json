@@ -1,0 +1,21 @@
+{
+ "title": "구글 월렛, 안드로이드에서 '쌓인 카드' 목록으로 디자인 개편",
+ "originalTitle": "Google Wallet rolling out stacked card list redesign on Android",
+ "source": "9to5Google",
+ "url": "https://9to5google.com/2026/10/06/google-wallet-stacked-redesign/",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "구글 월렛 안드로이드 앱이 결제 카드를 보여주는 방식을 바꾸고 있다. 기존에는 가로 캐러셀 형태로 화면 양 끝에 옆 카드가 살짝 걸쳐 보였는데, 새 디자인은 카드 한 장을 온전히 보여주고 그 위로 다음 카드가 살짝 드러나는 '스택(쌓기)' 방식이다.",
+  "카드를 탭하거나 아래로 스와이프하면 전체 화면으로 펼쳐져 대부분의 카드 정보를 볼 수 있고, 하단의 '결제 수단 관리' 버튼으로 카드 순서와 기본 카드를 바꿀 수 있다. 다만 카드 상세 정보와 거래 내역은 우측 상단 톱니바퀴 아이콘 안으로 옮겨져, 이전보다 한 단계를 더 거쳐야 한다.",
+  "이 디자인은 9월부터 일부에서 보이기 시작했고 현재 서버 측 업데이트로 여러 기기에 확대 적용 중이다. 2026년 5월 홈 화면 개편에 이은 변화로, 자주 쓰는 카드가 스택 아래쪽에 있을 때 한 손 조작이 편해진다는 평가가 나온다."
+ ],
+ "keyPoints": [
+  "캐러셀 대신 카드가 겹쳐 쌓이는 스택형 목록 도입",
+  "상세·거래 내역은 톱니바퀴 메뉴로 이동해 한 단계 추가",
+  "서버 측 업데이트로 확대 적용, 한 손 사용성 개선"
+ ],
+ "image": "https://9to5google.com/wp-content/uploads/sites/4/2023/03/google-wallet-logo-circle-4.jpg?quality=82&strip=all&resize=1200,628",
+ "id": "261007-uxui-02",
+ "category": "uxui",
+ "collectedAt": "2026-10-07T08:00:00+09:00"
+}

@@ -1,0 +1,21 @@
+{
+ "title": "끝없는 프롬프트 입력, 무한 스크롤 같은 다크 패턴이 되고 있나",
+ "originalTitle": "Is Endless Prompting Becoming a Dark Pattern Like Infinity Scrolling?",
+ "source": "UX Magazine",
+ "url": "https://uxmag.com/articles/is-endless-prompting-becoming-a-dark-pattern-like-infinity-scrolling",
+ "publishedAt": "2026-09-30",
+ "summary": [
+  "AI 챗봇에서 원하는 결과가 나올 때까지 프롬프트를 고쳐 쓰는 일은 이제 흔한 경험이다. 아니나 보타는 이 '끝없는 프롬프트'가 무한 스크롤이나 슬롯머신과 비슷한 중독 메커니즘을 띠고 있다고 주장한다.",
+  "그는 사용자가 나쁜 결과를 시스템 설계 문제가 아니라 자신의 프롬프트 실력 탓으로 돌린다고 지적한다. 실패 속에 가끔 나오는 좋은 결과가 도박처럼 변동 보상으로 작용하고, 매몰 비용 심리가 사용자를 붙잡는다. 여기에 프롬프트가 늘수록 토큰과 매출이 늘어나는 구조여서, 기업이 오류를 고칠 동기가 약해지는 왜곡된 인센티브가 생긴다는 것이다.",
+  "제안 프롬프트, 템플릿, 후속 질문 같은 가드레일을 둘 수 있지만, 보타는 미봉책보다 근본 원인을 다뤄야 한다고 강조한다. 사용자가 프롬프트 전문가가 될 필요가 없어야 하며, 마찰 없어 보이는 입력창이 오히려 가장 큰 마찰 지점이 됐다는 경고다."
+ ],
+ "keyPoints": [
+  "프롬프트 반복이 변동 보상형 중독 구조와 닮아",
+  "사용자는 시스템 대신 자기 실력을 탓하게 돼",
+  "토큰 과금 구조가 오류 개선 동기를 약화"
+ ],
+ "image": "https://uxmag.com/generated-images/is-endless-prompting-becoming-a-dark-pattern-like-infinity-scrolling-featured.jpg",
+ "id": "261007-uxui-08",
+ "category": "uxui",
+ "collectedAt": "2026-10-07T08:00:00+09:00"
+}

@@ -1,6 +1,6 @@
 # summaryx
 
-모바일 전용 기사 요약 사이트. 매일 오전 8시(KST) 10개 카테고리(AI, AX, CAR, CCM, CHRISTIAN, IT, FASHION, ART, DESIGN, 밈)의 최신 기사를 모아 읽기 좋은 길이로 요약한다.
+모바일 전용 기사 요약 사이트. 매일 오전 8시(KST) 11개 카테고리(AI, ART, AX, CAR, CCM, CHRISTIAN, DESIGN, FASHION, IT, UX/UI, 밈)의 최신 기사를 모아 읽기 좋은 길이로 요약한다.
 
 - 홈: 오늘의 말씀·영어·명언·그림 + 최신 기사 목록, 카테고리 필터
 - 상세: 핵심 3줄, 요약 본문, 원문 보기, 좋아요/싫어요, 북마크, 공유

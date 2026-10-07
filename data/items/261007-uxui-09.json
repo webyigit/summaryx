@@ -1,0 +1,21 @@
+{
+ "title": "복잡한 B2B SaaS를 친근하게: 마스코트 '캐릭터 시스템' 디자인",
+ "originalTitle": "Making Complex Products Feel Human: Designing Mascots for B2B SaaS",
+ "source": "UX Magazine",
+ "url": "https://uxmag.com/articles/making-complex-products-feel-human-designing-mascots-for-b2b-saas",
+ "publishedAt": "2026-10-01",
+ "summary": [
+  "추상적이고 기술적인 B2B SaaS 제품은 사용자에게 딱딱하게 느껴지기 쉽다. 로만 야코블레프는 마스코트 하나보다 여러 캐릭터로 이뤄진 '캐릭터 시스템'이 계층적인 제품 구조를 더 잘 표현하고 브랜드를 친근하게 만든다고 말한다.",
+  "대표 사례인 TitanApps는 지라의 Epic·Task·Subtask·Story·Bug를 본뜬 다섯 캐릭터를 만들었고, 블로그 참여도가 18% 오르고 전환 이벤트도 비슷하게 늘었다. 컨퍼런스 참석자들이 매년 마스코트 굿즈를 찾을 정도로 애착이 생겼다. Coupler.io의 탐정 구름 캐릭터는 AI 실험만으로 5~6시간 만에 개발됐다.",
+  "저자는 AI를 최종 제작자가 아닌 탐색용 주니어 조수로 쓰고, 마케팅·콘텐츠·제품 팀을 처음부터 참여시키며, 시각 규칙뿐 아니라 사고 과정까지 문서화하라고 권한다. 마스코트는 미적 장식이 아니라 제품의 실제 구조에 뿌리를 둘 때 성공한다는 결론이다."
+ ],
+ "keyPoints": [
+  "단일 마스코트보다 제품 구조를 닮은 캐릭터 군",
+  "TitanApps 블로그 참여도 18% 상승 사례",
+  "AI는 탐색 보조, 일관성은 문서화로 확보"
+ ],
+ "image": "https://uxmag.com/generated-images/making-complex-products-feel-human-designing-mascots-for-b2b-saas-featured.jpg",
+ "id": "261007-uxui-09",
+ "category": "uxui",
+ "collectedAt": "2026-10-07T08:00:00+09:00"
+}

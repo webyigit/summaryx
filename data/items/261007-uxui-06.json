@@ -1,0 +1,21 @@
+{
+ "title": "인터페이스가 더 이상 기다리지 않는 날: 에이전트 AI 시대의 UX",
+ "originalTitle": "The Day the Interface Stopped Waiting",
+ "source": "UX Magazine",
+ "url": "https://uxmag.com/articles/the-day-the-interface-stopped-waiting",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "지난 30년간 인터페이스 디자인은 '사용자가 입력하면 시스템이 반응한다'는 전제 위에 있었다. UXExpert 창업자 투샤르 데시무크는 에이전트형 AI가 사용자 입력을 기다리지 않고 스스로 행동을 시작하면서 이 전제가 깨지고 있다고 진단한다.",
+  "그는 시스템이 자율적으로 움직이면 심리적 주도권이 바깥으로 넘어가 신뢰가 아니라 학습된 무력감이 생길 수 있다고 경고한다. 또 사람의 실수는 용서하지만 AI의 실수에는 훨씬 엄격하며, 한 번의 오류로 신뢰가 깨지는 비율이 70%에 이른다는 '신뢰 비대칭'을 지적한다. UPI 등 빠른 거래에 익숙한 인도 사용자들은 에이전트 실패를 사기 불안과 연결해 받아들일 위험이 크다고도 봤다.",
+  "사례로 결정적 행동 전 허락을 구하는 ChatGPT 에이전트, 활성 탭 안에서만 작동하는 구글 프로젝트 마리너, 최종 주문은 사람이 확정하는 조마토·스위기를 든다. 결론은 자동화보다 '중단 설계'를 먼저 해야 한다는 것으로, 빠져나갈 출구가 곧 안전장치라는 주장이다."
+ ],
+ "keyPoints": [
+  "에이전트 AI가 '입력 후 반응' 전제를 뒤집어",
+  "AI 오류에 대한 신뢰 비대칭, 학습된 무력감 우려",
+  "자동화보다 중단·출구 설계를 먼저 하라"
+ ],
+ "image": "https://uxmag.com/generated-images/the-day-the-interface-stopped-waiting-featured.jpg",
+ "id": "261007-uxui-06",
+ "category": "uxui",
+ "collectedAt": "2026-10-07T08:00:00+09:00"
+}

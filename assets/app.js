@@ -1,17 +1,19 @@
 (function () {
   'use strict';
 
+  // 메뉴 순서: 전체 → 알파벳순 → 한글
   var CATS = [
     { id: 'all', name: '전체' },
     { id: 'ai', name: 'AI' },
+    { id: 'art', name: 'ART' },
     { id: 'ax', name: 'AX' },
     { id: 'car', name: 'CAR' },
     { id: 'ccm', name: 'CCM' },
     { id: 'christian', name: 'CHRISTIAN' },
-    { id: 'it', name: 'IT' },
-    { id: 'fashion', name: 'FASHION' },
-    { id: 'art', name: 'ART' },
     { id: 'design', name: 'DESIGN' },
+    { id: 'fashion', name: 'FASHION' },
+    { id: 'it', name: 'IT' },
+    { id: 'uxui', name: 'UX/UI' },
     { id: 'meme', name: '밈' }
   ];
   var CAT_NAME = {};
@@ -85,15 +87,16 @@
 
   function itemHtml(a) {
     var v = votes[a.id];
-    return '<a class="item" href="#/a/' + esc(a.id) + '">' +
-      '<div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
+    return '<a class="item' + (a.image ? ' has-img' : '') + '" href="#/a/' + esc(a.id) + '">' +
+      (a.image ? '<img class="thumb" src="' + esc(a.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.remove(\'has-img\');this.remove()">' : '') +
+      '<div class="txt"><div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
       '<span>' + esc(a.source) + '</span>' + (a.publishedAt ? '<span>· ' + fmtDate(a.publishedAt) + '</span>' : '') + '</div>' +
       '<h3>' + esc(a.title) + '</h3>' +
       '<p>' + esc((a.summary || [])[0]) + '</p>' +
       ((v || bookmarks[a.id]) ? '<div class="mini">' +
         (v === 1 ? '<span>👍 좋아요</span>' : v === -1 ? '<span>👎 싫어요</span>' : '') +
         (bookmarks[a.id] ? '<span>🔖 저장됨</span>' : '') + '</div>' : '') +
-      '</a>';
+      '</div></a>';
   }
 
   function listHtml(arr) {
@@ -182,6 +185,7 @@
       '<div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
       '<span>' + esc(a.source) + '</span>' + (a.publishedAt ? '<span>· ' + fmtDate(a.publishedAt) + '</span>' : '') + '</div>' +
       '<h1>' + esc(a.title) + '</h1>' +
+      (a.image ? '<img class="hero" src="' + esc(a.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">' : '') +
       (a.originalTitle && a.originalTitle !== a.title ? '<p class="orig">' + esc(a.originalTitle) + '</p>' : '') +
       (a.keyPoints && a.keyPoints.length ? '<div class="points"><b>핵심 요약</b><ul>' +
         a.keyPoints.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('') + '</ul></div>' : '') +

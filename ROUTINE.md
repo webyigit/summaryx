@@ -3,14 +3,15 @@
 매일 루틴이 이 문서를 그대로 따른다. 오늘 날짜(KST)를 기준으로 한다.
 
 ## 0. 병렬 처리
-카테고리마다 서브에이전트(Agent 도구)를 **1개씩 동시에** 띄워 서칭·요약을 맡긴다(10개 + 오늘 영역 1개). 각 에이전트에게 이 문서의 1~3절과 담당 카테고리, `data/sources.json`의 해당 항목을 넘기고, 결과는 `incoming/<카테고리>.json`에 저장하게 한다. 모두 끝나면 메인이 4절(반영·배포)을 한 번만 실행한다. 실패한 카테고리는 다시 한 번만 재시도한다.
+카테고리마다 서브에이전트(Agent 도구)를 **1개씩 동시에** 띄워 서칭·요약을 맡긴다(11개 + 오늘 영역 1개). 각 에이전트에게 이 문서의 1~3절과 담당 카테고리, `data/sources.json`의 해당 항목을 넘기고, 결과는 `incoming/<카테고리>.json`에 저장하게 한다. 모두 끝나면 메인이 4절(반영·배포)을 한 번만 실행한다. 실패한 카테고리는 다시 한 번만 재시도한다.
 
 ## 1. 수집
-카테고리 10개: `ai, ax, car, ccm, christian, it, fashion, art, design, meme(밈)`
+카테고리 11개: `ai, art, ax, car, ccm, christian, design, fashion, it, uxui(UX/UI), meme(밈)`
+- design은 제품·브랜딩·건축·공간 디자인, uxui는 UX/UI·디자인 툴·디자인 시스템·접근성으로 나눈다.
 
 - 각 카테고리의 대상 사이트·키워드는 `data/sources.json`에 있다. 이 사이트들과 키워드로 WebSearch/WebFetch 해서 최신 기사를 찾는다. 더 좋은 사이트를 찾으면 `sources`에 추가해도 된다.
 - WebSearch는 오래된 페이지가 섞이기 쉽다. 대상 사이트의 **최신 기사 목록 페이지를 WebFetch로 직접 열어** 고르는 방식을 우선한다. 한 매체에 몰리지 않게 가능하면 2곳 이상, 한국어 매체도 섞는다.
-- 카테고리마다 **4건**, 최근 2일 이내 기사 우선(없으면 7일까지).
+- 카테고리마다 **10건**, 최근 2일 이내 기사 우선(없으면 7일까지).
 - `data/articles.json`에 이미 있는 URL·같은 사건은 제외한다.
 - 반드시 WebFetch로 원문을 열어 **읽은 내용만** 근거로 요약한다. 원문을 못 열면 그 기사는 버린다. 자료에 없는 사실·숫자는 쓰지 않는다. 날짜 확인이 안 되면 `publishedAt: null`.
 - 밈: 혐오·선정적 내용 제외. 밈이 무엇이고 어디서 시작됐고 왜 유행하는지 이해되게.
@@ -19,11 +20,12 @@
 - `title` 한국어 제목, `originalTitle` 원문 제목
 - `summary`: 문단 2~4개, 총 350~700자. 배경 → 핵심 내용 → 의미/전망. 너무 줄이지 말고 맥락이 이해될 만큼. 원문 문장 길게 베끼지 않기.
 - `keyPoints`: 핵심 3줄(각 40자 내외)
+- `image`: 원문의 og:image 메타 URL(WebFetch에 그대로 달라고 요청). 사이트 공통 로고면 본문 대표 사진, 없으면 null. https 절대 URL만, 지어내지 않기.
 
 작업 폴더 `incoming/`(커밋하지 않음)에 카테고리별 파일 저장:
 ```json
 {"category":"ai","sources":[{"name":"","url":"","keywords":[""]}],
- "articles":[{"title":"","originalTitle":"","source":"","url":"","publishedAt":"YYYY-MM-DD","summary":["",""],"keyPoints":["","",""]}]}
+ "articles":[{"title":"","originalTitle":"","source":"","url":"","publishedAt":"YYYY-MM-DD","summary":["",""],"keyPoints":["","",""],"image":"https://... 또는 null"}]}
 ```
 
 ## 3. 오늘 영역 → `incoming/daily.json`
