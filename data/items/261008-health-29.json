@@ -1,0 +1,21 @@
+{
+ "title": "몸속에서 바로 CAR-T 세포 만든다…주사 한 번에 생쥐 백혈병 소실",
+ "originalTitle": "Scientists reprogram immune cells inside the body to fight cancer",
+ "source": "ScienceDaily",
+ "url": "https://www.sciencedaily.com/releases/2026/10/261005071532.htm",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "CAR-T 치료는 환자의 T세포를 꺼내 유전자를 바꾼 뒤 다시 넣는 방식이라 몇 주가 걸리고 1회 40만~50만 달러가 들며, 사전에 고강도 항암치료도 필요하다. 미국 UCSF 저스틴 에이켐 교수팀은 이 과정을 몸속에서 바로 해내는 기술을 국제학술지 네이처에 발표했다.",
+  "연구팀은 두 가지 입자를 썼다. 하나는 T세포 표면 단백질을 알아보는 항체를 입힌 유전자가위(CRISPR) 입자이고, 다른 하나는 암을 겨냥하는 CAR 유전자를 T세포에서만 켜지는 특정 위치에 넣도록 설계됐다. 사람 면역계를 이식한 생쥐에게 한 번 주사하자 거의 모든 생쥐에서 2주 안에 백혈병이 검출되지 않았고, 다발골수종과 고형암인 육종에도 효과가 있었다. 몸속에서 만든 세포가 실험실에서 만든 세포보다 성능이 좋아 보였다.",
+  "아직 생쥐 실험 단계로 사람에서는 시험되지 않았다. 연구진은 임상 개발을 위해 회사를 세웠으며, 성공하면 비용과 대기 시간을 줄일 수 있을 것으로 기대했다."
+ ],
+ "keyPoints": [
+  "체내에서 T세포를 CAR-T로 바꾸는 이중 입자",
+  "생쥐 백혈병, 주사 한 번에 2주 내 소실",
+  "고형암에도 효과…사람 임상은 아직"
+ ],
+ "image": "https://www.sciencedaily.com/images/1920/t-cell-immunotherapy-fights-cancer.webp",
+ "id": "261008-health-29",
+ "category": "health",
+ "collectedAt": "2026-10-08T05:37:12+09:00"
+}
