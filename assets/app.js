@@ -25,6 +25,7 @@
   var $app = document.getElementById('app');
   // PC(넓은 화면)는 좌측 목록 + 우측 상세. 좁은 화면은 $list·$det 모두 $app
   var WIDE = window.matchMedia('(min-width: 1100px)');
+  var PC = window.matchMedia('(min-width: 900px)');
   var $list = $app, $det = $app;
   function layout() {
     if (WIDE.matches) {
@@ -112,20 +113,22 @@
     $chips.style.display = '';
     var CATS = liveSecs();
     var shown = CATS;
-    if (!chipsOpen) {
+    var pc = PC.matches; // PC는 탭 전체 노출, 펼침/접기 없음
+    if (!chipsOpen && !pc) {
       shown = CATS.slice(0, CHIP_LIMIT);
       var idx = -1;
       CATS.forEach(function (c, i) { if (c.id === active) idx = i; });
       if (idx >= CHIP_LIMIT) shown = CATS.slice(0, CHIP_LIMIT - 1).concat([CATS[idx]]);
     }
-    $chips.classList.toggle('open', chipsOpen);
+    $chips.classList.toggle('open', chipsOpen || pc);
     $chips.innerHTML = '<div class="chip-row">' + shown.map(function (c) {
       var href = secHref(c.id);
       return '<a class="chip' + (c.id === active ? ' on' : '') + '" href="' + href + '">' + esc(c.name) + '</a>';
     }).join('') + '</div>' +
-      '<button class="chip-toggle" type="button" aria-expanded="' + chipsOpen + '" aria-label="' +
+      (pc ? '' : '<button class="chip-toggle" type="button" aria-expanded="' + chipsOpen + '" aria-label="' +
       (chipsOpen ? '카테고리 접기' : '카테고리 전체 보기') + '">' +
-      '<svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>';
+      '<svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>');
+    if (pc) return;
     if (!chipsOpen) {
       // 한 줄에 다 안 들어가면 뒤쪽(현재 탭 제외)부터 숨긴다
       var row = $chips.querySelector('.chip-row');
@@ -496,7 +499,7 @@
     window.scrollTo(0, 0);
   }
   window.addEventListener('hashchange', route);
-  WIDE.addEventListener ? WIDE.addEventListener('change', route) : WIDE.addListener(route);
+  [WIDE, PC].forEach(function (m) { m.addEventListener ? m.addEventListener('change', route) : m.addListener(route); });
 
   // ---- 위로가기 버튼 ----
   var $top = document.getElementById('totop');
