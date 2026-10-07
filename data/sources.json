@@ -186,7 +186,7 @@
   },
   {
    "name": "The Christian Post (Entertainment)",
-   "url": "https://www.christianpost.com/",
+   "url": "https://www.christianpost.com/entertainment/",
    "keywords": [
     "Christian music",
     "worship leader",
@@ -200,7 +200,24 @@
     "CCM",
     "찬양 앨범",
     "워십",
-    "시편 150 프로젝트"
+    "힐링보이스"
+   ]
+  },
+  {
+   "name": "Gospel Music Association News",
+   "url": "https://gospelmusic.org/news",
+   "keywords": [
+    "Dove Awards",
+    "label",
+    "signing"
+   ]
+  },
+  {
+   "name": "K-LOVE Music News",
+   "url": "https://www.klove.com/music/blog/music-news",
+   "keywords": [
+    "new music",
+    "album spotlight"
    ]
   }
  ],
@@ -226,20 +243,22 @@
    ]
   },
   {
+   "name": "Christian Daily International",
+   "url": "https://www.christiandaily.com/",
+   "keywords": [
+    "persecution",
+    "religious freedom",
+    "church",
+    "mission"
+   ]
+  },
+  {
    "name": "Christianity Today",
    "url": "https://www.christianitytoday.com/",
    "keywords": [
     "church news",
     "missions",
     "religious freedom"
-   ]
-  },
-  {
-   "name": "CCM Magazine (News)",
-   "url": "https://www.ccmmagazine.com/category/news/",
-   "keywords": [
-    "Christian television",
-    "ministry"
    ]
   }
  ],
@@ -526,6 +545,15 @@
     "월별 밈",
     "최신 유행 밈"
    ]
+  },
+  {
+   "name": "Bing News RSS (밈/meme)",
+   "url": "https://www.bing.com/news/search?q=meme+explained+viral&qft=sortbydate%3d%221%22&format=rss",
+   "keywords": [
+    "meme explained viral",
+    "밈 유행",
+    "TikTok trend meme"
+   ]
   }
  ],
  "uxui": [
@@ -731,52 +759,47 @@
  ],
  "ent": [
   {
+   "name": "Soompi",
+   "url": "https://www.soompi.com/",
+   "keywords": [
+    "drama cast",
+    "stills",
+    "teaser",
+    "variety"
+   ]
+  },
+  {
    "name": "The Korea Times 엔터테인먼트",
    "url": "https://www.koreatimes.co.kr/entertainment",
    "keywords": [
-    "K-pop comeback",
-    "box office",
-    "Busan film festival",
     "K-drama",
+    "variety",
     "Netflix Korea"
    ]
   },
   {
-   "name": "Soompi",
-   "url": "https://www.soompi.com/",
+   "name": "The Korea Times Shows & Dramas",
+   "url": "https://www.koreatimes.co.kr/entertainment/shows-dramas",
    "keywords": [
-    "ratings",
-    "drama cast confirmed",
-    "film posters",
-    "music show win"
+    "K-drama",
+    "variety show"
    ]
   },
   {
    "name": "HanCinema",
    "url": "https://www.hancinema.net/",
    "keywords": [
-    "[Ratings]",
-    "Korean Box Office weekend",
-    "Dramas Starting Today",
-    "cast"
+    "cast",
+    "Dramas Starting Today"
    ]
   },
   {
-   "name": "HanCinema 박스오피스",
-   "url": "https://www.hancinema.net/korean_boxoffice.php",
+   "name": "MyDramaList News",
+   "url": "https://news.mydramalist.com/",
    "keywords": [
-    "주말 박스오피스",
-    "누적 관객"
-   ]
-  },
-  {
-   "name": "allkpop",
-   "url": "https://www.allkpop.com/",
-   "keywords": [
-    "Billboard 200",
-    "Hanteo",
-    "debut",
-    "comeback"
+    "K-drama stills",
+    "casting",
+    "premiere"
    ]
   }
  ],
@@ -899,8 +922,7 @@
    "keywords": [
     "oembed",
     "videoId 검증",
-    "author_name",
-    "width/height로 세로영상(쇼츠) 판별"
+    "width 113/height 200 = 세로(쇼츠)"
    ]
   },
   {
@@ -908,99 +930,25 @@
    "url": "https://kworb.net/youtube/trending/kr.html",
    "keywords": [
     "한국 인기 동영상",
-    "video ID 목록",
-    "일자별 트렌딩"
+    "video ID 목록"
    ]
   },
   {
    "name": "Bing News RSS (키워드 최신순 정렬)",
-   "url": "https://www.bing.com/news/search?q=%EC%87%BC%EC%B8%A0+%ED%99%94%EC%A0%9C&qft=sortbydate%3d%221%22&format=rss",
+   "url": "https://www.bing.com/news/search?q=%EC%98%81%EC%83%81+%ED%99%94%EC%A0%9C+%EC%A1%B0%ED%9A%8C%EC%88%98&qft=sortbydate%3d%221%22&format=rss",
    "keywords": [
-    "쇼츠 화제",
-    "숏폼",
-    "조회수 돌파",
-    "영상 화제 누리꾼",
-    "viral video",
-    "YouTube Shorts viral"
+    "영상 화제 조회수",
+    "쇼츠 조회수 돌파",
+    "숏폼 영상 화제"
    ]
   },
   {
-   "name": "Know Your Meme (해외 밈·바이럴 트렌드)",
-   "url": "https://knowyourmeme.com/",
+   "name": "WebSearch (youtube.com 한정)",
+   "url": "https://www.youtube.com/",
    "keywords": [
-    "trending memes",
-    "editorials",
-    "viral reaction",
-    "bird hands",
-    "malfoid"
-   ]
-  },
-  {
-   "name": "뉴시스",
-   "url": "https://www.newsis.com/view/NISX20261006_0003814844",
-   "keywords": [
-    "심폐소생술 강아지 180만뷰",
-    "경기소방",
-    "화제 영상"
-   ]
-  },
-  {
-   "name": "국제뉴스",
-   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3711828",
-   "keywords": [
-    "서리풀뮤직페스티벌",
-    "청소 퍼레이드",
-    "300만 누리꾼"
-   ]
-  },
-  {
-   "name": "한국일보",
-   "url": "https://www.hankookilbo.com/news/article/A2026100411310005451",
-   "keywords": [
-    "풍기인삼축제",
-    "간부 공무원 칼군무",
-    "조회수 90만"
-   ]
-  },
-  {
-   "name": "SBS 뉴스",
-   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008780763",
-   "keywords": [
-    "AI인 줄 알았는데",
-    "STORM 챌린지",
-    "공무원 패러디"
-   ]
-  },
-  {
-   "name": "Gizmodo",
-   "url": "https://gizmodo.com/figure-ai-trains-retired-robots-to-dive-into-molten-steel-2000820643",
-   "keywords": [
-    "Figure AI",
-    "molten steel",
-    "Schwarzenegger",
-    "Terminator",
-    "F.02 퇴역"
-   ]
-  },
-  {
-   "name": "마리끌레르 코리아 (GENER8ION STORM 해설)",
-   "url": "https://www.marieclairekorea.com/?p=532879",
-   "keywords": [
-    "GENER8ION",
-    "Yung Lean",
-    "STORM",
-    "뮤직비디오 챌린지",
-    "Romain Gavras"
-   ]
-  },
-  {
-   "name": "News24 (메시 은퇴 경기)",
-   "url": "https://news24online.com/sports/lionel-messi-farewell-match-10th-minute-play-stopped-argentina-vs-benin-video/939576/",
-   "keywords": [
-    "Messi farewell",
-    "Argentina vs Benin",
-    "10th minute tribute",
-    "Monumental"
+    "#shorts 아시안게임",
+    "크게 울어라 SHORT FILM",
+    "일본판 우영우 shorts"
    ]
   }
  ],
@@ -1695,22 +1643,12 @@
  ],
  "kpop": [
   {
-   "name": "The Korea Times K-pop",
-   "url": "https://www.koreatimes.co.kr/entertainment/k-pop",
-   "keywords": [
-    "K-pop comeback",
-    "Billboard",
-    "world tour",
-    "album"
-   ]
-  },
-  {
    "name": "Soompi",
    "url": "https://www.soompi.com/feed",
    "keywords": [
     "comeback",
     "music show win",
-    "Billboard chart",
+    "Circle chart",
     "concert"
    ]
   },
@@ -1720,18 +1658,27 @@
    "keywords": [
     "컴백",
     "신곡",
-    "월드투어",
-    "스트리밍 기록"
+    "정규 앨범",
+    "콘서트"
+   ]
+  },
+  {
+   "name": "The Korea Times K-pop",
+   "url": "https://www.koreatimes.co.kr/entertainment/k-pop",
+   "keywords": [
+    "K-pop comeback",
+    "Billboard",
+    "world tour"
    ]
   },
   {
    "name": "allkpop",
    "url": "https://www.allkpop.com",
    "keywords": [
-    "Billboard 200",
-    "chart",
     "comeback",
-    "tour"
+    "tour",
+    "Spotify",
+    "Music Bank"
    ]
   }
  ],
