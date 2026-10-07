@@ -23,6 +23,21 @@
 
   var state = { articles: [], daily: null, updatedAt: null, byId: {} };
   var $app = document.getElementById('app');
+  // PC(넓은 화면)는 좌측 목록 + 우측 상세. 좁은 화면은 $list·$det 모두 $app
+  var WIDE = window.matchMedia('(min-width: 1100px)');
+  var $list = $app, $det = $app;
+  function layout() {
+    if (WIDE.matches) {
+      if (!document.getElementById('lp')) {
+        $app.innerHTML = '<div class="split"><section class="pane lp" id="lp"></section><section class="pane rp" id="rp"></section></div>';
+        state.leftHref = null;
+      }
+      $list = document.getElementById('lp'); $det = document.getElementById('rp');
+    } else {
+      if (document.getElementById('lp')) $app.innerHTML = '';
+      $list = $det = $app;
+    }
+  }
   var $chips = document.getElementById('chips');
 
   // ---- storage (localStorage, 실패해도 동작) ----
@@ -120,6 +135,7 @@
     $chips.querySelector('.chip-toggle').addEventListener('click', function () {
       chipsOpen = !chipsOpen;
       renderChips(active);
+      fitPanes();
     });
   }
 
@@ -129,7 +145,7 @@
       (a.image ? '<img class="thumb" src="' + esc(a.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.remove(\'has-img\');this.remove()">' : '') +
       '<div class="txt"><div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
       '<span>' + esc(a.source) + '</span>' + pubHtml(a) + '</div>' +
-      (fact(a, '입찰 마감') ? '<div class="due">마감 ' + esc(fact(a, '입찰 마감')) + (fact(a, '사업예산') ? ' · ' + esc(fact(a, '사업예산')) : '') + '</div>' : '') +
+      (fact(a, '입찰 마감') ? '<div class="due">마감 ' + esc(fact(a, '입찰 마감')) + (fact(a, '사업예산') ? ' · 예산 ' + esc(fact(a, '사업예산').split('/')[0].trim()) : '') + '</div>' : '') +
       '<h3>' + esc(a.title) + '</h3>' +
       '<p>' + esc((a.summary || [])[0]) + '</p>' +
       ((v || bookmarks[a.id]) ? '<div class="mini">' +
@@ -215,7 +231,7 @@
       S.cats.filter(function (c) { return hasCat(c[0]) || c[0] === cat; }).map(function (c) {
         return '<a class="sub' + (c[0] === cat ? ' on' : '') + '" href="#/c/' + c[0] + '">' + esc(c[1]) + '</a>';
       }).join('') + '</div>' : '';
-    $app.innerHTML = (sec === 'all' ? todayHtml() : '') +
+    $list.innerHTML = (sec === 'all' ? todayHtml() : '') +
       '<div class="sec-title">' + (sec === 'all' ? '최신 기사' : esc(S.name)) +
       '<small>' + arr.length + '건</small></div>' + subs + listHtml(arr);
   }
@@ -225,7 +241,7 @@
     var arr = Object.keys(bookmarks).map(function (k) { return bookmarks[k]; })
       .sort(function (a, b) { return (b._savedAt || 0) - (a._savedAt || 0); });
     setCtx(arr, '#/bookmarks');
-    $app.innerHTML = '<div class="sec-title">북마크<small>' + arr.length + '건</small></div>' +
+    $list.innerHTML = '<div class="sec-title">북마크<small>' + arr.length + '건</small></div>' +
       (arr.length ? '<div class="list">' + arr.map(itemHtml).join('') + '</div>'
                   : '<div class="empty">기사 상세에서 🔖 를 누르면 여기에 저장돼요.</div>');
   }
@@ -298,7 +314,7 @@
         }).join('');
       }
     }
-    $app.innerHTML = '<div class="search">' + html + '</div>';
+    $list.innerHTML = '<div class="search">' + html + '</div>';
     var $q = document.getElementById('sq');
     document.getElementById('sform').addEventListener('submit', function (e) {
       e.preventDefault();
@@ -309,18 +325,20 @@
     if (!q) $q.focus();
     var clr = document.getElementById('sclear');
     if (clr) clr.addEventListener('click', function () { searches = []; save('searches', searches); searchView(q); });
-    $app.querySelectorAll('[data-del]').forEach(function (b) {
+    $list.querySelectorAll('[data-del]').forEach(function (b) {
       b.addEventListener('click', function () {
         var x = b.getAttribute('data-del');
         searches = searches.filter(function (y) { return y !== x; }); save('searches', searches);
         searchView(q === x ? '' : q);
       });
     });
-    $app.querySelectorAll('[data-jump]').forEach(function (b) {
+    $list.querySelectorAll('[data-jump]').forEach(function (b) {
       b.addEventListener('click', function (e) {
         e.preventDefault();
         var el = document.getElementById('g-' + b.getAttribute('data-jump'));
-        if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 70, behavior: 'smooth' });
+        if (!el) return;
+        if (WIDE.matches) $list.scrollTo({ top: el.offsetTop - 8, behavior: 'smooth' });
+        else window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 70, behavior: 'smooth' });
       });
     });
   }
@@ -334,25 +352,25 @@
 
   function detail(id) {
     var a = state.byId[id] || bookmarks[id];
-    $chips.style.display = 'none';
+    if (!WIDE.matches) $chips.style.display = 'none';
     if (!a) {
       // 목록 보관 기간이 지난 기사는 개별 파일에서 불러온다 (공유 링크용)
       if (!detail._tried) {
         detail._tried = id;
-        $app.innerHTML = '<div class="empty">불러오는 중…</div>';
+        $det.innerHTML = '<div class="empty">불러오는 중…</div>';
         fetchJson('data/items/' + encodeURIComponent(id) + '.json').then(function (it) {
           state.byId[it.id] = it; detail(id);
         }).catch(function () { detail(id); });
         return;
       }
       detail._tried = null;
-      $app.innerHTML = '<div class="empty">기사를 찾을 수 없어요.<br><br><a href="#/">홈으로</a></div>';
+      $det.innerHTML = '<div class="empty">기사를 찾을 수 없어요.<br><br><a href="#/">홈으로</a></div>';
       return;
     }
     detail._tried = null;
     var v = votes[id];
     var isVideo = /^[A-Za-z0-9_-]{11}$/.test(a.videoId || '');
-    $app.innerHTML = '<article class="detail">' +
+    $det.innerHTML = '<article class="detail">' +
       '<a class="back" href="' + ctxFor(a).href + '">‹ 목록</a>' +
       '<div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
       '<span>' + esc(a.source) + '</span>' + pubHtml(a) + '</div>' +
@@ -381,7 +399,7 @@
         '<button class="act" data-act="share">' + ICON.share + '공유</button>' +
       '</div>' + navHtml(a) + '</article>';
 
-    $app.querySelectorAll('[data-act]').forEach(function (b) {
+    $det.querySelectorAll('[data-act]').forEach(function (b) {
       b.addEventListener('click', function () {
         var act = b.getAttribute('data-act');
         if (act === 'up' || act === 'down') {
@@ -420,37 +438,81 @@
     });
   }
 
-  function route() {
-    chipsOpen = false;
-    var h = location.hash.replace(/^#\/?/, '');
-    var parts = h.split('/');
-    if (parts[0] === 'a' && parts[1]) { setTab(''); detail(decodeURIComponent(parts[1])); window.scrollTo(0, 0); return; }
+  // 목록 화면(href)을 그린다
+  function renderList(href) {
+    var parts = href.replace(/^#\/?/, '').split('/');
     if (parts[0] === 'search') {
       setTab(''); var sq = parts.slice(1).join('/');
       try { sq = decodeURIComponent(sq); } catch (e) {}
-      searchView(sq); window.scrollTo(0, 0); return;
+      searchView(sq); return;
     }
-    if (parts[0] === 'bookmarks') { setTab('bookmarks'); bookmarksView(); window.scrollTo(0, 0); return; }
+    if (parts[0] === 'bookmarks') { setTab('bookmarks'); bookmarksView(); return; }
     setTab('home');
     if (parts[0] === 'c' && CAT_SEC[parts[1]]) home(CAT_SEC[parts[1]], parts[1]);
     else if (parts[0] === 's' && SEC[parts[1]]) home(parts[1]);
     else home('all');
+  }
+  function fitPanes() {
+    var lp = document.getElementById('lp');
+    if (!WIDE.matches || !lp) return;
+    document.documentElement.style.setProperty('--pt', Math.round(lp.getBoundingClientRect().top + window.scrollY) + 'px');
+  }
+  window.addEventListener('resize', fitPanes);
+  function markActive(id) {
+    if (!WIDE.matches) return;
+    $list.querySelectorAll('.item').forEach(function (el) {
+      el.classList.toggle('active', el.getAttribute('href') === '#/a/' + id);
+    });
+  }
+  function route() {
+    chipsOpen = false;
+    layout();
+    var h = location.hash || '#/';
+    var parts = h.replace(/^#\/?/, '').split('/');
+    if (parts[0] === 'a' && parts[1]) {
+      var id = decodeURIComponent(parts[1]);
+      if (WIDE.matches) {
+        var a = state.byId[id] || bookmarks[id];
+        var href = a ? ctxFor(a).href : '#/';
+        if (state.leftHref !== href) { renderList(href); state.leftHref = href; $list.scrollTop = 0; }
+        detail(id); $det.scrollTop = 0; markActive(id);
+        var act = $list.querySelector('.item.active');
+        fitPanes();
+        if (act && (act.offsetTop < $list.scrollTop || act.offsetTop > $list.scrollTop + $list.clientHeight - 60)) $list.scrollTop = act.offsetTop - 80;
+        return;
+      }
+      setTab(''); detail(id); window.scrollTo(0, 0); return;
+    }
+    renderList(h);
+    if (WIDE.matches) {
+      state.leftHref = h; $list.scrollTop = 0;
+      // 우측에는 목록 첫 기사를 보여 준다
+      var first = state.ctx && state.ctx.ids[0];
+      if (first) { detail(first); $det.scrollTop = 0; markActive(first); }
+      else $det.innerHTML = '<div class="empty">왼쪽 목록에서 기사를 고르세요.</div>';
+      fitPanes();
+      return;
+    }
     window.scrollTo(0, 0);
   }
   window.addEventListener('hashchange', route);
+  WIDE.addEventListener ? WIDE.addEventListener('change', route) : WIDE.addListener(route);
 
   // ---- 위로가기 버튼 ----
   var $top = document.getElementById('totop');
-  window.addEventListener('scroll', function () {
-    $top.classList.toggle('show', window.scrollY > 400);
-  }, { passive: true });
-  $top.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+  var scroller = window;
+  document.addEventListener('scroll', function (e) {
+    scroller = e.target === document ? window : e.target;
+    var y = scroller === window ? window.scrollY : scroller.scrollTop;
+    $top.classList.toggle('show', y > 400);
+  }, { passive: true, capture: true });
+  $top.addEventListener('click', function () { scroller.scrollTo({ top: 0, behavior: 'smooth' }); });
 
   // ---- 상세화면: 가로로 스와이프하면 목록으로 ----
   var sw = null;
   document.addEventListener('touchstart', function (e) {
     sw = null;
-    if (e.touches.length !== 1 || !$app.querySelector('.detail')) return;
+    if (WIDE.matches || e.touches.length !== 1 || !$app.querySelector('.detail')) return;
     if (e.target.closest('.today, .video')) return;
     sw = { x: e.touches[0].clientX, y: e.touches[0].clientY };
   }, { passive: true });

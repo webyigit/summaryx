@@ -245,3 +245,22 @@ main { padding: 0 16px; }
   .detail { max-width: 760px; margin: 0 auto; }
   .search .list { grid-template-columns: 1fr 1fr; }
 }
+
+/* PC 1200px: 좌측 목록 + 우측 상세 */
+@media (min-width: 1100px) {
+  body { max-width: 1200px; padding-bottom: 0; }
+  .tabbar { max-width: 1200px; }
+  .totop { right: max(16px, calc(50% - 600px + 16px)); }
+  main { padding: 0 24px; }
+  .split { display: grid; grid-template-columns: 440px 1fr; gap: 28px; }
+  .pane { height: calc(100vh - var(--pt, 128px) - 57px - env(safe-area-inset-bottom)); overflow-y: auto; overscroll-behavior: contain; padding-bottom: 24px; scrollbar-width: thin; }
+  .lp { padding-right: 4px; }
+  .lp .list { display: flex; }
+  .lp .today { margin: 0; padding: 0 0 4px; }
+  .lp .tcard { width: 84%; }
+  .lp .search .list { display: flex; }
+  .item.active { outline: 2px solid var(--ink); outline-offset: -2px; }
+  .rp .detail { max-width: none; margin: 0; padding-top: 0; }
+  .rp .detail .back { display: none; }
+  .rp .detail .hero { max-height: 360px; }
+}
