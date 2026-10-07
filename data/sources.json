@@ -1725,5 +1725,59 @@
     "tour"
    ]
   }
+ ],
+ "paper": [
+  {
+   "name": "Hugging Face Daily Papers",
+   "url": "https://huggingface.co/papers",
+   "keywords": [
+    "LLM",
+    "agent",
+    "multimodal",
+    "robotics",
+    "safety",
+    "efficient"
+   ]
+  },
+  {
+   "name": "arXiv cs.AI 최신",
+   "url": "https://arxiv.org/list/cs.AI/recent",
+   "keywords": [
+    "agent",
+    "reasoning",
+    "alignment",
+    "benchmark"
+   ]
+  },
+  {
+   "name": "arXiv cs.CL 최신",
+   "url": "https://arxiv.org/list/cs.CL/recent",
+   "keywords": [
+    "language model",
+    "LLM",
+    "RLHF",
+    "chain-of-thought"
+   ]
+  },
+  {
+   "name": "arXiv cs.CV / cs.RO 최신",
+   "url": "https://arxiv.org/list/cs.CV/recent",
+   "keywords": [
+    "video generation",
+    "VLA",
+    "world model",
+    "diffusion"
+   ]
+  },
+  {
+   "name": "arXiv cs.LG 최신",
+   "url": "https://arxiv.org/list/cs.LG/recent",
+   "keywords": [
+    "training",
+    "efficiency",
+    "test-time",
+    "distillation"
+   ]
+  }
  ]
 }

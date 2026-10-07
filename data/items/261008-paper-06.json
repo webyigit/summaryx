@@ -1,0 +1,39 @@
+{
+ "title": "재귀적 자기 재작성(RSR): 성공 경험을 학습 데이터로 불려 에이전트 키우기",
+ "originalTitle": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.02826",
+ "publishedAt": "2026-10-02",
+ "summary": [
+  "어려운 과제를 성공적으로 해결한 기록(궤적)은 AI를 더 똑똑하게 학습시키는 좋은 재료입니다. 그런데 이런 성공은 특수한 보조 도구(하네스) 덕분인 경우가 많아, 실제 배포 환경에선 그대로 재현하기 어렵습니다.",
+  "텐센트 훈위안 연구진은 하나의 기본 모델(Qwen-3.8-27B)로 여러 하네스에서 성공 해법을 찾은 뒤, 이를 일반 환경용 학습 궤적으로 다시 쓰는 RSR을 제안했습니다. 기획자 역할이 해법을 절차서(런북)로 정리하고, 비평가가 정답 유출 여부를 검사하며 반복 수정을 이끌고, 실행자가 새 샌드박스에서 절차서를 따라 실행합니다.",
+  "약 3천 개 터미널 과제에서 세 하네스가 함께 759개를 풀었고(단일 최고 대비 34.3% 많음), 2,001개 성공 궤적을 11,094개로 늘려 학습했습니다. 그 결과 Terminal-Bench 2의 pass@3이 57.0%에서 74.2%로, 자체 Terminal-Bench Hard는 39.0%에서 63.0%로 올랐습니다."
+ ],
+ "keyPoints": [
+  "특수 도구로 얻은 성공을 일반 환경용 데이터로 재작성",
+  "성공 궤적 2,001개를 11,094개로 확장",
+  "Terminal-Bench 2 pass@3 57.0%→74.2%"
+ ],
+ "facts": [
+  [
+   "저자",
+   "Zongxia Li, Yucheng Shi, Zhongzhi Li et al."
+  ],
+  [
+   "소속",
+   "Tencent Hunyuan"
+  ],
+  [
+   "분야",
+   "cs.AI"
+  ],
+  [
+   "arXiv ID",
+   "2610.02826"
+  ]
+ ],
+ "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02826/gradient.png",
+ "id": "261008-paper-06",
+ "category": "paper",
+ "collectedAt": "2026-10-08T01:26:38+09:00"
+}

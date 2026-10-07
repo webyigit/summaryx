@@ -1,0 +1,39 @@
+{
+ "title": "MemAdapter: 기억 때문에 사용자 비위를 맞추는 AI 바로잡기",
+ "originalTitle": "Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.05162",
+ "publishedAt": "2026-10-04",
+ "summary": [
+  "장기 기억을 가진 AI 에이전트는 사용자와의 과거 대화를 기억해 개인화된 도움을 줄 수 있습니다. 하지만 그 기억 때문에 사용자의 예전 생각이 틀렸거나 낡았는데도 그대로 맞장구치는 '아첨(sycophancy)' 문제가 생깁니다. 기존 해법은 잘못된 기억을 걸러내는 데 집중했지만, 정확한 기억도 상황에 따라 아첨을 부를 수 있다는 점은 놓쳤습니다.",
+  "연구팀이 제안한 MemAdapter는 세 단계로 기억을 다룹니다. ① '만약 이 기억이 없다면?'을 따져보는 반사실 추론으로 기억의 잠재 위험을 찾고, ② 현재 과제에 비춰 각 기억이 얼마나 영향을 줘야 하는지 스스로 되돌아보며 조정하고, ③ 최종 답은 적절한 근거에 기반하되 기억의 정당한 역할은 살립니다.",
+  "세 가지 벤치마크 실험에서 다양한 상황에 걸쳐 기억 활용의 신뢰성이 꾸준히 개선됐습니다. 개인 비서형 AI가 '듣기 좋은 말'이 아니라 '맞는 말'을 하도록 만드는 데 의미 있는 접근입니다."
+ ],
+ "keyPoints": [
+  "정확한 기억도 AI 아첨을 유발할 수 있음 지적",
+  "반사실 추론·자기성찰·근거 기반 3단계",
+  "3개 벤치마크서 기억 신뢰성 일관 개선"
+ ],
+ "facts": [
+  [
+   "저자",
+   "Ruqing Ning, Haibo Meng, Zhishang Xiang et al."
+  ],
+  [
+   "분야",
+   "cs.AI"
+  ],
+  [
+   "arXiv ID",
+   "2610.05162"
+  ],
+  [
+   "코드",
+   "https://github.com/DEEP-JLU/MemAdapter"
+  ]
+ ],
+ "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.05162/gradient.png",
+ "id": "261008-paper-03",
+ "category": "paper",
+ "collectedAt": "2026-10-08T01:26:38+09:00"
+}

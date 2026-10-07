@@ -1,0 +1,43 @@
+{
+ "title": "하이퍼브라우즈컴프: 13개 언어·멀티모달 웹 검색 에이전트 한계 시험",
+ "originalTitle": "HyperBrowseComp: A Multilingual and Multimodal Stress Test for Web-Browsing Agents",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.03574",
+ "publishedAt": "2026-10-02",
+ "summary": [
+  "AI가 웹을 직접 검색해 답을 찾는 '브라우징 에이전트'가 빠르게 발전하고 있지만, 기존 평가는 주로 영어 텍스트 위주였습니다. 실제 웹에는 다양한 언어와 영상, 스캔 문서, 이미지, 지도 같은 정보가 섞여 있습니다.",
+  "MBZUAI 등 연구진은 13개 언어로 원어민 또는 숙련 사용자가 직접 작성하고 사람이 검증한 423개의 매우 어려운 질문 세트를 만들었습니다. 각 질문은 공개적으로 확인 가능한 짧은 정답이 있지만, 이를 찾으려면 잘 드러나지 않은 증거를 찾아내고, 여러 단계의 단서를 따라가고, 영상·문서·지도 등 이질적인 자료를 살펴봐야 합니다. 인터넷 없이 모델이 답할 수 있는 쉬운 질문은 걸러냈습니다.",
+  "여러 모델을 자체 검색 기능과 공통 검색 도구로 같은 조건에서 평가했고, 일부 질문은 사람에게도 풀게 해 성능과 노력을 비교했습니다. 언어와 자료 형태를 넘나드는 끈질긴 정보 탐색 능력을 시험하는 새 기준으로, 데이터셋은 Hugging Face에 공개됐습니다."
+ ],
+ "keyPoints": [
+  "13개 언어·423개 고난도 웹 검색 질문",
+  "영상·스캔문서·지도 등 멀티모달 증거 탐색 요구",
+  "인터넷 없이 풀리는 쉬운 문제는 사전 제거"
+ ],
+ "facts": [
+  [
+   "저자",
+   "Alham Fikri Aji, Faiz Rizki Ramadhan, Zayd M. K. Zuhri et al."
+  ],
+  [
+   "소속",
+   "MBZUAI"
+  ],
+  [
+   "분야",
+   "cs.AI"
+  ],
+  [
+   "arXiv ID",
+   "2610.03574"
+  ],
+  [
+   "코드",
+   "https://huggingface.co/datasets/afaji/HyperBrowseComp"
+  ]
+ ],
+ "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03574/gradient.png",
+ "id": "261008-paper-05",
+ "category": "paper",
+ "collectedAt": "2026-10-08T01:26:38+09:00"
+}

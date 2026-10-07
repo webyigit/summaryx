@@ -1,0 +1,35 @@
+{
+ "title": "리얼컴패니언: 실제 장기 대화로 본 AI 동반자의 '사람 이해력'",
+ "originalTitle": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.01780",
+ "publishedAt": "2026-10-01",
+ "summary": [
+  "몇 달 동안 대화한 AI 동반자라면 상대가 한 말을 기억하고, 어떤 사람인지 이해하고, 과거 대화가 언제 중요한지 알아야 합니다. 하지만 실제 사람의 대화 기록은 사적인 정보라 구하기 어려워, 기존 벤치마크는 가상의 인물과 질문을 만들어 평가해 왔습니다.",
+  "연구팀은 실제 사람 10명이 AI 동반자와 최대 120일간 주고받은 27,218개 메시지를 공개했습니다. 대화와 함께 프로필, 페르소나, 정답 라벨, 질문 세트를 제공하며, 각 라벨이 어떤 메시지에 근거했는지와 추론 과정까지 단계별로 검증해 담았습니다.",
+  "분석 결과는 의외였습니다. 과거 기억이 필요한 경우는 드물고 멀리 떨어져 있었으며, 최근 대화만 보는 방식은 전체 질문의 95.9%에서 필요한 메시지를 찾았지만 기억이 꼭 필요한 질문에선 2.2%에 그쳤습니다. 기억이 필요한 순간을 알아내는 탐지기는 실제 메시지에서 제대로 작동하지 않았고, 세 에이전트 시스템은 비용이 31배 차이 나도 페르소나 복원 성능(F1)은 같았습니다."
+ ],
+ "keyPoints": [
+  "실제 10명·27,218개 메시지·최대 120일 대화 공개",
+  "기억 필요 질문엔 최근 대화 방식 2.2%만 성공",
+  "비용 31배 차이에도 페르소나 복원 성능 동일"
+ ],
+ "facts": [
+  [
+   "저자",
+   "Arman Behnam, Sunglyoung Kim, Liangwei Yang"
+  ],
+  [
+   "분야",
+   "미확인(arXiv 페이지 확인 실패)"
+  ],
+  [
+   "arXiv ID",
+   "2610.01780"
+  ]
+ ],
+ "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01780/gradient.png",
+ "id": "261008-paper-04",
+ "category": "paper",
+ "collectedAt": "2026-10-08T01:26:38+09:00"
+}

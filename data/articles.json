@@ -1,6 +1,408 @@
 {
- "updatedAt": "2026-10-08T01:15:19+09:00",
+ "updatedAt": "2026-10-08T01:26:38+09:00",
  "articles": [
+  {
+   "title": "AI 쇼핑 에이전트는 '어디서 왔는지'로 상품을 고른다",
+   "originalTitle": "Source Preference in the Wild: How LLM Agents Favor Items by Source, and How to Reduce It",
+   "source": "arXiv",
+   "url": "https://arxiv.org/abs/2610.03195",
+   "publishedAt": "2026-10-02",
+   "summary": [
+    "AI 에이전트가 사용자 대신 살 물건, 예약할 호텔, 인용할 논문을 고르는 시대가 오고 있습니다. 이때 AI가 특정 사이트나 서비스 출처를 선호한다면, 사용자가 받는 결과와 어느 업체가 선택되는지가 왜곡될 수 있습니다.",
+    "서울대 연구진은 12개 에이전트 모델을 세 분야의 실제 검색 과정에서 시험했습니다. 같은 조건을 만족하는 상품을 같은 위치에 두고 출처만 다르게 비교한 결과, 모든 모델이 분야마다 선호·기피 출처가 있었고 모델끼리도 대체로 일치했습니다. 선호 출처의 상품은 조건을 하나 덜 만족해도 약 3분의 2 확률로 선택됐지만, 반대 경우는 거의 선택되지 않았습니다.",
+    "출처 정보를 숨기면 선호가 약해지고, 상품에 선호 출처 라벨을 붙이면 선택률이 올랐습니다. 연구팀은 학습 과정에서 출처가 '좋은 상품'의 지름길처럼 굳었거나, 정보가 부족할 때 출처에 대한 선입견이 작동한다고 분석했고, 빠진 정보를 채우거나 선입견을 반박하는 프롬프트로 편향을 줄일 수 있음을 보였습니다."
+   ],
+   "keyPoints": [
+    "12개 에이전트 모두 특정 출처 선호 확인",
+    "조건 덜 만족해도 선호 출처면 약 2/3 선택",
+    "정보 보충·반박 프롬프트로 편향 감소"
+   ],
+   "facts": [
+    [
+     "저자",
+     "Jonghyun Song, Haewon Park, Jeonghoon Shim et al."
+    ],
+    [
+     "소속",
+     "서울대학교"
+    ],
+    [
+     "분야",
+     "cs.CL"
+    ],
+    [
+     "arXiv ID",
+     "2610.03195"
+    ]
+   ],
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03195/gradient.png",
+   "id": "261008-paper-10",
+   "category": "paper",
+   "collectedAt": "2026-10-08T01:26:38+09:00"
+  },
+  {
+   "title": "자기가 만든 글로 배우면 망가진다: 테스트 시점 학습의 함정",
+   "originalTitle": "Self-Generated Feedback Destabilizes Test-Time Training: A Causal Decomposition of Long-Horizon Adaptation",
+   "source": "arXiv",
+   "url": "https://arxiv.org/abs/2610.05076",
+   "publishedAt": "2026-10-04",
+   "summary": [
+    "테스트 시점 학습(TTT)은 AI가 사용 중에도 정보를 가중치에 저장하며 계속 배우는 기술입니다. 그런데 모델이 자신이 생성한 글로 학습하면, 매 업데이트가 다음 학습 데이터를 만드는 모델 자체를 바꾸는 순환 고리가 생깁니다.",
+    "KAUST 연구진은 12만 8천 토큰 길이의 스트림에서 실험한 결과, 자기 생성 글로 업데이트를 누적하면 사람이 쓴 별도 글에 대한 예측이 나빠진다는 것을 세 가지 TTT 모델(125M·760M·3B)과 Qwen3-4B에서 확인했습니다. 같은 방식으로 실제 글을 학습하면 오히려 좋아졌기에 문제는 '쓰기' 자체가 아닙니다. 고정된 모델로 학습 데이터를 만드는 실험에서는 125M·760M 기준 피해가 98% 이상 사라졌습니다.",
+    "연구팀은 업데이트를 확정하기 전 독립적인 실제 글로 먼저 검증하는 'Settlement' 방식을 제안했고, 실제 글 적응 효과는 유지하면서 손실 격차를 거의 없앴습니다. 스스로 배우는 AI에게 '외부 증거로 확인 후 반영'이 필요함을 보여줍니다."
+   ],
+   "keyPoints": [
+    "자기 생성 글로 계속 학습하면 성능 저하",
+    "고정 모델로 데이터 생성 시 피해 98% 이상 제거",
+    "업데이트 전 실제 글 검증하는 Settlement 제안"
+   ],
+   "facts": [
+    [
+     "저자",
+     "Cheng Luo, Bing Li, Bernard Ghanem"
+    ],
+    [
+     "소속",
+     "KAUST"
+    ],
+    [
+     "분야",
+     "cs.CL"
+    ],
+    [
+     "arXiv ID",
+     "2610.05076"
+    ],
+    [
+     "코드",
+     "https://github.com/lingjivoo/ttt-ouroboros"
+    ]
+   ],
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.05076/gradient.png",
+   "id": "261008-paper-09",
+   "category": "paper",
+   "collectedAt": "2026-10-08T01:26:38+09:00"
+  },
+  {
+   "title": "생각을 짧게 줄이도록 학습하면 AI의 '속마음'은 감춰질까",
+   "originalTitle": "Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability",
+   "source": "arXiv",
+   "url": "https://arxiv.org/abs/2610.03509",
+   "publishedAt": "2026-10-02",
+   "summary": [
+    "대형 언어모델이 답하기 전 풀어 쓰는 '생각의 사슬(CoT)'은 사람이 AI의 판단 과정을 들여다보고 감독하는 창구입니다. 그런데 긴 추론은 비용이 커서 더 적은 토큰으로 풀도록 훈련하는 방법이 늘고 있고, 이 과정에서 중요한 단계가 생략돼 CoT가 실제 판단을 반영하지 못할 수 있다는 우려가 제기돼 왔습니다.",
+    "연구팀은 여러 모델을 세 가지 방식(고정 생성 예산, 문제별 길이 목표, 그룹 상대 길이 보상)으로 짧게 추론하도록 미세조정했습니다. 그리고 CoT가 비슷한 입력에서 모델의 결정을 얼마나 잘 반영하는지(충실성), 입력을 조작해 답이 바뀌었을 때 CoT가 이를 드러내는지(감시 가능성)를 측정했습니다.",
+    "결과적으로 두 성질은 다르게 반응했습니다. 충실성은 대부분 설정에서 떨어졌는데, 주로 모델의 일관성이 낮아졌기 때문이었습니다. 반면 감시 가능성은 CoT가 훨씬 짧아져도 모델이 답에 미친 영향을 계속 인정해 비교적 견고했습니다. AI 안전 감독에 효율화가 미치는 영향을 구체적으로 보여준 연구입니다."
+   ],
+   "keyPoints": [
+    "짧은 추론 학습 시 CoT 충실성은 대부분 하락",
+    "입력 조작을 드러내는 감시 가능성은 견고",
+    "세 가지 길이 압박 방식으로 비교 분석"
+   ],
+   "facts": [
+    [
+     "저자",
+     "Samuel Lewis-Lim, Xingwei Tan, Mario Sanger et al."
+    ],
+    [
+     "분야",
+     "cs.AI"
+    ],
+    [
+     "arXiv ID",
+     "2610.03509"
+    ]
+   ],
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03509/gradient.png",
+   "id": "261008-paper-08",
+   "category": "paper",
+   "collectedAt": "2026-10-08T01:26:38+09:00"
+  },
+  {
+   "title": "NAVA-WAM: 일반 영상만 보고 로봇 행동을 미리 배우는 법",
+   "originalTitle": "Native Action-Prior Learning from Videos for World Action Models",
+   "source": "arXiv",
+   "url": "https://arxiv.org/abs/2610.03391",
+   "publishedAt": "2026-10-02",
+   "summary": [
+    "로봇이 앞으로 일어날 장면을 예측하며 행동을 정하는 '월드 액션 모델'은 유망하지만, 학습에 '어떤 동작을 했는지' 라벨이 붙은 로봇 데이터가 많이 필요합니다. 반면 라벨 없는 일반 영상은 풍부하지만, 기존 방법은 이를 간접적으로만 활용해 왔습니다.",
+    "메타 연구진의 NAVA-WAM은 라벨 없는 영상으로 로봇의 행동 정책 자체를 직접 사전학습합니다. 1단계에서는 영상 속 미래 장면 변화를 예측하는 학습 신호가 행동 생성 모듈(Action-DiT)까지 전달되도록 설계해 행동에 관련된 사전 지식을 익힙니다. 2단계에서는 동작 라벨이 있는 시연 데이터로 영상과 행동을 함께 학습해 로봇 제어에 맞추며, 실제 사용 시에는 영상 예측 없이 행동만 빠르게 계산할 수 있습니다.",
+    "실험에서 학습 분포 안팎 모두에서 기존 방법을 꾸준히 앞섰고, 적은 라벨 데이터로도 잘 학습되며 실제 로봇에서도 일반화가 잘 됐습니다. 비싼 로봇 데이터의 한계를 넘어설 확장 경로를 제시한 연구입니다."
+   ],
+   "keyPoints": [
+    "라벨 없는 영상으로 로봇 행동 정책 직접 사전학습",
+    "2단계 학습, 추론 시엔 행동만 빠르게 계산",
+    "적은 라벨로도 우수, 실제 로봇서도 일반화"
+   ],
+   "facts": [
+    [
+     "저자",
+     "Zhaochong An, Fei Zhang, Menglin Jia et al."
+    ],
+    [
+     "소속",
+     "Meta"
+    ],
+    [
+     "분야",
+     "cs.CV (cs.RO 교차)"
+    ],
+    [
+     "arXiv ID",
+     "2610.03391"
+    ],
+    [
+     "코드",
+     "https://zhaochongan.github.io/projects/NAVA-WAM/"
+    ]
+   ],
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03391/gradient.png",
+   "id": "261008-paper-07",
+   "category": "paper",
+   "collectedAt": "2026-10-08T01:26:38+09:00"
+  },
+  {
+   "title": "재귀적 자기 재작성(RSR): 성공 경험을 학습 데이터로 불려 에이전트 키우기",
+   "originalTitle": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+   "source": "arXiv",
+   "url": "https://arxiv.org/abs/2610.02826",
+   "publishedAt": "2026-10-02",
+   "summary": [
+    "어려운 과제를 성공적으로 해결한 기록(궤적)은 AI를 더 똑똑하게 학습시키는 좋은 재료입니다. 그런데 이런 성공은 특수한 보조 도구(하네스) 덕분인 경우가 많아, 실제 배포 환경에선 그대로 재현하기 어렵습니다.",
+    "텐센트 훈위안 연구진은 하나의 기본 모델(Qwen-3.8-27B)로 여러 하네스에서 성공 해법을 찾은 뒤, 이를 일반 환경용 학습 궤적으로 다시 쓰는 RSR을 제안했습니다. 기획자 역할이 해법을 절차서(런북)로 정리하고, 비평가가 정답 유출 여부를 검사하며 반복 수정을 이끌고, 실행자가 새 샌드박스에서 절차서를 따라 실행합니다.",
+    "약 3천 개 터미널 과제에서 세 하네스가 함께 759개를 풀었고(단일 최고 대비 34.3% 많음), 2,001개 성공 궤적을 11,094개로 늘려 학습했습니다. 그 결과 Terminal-Bench 2의 pass@3이 57.0%에서 74.2%로, 자체 Terminal-Bench Hard는 39.0%에서 63.0%로 올랐습니다."
+   ],
+   "keyPoints": [
+    "특수 도구로 얻은 성공을 일반 환경용 데이터로 재작성",
+    "성공 궤적 2,001개를 11,094개로 확장",
+    "Terminal-Bench 2 pass@3 57.0%→74.2%"
+   ],
+   "facts": [
+    [
+     "저자",
+     "Zongxia Li, Yucheng Shi, Zhongzhi Li et al."
+    ],
+    [
+     "소속",
+     "Tencent Hunyuan"
+    ],
+    [
+     "분야",
+     "cs.AI"
+    ],
+    [
+     "arXiv ID",
+     "2610.02826"
+    ]
+   ],
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.02826/gradient.png",
+   "id": "261008-paper-06",
+   "category": "paper",
+   "collectedAt": "2026-10-08T01:26:38+09:00"
+  },
+  {
+   "title": "하이퍼브라우즈컴프: 13개 언어·멀티모달 웹 검색 에이전트 한계 시험",
+   "originalTitle": "HyperBrowseComp: A Multilingual and Multimodal Stress Test for Web-Browsing Agents",
+   "source": "arXiv",
+   "url": "https://arxiv.org/abs/2610.03574",
+   "publishedAt": "2026-10-02",
+   "summary": [
+    "AI가 웹을 직접 검색해 답을 찾는 '브라우징 에이전트'가 빠르게 발전하고 있지만, 기존 평가는 주로 영어 텍스트 위주였습니다. 실제 웹에는 다양한 언어와 영상, 스캔 문서, 이미지, 지도 같은 정보가 섞여 있습니다.",
+    "MBZUAI 등 연구진은 13개 언어로 원어민 또는 숙련 사용자가 직접 작성하고 사람이 검증한 423개의 매우 어려운 질문 세트를 만들었습니다. 각 질문은 공개적으로 확인 가능한 짧은 정답이 있지만, 이를 찾으려면 잘 드러나지 않은 증거를 찾아내고, 여러 단계의 단서를 따라가고, 영상·문서·지도 등 이질적인 자료를 살펴봐야 합니다. 인터넷 없이 모델이 답할 수 있는 쉬운 질문은 걸러냈습니다.",
+    "여러 모델을 자체 검색 기능과 공통 검색 도구로 같은 조건에서 평가했고, 일부 질문은 사람에게도 풀게 해 성능과 노력을 비교했습니다. 언어와 자료 형태를 넘나드는 끈질긴 정보 탐색 능력을 시험하는 새 기준으로, 데이터셋은 Hugging Face에 공개됐습니다."
+   ],
+   "keyPoints": [
+    "13개 언어·423개 고난도 웹 검색 질문",
+    "영상·스캔문서·지도 등 멀티모달 증거 탐색 요구",
+    "인터넷 없이 풀리는 쉬운 문제는 사전 제거"
+   ],
+   "facts": [
+    [
+     "저자",
+     "Alham Fikri Aji, Faiz Rizki Ramadhan, Zayd M. K. Zuhri et al."
+    ],
+    [
+     "소속",
+     "MBZUAI"
+    ],
+    [
+     "분야",
+     "cs.AI"
+    ],
+    [
+     "arXiv ID",
+     "2610.03574"
+    ],
+    [
+     "코드",
+     "https://huggingface.co/datasets/afaji/HyperBrowseComp"
+    ]
+   ],
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03574/gradient.png",
+   "id": "261008-paper-05",
+   "category": "paper",
+   "collectedAt": "2026-10-08T01:26:38+09:00"
+  },
+  {
+   "title": "리얼컴패니언: 실제 장기 대화로 본 AI 동반자의 '사람 이해력'",
+   "originalTitle": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+   "source": "arXiv",
+   "url": "https://arxiv.org/abs/2610.01780",
+   "publishedAt": "2026-10-01",
+   "summary": [
+    "몇 달 동안 대화한 AI 동반자라면 상대가 한 말을 기억하고, 어떤 사람인지 이해하고, 과거 대화가 언제 중요한지 알아야 합니다. 하지만 실제 사람의 대화 기록은 사적인 정보라 구하기 어려워, 기존 벤치마크는 가상의 인물과 질문을 만들어 평가해 왔습니다.",
+    "연구팀은 실제 사람 10명이 AI 동반자와 최대 120일간 주고받은 27,218개 메시지를 공개했습니다. 대화와 함께 프로필, 페르소나, 정답 라벨, 질문 세트를 제공하며, 각 라벨이 어떤 메시지에 근거했는지와 추론 과정까지 단계별로 검증해 담았습니다.",
+    "분석 결과는 의외였습니다. 과거 기억이 필요한 경우는 드물고 멀리 떨어져 있었으며, 최근 대화만 보는 방식은 전체 질문의 95.9%에서 필요한 메시지를 찾았지만 기억이 꼭 필요한 질문에선 2.2%에 그쳤습니다. 기억이 필요한 순간을 알아내는 탐지기는 실제 메시지에서 제대로 작동하지 않았고, 세 에이전트 시스템은 비용이 31배 차이 나도 페르소나 복원 성능(F1)은 같았습니다."
+   ],
+   "keyPoints": [
+    "실제 10명·27,218개 메시지·최대 120일 대화 공개",
+    "기억 필요 질문엔 최근 대화 방식 2.2%만 성공",
+    "비용 31배 차이에도 페르소나 복원 성능 동일"
+   ],
+   "facts": [
+    [
+     "저자",
+     "Arman Behnam, Sunglyoung Kim, Liangwei Yang"
+    ],
+    [
+     "분야",
+     "미확인(arXiv 페이지 확인 실패)"
+    ],
+    [
+     "arXiv ID",
+     "2610.01780"
+    ]
+   ],
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.01780/gradient.png",
+   "id": "261008-paper-04",
+   "category": "paper",
+   "collectedAt": "2026-10-08T01:26:38+09:00"
+  },
+  {
+   "title": "MemAdapter: 기억 때문에 사용자 비위를 맞추는 AI 바로잡기",
+   "originalTitle": "Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy",
+   "source": "arXiv",
+   "url": "https://arxiv.org/abs/2610.05162",
+   "publishedAt": "2026-10-04",
+   "summary": [
+    "장기 기억을 가진 AI 에이전트는 사용자와의 과거 대화를 기억해 개인화된 도움을 줄 수 있습니다. 하지만 그 기억 때문에 사용자의 예전 생각이 틀렸거나 낡았는데도 그대로 맞장구치는 '아첨(sycophancy)' 문제가 생깁니다. 기존 해법은 잘못된 기억을 걸러내는 데 집중했지만, 정확한 기억도 상황에 따라 아첨을 부를 수 있다는 점은 놓쳤습니다.",
+    "연구팀이 제안한 MemAdapter는 세 단계로 기억을 다룹니다. ① '만약 이 기억이 없다면?'을 따져보는 반사실 추론으로 기억의 잠재 위험을 찾고, ② 현재 과제에 비춰 각 기억이 얼마나 영향을 줘야 하는지 스스로 되돌아보며 조정하고, ③ 최종 답은 적절한 근거에 기반하되 기억의 정당한 역할은 살립니다.",
+    "세 가지 벤치마크 실험에서 다양한 상황에 걸쳐 기억 활용의 신뢰성이 꾸준히 개선됐습니다. 개인 비서형 AI가 '듣기 좋은 말'이 아니라 '맞는 말'을 하도록 만드는 데 의미 있는 접근입니다."
+   ],
+   "keyPoints": [
+    "정확한 기억도 AI 아첨을 유발할 수 있음 지적",
+    "반사실 추론·자기성찰·근거 기반 3단계",
+    "3개 벤치마크서 기억 신뢰성 일관 개선"
+   ],
+   "facts": [
+    [
+     "저자",
+     "Ruqing Ning, Haibo Meng, Zhishang Xiang et al."
+    ],
+    [
+     "분야",
+     "cs.AI"
+    ],
+    [
+     "arXiv ID",
+     "2610.05162"
+    ],
+    [
+     "코드",
+     "https://github.com/DEEP-JLU/MemAdapter"
+    ]
+   ],
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.05162/gradient.png",
+   "id": "261008-paper-03",
+   "category": "paper",
+   "collectedAt": "2026-10-08T01:26:38+09:00"
+  },
+  {
+   "title": "ALoDLM: 어려운 단어에 더 많이 생각하는 확산 언어모델",
+   "originalTitle": "ALoDLM: Adaptively Looped Diffusion Language Models",
+   "source": "arXiv",
+   "url": "https://arxiv.org/abs/2610.04198",
+   "publishedAt": "2026-10-03",
+   "summary": [
+    "확산 언어모델(DLM)은 단어를 하나씩 쓰는 기존 방식(자기회귀, AR)과 달리 여러 단어를 동시에 예측해 빠르지만, 비슷한 크기의 AR 모델보다 품질이 떨어진다는 한계가 있었습니다. 연구팀은 그 원인을 '쉬운 단어와 어려운 단어에 똑같은 양의 계산을 쓰는 것'에서 찾았습니다.",
+    "아마존 연구진이 제안한 ALoDLM은 단어마다 계산량을 다르게 배분합니다. 각 단계에서 확신이 생긴 단어는 확정해 문맥으로 되돌려 넣고, 아직 불확실한 단어는 내부 표현을 여러 번 반복해서 다듬습니다. 어느 단어에 얼마나 계산을 쓸지도 모델이 예측 자체와 함께 학습하도록 수학적 학습 목표를 설계했습니다.",
+    "1.7B와 8B 두 규모로 학습한 결과, 11개 벤치마크 평균 점수에서 비교한 모든 확산 모델은 물론 같은 크기의 AR 모델까지 앞섰습니다. 동시에 병렬 생성의 속도 이점은 유지해, '빠르면서도 똑똑한' 언어모델의 가능성을 보여줬습니다."
+   ],
+   "keyPoints": [
+    "단어 난이도에 따라 계산량을 다르게 배분",
+    "1.7B·8B 모두 11개 벤치 평균서 AR 모델 추월",
+    "병렬 생성 속도 이점은 그대로 유지"
+   ],
+   "facts": [
+    [
+     "저자",
+     "Liancheng Fang, Zhuowei Li, Youngeun Kim et al."
+    ],
+    [
+     "소속",
+     "Amazon"
+    ],
+    [
+     "분야",
+     "cs.AI"
+    ],
+    [
+     "arXiv ID",
+     "2610.04198"
+    ],
+    [
+     "코드",
+     "https://github.com/amazon-science/ALoDLM"
+    ]
+   ],
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.04198/gradient.png",
+   "id": "261008-paper-02",
+   "category": "paper",
+   "collectedAt": "2026-10-08T01:26:38+09:00"
+  },
+  {
+   "title": "칸딘스키 6.0 비디오: 영상과 소리를 함께 만드는 생성 모델",
+   "originalTitle": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+   "source": "arXiv",
+   "url": "https://arxiv.org/abs/2610.05608",
+   "publishedAt": "2026-10-04",
+   "summary": [
+    "지금까지 많은 영상 생성 AI는 소리 없는 화면만 만들거나, 소리를 따로 붙여야 했습니다. 말하는 사람의 입 모양과 목소리가 맞아떨어지는 영상을 한 번에 만드는 것은 여전히 어려운 과제입니다.",
+    "칸딘스키 연구팀은 글이나 이미지 한 장을 넣으면 5초 길이의 영상과 44kHz 오디오를 동시에 생성하는 모델 두 가지(3B 규모 Lite, 29B 규모 Pro)를 공개했습니다. 기존 영상 모델에 새로 학습한 오디오 모델을 붙이고, 둘이 서로 정보를 주고받는 '양방향 교차 어텐션'으로 시간과 의미를 맞춥니다. 오디오 쪽을 대규모 음성·소리 데이터로 먼저 학습시킨 뒤 영상과 함께 학습하고, 이후 미세조정·강화학습·증류를 거쳤습니다. 내장 초해상도 모델로 풀HD까지 키울 수 있습니다.",
+    "사람이 직접 비교 평가한 결과 Pro 모델은 전작 칸딘스키 5.0보다 확실히 우수했고, 특히 음성 품질에서 선도 모델들과 견줄 만한 수준이었습니다. 코드와 모델 가중치를 MIT 라이선스로 공개해 누구나 연구·서비스에 활용할 수 있다는 점이 큰 의미입니다."
+   ],
+   "keyPoints": [
+    "글·이미지로 5초 영상+입모양 맞춘 소리 동시 생성",
+    "3B Lite·29B Pro 두 모델, 풀HD 업스케일",
+    "코드·가중치 MIT 라이선스로 전면 공개"
+   ],
+   "facts": [
+    [
+     "저자",
+     "Team Kandinsky, Julia Agafonova, Bulat Akhmatov et al."
+    ],
+    [
+     "소속",
+     "Kandinsky Lab"
+    ],
+    [
+     "분야",
+     "cs.CV"
+    ],
+    [
+     "arXiv ID",
+     "2610.05608"
+    ],
+    [
+     "코드",
+     "https://github.com/kandinskylab/kandinsky-6"
+    ]
+   ],
+   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.05608/gradient.png",
+   "id": "261008-paper-01",
+   "category": "paper",
+   "collectedAt": "2026-10-08T01:26:38+09:00"
+  },
   {
    "title": "선반이 비어 있는데 왜 기내 가방을 게이트에서 부치라고 할까",
    "originalTitle": "Why Do Airlines Make You Gate-Check Your Bag When the Overhead Bins Are Empty?",

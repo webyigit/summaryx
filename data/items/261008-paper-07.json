@@ -1,0 +1,43 @@
+{
+ "title": "NAVA-WAM: 일반 영상만 보고 로봇 행동을 미리 배우는 법",
+ "originalTitle": "Native Action-Prior Learning from Videos for World Action Models",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.03391",
+ "publishedAt": "2026-10-02",
+ "summary": [
+  "로봇이 앞으로 일어날 장면을 예측하며 행동을 정하는 '월드 액션 모델'은 유망하지만, 학습에 '어떤 동작을 했는지' 라벨이 붙은 로봇 데이터가 많이 필요합니다. 반면 라벨 없는 일반 영상은 풍부하지만, 기존 방법은 이를 간접적으로만 활용해 왔습니다.",
+  "메타 연구진의 NAVA-WAM은 라벨 없는 영상으로 로봇의 행동 정책 자체를 직접 사전학습합니다. 1단계에서는 영상 속 미래 장면 변화를 예측하는 학습 신호가 행동 생성 모듈(Action-DiT)까지 전달되도록 설계해 행동에 관련된 사전 지식을 익힙니다. 2단계에서는 동작 라벨이 있는 시연 데이터로 영상과 행동을 함께 학습해 로봇 제어에 맞추며, 실제 사용 시에는 영상 예측 없이 행동만 빠르게 계산할 수 있습니다.",
+  "실험에서 학습 분포 안팎 모두에서 기존 방법을 꾸준히 앞섰고, 적은 라벨 데이터로도 잘 학습되며 실제 로봇에서도 일반화가 잘 됐습니다. 비싼 로봇 데이터의 한계를 넘어설 확장 경로를 제시한 연구입니다."
+ ],
+ "keyPoints": [
+  "라벨 없는 영상으로 로봇 행동 정책 직접 사전학습",
+  "2단계 학습, 추론 시엔 행동만 빠르게 계산",
+  "적은 라벨로도 우수, 실제 로봇서도 일반화"
+ ],
+ "facts": [
+  [
+   "저자",
+   "Zhaochong An, Fei Zhang, Menglin Jia et al."
+  ],
+  [
+   "소속",
+   "Meta"
+  ],
+  [
+   "분야",
+   "cs.CV (cs.RO 교차)"
+  ],
+  [
+   "arXiv ID",
+   "2610.03391"
+  ],
+  [
+   "코드",
+   "https://zhaochongan.github.io/projects/NAVA-WAM/"
+  ]
+ ],
+ "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03391/gradient.png",
+ "id": "261008-paper-07",
+ "category": "paper",
+ "collectedAt": "2026-10-08T01:26:38+09:00"
+}

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>자기가 만든 글로 배우면 망가진다: 테스트 시점 학습의 함정 | summaryx</title>
+<meta name="description" content="테스트 시점 학습(TTT)은 AI가 사용 중에도 정보를 가중치에 저장하며 계속 배우는 기술입니다. 그런데 모델이 자신이 생성한 글로 학습하면, 매 업데이트가 다음 학습 데이터를 만드는 모델 자체를 바꾸는 순환 고리가 생깁니다. KAUST 연구진은 12만 8천 토큰 길이">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="자기가 만든 글로 배우면 망가진다: 테스트 시점 학습의 함정">
+<meta property="og:description" content="테스트 시점 학습(TTT)은 AI가 사용 중에도 정보를 가중치에 저장하며 계속 배우는 기술입니다. 그런데 모델이 자신이 생성한 글로 학습하면, 매 업데이트가 다음 학습 데이터를 만드는 모델 자체를 바꾸는 순환 고리가 생깁니다. KAUST 연구진은 12만 8천 토큰 길이">
+<meta property="og:image" content="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.05076/gradient.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="../../#/a/261008-paper-09">
+<script>location.replace('../../#/a/261008-paper-09');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261008-paper-09">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">자기가 만든 글로 배우면 망가진다: 테스트 시점 학습의 함정</h1>
+<p>테스트 시점 학습(TTT)은 AI가 사용 중에도 정보를 가중치에 저장하며 계속 배우는 기술입니다. 그런데 모델이 자신이 생성한 글로 학습하면, 매 업데이트가 다음 학습 데이터를 만드는 모델 자체를 바꾸는 순환 고리가 생깁니다.</p><p>KAUST 연구진은 12만 8천 토큰 길이의 스트림에서 실험한 결과, 자기 생성 글로 업데이트를 누적하면 사람이 쓴 별도 글에 대한 예측이 나빠진다는 것을 세 가지 TTT 모델(125M·760M·3B)과 Qwen3-4B에서 확인했습니다. 같은 방식으로 실제 글을 학습하면 오히려 좋아졌기에 문제는 &#x27;쓰기&#x27; 자체가 아닙니다. 고정된 모델로 학습 데이터를 만드는 실험에서는 125M·760M 기준 피해가 98% 이상 사라졌습니다.</p><p>연구팀은 업데이트를 확정하기 전 독립적인 실제 글로 먼저 검증하는 &#x27;Settlement&#x27; 방식을 제안했고, 실제 글 적응 효과는 유지하면서 손실 격차를 거의 없앴습니다. 스스로 배우는 AI에게 &#x27;외부 증거로 확인 후 반영&#x27;이 필요함을 보여줍니다.</p>
+<p><a href="https://arxiv.org/abs/2610.05076">원문 보기</a></p>
+</body></html>

@@ -1,0 +1,35 @@
+{
+ "title": "생각을 짧게 줄이도록 학습하면 AI의 '속마음'은 감춰질까",
+ "originalTitle": "Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.03509",
+ "publishedAt": "2026-10-02",
+ "summary": [
+  "대형 언어모델이 답하기 전 풀어 쓰는 '생각의 사슬(CoT)'은 사람이 AI의 판단 과정을 들여다보고 감독하는 창구입니다. 그런데 긴 추론은 비용이 커서 더 적은 토큰으로 풀도록 훈련하는 방법이 늘고 있고, 이 과정에서 중요한 단계가 생략돼 CoT가 실제 판단을 반영하지 못할 수 있다는 우려가 제기돼 왔습니다.",
+  "연구팀은 여러 모델을 세 가지 방식(고정 생성 예산, 문제별 길이 목표, 그룹 상대 길이 보상)으로 짧게 추론하도록 미세조정했습니다. 그리고 CoT가 비슷한 입력에서 모델의 결정을 얼마나 잘 반영하는지(충실성), 입력을 조작해 답이 바뀌었을 때 CoT가 이를 드러내는지(감시 가능성)를 측정했습니다.",
+  "결과적으로 두 성질은 다르게 반응했습니다. 충실성은 대부분 설정에서 떨어졌는데, 주로 모델의 일관성이 낮아졌기 때문이었습니다. 반면 감시 가능성은 CoT가 훨씬 짧아져도 모델이 답에 미친 영향을 계속 인정해 비교적 견고했습니다. AI 안전 감독에 효율화가 미치는 영향을 구체적으로 보여준 연구입니다."
+ ],
+ "keyPoints": [
+  "짧은 추론 학습 시 CoT 충실성은 대부분 하락",
+  "입력 조작을 드러내는 감시 가능성은 견고",
+  "세 가지 길이 압박 방식으로 비교 분석"
+ ],
+ "facts": [
+  [
+   "저자",
+   "Samuel Lewis-Lim, Xingwei Tan, Mario Sanger et al."
+  ],
+  [
+   "분야",
+   "cs.AI"
+  ],
+  [
+   "arXiv ID",
+   "2610.03509"
+  ]
+ ],
+ "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03509/gradient.png",
+ "id": "261008-paper-08",
+ "category": "paper",
+ "collectedAt": "2026-10-08T01:26:38+09:00"
+}

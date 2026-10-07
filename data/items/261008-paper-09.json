@@ -1,0 +1,43 @@
+{
+ "title": "자기가 만든 글로 배우면 망가진다: 테스트 시점 학습의 함정",
+ "originalTitle": "Self-Generated Feedback Destabilizes Test-Time Training: A Causal Decomposition of Long-Horizon Adaptation",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.05076",
+ "publishedAt": "2026-10-04",
+ "summary": [
+  "테스트 시점 학습(TTT)은 AI가 사용 중에도 정보를 가중치에 저장하며 계속 배우는 기술입니다. 그런데 모델이 자신이 생성한 글로 학습하면, 매 업데이트가 다음 학습 데이터를 만드는 모델 자체를 바꾸는 순환 고리가 생깁니다.",
+  "KAUST 연구진은 12만 8천 토큰 길이의 스트림에서 실험한 결과, 자기 생성 글로 업데이트를 누적하면 사람이 쓴 별도 글에 대한 예측이 나빠진다는 것을 세 가지 TTT 모델(125M·760M·3B)과 Qwen3-4B에서 확인했습니다. 같은 방식으로 실제 글을 학습하면 오히려 좋아졌기에 문제는 '쓰기' 자체가 아닙니다. 고정된 모델로 학습 데이터를 만드는 실험에서는 125M·760M 기준 피해가 98% 이상 사라졌습니다.",
+  "연구팀은 업데이트를 확정하기 전 독립적인 실제 글로 먼저 검증하는 'Settlement' 방식을 제안했고, 실제 글 적응 효과는 유지하면서 손실 격차를 거의 없앴습니다. 스스로 배우는 AI에게 '외부 증거로 확인 후 반영'이 필요함을 보여줍니다."
+ ],
+ "keyPoints": [
+  "자기 생성 글로 계속 학습하면 성능 저하",
+  "고정 모델로 데이터 생성 시 피해 98% 이상 제거",
+  "업데이트 전 실제 글 검증하는 Settlement 제안"
+ ],
+ "facts": [
+  [
+   "저자",
+   "Cheng Luo, Bing Li, Bernard Ghanem"
+  ],
+  [
+   "소속",
+   "KAUST"
+  ],
+  [
+   "분야",
+   "cs.CL"
+  ],
+  [
+   "arXiv ID",
+   "2610.05076"
+  ],
+  [
+   "코드",
+   "https://github.com/lingjivoo/ttt-ouroboros"
+  ]
+ ],
+ "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.05076/gradient.png",
+ "id": "261008-paper-09",
+ "category": "paper",
+ "collectedAt": "2026-10-08T01:26:38+09:00"
+}

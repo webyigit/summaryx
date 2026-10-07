@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NAVA-WAM: 일반 영상만 보고 로봇 행동을 미리 배우는 법 | summaryx</title>
+<meta name="description" content="로봇이 앞으로 일어날 장면을 예측하며 행동을 정하는 &#x27;월드 액션 모델&#x27;은 유망하지만, 학습에 &#x27;어떤 동작을 했는지&#x27; 라벨이 붙은 로봇 데이터가 많이 필요합니다. 반면 라벨 없는 일반 영상은 풍부하지만, 기존 방법은 이를 간접적으로만 활용해 왔습니다. 메타 연구진의 NA">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="NAVA-WAM: 일반 영상만 보고 로봇 행동을 미리 배우는 법">
+<meta property="og:description" content="로봇이 앞으로 일어날 장면을 예측하며 행동을 정하는 &#x27;월드 액션 모델&#x27;은 유망하지만, 학습에 &#x27;어떤 동작을 했는지&#x27; 라벨이 붙은 로봇 데이터가 많이 필요합니다. 반면 라벨 없는 일반 영상은 풍부하지만, 기존 방법은 이를 간접적으로만 활용해 왔습니다. 메타 연구진의 NA">
+<meta property="og:image" content="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.03391/gradient.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="../../#/a/261008-paper-07">
+<script>location.replace('../../#/a/261008-paper-07');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261008-paper-07">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">NAVA-WAM: 일반 영상만 보고 로봇 행동을 미리 배우는 법</h1>
+<p>로봇이 앞으로 일어날 장면을 예측하며 행동을 정하는 &#x27;월드 액션 모델&#x27;은 유망하지만, 학습에 &#x27;어떤 동작을 했는지&#x27; 라벨이 붙은 로봇 데이터가 많이 필요합니다. 반면 라벨 없는 일반 영상은 풍부하지만, 기존 방법은 이를 간접적으로만 활용해 왔습니다.</p><p>메타 연구진의 NAVA-WAM은 라벨 없는 영상으로 로봇의 행동 정책 자체를 직접 사전학습합니다. 1단계에서는 영상 속 미래 장면 변화를 예측하는 학습 신호가 행동 생성 모듈(Action-DiT)까지 전달되도록 설계해 행동에 관련된 사전 지식을 익힙니다. 2단계에서는 동작 라벨이 있는 시연 데이터로 영상과 행동을 함께 학습해 로봇 제어에 맞추며, 실제 사용 시에는 영상 예측 없이 행동만 빠르게 계산할 수 있습니다.</p><p>실험에서 학습 분포 안팎 모두에서 기존 방법을 꾸준히 앞섰고, 적은 라벨 데이터로도 잘 학습되며 실제 로봇에서도 일반화가 잘 됐습니다. 비싼 로봇 데이터의 한계를 넘어설 확장 경로를 제시한 연구입니다.</p>
+<p><a href="https://arxiv.org/abs/2610.03391">원문 보기</a></p>
+</body></html>

@@ -14,7 +14,6 @@
     { id: 'bid', name: '나라장터', cats: [['g2b', '나라장터']] },
     { id: 'faith', name: '종교', cats: [['christian', '기독교'], ['ccm', 'CCM']] }
   ];
-  var CATS = SECTIONS;
   var CAT_NAME = {}, CAT_SEC = {}, SEC = {};
   SECTIONS.forEach(function (sec) {
     SEC[sec.id] = sec;
@@ -89,8 +88,14 @@
   // 탭(섹션): 접힘 상태에선 5개만, 화살표로 전체 펼침/접기
   var CHIP_LIMIT = 5;
   var chipsOpen = false;
+  // 기사가 하나도 없는 섹션·세부 분류는 숨긴다(새 분류 첫 수집 전 등)
+  function hasCat(c) { return state.articles.some(function (a) { return a.category === c; }); }
+  function liveSecs() {
+    return SECTIONS.filter(function (S) { return S.id === 'all' || S.cats.some(function (c) { return hasCat(c[0]); }); });
+  }
   function renderChips(active) {
     $chips.style.display = '';
+    var CATS = liveSecs();
     var shown = CATS;
     if (!chipsOpen) {
       shown = CATS.slice(0, CHIP_LIMIT);
@@ -207,7 +212,7 @@
     var href = cat ? '#/c/' + cat : secHref(sec);
     setCtx(arr, href);
     var subs = S.cats.length > 1 ? '<div class="subs"><a class="sub' + (cat ? '' : ' on') + '" href="' + secHref(sec) + '">전체</a>' +
-      S.cats.map(function (c) {
+      S.cats.filter(function (c) { return hasCat(c[0]) || c[0] === cat; }).map(function (c) {
         return '<a class="sub' + (c[0] === cat ? ' on' : '') + '" href="#/c/' + c[0] + '">' + esc(c[1]) + '</a>';
       }).join('') + '</div>' : '';
     $app.innerHTML = (sec === 'all' ? todayHtml() : '') +

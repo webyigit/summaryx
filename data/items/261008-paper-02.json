@@ -1,0 +1,43 @@
+{
+ "title": "ALoDLM: 어려운 단어에 더 많이 생각하는 확산 언어모델",
+ "originalTitle": "ALoDLM: Adaptively Looped Diffusion Language Models",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.04198",
+ "publishedAt": "2026-10-03",
+ "summary": [
+  "확산 언어모델(DLM)은 단어를 하나씩 쓰는 기존 방식(자기회귀, AR)과 달리 여러 단어를 동시에 예측해 빠르지만, 비슷한 크기의 AR 모델보다 품질이 떨어진다는 한계가 있었습니다. 연구팀은 그 원인을 '쉬운 단어와 어려운 단어에 똑같은 양의 계산을 쓰는 것'에서 찾았습니다.",
+  "아마존 연구진이 제안한 ALoDLM은 단어마다 계산량을 다르게 배분합니다. 각 단계에서 확신이 생긴 단어는 확정해 문맥으로 되돌려 넣고, 아직 불확실한 단어는 내부 표현을 여러 번 반복해서 다듬습니다. 어느 단어에 얼마나 계산을 쓸지도 모델이 예측 자체와 함께 학습하도록 수학적 학습 목표를 설계했습니다.",
+  "1.7B와 8B 두 규모로 학습한 결과, 11개 벤치마크 평균 점수에서 비교한 모든 확산 모델은 물론 같은 크기의 AR 모델까지 앞섰습니다. 동시에 병렬 생성의 속도 이점은 유지해, '빠르면서도 똑똑한' 언어모델의 가능성을 보여줬습니다."
+ ],
+ "keyPoints": [
+  "단어 난이도에 따라 계산량을 다르게 배분",
+  "1.7B·8B 모두 11개 벤치 평균서 AR 모델 추월",
+  "병렬 생성 속도 이점은 그대로 유지"
+ ],
+ "facts": [
+  [
+   "저자",
+   "Liancheng Fang, Zhuowei Li, Youngeun Kim et al."
+  ],
+  [
+   "소속",
+   "Amazon"
+  ],
+  [
+   "분야",
+   "cs.AI"
+  ],
+  [
+   "arXiv ID",
+   "2610.04198"
+  ],
+  [
+   "코드",
+   "https://github.com/amazon-science/ALoDLM"
+  ]
+ ],
+ "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.04198/gradient.png",
+ "id": "261008-paper-02",
+ "category": "paper",
+ "collectedAt": "2026-10-08T01:26:38+09:00"
+}
