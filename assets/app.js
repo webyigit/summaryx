@@ -50,6 +50,10 @@
     var p = d.split('-');
     return p.length === 3 ? (+p[1]) + '월 ' + (+p[2]) + '일' : d;
   }
+  function pubHtml(a) {
+    var d = a.publishedAt && a.publishedAt.slice(0, 10).split('-');
+    return '<span class="pub">' + (d && d.length === 3 ? d.join('.') + ' 게시' : '게시일 미확인') + '</span>';
+  }
   function toast(msg) {
     var t = document.getElementById('toast');
     t.textContent = msg; t.classList.add('show');
@@ -119,7 +123,7 @@
     return '<a class="item' + (a.image ? ' has-img' : '') + '" href="#/a/' + esc(a.id) + '">' +
       (a.image ? '<img class="thumb" src="' + esc(a.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.remove(\'has-img\');this.remove()">' : '') +
       '<div class="txt"><div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
-      '<span>' + esc(a.source) + '</span>' + (a.publishedAt ? '<span>· ' + fmtDate(a.publishedAt) + '</span>' : '') + '</div>' +
+      '<span>' + esc(a.source) + '</span>' + pubHtml(a) + '</div>' +
       '<h3>' + esc(a.title) + '</h3>' +
       '<p>' + esc((a.summary || [])[0]) + '</p>' +
       ((v || bookmarks[a.id]) ? '<div class="mini">' +
@@ -237,7 +241,7 @@
     $app.innerHTML = '<article class="detail">' +
       '<a class="back" href="' + ctxFor(a).href + '">‹ 목록</a>' +
       '<div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
-      '<span>' + esc(a.source) + '</span>' + (a.publishedAt ? '<span>· ' + fmtDate(a.publishedAt) + '</span>' : '') + '</div>' +
+      '<span>' + esc(a.source) + '</span>' + pubHtml(a) + '</div>' +
       '<h1>' + esc(a.title) + '</h1>' +
       (isVideo ? '<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/' + esc(a.videoId) +
         '?playsinline=1&rel=0" title="' + esc(a.title) + '" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>'
