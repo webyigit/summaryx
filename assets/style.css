@@ -286,3 +286,12 @@ main { padding: 0 16px; }
   .pane::-webkit-scrollbar-thumb, html::-webkit-scrollbar-thumb { background: #4a4a50; border-radius: 10px; border: 2px solid #1a1a1c; }
   .pane::-webkit-scrollbar-thumb:hover, html::-webkit-scrollbar-thumb:hover { background: #6a6a72; }
 }
+
+/* 즐겨찾기 */
+.lform { display: flex; gap: 8px; margin: 4px 0 14px; }
+.lform input { flex: 1; min-width: 0; padding: 11px 12px; border: 1px solid var(--line, #ddd); border-radius: 10px; font-size: 15px; background: var(--card, #fff); color: var(--ink); }
+.lform button { padding: 0 16px; border: 0; border-radius: 10px; background: var(--ink); color: var(--bg, #fff); font-weight: 700; font-size: 14px; }
+.item.link h3 a { color: inherit; }
+.lact { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+.lact button, .lact a { font-size: 12px; padding: 5px 10px; border-radius: 999px; background: var(--chip); color: var(--ink); border: 0; font-weight: 600; }
+.lact button[data-a="del"] { color: var(--sub); }

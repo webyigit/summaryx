@@ -77,11 +77,10 @@
     var end = Date.UTC(+m[1], m[2] - 1, +m[3], m[4] ? +m[4] - 9 : 14, m[4] ? +m[5] : 59, m[4] ? 0 : 59);
     return end < Date.now();
   }
-  // 나라장터: 구축형(구축·개편·고도화·리뉴얼·개발·개선) 공고는 사업예산 1억 원 이하면 숨긴다. 운영·유지관리만인 건은 그대로
-  function bidSmallBuild(a) {
-    if (!/구축|개편|고도화|리뉴얼|개발|개선/.test(a.title || '')) return false;
+  // 나라장터 사업예산(원). 모르면 null
+  function bidAmt(a) {
     var m = String(fact(a, '사업예산')).replace(/,/g, '').match(/\d{5,}/);
-    return !!m && +m[0] <= 1e8; // 금액을 모르면 숨기지 않는다
+    return m ? +m[0] : null;
   }
   // 나라장터 목록: 발주처·금액·기간을 크게
   function won(v) {
@@ -115,8 +114,8 @@
     return fetch(p + '?v=' + Date.now()).then(function (r) { if (!r.ok) throw new Error(p); return r.json(); });
   }
   function addArticles(list) {
-    // 나라장터: 입찰 마감이 지난 공고, 1억 원 이하 구축형 공고는 숨긴다(접속 시점 기준, 매일 자동 적용)
-    list = list.filter(function (a) { return !state.byId[a.id] && (a.category !== 'g2b' || !(bidClosed(a) || bidSmallBuild(a))); });
+    // 나라장터: 입찰 마감이 지난 공고는 숨긴다(접속 시점 기준, 매일 자동 적용)
+    list = list.filter(function (a) { return !state.byId[a.id] && (a.category !== 'g2b' || !bidClosed(a)); });
     list.forEach(function (a) { state.byId[a.id] = a; });
     state.articles = state.articles.concat(list).sort(function (a, b) {
       return (b.collectedAt || '').slice(0, 10).localeCompare((a.collectedAt || '').slice(0, 10)) ||
@@ -275,15 +274,22 @@
   }
 
   // sec: 섹션 id, cat: 세부 분류(없으면 섹션 전체)
-  function home(sec, cat) {
+  // amt: 나라장터 금액 구분('s' 1억 이하, 'l' 1억 초과)
+  function home(sec, cat, amt) {
     renderChips(sec);
     var S = SEC[sec], ids = S.cats.map(function (c) { return c[0]; });
     var arr = sec === 'all' ? state.articles : state.articles.filter(function (a) {
       return cat ? a.category === cat : ids.indexOf(a.category) >= 0;
     });
-    var href = cat ? '#/c/' + cat : secHref(sec);
+    if (sec === 'bid' && amt) arr = arr.filter(function (a) {
+      var n = bidAmt(a);
+      return n !== null && (amt === 's' ? n <= 1e8 : n > 1e8);
+    });
+    var href = cat ? '#/c/' + cat : secHref(sec) + (sec === 'bid' && amt ? '/' + amt : '');
     setCtx(arr, href);
-    var subs = S.cats.length > 1 ? '<div class="subs"><a class="sub' + (cat ? '' : ' on') + '" href="' + secHref(sec) + '">전체</a>' +
+    var subs = sec === 'bid' ? '<div class="subs">' + [['', '전체'], ['s', '1억 이하'], ['l', '1억 이상']].map(function (o) {
+        return '<a class="sub' + ((amt || '') === o[0] ? ' on' : '') + '" href="#/s/bid' + (o[0] ? '/' + o[0] : '') + '">' + o[1] + '</a>';
+      }).join('') + '</div>' : S.cats.length > 1 ? '<div class="subs"><a class="sub' + (cat ? '' : ' on') + '" href="' + secHref(sec) + '">전체</a>' +
       S.cats.filter(function (c) { return hasCat(c[0]) || c[0] === cat; }).map(function (c) {
         return '<a class="sub' + (c[0] === cat ? ' on' : '') + '" href="#/c/' + c[0] + '">' + esc(c[1]) + '</a>';
       }).join('') + '</div>' : '';
@@ -300,6 +306,60 @@
     $list.innerHTML = '<div class="sec-title">북마크<small>' + arr.length + '건</small></div>' +
       (arr.length ? '<div class="list">' + arr.map(itemHtml).join('') + '</div>'
                   : '<div class="empty">기사 상세에서 🔖 를 누르면 여기에 저장돼요.</div>');
+  }
+
+  // ---- 즐겨찾기(내가 저장한 링크) ----
+  // 이 브라우저에만 저장된다. 썸네일·제목·요약은 microlink(무료 공개 API)로 원문 페이지의 미리보기 정보를 가져온다
+  var links = load('links', []); // [{url, title, desc, image, site, addedAt}]
+  function linkMeta(L) {
+    L.loading = true;
+    return fetch('https://api.microlink.io/?url=' + encodeURIComponent(L.url)).then(function (r) { return r.json(); })
+      .then(function (j) {
+        var d = j && j.status === 'success' ? j.data : null;
+        if (d) {
+          L.title = d.title || L.title; L.desc = d.description || L.desc;
+          L.image = (d.image && d.image.url) || (d.logo && d.logo.url) || L.image; L.site = d.publisher || L.site;
+        }
+      }).catch(function () {}).then(function () {
+        L.loading = false; L.tried = true; save('links', links);
+        if (location.hash.indexOf('#/links') === 0) linksView();
+      });
+  }
+  function host(u) { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } }
+  function linksView() {
+    renderChips(null);
+    var html = '<div class="sec-title">즐겨찾기<small>' + links.length + '건</small></div>' +
+      '<form class="lform"><input type="url" name="u" placeholder="https:// 주소를 붙여 넣으세요" required>' +
+      '<button type="submit">저장</button></form>';
+    html += links.length ? '<div class="list">' + links.map(function (L, i) {
+      return '<div class="item link' + (L.image ? ' has-img' : '') + '">' +
+        (L.image ? '<img class="thumb" src="' + esc(L.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.remove(\'has-img\');this.remove()">' : '') +
+        '<div class="txt"><div class="meta"><span class="tag">' + esc(L.site || host(L.url)) + '</span>' +
+        '<span class="pub">' + esc(new Date(L.addedAt).toLocaleDateString('ko-KR')) + ' 저장</span></div>' +
+        '<h3><a href="' + esc(L.url) + '" target="_blank" rel="noopener">' + esc(L.title || host(L.url)) + '</a></h3>' +
+        '<p>' + (L.loading ? '미리보기를 불러오는 중…' : esc(L.desc || '요약 정보가 없는 페이지예요.')) + '</p>' +
+        '<div class="lact"><button data-i="' + i + '" data-a="share">공유</button>' +
+        '<a href="' + esc(L.url) + '" target="_blank" rel="noopener">열기</a>' +
+        (L.tried && !L.title ? '<button data-i="' + i + '" data-a="retry">다시 불러오기</button>' : '') +
+        '<button data-i="' + i + '" data-a="del">삭제</button></div></div></div>';
+    }).join('') + '</div>' : '<div class="empty">자주 보는 사이트나 글 주소를 저장해 두세요.<br>썸네일과 요약을 자동으로 가져와요.</div>';
+    $list.innerHTML = html;
+    $list.querySelector('.lform').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var u = this.u.value.trim();
+      if (!/^https?:\/\//i.test(u)) u = 'https://' + u;
+      if (links.some(function (L) { return L.url === u; })) { toast('이미 저장된 주소예요'); return; }
+      var L = { url: u, addedAt: Date.now() };
+      links.unshift(L); save('links', links); linksView(); linkMeta(L);
+    });
+    $list.querySelectorAll('.lact button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var L = links[+b.getAttribute('data-i')], a = b.getAttribute('data-a');
+        if (a === 'del') { links.splice(links.indexOf(L), 1); save('links', links); linksView(); toast('삭제했어요'); }
+        else if (a === 'retry') { linkMeta(L); linksView(); }
+        else shareLink(L.title || host(L.url), L.url);
+      });
+    });
   }
 
   // ---- 검색 ----
@@ -487,9 +547,9 @@
     });
   }
 
-  function share(a) {
-    var url = shareUrl(a.id);
-    var data = { title: a.title, text: '[summaryx] ' + a.title, url: url };
+  function share(a) { shareLink(a.title, shareUrl(a.id)); }
+  function shareLink(title, url) {
+    var data = { title: title, text: '[summaryx] ' + title, url: url };
     if (navigator.share) {
       navigator.share(data).catch(function () {});
     } else if (navigator.clipboard) {
@@ -514,9 +574,10 @@
       searchView(sq); return;
     }
     if (parts[0] === 'bookmarks') { setTab('bookmarks'); bookmarksView(); return; }
+    if (parts[0] === 'links') { setTab('links'); linksView(); return; }
     setTab('home');
     if (parts[0] === 'c' && CAT_SEC[parts[1]]) home(CAT_SEC[parts[1]], parts[1]);
-    else if (parts[0] === 's' && SEC[parts[1]]) home(parts[1]);
+    else if (parts[0] === 's' && SEC[parts[1]]) home(parts[1], null, parts[1] === 'bid' && /^[sl]$/.test(parts[2] || '') ? parts[2] : null);
     else home('all');
   }
   function fitPanes() {
