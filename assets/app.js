@@ -4,13 +4,13 @@
   // 뉴스 사이트식 섹션 → 세부 분류(수집은 세부 분류 단위)
   var SECTIONS = [
     { id: 'all', name: '전체', cats: [] },
-    { id: 'ai', name: 'AI', cats: [['ai', 'AI'], ['ax', 'AX']] },
-    { id: 'tech', name: 'IT·테크', cats: [['it', 'IT'], ['applesamsung', '애플·삼성'], ['car', '자동차']] },
-    { id: 'culture', name: '문화', cats: [['movie', '영화'], ['music', '음악'], ['art', '미술']] },
-    { id: 'design', name: '디자인', cats: [['design', '디자인'], ['uxui', 'UX/UI']] },
-    { id: 'life', name: '라이프', cats: [['fashion', '패션'], ['food', '푸드'], ['wine', '와인']] },
-    { id: 'teen', name: '학생', cats: [['game', '게임'], ['webtoon', '웹툰·애니'], ['sports', '스포츠'], ['science', '과학']] },
-    { id: 'ent', name: '연예·트렌드', cats: [['ent', '연예'], ['shorts', '쇼츠'], ['meme', '밈']] },
+    { id: 'ai', name: 'AI', cats: [['ai', 'AI'], ['ax', 'AX'], ['robot', '로봇']] },
+    { id: 'tech', name: 'IT·테크', cats: [['it', 'IT'], ['applesamsung', '애플·삼성'], ['car', '자동차'], ['semi', '반도체'], ['security', '보안']] },
+    { id: 'culture', name: '문화', cats: [['movie', '영화'], ['music', '음악'], ['art', '미술'], ['book', '책'], ['show', '공연·전시']] },
+    { id: 'design', name: '디자인', cats: [['design', '디자인'], ['uxui', 'UX/UI'], ['arch', '건축·인테리어']] },
+    { id: 'life', name: '라이프', cats: [['fashion', '패션'], ['food', '푸드'], ['wine', '와인'], ['travel', '여행'], ['health', '건강']] },
+    { id: 'teen', name: '학생', cats: [['game', '게임'], ['webtoon', '웹툰·애니'], ['sports', '스포츠'], ['science', '과학'], ['edu', '교육·진로']] },
+    { id: 'ent', name: '연예·트렌드', cats: [['ent', '연예'], ['kpop', 'K-POP'], ['shorts', '쇼츠'], ['meme', '밈']] },
     { id: 'faith', name: '종교', cats: [['christian', '기독교'], ['ccm', 'CCM']] }
   ];
   var CATS = SECTIONS;
