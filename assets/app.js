@@ -12,9 +12,12 @@
     { id: 'christian', name: 'CHRISTIAN' },
     { id: 'design', name: 'DESIGN' },
     { id: 'fashion', name: 'FASHION' },
+    { id: 'food', name: 'FOOD' },
     { id: 'it', name: 'IT' },
+    { id: 'music', name: 'MUSIC' },
     { id: 'uxui', name: 'UX/UI' },
-    { id: 'meme', name: '밈' }
+    { id: 'meme', name: '밈' },
+    { id: 'ent', name: '연예' }
   ];
   var CAT_NAME = {};
   CATS.forEach(function (c) { CAT_NAME[c.id] = c.name; });
