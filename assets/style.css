@@ -49,14 +49,21 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 
 .chips {
   position: sticky; top: calc(50px + env(safe-area-inset-top)); z-index: 9;
-  display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none;
+  display: flex; gap: 8px; align-items: flex-start;
   padding: 4px 16px 12px; background: var(--bg);
 }
-.chips::-webkit-scrollbar { display: none; }
+.chip-row { flex: 1; min-width: 0; display: flex; gap: 6px; overflow: hidden; }
+.chips.open .chip-row { flex-wrap: wrap; }
 .chip {
-  flex: none; padding: 7px 14px; border-radius: 999px;
+  flex: none; padding: 7px 12px; border-radius: 999px;
   background: var(--chip); font-size: 14px; font-weight: 600; white-space: nowrap;
 }
+.chip-toggle {
+  flex: none; width: 34px; height: 34px; border-radius: 999px; background: var(--chip);
+  display: flex; align-items: center; justify-content: center;
+}
+.chip-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; transition: transform .2s; }
+.chips.open .chip-toggle svg { transform: rotate(180deg); }
 .chip.on { background: var(--ink); color: var(--bg); }
 
 main { padding: 0 16px; }
@@ -147,8 +154,8 @@ main { padding: 0 16px; }
 
 /* PC: 마우스로 가로 영역 넘기기 */
 @media (hover: hover) and (pointer: fine) {
-  .chips, .today { cursor: grab; user-select: none; }
-  .chips:active, .today:active { cursor: grabbing; }
+  .today { cursor: grab; user-select: none; }
+  .today:active { cursor: grabbing; }
 }
 
 /* 상세 하단 이전글 · 목록 · 다음글 */

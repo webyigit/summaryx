@@ -78,14 +78,30 @@
   });
 
   // ---- views ----
+  // 탭: 접힘 상태에선 5개만, 화살표로 전체 펼침/접기
+  var CHIP_LIMIT = 5;
+  var chipsOpen = false;
   function renderChips(active) {
     $chips.style.display = '';
-    $chips.innerHTML = CATS.map(function (c) {
+    var shown = CATS;
+    if (!chipsOpen) {
+      shown = CATS.slice(0, CHIP_LIMIT);
+      var idx = -1;
+      CATS.forEach(function (c, i) { if (c.id === active) idx = i; });
+      if (idx >= CHIP_LIMIT) shown = CATS.slice(0, CHIP_LIMIT - 1).concat([CATS[idx]]);
+    }
+    $chips.classList.toggle('open', chipsOpen);
+    $chips.innerHTML = '<div class="chip-row">' + shown.map(function (c) {
       var href = c.id === 'all' ? '#/' : '#/c/' + c.id;
       return '<a class="chip' + (c.id === active ? ' on' : '') + '" href="' + href + '">' + esc(c.name) + '</a>';
-    }).join('');
-    var on = $chips.querySelector('.on');
-    if (on && on.scrollIntoView) on.scrollIntoView({ inline: 'center', block: 'nearest' });
+    }).join('') + '</div>' +
+      '<button class="chip-toggle" type="button" aria-expanded="' + chipsOpen + '" aria-label="' +
+      (chipsOpen ? '카테고리 접기' : '카테고리 전체 보기') + '">' +
+      '<svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>';
+    $chips.querySelector('.chip-toggle').addEventListener('click', function () {
+      chipsOpen = !chipsOpen;
+      renderChips(active);
+    });
   }
 
   function itemHtml(a) {
@@ -266,6 +282,7 @@
   }
 
   function route() {
+    chipsOpen = false;
     var h = location.hash.replace(/^#\/?/, '');
     var parts = h.split('/');
     if (parts[0] === 'a' && parts[1]) { setTab(''); detail(decodeURIComponent(parts[1])); window.scrollTo(0, 0); return; }
@@ -276,8 +293,8 @@
   }
   window.addEventListener('hashchange', route);
 
-  // ---- PC: 가로 스크롤 영역(탭·오늘 카드)을 마우스 드래그·휠로 넘기기 ----
-  var HSCROLL = '.chips, .today';
+  // ---- PC: 가로 스크롤 영역(오늘 카드)을 마우스 드래그·휠로 넘기기 ----
+  var HSCROLL = '.today';
   var drag = null;
   document.addEventListener('mousedown', function (e) {
     var el = e.button === 0 && e.target.closest(HSCROLL);
