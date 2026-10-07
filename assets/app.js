@@ -70,6 +70,23 @@
     var f = (a.facts || []).filter(function (x) { return x[0] === k; })[0];
     return f ? f[1] : '';
   }
+  // 나라장터 목록: 발주처·금액·기간을 크게
+  function won(v) {
+    var m = String(v || '').replace(/,/g, '').match(/\d{5,}/);
+    if (!m) return v ? String(v).split('/')[0].trim() : '';
+    var n = +m[0], eok = Math.floor(n / 1e8), man = Math.round((n % 1e8) / 1e4);
+    return (eok ? eok + '억' + (man ? ' ' : '') : '') + (man ? man.toLocaleString('ko-KR') + '만' : '') + '원';
+  }
+  function bidHtml(a) {
+    var org = fact(a, '발주기관').replace(/\s*\(.*\)\s*$/, '') || a.source;
+    var per = fact(a, '사업기간');
+    per = !per || per.indexOf('확인 필요') >= 0 ? '확인 필요' : per.split(/[,(]/)[0].trim();
+    var due = fact(a, '입찰 마감');
+    return '<div class="bid"><div><small>발주처</small><b>' + esc(org) + '</b></div>' +
+      '<div><small>금액</small><b>' + esc(won(fact(a, '사업예산')) || '확인 필요') + '</b></div>' +
+      '<div><small>기간</small><b' + (per === '확인 필요' ? ' class="na"' : '') + '>' + esc(per) + '</b></div></div>' +
+      (due ? '<div class="due">입찰 마감 ' + esc(due) + '</div>' : '');
+  }
   function toast(msg) {
     var t = document.getElementById('toast');
     t.textContent = msg; t.classList.add('show');
@@ -149,7 +166,7 @@
       (a.image ? '<img class="thumb" src="' + esc(a.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.remove(\'has-img\');this.remove()">' : '') +
       '<div class="txt"><div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
       '<span>' + esc(a.source) + '</span>' + pubHtml(a) + '</div>' +
-      (fact(a, '입찰 마감') ? '<div class="due">마감 ' + esc(fact(a, '입찰 마감')) + (fact(a, '사업예산') ? ' · 예산 ' + esc(fact(a, '사업예산').split('/')[0].trim()) : '') + '</div>' : '') +
+      (a.category === 'g2b' ? bidHtml(a) : '') +
       '<h3>' + esc(a.title) + '</h3>' +
       '<p>' + esc((a.summary || [])[0]) + '</p>' +
       ((v || bookmarks[a.id]) ? '<div class="mini">' +
