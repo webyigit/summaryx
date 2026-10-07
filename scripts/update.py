@@ -25,13 +25,14 @@ from datetime import datetime, timedelta, timezone
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 KEEP_DAYS = 14
-CATS = ["ai", "ax", "robot", "paper", "it", "applesamsung", "car", "semi", "security", "movie", "music", "art", "book", "show", "design", "cardesign", "productd", "brand", "package", "uxui", "arch", "fashion", "food", "travel", "health", "wine", "winepick", "wineregion", "winepair", "winestudy", "wineko", "game", "webtoon", "sports", "science", "edu", "ent", "kpop", "shorts", "meme", "g2b", "christian", "ccm"]
+CATS = ["ai", "ax", "robot", "paper", "it", "applesamsung", "car", "semi", "security", "movie", "music", "art", "book", "show", "design", "cardesign", "productd", "brand", "package", "uxui", "arch", "fashion", "food", "travel", "health", "wine", "winepick", "wineregion", "winepair", "winestudy", "winetype", "winery", "cellar", "winedeal", "wineko", "game", "webtoon", "sports", "science", "edu", "ent", "kpop", "shorts", "meme", "g2b", "christian", "ccm"]
 CAT_NAME = {"ai": "AI > AI", "ax": "AI > AX", "it": "IT·테크 > IT", "applesamsung": "IT·테크 > 애플·삼성",
             "car": "IT·테크 > 자동차", "movie": "문화 > 영화", "music": "문화 > 음악", "art": "문화 > 미술",
             "design": "디자인 > 디자인 뉴스", "cardesign": "디자인 > 자동차", "productd": "디자인 > 제품·산업",
             "brand": "디자인 > 브랜딩·그래픽", "package": "디자인 > 패키지", "uxui": "디자인 > UX/UI", "fashion": "라이프 > 패션", "food": "라이프 > 푸드",
             "wine": "와인 > 업계 뉴스", "winepick": "와인 > 추천·리뷰", "wineregion": "와인 > 산지·빈티지",
-            "winepair": "와인 > 페어링", "winestudy": "와인 > 와인 상식", "wineko": "와인 > 국내 와인", "ent": "연예·트렌드 > 연예", "shorts": "연예·트렌드 > 쇼츠", "meme": "연예·트렌드 > 밈",
+            "winepair": "와인 > 페어링", "winestudy": "와인 > 와인 상식", "winetype": "와인 > 세계 인기 와인", "winery": "와인 > 와이너리",
+            "cellar": "와인 > 셀러·보관", "winedeal": "와인 > 할인 정보", "wineko": "와인 > 국내 와인", "ent": "연예·트렌드 > 연예", "shorts": "연예·트렌드 > 쇼츠", "meme": "연예·트렌드 > 밈",
             "game": "학생 > 게임", "webtoon": "학생 > 웹툰·애니", "sports": "학생 > 스포츠", "science": "학생 > 과학",
             "robot": "AI > 로봇", "paper": "AI > 논문", "g2b": "나라장터", "semi": "IT·테크 > 반도체", "security": "IT·테크 > 보안", "book": "문화 > 책",
             "show": "문화 > 공연·전시", "arch": "디자인 > 건축·인테리어", "travel": "라이프 > 여행", "health": "라이프 > 건강",

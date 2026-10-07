@@ -9,7 +9,7 @@
     { id: 'culture', name: '문화', cats: [['movie', '영화'], ['music', '음악'], ['art', '미술'], ['book', '책'], ['show', '공연·전시']] },
     { id: 'design', name: '디자인', cats: [['design', '디자인 뉴스'], ['cardesign', '자동차'], ['productd', '제품·산업'], ['brand', '브랜딩·그래픽'], ['package', '패키지'], ['uxui', 'UX/UI'], ['arch', '건축·인테리어']] },
     { id: 'life', name: '라이프', cats: [['fashion', '패션'], ['food', '푸드'], ['travel', '여행'], ['health', '건강']] },
-    { id: 'wine', name: '와인', cats: [['wine', '업계 뉴스'], ['winepick', '추천·리뷰'], ['wineregion', '산지·빈티지'], ['winepair', '페어링'], ['winestudy', '와인 상식'], ['wineko', '국내 와인']] },
+    { id: 'wine', name: '와인', cats: [['wine', '업계 뉴스'], ['winepick', '추천·리뷰'], ['wineregion', '산지·빈티지'], ['winepair', '페어링'], ['winestudy', '와인 상식'], ['winetype', '세계 인기 와인'], ['winery', '와이너리'], ['cellar', '셀러·보관'], ['winedeal', '할인 정보'], ['wineko', '국내 와인']] },
     { id: 'teen', name: '학생', cats: [['game', '게임'], ['webtoon', '웹툰·애니'], ['sports', '스포츠'], ['science', '과학'], ['edu', '교육·진로']] },
     { id: 'ent', name: '연예·트렌드', cats: [['ent', '연예'], ['kpop', 'K-POP'], ['shorts', '쇼츠'], ['meme', '밈']] },
     { id: 'bid', name: '나라장터', cats: [['g2b', '나라장터']] },
