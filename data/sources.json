@@ -1050,5 +1050,213 @@
     "주류 트렌드"
    ]
   }
+ ],
+ "game": [
+  {
+   "name": "인벤",
+   "url": "https://m.inven.co.kr/webzine/wznews.php",
+   "keywords": [
+    "롤드컵",
+    "LCK",
+    "e스포츠",
+    "신작 출시",
+    "업데이트"
+   ]
+  },
+  {
+   "name": "게임메카",
+   "url": "https://www.gamemeca.com/news.php",
+   "keywords": [
+    "업데이트",
+    "롤드컵",
+    "발로란트",
+    "오버워치",
+    "콜라보"
+   ]
+  },
+  {
+   "name": "Nintendo Life",
+   "url": "https://www.nintendolife.com/news",
+   "keywords": [
+    "Pokemon",
+    "Switch 2",
+    "Mario",
+    "Nintendo update"
+   ]
+  },
+  {
+   "name": "Minecraft.net",
+   "url": "https://www.minecraft.net/en-us/articles",
+   "keywords": [
+    "Minecraft game drop",
+    "snapshot",
+    "Minecraft update"
+   ]
+  }
+ ],
+ "webtoon": [
+  {
+   "name": "Crunchyroll News (RSS)",
+   "url": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
+   "keywords": [
+    "anime season",
+    "anime film",
+    "Dragon Ball",
+    "Japan box office",
+    "stream on Crunchyroll"
+   ]
+  },
+  {
+   "name": "텐아시아",
+   "url": "https://www.tenasia.co.kr",
+   "keywords": [
+    "웹툰 원작 드라마",
+    "넷플릭스 웹툰",
+    "애니메이션"
+   ]
+  },
+  {
+   "name": "톱스타뉴스",
+   "url": "https://www.topstarnews.net",
+   "keywords": [
+    "극장판 애니메이션 개봉",
+    "애니 음악",
+    "웹툰"
+   ]
+  },
+  {
+   "name": "게임조선",
+   "url": "https://www.gamechosun.co.kr",
+   "keywords": [
+    "웹툰 애니메이션화",
+    "웹툰 IP 게임"
+   ]
+  },
+  {
+   "name": "이데일리",
+   "url": "https://www.edaily.co.kr",
+   "keywords": [
+    "애니메이션 박스오피스",
+    "극장판 애니"
+   ]
+  },
+  {
+   "name": "세계일보",
+   "url": "https://www.segye.com",
+   "keywords": [
+    "케이팝 데몬 헌터스",
+    "넷플릭스 애니메이션"
+   ]
+  }
+ ],
+ "sports": [
+  {
+   "name": "스포츠경향",
+   "url": "https://sports.khan.co.kr/soccer/korea-soccer",
+   "keywords": [
+    "손흥민",
+    "이강인",
+    "국가대표",
+    "K리그",
+    "KBO 포스트시즌"
+   ]
+  },
+  {
+   "name": "스포츠경향 해외야구",
+   "url": "https://sports.khan.co.kr/baseball/world-baseball",
+   "keywords": [
+    "MLB 한국 선수",
+    "이정후",
+    "김하성",
+    "오타니"
+   ]
+  },
+  {
+   "name": "스포츠경향 국내야구",
+   "url": "https://sports.khan.co.kr/baseball/korea-baseball",
+   "keywords": [
+    "KBO",
+    "가을야구",
+    "홈런왕",
+    "최다안타"
+   ]
+  },
+  {
+   "name": "OSEN",
+   "url": "https://www.osen.co.kr/",
+   "keywords": [
+    "이강인",
+    "KBO 기록",
+    "프로야구",
+    "대표팀 인터뷰"
+   ]
+  },
+  {
+   "name": "TSN (MLB)",
+   "url": "https://www.tsn.ca/mlb/",
+   "keywords": [
+    "MLB playoffs",
+    "NLDS",
+    "ALDS",
+    "Dodgers"
+   ]
+  }
+ ],
+ "science": [
+  {
+   "name": "YTN 사이언스",
+   "url": "https://science.ytn.co.kr/",
+   "keywords": [
+    "누리호",
+    "우주",
+    "동물",
+    "로봇",
+    "과학"
+   ]
+  },
+  {
+   "name": "사이언스타임즈",
+   "url": "https://www.sciencetimes.co.kr/",
+   "keywords": [
+    "우주",
+    "천문",
+    "생물",
+    "실험",
+    "발견"
+   ]
+  },
+  {
+   "name": "NASA",
+   "url": "https://www.nasa.gov/news/",
+   "keywords": [
+    "Mars",
+    "Webb",
+    "Hubble",
+    "skywatching",
+    "Earth Observatory"
+   ]
+  },
+  {
+   "name": "Science News",
+   "url": "https://www.sciencenews.org/",
+   "keywords": [
+    "fossil",
+    "animals",
+    "space",
+    "planet",
+    "dinosaur"
+   ]
+  },
+  {
+   "name": "Live Science",
+   "url": "https://www.livescience.com/news",
+   "keywords": [
+    "meteor shower",
+    "robot",
+    "animals",
+    "climate",
+    "space"
+   ]
+  }
  ]
 }
