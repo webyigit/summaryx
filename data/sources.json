@@ -2261,5 +2261,63 @@
     "디자이너 인터뷰"
    ]
   }
+ ],
+ "brand": [
+  {
+   "name": "Creative Bloq",
+   "url": "https://www.creativebloq.com/design",
+   "keywords": [
+    "new logo",
+    "rebrand",
+    "billboard",
+    "typography"
+   ]
+  },
+  {
+   "name": "Brand New (UnderConsideration)",
+   "url": "https://www.underconsideration.com/brandnew/",
+   "keywords": [
+    "New Logo and Identity",
+    "rebrand"
+   ]
+  },
+  {
+   "name": "It's Nice That",
+   "url": "https://www.itsnicethat.com/graphic-design",
+   "keywords": [
+    "identity",
+    "typeface",
+    "graphic design project"
+   ]
+  },
+  {
+   "name": "Creative Review",
+   "url": "https://www.creativereview.co.uk/",
+   "keywords": [
+    "branding",
+    "identity",
+    "typography",
+    "campaign"
+   ]
+  },
+  {
+   "name": "Dezeen",
+   "url": "https://www.dezeen.com/design/graphics/",
+   "keywords": [
+    "rebrand",
+    "logo",
+    "typeface"
+   ]
+  },
+  {
+   "name": "월간 디자인 (design.co.kr)",
+   "url": "https://design.co.kr/",
+   "keywords": [
+    "브랜딩",
+    "BI",
+    "서체",
+    "그래픽"
+   ]
+  }
  ]
 }
