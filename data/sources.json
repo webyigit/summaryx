@@ -877,5 +877,178 @@
     "Chinese film"
    ]
   }
+ ],
+ "shorts": [
+  {
+   "name": "YouTube oEmbed API (영상 존재·제목·채널 검증)",
+   "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/shorts/VIDEO_ID&format=json",
+   "keywords": [
+    "oembed",
+    "videoId 검증",
+    "author_name",
+    "width/height로 세로영상(쇼츠) 판별"
+   ]
+  },
+  {
+   "name": "kworb.net YouTube Trending (한국)",
+   "url": "https://kworb.net/youtube/trending/kr.html",
+   "keywords": [
+    "한국 인기 동영상",
+    "video ID 목록",
+    "일자별 트렌딩"
+   ]
+  },
+  {
+   "name": "Bing News RSS (키워드 최신순 정렬)",
+   "url": "https://www.bing.com/news/search?q=%EC%87%BC%EC%B8%A0+%ED%99%94%EC%A0%9C&qft=sortbydate%3d%221%22&format=rss",
+   "keywords": [
+    "쇼츠 화제",
+    "숏폼",
+    "조회수 돌파",
+    "영상 화제 누리꾼",
+    "viral video",
+    "YouTube Shorts viral"
+   ]
+  },
+  {
+   "name": "Know Your Meme (해외 밈·바이럴 트렌드)",
+   "url": "https://knowyourmeme.com/",
+   "keywords": [
+    "trending memes",
+    "editorials",
+    "viral reaction",
+    "bird hands",
+    "malfoid"
+   ]
+  },
+  {
+   "name": "뉴시스",
+   "url": "https://www.newsis.com/view/NISX20261006_0003814844",
+   "keywords": [
+    "심폐소생술 강아지 180만뷰",
+    "경기소방",
+    "화제 영상"
+   ]
+  },
+  {
+   "name": "국제뉴스",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3711828",
+   "keywords": [
+    "서리풀뮤직페스티벌",
+    "청소 퍼레이드",
+    "300만 누리꾼"
+   ]
+  },
+  {
+   "name": "한국일보",
+   "url": "https://www.hankookilbo.com/news/article/A2026100411310005451",
+   "keywords": [
+    "풍기인삼축제",
+    "간부 공무원 칼군무",
+    "조회수 90만"
+   ]
+  },
+  {
+   "name": "SBS 뉴스",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008780763",
+   "keywords": [
+    "AI인 줄 알았는데",
+    "STORM 챌린지",
+    "공무원 패러디"
+   ]
+  },
+  {
+   "name": "Gizmodo",
+   "url": "https://gizmodo.com/figure-ai-trains-retired-robots-to-dive-into-molten-steel-2000820643",
+   "keywords": [
+    "Figure AI",
+    "molten steel",
+    "Schwarzenegger",
+    "Terminator",
+    "F.02 퇴역"
+   ]
+  },
+  {
+   "name": "마리끌레르 코리아 (GENER8ION STORM 해설)",
+   "url": "https://www.marieclairekorea.com/?p=532879",
+   "keywords": [
+    "GENER8ION",
+    "Yung Lean",
+    "STORM",
+    "뮤직비디오 챌린지",
+    "Romain Gavras"
+   ]
+  },
+  {
+   "name": "News24 (메시 은퇴 경기)",
+   "url": "https://news24online.com/sports/lionel-messi-farewell-match-10th-minute-play-stopped-argentina-vs-benin-video/939576/",
+   "keywords": [
+    "Messi farewell",
+    "Argentina vs Benin",
+    "10th minute tribute",
+    "Monumental"
+   ]
+  }
+ ],
+ "wine": [
+  {
+   "name": "Decanter",
+   "url": "https://www.decanter.com/wine-news/",
+   "keywords": [
+    "Bordeaux",
+    "auction",
+    "vintage 2026",
+    "harvest",
+    "Decanter awards"
+   ]
+  },
+  {
+   "name": "The Drinks Business",
+   "url": "https://www.thedrinksbusiness.com/category/news/",
+   "keywords": [
+    "fine wine market",
+    "Liv-ex",
+    "Champagne",
+    "wine trade"
+   ]
+  },
+  {
+   "name": "Wine Spectator",
+   "url": "https://www.winespectator.com/",
+   "keywords": [
+    "Napa",
+    "winery acquisition",
+    "wine tariffs",
+    "wine news"
+   ]
+  },
+  {
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?sc_section_code=S1N1&view_type=sm",
+   "keywords": [
+    "와인 마켓 인사이트",
+    "와인 수입",
+    "와이너리",
+    "보르도"
+   ]
+  },
+  {
+   "name": "한국경제",
+   "url": "https://www.hankyung.com/",
+   "keywords": [
+    "와인 생산",
+    "와인 수입",
+    "와인 시장"
+   ]
+  },
+  {
+   "name": "청년일보",
+   "url": "https://youthdaily.co.kr/",
+   "keywords": [
+    "와인 수입량",
+    "대형마트 와인",
+    "주류 트렌드"
+   ]
+  }
  ]
 }
