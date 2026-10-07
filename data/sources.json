@@ -2103,5 +2103,111 @@
     "주류 신상"
    ]
   }
+ ],
+ "cardesign": [
+  {
+   "name": "Car Design News",
+   "url": "https://www.cardesignnews.com/cars",
+   "keywords": [
+    "first sight",
+    "design round-up",
+    "design driven",
+    "designer interview"
+   ]
+  },
+  {
+   "name": "Dezeen (cars)",
+   "url": "https://www.dezeen.com/design/cars/",
+   "keywords": [
+    "car design",
+    "electric car",
+    "concept car"
+   ]
+  },
+  {
+   "name": "Designboom (car design)",
+   "url": "https://www.designboom.com/tag/car-design/",
+   "keywords": [
+    "concept car",
+    "electric vehicle design",
+    "mobility"
+   ]
+  },
+  {
+   "name": "오토헤럴드",
+   "url": "https://www.autoherald.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "디자인",
+    "콘셉트",
+    "티저",
+    "족보 탐구"
+   ]
+  },
+  {
+   "name": "모터그래프",
+   "url": "https://www.motorgraph.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "디자인",
+    "콘셉트카",
+    "디자이너"
+   ]
+  }
+ ],
+ "package": [
+  {
+   "name": "The Dieline",
+   "url": "https://thedieline.com/",
+   "keywords": [
+    "packaging redesign",
+    "limited edition packaging",
+    "sustainable packaging",
+    "Pentawards"
+   ]
+  },
+  {
+   "name": "Packaging of the World",
+   "url": "https://packagingoftheworld.com/",
+   "keywords": [
+    "food packaging",
+    "cosmetics packaging",
+    "beverage label"
+   ]
+  },
+  {
+   "name": "Dezeen (Packaging)",
+   "url": "https://www.dezeen.com/design/packaging/",
+   "keywords": [
+    "packaging design",
+    "plastic-free packaging",
+    "compostable"
+   ]
+  },
+  {
+   "name": "식품음료신문",
+   "url": "https://www.thinkfood.co.kr/",
+   "keywords": [
+    "패키지 리뉴얼",
+    "한정판 패키지",
+    "친환경 포장"
+   ]
+  },
+  {
+   "name": "식품저널",
+   "url": "https://www.foodnews.co.kr/",
+   "keywords": [
+    "패키지",
+    "콜라보 한정판",
+    "포장재"
+   ]
+  },
+  {
+   "name": "브랜드브리프",
+   "url": "https://www.brandbrief.co.kr/",
+   "keywords": [
+    "패키지 디자인",
+    "브랜드 리뉴얼",
+    "K-디자인 어워드"
+   ]
+  }
  ]
 }
