@@ -5,6 +5,7 @@
   var CATS = [
     { id: 'all', name: '전체' },
     { id: 'ai', name: 'AI' },
+    { id: 'applesamsung', name: 'APPLE/SAMSUNG' },
     { id: 'art', name: 'ART' },
     { id: 'ax', name: 'AX' },
     { id: 'car', name: 'CAR' },
@@ -14,6 +15,7 @@
     { id: 'fashion', name: 'FASHION' },
     { id: 'food', name: 'FOOD' },
     { id: 'it', name: 'IT' },
+    { id: 'movie', name: 'MOVIE' },
     { id: 'music', name: 'MUSIC' },
     { id: 'uxui', name: 'UX/UI' },
     { id: 'meme', name: '밈' },
@@ -98,6 +100,12 @@
       '<button class="chip-toggle" type="button" aria-expanded="' + chipsOpen + '" aria-label="' +
       (chipsOpen ? '카테고리 접기' : '카테고리 전체 보기') + '">' +
       '<svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>';
+    if (!chipsOpen) {
+      // 한 줄에 다 안 들어가면 뒤쪽(현재 탭 제외)부터 숨긴다
+      var row = $chips.querySelector('.chip-row');
+      var list = [].slice.call(row.querySelectorAll('.chip:not(.on)')).reverse();
+      while (row.scrollWidth > row.clientWidth + 1 && list.length) list.shift().remove();
+    }
     $chips.querySelector('.chip-toggle').addEventListener('click', function () {
       chipsOpen = !chipsOpen;
       renderChips(active);

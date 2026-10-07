@@ -24,10 +24,11 @@ from datetime import datetime, timedelta, timezone
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 KEEP_DAYS = 14
-CATS = ["ai", "art", "ax", "car", "ccm", "christian", "design", "fashion", "food", "it", "music", "uxui", "meme", "ent"]
+CATS = ["ai", "applesamsung", "art", "ax", "car", "ccm", "christian", "design", "fashion", "food", "it", "movie", "music", "uxui", "meme", "ent"]
 CAT_NAME = {"ai": "AI", "ax": "AX", "car": "CAR", "ccm": "CCM", "christian": "CHRISTIAN",
             "it": "IT", "fashion": "FASHION", "art": "ART", "design": "DESIGN", "uxui": "UX/UI", "meme": "밈",
-            "food": "FOOD", "music": "MUSIC", "ent": "연예"}
+            "food": "FOOD", "music": "MUSIC", "ent": "연예",
+            "movie": "MOVIE", "applesamsung": "APPLE/SAMSUNG"}
 KST = timezone(timedelta(hours=9))
 REQUIRED = ("title", "source", "url", "summary")
 
