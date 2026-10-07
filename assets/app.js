@@ -70,6 +70,13 @@
     var f = (a.facts || []).filter(function (x) { return x[0] === k; })[0];
     return f ? f[1] : '';
   }
+  function bidClosed(a) {
+    var m = String(fact(a, '입찰 마감')).match(/(\d{4})[-.](\d{1,2})[-.](\d{1,2})(?:\s+(\d{1,2}):(\d{2}))?/);
+    if (!m) return false; // 마감일을 모르면 숨기지 않는다
+    // 공고 시각은 한국 시간(UTC+9). 시각이 없으면 그날 23:59까지 유효
+    var end = Date.UTC(+m[1], m[2] - 1, +m[3], m[4] ? +m[4] - 9 : 14, m[4] ? +m[5] : 59, m[4] ? 0 : 59);
+    return end < Date.now();
+  }
   // 나라장터 목록: 발주처·금액·기간을 크게
   function won(v) {
     var m = String(v || '').replace(/,/g, '').match(/\d{5,}/);
@@ -109,6 +116,8 @@
       return (b.collectedAt || '').slice(0, 10).localeCompare((a.collectedAt || '').slice(0, 10)) ||
              (b.publishedAt || '').localeCompare(a.publishedAt || '') || a.id.localeCompare(b.id);
     });
+    // 나라장터: 입찰 마감이 지난 공고는 숨긴다(접속 시점 기준, 매일 자동 적용)
+    state.articles = state.articles.filter(function (a) { return a.category !== 'g2b' || !bidClosed(a); });
     state.updatedAt = res[0].updatedAt;
     state.daily = res[1];
     state.articles.forEach(function (a) { state.byId[a.id] = a; });
