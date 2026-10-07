@@ -1,0 +1,29 @@
+{
+ "date": "2026-10-07",
+ "verse": {
+  "ref": "시편 23:1",
+  "text": "여호와는 나의 목자시니 내가 부족함이 없으리로다",
+  "version": "개역한글"
+ },
+ "english": {
+  "expression": "take it one step at a time",
+  "meaning": "한 번에 한 걸음씩, 서두르지 말고 차근차근 하다",
+  "example": "It's a big project, but if we take it one step at a time, we'll get there.",
+  "exampleKo": "큰 프로젝트지만, 한 걸음씩 차근차근 해 나가면 해낼 수 있을 거야.",
+  "tip": "일이 버겁게 느껴지는 사람을 격려하거나 스스로 마음을 다잡을 때 자주 씁니다. 줄여서 \"One step at a time.\"이라고만 말해도 자연스럽습니다."
+ },
+ "quote": {
+  "text": "당신이 할 수 없다고 생각하는 바로 그 일을 해야 한다.",
+  "original": "You must do the thing you think you cannot do.",
+  "author": "엘리너 루스벨트 (Eleanor Roosevelt), 『You Learn by Living』(1960)"
+ },
+ "art": {
+  "title": "건초더미(해 질 녘, 가을) — Stacks of Wheat (End of Day, Autumn)",
+  "artist": "클로드 모네 (Claude Monet, 1840–1926)",
+  "year": "1890–91",
+  "image": "https://www.artic.edu/iiif/2/4c364c64-2108-4e19-5fc5-1ab26ba924a7/full/843,/0/default.jpg",
+  "page": "https://www.artic.edu/artworks/14624",
+  "credit": "퍼블릭 도메인(CC0) · Art Institute of Chicago, Mr. and Mrs. Lewis Larned Coburn Memorial Collection",
+  "description": "모네가 지베르니 자택 근처 들판의 건초더미를 계절과 시간에 따라 반복해 그린 연작 중 한 점입니다. 여러 이젤을 세워 두고 빛이 바뀔 때마다 캔버스를 옮겨 가며 그렸고, 가을 해 질 녘의 따스한 빛이 건초더미와 하늘을 물들입니다. 1891년 파리 뒤랑뤼엘 화랑에서 연작 15점을 함께 전시해 큰 성공을 거두었습니다."
+ }
+}

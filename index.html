@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>summaryx</title>
+<meta name="description" content="매일 아침 8시, 카테고리별 최신 기사를 읽기 좋은 길이로 요약합니다.">
+<meta property="og:title" content="summaryx">
+<meta property="og:description" content="매일 아침 8시, 카테고리별 최신 기사 요약">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <a href="#/" class="logo">summary<b>x</b></a>
+  <span class="updated" id="updated"></span>
+</header>
+<nav class="chips" id="chips" aria-label="카테고리"></nav>
+<main id="app" aria-live="polite"></main>
+<nav class="tabbar" aria-label="메뉴">
+  <a href="#/" data-tab="home"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v10h-6v-6H9v6H3z"/></svg>홈</a>
+  <a href="#/bookmarks" data-tab="bookmarks"><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg>북마크</a>
+</nav>
+<div class="toast" id="toast" role="status"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>

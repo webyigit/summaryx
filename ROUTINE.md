@@ -1,0 +1,47 @@
+# 매일 자동 수집 절차 (오전 8시 KST 전 완료)
+
+매일 루틴이 이 문서를 그대로 따른다. 오늘 날짜(KST)를 기준으로 한다.
+
+## 0. 병렬 처리
+카테고리마다 서브에이전트(Agent 도구)를 **1개씩 동시에** 띄워 서칭·요약을 맡긴다(10개 + 오늘 영역 1개). 각 에이전트에게 이 문서의 1~3절과 담당 카테고리, `data/sources.json`의 해당 항목을 넘기고, 결과는 `incoming/<카테고리>.json`에 저장하게 한다. 모두 끝나면 메인이 4절(반영·배포)을 한 번만 실행한다. 실패한 카테고리는 다시 한 번만 재시도한다.
+
+## 1. 수집
+카테고리 10개: `ai, ax, car, ccm, christian, it, fashion, art, design, meme(밈)`
+
+- 각 카테고리의 대상 사이트·키워드는 `data/sources.json`에 있다. 이 사이트들과 키워드로 WebSearch/WebFetch 해서 최신 기사를 찾는다. 더 좋은 사이트를 찾으면 `sources`에 추가해도 된다.
+- WebSearch는 오래된 페이지가 섞이기 쉽다. 대상 사이트의 **최신 기사 목록 페이지를 WebFetch로 직접 열어** 고르는 방식을 우선한다. 한 매체에 몰리지 않게 가능하면 2곳 이상, 한국어 매체도 섞는다.
+- 카테고리마다 **4건**, 최근 2일 이내 기사 우선(없으면 7일까지).
+- `data/articles.json`에 이미 있는 URL·같은 사건은 제외한다.
+- 반드시 WebFetch로 원문을 열어 **읽은 내용만** 근거로 요약한다. 원문을 못 열면 그 기사는 버린다. 자료에 없는 사실·숫자는 쓰지 않는다. 날짜 확인이 안 되면 `publishedAt: null`.
+- 밈: 혐오·선정적 내용 제외. 밈이 무엇이고 어디서 시작됐고 왜 유행하는지 이해되게.
+
+## 2. 요약 형식 (한국어)
+- `title` 한국어 제목, `originalTitle` 원문 제목
+- `summary`: 문단 2~4개, 총 350~700자. 배경 → 핵심 내용 → 의미/전망. 너무 줄이지 말고 맥락이 이해될 만큼. 원문 문장 길게 베끼지 않기.
+- `keyPoints`: 핵심 3줄(각 40자 내외)
+
+작업 폴더 `incoming/`(커밋하지 않음)에 카테고리별 파일 저장:
+```json
+{"category":"ai","sources":[{"name":"","url":"","keywords":[""]}],
+ "articles":[{"title":"","originalTitle":"","source":"","url":"","publishedAt":"YYYY-MM-DD","summary":["",""],"keyPoints":["","",""]}]}
+```
+
+## 3. 오늘 영역 → `incoming/daily.json`
+```json
+{"date":"YYYY-MM-DD",
+ "verse":{"ref":"","text":"","version":"개역한글"},
+ "english":{"expression":"","meaning":"","example":"","exampleKo":"","tip":""},
+ "quote":{"text":"","original":"","author":""},
+ "art":{"title":"","artist":"","year":"","image":"","page":"","credit":"","description":""}}
+```
+- 말씀: 저작권 만료된 **개역한글** 본문만, 웹에서 실제 확인한 문장. 최근 30일 안에 쓴 구절 반복 금지(git log로 확인).
+- 명언: 출처가 확인되는 실존 인물의 말만.
+- 그림: 퍼블릭 도메인만. Art Institute of Chicago API(`https://api.artic.edu/api/v1/artworks/search?q=...&fields=id,title,artist_display,date_display,image_id,is_public_domain`, 이미지 `https://www.artic.edu/iiif/2/{image_id}/full/843,/0/default.jpg`)에서 `is_public_domain=true` 확인.
+
+## 4. 반영·배포
+```bash
+python3 scripts/update.py incoming
+git add data a reports && git commit -m "daily: YYYY-MM-DD" && git push origin main
+```
+`update.py`가 `reports/summaryx_report_YYMMDD_v1.md`(카테고리·대상 사이트·키워드 리포트)를 만든다. `/mnt/project-files/`가 있으면 그 리포트를 `/mnt/project-files/summaryx/reports/`에도 복사한다.
+`incoming/`은 커밋하지 않는다. 실패한 카테고리가 있으면 커밋 메시지에 적는다.

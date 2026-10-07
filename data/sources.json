@@ -1,0 +1,407 @@
+{
+ "ai": [
+  {
+   "name": "TechCrunch AI",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "keywords": [
+    "AI model",
+    "OpenAI",
+    "Anthropic",
+    "AI funding",
+    "AI policy"
+   ]
+  },
+  {
+   "name": "AI타임스",
+   "url": "https://www.aitimes.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "AI 모델",
+    "오픈AI",
+    "앤트로픽",
+    "AI 규제",
+    "AI 투자"
+   ]
+  }
+ ],
+ "ax": [
+  {
+   "name": "파이낸셜뉴스",
+   "url": "https://www.fnnews.com",
+   "keywords": [
+    "AX",
+    "AI 전환",
+    "업무 자동화",
+    "AI 에이전트 도입"
+   ]
+  },
+  {
+   "name": "Business Korea",
+   "url": "https://www.businesskorea.co.kr",
+   "keywords": [
+    "AX",
+    "기업 AI 도입",
+    "KT AX",
+    "AI 플랫폼"
+   ]
+  },
+  {
+   "name": "아시아뉴스통신",
+   "url": "https://www.anewsa.com",
+   "keywords": [
+    "공공기관 AX",
+    "AI 전환 TF",
+    "AI 교육"
+   ]
+  },
+  {
+   "name": "AI타임스",
+   "url": "https://www.aitimes.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "기업 AI 도입",
+    "사내 AI 사용",
+    "AX 사례"
+   ]
+  }
+ ],
+ "car": [
+  {
+   "name": "Electrek",
+   "url": "https://electrek.co/",
+   "keywords": [
+    "EV",
+    "Tesla",
+    "electric car launch",
+    "battery"
+   ]
+  },
+  {
+   "name": "electrive.com",
+   "url": "https://www.electrive.com/",
+   "keywords": [
+    "electric vehicle",
+    "autonomous driving",
+    "e-truck",
+    "charging"
+   ]
+  },
+  {
+   "name": "모터그래프",
+   "url": "https://www.motorgraph.com/",
+   "keywords": [
+    "신차",
+    "전기차",
+    "현대차",
+    "시승기"
+   ]
+  }
+ ],
+ "ccm": [
+  {
+   "name": "CCM Magazine",
+   "url": "https://www.ccmmagazine.com/category/news/",
+   "keywords": [
+    "new album",
+    "worship",
+    "tour",
+    "cover story"
+   ]
+  },
+  {
+   "name": "Jesus Freak Hideout",
+   "url": "https://www.jesusfreakhideout.com/news/",
+   "keywords": [
+    "Christian radio",
+    "album release",
+    "tour dates"
+   ]
+  },
+  {
+   "name": "The Christian Post (Entertainment)",
+   "url": "https://www.christianpost.com/",
+   "keywords": [
+    "Christian music",
+    "worship leader",
+    "Dove Awards"
+   ]
+  },
+  {
+   "name": "크리스천투데이",
+   "url": "https://www.christiantoday.co.kr/",
+   "keywords": [
+    "CCM",
+    "찬양 앨범",
+    "워십"
+   ]
+  }
+ ],
+ "christian": [
+  {
+   "name": "크리스천투데이",
+   "url": "https://www.christiantoday.co.kr/",
+   "keywords": [
+    "교계",
+    "총회",
+    "선교",
+    "기독교 박해"
+   ]
+  },
+  {
+   "name": "The Christian Post",
+   "url": "https://www.christianpost.com/",
+   "keywords": [
+    "church",
+    "pastor",
+    "persecution",
+    "evangelical"
+   ]
+  },
+  {
+   "name": "Christianity Today",
+   "url": "https://www.christianitytoday.com/",
+   "keywords": [
+    "church news",
+    "missions",
+    "religious freedom"
+   ]
+  },
+  {
+   "name": "CCM Magazine (News)",
+   "url": "https://www.ccmmagazine.com/category/news/",
+   "keywords": [
+    "Christian television",
+    "ministry"
+   ]
+  }
+ ],
+ "it": [
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/",
+   "keywords": [
+    "Apple",
+    "iPhone",
+    "smartphone market",
+    "Apple Watch"
+   ]
+  },
+  {
+   "name": "TechCrunch Hardware",
+   "url": "https://techcrunch.com/category/hardware/",
+   "keywords": [
+    "hardware",
+    "gadgets",
+    "devices",
+    "startup"
+   ]
+  },
+  {
+   "name": "지디넷코리아 반도체·디스플레이",
+   "url": "https://www.zdnet.co.kr/news/?lstcode=0050",
+   "keywords": [
+    "반도체",
+    "삼성전자",
+    "SK하이닉스",
+    "디스플레이"
+   ]
+  },
+  {
+   "name": "Electrek",
+   "url": "https://electrek.co/",
+   "keywords": [
+    "Tesla",
+    "energy tech",
+    "battery"
+   ]
+  }
+ ],
+ "fashion": [
+  {
+   "name": "FashionNetwork UK",
+   "url": "https://uk.fashionnetwork.com/",
+   "keywords": [
+    "fashion week",
+    "luxury",
+    "creative director",
+    "retail"
+   ]
+  },
+  {
+   "name": "Highsnobiety",
+   "url": "https://www.highsnobiety.com/",
+   "keywords": [
+    "streetwear",
+    "sneakers",
+    "brand",
+    "collaboration"
+   ]
+  },
+  {
+   "name": "The Zoe Report",
+   "url": "https://www.thezoereport.com/fashion",
+   "keywords": [
+    "show review",
+    "spring/summer",
+    "runway"
+   ]
+  },
+  {
+   "name": "SCMP Style",
+   "url": "https://www.scmp.com/magazines/style/fashion",
+   "keywords": [
+    "fashion week",
+    "luxury brands",
+    "Asia"
+   ]
+  },
+  {
+   "name": "Fashionista",
+   "url": "https://fashionista.com/",
+   "keywords": [
+    "fashion business",
+    "collections",
+    "retail"
+   ]
+  }
+ ],
+ "art": [
+  {
+   "name": "The Art Newspaper",
+   "url": "https://www.theartnewspaper.com/keywords/art-market",
+   "keywords": [
+    "art market",
+    "auction",
+    "art fair",
+    "museum"
+   ]
+  },
+  {
+   "name": "Artnet News",
+   "url": "https://news.artnet.com/",
+   "keywords": [
+    "auction record",
+    "gallery",
+    "exhibition",
+    "art world"
+   ]
+  },
+  {
+   "name": "Hyperallergic",
+   "url": "https://hyperallergic.com/",
+   "keywords": [
+    "exhibition review",
+    "artists",
+    "museum news"
+   ]
+  },
+  {
+   "name": "Frieze",
+   "url": "https://www.frieze.com/tags/frieze-london-2026",
+   "keywords": [
+    "Frieze London",
+    "Frieze Masters",
+    "contemporary art"
+   ]
+  }
+ ],
+ "design": [
+  {
+   "name": "Dezeen",
+   "url": "https://www.dezeen.com/",
+   "keywords": [
+    "architecture",
+    "interior design",
+    "furniture design",
+    "product design"
+   ]
+  },
+  {
+   "name": "designboom",
+   "url": "https://www.designboom.com/",
+   "keywords": [
+    "design",
+    "architecture",
+    "exhibition",
+    "installation"
+   ]
+  },
+  {
+   "name": "Creative Bloq",
+   "url": "https://www.creativebloq.com/news",
+   "keywords": [
+    "branding",
+    "logo redesign",
+    "advertising design",
+    "UI design"
+   ]
+  },
+  {
+   "name": "It's Nice That",
+   "url": "https://www.itsnicethat.com/",
+   "keywords": [
+    "graphic design",
+    "brand identity",
+    "typeface",
+    "illustration"
+   ]
+  },
+  {
+   "name": "ArchDaily",
+   "url": "https://www.archdaily.com/",
+   "keywords": [
+    "architecture news",
+    "museum renovation",
+    "sustainable building"
+   ]
+  }
+ ],
+ "meme": [
+  {
+   "name": "HSADzine (HS애드 공식 블로그) - 월간 밈",
+   "url": "https://blog.hsad.co.kr/category/%ED%8A%B8%EB%A0%8C%EB%93%9C/%EC%9D%B4%EB%8B%AC%EC%9D%98%20%ED%8A%B8%EB%A0%8C%EB%93%9C%20%EB%B0%88%EC%A7%91",
+   "keywords": [
+    "월간 밈",
+    "이달의 트렌드 밈집"
+   ]
+  },
+  {
+   "name": "고구마팜",
+   "url": "https://gogumafarm.kr/tag/%EB%B0%88/",
+   "keywords": [
+    "최신 밈 모음",
+    "유행 밈"
+   ]
+  },
+  {
+   "name": "캐릿(Careet) - 요즘 뜨는 밈",
+   "url": "https://www.careet.net/Content/Series/1",
+   "keywords": [
+    "요즘 뜨는 밈",
+    "Z세대 신조어"
+   ]
+  },
+  {
+   "name": "Know Your Meme",
+   "url": "https://knowyourmeme.com/editorials",
+   "keywords": [
+    "Meme Of The Month",
+    "meme explained"
+   ]
+  },
+  {
+   "name": "NapoleonCat Blog",
+   "url": "https://napoleoncat.com/blog/trending-memes/",
+   "keywords": [
+    "trending memes",
+    "monthly meme report"
+   ]
+  },
+  {
+   "name": "Forbes",
+   "url": "https://www.forbes.com/",
+   "keywords": [
+    "TikTok meme explained",
+    "viral trend"
+   ]
+  }
+ ]
+}
