@@ -600,5 +600,170 @@
     "release notes"
    ]
   }
+ ],
+ "food": [
+  {
+   "name": "식품외식경제",
+   "url": "https://www.foodbank.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "외식",
+    "프랜차이즈",
+    "가맹",
+    "신메뉴",
+    "셰프"
+   ]
+  },
+  {
+   "name": "식품저널 foodnews",
+   "url": "https://www.foodnews.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "식품산업",
+    "K-푸드",
+    "한식",
+    "국감 농식품"
+   ]
+  },
+  {
+   "name": "Restaurant Dive",
+   "url": "https://www.restaurantdive.com/",
+   "keywords": [
+    "restaurant chain",
+    "bankruptcy",
+    "delivery",
+    "acquisition"
+   ]
+  },
+  {
+   "name": "Nation's Restaurant News",
+   "url": "https://www.nrn.com/",
+   "keywords": [
+    "quick-service",
+    "casual dining",
+    "menu trends",
+    "restaurant executives"
+   ]
+  },
+  {
+   "name": "Food Dive",
+   "url": "https://www.fooddive.com/",
+   "keywords": [
+    "food industry",
+    "packaged food",
+    "CPG",
+    "brewery"
+   ]
+  },
+  {
+   "name": "Restaurant Business",
+   "url": "https://www.restaurantbusinessonline.com/",
+   "keywords": [
+    "restaurant finance",
+    "franchising",
+    "menu pricing"
+   ]
+  }
+ ],
+ "music": [
+  {
+   "name": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/",
+   "keywords": [
+    "music industry",
+    "record label",
+    "streaming",
+    "AI music"
+   ]
+  },
+  {
+   "name": "NME",
+   "url": "https://www.nme.com/news/music",
+   "keywords": [
+    "new album",
+    "tour announce",
+    "festival",
+    "music news"
+   ]
+  },
+  {
+   "name": "경향신문 문화",
+   "url": "https://www.khan.co.kr/culture",
+   "keywords": [
+    "공연",
+    "클래식",
+    "음악",
+    "가요"
+   ]
+  },
+  {
+   "name": "서울신문 음악",
+   "url": "https://www.seoul.co.kr/newsList/entertainment/music/",
+   "keywords": [
+    "음반 발매",
+    "공연",
+    "클래식",
+    "재즈"
+   ]
+  },
+  {
+   "name": "뉴스1 음악",
+   "url": "https://www.news1.kr/entertain/music",
+   "keywords": [
+    "신곡 발매",
+    "컴백",
+    "콘서트",
+    "페스티벌"
+   ]
+  }
+ ],
+ "ent": [
+  {
+   "name": "The Korea Times 엔터테인먼트",
+   "url": "https://www.koreatimes.co.kr/entertainment",
+   "keywords": [
+    "K-pop comeback",
+    "box office",
+    "Busan film festival",
+    "K-drama",
+    "Netflix Korea"
+   ]
+  },
+  {
+   "name": "Soompi",
+   "url": "https://www.soompi.com/",
+   "keywords": [
+    "ratings",
+    "drama cast confirmed",
+    "film posters",
+    "music show win"
+   ]
+  },
+  {
+   "name": "HanCinema",
+   "url": "https://www.hancinema.net/",
+   "keywords": [
+    "[Ratings]",
+    "Korean Box Office weekend",
+    "Dramas Starting Today",
+    "cast"
+   ]
+  },
+  {
+   "name": "HanCinema 박스오피스",
+   "url": "https://www.hancinema.net/korean_boxoffice.php",
+   "keywords": [
+    "주말 박스오피스",
+    "누적 관객"
+   ]
+  },
+  {
+   "name": "allkpop",
+   "url": "https://www.allkpop.com/",
+   "keywords": [
+    "Billboard 200",
+    "Hanteo",
+    "debut",
+    "comeback"
+   ]
+  }
  ]
 }
