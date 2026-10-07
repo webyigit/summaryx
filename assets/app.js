@@ -137,9 +137,32 @@
     return '<div class="sec-title">오늘<small>' + fmtDate(d.date) + '</small></div><div class="today">' + cards.join('') + '</div>';
   }
 
+  // 상세 하단 이전글/다음글은 마지막으로 본 목록 순서를 따른다
+  function setCtx(arr, href) {
+    state.ctx = { ids: arr.map(function (a) { return a.id; }), href: href };
+  }
+  function ctxFor(a) {
+    var c = state.ctx;
+    if (c && c.ids.indexOf(a.id) >= 0) return c;
+    var arr = state.articles.filter(function (x) { return x.category === a.category; });
+    return { ids: arr.map(function (x) { return x.id; }), href: '#/c/' + a.category };
+  }
+  function navHtml(a) {
+    var c = ctxFor(a), i = c.ids.indexOf(a.id);
+    var prev = i > 0 ? state.byId[c.ids[i - 1]] || bookmarks[c.ids[i - 1]] : null;
+    var next = i >= 0 && i < c.ids.length - 1 ? state.byId[c.ids[i + 1]] || bookmarks[c.ids[i + 1]] : null;
+    function side(x, cls, label) {
+      return x ? '<a class="nav-btn ' + cls + '" href="#/a/' + esc(x.id) + '"><small>' + label + '</small><span>' + esc(x.title) + '</span></a>'
+               : '<span class="nav-btn ' + cls + ' off"><small>' + label + '</small><span>' + (cls === 'prev' ? '첫 글이에요' : '마지막 글이에요') + '</span></span>';
+    }
+    return '<nav class="artnav">' + side(prev, 'prev', '‹ 이전글') +
+      '<a class="nav-list" href="' + c.href + '">목록</a>' + side(next, 'next', '다음글 ›') + '</nav>';
+  }
+
   function home(cat) {
     renderChips(cat);
     var arr = cat === 'all' ? state.articles : state.articles.filter(function (a) { return a.category === cat; });
+    setCtx(arr, cat === 'all' ? '#/' : '#/c/' + cat);
     $app.innerHTML = (cat === 'all' ? todayHtml() : '') +
       '<div class="sec-title">' + (cat === 'all' ? '최신 기사' : esc(CAT_NAME[cat] || cat)) +
       '<small>' + arr.length + '건</small></div>' + listHtml(arr);
@@ -149,6 +172,7 @@
     renderChips(null);
     var arr = Object.keys(bookmarks).map(function (k) { return bookmarks[k]; })
       .sort(function (a, b) { return (b._savedAt || 0) - (a._savedAt || 0); });
+    setCtx(arr, '#/bookmarks');
     $app.innerHTML = '<div class="sec-title">북마크<small>' + arr.length + '건</small></div>' +
       (arr.length ? '<div class="list">' + arr.map(itemHtml).join('') + '</div>'
                   : '<div class="empty">기사 상세에서 🔖 를 누르면 여기에 저장돼요.</div>');
@@ -181,7 +205,7 @@
     detail._tried = null;
     var v = votes[id];
     $app.innerHTML = '<article class="detail">' +
-      '<a class="back" href="javascript:history.length>1?history.back():location.hash=\'#/\'">‹ 목록</a>' +
+      '<a class="back" href="' + ctxFor(a).href + '">‹ 목록</a>' +
       '<div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
       '<span>' + esc(a.source) + '</span>' + (a.publishedAt ? '<span>· ' + fmtDate(a.publishedAt) + '</span>' : '') + '</div>' +
       '<h1>' + esc(a.title) + '</h1>' +
@@ -197,8 +221,7 @@
         '<button class="act' + (v === -1 ? ' on' : '') + '" data-act="down">' + ICON.down + '싫어요</button>' +
         '<button class="act' + (bookmarks[id] ? ' on' : '') + '" data-act="mark">' + ICON.mark + '북마크</button>' +
         '<button class="act" data-act="share">' + ICON.share + '공유</button>' +
-      '</div></article>';
-    window.scrollTo(0, 0);
+      '</div>' + navHtml(a) + '</article>';
 
     $app.querySelectorAll('[data-act]').forEach(function (b) {
       b.addEventListener('click', function () {
@@ -242,7 +265,7 @@
   function route() {
     var h = location.hash.replace(/^#\/?/, '');
     var parts = h.split('/');
-    if (parts[0] === 'a' && parts[1]) { setTab(''); detail(decodeURIComponent(parts[1])); return; }
+    if (parts[0] === 'a' && parts[1]) { setTab(''); detail(decodeURIComponent(parts[1])); window.scrollTo(0, 0); return; }
     if (parts[0] === 'bookmarks') { setTab('bookmarks'); bookmarksView(); window.scrollTo(0, 0); return; }
     setTab('home');
     home(parts[0] === 'c' && CAT_NAME[parts[1]] ? parts[1] : 'all');
