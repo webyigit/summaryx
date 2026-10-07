@@ -1,30 +1,24 @@
 (function () {
   'use strict';
 
-  // 메뉴 순서: 전체 → 알파벳순 → 한글
-  var CATS = [
-    { id: 'all', name: '전체' },
-    { id: 'ai', name: 'AI' },
-    { id: 'applesamsung', name: 'APPLE/SAMSUNG' },
-    { id: 'art', name: 'ART' },
-    { id: 'ax', name: 'AX' },
-    { id: 'car', name: 'CAR' },
-    { id: 'ccm', name: 'CCM' },
-    { id: 'christian', name: 'CHRISTIAN' },
-    { id: 'design', name: 'DESIGN' },
-    { id: 'fashion', name: 'FASHION' },
-    { id: 'food', name: 'FOOD' },
-    { id: 'it', name: 'IT' },
-    { id: 'movie', name: 'MOVIE' },
-    { id: 'music', name: 'MUSIC' },
-    { id: 'shorts', name: 'SHORTS' },
-    { id: 'uxui', name: 'UX/UI' },
-    { id: 'wine', name: 'WINE' },
-    { id: 'meme', name: '밈' },
-    { id: 'ent', name: '연예' }
+  // 뉴스 사이트식 섹션 → 세부 분류(수집은 세부 분류 단위)
+  var SECTIONS = [
+    { id: 'all', name: '전체', cats: [] },
+    { id: 'ai', name: 'AI', cats: [['ai', 'AI'], ['ax', 'AX']] },
+    { id: 'tech', name: 'IT·테크', cats: [['it', 'IT'], ['applesamsung', '애플·삼성'], ['car', '자동차']] },
+    { id: 'culture', name: '문화', cats: [['movie', '영화'], ['music', '음악'], ['art', '미술']] },
+    { id: 'design', name: '디자인', cats: [['design', '디자인'], ['uxui', 'UX/UI']] },
+    { id: 'life', name: '라이프', cats: [['fashion', '패션'], ['food', '푸드'], ['wine', '와인']] },
+    { id: 'ent', name: '연예·트렌드', cats: [['ent', '연예'], ['shorts', '쇼츠'], ['meme', '밈']] },
+    { id: 'faith', name: '종교', cats: [['christian', '기독교'], ['ccm', 'CCM']] }
   ];
-  var CAT_NAME = {};
-  CATS.forEach(function (c) { CAT_NAME[c.id] = c.name; });
+  var CATS = SECTIONS;
+  var CAT_NAME = {}, CAT_SEC = {}, SEC = {};
+  SECTIONS.forEach(function (sec) {
+    SEC[sec.id] = sec;
+    sec.cats.forEach(function (c) { CAT_NAME[c[0]] = c[1]; CAT_SEC[c[0]] = sec.id; });
+  });
+  function secHref(id) { return id === 'all' ? '#/' : '#/s/' + id; }
 
   var state = { articles: [], daily: null, updatedAt: null, byId: {} };
   var $app = document.getElementById('app');
@@ -86,7 +80,7 @@
   });
 
   // ---- views ----
-  // 탭: 접힘 상태에선 5개만, 화살표로 전체 펼침/접기
+  // 탭(섹션): 접힘 상태에선 5개만, 화살표로 전체 펼침/접기
   var CHIP_LIMIT = 5;
   var chipsOpen = false;
   function renderChips(active) {
@@ -100,7 +94,7 @@
     }
     $chips.classList.toggle('open', chipsOpen);
     $chips.innerHTML = '<div class="chip-row">' + shown.map(function (c) {
-      var href = c.id === 'all' ? '#/' : '#/c/' + c.id;
+      var href = secHref(c.id);
       return '<a class="chip' + (c.id === active ? ' on' : '') + '" href="' + href + '">' + esc(c.name) + '</a>';
     }).join('') + '</div>' +
       '<button class="chip-toggle" type="button" aria-expanded="' + chipsOpen + '" aria-label="' +
@@ -192,13 +186,22 @@
       '<a class="nav-list" href="' + c.href + '">목록</a>' + side(next, 'next', '다음글 ›') + '</nav>';
   }
 
-  function home(cat) {
-    renderChips(cat);
-    var arr = cat === 'all' ? state.articles : state.articles.filter(function (a) { return a.category === cat; });
-    setCtx(arr, cat === 'all' ? '#/' : '#/c/' + cat);
-    $app.innerHTML = (cat === 'all' ? todayHtml() : '') +
-      '<div class="sec-title">' + (cat === 'all' ? '최신 기사' : esc(CAT_NAME[cat] || cat)) +
-      '<small>' + arr.length + '건</small></div>' + listHtml(arr);
+  // sec: 섹션 id, cat: 세부 분류(없으면 섹션 전체)
+  function home(sec, cat) {
+    renderChips(sec);
+    var S = SEC[sec], ids = S.cats.map(function (c) { return c[0]; });
+    var arr = sec === 'all' ? state.articles : state.articles.filter(function (a) {
+      return cat ? a.category === cat : ids.indexOf(a.category) >= 0;
+    });
+    var href = cat ? '#/c/' + cat : secHref(sec);
+    setCtx(arr, href);
+    var subs = S.cats.length > 1 ? '<div class="subs"><a class="sub' + (cat ? '' : ' on') + '" href="' + secHref(sec) + '">전체</a>' +
+      S.cats.map(function (c) {
+        return '<a class="sub' + (c[0] === cat ? ' on' : '') + '" href="#/c/' + c[0] + '">' + esc(c[1]) + '</a>';
+      }).join('') + '</div>' : '';
+    $app.innerHTML = (sec === 'all' ? todayHtml() : '') +
+      '<div class="sec-title">' + (sec === 'all' ? '최신 기사' : esc(S.name)) +
+      '<small>' + arr.length + '건</small></div>' + subs + listHtml(arr);
   }
 
   function bookmarksView() {
@@ -306,7 +309,9 @@
     if (parts[0] === 'a' && parts[1]) { setTab(''); detail(decodeURIComponent(parts[1])); window.scrollTo(0, 0); return; }
     if (parts[0] === 'bookmarks') { setTab('bookmarks'); bookmarksView(); window.scrollTo(0, 0); return; }
     setTab('home');
-    home(parts[0] === 'c' && CAT_NAME[parts[1]] ? parts[1] : 'all');
+    if (parts[0] === 'c' && CAT_SEC[parts[1]]) home(CAT_SEC[parts[1]], parts[1]);
+    else if (parts[0] === 's' && SEC[parts[1]]) home(parts[1]);
+    else home('all');
     window.scrollTo(0, 0);
   }
   window.addEventListener('hashchange', route);

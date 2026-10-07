@@ -6,7 +6,8 @@
 카테고리마다 서브에이전트(Agent 도구)를 **1개씩 동시에** 띄워 서칭·요약을 맡긴다(18개 + 오늘 영역 1개). 각 에이전트에게 이 문서의 1~3절과 담당 카테고리, `data/sources.json`의 해당 항목을 넘기고, 결과는 `incoming/<카테고리>.json`에 저장하게 한다. 모두 끝나면 메인이 4절(반영·배포)을 한 번만 실행한다. 실패한 카테고리는 다시 한 번만 재시도한다.
 
 ## 1. 수집
-카테고리 18개: `ai, applesamsung(APPLE/SAMSUNG), art, ax, car, ccm, christian, design, fashion, food, it, movie, music, shorts(SHORTS), uxui(UX/UI), wine(WINE), meme(밈), ent(연예)`
+카테고리 18개(수집 단위): `ai, applesamsung, art, ax, car, ccm, christian, design, fashion, food, it, movie, music, shorts, uxui, wine, meme, ent`
+- 사이트 탭은 섹션으로 묶어 보여준다(app.js `SECTIONS`): AI(ai·ax), IT·테크(it·applesamsung·car), 문화(movie·music·art), 디자인(design·uxui), 라이프(fashion·food·wine), 연예·트렌드(ent·shorts·meme), 종교(christian·ccm). 분류를 추가하면 `SECTIONS`와 update.py `CATS`·`CAT_NAME`에 함께 넣는다.
 - applesamsung은 애플·삼성전자 제품·소프트웨어·실적·전략(대략 반반), it에서는 애플·삼성 기사를 빼고 다른 기업 위주로. movie는 영화(개봉·박스오피스·영화제·감독), ent(연예)는 영화를 빼고 드라마·예능·아이돌 위주로.
 - wine은 와인 산업·작황·와이너리·경매·시장·국내 와인 시장.
 - **shorts**는 기사가 아니라 그날(최근 1~3일) 가장 화제인 유튜브 쇼츠 10개(한국 우선). 화제 쇼츠를 다룬 기사·트렌딩 페이지로 찾고, 각 영상은 YouTube oEmbed(`https://www.youtube.com/oembed?url=https://www.youtube.com/shorts/<ID>&format=json`)로 존재·제목·채널을 확인(확인 안 되면 제외, ID 지어내기 금지). 항목 형식: `url`=`https://www.youtube.com/shorts/<ID>`, `videoId`=<ID>, `source`=채널명, `originalTitle`=영상 원제목, `image`=`https://i.ytimg.com/vi/<ID>/hqdefault.jpg`, `via`=화제 근거 페이지. 요약은 무슨 영상이고 왜 화제인지 250~500자. 혐오·선정·위험 행위 제외.
