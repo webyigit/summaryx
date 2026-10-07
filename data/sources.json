@@ -2286,5 +2286,192 @@
     "그래픽"
    ]
   }
+ ],
+ "winetype": [
+  {
+   "name": "Decanter - Grape varieties",
+   "url": "https://www.decanter.com/wine/grape-varieties/",
+   "keywords": [
+    "grape variety",
+    "Pinot Noir",
+    "Chardonnay",
+    "Grenache Day",
+    "smart buyer's guide"
+   ]
+  },
+  {
+   "name": "Decanter - Learn",
+   "url": "https://www.decanter.com/learn/",
+   "keywords": [
+    "Champagne vs Prosecco",
+    "Riesling",
+    "what is"
+   ]
+  },
+  {
+   "name": "Wine Enthusiast - Wine",
+   "url": "https://www.wineenthusiast.com/culture/wine/",
+   "keywords": [
+    "best Chenin Blanc",
+    "best Albariño",
+    "grape guide"
+   ]
+  },
+  {
+   "name": "VinePair",
+   "url": "https://vinepair.com/feed/",
+   "keywords": [
+    "grape explained",
+    "Ask a Wine Pro",
+    "wine 101"
+   ]
+  }
+ ],
+ "winery": [
+  {
+   "name": "Decanter (전체 아카이브 월별)",
+   "url": "https://www.decanter.com/archive/2026/10/",
+   "keywords": [
+    "winery profile",
+    "château",
+    "estate history",
+    "family winery",
+    "Hall of Fame"
+   ]
+  },
+  {
+   "name": "Decanter (뉴스 아카이브 월별)",
+   "url": "https://www.decanter.com/news/archive/2026/09/",
+   "keywords": [
+    "acquires",
+    "ownership",
+    "winery sold"
+   ]
+  },
+  {
+   "name": "Wine Spectator",
+   "url": "https://www.winespectator.com/",
+   "keywords": [
+    "winery sold",
+    "founders sell",
+    "estate vineyard",
+    "deal watch"
+   ]
+  },
+  {
+   "name": "The Drinks Business",
+   "url": "https://www.thedrinksbusiness.com/",
+   "keywords": [
+    "château heritage",
+    "winery acquired",
+    "estate profile"
+   ]
+  }
+ ],
+ "cellar": [
+  {
+   "name": "The Drinks Business",
+   "url": "https://www.thedrinksbusiness.com/",
+   "keywords": [
+    "wine storage",
+    "bonded warehouse",
+    "fine wine storage",
+    "best places to store wine"
+   ]
+  },
+  {
+   "name": "Decanter",
+   "url": "https://www.decanter.com/",
+   "keywords": [
+    "glassware",
+    "decanting",
+    "Ask Decanter storage",
+    "spirits briefing glasses"
+   ]
+  },
+  {
+   "name": "Wine Enthusiast",
+   "url": "https://www.wineenthusiast.com/basics/buying-and-collecting/",
+   "keywords": [
+    "wine fridge",
+    "wine cooler",
+    "wine glass storage",
+    "cellar"
+   ]
+  },
+  {
+   "name": "Wine Spectator (Ask Dr. Vinny)",
+   "url": "https://www.winespectator.com/",
+   "keywords": [
+    "Dr. Vinny storage",
+    "cellar temperature",
+    "decant"
+   ]
+  },
+  {
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/",
+   "keywords": [
+    "와인셀러",
+    "와인 보관",
+    "와인잔",
+    "디캔팅"
+   ]
+  },
+  {
+   "name": "재경일보",
+   "url": "https://news.jkn.co.kr/",
+   "keywords": [
+    "와인잔 추천",
+    "와인셀러 추천",
+    "와인냉장고"
+   ]
+  }
+ ],
+ "winedeal": [
+  {
+   "name": "Bing 뉴스 RSS",
+   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8+%ED%95%A0%EC%9D%B8&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "와인 할인",
+    "와인 기획전",
+    "와인 페스타 할인",
+    "편의점 와인",
+    "와인장터"
+   ]
+  },
+  {
+   "name": "직썰",
+   "url": "https://www.ziksir.com/",
+   "keywords": [
+    "편의점 와인 할인",
+    "와인 기획전"
+   ]
+  },
+  {
+   "name": "뉴스퀘스트",
+   "url": "https://www.newsquest.co.kr/",
+   "keywords": [
+    "이마트 와인",
+    "와인그랩",
+    "백화점 와인"
+   ]
+  },
+  {
+   "name": "오피니언뉴스",
+   "url": "https://www.opinionnews.co.kr/",
+   "keywords": [
+    "유통가 패트롤 와인",
+    "마트 와인 할인"
+   ]
+  },
+  {
+   "name": "테크M",
+   "url": "https://www.techm.kr/",
+   "keywords": [
+    "대형마트 할인 행사 와인",
+    "고래잇 와인"
+   ]
+  }
  ]
 }
