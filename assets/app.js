@@ -9,6 +9,7 @@
     { id: 'culture', name: '문화', cats: [['movie', '영화'], ['music', '음악'], ['art', '미술']] },
     { id: 'design', name: '디자인', cats: [['design', '디자인'], ['uxui', 'UX/UI']] },
     { id: 'life', name: '라이프', cats: [['fashion', '패션'], ['food', '푸드'], ['wine', '와인']] },
+    { id: 'teen', name: '학생', cats: [['game', '게임'], ['webtoon', '웹툰·애니'], ['sports', '스포츠'], ['science', '과학']] },
     { id: 'ent', name: '연예·트렌드', cats: [['ent', '연예'], ['shorts', '쇼츠'], ['meme', '밈']] },
     { id: 'faith', name: '종교', cats: [['christian', '기독교'], ['ccm', 'CCM']] }
   ];
