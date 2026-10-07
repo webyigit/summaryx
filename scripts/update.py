@@ -25,13 +25,13 @@ from datetime import datetime, timedelta, timezone
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 KEEP_DAYS = 14
-CATS = ["ai", "ax", "robot", "it", "applesamsung", "car", "semi", "security", "movie", "music", "art", "book", "show", "design", "uxui", "arch", "fashion", "food", "wine", "travel", "health", "game", "webtoon", "sports", "science", "edu", "ent", "kpop", "shorts", "meme", "christian", "ccm"]
+CATS = ["ai", "ax", "robot", "paper", "it", "applesamsung", "car", "semi", "security", "movie", "music", "art", "book", "show", "design", "uxui", "arch", "fashion", "food", "wine", "travel", "health", "game", "webtoon", "sports", "science", "edu", "ent", "kpop", "shorts", "meme", "g2b", "christian", "ccm"]
 CAT_NAME = {"ai": "AI > AI", "ax": "AI > AX", "it": "IT·테크 > IT", "applesamsung": "IT·테크 > 애플·삼성",
             "car": "IT·테크 > 자동차", "movie": "문화 > 영화", "music": "문화 > 음악", "art": "문화 > 미술",
             "design": "디자인 > 디자인", "uxui": "디자인 > UX/UI", "fashion": "라이프 > 패션", "food": "라이프 > 푸드",
             "wine": "라이프 > 와인", "ent": "연예·트렌드 > 연예", "shorts": "연예·트렌드 > 쇼츠", "meme": "연예·트렌드 > 밈",
             "game": "학생 > 게임", "webtoon": "학생 > 웹툰·애니", "sports": "학생 > 스포츠", "science": "학생 > 과학",
-            "robot": "AI > 로봇", "semi": "IT·테크 > 반도체", "security": "IT·테크 > 보안", "book": "문화 > 책",
+            "robot": "AI > 로봇", "paper": "AI > 논문", "g2b": "나라장터", "semi": "IT·테크 > 반도체", "security": "IT·테크 > 보안", "book": "문화 > 책",
             "show": "문화 > 공연·전시", "arch": "디자인 > 건축·인테리어", "travel": "라이프 > 여행", "health": "라이프 > 건강",
             "edu": "학생 > 교육·진로", "kpop": "연예·트렌드 > K-POP",
             "christian": "종교 > 기독교", "ccm": "종교 > CCM"}

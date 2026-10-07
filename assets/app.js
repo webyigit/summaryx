@@ -4,13 +4,14 @@
   // 뉴스 사이트식 섹션 → 세부 분류(수집은 세부 분류 단위)
   var SECTIONS = [
     { id: 'all', name: '전체', cats: [] },
-    { id: 'ai', name: 'AI', cats: [['ai', 'AI'], ['ax', 'AX'], ['robot', '로봇']] },
+    { id: 'ai', name: 'AI', cats: [['ai', 'AI'], ['ax', 'AX'], ['robot', '로봇'], ['paper', '논문']] },
     { id: 'tech', name: 'IT·테크', cats: [['it', 'IT'], ['applesamsung', '애플·삼성'], ['car', '자동차'], ['semi', '반도체'], ['security', '보안']] },
     { id: 'culture', name: '문화', cats: [['movie', '영화'], ['music', '음악'], ['art', '미술'], ['book', '책'], ['show', '공연·전시']] },
     { id: 'design', name: '디자인', cats: [['design', '디자인'], ['uxui', 'UX/UI'], ['arch', '건축·인테리어']] },
     { id: 'life', name: '라이프', cats: [['fashion', '패션'], ['food', '푸드'], ['wine', '와인'], ['travel', '여행'], ['health', '건강']] },
     { id: 'teen', name: '학생', cats: [['game', '게임'], ['webtoon', '웹툰·애니'], ['sports', '스포츠'], ['science', '과학'], ['edu', '교육·진로']] },
     { id: 'ent', name: '연예·트렌드', cats: [['ent', '연예'], ['kpop', 'K-POP'], ['shorts', '쇼츠'], ['meme', '밈']] },
+    { id: 'bid', name: '나라장터', cats: [['g2b', '나라장터']] },
     { id: 'faith', name: '종교', cats: [['christian', '기독교'], ['ccm', 'CCM']] }
   ];
   var CATS = SECTIONS;
@@ -48,6 +49,10 @@
   function pubHtml(a) {
     var d = a.publishedAt && a.publishedAt.slice(0, 10).split('-');
     return '<span class="pub">' + (d && d.length === 3 ? d.join('.') + ' 게시' : '게시일 미확인') + '</span>';
+  }
+  function fact(a, k) {
+    var f = (a.facts || []).filter(function (x) { return x[0] === k; })[0];
+    return f ? f[1] : '';
   }
   function toast(msg) {
     var t = document.getElementById('toast');
@@ -119,6 +124,7 @@
       (a.image ? '<img class="thumb" src="' + esc(a.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.remove(\'has-img\');this.remove()">' : '') +
       '<div class="txt"><div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
       '<span>' + esc(a.source) + '</span>' + pubHtml(a) + '</div>' +
+      (fact(a, '입찰 마감') ? '<div class="due">마감 ' + esc(fact(a, '입찰 마감')) + (fact(a, '사업예산') ? ' · ' + esc(fact(a, '사업예산')) : '') + '</div>' : '') +
       '<h3>' + esc(a.title) + '</h3>' +
       '<p>' + esc((a.summary || [])[0]) + '</p>' +
       ((v || bookmarks[a.id]) ? '<div class="mini">' +
@@ -261,7 +267,7 @@
     if (q) {
       var terms = q.toLowerCase().split(/\s+/);
       var res = state.articles.filter(function (a) {
-        var t = [a.title, a.originalTitle, a.source, (a.summary || []).join(' '), (a.keyPoints || []).join(' '), CAT_NAME[a.category]].join(' ').toLowerCase();
+        var t = [a.title, a.originalTitle, a.source, (a.summary || []).join(' '), (a.keyPoints || []).join(' '), (a.requirements || []).join(' '), (a.facts || []).map(function (f) { return f.join(' '); }).join(' '), CAT_NAME[a.category]].join(' ').toLowerCase();
         return terms.every(function (w) {
           // 짧은 영문(AI, IT 등)은 단어 단위로만 (said·Spain 같은 오탐 방지)
           return /^[a-z0-9]{1,3}$/.test(w) ? new RegExp('(^|[^a-z0-9])' + w + '([^a-z0-9]|$)').test(t) : t.indexOf(w) >= 0;
@@ -352,10 +358,17 @@
       (a.originalTitle && a.originalTitle !== a.title ? '<p class="orig">' + esc(a.originalTitle) + '</p>' : '') +
       (a.keyPoints && a.keyPoints.length ? '<div class="points"><b>핵심 요약</b><ul>' +
         a.keyPoints.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('') + '</ul></div>' : '') +
+      (a.facts && a.facts.length ? '<table class="facts">' + a.facts.map(function (f) {
+        return '<tr><th>' + esc(f[0]) + '</th><td>' + (/^https?:\/\//.test(f[1] || '') ? '<a href="' + esc(f[1]) + '" target="_blank" rel="noopener">' + esc(f[1]) + '</a>' : esc(f[1])) + '</td></tr>';
+      }).join('') + '</table>' : '') +
+      (a.requirements && a.requirements.length ? '<div class="points reqs"><b>제안 요건</b><ul>' +
+        a.requirements.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('') + '</ul></div>' : '') +
+      (a.fit ? '<p class="fit"><b>에이전시 관점</b> ' + esc(a.fit) + '</p>' : '') +
       '<div class="body">' + (a.summary || []).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') + '</div>' +
       '<p class="note">' + (isVideo ? '영상 소개는 AI가 정리한 내용입니다. 정확한 내용은 영상을 확인해 주세요.'
+        : a.category === 'g2b' ? '공고 내용은 AI가 정리한 것입니다. 응찰 전 반드시 나라장터 원문 공고와 제안요청서를 확인해 주세요.'
         : '이 글은 원문 기사를 바탕으로 AI가 요약한 내용입니다. 정확한 내용은 원문을 확인해 주세요.') + '</p>' +
-      '<a class="cta" href="' + esc(a.url) + '" target="_blank" rel="noopener">' + (isVideo ? '유튜브에서 보기 ›' : '원문 보기 ›') + '</a>' +
+      '<a class="cta" href="' + esc(a.url) + '" target="_blank" rel="noopener">' + (isVideo ? '유튜브에서 보기 ›' : a.category === 'g2b' ? '공고 원문 보기 ›' : a.category === 'paper' ? '논문 원문 보기 ›' : '원문 보기 ›') + '</a>' +
       '<div class="actions">' +
         '<button class="act' + (v === 1 ? ' on' : '') + '" data-act="up">' + ICON.up + '좋아요</button>' +
         '<button class="act' + (v === -1 ? ' on' : '') + '" data-act="down">' + ICON.down + '싫어요</button>' +
