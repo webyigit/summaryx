@@ -1,0 +1,21 @@
+{
+ "title": "구글, AI 자동 제보 급증에 오픈소스 버그바운티 보상 일시 중단",
+ "originalTitle": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "구글이 10월 1일부터 오픈소스 소프트웨어 취약점 보상 프로그램(OSS VRP)에서 제품 취약점 제보 접수를 중단했다. 이유는 자동화된 제보가 크게 늘었는데 그 대부분이 유효하지 않았기 때문이다. Go, Angular, Protocol Buffers, Flutter, Bazel 같은 프로젝트가 대상이다.",
+  "기존 최대 7,500달러였던 보상 기준도 규정에서 삭제됐다. 10월 1일 이전 제보는 영향을 받지 않으며, 공급망 침해 관련 제보는 계속 받는다. 연구자들은 클라우드 취약점 보상 프로그램이나 패치 보상 프로그램 등 다른 경로를 이용할 수 있고, 구글은 2027년 1분기까지 프로그램 개편안을 내놓겠다고 밝혔다.",
+  "구글은 지난 3월 증명 요건을 강화했지만, 이후에도 AI가 만든 허위 취약점 보고가 문제로 지적돼 왔다. 생성형 AI가 보안 연구를 돕는 한편 저품질 제보로 관리자 부담을 키우는 부작용이 버그바운티 제도 자체를 흔들고 있다는 신호다."
+ ],
+ "keyPoints": [
+  "구글 OSS 버그바운티 제품 취약점 접수 중단",
+  "무효한 AI·자동 제보 급증이 원인",
+  "2027년 1분기까지 개편안 발표 예정"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCWoelMB7H9bFZJdDV7vP5M3a1ByvpHs8ub2SrBGOM1gz6r0Fg9cV1fplW5Q6mNBFtRlW99wDCSC-_6_sZBw0l4HsFvUDP5cCH2zmgcF4NK5wCOInv05K4hH2WMlKCA_G_psX4zB_hUcXid2MWx5fGDjaJvD1YjWBechwUdrhXK51dJYZ3PGsu0JQcT1U/s1600/google-bug-bounty.jpg",
+ "id": "261008-security-10",
+ "category": "security",
+ "collectedAt": "2026-10-08T01:15:19+09:00"
+}

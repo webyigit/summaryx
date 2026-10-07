@@ -1,0 +1,21 @@
+{
+ "title": "세이프월드, '생성형 AI 로봇 안전성 검증'으로 1200만 달러 투자 유치",
+ "originalTitle": "Can Safeworld convince people that GenAI robots won't hurt them?",
+ "source": "TechCrunch",
+ "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+ "publishedAt": "2026-10-05",
+ "summary": [
+  "생성형 AI로 움직이는 로봇은 기존 알고리즘보다 행동을 예측하기 어렵고, 현장마다 환경과 안전 기준도 다르다. 이 때문에 로봇이 사람을 다치게 하지 않는다는 걸 어떻게 증명할지가 상용화의 과제로 떠올랐다.",
+  "카네기멜런대 세이프 AI 랩 디렉터 딩 자오 등이 세운 세이프월드는 1200만 달러 이상의 시드 투자를 받으며 공개됐다. 샤인캐피털과 a16z 스피드런이 주도했다. 회사는 Genesis·MuJoCo 같은 시뮬레이터로 공장의 사각 코너 등 실제 환경과 디지털 인간 모델을 재현해 수천 가지 시나리오로 로봇 제어 시스템을 시험한다. 상자를 든 사람을 알아보거나 사람이 넘어졌을 때의 반응 등이 대상이다.",
+  "태양광 패널 설치 로봇 AI를 만드는 그릿로보틱스가 파트너로 참여했다. a16z 스피드런의 조너선 라이는 로봇이 설계·배치되는 지금이 산업 안전 표준을 만들 때라고 말했다."
+ ],
+ "keyPoints": [
+  "CMU 연구진 창업, 시드 1200만 달러+ 유치",
+  "디지털 인간 넣은 시뮬레이션으로 안전 검증",
+  "로봇 산업 안전 표준 선점 노려"
+ ],
+ "image": "https://techcrunch.com/wp-content/uploads/2026/10/Safeworld-Co-founders.jpg?resize=1200,800",
+ "id": "261008-robot-05",
+ "category": "robot",
+ "collectedAt": "2026-10-08T01:15:19+09:00"
+}

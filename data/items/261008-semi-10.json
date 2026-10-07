@@ -1,0 +1,21 @@
+{
+ "title": "케플러, 'HBM 대체' 저전력 메모리 2027년 양산 목표",
+ "originalTitle": "Kepler Targets 2027 for Energy-Saving HBM Alternative",
+ "source": "EE Times",
+ "url": "https://www.eetimes.com/kepler-aims-to-launch-energy-saving-replacement-for-hbm-in-2027/",
+ "publishedAt": "2026-10-05",
+ "summary": [
+  "2018년 설립된 미국 스타트업 케플러 컴퓨팅이 AI 칩의 메모리 병목을 풀 새 메모리를 2027년부터 생산한다. 생산은 글로벌파운드리와 협력하고, 자체 팹도 마련해 독자적인 3D·강유전체 메모리 기술을 키울 계획이다.",
+  "회사는 HBM보다 와트당 대역폭이 5~10배 높고, CMOS 호환성을 유지하면서 메모리 밀도는 2~3배, 용량은 SRAM의 10배 이상이라고 주장한다. 극자외선(EUV) 노광이 필요 없는 것도 장점이다. 데보 올라오세비칸 CEO는 오래된 큰 트랜지스터를 적게 쓰고 그 위에 메모리를 쌓는 방식이라고 설명했고, 모놀리식 적층으로 발열 문제를 피한다.",
+  "케플러는 HBM 대체형과 SRAM 대체형 두 가지 메모리를 개발했다. 인텔캐피털이 투자했고, 2027년 생산 물량은 이미 데이터센터 등 비공개 고객에게 모두 배정됐다. 강유전체 소재의 세부 내용은 국가안보를 이유로 공개하지 않았다."
+ ],
+ "keyPoints": [
+  "HBM 대비 와트당 대역폭 5~10배 주장",
+  "EUV 없이 생산, 글로벌파운드리와 협력",
+  "2027년 생산 물량 이미 전량 배정"
+ ],
+ "image": "https://www.eetimes.com/wp-content/uploads/77e050fc-c6a7-4a3f-a0bb-1cefcb9605c0.jpg?resize=1024%2C675",
+ "id": "261008-semi-10",
+ "category": "semi",
+ "collectedAt": "2026-10-08T01:15:19+09:00"
+}

@@ -1,0 +1,21 @@
+{
+ "title": "FBI \"포티넷 장비 노린 'FortiBleed' 여전히 활동 중… 자격증명 8만6천여 개 확보\"",
+ "originalTitle": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "미국 FBI와 비밀경호국(USSS)이 인터넷에 노출된 포티넷 방화벽과 SSL VPN 장비를 노리는 자격증명 수집 작전 'FortiBleed'가 여전히 진행 중이라고 경고했다. 이 작전은 과거에 유출된 자격증명과 취약한 구형 비밀번호 저장 방식을 악용해 인증 정보를 대규모로 확보해 왔다.",
+  "2026년 6월 기준 194개국에서 실제 작동하는 장비 자격증명 8만6,644개가 수집된 것으로 파악됐다. 러시아어권 조직으로 추정되며, 장비에 새 관리자 계정을 만들거나 기존 계정을 지워 정상 관리자를 차단하는 방식으로 장악을 유지한다.",
+  "당국은 감염 장비 격리, 로그 수집, 신고를 권고했고, CISA는 앞서 피싱에 강한 인증 도입, VPN·관리자 비밀번호 재설정, 안전한 비밀번호 저장 알고리즘 적용을 촉구했다. 기업 네트워크의 관문인 VPN 장비 관리가 여전히 핵심 과제임을 보여준다."
+ ],
+ "keyPoints": [
+  "포티넷 장비 자격증명 8만6,644개 수집",
+  "194개국 피해, 관리자 계정 조작해 장악 유지",
+  "비밀번호 재설정·강한 인증 도입 권고"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQZeKQIcHTVLgqnHpZYN73YclFawl51QxpykrKEb97sAJjA8qtN7FaUJaS0jLMeSS29cTB0nR_yFzsITX_e5SI8Xa8BfM1LDOGsEEEpDmVC8YNqOcEYEuep1UbHovyLlxrwRmYZ3FrbaaKq9eKwICiUTkkPleIibOHdWnbV5cpwYPCrHQasrTxVFA9seQ-/s1600/forti-admin.jpg",
+ "id": "261008-security-09",
+ "category": "security",
+ "collectedAt": "2026-10-08T01:15:19+09:00"
+}

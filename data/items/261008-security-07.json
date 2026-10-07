@@ -1,0 +1,21 @@
+{
+ "title": "패션 플랫폼 ASOS, 앱에 'HACKED' 알림 뜬 뒤 데이터 유출 인정",
+ "originalTitle": "ASOS confirms data breach after \"HACKED\" in-app notifications",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "영국 온라인 패션 리테일러 ASOS의 모바일 앱 사용자들에게 'ASOS HACKED'라는 비정상 푸시 알림이 발송되는 일이 벌어졌다. 알림에는 회사의 Snowflake(클라우드 데이터 플랫폼) 인스턴스를 완전히 장악했다는 주장이 담겼고, 스스로를 'Xuanye 그룹'이라 칭한 공격자들은 이용자를 텔레그램 채널로 유도하며 고객 정보를 훔쳤다고 주장했다.",
+  "ASOS는 외부 커뮤니케이션 플랫폼에 무단 접근이 있었다고 인정하며, 이름과 연락처 같은 기본 개인정보가 노출됐을 수 있다고 밝혔다. 결제 카드 정보와 계정 비밀번호는 유출되지 않았다는 입장이다.",
+  "다만 Snowflake 환경 접근 주장을 사실로 확인하지는 않았고 피해 고객 규모도 공개하지 않았다. 회사는 앱 내 공지로 해당 알림과 링크를 무시하라고 당부했다. 푸시 알림 같은 고객 접점 채널이 탈취되면 피싱 통로가 될 수 있다는 점을 보여준 사례다."
+ ],
+ "keyPoints": [
+  "앱 푸시로 'ASOS HACKED' 알림 무단 발송",
+  "이름·연락처 노출 가능, 카드·비밀번호는 무관",
+  "피해 규모 미공개…알림 속 링크 클릭 주의"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2026/10/06/asos-logo.jpg",
+ "id": "261008-security-07",
+ "category": "security",
+ "collectedAt": "2026-10-08T01:15:19+09:00"
+}

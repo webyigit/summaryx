@@ -1,0 +1,21 @@
+{
+ "title": "아틀라스의 새 로봇 손, 사람 손 닮은 설계보다 뛰어날 수도",
+ "originalTitle": "Atlas Robot's New Hand May Outperform Humanlike Designs",
+ "source": "IEEE Spectrum",
+ "url": "https://spectrum.ieee.org/robust-robot-hand",
+ "publishedAt": "2026-10-01",
+ "summary": [
+  "휴머노이드 경쟁에서 손은 가장 어려운 부품으로 꼽힌다. 많은 업체가 사람 손과 비슷한 외형을 추구하지만, 보스턴다이내믹스는 아틀라스의 새 손에서 내구성과 양산성을 우선했다.",
+  "새 손은 손가락 3개와 엄지 1개로 구성되며 자유도가 이전 세대 7에서 13으로 늘었다. 새끼손가락은 직접 시험해 본 뒤 제외했고, 손가락을 벌리는 기능으로 방아쇠가 달린 공구 손잡이도 쥘 수 있다. 끊어지기 쉬운 힘줄·케이블 없이 더 크고 강한 액추에이터를 직접 구동 방식으로 썼고, 액추에이터 팩은 쉽게 교체할 수 있다. 드릴이나 용접 토치도 다룰 수 있다.",
+  "로봇 행동 디렉터 알베르토 로드리게스는 손 설계가 냉정한 트레이드오프이며 많은 설계가 신뢰성과 양산성을 포기한다고 지적했다. 회사는 연간 10만 개 생산을 목표로 하고 있어, 실제 산업 투입을 염두에 둔 설계라는 평가다."
+ ],
+ "keyPoints": [
+  "손가락 3개+엄지, 자유도 7→13으로 증가",
+  "케이블 없는 직접구동·교체형 액추에이터",
+  "연 10만 개 양산 목표"
+ ],
+ "image": "https://spectrum.ieee.org/media-library/close-up-of-a-robotic-hand-with-three-fingers-and-a-thumb-making-a-gesture-similar-to-the-sign-of-the-horns.jpg?id=67879402&width=1200&height=600&coordinates=0%2C173%2C0%2C660",
+ "id": "261008-robot-02",
+ "category": "robot",
+ "collectedAt": "2026-10-08T01:15:19+09:00"
+}

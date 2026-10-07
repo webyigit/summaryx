@@ -1258,5 +1258,472 @@
     "space"
    ]
   }
+ ],
+ "robot": [
+  {
+   "name": "The Robot Report",
+   "url": "https://www.therobotreport.com/",
+   "keywords": [
+    "humanoid",
+    "physical AI",
+    "industrial robot",
+    "robotics funding"
+   ]
+  },
+  {
+   "name": "로봇신문",
+   "url": "https://www.irobotnews.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "휴머노이드",
+    "협동로봇",
+    "피지컬 AI",
+    "로봇 기업"
+   ]
+  },
+  {
+   "name": "IEEE Spectrum Robotics",
+   "url": "https://spectrum.ieee.org/topic/robotics/",
+   "keywords": [
+    "humanoid robot",
+    "robot hand",
+    "Video Friday",
+    "robotics research"
+   ]
+  },
+  {
+   "name": "TechCrunch Robotics",
+   "url": "https://techcrunch.com/category/robotics/",
+   "keywords": [
+    "robotics startup",
+    "humanoid",
+    "robot funding",
+    "Optimus"
+   ]
+  }
+ ],
+ "semi": [
+  {
+   "name": "ZDNet Korea 반도체",
+   "url": "https://zdnet.co.kr/news/?lstcode=0050&page=1",
+   "keywords": [
+    "반도체",
+    "HBM",
+    "삼성전자 DS",
+    "SK하이닉스",
+    "파운드리"
+   ]
+  },
+  {
+   "name": "전자신문 반도체",
+   "url": "https://www.etnews.com/news/section.html?id1=10",
+   "keywords": [
+    "반도체",
+    "메모리",
+    "소부장",
+    "팹",
+    "반도체 정책"
+   ]
+  },
+  {
+   "name": "디일렉(THE ELEC)",
+   "url": "https://www.thelec.kr/news/articleList.html?sc_section_code=S1N1&view_type=sm",
+   "keywords": [
+    "엑시노스",
+    "SK하이닉스 장비",
+    "패키징",
+    "파운드리 가격"
+   ]
+  },
+  {
+   "name": "Tom's Hardware Semiconductors",
+   "url": "https://www.tomshardware.com/feeds/tag/semiconductors",
+   "keywords": [
+    "TSMC",
+    "Intel 14A",
+    "ASML",
+    "DUV EUV",
+    "chipmaking"
+   ]
+  },
+  {
+   "name": "EE Times",
+   "url": "https://www.eetimes.com/",
+   "keywords": [
+    "HBM",
+    "memory",
+    "AI chip",
+    "foundry",
+    "DRAM"
+   ]
+  }
+ ],
+ "security": [
+  {
+   "name": "데일리시큐",
+   "url": "https://www.dailysecu.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "개인정보 유출",
+    "해킹",
+    "랜섬웨어",
+    "다크웹",
+    "보안 취약점"
+   ]
+  },
+  {
+   "name": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/",
+   "keywords": [
+    "data breach",
+    "ransomware",
+    "actively exploited",
+    "zero-day",
+    "security update"
+   ]
+  },
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/",
+   "keywords": [
+    "vulnerability",
+    "CISA",
+    "FBI warns",
+    "patch",
+    "malware campaign"
+   ]
+  },
+  {
+   "name": "Krebs on Security",
+   "url": "https://krebsonsecurity.com/",
+   "keywords": [
+    "cybercrime",
+    "arrest",
+    "Patch Tuesday",
+    "extortion"
+   ]
+  }
+ ],
+ "book": [
+  {
+   "name": "경향신문 책",
+   "url": "https://www.khan.co.kr/culture/book/articles",
+   "keywords": [
+    "신간",
+    "베스트셀러",
+    "작가 인터뷰",
+    "[새책]"
+   ]
+  },
+  {
+   "name": "채널예스",
+   "url": "https://ch.yes24.com/",
+   "keywords": [
+    "작가 인터뷰",
+    "노벨문학상",
+    "책 큐레이션"
+   ]
+  },
+  {
+   "name": "Publishing Perspectives",
+   "url": "https://publishingperspectives.com/",
+   "keywords": [
+    "publishing industry",
+    "book fair",
+    "literary prize",
+    "rights"
+   ]
+  },
+  {
+   "name": "Literary Hub",
+   "url": "https://lithub.com/category/news/",
+   "keywords": [
+    "Nobel Prize in Literature",
+    "Booker Prize",
+    "author interview",
+    "longlist"
+   ]
+  },
+  {
+   "name": "National Book Foundation",
+   "url": "https://www.nationalbook.org/category/news/",
+   "keywords": [
+    "National Book Awards",
+    "finalists",
+    "longlist"
+   ]
+  },
+  {
+   "name": "아주경제",
+   "url": "https://www.ajunews.com/",
+   "keywords": [
+    "노벨문학상",
+    "출판계",
+    "베스트셀러"
+   ]
+  }
+ ],
+ "show": [
+  {
+   "name": "뉴시스 공연·문화",
+   "url": "https://www.newsis.com/culture/list/?cid=10700&scid=10702",
+   "keywords": [
+    "뮤지컬 개막",
+    "연극",
+    "클래식 공연",
+    "축제"
+   ]
+  },
+  {
+   "name": "뉴스컬처",
+   "url": "https://www.nc.press/news/articleList.html?sc_section_code=S1N2&view_type=sm",
+   "keywords": [
+    "공연",
+    "뮤지컬",
+    "전시",
+    "팝업"
+   ]
+  },
+  {
+   "name": "Playbill",
+   "url": "https://www.playbill.com/news",
+   "keywords": [
+    "Broadway",
+    "West End",
+    "musical casting"
+   ]
+  },
+  {
+   "name": "뉴시스 문화",
+   "url": "https://www.newsis.com/culture/list/?cid=10700&scid=10701",
+   "keywords": [
+    "음악제",
+    "전시회",
+    "문화행사"
+   ]
+  }
+ ],
+ "arch": [
+  {
+   "name": "Dezeen 건축",
+   "url": "https://www.dezeen.com/architecture/",
+   "keywords": [
+    "architecture",
+    "museum extension",
+    "housing"
+   ]
+  },
+  {
+   "name": "Dezeen 인테리어",
+   "url": "https://www.dezeen.com/interiors/",
+   "keywords": [
+    "interiors",
+    "retail store",
+    "restaurant",
+    "hotel"
+   ]
+  },
+  {
+   "name": "ArchDaily",
+   "url": "https://www.archdaily.com/",
+   "keywords": [
+    "architecture news",
+    "museum reopens",
+    "sustainable construction"
+   ]
+  },
+  {
+   "name": "SPACE(공간)",
+   "url": "https://vmspace.com/",
+   "keywords": [
+    "설계공모",
+    "건축상",
+    "건축전시"
+   ]
+  },
+  {
+   "name": "월간 디자인",
+   "url": "https://design.co.kr/",
+   "keywords": [
+    "플래그십 스토어",
+    "공간 디자인",
+    "인테리어"
+   ]
+  }
+ ],
+ "travel": [
+  {
+   "name": "여행신문",
+   "url": "https://www.traveltimes.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "유류할증료",
+    "항공 노선",
+    "방한 관광객",
+    "여행업계"
+   ]
+  },
+  {
+   "name": "투어코리아",
+   "url": "https://www.tournews21.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "가을 축제",
+    "가볼 만한 곳",
+    "항공사 통합",
+    "호텔"
+   ]
+  },
+  {
+   "name": "Skift",
+   "url": "https://skift.com/news/",
+   "keywords": [
+    "airlines",
+    "hotels",
+    "Airbnb",
+    "travel trends"
+   ]
+  },
+  {
+   "name": "Lonely Planet",
+   "url": "https://www.lonelyplanet.com/news",
+   "keywords": [
+    "travel news",
+    "airline policy",
+    "destinations",
+    "visa"
+   ]
+  }
+ ],
+ "health": [
+  {
+   "name": "ScienceDaily Health & Medicine",
+   "url": "https://www.sciencedaily.com/news/health_medicine/",
+   "keywords": [
+    "study",
+    "diet",
+    "sleep",
+    "exercise",
+    "public health"
+   ]
+  },
+  {
+   "name": "코메디닷컴",
+   "url": "https://kormedi.com/",
+   "keywords": [
+    "연구팀",
+    "국제학술지",
+    "임상시험",
+    "건강"
+   ]
+  },
+  {
+   "name": "하이닥 뉴스",
+   "url": "https://news.hidoc.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "연구 결과",
+    "코호트",
+    "위험",
+    "저널"
+   ]
+  },
+  {
+   "name": "NIH News Releases",
+   "url": "https://www.nih.gov/news-events/news-releases",
+   "keywords": [
+    "NIH-funded study",
+    "prevention",
+    "research"
+   ]
+  }
+ ],
+ "edu": [
+  {
+   "name": "한국교육신문",
+   "url": "https://www.hangyo.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "대입개편",
+    "수능",
+    "고교학점제",
+    "교육부 국감",
+    "학생 캠프"
+   ]
+  },
+  {
+   "name": "에듀진",
+   "url": "https://www.edujin.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "학생부",
+    "수시",
+    "논술",
+    "학종",
+    "고교 학교생활"
+   ]
+  },
+  {
+   "name": "에듀프레스",
+   "url": "https://www.edupress.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "교육감",
+    "교원 선발",
+    "교육정책"
+   ]
+  },
+  {
+   "name": "뉴스1 교육",
+   "url": "https://www.news1.kr/society/education",
+   "keywords": [
+    "교육부",
+    "학생 대회",
+    "수능"
+   ]
+  },
+  {
+   "name": "뉴시스",
+   "url": "https://www.newsis.com/society/list/?cid=10200&scid=10204",
+   "keywords": [
+    "수험생",
+    "청소년",
+    "수능"
+   ]
+  }
+ ],
+ "kpop": [
+  {
+   "name": "The Korea Times K-pop",
+   "url": "https://www.koreatimes.co.kr/entertainment/k-pop",
+   "keywords": [
+    "K-pop comeback",
+    "Billboard",
+    "world tour",
+    "album"
+   ]
+  },
+  {
+   "name": "Soompi",
+   "url": "https://www.soompi.com/feed",
+   "keywords": [
+    "comeback",
+    "music show win",
+    "Billboard chart",
+    "concert"
+   ]
+  },
+  {
+   "name": "텐아시아 뮤직",
+   "url": "https://www.tenasia.co.kr/music",
+   "keywords": [
+    "컴백",
+    "신곡",
+    "월드투어",
+    "스트리밍 기록"
+   ]
+  },
+  {
+   "name": "allkpop",
+   "url": "https://www.allkpop.com",
+   "keywords": [
+    "Billboard 200",
+    "chart",
+    "comeback",
+    "tour"
+   ]
+  }
  ]
 }

@@ -1,0 +1,21 @@
+{
+ "title": "日 반도체 장비사 어드밴테스트, 랜섬웨어 공격으로 개인정보 탈취 확인",
+ "originalTitle": "Advantest confirms personal information stolen in ransomware attack",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "일본 반도체 테스트 장비 기업 어드밴테스트가 2026년 2월 15일 발생한 랜섬웨어 공격 당시 개인정보가 탈취됐다고 10월 6일자 공지로 확인했다. 회사는 권한 없는 제3자가 시스템에 접근해 서버에서 일부 데이터를 빼냈다고 밝혔다.",
+  "노출된 정보에는 연락처, 생년월일, 사회보장번호와 각국 신분증 번호, 운전면허·여권 정보, 의료 정보, 금융 정보 등이 포함된다. 다만 피해 인원이 몇 명인지, 고객·직원·협력사 중 누구의 정보인지는 공개하지 않았다.",
+  "회사는 유출 데이터가 유포되거나 악용된 정황은 없다면서도 신원도용 위험을 인정하고, 피해자에게 18개월간 무료 신원도용 모니터링 서비스를 제공한다. 사고 발생 후 약 8개월 만에 개인정보 피해를 공식화한 셈이며, 아직 공격을 자처한 랜섬웨어 조직은 없다."
+ ],
+ "keyPoints": [
+  "2월 랜섬웨어 공격으로 개인정보 탈취 공식 확인",
+  "여권·의료·금융 정보 등 민감정보 포함",
+  "피해 규모 미공개, 18개월 모니터링 제공"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2026/02/20/Advantest.jpg",
+ "id": "261008-security-06",
+ "category": "security",
+ "collectedAt": "2026-10-08T01:15:19+09:00"
+}

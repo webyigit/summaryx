@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>아틀라시안 치명적 취약점, PoC 공개 2시간 만에 실제 공격 시작 | summaryx</title>
+<meta name="description" content="Jira, Confluence, Bitbucket 등 기업이 직접 설치해 운영하는 아틀라시안 데이터센터 제품군에서 발견된 치명적 파일 접근 취약점(CVE-2026-21589)이 실제 공격에 악용되고 있다. 이 결함은 로그인하지 않은 공격자가 파일 경로만 알면 서버의 특">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="아틀라시안 치명적 취약점, PoC 공개 2시간 만에 실제 공격 시작">
+<meta property="og:description" content="Jira, Confluence, Bitbucket 등 기업이 직접 설치해 운영하는 아틀라시안 데이터센터 제품군에서 발견된 치명적 파일 접근 취약점(CVE-2026-21589)이 실제 공격에 악용되고 있다. 이 결함은 로그인하지 않은 공격자가 파일 경로만 알면 서버의 특">
+<meta property="og:image" content="https://www.bleepstatic.com/content/hl-images/2022/04/11/Atlassian-headpic.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="../../#/a/261008-security-05">
+<script>location.replace('../../#/a/261008-security-05');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261008-security-05">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">아틀라시안 치명적 취약점, PoC 공개 2시간 만에 실제 공격 시작</h1>
+<p>Jira, Confluence, Bitbucket 등 기업이 직접 설치해 운영하는 아틀라시안 데이터센터 제품군에서 발견된 치명적 파일 접근 취약점(CVE-2026-21589)이 실제 공격에 악용되고 있다. 이 결함은 로그인하지 않은 공격자가 파일 경로만 알면 서버의 특정 파일을 읽을 수 있게 한다.</p><p>보안업체 watchTowr가 상세 분석과 개념증명(PoC) 코드를 공개한 지 불과 2시간 만에 공격 시도가 탐지됐고, 이후 자동 스캔 템플릿까지 나오며 공격이 쉬워졌다. 특히 Crowd와 연동된 Jira 환경에서는 설정 파일에 저장된 평문 자격증명을 읽어 관리자 계정을 만드는 데까지 이어질 수 있다.</p><p>권고 사항은 즉시 보안 업데이트 적용, 외부 네트워크 접근 제한, 웹방화벽(WAF)·프록시 규칙으로 경로 조작 요청 차단 등이다. 패치 공개와 PoC 공개 사이의 간격이 점점 짧아지는 만큼, 셀프 호스팅 협업 도구를 쓰는 기업은 패치를 미루지 말아야 한다는 경고로 읽힌다.</p>
+<p><a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/">원문 보기</a></p>
+</body></html>
