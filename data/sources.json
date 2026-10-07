@@ -1818,5 +1818,290 @@
     "bidPbancNo=공고번호"
    ]
   }
+ ],
+ "winepick": [
+  {
+   "name": "Decanter",
+   "url": "https://www.decanter.com/wine-reviews-tastings/",
+   "keywords": [
+    "panel tasting",
+    "best buys",
+    "wines to try",
+    "DWWA"
+   ]
+  },
+  {
+   "name": "VinePair",
+   "url": "https://vinepair.com/buy-this-booze/",
+   "keywords": [
+    "best wines 2026",
+    "sommeliers pick",
+    "under $30"
+   ]
+  },
+  {
+   "name": "Wine Enthusiast",
+   "url": "https://www.wineenthusiast.com/ratings/",
+   "keywords": [
+    "Best Buy",
+    "Editors' Choice",
+    "top 100"
+   ]
+  },
+  {
+   "name": "Wine Spectator",
+   "url": "https://www.winespectator.com/",
+   "keywords": [
+    "new wine reviews",
+    "values",
+    "daily wine pick"
+   ]
+  },
+  {
+   "name": "The Drinks Business",
+   "url": "https://www.thedrinksbusiness.com/",
+   "keywords": [
+    "best bottles",
+    "Masters",
+    "tasting"
+   ]
+  },
+  {
+   "name": "와인21",
+   "url": "https://www.wine21.com/11_news/news_list.html",
+   "keywords": [
+    "이달의 와인",
+    "와인21 도슨트",
+    "신규 와인",
+    "큐레이션"
+   ]
+  }
+ ],
+ "wineregion": [
+  {
+   "name": "Vinetur (English)",
+   "url": "https://www.vinetur.com/en/",
+   "keywords": [
+    "harvest 2026",
+    "vintage",
+    "appellation",
+    "drought",
+    "hail"
+   ]
+  },
+  {
+   "name": "The Drinks Business",
+   "url": "https://www.thedrinksbusiness.com/",
+   "keywords": [
+    "harvest",
+    "vintage",
+    "Champagne",
+    "region",
+    "behind the bottle"
+   ]
+  },
+  {
+   "name": "Decanter",
+   "url": "https://www.decanter.com/wine-news/",
+   "keywords": [
+    "Bordeaux",
+    "Burgundy",
+    "harvest report",
+    "vintage"
+   ]
+  },
+  {
+   "name": "Wine Spectator",
+   "url": "https://www.winespectator.com/",
+   "keywords": [
+    "Napa",
+    "winery",
+    "vintage report",
+    "harvest"
+   ]
+  },
+  {
+   "name": "Wine Industry Advisor",
+   "url": "https://wineindustryadvisor.com/",
+   "keywords": [
+    "California harvest",
+    "vintage preview",
+    "Sonoma",
+    "Napa"
+   ]
+  },
+  {
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "산지",
+    "빈티지",
+    "와이너리",
+    "수확"
+   ]
+  }
+ ],
+ "winepair": [
+  {
+   "name": "와인21",
+   "url": "https://www.wine21.com/11_news/news_list.html",
+   "keywords": [
+    "[와인 & 푸드]",
+    "페어링",
+    "어울리는 와인",
+    "추석 와인"
+   ]
+  },
+  {
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "와인 페어링",
+    "미식",
+    "가을 와인"
+   ]
+  },
+  {
+   "name": "Wine Spectator (Cooking/Recipes)",
+   "url": "https://www.winespectator.com/food/cooking",
+   "keywords": [
+    "wine pairing recipe",
+    "Which Wines Pair Well With",
+    "8 & $20"
+   ]
+  },
+  {
+   "name": "Wine Enthusiast",
+   "url": "https://www.wineenthusiast.com/recipes/",
+   "keywords": [
+    "recipe wine pairing",
+    "dinner party",
+    "food and wine"
+   ]
+  },
+  {
+   "name": "VinePair",
+   "url": "https://vinepair.com/tag/food-pairing/",
+   "keywords": [
+    "food pairing",
+    "cheese",
+    "what to drink with"
+   ]
+  },
+  {
+   "name": "파이낸셜뉴스 [Weekend 와인]",
+   "url": "https://www.fnnews.com/",
+   "keywords": [
+    "Weekend 와인",
+    "어울리는 음식"
+   ]
+  }
+ ],
+ "winestudy": [
+  {
+   "name": "Wine Folly",
+   "url": "https://winefolly.com/",
+   "keywords": [
+    "grape guide",
+    "deep dive",
+    "wine basics"
+   ]
+  },
+  {
+   "name": "VinePair",
+   "url": "https://vinepair.com/articles/",
+   "keywords": [
+    "Ask a Wine Pro",
+    "Wine 101",
+    "grape varieties",
+    "explained"
+   ]
+  },
+  {
+   "name": "Decanter",
+   "url": "https://www.decanter.com/archive/2026/10/",
+   "keywords": [
+    "smart buyer's guide",
+    "grape varieties",
+    "what is",
+    "explained"
+   ]
+  },
+  {
+   "name": "Wine Enthusiast",
+   "url": "https://www.wineenthusiast.com/basics/",
+   "keywords": [
+    "drinks terms defined",
+    "grapes 101",
+    "how it's made"
+   ]
+  },
+  {
+   "name": "와인21",
+   "url": "https://www.wine21.com/11_news/news_list.html",
+   "keywords": [
+    "와인상식",
+    "도슨트",
+    "코르크",
+    "품종"
+   ]
+  },
+  {
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?sc_section_code=S1N1&view_type=sm",
+   "keywords": [
+    "와인 칼럼",
+    "와인 역사",
+    "와인으로 읽는 세계"
+   ]
+  }
+ ],
+ "wineko": [
+  {
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "와인 마켓 인사이트",
+    "수입 와인",
+    "와인 페스티벌",
+    "시음회"
+   ]
+  },
+  {
+   "name": "와인21",
+   "url": "https://www.wine21.com/11_news/news_list.html",
+   "keywords": [
+    "수입사 시음회",
+    "이달의 와인",
+    "와인 행사",
+    "한국와인"
+   ]
+  },
+  {
+   "name": "이투데이",
+   "url": "https://www.etoday.co.kr/",
+   "keywords": [
+    "편의점 와인",
+    "와인 매출",
+    "단독 와인"
+   ]
+  },
+  {
+   "name": "비즈니스플러스",
+   "url": "https://www.businessplus.kr/",
+   "keywords": [
+    "마트 와인",
+    "편의점 와인 신상"
+   ]
+  },
+  {
+   "name": "파이낸셜뉴스",
+   "url": "https://www.fnnews.com/",
+   "keywords": [
+    "Weekend 와인",
+    "와인 수입사 신규 수입",
+    "주류 신상"
+   ]
+  }
  ]
 }
