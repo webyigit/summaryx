@@ -215,6 +215,101 @@
                   : '<div class="empty">기사 상세에서 🔖 를 누르면 여기에 저장돼요.</div>');
   }
 
+  // ---- 검색 ----
+  var searches = load('searches', []); // 최근 검색어(최신순)
+  var STOP = ' 공개 출시 시작 만에 추진 올해 2026 2027 2027년 10월 11월 12월 9월 동시 도입 조건 마지막 세계 돌파 추가 기반 최초 개막 한국 만든 다시 만의 이상 앞두고 지원 진출 반등 위해 위한 이후 첫 관련 통해 발표 공식 사상 새로운 가장 역대 확인 기록 계획 예정 1위 처음 대해 분기 함께 따라 넘어 이유 중인 이번 ';
+  function suggest() {
+    // 최근 3일 기사 제목에서 자주 나온 단어
+    var days = [], cnt = {}, seen = {};
+    state.articles.forEach(function (a) { var d = (a.collectedAt || '').slice(0, 10); if (days.indexOf(d) < 0) days.push(d); });
+    days = days.slice(0, 3);
+    state.articles.forEach(function (a) {
+      if (days.indexOf((a.collectedAt || '').slice(0, 10)) < 0) return;
+      var ws = {};
+      (a.title.match(/[가-힣A-Za-z][가-힣A-Za-z0-9·\-]{1,}/g) || []).forEach(function (w) { ws[w] = 1; });
+      Object.keys(ws).forEach(function (w) { if (STOP.indexOf(' ' + w + ' ') < 0) cnt[w] = (cnt[w] || 0) + 1; });
+    });
+    return Object.keys(cnt).filter(function (w) { return cnt[w] >= 2; })
+      .sort(function (x, y) { return cnt[y] - cnt[x] || x.localeCompare(y); })
+      .filter(function (w) { var k = w.toLowerCase(); if (seen[k]) return false; seen[k] = 1; return true; })
+      .slice(0, 12);
+  }
+  function badge(q, cls) {
+    return '<a class="badge' + (cls ? ' ' + cls : '') + '" href="#/search/' + encodeURIComponent(q) + '">' + esc(q) + '</a>';
+  }
+  function searchView(q) {
+    $chips.style.display = 'none';
+    q = (q || '').trim();
+    if (q) {
+      searches = [q].concat(searches.filter(function (x) { return x !== q; })).slice(0, 12);
+      save('searches', searches);
+    }
+    var html = '<form class="sbox" id="sform"><input id="sq" type="search" enterkeyhint="search" placeholder="기사 제목·내용·매체 검색" value="' + esc(q) + '" autocomplete="off">' +
+      '<button type="submit" aria-label="검색">검색</button></form>';
+    if (searches.length) html += '<div class="sh"><b>최근 검색어</b><button type="button" id="sclear">전체 삭제</button></div><div class="badges">' +
+      searches.map(function (x) {
+        return '<span class="badge recent' + (x === q ? ' on' : '') + '"><a href="#/search/' + encodeURIComponent(x) + '">' + esc(x) + '</a>' +
+          '<button type="button" data-del="' + esc(x) + '" aria-label="' + esc(x) + ' 삭제">×</button></span>';
+      }).join('') + '</div>';
+    var sg = suggest();
+    if (sg.length) html += '<div class="sh"><b>추천 키워드</b><small>최근 기사에서 많이 나온 말</small></div><div class="badges">' +
+      sg.map(function (x) { return badge(x, x === q ? 'on' : ''); }).join('') + '</div>';
+    if (q) {
+      var terms = q.toLowerCase().split(/\s+/);
+      var res = state.articles.filter(function (a) {
+        var t = [a.title, a.originalTitle, a.source, (a.summary || []).join(' '), (a.keyPoints || []).join(' '), CAT_NAME[a.category]].join(' ').toLowerCase();
+        return terms.every(function (w) {
+          // 짧은 영문(AI, IT 등)은 단어 단위로만 (said·Spain 같은 오탐 방지)
+          return /^[a-z0-9]{1,3}$/.test(w) ? new RegExp('(^|[^a-z0-9])' + w + '([^a-z0-9]|$)').test(t) : t.indexOf(w) >= 0;
+        });
+      });
+      // 결과는 섹션·세부 분류 순서대로 묶는다
+      var order = [];
+      SECTIONS.forEach(function (S) { S.cats.forEach(function (c) { order.push(c[0]); }); });
+      var groups = order.map(function (c) { return { c: c, items: res.filter(function (a) { return a.category === c; }) }; })
+        .filter(function (g) { return g.items.length; });
+      var flat = [];
+      groups.forEach(function (g) { flat = flat.concat(g.items); });
+      setCtx(flat, '#/search/' + encodeURIComponent(q));
+      html += '<div class="sec-title">‘' + esc(q) + '’ 검색 결과<small>' + res.length + '건</small></div>';
+      if (!res.length) html += '<div class="empty">검색 결과가 없어요. 다른 단어로 찾아보세요.</div>';
+      else {
+        html += '<div class="badges jump">' + groups.map(function (g) {
+          return '<a class="badge" href="#" data-jump="' + g.c + '">' + esc(CAT_NAME[g.c]) + ' <b>' + g.items.length + '</b></a>';
+        }).join('') + '</div>';
+        html += groups.map(function (g) {
+          return '<div class="rgroup" id="g-' + g.c + '"><div class="day">' + esc(SEC[CAT_SEC[g.c]].name + ' › ' + CAT_NAME[g.c]) + ' · ' + g.items.length + '건</div>' +
+            '<div class="list">' + g.items.map(itemHtml).join('') + '</div></div>';
+        }).join('');
+      }
+    }
+    $app.innerHTML = '<div class="search">' + html + '</div>';
+    var $q = document.getElementById('sq');
+    document.getElementById('sform').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var v = $q.value.trim();
+      if (v) location.hash = '#/search/' + encodeURIComponent(v);
+      $q.blur();
+    });
+    if (!q) $q.focus();
+    var clr = document.getElementById('sclear');
+    if (clr) clr.addEventListener('click', function () { searches = []; save('searches', searches); searchView(q); });
+    $app.querySelectorAll('[data-del]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var x = b.getAttribute('data-del');
+        searches = searches.filter(function (y) { return y !== x; }); save('searches', searches);
+        searchView(q === x ? '' : q);
+      });
+    });
+    $app.querySelectorAll('[data-jump]').forEach(function (b) {
+      b.addEventListener('click', function (e) {
+        e.preventDefault();
+        var el = document.getElementById('g-' + b.getAttribute('data-jump'));
+        if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 70, behavior: 'smooth' });
+      });
+    });
+  }
+
   var ICON = {
     up: '<svg viewBox="0 0 24 24"><path d="M7 10v11H3V10zM7 10l4-8a3 3 0 0 1 3 3v4h6a2 2 0 0 1 2 2.3l-1.4 8A2 2 0 0 1 18.6 21H7"/></svg>',
     down: '<svg viewBox="0 0 24 24"><path d="M17 14V3h4v11zM17 14l-4 8a3 3 0 0 1-3-3v-4H4a2 2 0 0 1-2-2.3l1.4-8A2 2 0 0 1 5.4 3H17"/></svg>',
@@ -308,6 +403,11 @@
     var h = location.hash.replace(/^#\/?/, '');
     var parts = h.split('/');
     if (parts[0] === 'a' && parts[1]) { setTab(''); detail(decodeURIComponent(parts[1])); window.scrollTo(0, 0); return; }
+    if (parts[0] === 'search') {
+      setTab(''); var sq = parts.slice(1).join('/');
+      try { sq = decodeURIComponent(sq); } catch (e) {}
+      searchView(sq); window.scrollTo(0, 0); return;
+    }
     if (parts[0] === 'bookmarks') { setTab('bookmarks'); bookmarksView(); window.scrollTo(0, 0); return; }
     setTab('home');
     if (parts[0] === 'c' && CAT_SEC[parts[1]]) home(CAT_SEC[parts[1]], parts[1]);
