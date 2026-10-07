@@ -77,6 +77,12 @@
     var end = Date.UTC(+m[1], m[2] - 1, +m[3], m[4] ? +m[4] - 9 : 14, m[4] ? +m[5] : 59, m[4] ? 0 : 59);
     return end < Date.now();
   }
+  // 나라장터: 구축형(구축·개편·고도화·리뉴얼·개발·개선) 공고는 사업예산 1억 원 이하면 숨긴다. 운영·유지관리만인 건은 그대로
+  function bidSmallBuild(a) {
+    if (!/구축|개편|고도화|리뉴얼|개발|개선/.test(a.title || '')) return false;
+    var m = String(fact(a, '사업예산')).replace(/,/g, '').match(/\d{5,}/);
+    return !!m && +m[0] <= 1e8; // 금액을 모르면 숨기지 않는다
+  }
   // 나라장터 목록: 발주처·금액·기간을 크게
   function won(v) {
     var m = String(v || '').replace(/,/g, '').match(/\d{5,}/);
@@ -116,8 +122,8 @@
       return (b.collectedAt || '').slice(0, 10).localeCompare((a.collectedAt || '').slice(0, 10)) ||
              (b.publishedAt || '').localeCompare(a.publishedAt || '') || a.id.localeCompare(b.id);
     });
-    // 나라장터: 입찰 마감이 지난 공고는 숨긴다(접속 시점 기준, 매일 자동 적용)
-    state.articles = state.articles.filter(function (a) { return a.category !== 'g2b' || !bidClosed(a); });
+    // 나라장터: 입찰 마감이 지난 공고, 1억 원 이하 구축형 공고는 숨긴다(접속 시점 기준, 매일 자동 적용)
+    state.articles = state.articles.filter(function (a) { return a.category !== 'g2b' || !(bidClosed(a) || bidSmallBuild(a)); });
     state.updatedAt = res[0].updatedAt;
     state.daily = res[1];
     state.articles.forEach(function (a) { state.byId[a.id] = a; });
