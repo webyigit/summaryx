@@ -270,3 +270,18 @@ main { padding: 0 16px; }
 .bid small { display: block; font-size: 11px; color: var(--sub); font-weight: 600; }
 .bid b { display: block; font-size: 15px; line-height: 1.35; font-weight: 800; color: var(--ink); overflow-wrap: anywhere; }
 .bid b.na { font-size: 13px; color: var(--sub); font-weight: 600; }
+
+/* PC: 가로폭 100%, 어두운 스크롤바 */
+@media (min-width: 1100px) {
+  body { max-width: none; }
+  .tabbar { max-width: none; }
+  .totop { right: 24px; }
+  .top, .chips { padding-left: 32px; padding-right: 32px; }
+  main { padding: 0 32px; }
+  .split { grid-template-columns: minmax(420px, 32%) 1fr; gap: 32px; }
+  html, .pane, .today, .tcard { scrollbar-width: thin; scrollbar-color: #4a4a50 #1a1a1c; }
+  .pane::-webkit-scrollbar, html::-webkit-scrollbar { width: 10px; height: 10px; }
+  .pane::-webkit-scrollbar-track, html::-webkit-scrollbar-track { background: #1a1a1c; }
+  .pane::-webkit-scrollbar-thumb, html::-webkit-scrollbar-thumb { background: #4a4a50; border-radius: 10px; border: 2px solid #1a1a1c; }
+  .pane::-webkit-scrollbar-thumb:hover, html::-webkit-scrollbar-thumb:hover { background: #6a6a72; }
+}
