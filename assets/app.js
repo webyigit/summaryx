@@ -155,7 +155,7 @@
       (d.quote.original ? '<div class="mut">' + esc(d.quote.original) + '</div>' : '') +
       '<div class="mut">— ' + esc(d.quote.author) + '</div></div>');
     if (d.art) cards.push('<a class="tcard art" href="' + esc(d.art.page || d.art.image) + '" target="_blank" rel="noopener">' +
-      '<img src="' + esc(d.art.image) + '" alt="' + esc(d.art.title) + '" loading="lazy">' +
+      '<img src="' + esc(d.art.image) + '" alt="' + esc(d.art.title) + '" referrerpolicy="no-referrer" onerror="this.remove()">' +
       '<div class="in"><span class="lbl">오늘의 그림</span>' +
       '<div class="big">' + esc(d.art.title) + '</div>' +
       '<div class="mut">' + esc(d.art.artist) + (d.art.year ? ', ' + esc(d.art.year) : '') + '</div>' +

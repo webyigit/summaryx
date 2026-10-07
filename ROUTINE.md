@@ -47,7 +47,7 @@
 ```
 - 말씀: 저작권 만료된 **개역한글** 본문만, 웹에서 실제 확인한 문장. 최근 30일 안에 쓴 구절 반복 금지(git log로 확인).
 - 명언: 출처가 확인되는 실존 인물의 말만.
-- 그림: 퍼블릭 도메인만. Art Institute of Chicago API(`https://api.artic.edu/api/v1/artworks/search?q=...&fields=id,title,artist_display,date_display,image_id,is_public_domain`, 이미지 `https://www.artic.edu/iiif/2/{image_id}/full/843,/0/default.jpg`)에서 `is_public_domain=true` 확인.
+- 그림: 퍼블릭 도메인(CC0)만. **Cleveland Museum of Art Open Access API**(`https://openaccess-api.clevelandart.org/api/artworks/?q=<작가·주제>&has_image=1&cc0=1&type=Painting&limit=10`)에서 고르고 `images.web.url`(openaccess-cdn.clevelandart.org)을 image로, `https://clevelandart.org/art/<accession_number>`를 page로 쓴다. 설명은 API `description` 내용만 근거로. ※ Art Institute of Chicago IIIF 이미지(artic.edu/iiif)는 403으로 막혀 사이트에서 안 보이므로 쓰지 않는다.
 
 ## 4. 반영·배포
 ```bash
