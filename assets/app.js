@@ -274,7 +274,7 @@
   }
 
   // sec: 섹션 id, cat: 세부 분류(없으면 섹션 전체)
-  // amt: 나라장터 금액 구분('s' 1억 이하, 'l' 1억 초과)
+  // amt: 나라장터 금액 구분('s' 1억 이하, 'l' 1억 초과, '5' 5억 이상, '10' 10억 이상)
   function home(sec, cat, amt) {
     renderChips(sec);
     var S = SEC[sec], ids = S.cats.map(function (c) { return c[0]; });
@@ -283,11 +283,12 @@
     });
     if (sec === 'bid' && amt) arr = arr.filter(function (a) {
       var n = bidAmt(a);
-      return n !== null && (amt === 's' ? n <= 1e8 : n > 1e8);
+      var lim = { s: [0, 1e8], l: [1e8 + 1, Infinity], '5': [5e8, Infinity], '10': [1e9, Infinity] }[amt];
+      return n !== null && n >= lim[0] && n <= lim[1];
     });
     var href = cat ? '#/c/' + cat : secHref(sec) + (sec === 'bid' && amt ? '/' + amt : '');
     setCtx(arr, href);
-    var subs = sec === 'bid' ? '<div class="subs">' + [['', '전체'], ['s', '1억 이하'], ['l', '1억 이상']].map(function (o) {
+    var subs = sec === 'bid' ? '<div class="subs">' + [['', '전체'], ['s', '1억 이하'], ['l', '1억 이상'], ['5', '5억 이상'], ['10', '10억 이상']].map(function (o) {
         return '<a class="sub' + ((amt || '') === o[0] ? ' on' : '') + '" href="#/s/bid' + (o[0] ? '/' + o[0] : '') + '">' + o[1] + '</a>';
       }).join('') + '</div>' : S.cats.length > 1 ? '<div class="subs"><a class="sub' + (cat ? '' : ' on') + '" href="' + secHref(sec) + '">전체</a>' +
       S.cats.filter(function (c) { return hasCat(c[0]) || c[0] === cat; }).map(function (c) {
@@ -577,7 +578,7 @@
     if (parts[0] === 'links') { setTab('links'); linksView(); return; }
     setTab('home');
     if (parts[0] === 'c' && CAT_SEC[parts[1]]) home(CAT_SEC[parts[1]], parts[1]);
-    else if (parts[0] === 's' && SEC[parts[1]]) home(parts[1], null, parts[1] === 'bid' && /^[sl]$/.test(parts[2] || '') ? parts[2] : null);
+    else if (parts[0] === 's' && SEC[parts[1]]) home(parts[1], null, parts[1] === 'bid' && /^(s|l|5|10)$/.test(parts[2] || '') ? parts[2] : null);
     else home('all');
   }
   function fitPanes() {
