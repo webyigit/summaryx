@@ -1783,40 +1783,7 @@
  "g2b": [
   {
    "name": "조달데이터 JODALDATA (나라장터 공고 검색)",
-   "url": "https://jodaldata.com/bids.php?q=홈페이지",
-   "keywords": [
-    "홈페이지",
-    "누리집",
-    "리뉴얼",
-    "유지관리 홈페이지",
-    "고도화",
-    "플랫폼"
-   ]
-  },
-  {
-   "name": "pikk 광고·마케팅 입찰정보",
-   "url": "https://pikk.co.kr/bids?search=홈페이지",
-   "keywords": [
-    "홈페이지",
-    "SNS",
-    "온라인 홍보",
-    "플랫폼"
-   ]
-  },
-  {
-   "name": "비드프로 입찰정보",
-   "url": "https://www.bidpro.co.kr/n0_ipchal/konggo/svc/konggo_view.asp?num=3012518",
-   "keywords": [
-    "홈페이지 유지관리",
-    "통합 홈페이지"
-   ]
-  },
-  {
-   "name": "나라장터 공고 링크(원문, 직접 접속 필요)",
-   "url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01753055&bidPbancOrd=000",
-   "keywords": [
-    "bidPbancNo=공고번호"
-   ]
+   "url": "https://jodaldata.com/bids.php?q=홈페이지"
   }
  ],
  "winepick": [
