@@ -114,21 +114,41 @@
   function fetchJson(p) {
     return fetch(p + '?v=' + Date.now()).then(function (r) { if (!r.ok) throw new Error(p); return r.json(); });
   }
+  function addArticles(list) {
+    // 나라장터: 입찰 마감이 지난 공고, 1억 원 이하 구축형 공고는 숨긴다(접속 시점 기준, 매일 자동 적용)
+    list = list.filter(function (a) { return !state.byId[a.id] && (a.category !== 'g2b' || !(bidClosed(a) || bidSmallBuild(a))); });
+    list.forEach(function (a) { state.byId[a.id] = a; });
+    state.articles = state.articles.concat(list).sort(function (a, b) {
+      return (b.collectedAt || '').slice(0, 10).localeCompare((a.collectedAt || '').slice(0, 10)) ||
+             (b.publishedAt || '').localeCompare(a.publishedAt || '') || a.id.localeCompare(b.id);
+    });
+  }
+  // 첫 화면은 최근 이틀치만, 이전 날짜는 뒤에서 불러와 목록에 붙인다(스크롤 위치 유지)
+  function loadOlder(days) {
+    if (!days.length) return;
+    Promise.all(days.map(function (d) {
+      return fetchJson('data/days/' + d + '.json').then(function (r) { return r.articles || []; }).catch(function () { return []; });
+    })).then(function (lists) {
+      addArticles([].concat.apply([], lists));
+      var y = window.scrollY, ly = $list.scrollTop;
+      var m = location.hash.match(/^#\/a\/(.+)/);
+      if (m) {
+        if (WIDE.matches && state.leftHref) { renderList(state.leftHref); markActive(decodeURIComponent(m[1])); }
+      } else if (!(document.activeElement && document.activeElement.tagName === 'INPUT')) route();
+      window.scrollTo(0, y); $list.scrollTop = ly;
+    });
+  }
   Promise.all([
     fetchJson('data/articles.json'),
     fetchJson('data/daily.json').catch(function () { return null; })
   ]).then(function (res) {
-    state.articles = (res[0].articles || []).slice().sort(function (a, b) {
-      return (b.collectedAt || '').slice(0, 10).localeCompare((a.collectedAt || '').slice(0, 10)) ||
-             (b.publishedAt || '').localeCompare(a.publishedAt || '') || a.id.localeCompare(b.id);
-    });
-    // 나라장터: 입찰 마감이 지난 공고, 1억 원 이하 구축형 공고는 숨긴다(접속 시점 기준, 매일 자동 적용)
-    state.articles = state.articles.filter(function (a) { return a.category !== 'g2b' || !(bidClosed(a) || bidSmallBuild(a)); });
+    addArticles(res[0].articles || []);
     state.updatedAt = res[0].updatedAt;
     state.daily = res[1];
     state.articles.forEach(function (a) { state.byId[a.id] = a; });
     if (state.updatedAt) document.getElementById('updated').textContent = fmtDate(state.updatedAt.slice(0, 10)) + ' 업데이트';
     route();
+    loadOlder(res[0].days || []);
   }).catch(function () {
     $app.innerHTML = '<div class="empty">기사를 불러오지 못했어요. 잠시 후 다시 시도해 주세요.</div>';
   });
@@ -404,6 +424,17 @@
       return;
     }
     detail._tried = null;
+    if (a.slim) {
+      // 목록 파일에는 요약 첫 문단만 있다. 전체 본문은 개별 파일에서
+      $det.innerHTML = '<div class="empty">불러오는 중…</div>';
+      fetchJson('data/items/' + encodeURIComponent(id) + '.json').then(function (it) {
+        state.byId[it.id] = it;
+        if (bookmarks[id]) { it._savedAt = bookmarks[id]._savedAt; bookmarks[id] = it; save('bookmarks', bookmarks); }
+      }).catch(function () { a.slim = false; }).then(function () {
+        if (decodeURIComponent(location.hash) === '#/a/' + id) detail(id);
+      });
+      return;
+    }
     var v = votes[id];
     var isVideo = /^[A-Za-z0-9_-]{11}$/.test(a.videoId || '');
     $det.innerHTML = '<article class="detail">' +

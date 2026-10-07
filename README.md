@@ -10,7 +10,8 @@
 ## 구조
 ```
 index.html, assets/      정적 사이트 (빌드 없음)
-data/articles.json       최근 14일 기사 목록
+data/articles.json       최근 2일 기사 목록(요약 첫 문단만)
+data/days/<날짜>.json    그 이전 12일 목록(앱이 뒤에서 불러옴)
 data/items/<id>.json     개별 기사 영구 보관
 data/daily.json          오늘 영역
 data/sources.json        카테고리별 대상 사이트·키워드

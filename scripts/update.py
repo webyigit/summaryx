@@ -9,7 +9,7 @@ incoming_dir 안의 파일:
 
 하는 일:
   - 기사에 id, category, collectedAt 부여 (URL 중복 제거)
-  - data/articles.json 갱신 (최근 KEEP_DAYS일 유지)
+  - data/articles.json(최근 FRONT_DAYS일) + data/days/<날짜>.json(그 이전) 갱신, 최근 KEEP_DAYS일 유지
   - data/items/<id>.json 개별 기사 보관 (영구, 공유 링크용)
   - a/<id>/index.html 공유 페이지 생성 (미리보기 메타태그 + 앱으로 이동)
   - data/sources.json 대상 사이트·키워드 갱신
@@ -25,6 +25,7 @@ from datetime import datetime, timedelta, timezone
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 KEEP_DAYS = 14
+FRONT_DAYS = 2
 CATS = ["ai", "ax", "robot", "paper", "it", "applesamsung", "car", "semi", "security", "movie", "music", "art", "book", "show", "design", "cardesign", "productd", "brand", "package", "uxui", "arch", "fashion", "food", "travel", "health", "wine", "winepick", "wineregion", "winepair", "winestudy", "winetype", "winery", "cellar", "winedeal", "wineko", "game", "webtoon", "sports", "science", "edu", "ent", "kpop", "shorts", "meme", "g2b", "christian", "ccm"]
 CAT_NAME = {"ai": "AI > AI", "ax": "AI > AX", "it": "IT·테크 > IT", "applesamsung": "IT·테크 > 애플·삼성",
             "car": "IT·테크 > 자동차", "movie": "문화 > 영화", "music": "문화 > 음악", "art": "문화 > 미술",
@@ -159,6 +160,8 @@ def main():
 
     store = read(os.path.join(DATA, "articles.json"), {"articles": []})
     articles = store.get("articles", [])
+    for d in store.get("days", []):  # 이전 날짜는 data/days/<날짜>.json에 나눠 있다
+        articles += read(os.path.join(DATA, "days", d + ".json"), {"articles": []}).get("articles", [])
     seen = {norm_url(a["url"]) for a in articles}
     sources = read(os.path.join(DATA, "sources.json"), {})
     added = {}
@@ -180,8 +183,12 @@ def main():
                 ex = next((x for x in articles if norm_url(x["url"]) == norm_url(a["url"])), None)
                 if ex is not None and a.get("image") and not ex.get("image"):
                     ex["image"] = a["image"]
-                    write(os.path.join(DATA, "items", ex["id"] + ".json"), ex)
-                    share_page(ex)
+                    # 목록(articles.json)은 slim이라 개별 파일(전체본)에 반영
+                    ipath = os.path.join(DATA, "items", ex["id"] + ".json")
+                    full = read(ipath, None) or ex
+                    full["image"] = a["image"]
+                    write(ipath, full)
+                    share_page(full)
                     print("image 보강:", ex["id"], file=sys.stderr)
                 else:
                     print("skip (중복):", a["url"], file=sys.stderr)
@@ -207,8 +214,30 @@ def main():
     cutoff = (now - timedelta(days=KEEP_DAYS)).isoformat()
     articles = [a for a in articles if a.get("collectedAt", "") >= cutoff]
     articles.sort(key=lambda a: (a.get("collectedAt", ""), a["id"]), reverse=True)
-    write(os.path.join(DATA, "articles.json"),
-          {"updatedAt": now.isoformat(timespec="seconds"), "articles": articles})
+    # 목록 파일은 가볍게: 요약은 첫 문단 앞부분만(slim). 전체는 data/items/<id>.json
+    # 첫 화면용 articles.json에는 최근 FRONT_DAYS일만, 그 이전은 날짜별 파일(앱이 뒤에서 불러옴)
+    slim = []
+    for a in articles:
+        x = {k: v for k, v in a.items() if k != "slim"}
+        x["summary"] = [(a.get("summary") or [""])[0][:160]]
+        x["slim"] = True
+        slim.append(x)
+    dates = sorted({a.get("collectedAt", "")[:10] for a in slim}, reverse=True)
+    front, older = dates[:FRONT_DAYS], dates[FRONT_DAYS:]
+    ddir = os.path.join(DATA, "days")
+    os.makedirs(ddir, exist_ok=True)
+    for fn in os.listdir(ddir):
+        if fn[:-5] not in older:
+            os.remove(os.path.join(ddir, fn))
+
+    def dump(path, obj):
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
+            f.write("\n")
+    for d in older:
+        dump(os.path.join(ddir, d + ".json"), {"articles": [a for a in slim if a.get("collectedAt", "")[:10] == d]})
+    dump(os.path.join(DATA, "articles.json"), {"updatedAt": now.isoformat(timespec="seconds"), "days": older,
+                                               "articles": [a for a in slim if a.get("collectedAt", "")[:10] in front]})
     write(os.path.join(DATA, "sources.json"), sources)
 
     daily = read(os.path.join(inc, "daily.json"), None)

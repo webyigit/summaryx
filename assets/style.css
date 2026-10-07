@@ -260,6 +260,7 @@ main { padding: 0 16px; }
   .lp .tcard { width: 84%; }
   .lp .search .list { display: flex; }
   .item.active { outline: 2px solid var(--ink); outline-offset: -2px; }
+  .rp { padding-right: 28px; }
   .rp .detail { max-width: none; margin: 0; padding-top: 0; }
   .rp .detail .back { display: none; }
   .rp .detail .hero { max-height: 360px; }

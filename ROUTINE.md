@@ -6,10 +6,13 @@
 카테고리마다 서브에이전트(Agent 도구)를 **1개씩 동시에** 띄워 서칭·요약을 맡긴다(47개 + 오늘 영역 1개). 각 에이전트에게 이 문서의 1~3절과 담당 카테고리, `data/sources.json`의 해당 항목을 넘기고, 결과는 `incoming/<카테고리>.json`에 저장하게 한다. 모두 끝나면 메인이 4절(반영·배포)을 한 번만 실행한다. 실패한 카테고리는 다시 한 번만 재시도한다.
 
 ### 시간대 나눠 수집 (WebFetch 한도)
-WebFetch는 세션 전체에서 **시간당 약 400회**로 제한된다. 47개를 한 번에 돌리면 한도가 바닥나므로 루틴을 3번(05:22·06:22·07:22 KST)에 나눠 돌린다. 각 회차는 자기 묶음만 수집 → `update.py` → main 배포까지 끝낸다. 서브에이전트마다 WebFetch는 **최대 20회**로 제한하고, 한도에 걸리면 모은 만큼만 저장한다.
-- A(05:22): ai, ax, robot, paper, it, applesamsung, car, semi, security, g2b, movie, music, art, book, show + 오늘 영역(daily)
-- B(06:22): design, cardesign, productd, brand, package, uxui, arch, fashion, food, travel, health, wine, winepick, wineregion, winepair, winestudy
-- C(07:22): winetype, winery, cellar, winedeal, wineko, game, webtoon, sports, science, edu, ent, kpop, shorts, meme, christian, ccm → 끝나면 스레드에 하루치 보고(A·B·C 리포트 첨부)
+WebFetch는 세션 전체에서 **시간당 약 400회**로 제한된다. 카테고리당 20건을 모으려면 루틴을 6번(02:22~07:22 KST, 1시간 간격)에 나눠 돌린다. 각 회차는 자기 묶음(8개 안팎)만 수집 → `update.py` → main 배포까지 끝낸다. 서브에이전트마다 WebFetch는 **최대 40회**로 제한하고(8개×40=320), 한도에 걸리면 모은 만큼만 저장한다.
+- 1(02:22): ai, ax, robot, paper, it, applesamsung, car, semi
+- 2(03:22): security, g2b, movie, music, art, book, show + 오늘 영역(daily)
+- 3(04:22): design, cardesign, productd, brand, package, uxui, arch, fashion
+- 4(05:22): food, travel, health, wine, winepick, wineregion, winepair, winestudy
+- 5(06:22): winetype, winery, cellar, winedeal, wineko, game, webtoon, sports
+- 6(07:22): science, edu, ent, kpop, shorts, meme, christian, ccm → 끝나면 스레드에 하루치 보고(1~6회차 리포트 첨부)
 
 ## 1. 수집
 카테고리 47개(수집 단위): `ai, ax, robot, paper, it, applesamsung, car, semi, security, movie, music, art, book, show, design, cardesign, productd, brand, package, uxui, arch, fashion, food, travel, health, wine, winepick, wineregion, winepair, winestudy, winetype, winery, cellar, winedeal, wineko, game, webtoon, sports, science, edu, ent, kpop, shorts, meme, g2b, christian, ccm`
@@ -23,13 +26,13 @@ WebFetch는 세션 전체에서 **시간당 약 400회**로 제한된다. 47개�
 - 학생 섹션(초·중·고 학생 대상): game은 인기 게임 업데이트·신작·e스포츠(도박·확률형 논란·성인 등급 제외), webtoon은 웹툰·애니·만화 신작·개봉·드라마화(성인·잔혹 제외), sports는 해외파 축구·KBO·MLB 한국 선수 등 경기·선수 이야기(승부조작·폭행 사건 제외), science는 우주·공룡·동물·로봇·신기한 발견(AI·IT 산업 제외), 쉬운 말로 요약.
 - 추가 분류: robot(휴머노이드·산업·서비스 로봇), semi(메모리·HBM·파운드리·AI 칩 산업), security(해킹·유출 사고·취약점·대응, 공격 기법 상세 X), book(신간·베스트셀러·문학상·출판), show(뮤지컬·연극·클래식·전시·축제, art와 같은 전시 피함), arch(건축물·건축가·인테리어·공간), travel(여행 트렌드·항공·호텔·여행지·제도), health(연구·기관 근거 있는 생활 건강, 광고·과장 효능 X, 의학 조언처럼 쓰지 않음), edu(수능·입시·교육 정책·진로, 학생·학부모 대상, 사교육 광고 X), kpop(컴백·차트·투어·시상식, 루머·열애 X. ent는 드라마·예능·배우 위주).
 - **paper**(AI 논문): 최근 7일 HF Daily Papers·arXiv(cs.AI/CL/LG/CV)·주요 연구소 논문 중 화제성 높은 10편. arXiv abs를 직접 열어 초록·본문 근거로 비전문가용 요약(배경→방법→결과). `facts`: 저자·소속·분야·arXiv ID·코드.
-- **g2b**(나라장터): 사용자는 디지털 에이전시 재직. SI·에이전시 규모(추정가 약 30억 이하) 용역 중 웹·앱·플랫폼 구축/고도화/운영, UI/UX, 웹 접근성, 디자인·콘텐츠, 디지털 홍보, ISP만. 물품·공사·인력파견·장비 위주 제외, 마감 지난 공고 제외, 구축형(구축·개편·고도화·리뉴얼·개발·개선) 공고는 사업예산(부가세 포함) 1억 원 이하 제외(운영·유지관리만인 건은 금액 무관), 공고 원문을 직접 연 건만. 추가 필드 `facts`(공고번호·발주기관·사업예산·사업기간·입찰방식·참가자격·입찰 마감·제안설명회), `requirements`(제안 요건 5~10줄, 원문 기준), `fit`(에이전시 관점 한 줄). 사업기간·사업예산·발주기관은 목록 카드에 크게 보이므로 조달데이터(jodaldata.com bid.php) 상세·공고문에서 꼭 확인. 확인 못 한 값은 "[확인 필요]", 절대 지어내지 않는다. 10건 못 채우면 찾은 만큼.
+- **g2b**(나라장터): 사용자는 디지털 에이전시 재직. SI·에이전시 규모(추정가 약 30억 이하) 용역 중 웹·앱·플랫폼 구축/고도화/운영, UI/UX, 웹 접근성, 디자인·콘텐츠, 디지털 홍보, ISP만. 물품·공사·인력파견·장비 위주 제외, 마감 지난 공고 제외, 구축형(구축·개편·고도화·리뉴얼·개발·개선) 공고는 사업예산(부가세 포함) 1억 원 이하 제외(운영·유지관리만인 건은 금액 무관), 공고 원문을 직접 연 건만. 추가 필드 `facts`(공고번호·발주기관·사업예산·사업기간·입찰방식·참가자격·입찰 마감·제안설명회), `requirements`(제안 요건 5~10줄, 원문 기준), `fit`(에이전시 관점 한 줄). 사업기간·사업예산·발주기관은 목록 카드에 크게 보이므로 조달데이터(jodaldata.com bid.php) 상세·공고문에서 꼭 확인. 확인 못 한 값은 "[확인 필요]", 절대 지어내지 않는다. 20건 못 채우면 찾은 만큼.
 - 디자인 세분: cardesign(신차·콘셉트카 외관·실내·디자이너, 성능·판매 기사 X), productd(가전·가구·조명·생활용품, 디자인 어워드), brand(리브랜딩·BI/CI·그래픽·타이포·폰트), package(식품·화장품 패키지, 친환경 포장, Pentawards). 이 분류들은 14일 이내 허용. design은 이들과 겹치지 않는 디자인 일반 뉴스(전시·디자이너·업계).
 - design은 제품·브랜딩·건축·공간 디자인, uxui는 UX/UI·디자인 툴·디자인 시스템·접근성으로 나눈다.
 
 - 각 카테고리의 대상 사이트·키워드는 `data/sources.json`에 있다. 이 사이트들과 키워드로 WebSearch/WebFetch 해서 최신 기사를 찾는다. 더 좋은 사이트를 찾으면 `sources`에 추가해도 된다.
 - WebSearch는 오래된 페이지가 섞이기 쉽다. 대상 사이트의 **최신 기사 목록 페이지를 WebFetch로 직접 열어** 고르는 방식을 우선한다. 한 매체에 몰리지 않게 가능하면 2곳 이상, 한국어 매체도 섞는다.
-- 카테고리마다 **10건**, 최근 2일 이내 기사 우선(없으면 7일까지).
+- 카테고리마다 **최대 20건**, 최근 2일 이내 기사 우선(없으면 7일까지). 기준에 맞는 기사가 모자라면 찾은 만큼만(채우려고 품질을 낮추지 않는다).
 - `data/articles.json`에 이미 있는 URL·같은 사건은 제외한다.
 - 반드시 WebFetch로 원문을 열어 **읽은 내용만** 근거로 요약한다. 원문을 못 열면 그 기사는 버린다. 자료에 없는 사실·숫자는 쓰지 않는다. 날짜 확인이 안 되면 `publishedAt: null`.
 - 밈: 혐오·선정적 내용 제외. 밈이 무엇이고 어디서 시작됐고 왜 유행하는지 이해되게.
