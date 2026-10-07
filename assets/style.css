@@ -103,6 +103,8 @@ main { padding: 0 16px; }
 .item.has-img { display: flex; gap: 12px; align-items: flex-start; }
 .item .txt { flex: 1; min-width: 0; }
 .item .thumb { order: 2; flex: none; width: 84px; height: 84px; border-radius: 12px; object-fit: cover; background: var(--chip); }
+.detail .video { width: 100%; max-width: 340px; margin: 6px auto 2px; aspect-ratio: 9 / 16; border-radius: 16px; overflow: hidden; background: #000; }
+.detail .video iframe { width: 100%; height: 100%; border: 0; display: block; }
 .detail .hero { width: 100%; max-height: 260px; object-fit: cover; border-radius: 16px; margin: 6px 0 2px; background: var(--chip); display: block; }
 .empty { text-align: center; color: var(--sub); padding: 48px 0; font-size: 14px; }
 .day { font-size: 13px; color: var(--sub); font-weight: 700; margin: 18px 2px 2px; }

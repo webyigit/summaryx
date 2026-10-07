@@ -16,6 +16,7 @@ incoming_dir 안의 파일:
   - reports/summaryx_report_YYMMDD_v1.md 일일 수집 리포트 생성
 """
 import html
+import re
 import json
 import os
 import sys
@@ -24,11 +25,12 @@ from datetime import datetime, timedelta, timezone
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 KEEP_DAYS = 14
-CATS = ["ai", "applesamsung", "art", "ax", "car", "ccm", "christian", "design", "fashion", "food", "it", "movie", "music", "uxui", "meme", "ent"]
+CATS = ["ai", "applesamsung", "art", "ax", "car", "ccm", "christian", "design", "fashion", "food", "it", "movie", "music", "shorts", "uxui", "wine", "meme", "ent"]
 CAT_NAME = {"ai": "AI", "ax": "AX", "car": "CAR", "ccm": "CCM", "christian": "CHRISTIAN",
             "it": "IT", "fashion": "FASHION", "art": "ART", "design": "DESIGN", "uxui": "UX/UI", "meme": "밈",
             "food": "FOOD", "music": "MUSIC", "ent": "연예",
-            "movie": "MOVIE", "applesamsung": "APPLE/SAMSUNG"}
+            "movie": "MOVIE", "applesamsung": "APPLE/SAMSUNG",
+            "shorts": "SHORTS", "wine": "WINE"}
 KST = timezone(timedelta(hours=9))
 REQUIRED = ("title", "source", "url", "summary")
 
@@ -182,6 +184,8 @@ def main():
             a["collectedAt"] = now.isoformat(timespec="seconds")
             if a.get("image") and not str(a["image"]).startswith("https://"):
                 a["image"] = None
+            if a.get("videoId") and not re.fullmatch(r"[A-Za-z0-9_-]{11}", str(a["videoId"])):
+                a["videoId"] = None
             if isinstance(a["summary"], str):
                 a["summary"] = [p for p in a["summary"].split("\n") if p.strip()]
             seen.add(norm_url(a["url"]))

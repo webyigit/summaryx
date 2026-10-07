@@ -17,7 +17,9 @@
     { id: 'it', name: 'IT' },
     { id: 'movie', name: 'MOVIE' },
     { id: 'music', name: 'MUSIC' },
+    { id: 'shorts', name: 'SHORTS' },
     { id: 'uxui', name: 'UX/UI' },
+    { id: 'wine', name: 'WINE' },
     { id: 'meme', name: '밈' },
     { id: 'ent', name: '연예' }
   ];
@@ -231,18 +233,22 @@
     }
     detail._tried = null;
     var v = votes[id];
+    var isVideo = /^[A-Za-z0-9_-]{11}$/.test(a.videoId || '');
     $app.innerHTML = '<article class="detail">' +
       '<a class="back" href="' + ctxFor(a).href + '">‹ 목록</a>' +
       '<div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
       '<span>' + esc(a.source) + '</span>' + (a.publishedAt ? '<span>· ' + fmtDate(a.publishedAt) + '</span>' : '') + '</div>' +
       '<h1>' + esc(a.title) + '</h1>' +
-      (a.image ? '<img class="hero" src="' + esc(a.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">' : '') +
+      (isVideo ? '<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/' + esc(a.videoId) +
+        '?playsinline=1&rel=0" title="' + esc(a.title) + '" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>'
+        : a.image ? '<img class="hero" src="' + esc(a.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">' : '') +
       (a.originalTitle && a.originalTitle !== a.title ? '<p class="orig">' + esc(a.originalTitle) + '</p>' : '') +
       (a.keyPoints && a.keyPoints.length ? '<div class="points"><b>핵심 요약</b><ul>' +
         a.keyPoints.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('') + '</ul></div>' : '') +
       '<div class="body">' + (a.summary || []).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') + '</div>' +
-      '<p class="note">이 글은 원문 기사를 바탕으로 AI가 요약한 내용입니다. 정확한 내용은 원문을 확인해 주세요.</p>' +
-      '<a class="cta" href="' + esc(a.url) + '" target="_blank" rel="noopener">원문 보기 ›</a>' +
+      '<p class="note">' + (isVideo ? '영상 소개는 AI가 정리한 내용입니다. 정확한 내용은 영상을 확인해 주세요.'
+        : '이 글은 원문 기사를 바탕으로 AI가 요약한 내용입니다. 정확한 내용은 원문을 확인해 주세요.') + '</p>' +
+      '<a class="cta" href="' + esc(a.url) + '" target="_blank" rel="noopener">' + (isVideo ? '유튜브에서 보기 ›' : '원문 보기 ›') + '</a>' +
       '<div class="actions">' +
         '<button class="act' + (v === 1 ? ' on' : '') + '" data-act="up">' + ICON.up + '좋아요</button>' +
         '<button class="act' + (v === -1 ? ' on' : '') + '" data-act="down">' + ICON.down + '싫어요</button>' +
