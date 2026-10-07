@@ -88,6 +88,8 @@ main { padding: 0 16px; }
 .tcard .lbl { font-size: 11px; font-weight: 700; color: var(--accent); letter-spacing: .5px; }
 .tcard .big { font-size: 15px; font-weight: 700; line-height: 1.45; }
 .tcard .mut { font-size: 13px; color: var(--sub); line-height: 1.5; }
+.tcard.poem .big small { font-size: 12px; color: var(--sub); font-weight: 500; margin-left: 4px; }
+.tcard.poem .ptext { font-size: 14px; line-height: 1.7; margin: 2px 0; }
 .tcard.art { padding: 0; overflow: hidden; flex-direction: row; gap: 0; }
 .tcard.art img { width: 108px; height: 100%; flex: none; object-fit: cover; display: block; background: var(--chip); }
 .tcard.art .in { flex: 1; min-width: 0; padding: 12px 14px; display: flex; flex-direction: column; gap: 3px; overflow: auto; scrollbar-width: none; }

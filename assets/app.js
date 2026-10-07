@@ -154,6 +154,10 @@
       '<div class="big">“' + esc(d.quote.text) + '”</div>' +
       (d.quote.original ? '<div class="mut">' + esc(d.quote.original) + '</div>' : '') +
       '<div class="mut">— ' + esc(d.quote.author) + '</div></div>');
+    if (d.poem) cards.push('<div class="tcard poem"><span class="lbl">오늘의 시</span>' +
+      '<div class="big">' + esc(d.poem.title) + ' <small>' + esc(d.poem.poet) + '</small></div>' +
+      '<div class="ptext">' + esc(d.poem.text).replace(/\n/g, '<br>') + '</div>' +
+      (d.poem.source ? '<div class="mut" style="font-size:11px">' + esc(d.poem.source) + '</div>' : '') + '</div>');
     if (d.art) cards.push('<a class="tcard art" href="' + esc(d.art.page || d.art.image) + '" target="_blank" rel="noopener">' +
       '<img src="' + esc(d.art.image) + '" alt="' + esc(d.art.title) + '" referrerpolicy="no-referrer" onerror="this.remove()">' +
       '<div class="in"><span class="lbl">오늘의 그림</span>' +

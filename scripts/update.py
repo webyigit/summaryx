@@ -5,7 +5,7 @@
 
 incoming_dir 안의 파일:
   <category>.json  {"category", "sources": [...], "articles": [...]}
-  daily.json       오늘의 말씀/영어/명언/그림 (있으면 교체)
+  daily.json       오늘의 말씀/영어/명언/시/그림 (있으면 교체)
 
 하는 일:
   - 기사에 id, category, collectedAt 부여 (URL 중복 제거)
@@ -133,6 +133,8 @@ def report(now, items, sources, daily):
             L.append("- 영어: %s" % daily["english"].get("expression"))
         if daily.get("quote"):
             L.append("- 명언: %s" % daily["quote"].get("author"))
+        if daily.get("poem"):
+            L.append("- 시: %s · %s" % (daily["poem"].get("title"), daily["poem"].get("poet")))
         if daily.get("art"):
             L.append("- 그림: %s / %s" % (daily["art"].get("title"), daily["art"].get("artist")))
     path = os.path.join(rdir, "summaryx_report_%s_v%d.md" % (stamp, v))
