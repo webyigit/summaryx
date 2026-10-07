@@ -144,3 +144,9 @@ main { padding: 0 16px; }
   opacity: 0; pointer-events: none; transition: opacity .2s; z-index: 30;
 }
 .toast.show { opacity: 1; }
+
+/* PC: 마우스로 가로 영역 넘기기 */
+@media (hover: hover) and (pointer: fine) {
+  .chips, .today { cursor: grab; user-select: none; }
+  .chips:active, .today:active { cursor: grabbing; }
+}

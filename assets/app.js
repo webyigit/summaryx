@@ -249,4 +249,42 @@
     window.scrollTo(0, 0);
   }
   window.addEventListener('hashchange', route);
+
+  // ---- PC: 가로 스크롤 영역(탭·오늘 카드)을 마우스 드래그·휠로 넘기기 ----
+  var HSCROLL = '.chips, .today';
+  var drag = null;
+  document.addEventListener('mousedown', function (e) {
+    var el = e.button === 0 && e.target.closest(HSCROLL);
+    if (!el) return;
+    drag = { el: el, x: e.clientX, left: el.scrollLeft, moved: false };
+    el.style.scrollSnapType = 'none';
+  });
+  document.addEventListener('mousemove', function (e) {
+    if (!drag) return;
+    var dx = e.clientX - drag.x;
+    if (Math.abs(dx) > 5) drag.moved = true;
+    if (drag.moved) { drag.el.scrollLeft = drag.left - dx; e.preventDefault(); }
+  });
+  document.addEventListener('mouseup', function () {
+    if (!drag) return;
+    var d = drag;
+    d.el.style.scrollSnapType = '';
+    // 드래그 직후의 클릭(탭 이동·링크)은 막는다
+    if (d.moved) setTimeout(function () { drag = null; }, 0); else drag = null;
+  });
+  document.addEventListener('click', function (e) {
+    if (drag && drag.moved && e.target.closest(HSCROLL)) { e.preventDefault(); e.stopPropagation(); }
+  }, true);
+  document.addEventListener('dragstart', function (e) {
+    if (e.target.closest && e.target.closest(HSCROLL)) e.preventDefault();
+  });
+  document.addEventListener('wheel', function (e) {
+    var el = e.target.closest && e.target.closest(HSCROLL);
+    if (!el || Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;
+    var max = el.scrollWidth - el.clientWidth;
+    if (max <= 0) return;
+    if ((e.deltaY < 0 && el.scrollLeft <= 0) || (e.deltaY > 0 && el.scrollLeft >= max - 1)) return;
+    el.scrollLeft += e.deltaY;
+    e.preventDefault();
+  }, { passive: false });
 })();
