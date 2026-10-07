@@ -1,0 +1,21 @@
+{
+ "title": "macOS 27.2 베타에 터치 제스처 코드… 터치스크린 맥북 신호일까",
+ "originalTitle": "macOS 27.2 Adds Touch Gestures Ahead of MacBook Ultra",
+ "source": "MacRumors",
+ "url": "https://www.macrumors.com/2026/10/05/macos-27-2-touch-gestures/",
+ "publishedAt": "2026-10-05",
+ "summary": [
+  "맥루머스는 최신 macOS 골든게이트(Golden Gate) 27.2 베타 코드에서 여러 애플 앱에 새 제스처 인식 도구가 추가된 것을 확인했다고 전했다. 사파리의 터치 인식기, 사진 앱의 '터치 머무름(dwell)' 제스처, 메모 앱의 '터치 누르기' 제스처, 훑어보기(Quick Look)의 드래그 터치 기능 등이다.",
+  "macOS 골든게이트 정식판은 이미 사파리·메일·캘린더에 당겨서 새로고침 제스처를 넣었고, 아이패드를 맥 보조 화면으로 쓰는 사이드카에 완전한 터치 입력을 지원했다. 이번 코드도 사이드카 기능 확장일 수 있어, 새 맥의 확실한 증거는 아니라고 매체는 덧붙였다. 사용자에게 제스처가 어떻게 동작하는지는 아직 알려지지 않았다.",
+  "그럼에도 업계는 이르면 2026년 말 나올 수 있다는 OLED 터치스크린 맥북, 이른바 '맥북 울트라' 소문과 연결해 보고 있다. 마우스·트랙패드 중심이던 맥 인터페이스가 터치를 어떻게 받아들일지는 UI 디자이너들이 주목할 대목이다."
+ ],
+ "keyPoints": [
+  "사파리·사진·메모 등에 터치 제스처 코드 추가",
+  "사이드카 확장일 수도… 새 맥 증거는 아냐",
+  "터치스크린 '맥북 울트라' 소문과 연결"
+ ],
+ "image": "https://images.macrumors.com/t/KU8mtnpuZLz7y7jeR2PsMQ80Vvg=/2500x/article-new/2025/11/m5-macbook-pro-cyber.jpg",
+ "id": "261008-uxui-07",
+ "category": "uxui",
+ "collectedAt": "2026-10-08T04:32:05+09:00"
+}

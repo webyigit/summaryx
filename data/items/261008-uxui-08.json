@@ -1,0 +1,21 @@
+{
+ "title": "그로키피디아, 도서관처럼 꾸민 새 디자인… \"겉모습이 사실을 이길까\"",
+ "originalTitle": "Elon Musk's Grokipedia gets a scholarly makeover",
+ "source": "Creative Bloq",
+ "url": "https://www.creativebloq.com/web-design/elon-musks-grokipedia-gets-a-scholarly-makeover",
+ "publishedAt": "2026-10-02",
+ "summary": [
+  "일론 머스크의 AI 백과사전 '그로키피디아(Grokipedia)'가 올해 개발이 멈춘 듯하다가 v0.3 버전으로 시각 개편을 하고 돌아왔다. 2025년 10월 말 위키백과 문서를 AI로 복제한 형태로 출시됐고 11월 v0.2가 나왔지만, 이후 AI 자동 편집과 사용자 제안 검토가 중단됐었다.",
+  "새 버전은 필기체 로고를 달았고, 홈페이지를 도서관처럼 꾸몄다. 인터랙티브 3D 책 표지, 인기 주제를 책장처럼 늘어놓은 '가장 많이 읽은 글', 그록이 검토한 기여자 수정 내역을 보여주는 '최근 편집' 섹션이 들어갔다. 실시간 편집 페이지도 손봤고, 문서 페이지는 핵심 정보를 보여주는 옆 표를 더 간결하게 바꾸는 정도로 변화가 작다.",
+  "크리에이티브 블록은 디자인이 매끄럽고 UX도 더 부드러워졌지만 레이아웃은 사실상 위키백과를 베낀 것이라고 평했다. 빈약한 출처와 편향 논란은 디자인으로 해결되지 않는다며, 위키백과를 대체하기는 어렵다고 봤다."
+ ],
+ "keyPoints": [
+  "그로키피디아 v0.3, 도서관 콘셉트 홈 개편",
+  "3D 책 표지·인기 글 책장·최근 편집 섹션",
+  "\"매끄럽지만 출처·편향 문제는 그대로\""
+ ],
+ "image": "https://cdn.mos.cms.futurecdn.net/ERtPKhSXpKqvnhSQtRFUgF-1920-80.jpg",
+ "id": "261008-uxui-08",
+ "category": "uxui",
+ "collectedAt": "2026-10-08T04:32:05+09:00"
+}

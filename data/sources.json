@@ -427,51 +427,38 @@
  "design": [
   {
    "name": "Dezeen",
-   "url": "https://www.dezeen.com/",
+   "url": "https://www.dezeen.com/design/",
    "keywords": [
-    "architecture",
-    "interior design",
-    "furniture design",
-    "product design"
+    "design exhibition",
+    "materials",
+    "trade fair"
    ]
   },
   {
-   "name": "designboom",
-   "url": "https://www.designboom.com/",
+   "name": "Wallpaper*",
+   "url": "https://www.wallpaper.com/design",
    "keywords": [
-    "design",
-    "architecture",
-    "exhibition",
-    "installation"
-   ]
-  },
-  {
-   "name": "Creative Bloq",
-   "url": "https://www.creativebloq.com/news",
-   "keywords": [
-    "branding",
-    "logo redesign",
-    "advertising design",
-    "UI design"
+    "design events",
+    "collectible design",
+    "designer"
    ]
   },
   {
    "name": "It's Nice That",
    "url": "https://www.itsnicethat.com/",
    "keywords": [
-    "graphic design",
-    "brand identity",
-    "typeface",
-    "illustration"
+    "creative industry",
+    "in-house",
+    "design"
    ]
   },
   {
-   "name": "ArchDaily",
-   "url": "https://www.archdaily.com/",
+   "name": "월간 디자인(디자인플러스)",
+   "url": "https://design.co.kr/",
    "keywords": [
-    "architecture news",
-    "museum renovation",
-    "sustainable building"
+    "디자인 전시",
+    "디자이너 인터뷰",
+    "디자인 업계"
    ]
   }
  ],
@@ -598,6 +585,33 @@
     "Figma Make",
     "auto layout",
     "release notes"
+   ]
+  },
+  {
+   "name": "Creative Bloq (Web design / UX·UI)",
+   "url": "https://www.creativebloq.com/web-design",
+   "keywords": [
+    "redesign",
+    "UX/UI",
+    "web design"
+   ]
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/news/",
+   "keywords": [
+    "APK teardown",
+    "UI redesign",
+    "Google app"
+   ]
+  },
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/",
+   "keywords": [
+    "macOS",
+    "touch",
+    "UI"
    ]
   }
  ],
@@ -1507,8 +1521,9 @@
    "url": "https://www.dezeen.com/architecture/",
    "keywords": [
     "architecture",
-    "museum extension",
-    "housing"
+    "house",
+    "museum",
+    "infrastructure"
    ]
   },
   {
@@ -1516,7 +1531,6 @@
    "url": "https://www.dezeen.com/interiors/",
    "keywords": [
     "interiors",
-    "retail store",
     "restaurant",
     "hotel"
    ]
@@ -1526,8 +1540,25 @@
    "url": "https://www.archdaily.com/",
    "keywords": [
     "architecture news",
-    "museum reopens",
-    "sustainable construction"
+    "carbon tool",
+    "architecture event"
+   ]
+  },
+  {
+   "name": "월간 디자인",
+   "url": "https://design.co.kr/",
+   "keywords": [
+    "공간 디자인",
+    "팝업 스토어"
+   ]
+  },
+  {
+   "name": "건축사신문",
+   "url": "https://www.ancnews.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "설계공모",
+    "공공건축",
+    "건축 정책"
    ]
   },
   {
@@ -1537,15 +1568,6 @@
     "설계공모",
     "건축상",
     "건축전시"
-   ]
-  },
-  {
-   "name": "월간 디자인",
-   "url": "https://design.co.kr/",
-   "keywords": [
-    "플래그십 스토어",
-    "공간 디자인",
-    "인테리어"
    ]
   }
  ],
@@ -2078,26 +2100,25 @@
    "keywords": [
     "first sight",
     "design round-up",
-    "design driven",
+    "flashback",
     "designer interview"
    ]
   },
   {
-   "name": "Dezeen (cars)",
-   "url": "https://www.dezeen.com/design/cars/",
+   "name": "Auto Express (Paris Motor Show)",
+   "url": "https://www.autoexpress.co.uk/paris-motor-show/370475/paris-motor-show-2026-your-guide-all-key-cars",
    "keywords": [
-    "car design",
-    "electric car",
-    "concept car"
+    "concept",
+    "Paris Motor Show 2026",
+    "design"
    ]
   },
   {
-   "name": "Designboom (car design)",
-   "url": "https://www.designboom.com/tag/car-design/",
+   "name": "autoevolution (concept car)",
+   "url": "https://www.autoevolution.com/news/concept-car/",
    "keywords": [
     "concept car",
-    "electric vehicle design",
-    "mobility"
+    "design"
    ]
   },
   {
@@ -2106,7 +2127,6 @@
    "keywords": [
     "디자인",
     "콘셉트",
-    "티저",
     "족보 탐구"
    ]
   },
@@ -2115,8 +2135,7 @@
    "url": "https://www.motorgraph.com/news/articleList.html?view_type=sm",
    "keywords": [
     "디자인",
-    "콘셉트카",
-    "디자이너"
+    "콘셉트카"
    ]
   }
  ],
@@ -2147,6 +2166,14 @@
     "packaging design",
     "plastic-free packaging",
     "compostable"
+   ]
+  },
+  {
+   "name": "디자인 나침반",
+   "url": "https://designcompass.org/",
+   "keywords": [
+    "패키지 디자인",
+    "브랜드 디자인"
    ]
   },
   {
@@ -2231,16 +2258,6 @@
  ],
  "brand": [
   {
-   "name": "Creative Bloq",
-   "url": "https://www.creativebloq.com/design",
-   "keywords": [
-    "new logo",
-    "rebrand",
-    "billboard",
-    "typography"
-   ]
-  },
-  {
    "name": "Brand New (UnderConsideration)",
    "url": "https://www.underconsideration.com/brandnew/",
    "keywords": [
@@ -2263,8 +2280,16 @@
    "keywords": [
     "branding",
     "identity",
-    "typography",
-    "campaign"
+    "typography"
+   ]
+  },
+  {
+   "name": "Creative Bloq",
+   "url": "https://www.creativebloq.com/design",
+   "keywords": [
+    "new logo",
+    "rebrand",
+    "branding"
    ]
   },
   {
@@ -2283,7 +2308,25 @@
     "브랜딩",
     "BI",
     "서체",
-    "그래픽"
+    "한글"
+   ]
+  },
+  {
+   "name": "Design Week",
+   "url": "https://www.designweek.co.uk/design-disciplines/graphic-design/",
+   "keywords": [
+    "rebrand",
+    "identity",
+    "new branding"
+   ]
+  },
+  {
+   "name": "Creative Boom",
+   "url": "https://www.creativeboom.com/news/",
+   "keywords": [
+    "identity",
+    "wordmark",
+    "rebrand"
    ]
   }
  ],

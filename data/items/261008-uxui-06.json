@@ -1,0 +1,21 @@
+{
+ "title": "구글 앱 '서치 라이브', 작게 줄이고 옮기는 카메라 화면으로 개편 준비",
+ "originalTitle": "Google app's Search Live is gearing up for a design overhaul",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/google-app-search-live-ui-changes-apk-teardown-3719509/",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "구글 앱의 실시간 카메라 검색 기능 '서치 라이브(Search Live)'의 화면 개편이 준비되고 있다. 안드로이드 어소리티가 구글 앱 17.64.13 베타를 분석(APK 티어다운)해 새 카메라 화면을 직접 활성화해 본 결과다.",
+  "현재는 카메라 화면이 전체 화면을 채우지만, 새 디자인에서는 뷰파인더가 작아지고 화면 모서리로 바로 최소화·이동할 수 있다. 위쪽 손잡이로 더 줄일 수도 있다. 영상이 켜져 있을 때 화면 가장자리에 돌던 빛 효과는 사라졌고, 대화 기록(트랜스크립트) 버튼도 보이지 않는다. 듣고 답할 때 아래쪽에 더 둥글고 통통 튀는 애니메이션이 나온다. 매체는 제미나이 앱도 챗GPT 앱을 따라 비슷한 뷰파인더 개편을 진행 중이라고 전했다.",
+  "아직 개발 중인 기능이라 언제 공개될지, 실제로 출시될지는 불확실하다. 다만 카메라를 띄워 둔 채 다른 화면을 함께 보는 방향은 멀티모달 AI 검색의 사용 방식을 바꿀 수 있는 변화다."
+ ],
+ "keyPoints": [
+  "서치 라이브 카메라 화면을 작게·이동 가능하게",
+  "가장자리 빛 효과 제거, 새 듣기 애니메이션",
+  "APK 분석 단계로 출시 여부는 미정"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2025/05/Google-IO-2025-Search-Live-features-within-AI-Mode-2.jpg",
+ "id": "261008-uxui-06",
+ "category": "uxui",
+ "collectedAt": "2026-10-08T04:32:05+09:00"
+}
