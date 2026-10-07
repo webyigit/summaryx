@@ -765,5 +765,117 @@
     "comeback"
    ]
   }
+ ],
+ "applesamsung": [
+  {
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/",
+   "keywords": [
+    "Apple",
+    "iPhone",
+    "macOS",
+    "Apple earnings"
+   ]
+  },
+  {
+   "name": "SamMobile",
+   "url": "https://www.sammobile.com/",
+   "keywords": [
+    "Samsung Galaxy",
+    "One UI",
+    "Samsung profit"
+   ]
+  },
+  {
+   "name": "Samsung Newsroom Korea",
+   "url": "https://news.samsung.com/kr/latest",
+   "keywords": [
+    "삼성전자 출시",
+    "갤럭시"
+   ]
+  },
+  {
+   "name": "ZDNet Korea",
+   "url": "https://zdnet.co.kr/",
+   "keywords": [
+    "삼성전자",
+    "애플",
+    "갤럭시",
+    "아이폰"
+   ]
+  },
+  {
+   "name": "전자신문",
+   "url": "https://etnews.com/",
+   "keywords": [
+    "아이폰",
+    "삼성전자",
+    "갤럭시"
+   ]
+  },
+  {
+   "name": "The Investor (Korea Herald)",
+   "url": "https://www.theinvestor.co.kr/",
+   "keywords": [
+    "Samsung Electronics earnings",
+    "Samsung memory"
+   ]
+  }
+ ],
+ "movie": [
+  {
+   "name": "Boxoffice Pro",
+   "url": "https://www.boxofficepro.com/",
+   "keywords": [
+    "weekend box office",
+    "box office opening",
+    "theatrical exhibition"
+   ]
+  },
+  {
+   "name": "뉴스핌 (영화)",
+   "url": "https://www.newspim.com/",
+   "keywords": [
+    "영화 개봉",
+    "관객 돌파",
+    "예고편 공개",
+    "북미 박스오피스"
+   ]
+  },
+  {
+   "name": "일간스포츠 IS차트",
+   "url": "https://isplus.com/",
+   "keywords": [
+    "IS차트",
+    "박스오피스 1위",
+    "영화진흥위원회 통합전산망"
+   ]
+  },
+  {
+   "name": "한국일보 문화",
+   "url": "https://www.hankookilbo.com/",
+   "keywords": [
+    "영화 흥행",
+    "영화계",
+    "영화제"
+   ]
+  },
+  {
+   "name": "세계일보 문화",
+   "url": "https://www.segye.com/",
+   "keywords": [
+    "할리우드 흥행",
+    "영화 개봉 성적"
+   ]
+  },
+  {
+   "name": "Global Times (Culture)",
+   "url": "https://www.globaltimes.cn/",
+   "keywords": [
+    "China box office",
+    "holiday box office",
+    "Chinese film"
+   ]
+  }
  ]
 }
