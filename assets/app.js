@@ -307,6 +307,31 @@
   }
   window.addEventListener('hashchange', route);
 
+  // ---- 위로가기 버튼 ----
+  var $top = document.getElementById('totop');
+  window.addEventListener('scroll', function () {
+    $top.classList.toggle('show', window.scrollY > 400);
+  }, { passive: true });
+  $top.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+  // ---- 상세화면: 가로로 스와이프하면 목록으로 ----
+  var sw = null;
+  document.addEventListener('touchstart', function (e) {
+    sw = null;
+    if (e.touches.length !== 1 || !$app.querySelector('.detail')) return;
+    if (e.target.closest('.today, .video')) return;
+    sw = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+  }, { passive: true });
+  document.addEventListener('touchend', function (e) {
+    if (!sw || !$app.querySelector('.detail')) return;
+    var t = e.changedTouches[0], dx = t.clientX - sw.x, dy = t.clientY - sw.y;
+    sw = null;
+    if (Math.abs(dx) > 80 && Math.abs(dx) > Math.abs(dy) * 2) {
+      var back = $app.querySelector('.back');
+      if (back) location.hash = back.getAttribute('href');
+    }
+  }, { passive: true });
+
   // ---- PC: 가로 스크롤 영역(오늘 카드)을 마우스 드래그·휠로 넘기기 ----
   var HSCROLL = '.today';
   var drag = null;
