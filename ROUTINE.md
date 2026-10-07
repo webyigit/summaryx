@@ -3,11 +3,11 @@
 매일 루틴이 이 문서를 그대로 따른다. 오늘 날짜(KST)를 기준으로 한다.
 
 ## 0. 병렬 처리
-카테고리마다 서브에이전트(Agent 도구)를 **1개씩 동시에** 띄워 서칭·요약을 맡긴다(39개 + 오늘 영역 1개). 각 에이전트에게 이 문서의 1~3절과 담당 카테고리, `data/sources.json`의 해당 항목을 넘기고, 결과는 `incoming/<카테고리>.json`에 저장하게 한다. 모두 끝나면 메인이 4절(반영·배포)을 한 번만 실행한다. 실패한 카테고리는 다시 한 번만 재시도한다.
+카테고리마다 서브에이전트(Agent 도구)를 **1개씩 동시에** 띄워 서칭·요약을 맡긴다(43개 + 오늘 영역 1개). 각 에이전트에게 이 문서의 1~3절과 담당 카테고리, `data/sources.json`의 해당 항목을 넘기고, 결과는 `incoming/<카테고리>.json`에 저장하게 한다. 모두 끝나면 메인이 4절(반영·배포)을 한 번만 실행한다. 실패한 카테고리는 다시 한 번만 재시도한다.
 
 ## 1. 수집
-카테고리 39개(수집 단위): `ai, ax, robot, paper, it, applesamsung, car, semi, security, movie, music, art, book, show, design, uxui, arch, fashion, food, travel, health, wine, winepick, wineregion, winepair, winestudy, wineko, game, webtoon, sports, science, edu, ent, kpop, shorts, meme, g2b, christian, ccm`
-- 사이트 탭은 섹션으로 묶어 보여준다(app.js `SECTIONS`): AI(ai·ax·robot·paper), IT·테크(it·applesamsung·car·semi·security), 문화(movie·music·art·book·show), 디자인(design·uxui·arch), 라이프(fashion·food·travel·health), 와인(wine 업계 뉴스·winepick 추천·리뷰·wineregion 산지·빈티지·winepair 페어링·winestudy 와인 상식·wineko 국내 와인), 학생(game·webtoon·sports·science·edu), 연예·트렌드(ent·kpop·shorts·meme), 나라장터(g2b), 종교(christian·ccm). 분류를 추가하면 `SECTIONS`와 update.py `CATS`·`CAT_NAME`에 함께 넣는다.
+카테고리 43개(수집 단위): `ai, ax, robot, paper, it, applesamsung, car, semi, security, movie, music, art, book, show, design, cardesign, productd, brand, package, uxui, arch, fashion, food, travel, health, wine, winepick, wineregion, winepair, winestudy, wineko, game, webtoon, sports, science, edu, ent, kpop, shorts, meme, g2b, christian, ccm`
+- 사이트 탭은 섹션으로 묶어 보여준다(app.js `SECTIONS`): AI(ai·ax·robot·paper), IT·테크(it·applesamsung·car·semi·security), 문화(movie·music·art·book·show), 디자인(design 디자인 뉴스·cardesign 자동차·productd 제품·산업·brand 브랜딩·그래픽·package 패키지·uxui·arch), 라이프(fashion·food·travel·health), 와인(wine 업계 뉴스·winepick 추천·리뷰·wineregion 산지·빈티지·winepair 페어링·winestudy 와인 상식·wineko 국내 와인), 학생(game·webtoon·sports·science·edu), 연예·트렌드(ent·kpop·shorts·meme), 나라장터(g2b), 종교(christian·ccm). 분류를 추가하면 `SECTIONS`와 update.py `CATS`·`CAT_NAME`에 함께 넣는다.
 - applesamsung은 애플·삼성전자 제품·소프트웨어·실적·전략(대략 반반), it에서는 애플·삼성 기사를 빼고 다른 기업 위주로. movie는 영화(개봉·박스오피스·영화제·감독), ent(연예)는 영화를 빼고 드라마·예능·아이돌 위주로.
 - 와인 섹션: wine은 해외 와인 산업·기업·경매·시장(업계 뉴스), winepick은 신상·리뷰·점수·스타일별 추천, wineregion은 산지 소식·수확/빈티지 리포트·규정, winepair는 음식 페어링·레시피(14일 이내 허용), winestudy는 품종·라벨·보관·시음 등 입문 해설(30일 이내 허용), wineko는 국내 시장·유통 행사·국내 와인 이벤트. 서로 같은 사건 겹치지 않게.
 - **shorts**는 기사가 아니라 그날(최근 1~3일) 가장 화제인 유튜브 쇼츠 10개(한국 우선). 화제 쇼츠를 다룬 기사·트렌딩 페이지로 찾고, 각 영상은 YouTube oEmbed(`https://www.youtube.com/oembed?url=https://www.youtube.com/shorts/<ID>&format=json`)로 존재·제목·채널을 확인(확인 안 되면 제외, ID 지어내기 금지). 항목 형식: `url`=`https://www.youtube.com/shorts/<ID>`, `videoId`=<ID>, `source`=채널명, `originalTitle`=영상 원제목, `image`=`https://i.ytimg.com/vi/<ID>/hqdefault.jpg`, `via`=화제 근거 페이지. 요약은 무슨 영상이고 왜 화제인지 250~500자. 혐오·선정·위험 행위 제외.
@@ -18,6 +18,7 @@
 - 추가 분류: robot(휴머노이드·산업·서비스 로봇), semi(메모리·HBM·파운드리·AI 칩 산업), security(해킹·유출 사고·취약점·대응, 공격 기법 상세 X), book(신간·베스트셀러·문학상·출판), show(뮤지컬·연극·클래식·전시·축제, art와 같은 전시 피함), arch(건축물·건축가·인테리어·공간), travel(여행 트렌드·항공·호텔·여행지·제도), health(연구·기관 근거 있는 생활 건강, 광고·과장 효능 X, 의학 조언처럼 쓰지 않음), edu(수능·입시·교육 정책·진로, 학생·학부모 대상, 사교육 광고 X), kpop(컴백·차트·투어·시상식, 루머·열애 X. ent는 드라마·예능·배우 위주).
 - **paper**(AI 논문): 최근 7일 HF Daily Papers·arXiv(cs.AI/CL/LG/CV)·주요 연구소 논문 중 화제성 높은 10편. arXiv abs를 직접 열어 초록·본문 근거로 비전문가용 요약(배경→방법→결과). `facts`: 저자·소속·분야·arXiv ID·코드.
 - **g2b**(나라장터): 사용자는 디지털 에이전시 재직. SI·에이전시 규모(추정가 약 30억 이하) 용역 중 웹·앱·플랫폼 구축/고도화/운영, UI/UX, 웹 접근성, 디자인·콘텐츠, 디지털 홍보, ISP만. 물품·공사·인력파견·장비 위주 제외, 마감 지난 공고 제외, 공고 원문을 직접 연 건만. 추가 필드 `facts`(공고번호·발주기관·사업예산·사업기간·입찰방식·참가자격·입찰 마감·제안설명회), `requirements`(제안 요건 5~10줄, 원문 기준), `fit`(에이전시 관점 한 줄). 사업기간·사업예산·발주기관은 목록 카드에 크게 보이므로 조달데이터(jodaldata.com bid.php) 상세·공고문에서 꼭 확인. 확인 못 한 값은 "[확인 필요]", 절대 지어내지 않는다. 10건 못 채우면 찾은 만큼.
+- 디자인 세분: cardesign(신차·콘셉트카 외관·실내·디자이너, 성능·판매 기사 X), productd(가전·가구·조명·생활용품, 디자인 어워드), brand(리브랜딩·BI/CI·그래픽·타이포·폰트), package(식품·화장품 패키지, 친환경 포장, Pentawards). 이 분류들은 14일 이내 허용. design은 이들과 겹치지 않는 디자인 일반 뉴스(전시·디자이너·업계).
 - design은 제품·브랜딩·건축·공간 디자인, uxui는 UX/UI·디자인 툴·디자인 시스템·접근성으로 나눈다.
 
 - 각 카테고리의 대상 사이트·키워드는 `data/sources.json`에 있다. 이 사이트들과 키워드로 WebSearch/WebFetch 해서 최신 기사를 찾는다. 더 좋은 사이트를 찾으면 `sources`에 추가해도 된다.
