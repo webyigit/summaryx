@@ -7,7 +7,7 @@
 
 ### 시간대 나눠 수집 (WebFetch 한도)
 WebFetch는 세션 전체에서 **시간당 약 400회**로 제한된다. 카테고리당 20건을 모으려면 루틴을 7번(01:22~07:22 KST, 1시간 간격)에 나눠 돌린다. 각 회차는 자기 묶음(8개 안팎)만 수집 → `update.py` → main 배포까지 끝낸다. 서브에이전트마다 WebFetch는 **최대 40회**로 제한하고(8개×40=320), 한도에 걸리면 모은 만큼만 저장한다.
-- 0(01:22): toon, toonhot, worldfood, eatseoul, eatgg, eatdj, eatsj, shopguide, shopmen, shopdeal
+- 0(01:22): toon, toonhot, worldfood, eatseoul, eatgg, eatdj, eatsj, shopguide, shopmen, shopdeal, tripko, tripworld
 - 1(02:22): ai, ax, robot, paper, it, applesamsung, car, semi
 - 2(03:22): security, g2b, movie, music, art, book, show + 오늘 영역(daily)
 - 3(04:22): design, cardesign, productd, brand, package, uxui, arch, fashion
@@ -16,8 +16,8 @@ WebFetch는 세션 전체에서 **시간당 약 400회**로 제한된다. 카테
 - 6(07:22): science, edu, ent, kpop, shorts, meme, christian, ccm → 끝나면 스레드에 하루치 보고(1~6회차 리포트 첨부)
 
 ## 1. 수집
-카테고리 57개(수집 단위): `toon, toonhot, worldfood, eatseoul, eatgg, eatdj, eatsj, shopguide, shopmen, shopdeal, ai, ax, robot, paper, it, applesamsung, car, semi, security, movie, music, art, book, show, design, cardesign, productd, brand, package, uxui, arch, fashion, food, travel, health, wine, winepick, wineregion, winepair, winestudy, winetype, winery, cellar, winedeal, wineko, game, webtoon, sports, science, edu, ent, kpop, shorts, meme, g2b, christian, ccm`
-- 사이트 탭은 섹션으로 묶어 보여준다(app.js `SECTIONS`): AI(ai·ax·robot·paper), IT·테크(it·applesamsung·car·semi·security), 문화(movie·music·art·book·show), 디자인(design 디자인 뉴스·cardesign 자동차·productd 제품·산업·brand 브랜딩·그래픽·package 패키지·uxui·arch), 라이프(fashion·food·travel·health), 와인(wine 업계 뉴스·winepick 추천·리뷰·wineregion 산지·빈티지·winepair 페어링·winestudy 와인 상식·winetype 세계 인기 와인·winery 와이너리·cellar 셀러·보관·winedeal 할인 정보·wineko 국내 와인), 학생(game·webtoon·sports·science·edu), 연예·트렌드(ent·kpop·shorts·meme), 맛집·맛도리(eatseoul·eatgg·eatdj·eatsj·worldfood), 쇼핑(shopguide·shopmen·shopdeal), 웹툰(toon·toonhot), 나라장터(g2b), 종교(christian·ccm). 분류를 추가하면 `SECTIONS`와 update.py `CATS`·`CAT_NAME`에 함께 넣는다.
+카테고리 59개(수집 단위): `tripko, tripworld, toon, toonhot, worldfood, eatseoul, eatgg, eatdj, eatsj, shopguide, shopmen, shopdeal, ai, ax, robot, paper, it, applesamsung, car, semi, security, movie, music, art, book, show, design, cardesign, productd, brand, package, uxui, arch, fashion, food, travel, health, wine, winepick, wineregion, winepair, winestudy, winetype, winery, cellar, winedeal, wineko, game, webtoon, sports, science, edu, ent, kpop, shorts, meme, g2b, christian, ccm`
+- 사이트 탭은 섹션으로 묶어 보여준다(app.js `SECTIONS`): AI(ai·ax·robot·paper), IT·테크(it·applesamsung·car·semi·security), 문화(movie·music·art·book·show), 디자인(design 디자인 뉴스·cardesign 자동차·productd 제품·산업·brand 브랜딩·그래픽·package 패키지·uxui·arch), 라이프(fashion·food·travel·health), 와인(wine 업계 뉴스·winepick 추천·리뷰·wineregion 산지·빈티지·winepair 페어링·winestudy 와인 상식·winetype 세계 인기 와인·winery 와이너리·cellar 셀러·보관·winedeal 할인 정보·wineko 국내 와인), 학생(game·webtoon·sports·science·edu), 연예·트렌드(ent·kpop·shorts·meme), 맛집·맛도리(eatseoul·eatgg·eatdj·eatsj·worldfood), 쇼핑(shopguide·shopmen·shopdeal), 여행지(tripko 국내·tripworld 해외), 웹툰(toon·toonhot), 나라장터(g2b), 종교(christian·ccm). 분류를 추가하면 `SECTIONS`와 update.py `CATS`·`CAT_NAME`에 함께 넣는다.
 - applesamsung은 애플·삼성전자 제품·소프트웨어·실적·전략(대략 반반), it에서는 애플·삼성 기사를 빼고 다른 기업 위주로. movie는 영화(개봉·박스오피스·영화제·감독), ent(연예)는 영화를 빼고 드라마·예능·아이돌 위주로.
 - 와인 섹션: wine은 해외 와인 산업·기업·경매·시장(업계 뉴스), winepick은 신상·리뷰·점수·스타일별 추천, wineregion은 산지 소식·수확/빈티지 리포트·규정, winepair는 음식 페어링·레시피(14일 이내 허용), winestudy는 품종·라벨·보관·시음 등 입문 해설(30일 이내 허용), wineko는 국내 시장·유통 행사·국내 와인 이벤트. winetype은 세계적으로 사랑받는 품종·스타일(카베르네 소비뇽·피노 누아·샴페인·리슬링 등) 소개, winery는 와이너리·샤토 탐방·역사·인물, cellar는 와인셀러·냉장고·보관 장비·보관법·잔·디캔터, winedeal은 국내 마트·백화점·편의점·온라인 와인 할인 행사(기간·장소·할인율 원문 그대로, 끝난 행사 제외). 30일 이내 허용(winedeal은 진행 중 행사만, cellar는 보관·장비 가이드라 6개월 이내 허용). 서로 같은 사건 겹치지 않게.
 - **shorts**는 기사가 아니라 그날(최근 1~3일) 가장 화제인 유튜브 쇼츠 10개(한국 우선). 화제 쇼츠를 다룬 기사·트렌딩 페이지로 찾고, 각 영상은 YouTube oEmbed(`https://www.youtube.com/oembed?url=https://www.youtube.com/shorts/<ID>&format=json`)로 존재·제목·채널을 확인(확인 안 되면 제외, ID 지어내기 금지). 항목 형식: `url`=`https://www.youtube.com/shorts/<ID>`, `videoId`=<ID>, `source`=채널명, `originalTitle`=영상 원제목, `image`=`https://i.ytimg.com/vi/<ID>/hqdefault.jpg`, `via`=화제 근거 페이지. 요약은 무슨 영상이고 왜 화제인지 250~500자. 혐오·선정·위험 행위 제외.
@@ -32,6 +32,7 @@ WebFetch는 세션 전체에서 **시간당 약 400회**로 제한된다. 카테
 - **worldfood**(세계 맛도리): 세계 각국에서 사랑받는 음식·간식·식품 소개(유래·맛·어디서 먹나). 화제 식품 기사 우선, 소개 글은 90일 이내 허용. food(외식 산업 뉴스)와 겹치지 않게.
 - **shopguide**(믿을 만한 쇼핑몰): 남성 의류를 살 수 있는 신뢰도 높은 국내 사이트를 한 항목 = 한 사이트로 소개(url=사이트 홈). 대기업·브랜드 공식몰, 정품 보장, 교환·반품 정책, 정기 세일 시기 등 신뢰 근거를 사이트 공지·약관·기사에서 확인한 것만 `facts`(운영사·정품 보장·반품·정기 세일·특징)에 쓴다. 인스타·SNS 광고형 단독몰, 운영사 불명, 리셀·병행수입 위주 몰 제외. 매번 새로 쓰지 말고 이미 있는 사이트는 건너뛴다(없으면 0건 정상).
 - **shopmen**(남성 의류): 남성복 브랜드·신상·컬렉션·협업·코디 트렌드 뉴스(14일 이내). **shopdeal**(할인 행사): shopguide 수준의 신뢰 사이트·브랜드 공식몰의 진행 중 할인 행사만(기간·할인율 원문 그대로, 끝난 행사 제외, 쿠폰 조건은 원문대로).
+- **여행지**(tripko 국내·tripworld 해외): 뉴스가 아니라 가볼 만한 여행지 소개. 지금 계절·축제·화제성 있는 곳 우선, 한 항목 = 한 여행지(도시·명소·코스). 관광공사·지자체·여행 매체·기사 원문 근거로 볼거리·가는 법·시기·비용(원문 그대로)을 `facts`에. 라이프 travel(여행 산업·항공·제도 뉴스)과 겹치지 않게, 90일 이내 기사·공식 소개 페이지 허용, 확인 못 한 값은 "[확인 필요]".
 - **웹툰 섹션**: toon은 웹툰 업계·플랫폼·IP(드라마·영화화)·작가·수상 소식, toonhot은 지금 인기·화제 웹툰 추천(작품·플랫폼·장르·연재 상태, 성인 작품 제외). 학생 섹션 webtoon과 같은 기사 겹치지 않게, 14일 이내 허용(toonhot은 30일).
 - 디자인 세분: cardesign(신차·콘셉트카 외관·실내·디자이너, 성능·판매 기사 X), productd(가전·가구·조명·생활용품, 디자인 어워드), brand(리브랜딩·BI/CI·그래픽·타이포·폰트), package(식품·화장품 패키지, 친환경 포장, Pentawards). 이 분류들은 14일 이내 허용. design은 이들과 겹치지 않는 디자인 일반 뉴스(전시·디자이너·업계).
 - design은 제품·브랜딩·건축·공간 디자인, uxui는 UX/UI·디자인 툴·디자인 시스템·접근성으로 나눈다.

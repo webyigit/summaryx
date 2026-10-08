@@ -2708,5 +2708,33 @@
         "신작 웹툰"
       ]
     }
+  ],
+  "tripko": [
+    {
+      "name": "대한민국 구석구석",
+      "url": "https://korean.visitkorea.or.kr/",
+      "keywords": [
+        "가볼만한곳",
+        "10월 여행지",
+        "축제"
+      ]
+    }
+  ],
+  "tripworld": [
+    {
+      "name": "Lonely Planet",
+      "url": "https://www.lonelyplanet.com/articles",
+      "keywords": [
+        "best places to visit",
+        "where to go"
+      ]
+    },
+    {
+      "name": "Condé Nast Traveler",
+      "url": "https://www.cntraveler.com/",
+      "keywords": [
+        "destinations"
+      ]
+    }
   ]
 }
