@@ -334,3 +334,5 @@ main { padding: 0 16px; }
 .mascot .mbubble b { margin-right: 6px; color: var(--accent); }
 @keyframes mbob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
 @media (prefers-reduced-motion: reduce) { .mascot .mbody { animation: none; } }
+/* 더블탭 확대는 막고, 핀치 줌·스크롤은 그대로 */
+html, body, a, button, input, .item, .chip, .sub { touch-action: manipulation; }
