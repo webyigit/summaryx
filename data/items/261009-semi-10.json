@@ -1,0 +1,21 @@
+{
+ "title": "AMD, 연말 FSR4 지원 신규 APU 출시",
+ "originalTitle": "AMD, 연말 신규 APU 출시한다",
+ "source": "디일렉(THE ELEC)",
+ "url": "https://www.thelec.kr/news/articleView.html?idxno=63427",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "잭 후인 AMD 컴퓨팅·그래픽스 그룹 수석 부사장은 7일 서울에서 국내 언론과 만나, 외장 그래픽카드에 먼저 적용한 머신러닝 기반 업스케일링 기술 FSR4를 올해 말 APU, 게이밍 노트북, 핸드헬드 기기 등 전 제품군으로 넓히겠다고 밝혔다.",
+  "FSR4는 FSR3까지의 알고리즘 방식에서 엔비디아 DLSS와 같은 머신러닝 방식으로 바꾼 기술이다. 기존 APU는 AI 연산 성능이 모자라 라이젠 Z2 익스트림, 라이젠 AI 헤일로도 공식 지원을 받지 못했고, 데스크톱에서는 RDNA4 GPU만 지원됐다.",
+  "이번 발언은 RDNA4 내장 GPU를 단 신규 APU를 연내 내놓겠다는 뜻으로 풀이된다. 기존 APU에는 경량화한 전용 모델로 대응한다. 제품명, 가격, 정확한 출시일은 공개되지 않았다."
+ ],
+ "keyPoints": [
+  "FSR4를 APU·노트북·핸드헬드로 확대",
+  "RDNA4 내장 GPU 신규 APU 연내 출시 시사",
+  "기존 APU엔 경량 FSR4 모델 제공"
+ ],
+ "image": "https://cdn.thelec.kr/news/photo/202610/63427_49918_4654.jpg",
+ "id": "261009-semi-10",
+ "category": "semi",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}

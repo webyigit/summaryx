@@ -1,0 +1,43 @@
+{
+ "title": "AI의 '생각 과정'은 진짜 속마음일까: CoT 정합성 측정과 개선",
+ "originalTitle": "Making LLMs Say What They Think: Measuring and Improving CoT-Interpretability Alignment",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2609.38972",
+ "publishedAt": "2026-09-30",
+ "summary": [
+  "요즘 AI는 답하기 전에 단계별 생각 과정(CoT)을 글로 보여 줍니다. 하지만 이 글이 모델 내부에서 실제로 일어난 계산을 정직하게 반영하는지는 확실하지 않습니다. 겉으로 쓴 이유와 속으로 쓴 방법이 다르다면 AI를 감시하고 신뢰하기 어렵습니다.",
+  "연구진은 CoT 내용과, 해석 가능성 도구로 찾아낸 모델 내부 추론 전략이 얼마나 일치하는지 점수로 매기는 지표 CIA(CoT-해석 정합성)를 제안했습니다. 두 단계 질의응답, 힌트 개입, 정수 곱셈 세 과제와 세 개의 언어모델에서 측정한 결과 일치율은 44.8~75.9%에 그쳤습니다.",
+  "이어 과제 정확도와 '내부 계산에 충실한 정도'를 함께 보상으로 주는 후속 학습을 했더니, 정확도는 유지하거나 높이면서 생각 과정의 충실도가 크게 개선됐습니다. AI가 보여 주는 추론을 감사(audit)하는 틀로서 AI 안전·투명성 연구에 쓰일 수 있습니다."
+ ],
+ "keyPoints": [
+  "CoT와 내부 계산 일치율 44.8~75.9%",
+  "충실도 보상 학습으로 정확도 유지하며 개선",
+  "코드 공개, AI 추론 감사 틀 제시"
+ ],
+ "facts": [
+  [
+   "저자",
+   "Yihuai Hong, Shauli Ravfogel, Chen Zhao, Eunsol Choi"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "cs.CL (cs.AI)"
+  ],
+  [
+   "arXiv ID",
+   "2609.38972"
+  ],
+  [
+   "코드",
+   "https://github.com/yihuaihong/CIA-minimal-repro"
+  ]
+ ],
+ "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.38972/gradient.png",
+ "id": "261009-paper-10",
+ "category": "paper",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}

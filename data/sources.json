@@ -47,23 +47,21 @@
  ],
  "ax": [
   {
-   "name": "파이낸셜뉴스",
-   "url": "https://www.fnnews.com",
+   "name": "지디넷코리아",
+   "url": "https://zdnet.co.kr/news/?lstcode=0000",
    "keywords": [
     "AX",
-    "AI 전환",
-    "업무 자동화",
-    "AI 에이전트 도입"
+    "AI 에이전트 도입",
+    "공공 AX"
    ]
   },
   {
-   "name": "Business Korea",
-   "url": "https://www.businesskorea.co.kr",
+   "name": "전자신문 AI·SW",
+   "url": "https://www.etnews.com/news/section.html?id1=04",
    "keywords": [
-    "AX",
-    "기업 AI 도입",
-    "KT AX",
-    "AI 플랫폼"
+    "공공AX",
+    "AX 교육",
+    "AI 거버넌스"
    ]
   },
   {
@@ -76,30 +74,28 @@
    ]
   },
   {
+   "name": "인공지능신문",
+   "url": "https://www.aitimes.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "공공기관 AI 활용",
+    "업무 효율"
+   ]
+  },
+  {
+   "name": "파이낸셜뉴스",
+   "url": "https://www.fnnews.com",
+   "keywords": [
+    "AX",
+    "국방 AX",
+    "AI 전환"
+   ]
+  },
+  {
    "name": "AI타임스",
    "url": "https://www.aitimes.com/news/articleList.html?view_type=sm",
    "keywords": [
     "기업 AI 도입",
-    "사내 AI 사용",
     "AX 사례"
-   ]
-  },
-  {
-   "name": "지디넷코리아",
-   "url": "https://zdnet.co.kr",
-   "keywords": [
-    "공공 AX",
-    "AI 도입 제도",
-    "국가AI전략위원회"
-   ]
-  },
-  {
-   "name": "뉴스핌",
-   "url": "https://www.newspim.com",
-   "keywords": [
-    "AI 에이전트 도입",
-    "금융 AX",
-    "AI 상담"
    ]
   }
  ],
@@ -320,6 +316,27 @@
     "Pixel",
     "One UI",
     "Android"
+   ]
+  },
+  {
+   "name": "지디넷코리아 인터넷",
+   "url": "https://zdnet.co.kr/news/?lstcode=0040",
+   "keywords": [
+    "플랫폼",
+    "틱톡",
+    "네이버",
+    "치지직"
+   ]
+  },
+  {
+   "name": "전자신문 통신",
+   "url": "https://www.etnews.com/news/section.html?id1=03",
+   "keywords": [
+    "통신",
+    "5G",
+    "유료방송",
+    "SKT",
+    "TV 시장"
    ]
   }
  ],
@@ -810,8 +827,8 @@
    "keywords": [
     "Apple",
     "iPhone",
-    "macOS",
-    "Apple earnings"
+    "Apple Watch",
+    "iPad"
    ]
   },
   {
@@ -820,7 +837,7 @@
    "keywords": [
     "Samsung Galaxy",
     "One UI",
-    "Samsung profit"
+    "Samsung Wallet"
    ]
   },
   {
@@ -836,9 +853,7 @@
    "url": "https://zdnet.co.kr/",
    "keywords": [
     "삼성전자",
-    "애플",
-    "갤럭시",
-    "아이폰"
+    "실적"
    ]
   },
   {
@@ -846,16 +861,15 @@
    "url": "https://etnews.com/",
    "keywords": [
     "아이폰",
-    "삼성전자",
-    "갤럭시"
+    "아이폰 듀오"
    ]
   },
   {
    "name": "The Investor (Korea Herald)",
    "url": "https://www.theinvestor.co.kr/",
    "keywords": [
-    "Samsung Electronics earnings",
-    "Samsung memory"
+    "Samsung HBM",
+    "Samsung earnings"
    ]
   }
  ],
@@ -1672,48 +1686,18 @@
     "agent",
     "multimodal",
     "robotics",
-    "safety",
     "efficient"
    ]
   },
   {
-   "name": "arXiv cs.AI 최신",
-   "url": "https://arxiv.org/list/cs.AI/recent",
+   "name": "arXiv abs",
+   "url": "https://arxiv.org/",
    "keywords": [
-    "agent",
-    "reasoning",
-    "alignment",
-    "benchmark"
-   ]
-  },
-  {
-   "name": "arXiv cs.CL 최신",
-   "url": "https://arxiv.org/list/cs.CL/recent",
-   "keywords": [
-    "language model",
-    "LLM",
-    "RLHF",
-    "chain-of-thought"
-   ]
-  },
-  {
-   "name": "arXiv cs.CV / cs.RO 최신",
-   "url": "https://arxiv.org/list/cs.CV/recent",
-   "keywords": [
-    "video generation",
-    "VLA",
-    "world model",
-    "diffusion"
-   ]
-  },
-  {
-   "name": "arXiv cs.LG 최신",
-   "url": "https://arxiv.org/list/cs.LG/recent",
-   "keywords": [
-    "training",
-    "efficiency",
-    "test-time",
-    "distillation"
+    "cs.CL",
+    "cs.LG",
+    "cs.CV",
+    "cs.RO",
+    "cs.AI"
    ]
   }
  ],
@@ -3382,70 +3366,43 @@
  ],
  "luxprice": [
   {
-   "name": "마리끌레르 코리아 뷰티",
-   "url": "https://www.marieclairekorea.com/beauty/",
+   "name": "루이비통 공식몰(한국)",
+   "url": "https://kr.louisvuitton.com/kor-kr/",
    "keywords": [
-    "향수",
-    "신제품",
+    "루이비통",
     "가격"
    ]
   },
   {
-   "name": "코치 코리아 공식몰",
-   "url": "https://korea.coach.com/shop/women/handbags/view-all",
+   "name": "에르메스 공식몰(한국)",
+   "url": "https://www.hermes.com/kr/ko/",
    "keywords": [
-    "신상품",
-    "가방"
+    "에르메스",
+    "가격"
    ]
   },
   {
-   "name": "토리버치 코리아 공식몰",
-   "url": "https://www.toryburch.co.kr/",
+   "name": "불가리 공식몰(한국)",
+   "url": "https://www.bulgari.com/ko-kr/",
    "keywords": [
-    "신상품",
-    "가방"
+    "불가리",
+    "가격"
    ]
   },
   {
-   "name": "아크네 스튜디오 한국 공식 스토어",
-   "url": "https://www.acnestudios.com/kr/ko/woman/new-arrivals/",
+   "name": "반클리프 아펠 공식몰(한국)",
+   "url": "https://www.vancleefarpels.com/kr/ko/",
    "keywords": [
-    "신상품"
+    "반클리프 아펠",
+    "가격"
    ]
   },
   {
-   "name": "아미 한국 공식 스토어",
-   "url": "https://www.amiparis.com/ko-kr/collections/unisex-new-arrivals",
+   "name": "티파니 공식몰(한국)",
+   "url": "https://www.tiffany.kr/",
    "keywords": [
-    "신상품"
-   ]
-  },
-  {
-   "name": "SSF샵 메종 키츠네관",
-   "url": "https://www.ssfshop.com/Maison-Kitsune/main?brandShopNo=BDMA07A22&brndShopId=BQMKT",
-   "keywords": [
-    "신상품",
-    "니트",
-    "액세서리"
-   ]
-  },
-  {
-   "name": "에스콰이어 코리아",
-   "url": "https://www.esquirekorea.co.kr/",
-   "keywords": [
-    "가격",
-    "신상",
-    "백팩",
-    "시계"
-   ]
-  },
-  {
-   "name": "Bing 뉴스 RSS(최신순)",
-   "url": "https://www.bing.com/news/search?q=명품+신제품+가격+원&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "명품 신제품",
-    "가격",
-    "출시"
+    "티파니",
+    "가격"
    ]
   }
  ],

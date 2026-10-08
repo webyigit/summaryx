@@ -1,0 +1,39 @@
+{
+ "title": "트웰브랩스 '페가수스 1.6', 1인칭 영상으로 로봇 학습 데이터 만든다",
+ "originalTitle": "Pegasus 1.6 brings video understanding to physical AI, says TwelveLabs",
+ "source": "The Robot Report",
+ "url": "https://www.therobotreport.com/pegasus-1-6-brings-video-understanding-physical-ai-says-twelvelabs/",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "서울에 기반을 둔 영상 AI 기업 트웰브랩스가 로봇·피지컬 AI 개발자를 겨냥한 영상 이해 모델 '페가수스 1.6'을 내놨다. 재 리(Jae Lee) CEO는 원본 영상을 로봇 팀이 학습에 쓸 수 있는 구조화된 지식으로 바꾸는 것이 목표라고 설명했다.",
+  "페가수스 1.6은 요리, 공장 조립, 원격 로봇 조작처럼 1인칭(에고센트릭) 영상을 해석하도록 만든 첫 모델이다. 특정 카메라나 전용 하드웨어 없이 기존 영상과 사진을 쓸 수 있고, 1인칭 영상은 원격조작 데이터보다 모으고 늘리기 쉽다는 것이 회사 설명이다. 모델은 동작을 식별해 시간 단위로 나누고 손과 물체를 추적하며 주변 사람 등장도 표시한다. 동작 분할·라벨링, 밀집 캡션, 클립 품질 점수, 검색·큐레이션, 얼굴·민감정보 동의 확인 등 5가지 작업 흐름을 지원한다.",
+  "회사는 로봇의 촉각·구동 센싱을 대체하려는 것이 아니라 팀의 센서 데이터와 결합해 쓰는 것이라며, 포장·조립·청소·반도체 품질검사 같은 조작 과제에서 로봇 연구소들과 협력 중이라고 밝혔다."
+ ],
+ "keyPoints": [
+  "1인칭 영상 해석에 특화된 첫 페가수스 모델",
+  "손·물체 추적, 동작 분할 등 5가지 작업 흐름",
+  "로봇 조작 학습 데이터 구축용"
+ ],
+ "facts": [
+  [
+   "기업",
+   "트웰브랩스(TwelveLabs)"
+  ],
+  [
+   "모델",
+   "페가수스 1.6"
+  ],
+  [
+   "대상",
+   "로봇·피지컬 AI 개발자"
+  ],
+  [
+   "특징",
+   "1인칭 영상 이해"
+  ]
+ ],
+ "image": "https://www.therobotreport.com/wp-content/uploads/2026/10/TwelveLabs_Pegasus.jpg",
+ "id": "261009-robot-13",
+ "category": "robot",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}

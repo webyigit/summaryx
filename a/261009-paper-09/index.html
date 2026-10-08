@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UNREAL: 검색과 긴 문서 읽기를 언어모델 하나로 | summaryx</title>
+<meta name="description" content="AI가 방대한 자료에서 답을 찾을 때는 보통 별도의 검색 모델로 관련 문단을 골라 오거나(RAG), 아주 긴 문서를 통째로 모델에 넣습니다. 앞의 방식은 검색기·재정렬기 같은 추가 모델이 필요하고, 뒤의 방식은 계산이 많고 방해 정보에 쉽게 흔들립니다. UNREAL은 ">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="UNREAL: 검색과 긴 문서 읽기를 언어모델 하나로">
+<meta property="og:description" content="AI가 방대한 자료에서 답을 찾을 때는 보통 별도의 검색 모델로 관련 문단을 골라 오거나(RAG), 아주 긴 문서를 통째로 모델에 넣습니다. 앞의 방식은 검색기·재정렬기 같은 추가 모델이 필요하고, 뒤의 방식은 계산이 많고 방해 정보에 쉽게 흔들립니다. UNREAL은 ">
+<meta property="og:image" content="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.08463/gradient.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="../../#/a/261009-paper-09">
+<script>location.replace('../../#/a/261009-paper-09');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261009-paper-09">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">UNREAL: 검색과 긴 문서 읽기를 언어모델 하나로</h1>
+<p>AI가 방대한 자료에서 답을 찾을 때는 보통 별도의 검색 모델로 관련 문단을 골라 오거나(RAG), 아주 긴 문서를 통째로 모델에 넣습니다. 앞의 방식은 검색기·재정렬기 같은 추가 모델이 필요하고, 뒤의 방식은 계산이 많고 방해 정보에 쉽게 흔들립니다.</p><p>UNREAL은 이미 학습된 언어모델의 내부 표현을 그대로 활용해 두 작업을 함께 처리합니다. 모델 본체는 고정한 채 50만 개 미만의 학습 파라미터만 더해 문단을 인코딩하고 검색 질의를 만듭니다. 30억 토큰, 2,100만 문단 규모의 위키백과 색인에서 기존 검색기+재정렬기 조합보다 좋은 성능을 냈습니다.</p><p>가장 좋은 모델은 HotpotQA 재현율을 49.1%에서 73.2%로, 2WikiMultiHopQA를 31.7%에서 60.1%로 끌어올렸습니다. 긴 문맥 과제에서는 답하기 전에 방해 정보를 걸러내 12만8천 토큰 NoLiMa 정확도를 1.0%에서 24.83%로 높였고, 약 3만2천 토큰 이상부터는 전체 문맥을 다 읽는 것보다 계산량과 첫 응답 시간도 줄었습니다.</p>
+<p><a href="https://arxiv.org/abs/2610.08463">원문 보기</a></p>
+</body></html>

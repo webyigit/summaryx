@@ -1,0 +1,39 @@
+{
+ "title": "슈나이더 일렉트릭, PTC 226억 달러에 인수…지멘스와 산업 AI 경쟁",
+ "originalTitle": "PTC acquisition positions Schneider Electric to challenge Siemens",
+ "source": "The Robot Report",
+ "url": "https://www.therobotreport.com/ptc-acquisition-positions-schneider-electric-challenge-siemens/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "슈나이더 일렉트릭이 보스턴의 산업 설계·엔지니어링·데이터 관리 기업 PTC를 약 226억 달러에 인수할 계획이다. 양사는 설계·생산부터 운영·유지보수까지 제품 전 생애주기에서 디지털과 물리 세계를 잇겠다고 밝혔다. 올리비에 블룸 슈나이더 CEO는 산업 AI를 뒷받침할 '디지털 스레드'를 내세우며, CAD에서 생산 현장까지의 연속성과 시뮬레이션 기반 로봇 테스트 가속을 기대 효과로 들었다.",
+  "인터랙트 애널리시스의 마티외 쿨레작 애널리스트는 이번 인수로 슈나이더가 항공우주·방산 등에서 지멘스와 경쟁할 수 있게 됐다고 분석했다. PTC의 온쉐이프는 로봇 개발자·기계 제작사 접근을, 코드비머는 요구사항·시험·추적성 관리를 제공한다. 다만 시뮬레이션에선 지멘스가 앞서 있고, 최근 인수 기업들의 통합과 제품·데이터 구조 정렬이 과제로 꼽혔다.",
+  "발표 뒤 슈나이더 주가는 크게 떨어졌다. 쿨레작은 42.3%의 인수 프리미엄과 대규모 자금 조달, 미래 시너지 의존을 투자자 우려 요인으로 들면서도 장기 전략적 논리는 설득력이 있다고 평가했다."
+ ],
+ "keyPoints": [
+  "슈나이더, PTC 약 226억 달러 인수 계획",
+  "설계~유지보수 잇는 '디지털 스레드'로 지멘스 견제",
+  "42.3% 프리미엄에 주가 급락"
+ ],
+ "facts": [
+  [
+   "인수자",
+   "슈나이더 일렉트릭"
+  ],
+  [
+   "피인수",
+   "PTC(미국 보스턴)"
+  ],
+  [
+   "규모",
+   "약 226억 달러"
+  ],
+  [
+   "프리미엄",
+   "42.3%"
+  ]
+ ],
+ "image": "https://www.therobotreport.com/wp-content/uploads/2026/10/Creo-July-23-annoucement-copy.jpg",
+ "id": "261009-robot-17",
+ "category": "robot",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "챗GPT, 대화 속 차트·계산기 띄우는 '인텔리전트 UI' 도입",
+ "originalTitle": "ChatGPT is getting a lot more visual, with the launch of a new interface",
+ "source": "TechCrunch",
+ "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "오픈AI가 챗GPT 대화에 시각 자료를 대폭 늘리는 '인텔리전트 UI'를 새 GPT-6 모델과 함께 내놓았다. 단순 이미지가 아니라 누를 수 있는 버튼, 작업 맞춤 계산기, 인터랙티브 차트, 직접 고칠 수 있는 그래프 등 상호작용형 요소가 중심이다.",
+  "오픈AI는 '복잡한 주제를 더 쉽게 배우게 하는 것'이 목표라고 밝혔다. 프로덕트 매니저 아루시 셀반은 챗GPT가 지금까지 주로 텍스트였지만, 레시피·여행 계획·학습 등에서 가장 도움이 되는 답은 텍스트 이상인 경우가 많다고 설명했다. 비행기 날개가 양력을 만드는 원리를 여러 도식으로 보여주는 예시, 자전거 구조도, 하이킹 지도, 저축 계산기 등이 시연됐다.",
+  "시각 자료가 부담스러우면 성격 설정처럼 양을 줄일 수 있다. 프로·플러스·비즈니스·엔터프라이즈 이용자에게 먼저 적용되고, 무료·고(Go) 요금제는 다음 날부터 쓸 수 있다."
+ ],
+ "keyPoints": [
+  "GPT-6와 함께 상호작용형 시각 답변 도입",
+  "차트·계산기·도식 등으로 학습 돕기 목표",
+  "유료 먼저, 무료·Go 요금제는 하루 뒤"
+ ],
+ "image": "https://techcrunch.com/wp-content/uploads/2026/10/Intelligent-UI.png?resize=1200,675",
+ "facts": [
+  [
+   "기업",
+   "오픈AI"
+  ],
+  [
+   "기능",
+   "인텔리전트 UI"
+  ],
+  [
+   "대상",
+   "전 세계 모든 요금제(순차)"
+  ]
+ ],
+ "id": "261009-ai-06",
+ "category": "ai",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}

@@ -1,0 +1,39 @@
+{
+ "title": "삼성, 차량용 '엑시노스 오토' 신규 개발 중단 보도",
+ "originalTitle": "Samsung may stop making Exynos chips for cars",
+ "source": "SamMobile",
+ "url": "https://www.sammobile.com/news/samsung-stop-making-exynos-chips-cars-automotive/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "문화일보 보도에 따르면 삼성전자가 차량용 프로세서 '엑시노스 오토'의 신규 개발을 공식 중단하기로 했다. 삼성은 2018년부터 이 사업에 크게 투자해 왔으며, 철수설은 지난해에도 나온 바 있다.",
+  "칩 하나 개발에 1000억원(약 7500만 달러) 이상이 들지만 공급가는 개당 20~40달러에 불과하고, 시장은 퀄컴이 장악하고 있어 수익을 내기 어렵다는 판단이다. 올해 메모리 사업은 크게 성장했지만 비메모리 부문은 여전히 고전하고 있다.",
+  "현대차(2023년), BMW(2025년)와 맺은 기존 공급 계약은 지키되 후속 제품은 만들지 않는다. 대신 갤럭시 S27 울트라에 들어갈 엑시노스 2700 등 모바일 AP, 애플 차세대 아이폰용 이미지센서, AI 데이터센터 칩, DDI·PMIC 등 수익성 높은 분야에 집중할 계획이다."
+ ],
+ "keyPoints": [
+  "엑시노스 오토 신규 개발 중단 보도(문화일보)",
+  "개발비 1000억원 이상 대비 공급가 20~40달러",
+  "현대차·BMW 기존 계약은 이행"
+ ],
+ "image": "https://www.sammobile.com/wp-content/uploads/2023/10/Samsung-Exynos-Auto-V920-4.jpg",
+ "facts": [
+  [
+   "회사",
+   "삼성전자"
+  ],
+  [
+   "제품",
+   "엑시노스 오토"
+  ],
+  [
+   "원출처",
+   "문화일보 보도"
+  ],
+  [
+   "기존 고객",
+   "현대차(2023)·BMW(2025)"
+  ]
+ ],
+ "id": "261009-applesamsung-13",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}

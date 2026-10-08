@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>토크나이저가 다른 선생·학생 AI, &#x27;많이&#x27;보다 &#x27;믿을 만한&#x27; 지도가 중요 | summaryx</title>
+<meta name="description" content="큰 AI(선생)의 실력을 작은 AI(학생)에게 옮기는 &#x27;증류&#x27; 기법 중, 학생이 직접 만든 답안을 선생이 채점하듯 지도하는 방식을 온폴리시 증류(OPD)라고 합니다. 문제는 두 모델이 글을 쪼개는 단위(토크나이저)가 다르면 서로의 예측을 맞춰 비교하기가 어렵다는 점입니">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="토크나이저가 다른 선생·학생 AI, &#x27;많이&#x27;보다 &#x27;믿을 만한&#x27; 지도가 중요">
+<meta property="og:description" content="큰 AI(선생)의 실력을 작은 AI(학생)에게 옮기는 &#x27;증류&#x27; 기법 중, 학생이 직접 만든 답안을 선생이 채점하듯 지도하는 방식을 온폴리시 증류(OPD)라고 합니다. 문제는 두 모델이 글을 쪼개는 단위(토크나이저)가 다르면 서로의 예측을 맞춰 비교하기가 어렵다는 점입니">
+<meta property="og:image" content="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.08448/gradient.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="../../#/a/261009-paper-01">
+<script>location.replace('../../#/a/261009-paper-01');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261009-paper-01">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">토크나이저가 다른 선생·학생 AI, &#x27;많이&#x27;보다 &#x27;믿을 만한&#x27; 지도가 중요</h1>
+<p>큰 AI(선생)의 실력을 작은 AI(학생)에게 옮기는 &#x27;증류&#x27; 기법 중, 학생이 직접 만든 답안을 선생이 채점하듯 지도하는 방식을 온폴리시 증류(OPD)라고 합니다. 문제는 두 모델이 글을 쪼개는 단위(토크나이저)가 다르면 서로의 예측을 맞춰 비교하기가 어렵다는 점입니다. 그래서 그동안은 맞춰 비교할 수 있는 범위를 최대한 넓히는 쪽으로 연구가 진행됐습니다.</p><p>연구진은 수학 추론과 코드 생성에서 세 쌍의 선생·학생 모델을 실험했습니다. 그 결과 어휘가 꽤 달라도 1:1로 딱 맞아떨어지는 위치만으로 학생이 만든 토큰 대부분을 덮을 수 있었습니다. 이런 위치에서 학생이 고른 상위 16개 어휘만 비교해도 전체 공유 어휘를 쓰는 방식과 비슷한 성능을 냈고, 기존 교차 토크나이저 방법들보다 나았습니다.</p><p>반대로 어긋난 구간까지 억지로 지도 신호를 넣어 범위를 100%로 채우자 정확도가 오히려 떨어졌습니다. 이 구간의 학습 신호가 정확한 위치의 신호와 자주 충돌했기 때문으로 보입니다. 서로 다른 모델끼리 지식을 옮길 때 &#x27;범위&#x27;보다 &#x27;신호의 신뢰도&#x27;가 더 중요하다는 실무적 교훈을 줍니다.</p>
+<p><a href="https://arxiv.org/abs/2610.08448">원문 보기</a></p>
+</body></html>

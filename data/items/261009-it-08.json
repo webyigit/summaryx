@@ -1,0 +1,21 @@
+{
+ "title": "윈도11 빠른 설정에 '모바일 기기' 타일 시험…안드로이드폰 무음·벨 울리기 제어",
+ "originalTitle": "Windows 11 is getting the kind of Android integration Googlebooks were built for",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/windows-11-android-phone-quick-settings-controls-3720383/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "마이크로소프트가 윈도11 '빠른 설정'에 연결된 휴대폰을 바로 제어하는 '모바일 기기' 타일을 시험하고 있다. 지금까지는 폰 링크 앱을 열어야 했던 기능을 작업표시줄 메뉴에서 바로 쓰게 하는 것이다.",
+  "안드로이드폰을 연결하면 타일에 기기 이름이 뜨고 방해 금지, 볼륨, '소리 울리기' 버튼이 나온다. 소리 울리기는 어디 뒀는지 모르는 휴대폰을 찾을 때 쓸 수 있다. 이 기능은 IT 매체 윈도우 레이티스트가 실험용 빌드(26340.9596)에 숨겨진 것을 직접 활성화해 발견했으며, MS는 정식 배포 계획을 발표하지 않았다. 기기 추가 화면에는 아이폰도 보이지만 같은 기능이 지원될지는 확인되지 않았다.",
+  "애플의 아이폰 미러링이나, 휴대폰 앱 화면 전송·알림 동기화·핫스팟 공유를 지원하는 구글 '구글북' 플랫폼과 비교하면 MS의 접근은 일상적인 휴대폰 제어에 집중한 좁은 범위다. 그래도 PC와 휴대폰을 오가는 사용자에게는 자주 쓰는 동작을 줄여 주는 변화가 될 수 있다."
+ ],
+ "keyPoints": [
+  "윈도11 빠른 설정에 휴대폰 제어 타일 시험",
+  "방해 금지·볼륨·소리 울리기 지원",
+  "실험 빌드에서 발견, 정식 배포는 미정"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2025/04/pixel-8-galaxy-s24-fe-phone-link-1.jpg",
+ "id": "261009-it-08",
+ "category": "it",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}

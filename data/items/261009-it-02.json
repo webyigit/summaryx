@@ -1,0 +1,21 @@
+{
+ "title": "MS, 엔비디아 'RTX 스파크' 칩 탑재 서피스 공개…최고 5900달러, 윈도11도 AI 중심 개편",
+ "originalTitle": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+ "source": "TechCrunch",
+ "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "엔비디아는 지난 6월 마이크로소프트(MS) 등 PC 제조사와 자사 'RTX 스파크' 칩 기반의 AI·에이전트용 윈도 PC를 만들기로 했다고 밝혔지만 구체적 내용은 없었다. MS가 샌프란시스코 행사에서 그 첫 제품의 사양과 가격을 공개했다.",
+  "'서피스 랩톱 울트라'는 2600달러와 3700달러(상위 칩) 두 기본 모델로 시작해 메모리·저장공간을 늘리면 5900달러까지 올라가며, MS는 최상위 모델이 이미 품절됐다고 밝혔다. 개발자용 워크스테이션 '서피스 RTX 스파크 데브 박스'는 6000달러부터로 VS Code, 깃허브 코파일럿 CLI, WSL 등을 기본 제공한다. 두 기기 모두 CPU·GPU·통합 메모리와 강화된 냉각으로 AI 모델을 기기 안에서 무료로 돌리는 것을 내세운다. 윈도11에는 AI 에이전트를 격리 실행하는 '실행 컨테이너' 기능이 추가되며, 사티아 나델라 CEO는 모든 윈도11 사용자에게 제공한다고 말했다.",
+  "MS는 맥북 프로 보상 판매 시 최대 1000달러 할인도 내걸며 개발자 수요를 겨냥했다. 델도 같은 칩을 쓴 'XPS 16 크리에이터 에디션'을 3800달러에 예약 판매한다. 로컬 AI 실행을 앞세운 고가 'AI PC' 경쟁이 본격화하는 모습이다."
+ ],
+ "keyPoints": [
+  "서피스 랩톱 울트라 2600~5900달러, 최상위 품절",
+  "6000달러 개발자용 'RTX 스파크 데브 박스'",
+  "윈도11에 AI 에이전트 격리 '실행 컨테이너'"
+ ],
+ "image": "https://techcrunch.com/wp-content/uploads/2026/10/Microsoft-Surface-Laptop-Ultra.png?resize=1200,677",
+ "id": "261009-it-02",
+ "category": "it",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}

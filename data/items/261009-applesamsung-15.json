@@ -1,0 +1,35 @@
+{
+ "title": "삼성, 보급형 갤럭시 A17 5G에서 원 UI 9.5 시험 시작",
+ "originalTitle": "Samsung is already testing One UI 9.5 for cheaper Galaxy phones",
+ "source": "SamMobile",
+ "url": "https://www.sammobile.com/news/galaxy-a17-5g-one-ui-9-5-testing/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "원 UI 9.0 배포가 아직 끝나지 않았는데 삼성이 보급형 갤럭시 A17 5G에서 원 UI 9.5 시험을 시작했다. 팁스터 파하드 알리 자베드가 삼성 서버에서 새 펌웨어(A176BOXM8EZJ1)를 발견했다. 보통 고가 모델부터 시험한 뒤 중저가로 내려오는 만큼, 이른 시점이라는 평가다.",
+  "삼성은 두어 달 전 갤럭시 S26 시리즈에서 원 UI 9.5 시험을 시작했고, 지난달 Z 플립8·폴드8로 넓혔으며, 기사 전날에는 갤럭시 A57용 빌드도 서버에 올라왔다.",
+  "원 UI 9.5는 9.0과 같은 안드로이드 17 기반이지만 앱 잠금, 다크 모드용 어두운 아이콘, 더 부드러운 애니메이션, 새 지문 애니메이션, 카메라 UI 조정, 앱 미러링 등이 추가될 것으로 보인다. 출시일은 아직 알려지지 않았다."
+ ],
+ "keyPoints": [
+  "갤럭시 A17 5G용 원 UI 9.5 빌드 서버 포착",
+  "S26→폴드8·플립8→A57·A17로 시험 확대",
+  "앱 잠금·다크 아이콘·앱 미러링 추가 예상"
+ ],
+ "image": "https://www.sammobile.com/wp-content/uploads/2025/08/Samsung-Galaxy-A17-5G-Gaming.jpg",
+ "facts": [
+  [
+   "회사",
+   "삼성전자"
+  ],
+  [
+   "소프트웨어",
+   "원 UI 9.5(안드로이드 17 기반)"
+  ],
+  [
+   "포착 펌웨어",
+   "A176BOXM8EZJ1"
+  ]
+ ],
+ "id": "261009-applesamsung-15",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}

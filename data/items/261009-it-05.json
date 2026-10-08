@@ -1,0 +1,21 @@
+{
+ "title": "19세 창업자의 '개인 AI 전용 컴퓨터' 고스트, 1100만 달러 투자 유치…3499달러",
+ "originalTitle": "At 19, founder raises $11M for Ghost, maker of a $3,499 computer for personal AI",
+ "source": "TechCrunch",
+ "url": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/",
+ "publishedAt": "2026-10-05",
+ "summary": [
+  "1년간 비공개로 개발해 온 스타트업 고스트(Ghost)가 앤드리슨 호로위츠(a16z) 주도로 1100만 달러(시드) 투자를 유치하고 첫 제품을 공개했다. 대표 자인 자비드는 19세로, 퀀트로 일하다 2022년 챗GPT 출시를 계기로 개인 AI에 뛰어들었다.",
+  "제품 '코어(Core)'는 사용자를 대신해 일하는 AI 에이전트를 위한 개인용 컴퓨터다. 데스크톱·앱·스마트홈 기기의 데이터를 한곳에 모아 에이전트가 계속 돌아가게 하는 것이 목표다. 엔비디아 RTX 프로 4000 SFF 블랙웰 GPU를 넣었고, 화면 없이 휴대폰 앱으로 쓴다. 큐원(Qwen)·젬마 계열 모델이 기본 설치되며 허깅페이스의 다른 모델도 올릴 수 있다. 회사는 모델과 개인 기억이 모두 기기 안에서 돌고 데이터가 암호화돼 고스트조차 볼 수 없으며, 회사가 문을 닫아도 기기는 작동한다고 설명했다.",
+  "가격은 3499달러로 첫 물량은 10월 마지막 주 배송 예정이다. 에이전트의 자격 증명 사용을 감시하는 방화벽도 개발 중이다. 클라우드 대신 집 안의 전용 기기로 AI를 돌리려는 '로컬 AI' 하드웨어 흐름을 보여 주는 사례다."
+ ],
+ "keyPoints": [
+  "a16z 주도 1100만 달러 시드 투자",
+  "엔비디아 GPU 탑재 화면 없는 AI 전용 PC",
+  "3499달러, 10월 말 첫 배송"
+ ],
+ "image": "https://techcrunch.com/wp-content/uploads/2026/10/Ghost-team.png?resize=1200,803",
+ "id": "261009-it-05",
+ "category": "it",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}

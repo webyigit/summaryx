@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TRACE: 4비트로 MoE 언어모델 강화학습을 최대 5.4배 빠르게 | summaryx</title>
+<meta name="description" content="요즘 대형 언어모델은 강화학습(RL)으로 추론 능력을 다듬는데, 이 과정에서 모델이 답안을 잔뜩 생성하는 &#x27;롤아웃&#x27; 단계가 계산과 메모리를 가장 많이 잡아먹습니다. 숫자를 4비트(FP4)로 줄여 계산하면 빨라지지만, 학습 쪽과 생성 쪽을 따로 압축하면 두 경로 사이에 ">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TRACE: 4비트로 MoE 언어모델 강화학습을 최대 5.4배 빠르게">
+<meta property="og:description" content="요즘 대형 언어모델은 강화학습(RL)으로 추론 능력을 다듬는데, 이 과정에서 모델이 답안을 잔뜩 생성하는 &#x27;롤아웃&#x27; 단계가 계산과 메모리를 가장 많이 잡아먹습니다. 숫자를 4비트(FP4)로 줄여 계산하면 빨라지지만, 학습 쪽과 생성 쪽을 따로 압축하면 두 경로 사이에 ">
+<meta property="og:image" content="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.07767/gradient.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="../../#/a/261009-paper-02">
+<script>location.replace('../../#/a/261009-paper-02');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261009-paper-02">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">TRACE: 4비트로 MoE 언어모델 강화학습을 최대 5.4배 빠르게</h1>
+<p>요즘 대형 언어모델은 강화학습(RL)으로 추론 능력을 다듬는데, 이 과정에서 모델이 답안을 잔뜩 생성하는 &#x27;롤아웃&#x27; 단계가 계산과 메모리를 가장 많이 잡아먹습니다. 숫자를 4비트(FP4)로 줄여 계산하면 빨라지지만, 학습 쪽과 생성 쪽을 따로 압축하면 두 경로 사이에 차이가 생겨 학습이 흔들리는 문제가 있었습니다.</p><p>TRACE는 여러 전문가 모듈을 골라 쓰는 MoE 모델을 위한 FP4 강화학습 방법입니다. 생성(롤아웃) 쪽에서 실제로 압축된 결과를 참고해 학습 쪽의 반올림 방향을 정하도록 해, 두 경로가 서로 어긋나지 않게 맞춥니다. 또 깊은 층의 일부 정보만 저장해 두어 저장·통신 부담을 줄였습니다.</p><p>4개의 대형 MoE 모델로 추론·코딩·장기 과제를 실험한 결과, 가중치·활성값·KV 캐시를 모두 4비트로 줄여도 16비트(BF16) 수준의 강화학습 성능을 냈습니다. 16비트로 학습한 뒤 사후에 4비트로 줄이는 방식보다 롤아웃이 최대 5.4배 빨라, 강화학습 비용 절감에 실질적인 도움이 될 전망입니다.</p>
+<p><a href="https://arxiv.org/abs/2610.07767">원문 보기</a></p>
+</body></html>

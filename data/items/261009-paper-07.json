@@ -1,0 +1,43 @@
+{
+ "title": "HuatuoGPT-3: 지도학습 없이 강화학습만으로 만든 의료 AI",
+ "originalTitle": "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.05966",
+ "publishedAt": "2026-10-05",
+ "summary": [
+  "언어모델을 의료 같은 전문 분야에 맞추려면 보통 정답 예시를 따라 배우는 지도학습(SFT)을 먼저 하고 강화학습(RL)을 덧붙입니다. 이 논문은 SFT 단계를 건너뛰고 강화학습만으로도 분야 적응이 가능하다고 주장합니다.",
+  "연구진은 선생 모델의 답안을 섞어 쓰는 강화학습에서 두 가지 문제를 찾았습니다. 초반에는 쓸모 있는 선생 답안을 너무 느리게 배우고(경사 굶주림), 후반에는 낡은 선생 답안이 오히려 발전을 막는다는 것(선생 분포 고정)입니다. 이를 풀기 위해 선생 답안을 '임시 가이드'로만 쓰는 OnePO를 제안했습니다. 모델이 낯선 선생 단어를 더 적극적으로 배우게 하고, 모델이 선생보다 잘하게 되면 선생 답안을 은퇴시킵니다.",
+  "의료 적응 실험에서 OnePO는 학습 데이터 2만 개로 HealthBench 67.2점을 기록해 SFT+RL과 순수 RL보다 높았습니다. 이를 키운 오픈소스 의료 모델 HuatuoGPT-3의 27B 버전은 HealthBench 70.1점, HealthBench Professional 71.4점을 냈고, 모델과 코드는 공개됐습니다. ICML 2026에 채택된 OnePO 논문의 확장판입니다."
+ ],
+ "keyPoints": [
+  "SFT 없이 강화학습만으로 의료 분야 적응",
+  "선생 답안을 임시 가이드로 쓰다 '은퇴'",
+  "27B 모델 HealthBench 70.1점, 코드 공개"
+ ],
+ "facts": [
+  [
+   "저자",
+   "Junying Chen, Xinyuan Xie, Ziniu Li 외 7명 (Benyou Wang 포함)"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "cs.CL (cs.AI)"
+  ],
+  [
+   "arXiv ID",
+   "2610.05966"
+  ],
+  [
+   "코드",
+   "https://github.com/FreedomIntelligence/HuatuoGPT-3"
+  ]
+ ],
+ "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.05966/gradient.png",
+ "id": "261009-paper-07",
+ "category": "paper",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}

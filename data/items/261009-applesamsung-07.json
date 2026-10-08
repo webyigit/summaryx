@@ -1,0 +1,35 @@
+{
+ "title": "FCC 문서로 처음 드러난 LG·애플 합작 스마트홈 기기",
+ "originalTitle": "First Look at LG's Smart Home Products Made With Apple",
+ "source": "MacRumors",
+ "url": "https://www.macrumors.com/2026/10/07/first-look-at-lg-apple-smart-home-products/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "블룸버그가 애플과 LG의 스마트홈 협업을 보도한 다음 날, MacRumors가 미국 연방통신위원회(FCC) 문서에서 LG 기기 3종의 디자인을 찾아냈다. 둥근 퍽 모양의 온도조절기는 24V 교류 전원을 쓰며 와이파이·블루투스·스레드를 지원하고, 60GHz 레이더를 내장해 사람의 접근을 감지할 수 있다.",
+  "둥근 온도 센서는 CR2477 코인 배터리로 작동하며 온·습도를 재고 자석 뒷면으로 붙일 수 있다. 스마트 데드볼트 도어락은 그래파이트·실버 두 색상에 AA 배터리 4개를 쓰며, 블루투스로 인증한 뒤 초광대역(UWB)으로 기기 위치를 확인해 문을 연다.",
+  "문서에 애플 이름은 없고 베트남 공장이 표기돼 있다. 이 3종은 유선 도어벨, 실내·외 보안 카메라, 투광등 카메라를 포함한 LG 7종 라인업의 일부로, LG 브랜드로 판매된다. 애플 자체 홈 허브 등은 10월 13일 발표가 예상된다."
+ ],
+ "keyPoints": [
+  "FCC 문서서 온도조절기·온도센서·도어락 공개",
+  "도어락은 블루투스 인증 후 UWB로 위치 확인",
+  "LG 브랜드 7종 라인업, 애플 이름은 문서에 없음"
+ ],
+ "image": "https://images.macrumors.com/t/Kzhxm2fiqjJWenK5qhfTxZiEYHU=/2500x/article-new/2026/10/Smart-Thermostat-Perspective-Feature.jpg",
+ "facts": [
+  [
+   "회사",
+   "애플·LG전자"
+  ],
+  [
+   "제품",
+   "온도조절기 TMCTAW5W·온도센서 TMST2A6W·도어락 TMCDD15G/S"
+  ],
+  [
+   "근거",
+   "FCC 인증 문서"
+  ]
+ ],
+ "id": "261009-applesamsung-07",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}

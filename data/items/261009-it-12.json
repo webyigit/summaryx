@@ -1,0 +1,21 @@
+{
+ "title": "구글 플레이, AI 게임 추천 '게임 파인더' 개발 중…취향 프로필 '게이머 DNA'",
+ "originalTitle": "Google Play is working on a Spotify-style taste profile, but for games",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/google-play-ai-game-finder-gamer-dna-3720314/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "구글이 플레이 스토어에 AI 기반 게임 추천 도구 '게임 파인더'를 준비하고 있는 것으로 보인다. 지금의 '추천 게임' 코너처럼 수동적인 방식보다 개인 맞춤형 추천을 하려는 것이다.",
+  "핵심은 '게이머 DNA'라는 취향 프로필이다. 사용자의 플레이 기록, 평점, 관심사를 바탕으로 만들어지고, 사용자가 직접 고쳐 추천 피드를 조정할 수 있다. 음악 앱 스포티파이의 취향 프로필과 비슷한 개념이다. 처음 쓸 때 관심 게임을 고르는 과정이 있고, 이후 게임 평가와 관심사 추가를 유도하며, 하루 새로고침 횟수 제한도 있는 것으로 보인다. 'AI가 실수할 수 있으니 답변을 확인하라'는 안내 문구도 들어 있다.",
+  "이 내용은 플레이 스토어 53.4.34-34 버전 앱을 분석(APK 티어다운)해 찾은 것으로, 화면은 띄울 수 있었지만 실제 작동하지는 않았다. 기사는 이런 기능이 꼭 정식 출시된다는 보장은 없고, 나오더라도 달라질 수 있다고 강조했다."
+ ],
+ "keyPoints": [
+  "플레이 스토어에 AI 게임 추천 도구 준비",
+  "취향 프로필 '게이머 DNA'로 맞춤 추천",
+  "앱 분석으로 발견, 출시 여부 미정"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2020/04/Google-Play-Games-on-smartphone-next-to-controller3.jpg",
+ "id": "261009-it-12",
+ "category": "it",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}

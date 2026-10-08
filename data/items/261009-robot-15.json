@@ -1,0 +1,39 @@
+{
+ "title": "오버뷰 AI, 말로 묻고 답하는 AI 검사 카메라 'OV 스파크' 출시",
+ "originalTitle": "Overview AI launches OV Spark line of AI inspection cameras",
+ "source": "The Robot Report",
+ "url": "https://www.therobotreport.com/overview-ai-launches-ov-spark-line-ai-inspection-cameras/",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "오버뷰 AI가 일반 영어 질문에 답하는 에이전트 AI를 얹은 산업용 AI 검사 카메라 'OV 스파크'와 'OV 스파크 프로'를 출시했다. 하나의 레시피에 묶어 쓸 수 있는 검사 도구 10종을 기본 제공하며, 이 중 7종(AI 트리거·정렬·분류·분할·카운트·OCR·이상 탐지)은 딥러닝 기반이다.",
+  "카메라는 부품의 고유 특징을 기준으로 삼아 부품이 움직이거나 돌아가도 검사 영역이 따라가고, 부품이 없으면 빈 화면을 통과시키지 않고 실패 처리한다. PLC가 레시피 ID를 고르면 새 스테이션도 카메라 추가 없이 대응할 수 있으며, 학습·추론·판정·운영 화면이 모두 기기 안에서 돌아간다. 온보드 에이전트 '스파키'는 도구를 추천하고 이유를 설명한다. 120만 화소 스파크와 500만 화소 프로는 IP66 등급 본체를 공유하며 퀄컴 드래곤윙 하드웨어 기반이다.",
+  "오하이오의 금속 가공업체 MEC는 육안 검사에 의존하던 라인 끝 공정에 스파크를 도입해 와셔 누락 같은 결함을 잡고 있으며, 추가 도입을 검토 중이다."
+ ],
+ "keyPoints": [
+  "딥러닝 7종 포함 검사 도구 10종 탑재",
+  "온보드 AI 에이전트 '스파키'가 질문에 답변",
+  "120만·500만 화소 두 모델, 즉시 판매"
+ ],
+ "facts": [
+  [
+   "기업",
+   "오버뷰 AI"
+  ],
+  [
+   "제품",
+   "OV 스파크, OV 스파크 프로"
+  ],
+  [
+   "사양",
+   "1.2MP / 5MP, IP66"
+  ],
+  [
+   "플랫폼",
+   "퀄컴 드래곤윙"
+  ]
+ ],
+ "image": "https://www.therobotreport.com/wp-content/uploads/2026/10/OV-Spark-in-production-at-MEC-featured.jpg",
+ "id": "261009-robot-15",
+ "category": "robot",
+ "collectedAt": "2026-10-09T02:29:59+09:00"
+}
