@@ -2736,5 +2736,23 @@
         "destinations"
       ]
     }
+  ],
+  "seasonal": [
+    {
+      "name": "농사로(농촌진흥청)",
+      "url": "https://www.nongsaro.go.kr/",
+      "keywords": [
+        "이달의 제철 음식",
+        "제철 농산물"
+      ]
+    },
+    {
+      "name": "대한민국 구석구석",
+      "url": "https://korean.visitkorea.or.kr/",
+      "keywords": [
+        "제철 음식",
+        "가을 제철"
+      ]
+    }
   ]
 }
