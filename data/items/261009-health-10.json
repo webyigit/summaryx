@@ -1,0 +1,35 @@
+{
+ "title": "폐암과 근육 소실 '악액질' 동시에 잡는 mRNA 나노입자…생쥐 실험",
+ "originalTitle": "Scientists just found a way to fight lung cancer and muscle wasting at the same time",
+ "source": "ScienceDaily",
+ "url": "https://www.sciencedaily.com/releases/2026/10/261001214129.htm",
+ "publishedAt": "2026-10-05",
+ "summary": [
+  "폐암은 암 사망 1위 원인이고, 충분히 먹어도 근육과 지방이 빠지는 악액질을 함께 일으킬 수 있다. 악액질은 환자의 최대 30%에서 치명적일 수 있다. 정맥으로 넣는 지질나노입자(LNP)는 대부분 간에 쌓여 폐 종양에 mRNA를 전달하기 어려웠다.",
+  "미국 오리건주립대 약대 올레흐 타라툴라 교수팀은 특정 지질 조합으로 만든 LNP에 폴리스타틴 mRNA를 실었다. 이 입자는 혈액 속 비트로넥틴과 결합해 종양 표면과 폐 조직에 많은 인테그린 수용체 쪽으로 향하는 것으로 보였다. 폴리스타틴은 종양 성장을 억제하고 근육 성장을 돕는 단백질이다.",
+  "생쥐 실험에서 폐 표적 LNP는 간 표적 LNP보다 종양 부담을 약 2.5배 더 줄였고, 먹는 양과 체중, 근육·지방 조직도 지켰으며 부작용은 보고되지 않았다. 결과는 Journal of Controlled Release에 실렸다. 다만 동물 단계로 사람에서의 안전성·효과는 모른다."
+ ],
+ "keyPoints": [
+  "폐 표적 mRNA 입자로 종양 2.5배 더 감소",
+  "근육·체중 유지 효과도 함께 확인",
+  "생쥐 실험, 추가 전임상 필요"
+ ],
+ "image": "https://www.sciencedaily.com/images/1920/lung-cancer-and-lnps.webp",
+ "facts": [
+  [
+   "출처기관",
+   "미국 오리건주립대 약대"
+  ],
+  [
+   "근거 종류",
+   "연구(전임상, Journal of Controlled Release 2026)"
+  ],
+  [
+   "대상",
+   "폐암 생쥐 모델"
+  ]
+ ],
+ "id": "261009-health-10",
+ "category": "health",
+ "collectedAt": "2026-10-09T05:30:08+09:00"
+}
