@@ -3394,85 +3394,254 @@
    "keywords": [
     "most valuable brands"
    ]
+  },
+  {
+   "name": "Journal du Luxe (Interbrand 2025 럭셔리 순위 정리)",
+   "url": "https://www.journalduluxe.fr/fr/business/classement-interbrand-2025-luxe-plus-contraste-que-jamais",
+   "keywords": [
+    "Interbrand 2025",
+    "luxe"
+   ]
+  },
+  {
+   "name": "The Media Leader FR (Kantar BrandZ 2026 정리)",
+   "url": "https://fr.themedialeader.com/classement-kantar-brandz-google-detrone-apple-chatgpt-poursuit-son-ascension/",
+   "keywords": [
+    "Kantar BrandZ 2026"
+   ]
+  },
+  {
+   "name": "Modaes (Kantar BrandZ 2025 패션 브랜드 정리)",
+   "url": "https://www.modaes.com/back-stage/cuanto-vale-la-moda-el-valor-de-las-mayores-marcas-cae-un-39-con-louis-vuitton-a-la-cabeza",
+   "keywords": [
+    "BrandZ 2025",
+    "moda"
+   ]
   }
  ],
  "bcar": [
   {
-   "name": "Interbrand Best Global Brands",
-   "url": "https://interbrand.com/best-brands/",
+   "name": "Interbrand Best Global Brands 2025 (Motor1 정리)",
+   "url": "https://www.motor1.com/news/776060/most-valuable-car-brands-2025/",
    "keywords": [
     "Toyota",
     "Mercedes-Benz",
     "BMW",
     "Tesla",
-    "Hyundai"
+    "Hyundai",
+    "Ferrari",
+    "Porsche",
+    "BYD"
    ]
   },
   {
-   "name": "Kantar BrandZ",
-   "url": "https://www.kantar.com/campaigns/brandz/global",
+   "name": "Interbrand Best Global Brands",
+   "url": "https://interbrand.com/best-brands/",
    "keywords": [
     "most valuable brands"
+   ]
+  },
+  {
+   "name": "Electrek",
+   "url": "https://electrek.co/",
+   "keywords": [
+    "Tesla deliveries"
+   ]
+  },
+  {
+   "name": "CnEVPost",
+   "url": "https://cnevpost.com/",
+   "keywords": [
+    "BYD sales"
+   ]
+  },
+  {
+   "name": "BMWBLOG",
+   "url": "https://www.bmwblog.com/",
+   "keywords": [
+    "BMW sales"
+   ]
+  },
+  {
+   "name": "Just Auto",
+   "url": "https://www.just-auto.com/",
+   "keywords": [
+    "Toyota global sales"
+   ]
+  },
+  {
+   "name": "글로벌이코노믹",
+   "url": "https://www.g-enews.com/",
+   "keywords": [
+    "페라리"
+   ]
+  },
+  {
+   "name": "파이낸셜뉴스",
+   "url": "https://www.fnnews.com/",
+   "keywords": [
+    "포르쉐",
+    "이달의 차"
    ]
   }
  ],
  "btech": [
   {
-   "name": "Interbrand Best Global Brands",
-   "url": "https://interbrand.com/best-brands/",
+   "name": "Interbrand Best Global Brands 2025",
+   "url": "https://interbrand.com/best-global-brands/global/",
    "keywords": [
-    "Apple",
     "Microsoft",
-    "Samsung",
-    "Google",
-    "Sony"
+    "Nvidia",
+    "Cisco",
+    "Oracle",
+    "SAP",
+    "Adobe",
+    "Xiaomi",
+    "Huawei"
    ]
   },
   {
-   "name": "Kantar BrandZ",
-   "url": "https://www.kantar.com/campaigns/brandz/global",
+   "name": "ZDNet Korea",
+   "url": "https://zdnet.co.kr/",
    "keywords": [
-    "most valuable brands"
+    "마이크로소프트",
+    "화웨이"
+   ]
+  },
+  {
+   "name": "ERP Today",
+   "url": "https://erp.today/",
+   "keywords": [
+    "Oracle",
+    "SAP Connect"
+   ]
+  },
+  {
+   "name": "Crowdfund Insider",
+   "url": "https://crowdfundinsider.com/",
+   "keywords": [
+    "Nvidia"
+   ]
+  },
+  {
+   "name": "GTPlanet",
+   "url": "https://www.gtplanet.net/",
+   "keywords": [
+    "Xiaomi"
+   ]
+  },
+  {
+   "name": "Grafa",
+   "url": "https://grafa.com/",
+   "keywords": [
+    "Adobe"
+   ]
+  },
+  {
+   "name": "PR Newswire",
+   "url": "https://www.prnewswire.com/",
+   "keywords": [
+    "Cisco"
    ]
   }
  ],
  "bfood": [
   {
-   "name": "Interbrand Best Global Brands",
-   "url": "https://interbrand.com/best-brands/",
+   "name": "Interbrand Best Global Brands 2025",
+   "url": "https://interbrand.com/best-global-brands/global/",
    "keywords": [
     "Coca-Cola",
     "McDonald's",
-    "Starbucks",
+    "Pepsi",
+    "Nescafé",
+    "Budweiser",
+    "Monster",
     "Nestlé",
-    "Pepsi"
+    "Corona",
+    "Danone",
+    "Nespresso"
    ]
   },
   {
-   "name": "Kantar BrandZ",
-   "url": "https://www.kantar.com/campaigns/brandz/global",
+   "name": "Kantar BrandZ Most Valuable Global Brands 2026",
+   "url": "https://www.kantar.com/inspiration/brands/most-valuable-global-brands-2026",
    "keywords": [
-    "most valuable brands"
+    "most valuable brands",
+    "McDonald's"
+   ]
+  },
+  {
+   "name": "CBS News",
+   "url": "https://www.cbsnews.com/",
+   "keywords": [
+    "Coca-Cola"
+   ]
+  },
+  {
+   "name": "Daily Coffee News",
+   "url": "https://dailycoffeenews.com/",
+   "keywords": [
+    "Nespresso"
+   ]
+  },
+  {
+   "name": "Comunicaffe",
+   "url": "https://comunicaffe.com/",
+   "keywords": [
+    "Nestlé"
+   ]
+  },
+  {
+   "name": "Transport Topics",
+   "url": "https://www.ttnews.com/",
+   "keywords": [
+    "PepsiCo"
    ]
   }
  ],
  "bbeauty": [
   {
    "name": "Interbrand Best Global Brands",
-   "url": "https://interbrand.com/best-brands/",
+   "url": "https://interbrand.com/best-global-brands/",
    "keywords": [
-    "L'Oréal",
+    "L'Oréal Paris",
     "IKEA",
+    "Sephora",
     "Gillette",
-    "Estée Lauder",
-    "Dyson"
+    "Pampers"
    ]
   },
   {
-   "name": "Kantar BrandZ",
-   "url": "https://www.kantar.com/campaigns/brandz/global",
+   "name": "Kantar BrandZ Global 2026 (Personal Care Top 20, Mercado 보도)",
+   "url": "https://mercado.com.ar/marketing/kantar-brandz-global-2026-el-top-20-de-cuidado-personal-cayo-4",
    "keywords": [
-    "most valuable brands"
+    "L'Oréal Paris",
+    "Colgate",
+    "Pampers",
+    "Lancôme",
+    "Gillette",
+    "Nivea"
+   ]
+  },
+  {
+   "name": "Upside",
+   "url": "https://www.upside24.com/",
+   "keywords": [
+    "L'Oréal"
+   ]
+  },
+  {
+   "name": "Beiersdorf Blog",
+   "url": "https://www.beiersdorf.com/blog",
+   "keywords": [
+    "NIVEA"
+   ]
+  },
+  {
+   "name": "Hunker",
+   "url": "https://www.hunker.com/",
+   "keywords": [
+    "new IKEA items"
    ]
   }
  ],
@@ -3497,36 +3666,56 @@
  ],
  "poemnews": [
   {
-   "name": "문학 기사(연합뉴스 문화)",
-   "url": "https://www.yna.co.kr/culture/book",
+   "name": "경향신문 문화",
+   "url": "https://www.khan.co.kr/",
+   "keywords": [
+    "시인",
+    "시집",
+    "노벨문학상"
+   ]
+  },
+  {
+   "name": "서울신문 출판·문학",
+   "url": "https://www.seoul.co.kr/",
    "keywords": [
     "시집",
+    "시인"
+   ]
+  },
+  {
+   "name": "한국일보 문화",
+   "url": "https://www.hankookilbo.com/",
+   "keywords": [
     "시인",
-    "문학상"
+    "문학주간"
+   ]
+  },
+  {
+   "name": "T. S. Eliot Prize",
+   "url": "https://tseliot.com/prize/",
+   "keywords": [
+    "poetry prize",
+    "shortlist"
    ]
   }
  ],
  "aicert": [
   {
-   "name": "Q-Net 큐넷",
-   "url": "https://www.q-net.or.kr/",
+   "name": "KPC자격(한국생산성본부)",
+   "url": "https://license.kpc.or.kr/",
    "keywords": [
-    "빅데이터분석기사"
+    "AI-POT",
+    "AIBT",
+    "GTQ-AI"
    ]
   },
   {
-   "name": "한국데이터산업진흥원 데이터자격검정",
-   "url": "https://www.dataq.or.kr/",
+   "name": "한국인공지능협회 한국인공지능자격센터",
+   "url": "https://koraia.org/base_3/mp1/sub4.php?sub=04",
    "keywords": [
-    "ADsP",
-    "ADP"
-   ]
-  },
-  {
-   "name": "AICE(KT)",
-   "url": "https://aice.study/",
-   "keywords": [
-    "AICE"
+    "인공지능산업컨설턴트",
+    "인공지능활용능력",
+    "AIKTest"
    ]
   },
   {
@@ -3534,7 +3723,14 @@
    "url": "https://aws.amazon.com/certification/",
    "keywords": [
     "AWS AI Practitioner",
-    "Machine Learning"
+    "Machine Learning Engineer Associate"
+   ]
+  },
+  {
+   "name": "Google Cloud Certification",
+   "url": "https://cloud.google.com/learn/certification",
+   "keywords": [
+    "Professional Machine Learning Engineer"
    ]
   },
   {
@@ -3542,7 +3738,27 @@
    "url": "https://learn.microsoft.com/credentials/",
    "keywords": [
     "Azure AI Engineer",
-    "AI-900"
+    "AI-102"
+   ]
+  },
+  {
+   "name": "NVIDIA Certification",
+   "url": "https://www.nvidia.com/en-us/learn/certification/",
+   "keywords": [
+    "NCA-GENL",
+    "Generative AI LLM"
+   ]
+  }
+ ],
+ "usedwear": [
+  {
+   "name": "뉴스 검색",
+   "url": "https://www.bing.com/news",
+   "keywords": [
+    "중고 의류",
+    "당근 중고거래 옷",
+    "리셀 시세",
+    "번개장터 패션"
    ]
   }
  ]

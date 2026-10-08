@@ -1,0 +1,51 @@
+{
+ "title": "AWS Certified Machine Learning Engineer – Associate — 새 버전 MLA-C02 베타 시작",
+ "originalTitle": "AWS Certified Machine Learning Engineer - Associate",
+ "source": "AWS Certification",
+ "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+ "publishedAt": null,
+ "summary": [
+  "AWS Certified Machine Learning Engineer – Associate는 Amazon SageMaker 등 AWS ML 엔지니어링 서비스를 1년 이상 써본 실무자를 위한 Associate(중급) 자격이다. 현재 시험(MLA-C01)은 130분 65문항, 응시료 150달러이며 Pearson VUE 시험장이나 온라인 감독으로 볼 수 있다.",
+  "시험이 개편 중이다. 공식 페이지에 따르면 새 버전 MLA-C02 등록이 2026년 9월 1일 열렸고 베타 시험은 9월 29일부터 시작됐다. 베타는 170분 85문항, 베타 응시료 75달러, 영어 전용이다. 생성형 AI·에이전틱 AI·파운데이션 모델·책임 있는 AI 내용이 추가되지만 도메인 구조는 그대로라고 한다.",
+  "영어 MLA-C01은 2026년 9월 28일로 끝났고, 한국어·일본어·중국어(간체) MLA-C01은 MLA-C02가 정식 출시될 때까지 유지된다. 한국어로 응시하려는 사람은 당분간 기존 MLA-C01을, 저렴하게 새 버전을 먼저 보려는 사람은 영어 베타를 고르면 된다."
+ ],
+ "keyPoints": [
+  "AWS ML 엔지니어 중급 자격, MLA-C02로 개편",
+  "베타 9.29~ 170분 85문항, 75달러(영어)",
+  "한국어 MLA-C01은 C02 정식 출시까지 유지"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "시행기관",
+   "Amazon Web Services(AWS)"
+  ],
+  [
+   "자격 종류",
+   "벤더"
+  ],
+  [
+   "시험 일정",
+   "MLA-C02 등록 2026-09-01 시작, 베타 응시 2026-09-29부터 / 영어 MLA-C01 2026-09-28 종료, 한국어 MLA-C01은 C02 정식 출시까지"
+  ],
+  [
+   "응시료",
+   "MLA-C01 150 USD / MLA-C02 베타 75 USD"
+  ],
+  [
+   "시험 방식",
+   "MLA-C01 130분 65문항, MLA-C02 베타 170분 85문항(객관식·복수응답) / Pearson VUE 시험장 또는 온라인 감독"
+  ],
+  [
+   "응시 자격",
+   "제한 없음(SageMaker 등 AWS ML 서비스 1년 이상 경험 권장)"
+  ],
+  [
+   "난이도·대상",
+   "Associate — ML 엔지니어·MLOps 실무자"
+  ]
+ ],
+ "id": "261009-aicert-05",
+ "category": "aicert",
+ "collectedAt": "2026-10-09T01:04:47+09:00"
+}

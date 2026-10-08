@@ -324,3 +324,6 @@ main { padding: 0 16px; }
 
 .detail .video.wide { aspect-ratio: 16 / 9; max-width: none; height: auto; }
 .video.wide iframe { width: 100%; height: 100%; }
+
+.kchips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.kchips .sub { background: var(--bg, #fff); }

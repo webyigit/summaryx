@@ -14,6 +14,7 @@
     { id: 'shop', name: '쇼핑', cats: [['shopguide','믿을 만한 쇼핑몰'],['shopmen','남성 의류'],['shopdeal','할인 행사']] },
     { id: 'care', name: '건강', cats: [['bp','고혈압'],['dm','당뇨'],['lipid','고지혈증·심혈관']] },
     { id: 'trip', name: '여행지', cats: [['tripko','국내 여행지'],['tripworld','해외 여행지']] },
+    { id: 'karrot', name: '당근·중고', cats: [['usedwear','중고 의류 소식']] },
     { id: 'poetry', name: '시', cats: [['poemread','명시 감상'],['poemnews','시 소식·시집']] },
     { id: 'brands', name: '브랜드', cats: [['bfashion','패션·럭셔리'],['bcar','자동차'],['btech','IT·전자'],['bfood','식음료'],['bbeauty','뷰티·생활']] },
     { id: 'cook', name: '레시피', cats: [['recipe','한 그릇·메인'],['recipeside','반찬·국'],['recipesnack','간식·브런치']] },
@@ -115,6 +116,14 @@
   function eatHtml(a) {
     var r = fact(a, '근거') || fact(a, '선정 근거');
     return r ? '<div class="pick"><small>선정 기준</small>' + esc(r.length > 70 ? r.slice(0, 70) + '…' : r) + '</div>' : '';
+  }
+  // 당근마켓은 수집이 막혀 있어(robots.txt) 매물은 검색 바로가기로만 연결한다
+  var KARROT = ['남성 아우터', '남성 패딩', '남성 니트', '남성 셔츠', '남성 청바지', '남성 정장', '남성 스니커즈', '남성 가방', '나이키', '폴로 랄프로렌', '파타고니아', '노스페이스'];
+  function karrotHtml() {
+    return '<div class="rule"><b>당근 바로가기</b> 누르면 당근마켓에서 내 동네 매물 검색 결과가 열려요(당근은 자동 수집을 막고 있어 매물은 여기에 직접 싣지 않아요).' +
+      '<div class="kchips">' + KARROT.map(function (q) {
+        return '<a class="sub" href="https://www.daangn.com/kr/buy-sell/?search=' + encodeURIComponent(q) + '" target="_blank" rel="noopener">' + esc(q) + '</a>';
+      }).join('') + '</div></div>';
   }
   function toast(msg) {
     var t = document.getElementById('toast');
@@ -314,7 +323,7 @@
     $list.innerHTML = (sec === 'all' ? todayHtml() : '') +
       '<div class="sec-title">' + (sec === 'all' ? '최신 기사' : esc(S.name)) +
       '<small>' + arr.length + '건</small></div>' + subs +
-      ((sec === 'eat' && (!cat || EAT[cat])) ? '<div class="rule"><b>맛집 선정 기준</b> ' + EAT_RULE + '</div>' : '') + listHtml(arr);
+      (sec === 'karrot' ? karrotHtml() : '') + ((sec === 'eat' && (!cat || EAT[cat])) ? '<div class="rule"><b>맛집 선정 기준</b> ' + EAT_RULE + '</div>' : '') + listHtml(arr);
   }
 
   function bookmarksView() {

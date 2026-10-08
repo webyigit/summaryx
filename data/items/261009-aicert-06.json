@@ -1,0 +1,51 @@
+{
+ "title": "Google Cloud Professional Machine Learning Engineer — Gemini Enterprise Agent Platform 반영 개편",
+ "originalTitle": "Professional Machine Learning Engineer",
+ "source": "Google Cloud",
+ "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+ "publishedAt": null,
+ "summary": [
+  "Professional Machine Learning Engineer는 Google Cloud에서 ML 모델과 솔루션을 설계·구축·운영하는 능력을 검증하는 전문가(Professional) 등급 자격이다. 응시 선수 조건은 없지만 업계 경력 3년 이상, 그중 Google Cloud로 솔루션을 설계·관리한 경험 1년 이상을 권장한다.",
+  "시험은 2시간 동안 객관식·복수 선택 50~60문항을 풀고 응시료는 200달러(세금 별도)다. 원격 온라인 감독 또는 시험장 응시 중 고를 수 있으며, 언어는 영어·일본어만 지원해 한국어 응시는 안 된다.",
+  "공식 페이지에는 시험이 Vertex AI에서 Gemini Enterprise Agent Platform으로의 전환, 데이터·분석 스택 변경을 반영해 업데이트됐고 Google Cloud 네이티브 솔루션을 우선한다는 공지가 붙어 있다. 기존 Vertex AI 기준 교재로 공부했다면 새 시험 가이드의 제품 범위를 꼭 다시 확인해야 한다."
+ ],
+ "keyPoints": [
+  "Google Cloud ML 전문가 등급 자격",
+  "2시간 50~60문항, 200달러, 영어·일본어",
+  "Gemini Enterprise Agent Platform 반영 개편"
+ ],
+ "image": "https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png",
+ "facts": [
+  [
+   "시행기관",
+   "Google Cloud"
+  ],
+  [
+   "자격 종류",
+   "벤더"
+  ],
+  [
+   "시험 일정",
+   "상시 예약 — 정기 회차 없음"
+  ],
+  [
+   "응시료",
+   "$200 (plus tax where applicable)"
+  ],
+  [
+   "시험 방식",
+   "2시간, 객관식·복수 선택 50~60문항 / 온라인 감독 또는 시험장, 영어·일본어"
+  ],
+  [
+   "응시 자격",
+   "없음(업계 경력 3년+, Google Cloud 솔루션 설계·관리 1년+ 권장)"
+  ],
+  [
+   "난이도·대상",
+   "Professional — ML 엔지니어"
+  ]
+ ],
+ "id": "261009-aicert-06",
+ "category": "aicert",
+ "collectedAt": "2026-10-09T01:04:47+09:00"
+}
