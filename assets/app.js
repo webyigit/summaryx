@@ -4,7 +4,7 @@
   // 뉴스 사이트식 섹션 → 세부 분류(수집은 세부 분류 단위)
   var SECTIONS = [
     { id: 'all', name: '전체', cats: [] },
-    { id: 'ai', name: 'AI', cats: [['ai', 'AI'], ['ax', 'AX'], ['robot', '로봇'], ['paper', '논문']] },
+    { id: 'ai', name: 'AI', cats: [['ai', 'AI'], ['ax', 'AX'], ['robot', '로봇'], ['paper', '논문'], ['aicert', '자격증']] },
     { id: 'tech', name: 'IT·테크', cats: [['it', 'IT'], ['applesamsung', '애플·삼성'], ['car', '자동차'], ['semi', '반도체'], ['security', '보안']] },
     { id: 'culture', name: '문화', cats: [['movie', '영화'], ['music', '음악'], ['art', '미술'], ['book', '책'], ['show', '공연·전시']] },
     { id: 'design', name: '디자인', cats: [['design', '디자인 뉴스'], ['cardesign', '자동차'], ['productd', '제품·산업'], ['brand', '브랜딩·그래픽'], ['package', '패키지'], ['uxui', 'UX/UI']] },

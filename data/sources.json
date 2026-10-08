@@ -3493,5 +3493,45 @@
         "문학상"
       ]
     }
+  ],
+  "aicert": [
+    {
+      "name": "Q-Net 큐넷",
+      "url": "https://www.q-net.or.kr/",
+      "keywords": [
+        "빅데이터분석기사"
+      ]
+    },
+    {
+      "name": "한국데이터산업진흥원 데이터자격검정",
+      "url": "https://www.dataq.or.kr/",
+      "keywords": [
+        "ADsP",
+        "ADP"
+      ]
+    },
+    {
+      "name": "AICE(KT)",
+      "url": "https://aice.study/",
+      "keywords": [
+        "AICE"
+      ]
+    },
+    {
+      "name": "AWS Certification",
+      "url": "https://aws.amazon.com/certification/",
+      "keywords": [
+        "AWS AI Practitioner",
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/credentials/",
+      "keywords": [
+        "Azure AI Engineer",
+        "AI-900"
+      ]
+    }
   ]
 }
