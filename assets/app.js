@@ -16,7 +16,7 @@
     { id: 'trip', name: '여행지', cats: [['tripko','국내 여행지'],['tripworld','해외 여행지']] },
     { id: 'karrot', name: '당근·중고', cats: [['usedwear','중고 의류 소식']] },
     { id: 'poetry', name: '시', cats: [['poemread','명시 감상'],['poemnews','시 소식·시집']] },
-    { id: 'luxury', name: '명품', cats: [['lux1','하이엔드'],['lux2','럭셔리'],['lux3','프리미엄·컨템포러리'],['luxwatch','워치·주얼리']] },
+    { id: 'luxury', name: '명품', cats: [['luxprice','가격대별 제품'],['lux1','하이엔드'],['lux2','럭셔리'],['lux3','프리미엄·컨템포러리'],['luxwatch','워치·주얼리']] },
     { id: 'brands', name: '브랜드', cats: [['bfashion','패션·럭셔리'],['bcar','자동차'],['btech','IT·전자'],['bfood','식음료'],['bbeauty','뷰티·생활']] },
     { id: 'cook', name: '레시피', cats: [['recipe','한 그릇·메인'],['recipeside','반찬·국'],['recipesnack','간식·브런치']] },
     { id: 'archi', name: '건축', cats: [['arch','건축 소식'],['archproj','작품·프로젝트'],['interior','인테리어·공간']] },
@@ -126,13 +126,26 @@
         return '<a class="sub" href="https://www.daangn.com/kr/buy-sell/?search=' + encodeURIComponent(q) + '" target="_blank" rel="noopener">' + esc(q) + '</a>';
       }).join('') + '</div></div>';
   }
-  // 명품 티어: 공식 등급이 아니라 summaryx 분류(국내 언론 통칭·가격대·포지셔닝 기준)
-  var LUX_RULE = { lux1: '에르메스, 샤넬, 루이비통 (국내 언론 통칭 \'에루샤\')', lux2: '디올, 구찌, 프라다, 생로랑, 셀린느, 보테가 베네타, 발렌시아가, 로에베, 버버리, 펜디, 지방시, 발렌티노, 미우미우', lux3: '메종 마르지엘라, 아크네 스튜디오, 띠어리, 마크 제이콥스, 코치, 토리버치, 마이클 코어스, 랄프 로렌, 아미, 메종 키츠네', luxwatch: '롤렉스, 파텍 필립, 오데마 피게, 까르띠에, 반클리프 아펠, 불가리, 티파니, 오메가' };
-  function luxHtml(cat) {
-    var names = { lux1: '하이엔드', lux2: '럭셔리', lux3: '프리미엄·컨템포러리', luxwatch: '워치·주얼리' };
-    var keys = cat ? [cat] : Object.keys(LUX_RULE);
-    return '<div class="rule"><b>티어 기준</b> 공식 등급이 아니라 summaryx 분류예요. 국내 언론의 통칭(에루샤), 대표 제품 가격대, 브랜드 포지셔닝을 기준으로 나눴어요.' +
-      keys.map(function (k) { return '<br><b>' + names[k] + '</b> ' + esc(LUX_RULE[k]); }).join('') + '</div>';
+  // 명품 가격대: 원문에 적힌 국내 판매가 기준. 가격이 없으면 '전체'에만 보인다
+  var LUX_BAND = [['', '전체'], ['10', '10만원대'], ['50', '50만원대'], ['100', '100만원 이상']];
+  var LUX_LIM = { '10': [1e5, 5e5 - 1], '50': [5e5, 1e6 - 1], '100': [1e6, Infinity] };
+  function luxAmt(a) {
+    var t = String(fact(a, '가격') || '').replace(/[,\s₩]/g, '');
+    var m = t.match(/(\d+(?:\.\d+)?)억(?:(\d+)천)?(?:(\d+)만)?/);
+    if (m) return +m[1] * 1e8 + (+m[2] || 0) * 1e7 + (+m[3] || 0) * 1e4;
+    m = t.match(/(\d+(?:\.\d+)?)천(\d+)?만/);
+    if (m) return +m[1] * 1e7 + (+m[2] || 0) * 1e4;
+    m = t.match(/(\d+(?:\.\d+)?)만/);
+    if (m) return +m[1] * 1e4;
+    m = t.match(/(\d{5,})원?/);
+    return m ? +m[1] : null;
+  }
+  function luxPick(a) {
+    var p = fact(a, '가격');
+    return p ? '<div class="pick"><small>국내가</small>' + esc(String(p).slice(0, 60)) + (fact(a, '브랜드') ? ' · ' + esc(fact(a, '브랜드')) : '') + '</div>' : '';
+  }
+  function luxHtml() {
+    return '<div class="rule"><b>가격대 기준</b> 기사·공식몰에 적힌 국내 판매가로 나눴어요. 10만원대는 10만~49만원, 50만원대는 50만~99만원, 100만원 이상은 100만원부터예요. 가격이 없는 브랜드 소식은 \'전체\'에만 보여요.</div>';
   }
   function toast(msg) {
     var t = document.getElementById('toast');
@@ -235,7 +248,7 @@
       (a.image ? '<img class="thumb" src="' + esc(a.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.remove(\'has-img\');this.remove()">' : '') +
       '<div class="txt"><div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
       '<span>' + esc(a.source) + '</span>' + pubHtml(a) + '</div>' +
-      (a.category === 'g2b' ? bidHtml(a) : EAT[a.category] ? eatHtml(a) : '') +
+      (a.category === 'g2b' ? bidHtml(a) : EAT[a.category] ? eatHtml(a) : a.category === 'luxprice' ? luxPick(a) : '') +
       '<h3>' + esc(a.title) + '</h3>' +
       '<p>' + esc((a.summary || [])[0]) + '</p>' +
       ((v || bookmarks[a.id]) ? '<div class="mini">' +
@@ -321,10 +334,16 @@
       var lim = { s: [0, 1e8], l: [1e8 + 1, Infinity], '5': [5e8, Infinity], '10': [1e9, Infinity] }[amt];
       return n !== null && n >= lim[0] && n <= lim[1];
     });
-    var href = cat ? '#/c/' + cat : secHref(sec) + (sec === 'bid' && amt ? '/' + amt : '');
+    if (sec === 'luxury' && amt) arr = arr.filter(function (a) {
+      var n = luxAmt(a), lim = LUX_LIM[amt];
+      return n !== null && n >= lim[0] && n <= lim[1];
+    });
+    var href = cat ? '#/c/' + cat : secHref(sec) + ((sec === 'bid' || sec === 'luxury') && amt ? '/' + amt : '');
     setCtx(arr, href);
     var subs = sec === 'bid' ? '<div class="subs">' + [['', '전체'], ['s', '1억 이하'], ['l', '1억 이상'], ['5', '5억 이상'], ['10', '10억 이상']].map(function (o) {
         return '<a class="sub' + ((amt || '') === o[0] ? ' on' : '') + '" href="#/s/bid' + (o[0] ? '/' + o[0] : '') + '">' + o[1] + '</a>';
+      }).join('') + '</div>' : sec === 'luxury' ? '<div class="subs">' + LUX_BAND.map(function (o) {
+        return '<a class="sub' + ((amt || '') === o[0] ? ' on' : '') + '" href="#/s/luxury' + (o[0] ? '/' + o[0] : '') + '">' + o[1] + '</a>';
       }).join('') + '</div>' : S.cats.length > 1 ? '<div class="subs"><a class="sub' + (cat ? '' : ' on') + '" href="' + secHref(sec) + '">전체</a>' +
       S.cats.filter(function (c) { return hasCat(c[0]) || c[0] === cat; }).map(function (c) {
         return '<a class="sub' + (c[0] === cat ? ' on' : '') + '" href="#/c/' + c[0] + '">' + esc(c[1]) + '</a>';
@@ -332,7 +351,7 @@
     $list.innerHTML = (sec === 'all' ? todayHtml() : '') +
       '<div class="sec-title">' + (sec === 'all' ? '최신 기사' : esc(S.name)) +
       '<small>' + arr.length + '건</small></div>' + subs +
-      (sec === 'karrot' ? karrotHtml() : '') + (sec === 'luxury' ? luxHtml(cat) : '') + ((sec === 'eat' && (!cat || EAT[cat])) ? '<div class="rule"><b>맛집 선정 기준</b> ' + EAT_RULE + '</div>' : '') + listHtml(arr);
+      (sec === 'karrot' ? karrotHtml() : '') + (sec === 'luxury' ? luxHtml() : '') + ((sec === 'eat' && (!cat || EAT[cat])) ? '<div class="rule"><b>맛집 선정 기준</b> ' + EAT_RULE + '</div>' : '') + listHtml(arr);
   }
 
   function bookmarksView() {
@@ -654,7 +673,7 @@
     if (parts[0] === 'sources') { setTab('sources'); sourcesView(); return; }
     setTab('home');
     if (parts[0] === 'c' && CAT_SEC[parts[1]]) home(CAT_SEC[parts[1]], parts[1]);
-    else if (parts[0] === 's' && SEC[parts[1]]) home(parts[1], null, parts[1] === 'bid' && /^(s|l|5|10)$/.test(parts[2] || '') ? parts[2] : null);
+    else if (parts[0] === 's' && SEC[parts[1]]) home(parts[1], null, parts[1] === 'bid' && /^(s|l|5|10)$/.test(parts[2] || '') ? parts[2] : parts[1] === 'luxury' && /^(10|50|100)$/.test(parts[2] || '') ? parts[2] : null);
     else home('all');
   }
   function fitPanes() {

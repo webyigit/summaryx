@@ -3894,5 +3894,32 @@
     "Cartier"
    ]
   }
+ ],
+ "luxprice": [
+  {
+   "name": "Bing 뉴스 RSS(최신순)",
+   "url": "https://www.bing.com/news/search?q=명품+신제품+가격+원&qft=sortbydate%3d%221%22&format=rss",
+   "keywords": [
+    "명품 신제품",
+    "가격",
+    "출시"
+   ]
+  },
+  {
+   "name": "패션서울",
+   "url": "https://fashionseoul.com/",
+   "keywords": [
+    "출시",
+    "가격"
+   ]
+  },
+  {
+   "name": "한국섬유신문",
+   "url": "https://www.ktnews.com/",
+   "keywords": [
+    "명품",
+    "가격 인상"
+   ]
+  }
  ]
 }
