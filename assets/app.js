@@ -6,6 +6,7 @@
     { id: 'all', name: '전체', cats: [] },
     { id: 'ai', name: 'AI', cats: [['ai', 'AI'], ['ax', 'AX'], ['robot', '로봇'], ['paper', '논문'], ['aicert', '자격증']] },
     { id: 'tech', name: 'IT·테크', cats: [['it', 'IT'], ['applesamsung', '애플·삼성'], ['car', '자동차'], ['semi', '반도체'], ['security', '보안']] },
+    { id: 'world', name: '세계', cats: [['worldus','미국·미주'],['worldasia','아시아'],['worldeu','유럽·러시아'],['worldmea','중동·아프리카']] },
     { id: 'culture', name: '문화', cats: [['movie', '영화'], ['music', '음악'], ['art', '미술'], ['book', '책'], ['show', '공연·전시']] },
     { id: 'design', name: '디자인', cats: [['design', '디자인 뉴스'], ['cardesign', '자동차'], ['productd', '제품·산업'], ['brand', '브랜딩·그래픽'], ['package', '패키지'], ['uxui', 'UX/UI']] },
     { id: 'life', name: '라이프', cats: [['fashion', '패션'], ['food', '푸드'], ['travel', '여행'], ['health', '건강']] },

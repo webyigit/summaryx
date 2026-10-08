@@ -3411,5 +3411,103 @@
    "name": "브런치·기사 본문 대조",
    "url": "https://brunch.co.kr/"
   }
+ ],
+ "worldus": [
+  {
+   "name": "AP News 미국",
+   "url": "https://apnews.com/us-news",
+   "keywords": [
+    "미국",
+    "백악관"
+   ]
+  },
+  {
+   "name": "연합뉴스 국제(미주)",
+   "url": "https://www.yna.co.kr/international/northamerica",
+   "keywords": [
+    "미국",
+    "캐나다"
+   ]
+  },
+  {
+   "name": "BBC 미국·캐나다",
+   "url": "https://www.bbc.com/news/us-canada",
+   "keywords": [
+    "US"
+   ]
+  }
+ ],
+ "worldasia": [
+  {
+   "name": "연합뉴스 국제(아시아)",
+   "url": "https://www.yna.co.kr/international/asia-australia",
+   "keywords": [
+    "중국",
+    "일본"
+   ]
+  },
+  {
+   "name": "NHK World",
+   "url": "https://www3.nhk.or.jp/nhkworld/en/news/",
+   "keywords": [
+    "Japan"
+   ]
+  },
+  {
+   "name": "BBC 아시아",
+   "url": "https://www.bbc.com/news/world/asia",
+   "keywords": [
+    "Asia"
+   ]
+  }
+ ],
+ "worldeu": [
+  {
+   "name": "연합뉴스 국제(유럽)",
+   "url": "https://www.yna.co.kr/international/europe",
+   "keywords": [
+    "유럽",
+    "러시아"
+   ]
+  },
+  {
+   "name": "BBC 유럽",
+   "url": "https://www.bbc.com/news/world/europe",
+   "keywords": [
+    "Europe"
+   ]
+  },
+  {
+   "name": "가디언 월드",
+   "url": "https://www.theguardian.com/world",
+   "keywords": [
+    "Europe"
+   ]
+  }
+ ],
+ "worldmea": [
+  {
+   "name": "연합뉴스 국제(중동·아프리카)",
+   "url": "https://www.yna.co.kr/international/middleeast-africa",
+   "keywords": [
+    "중동",
+    "아프리카"
+   ]
+  },
+  {
+   "name": "알자지라",
+   "url": "https://www.aljazeera.com/news/",
+   "keywords": [
+    "Middle East",
+    "Africa"
+   ]
+  },
+  {
+   "name": "BBC 아프리카",
+   "url": "https://www.bbc.com/news/world/africa",
+   "keywords": [
+    "Africa"
+   ]
+  }
  ]
 }
