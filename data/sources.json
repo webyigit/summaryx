@@ -3758,6 +3758,36 @@
     "리셀 시세",
     "번개장터 패션"
    ]
+  },
+  {
+   "name": "EBN",
+   "url": "https://www.ebn.co.kr",
+   "keywords": [
+    "리셀시장",
+    "무신사 유즈드"
+   ]
+  },
+  {
+   "name": "한국경제",
+   "url": "https://www.hankyung.com",
+   "keywords": [
+    "리셀 플랫폼",
+    "중고 패딩"
+   ]
+  },
+  {
+   "name": "서울경제TV",
+   "url": "https://www.sentv.co.kr",
+   "keywords": [
+    "번개장터"
+   ]
+  },
+  {
+   "name": "재경일보",
+   "url": "https://news.jkn.co.kr",
+   "keywords": [
+    "중고거래 플랫폼 수수료"
+   ]
   }
  ],
  "lux1": [
