@@ -16,6 +16,7 @@
     { id: 'trip', name: '여행지', cats: [['tripko','국내 여행지'],['tripworld','해외 여행지']] },
     { id: 'karrot', name: '당근·중고', cats: [['usedwear','중고 의류 소식']] },
     { id: 'poetry', name: '시', cats: [['poemread','명시 감상'],['poemnews','시 소식·시집']] },
+    { id: 'luxury', name: '명품', cats: [['lux1','하이엔드'],['lux2','럭셔리'],['lux3','프리미엄·컨템포러리'],['luxwatch','워치·주얼리']] },
     { id: 'brands', name: '브랜드', cats: [['bfashion','패션·럭셔리'],['bcar','자동차'],['btech','IT·전자'],['bfood','식음료'],['bbeauty','뷰티·생활']] },
     { id: 'cook', name: '레시피', cats: [['recipe','한 그릇·메인'],['recipeside','반찬·국'],['recipesnack','간식·브런치']] },
     { id: 'archi', name: '건축', cats: [['arch','건축 소식'],['archproj','작품·프로젝트'],['interior','인테리어·공간']] },
@@ -124,6 +125,14 @@
       '<div class="kchips">' + KARROT.map(function (q) {
         return '<a class="sub" href="https://www.daangn.com/kr/buy-sell/?search=' + encodeURIComponent(q) + '" target="_blank" rel="noopener">' + esc(q) + '</a>';
       }).join('') + '</div></div>';
+  }
+  // 명품 티어: 공식 등급이 아니라 summaryx 분류(국내 언론 통칭·가격대·포지셔닝 기준)
+  var LUX_RULE = { lux1: '에르메스, 샤넬, 루이비통 (국내 언론 통칭 \'에루샤\')', lux2: '디올, 구찌, 프라다, 생로랑, 셀린느, 보테가 베네타, 발렌시아가, 로에베, 버버리, 펜디, 지방시, 발렌티노, 미우미우', lux3: '메종 마르지엘라, 아크네 스튜디오, 띠어리, 마크 제이콥스, 코치, 토리버치, 마이클 코어스, 랄프 로렌, 아미, 메종 키츠네', luxwatch: '롤렉스, 파텍 필립, 오데마 피게, 까르띠에, 반클리프 아펠, 불가리, 티파니, 오메가' };
+  function luxHtml(cat) {
+    var names = { lux1: '하이엔드', lux2: '럭셔리', lux3: '프리미엄·컨템포러리', luxwatch: '워치·주얼리' };
+    var keys = cat ? [cat] : Object.keys(LUX_RULE);
+    return '<div class="rule"><b>티어 기준</b> 공식 등급이 아니라 summaryx 분류예요. 국내 언론의 통칭(에루샤), 대표 제품 가격대, 브랜드 포지셔닝을 기준으로 나눴어요.' +
+      keys.map(function (k) { return '<br><b>' + names[k] + '</b> ' + esc(LUX_RULE[k]); }).join('') + '</div>';
   }
   function toast(msg) {
     var t = document.getElementById('toast');
@@ -323,7 +332,7 @@
     $list.innerHTML = (sec === 'all' ? todayHtml() : '') +
       '<div class="sec-title">' + (sec === 'all' ? '최신 기사' : esc(S.name)) +
       '<small>' + arr.length + '건</small></div>' + subs +
-      (sec === 'karrot' ? karrotHtml() : '') + ((sec === 'eat' && (!cat || EAT[cat])) ? '<div class="rule"><b>맛집 선정 기준</b> ' + EAT_RULE + '</div>' : '') + listHtml(arr);
+      (sec === 'karrot' ? karrotHtml() : '') + (sec === 'luxury' ? luxHtml(cat) : '') + ((sec === 'eat' && (!cat || EAT[cat])) ? '<div class="rule"><b>맛집 선정 기준</b> ' + EAT_RULE + '</div>' : '') + listHtml(arr);
   }
 
   function bookmarksView() {
