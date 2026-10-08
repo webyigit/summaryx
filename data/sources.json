@@ -3799,6 +3799,15 @@
     "샤넬",
     "루이비통"
    ]
+  },
+  {
+   "name": "Bing 뉴스 RSS(최신순)",
+   "url": "https://www.bing.com/news/search?q=에르메스+OR+샤넬+OR+루이비통&qft=sortbydate%3d%221%22&format=rss",
+   "keywords": [
+    "에르메스",
+    "샤넬",
+    "루이비통"
+   ]
   }
  ],
  "lux2": [
@@ -3813,9 +3822,37 @@
     "셀린느",
     "보테가 베네타"
    ]
+  },
+  {
+   "name": "패션서울",
+   "url": "https://fashionseoul.com/",
+   "keywords": [
+    "보테가 베네타",
+    "로에베",
+    "발렌티노"
+   ]
+  },
+  {
+   "name": "W Korea",
+   "url": "https://www.wkorea.com/",
+   "keywords": [
+    "컬렉션",
+    "보테가 베네타"
+   ]
   }
  ],
  "lux3": [
+  {
+   "name": "한국섬유신문",
+   "url": "https://www.ktnews.com/",
+   "keywords": [
+    "메종 마르지엘라",
+    "아미",
+    "코치",
+    "랄프로렌",
+    "부티크 오픈"
+   ]
+  },
   {
    "name": "패션·럭셔리 뉴스",
    "url": "https://www.businessoffashion.com/",
@@ -3831,15 +3868,30 @@
  ],
  "luxwatch": [
   {
-   "name": "패션·럭셔리 뉴스",
-   "url": "https://www.businessoffashion.com/",
+   "name": "한국섬유신문",
+   "url": "https://www.ktnews.com/",
    "keywords": [
-    "롤렉스",
-    "파텍 필립",
-    "오데마 피게",
     "까르띠에",
     "반클리프 아펠",
-    "불가리"
+    "불가리",
+    "롤렉스"
+   ]
+  },
+  {
+   "name": "디지털데일리",
+   "url": "https://www.ddaily.co.kr/",
+   "keywords": [
+    "명품 시계",
+    "하이 주얼리"
+   ]
+  },
+  {
+   "name": "Wallpaper*",
+   "url": "https://www.wallpaper.com/watches-jewellery",
+   "keywords": [
+    "Audemars Piguet",
+    "Patek Philippe",
+    "Cartier"
    ]
   }
  ]
