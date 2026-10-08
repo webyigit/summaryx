@@ -12,6 +12,7 @@
     { id: 'wine', name: '와인', cats: [['wine', '업계 뉴스'], ['winepick', '추천·리뷰'], ['wineregion', '산지·빈티지'], ['winepair', '페어링'], ['winestudy', '와인 상식'], ['winetype', '세계 인기 와인'], ['winery', '와이너리'], ['cellar', '셀러·보관'], ['winedeal', '할인 정보'], ['wineko', '국내 와인']] },
     { id: 'eat', name: '맛집·맛도리', cats: [['eatseoul','서울 맛집'],['eatgg','경기 맛집'],['eatdj','대전 맛집'],['eatsj','세종 맛집'],['worldfood','세계 맛도리'],['seasonal','제철 음식']] },
     { id: 'shop', name: '쇼핑', cats: [['shopguide','믿을 만한 쇼핑몰'],['shopmen','남성 의류'],['shopdeal','할인 행사']] },
+    { id: 'care', name: '건강', cats: [['bp','고혈압'],['dm','당뇨'],['lipid','고지혈증·심혈관']] },
     { id: 'trip', name: '여행지', cats: [['tripko','국내 여행지'],['tripworld','해외 여행지']] },
     { id: 'toon', name: '웹툰', cats: [['toon','웹툰 소식'],['toonhot','인기·추천']] },
     { id: 'teen', name: '학생', cats: [['game', '게임'], ['webtoon', '웹툰·애니'], ['sports', '스포츠'], ['science', '과학'], ['edu', '교육·진로']] },

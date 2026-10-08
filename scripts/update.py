@@ -26,7 +26,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 KEEP_DAYS = 14
 FRONT_DAYS = 2
-CATS = ["ai", "ax", "robot", "paper", "it", "applesamsung", "car", "semi", "security", "movie", "music", "art", "book", "show", "design", "cardesign", "productd", "brand", "package", "uxui", "arch", "fashion", "food", "travel", "health", "wine", "winepick", "wineregion", "winepair", "winestudy", "winetype", "winery", "cellar", "winedeal", "wineko", "eatseoul", "eatgg", "eatdj", "eatsj", "worldfood", "seasonal", "shopguide", "shopmen", "shopdeal", "tripko", "tripworld", "toon", "toonhot", "game", "webtoon", "sports", "science", "edu", "ent", "kpop", "shorts", "meme", "g2b", "christian", "ccm"]
+CATS = ["ai", "ax", "robot", "paper", "it", "applesamsung", "car", "semi", "security", "movie", "music", "art", "book", "show", "design", "cardesign", "productd", "brand", "package", "uxui", "arch", "fashion", "food", "travel", "health", "wine", "winepick", "wineregion", "winepair", "winestudy", "winetype", "winery", "cellar", "winedeal", "wineko", "eatseoul", "eatgg", "eatdj", "eatsj", "worldfood", "seasonal", "shopguide", "shopmen", "shopdeal", "bp", "dm", "lipid", "tripko", "tripworld", "toon", "toonhot", "game", "webtoon", "sports", "science", "edu", "ent", "kpop", "shorts", "meme", "g2b", "christian", "ccm"]
 CAT_NAME = {"ai": "AI > AI", "ax": "AI > AX", "it": "IT·테크 > IT", "applesamsung": "IT·테크 > 애플·삼성",
             "car": "IT·테크 > 자동차", "movie": "문화 > 영화", "music": "문화 > 음악", "art": "문화 > 미술",
             "design": "디자인 > 디자인 뉴스", "cardesign": "디자인 > 자동차", "productd": "디자인 > 제품·산업",
@@ -38,7 +38,7 @@ CAT_NAME = {"ai": "AI > AI", "ax": "AI > AX", "it": "IT·테크 > IT", "applesam
             "robot": "AI > 로봇", "paper": "AI > 논문", "g2b": "나라장터", "semi": "IT·테크 > 반도체", "security": "IT·테크 > 보안", "book": "문화 > 책",
             "show": "문화 > 공연·전시", "arch": "디자인 > 건축·인테리어", "travel": "라이프 > 여행", "health": "라이프 > 건강",
             "edu": "학생 > 교육·진로", "kpop": "연예·트렌드 > K-POP",
-            "christian": "종교 > 기독교", "eatseoul": "맛집·맛도리 > 서울 맛집", "eatgg": "맛집·맛도리 > 경기 맛집", "eatdj": "맛집·맛도리 > 대전 맛집", "eatsj": "맛집·맛도리 > 세종 맛집", "worldfood": "맛집·맛도리 > 세계 맛도리", "seasonal": "맛집·맛도리 > 제철 음식", "shopguide": "쇼핑 > 믿을 만한 쇼핑몰", "shopmen": "쇼핑 > 남성 의류", "shopdeal": "쇼핑 > 할인 행사", "tripko": "여행지 > 국내 여행지", "tripworld": "여행지 > 해외 여행지", "toon": "웹툰 > 웹툰 소식", "toonhot": "웹툰 > 인기·추천", "ccm": "종교 > CCM"}
+            "christian": "종교 > 기독교", "eatseoul": "맛집·맛도리 > 서울 맛집", "eatgg": "맛집·맛도리 > 경기 맛집", "eatdj": "맛집·맛도리 > 대전 맛집", "eatsj": "맛집·맛도리 > 세종 맛집", "worldfood": "맛집·맛도리 > 세계 맛도리", "seasonal": "맛집·맛도리 > 제철 음식", "shopguide": "쇼핑 > 믿을 만한 쇼핑몰", "shopmen": "쇼핑 > 남성 의류", "shopdeal": "쇼핑 > 할인 행사", "bp": "건강 > 고혈압", "dm": "건강 > 당뇨", "lipid": "건강 > 고지혈증·심혈관", "tripko": "여행지 > 국내 여행지", "tripworld": "여행지 > 해외 여행지", "toon": "웹툰 > 웹툰 소식", "toonhot": "웹툰 > 인기·추천", "ccm": "종교 > CCM"}
 KST = timezone(timedelta(hours=9))
 REQUIRED = ("title", "source", "url", "summary")
 

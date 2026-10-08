@@ -2754,5 +2754,76 @@
         "가을 제철"
       ]
     }
+  ],
+  "bp": [
+    {
+      "name": "국가건강정보포털",
+      "url": "https://health.kdca.go.kr/",
+      "keywords": [
+        "고혈압"
+      ]
+    },
+    {
+      "name": "대한고혈압학회",
+      "url": "https://www.koreanhypertension.org/",
+      "keywords": [
+        "고혈압 진료지침"
+      ]
+    },
+    {
+      "name": "코메디닷컴",
+      "url": "https://kormedi.com/",
+      "keywords": [
+        "고혈압 연구"
+      ]
+    }
+  ],
+  "dm": [
+    {
+      "name": "국가건강정보포털",
+      "url": "https://health.kdca.go.kr/",
+      "keywords": [
+        "당뇨병"
+      ]
+    },
+    {
+      "name": "대한당뇨병학회",
+      "url": "https://www.diabetes.or.kr/",
+      "keywords": [
+        "당뇨병 진료지침"
+      ]
+    },
+    {
+      "name": "ADA",
+      "url": "https://diabetes.org/newsroom",
+      "keywords": [
+        "diabetes study"
+      ]
+    }
+  ],
+  "lipid": [
+    {
+      "name": "국가건강정보포털",
+      "url": "https://health.kdca.go.kr/",
+      "keywords": [
+        "이상지질혈증",
+        "심혈관"
+      ]
+    },
+    {
+      "name": "한국지질동맥경화학회",
+      "url": "https://www.lipid.or.kr/",
+      "keywords": [
+        "이상지질혈증 진료지침"
+      ]
+    },
+    {
+      "name": "AHA Newsroom",
+      "url": "https://newsroom.heart.org/",
+      "keywords": [
+        "cholesterol",
+        "heart disease"
+      ]
+    }
   ]
 }
