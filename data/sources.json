@@ -345,48 +345,9 @@
    "name": "FashionNetwork UK",
    "url": "https://uk.fashionnetwork.com/",
    "keywords": [
-    "fashion week",
-    "luxury",
-    "creative director",
-    "retail"
-   ]
-  },
-  {
-   "name": "Highsnobiety",
-   "url": "https://www.highsnobiety.com/",
-   "keywords": [
-    "streetwear",
-    "sneakers",
-    "brand",
-    "collaboration"
-   ]
-  },
-  {
-   "name": "The Zoe Report",
-   "url": "https://www.thezoereport.com/fashion",
-   "keywords": [
-    "show review",
-    "spring/summer",
-    "runway"
-   ]
-  },
-  {
-   "name": "Fashionista",
-   "url": "https://fashionista.com/",
-   "keywords": [
     "fashion business",
-    "collections",
+    "luxury",
     "retail"
-   ]
-  },
-  {
-   "name": "패션서울",
-   "url": "https://fashionseoul.com/",
-   "keywords": [
-    "K-패션",
-    "컬렉션",
-    "패션위크",
-    "브랜드"
    ]
   },
   {
@@ -395,8 +356,25 @@
    "keywords": [
     "패션 기업",
     "유통",
-    "무신사",
-    "실적"
+    "컬렉션"
+   ]
+  },
+  {
+   "name": "패션서울",
+   "url": "https://fashionseoul.com/",
+   "keywords": [
+    "K-패션",
+    "트렌드",
+    "컬렉션"
+   ]
+  },
+  {
+   "name": "Highsnobiety",
+   "url": "https://www.highsnobiety.com/",
+   "keywords": [
+    "designer",
+    "collaboration",
+    "outerwear"
    ]
   },
   {
@@ -404,8 +382,7 @@
    "url": "https://www.retaildive.com/",
    "keywords": [
     "apparel retail",
-    "earnings",
-    "restructuring"
+    "store"
    ]
   }
  ],
@@ -496,6 +473,24 @@
     "디자이너 인터뷰",
     "디자인 업계"
    ]
+  },
+  {
+   "name": "디자인정글",
+   "url": "https://www.jungle.co.kr/magazine",
+   "keywords": [
+    "디자인 칼럼",
+    "전시 리뷰",
+    "디자인 교육"
+   ]
+  },
+  {
+   "name": "The Korea Times / The Korea Herald",
+   "url": "https://www.koreatimes.co.kr/lifestyle",
+   "keywords": [
+    "Seoul design",
+    "DDP",
+    "design award"
+   ]
   }
  ],
  "meme": [
@@ -580,17 +575,15 @@
    "keywords": [
     "UX",
     "design systems",
-    "accessibility",
-    "CSS"
+    "naming"
    ]
   },
   {
    "name": "Nielsen Norman Group",
    "url": "https://www.nngroup.com/articles/",
    "keywords": [
-    "UX research",
     "AI UX",
-    "usability"
+    "agentic AI"
    ]
   },
   {
@@ -598,18 +591,26 @@
    "url": "https://uxmag.com/articles",
    "keywords": [
     "agentic AI UX",
-    "service design",
-    "dark patterns"
+    "mascot",
+    "service design"
    ]
   },
   {
-   "name": "디지털 인사이트 (DIGITAL iNSIGHT)",
+   "name": "디지털 인사이트",
    "url": "https://ditoday.com/tag/ui/",
    "keywords": [
     "UI",
     "UX",
-    "앱 개편",
-    "폰트"
+    "초개인화"
+   ]
+  },
+  {
+   "name": "디자인 컴퍼스",
+   "url": "https://designcompass.org/",
+   "keywords": [
+    "UI",
+    "공공 웹",
+    "AI UI"
    ]
   },
   {
@@ -617,28 +618,8 @@
    "url": "https://9to5google.com/",
    "keywords": [
     "redesign",
-    "Material",
     "Liquid Glass",
-    "UI update"
-   ]
-  },
-  {
-   "name": "Figma Blog / Release Notes",
-   "url": "https://www.figma.com/blog/",
-   "keywords": [
-    "Figma agent",
-    "Figma Make",
-    "auto layout",
-    "release notes"
-   ]
-  },
-  {
-   "name": "Creative Bloq (Web design / UX·UI)",
-   "url": "https://www.creativebloq.com/web-design",
-   "keywords": [
-    "redesign",
-    "UX/UI",
-    "web design"
+    "CarPlay"
    ]
   },
   {
@@ -646,17 +627,7 @@
    "url": "https://www.androidauthority.com/news/",
    "keywords": [
     "APK teardown",
-    "UI redesign",
-    "Google app"
-   ]
-  },
-  {
-   "name": "MacRumors",
-   "url": "https://www.macrumors.com/",
-   "keywords": [
-    "macOS",
-    "touch",
-    "UI"
+    "UI redesign"
    ]
   }
  ],
@@ -1446,12 +1417,12 @@
  ],
  "arch": [
   {
-   "name": "아키인사이드",
-   "url": "https://archiinside.kr/",
+   "name": "건축세계",
+   "url": "https://www.archiworldjournal.com/news/articleList.html?sc_section_code=S1N3",
    "keywords": [
-    "건축",
-    "건축가",
-    "준공"
+    "건축상",
+    "설계공모",
+    "건축 뉴스"
    ]
   },
   {
@@ -1461,6 +1432,15 @@
     "설계공모",
     "공공건축",
     "건축 정책"
+   ]
+  },
+  {
+   "name": "SPACE 뉴스",
+   "url": "https://vmspace.com/news/news.html",
+   "keywords": [
+    "건축 소식",
+    "설계공모",
+    "전시"
    ]
   },
   {
@@ -2025,8 +2005,8 @@
    ]
   },
   {
-   "name": "Auto Express (Paris Motor Show)",
-   "url": "https://www.autoexpress.co.uk/paris-motor-show/370475/paris-motor-show-2026-your-guide-all-key-cars",
+   "name": "Auto Express (concept cars)",
+   "url": "https://www.autoexpress.co.uk/concept-cars",
    "keywords": [
     "concept",
     "Paris Motor Show 2026",
@@ -2056,6 +2036,24 @@
    "keywords": [
     "디자인",
     "콘셉트카"
+   ]
+  },
+  {
+   "name": "Auto&Design",
+   "url": "https://autodesignmagazine.com/en/",
+   "keywords": [
+    "design review",
+    "concept",
+    "designer"
+   ]
+  },
+  {
+   "name": "Carscoops",
+   "url": "https://www.carscoops.com/category/design/",
+   "keywords": [
+    "concept",
+    "one-off",
+    "spy design"
    ]
   }
  ],
@@ -2122,6 +2120,13 @@
     "브랜드 리뉴얼",
     "K-디자인 어워드"
    ]
+  },
+  {
+   "name": "헤럴드경제",
+   "url": "https://biz.heraldcorp.com/",
+   "keywords": [
+    "패키지 리뉴얼"
+   ]
   }
  ],
  "productd": [
@@ -2178,11 +2183,12 @@
  ],
  "brand": [
   {
-   "name": "Brand New (UnderConsideration)",
-   "url": "https://www.underconsideration.com/brandnew/",
+   "name": "Creative Review",
+   "url": "https://www.creativereview.co.uk/",
    "keywords": [
-    "New Logo and Identity",
-    "rebrand"
+    "branding",
+    "identity",
+    "crest"
    ]
   },
   {
@@ -2190,35 +2196,15 @@
    "url": "https://www.itsnicethat.com/graphic-design",
    "keywords": [
     "identity",
-    "typeface",
-    "graphic design project"
-   ]
-  },
-  {
-   "name": "Creative Review",
-   "url": "https://www.creativereview.co.uk/",
-   "keywords": [
-    "branding",
-    "identity",
-    "typography"
-   ]
-  },
-  {
-   "name": "Creative Bloq",
-   "url": "https://www.creativebloq.com/design",
-   "keywords": [
-    "new logo",
-    "rebrand",
-    "branding"
-   ]
-  },
-  {
-   "name": "Dezeen",
-   "url": "https://www.dezeen.com/design/graphics/",
-   "keywords": [
-    "rebrand",
-    "logo",
     "typeface"
+   ]
+  },
+  {
+   "name": "Creative Boom",
+   "url": "https://www.creativeboom.com/news/",
+   "keywords": [
+    "typography",
+    "identity"
    ]
   },
   {
@@ -2226,9 +2212,16 @@
    "url": "https://design.co.kr/",
    "keywords": [
     "브랜딩",
-    "BI",
-    "서체",
-    "한글"
+    "한글",
+    "서체"
+   ]
+  },
+  {
+   "name": "Logos-World News",
+   "url": "https://logos-world.net/news/",
+   "keywords": [
+    "new logo",
+    "brand identity"
    ]
   },
   {
@@ -2236,17 +2229,7 @@
    "url": "https://www.designweek.co.uk/design-disciplines/graphic-design/",
    "keywords": [
     "rebrand",
-    "identity",
-    "new branding"
-   ]
-  },
-  {
-   "name": "Creative Boom",
-   "url": "https://www.creativeboom.com/news/",
-   "keywords": [
-    "identity",
-    "wordmark",
-    "rebrand"
+    "identity"
    ]
   }
  ],

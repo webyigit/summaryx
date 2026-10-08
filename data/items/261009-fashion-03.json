@@ -1,0 +1,39 @@
+{
+ "title": "잘란도, 반품 처리에 AI 로봇 투입… 독일·폴란드 물류센터부터",
+ "originalTitle": "Zalando deploys robots for returns",
+ "source": "FashionNetwork UK",
+ "url": "https://uk.fashionnetwork.com/news/Zalando-deploys-robots-for-returns,1874136.html",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "베를린의 패션 플랫폼 잘란도가 로봇 기업 서리액트(Sereact), 물류업체 CEVA 로지스틱스와 함께 AI 기반 반품 처리를 시작했다. 독일 그레벤과 폴란드 시비에보진 물류센터에서 이번 주부터 가동에 들어갔다.",
+  "반품은 포장 상태가 제각각이고 상품마다 상태가 달라 자동화가 어려운 영역이다. 서리액트의 '코텍스' 물리 AI 플랫폼은 상품별 학습이나 고정된 SKU 정보 없이도 처음 보는 옷까지 집어 식별하고 분류한다. 시스템은 '서비스형 로봇(RaaS)' 방식으로 제공되며, 반복 작업을 로봇이 맡는 대신 직원은 모니터링·예외 처리·품질 검사로 옮겨간다.",
+  "잘란도는 2026년 7월 서리액트 시리즈 B에 전략 투자자로 참여했고, 두 회사는 유럽 물류망 전반으로 자동화를 넓힐 계획이다. CEVA 측은 반품을 비용 요인이 아닌 '관리되는 고성능 서비스'로 바꾸는 게 목표라고 말했다. 처리량·비용 절감 수치는 공개되지 않았다."
+ ],
+ "keyPoints": [
+  "처음 보는 옷도 집어 분류하는 AI 로봇",
+  "독일 그레벤·폴란드 물류센터 가동",
+  "직원은 품질 검사·예외 처리로 전환"
+ ],
+ "image": "https://media.fashionnetwork.com/cdn-cgi/image/fit=cover,width=600,height=600,format=auto/m/a769/46fc/4115/065c/2b15/0fd2/5cee/e451/8ff9/7ec2/7ec2.png",
+ "facts": [
+  [
+   "기업",
+   "잘란도·서리액트·CEVA 로지스틱스"
+  ],
+  [
+   "적용 장소",
+   "독일 그레벤, 폴란드 시비에보진"
+  ],
+  [
+   "기술",
+   "서리액트 코텍스 물리 AI"
+  ],
+  [
+   "방식",
+   "서비스형 로봇(RaaS)"
+  ]
+ ],
+ "id": "261009-fashion-03",
+ "category": "fashion",
+ "collectedAt": "2026-10-09T04:31:51+09:00"
+}
