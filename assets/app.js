@@ -335,7 +335,7 @@
       return n !== null && n >= lim[0] && n <= lim[1];
     });
     if (sec === 'luxury' && amt) arr = arr.filter(function (a) {
-      var n = luxAmt(a), lim = LUX_LIM[amt];
+      var n = a.category === 'luxprice' ? luxAmt(a) : null, lim = LUX_LIM[amt];
       return n !== null && n >= lim[0] && n <= lim[1];
     });
     var href = cat ? '#/c/' + cat : secHref(sec) + ((sec === 'bid' || sec === 'luxury') && amt ? '/' + amt : '');

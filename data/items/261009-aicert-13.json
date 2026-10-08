@@ -1,0 +1,51 @@
+{
+ "title": "Databricks Certified Generative AI Engineer Associate — RAG·LLM 앱 구축 자격",
+ "originalTitle": "Databricks Certified Generative AI Engineer Associate",
+ "source": "Databricks",
+ "url": "https://www.databricks.com/learn/certification/genai-engineer-associate",
+ "publishedAt": null,
+ "summary": [
+  "Databricks Certified Generative AI Engineer Associate는 Databricks 플랫폼에서 LLM 기반 솔루션을 설계·구현하는 능력을 평가하는 벤더 자격이다. RAG 애플리케이션과 LLM 체인 구축이 핵심으로, 데이터 플랫폼 위에서 생성형 AI 앱을 만드는 엔지니어를 겨냥한다.",
+  "시험은 90분 동안 채점 대상 객관식 45문항을 풀며(비채점 문항이 추가될 수 있음), 응시료는 200달러다. 영어·일본어·포르투갈어(브라질)·한국어를 지원하고, 온라인 또는 시험장에서 감독하에 보며 참고 자료는 허용되지 않는다. 출제 비중은 애플리케이션 개발 30%, 앱 조립·배포 22%, 애플리케이션 설계·데이터 준비 각 14%, 평가·모니터링 12%, 거버넌스 8%다.",
+  "응시 자격 제한은 없지만 관련 교육 수강을 강하게 권장하며, 시험 가이드 업무를 6개월 이상 실습한 경험을 권한다. 자격은 2년간 유효하고 2년마다 최신 버전 시험으로 재인증해야 한다."
+ ],
+ "keyPoints": [
+  "RAG·LLM 체인 구축 능력 평가",
+  "90분·45문항, 응시료 200달러, 한국어 지원",
+  "유효기간 2년, 최신 시험으로 재인증"
+ ],
+ "facts": [
+  [
+   "시행기관",
+   "Databricks"
+  ],
+  [
+   "자격 종류",
+   "벤더(Associate 등급)"
+  ],
+  [
+   "시험 일정",
+   "상시 예약 — 정기 회차 없음"
+  ],
+  [
+   "응시료",
+   "$200"
+  ],
+  [
+   "시험 방식",
+   "90분, 객관식 45문항(채점 대상) / 온라인 또는 시험장 감독 / 영어·일본어·포르투갈어(BR)·한국어"
+  ],
+  [
+   "응시 자격",
+   "없음(관련 교육 강력 권장)"
+  ],
+  [
+   "난이도·대상",
+   "중급 — 생성형 AI 솔루션 실무 6개월 이상 경험자"
+  ]
+ ],
+ "image": "https://www.databricks.com/sites/default/files/2022/04/databricks-certification-and-badging-og.png",
+ "id": "261009-aicert-13",
+ "category": "aicert",
+ "collectedAt": "2026-10-09T01:31:09+09:00"
+}

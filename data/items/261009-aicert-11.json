@@ -1,0 +1,51 @@
+{
+ "title": "AWS Certified Generative AI Developer – Professional — Bedrock 기반 생성형 AI 개발 전문가 자격",
+ "originalTitle": "AWS Certified Generative AI Developer - Professional",
+ "source": "Amazon Web Services(AWS)",
+ "url": "https://aws.amazon.com/certification/certified-generative-ai-developer-professional/",
+ "publishedAt": null,
+ "summary": [
+  "AWS Certified Generative AI Developer – Professional은 개념 검증(PoC)을 넘어 Amazon Bedrock 등으로 실제 서비스 수준의 생성형 AI 솔루션을 만드는 개발자를 위한 프로페셔널 등급 자격이다. 입문용 AI Practitioner, ML Engineer Associate보다 한 단계 위에 놓인다.",
+  "시험은 180분, 객관식·복수 응답 75문항이며 응시료는 300달러(환율 등 추가 비용 가능)다. 영어·일본어·한국어·중국어(간체)로 볼 수 있고, Pearson VUE 시험장 또는 온라인 감독으로 응시한다. 필수 선수 자격은 없지만 AI Practitioner, Solutions Architect·Machine Learning Engineer·Data Engineer Associate가 준비에 도움이 된다고 안내한다.",
+  "권장 경력은 AWS나 오픈소스로 운영 수준 애플리케이션을 만든 2년 이상의 경험과 1년 이상의 생성형 AI 실무 구현 경험이다. 컴퓨팅·스토리지·네트워크, 보안·IAM, IaC·배포, 모니터링, 비용 최적화 지식도 요구된다. 공식 페이지는 2026년 9월 29일 갱신됐다."
+ ],
+ "keyPoints": [
+  "Bedrock 기반 생성형 AI 실무 개발자 대상",
+  "180분·75문항, 응시료 300달러",
+  "한국어 응시 가능, 실무 경력 권장"
+ ],
+ "facts": [
+  [
+   "시행기관",
+   "Amazon Web Services(AWS)"
+  ],
+  [
+   "자격 종류",
+   "벤더(Professional 등급)"
+  ],
+  [
+   "시험 일정",
+   "상시 예약(Pearson VUE) — 정기 회차 없음"
+  ],
+  [
+   "응시료",
+   "300 USD (환율 등 추가 비용 가능)"
+  ],
+  [
+   "시험 방식",
+   "180분, 객관식·복수 응답 75문항 / 시험장 또는 온라인 감독 / 영어·일본어·한국어·중국어(간체)"
+  ],
+  [
+   "응시 자격",
+   "필수 없음(AI Practitioner·각종 Associate 권장)"
+  ],
+  [
+   "난이도·대상",
+   "상급 — AWS·오픈소스 개발 2년+, 생성형 AI 구현 1년+ 경력 개발자"
+  ]
+ ],
+ "image": null,
+ "id": "261009-aicert-11",
+ "category": "aicert",
+ "collectedAt": "2026-10-09T01:31:09+09:00"
+}

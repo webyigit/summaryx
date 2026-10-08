@@ -2472,61 +2472,33 @@
  "eatseoul": [
   {
    "name": "미쉐린 가이드 서울",
-   "url": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurants/bib-gourmand",
+   "url": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurants",
    "keywords": [
-    "미쉐린 서울",
-    "빕 구르망"
-   ]
-  },
-  {
-   "name": "위키트리 (2026 서울미식 100선)",
-   "url": "https://www.wikitree.co.kr/articles/1164258",
-   "keywords": [
+    "빕 구르망 2026",
     "서울미식 100선"
    ]
   },
   {
-   "name": "다이닝코드",
-   "url": "https://www.diningcode.com/",
+   "name": "중앙일보 쿠킹(다음뉴스)",
+   "url": "https://v.daum.net/v/By2hjXPKh1",
    "keywords": [
-    "서울 맛집",
-    "웨이팅 맛집"
+    "빕 구르망 신규"
    ]
   },
   {
-   "name": "블루리본서베이",
-   "url": "https://www.bluer.co.kr/",
+   "name": "서울시 보도자료",
+   "url": "https://www.seoul.go.kr/news/news_report.do?nttNo=467591&srchCtgry=466",
    "keywords": [
-    "블루리본 서울"
+    "2026 서울미식 100선"
    ]
   }
  ],
  "eatgg": [
   {
-   "name": "다이닝코드",
-   "url": "https://www.diningcode.com/",
+   "name": "서울신문 공공뉴스(경기관광공사 보도)",
+   "url": "https://m.go.seoul.co.kr/",
    "keywords": [
-    "경기 맛집",
-    "수원 맛집",
-    "성남 맛집",
-    "용인 맛집",
-    "고양 맛집"
-   ]
-  },
-  {
-   "name": "블루리본서베이",
-   "url": "https://www.bluer.co.kr/",
-   "keywords": [
-    "블루리본 경기"
-   ]
-  },
-  {
-   "name": "Bing 뉴스 RSS",
-   "url": "https://www.bing.com/news/search?q=경기도+맛집&format=rss",
-   "keywords": [
-    "경기도 맛집",
-    "수원 맛집",
-    "용인 맛집 웨이팅"
+    "경기관광공사 노포 맛집"
    ]
   }
  ],
@@ -2559,62 +2531,15 @@
  ],
  "eatsj": [
   {
-   "name": "다이닝코드",
-   "url": "https://www.diningcode.com/",
-   "keywords": [
-    "세종 맛집",
-    "세종시 웨이팅"
-   ]
-  },
-  {
-   "name": "블루리본서베이",
-   "url": "https://www.bluer.co.kr/",
-   "keywords": [
-    "블루리본 세종"
-   ]
-  },
-  {
    "name": "중도일보 (세종)",
    "url": "https://www.joongdo.co.kr/",
    "keywords": [
-    "세종사랑 맛집",
-    "세종 맛집 탐방"
-   ]
-  },
-  {
-   "name": "파이낸셜뉴스 Weekend 레저",
-   "url": "https://www.fnnews.com/",
-   "keywords": [
-    "세종오식",
-    "세종 로컬 미식"
+    "세종 맛집 탐방",
+    "캐치테이블 세종 웨이팅"
    ]
   }
  ],
  "worldfood": [
-  {
-   "name": "TasteAtlas",
-   "url": "https://www.tasteatlas.com/",
-   "keywords": [
-    "best foods in the world",
-    "popular dish"
-   ]
-  },
-  {
-   "name": "Eater",
-   "url": "https://www.eater.com/",
-   "keywords": [
-    "food trend",
-    "viral food"
-   ]
-  },
-  {
-   "name": "VnExpress International (Vietnamese food)",
-   "url": "https://e.vnexpress.net/taxonomy/vietnamese-food-7918",
-   "keywords": [
-    "Vietnamese food",
-    "viral dish"
-   ]
-  },
   {
    "name": "SoraNews24",
    "url": "https://soranews24.com/",
@@ -2627,24 +2552,7 @@
    "name": "The Korea Herald Food",
    "url": "https://www.koreaherald.com/LifenCulture/Food",
    "keywords": [
-    "Korean food",
-    "tteok"
-   ]
-  },
-  {
-   "name": "Gastro Obscura",
-   "url": "https://www.atlasobscura.com/gastro/stories",
-   "keywords": [
-    "world food",
-    "traditional dish"
-   ]
-  },
-  {
-   "name": "The Local Italy",
-   "url": "https://www.thelocal.it/",
-   "keywords": [
-    "sagra",
-    "Italian food festival"
+    "food trend"
    ]
   }
  ],
@@ -2704,101 +2612,44 @@
  ],
  "shopmen": [
   {
-   "name": "패션비즈",
-   "url": "https://www.fashionbiz.co.kr/",
-   "keywords": [
-    "남성복",
-    "남성 패션 브랜드"
-   ]
-  },
-  {
-   "name": "Hypebeast",
-   "url": "https://hypebeast.com/fashion",
-   "keywords": [
-    "menswear",
-    "collaboration"
-   ]
-  },
-  {
    "name": "Bing 뉴스(한국어)",
    "url": "https://www.bing.com/news/search?q=%EB%82%A8%EC%84%B1%EB%B3%B5&format=rss",
    "keywords": [
     "남성복",
-    "남성 패션 브랜드 협업",
-    "맨즈 브랜드 컬렉션"
+    "남성 브랜드 컬렉션 출시"
    ]
   },
   {
-   "name": "Bing 뉴스(영문)",
-   "url": "https://www.bing.com/news/search?q=menswear+collection&format=rss",
+   "name": "한국면세뉴스",
+   "url": "https://www.kdfnews.com/",
    "keywords": [
-    "menswear collection"
+    "FW 남성 스타일링"
    ]
   },
   {
-   "name": "Complex Style",
-   "url": "https://www.complex.com/style",
+   "name": "PR Newswire",
+   "url": "https://www.prnewswire.com/",
    "keywords": [
-    "menswear"
+    "menswear collaboration"
    ]
   }
  ],
  "shopdeal": [
   {
-   "name": "SSF샵",
-   "url": "https://www.ssfshop.com/",
+   "name": "Bing 뉴스(한국어)",
+   "url": "https://www.bing.com/news/search?q=%ED%8C%A8%EC%85%98+%EA%B8%B0%ED%9A%8D%EC%A0%84+%EC%B5%9C%EB%8C%80+%ED%95%A0%EC%9D%B8+%EB%82%A8%EC%84%B1&format=rss",
    "keywords": [
-    "SSF 세일",
-    "SSF샵 11주년"
-   ]
-  },
-  {
-   "name": "무신사",
-   "url": "https://www.musinsa.com/",
-   "keywords": [
-    "무진장 세일",
-    "블프"
-   ]
-  },
-  {
-   "name": "LF몰",
-   "url": "https://www.lfmall.co.kr/",
-   "keywords": [
-    "LF몰 세일"
-   ]
-  },
-  {
-   "name": "신세계그룹 뉴스룸",
-   "url": "https://www.shinsegaegroupnewsroom.com/",
-   "keywords": [
-    "온리 신세계 세일",
-    "슈퍼 골든 위크"
-   ]
-  },
-  {
-   "name": "W컨셉",
-   "url": "https://www.wconcept.co.kr/",
-   "keywords": [
-    "남성 전문관",
-    "W프리오더"
-   ]
-  },
-  {
-   "name": "롯데온",
-   "url": "https://www.lotteon.com/",
-   "keywords": [
-    "패세라"
+    "패션 기획전 할인 남성"
    ]
   }
  ],
  "toon": [
   {
-   "name": "Bing News RSS (웹툰 IP)",
-   "url": "https://www.bing.com/news/search?q=%EC%9B%B9%ED%88%B0+IP&qft=sortbydate%3d%221%22&format=rss",
+   "name": "웹툰가이드 뉴스",
+   "url": "https://www.webtoonguide.com/ko/board/news-column",
    "keywords": [
-    "웹툰 IP",
-    "웹툰 스튜디오",
-    "웹툰 게임"
+    "웹툰 소식",
+    "웹툰 업계"
    ]
   },
   {
@@ -2810,79 +2661,20 @@
    ]
   },
   {
-   "name": "Bing News RSS (네이버웹툰)",
-   "url": "https://www.bing.com/news/search?q=%EB%84%A4%EC%9D%B4%EB%B2%84%EC%9B%B9%ED%88%B0&qft=sortbydate%3d%221%22&format=rss",
+   "name": "Bing News RSS (웹툰 IP)",
+   "url": "https://www.bing.com/news/search?q=%EC%9B%B9%ED%88%B0+IP&qft=sortbydate%3d%221%22&format=rss",
    "keywords": [
-    "네이버웹툰",
-    "LINE Manga"
-   ]
-  },
-  {
-   "name": "Bing News RSS (카카오페이지 웹툰)",
-   "url": "https://www.bing.com/news/search?q=%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A7%80+%EC%9B%B9%ED%88%B0&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "카카오엔터",
-    "타파스",
-    "카카오페이지"
-   ]
-  },
-  {
-   "name": "Bing News RSS (웹툰 원작 드라마)",
-   "url": "https://www.bing.com/news/search?q=%EC%9B%B9%ED%88%B0+%EC%9B%90%EC%9E%91+%EB%93%9C%EB%9D%BC%EB%A7%88&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "웹툰 원작",
-    "영화화",
-    "드라마화"
-   ]
-  },
-  {
-   "name": "Bing News RSS (웹툰 작가)",
-   "url": "https://www.bing.com/news/search?q=%EC%9B%B9%ED%88%B0+%EC%9E%91%EA%B0%80&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "웹툰 작가",
-    "만화가"
-   ]
-  },
-  {
-   "name": "Bing News RSS (Webtoon Entertainment)",
-   "url": "https://www.bing.com/news/search?q=Webtoon+Entertainment&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "Webtoon Entertainment",
-    "WEBTOON"
+    "웹툰 IP"
    ]
   }
  ],
  "toonhot": [
-  {
-   "name": "이데일리 김정유의 웹툰파헤치기",
-   "url": "https://www.edaily.co.kr/",
-   "keywords": [
-    "웹툰파헤치기",
-    "웹툰 추천"
-   ]
-  },
   {
    "name": "웹툰가이드 추천",
    "url": "https://www.webtoonguide.com/ko/board/recommend-home",
    "keywords": [
     "웹툰 추천",
     "연재중"
-   ]
-  },
-  {
-   "name": "웹툰가이드 뉴스",
-   "url": "https://www.webtoonguide.com/ko/board/news-column",
-   "keywords": [
-    "웹툰 1위",
-    "인기 웹툰"
-   ]
-  },
-  {
-   "name": "Bing News RSS (웹툰 추천)",
-   "url": "https://www.bing.com/news/search?q=%EC%9B%B9%ED%88%B0+%EC%B6%94%EC%B2%9C+%EC%9E%91%ED%92%88&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "웹툰 추천",
-    "인기 웹툰"
    ]
   }
  ],
@@ -2938,7 +2730,8 @@
    "url": "https://www.traveldaily.co.kr/news/articleList.html?view_type=sm",
    "keywords": [
     "해외 여행지",
-    "휴양지"
+    "휴양지",
+    "금주의 DESTINATION"
    ]
   },
   {
@@ -3015,61 +2808,31 @@
  ],
  "bp": [
   {
-   "name": "American Heart Association Newsroom",
-   "url": "https://newsroom.heart.org/news",
+   "name": "하이닥 최신연구",
+   "url": "https://news.hidoc.co.kr/",
    "keywords": [
-    "blood pressure",
-    "hypertension",
-    "Hypertension Scientific Sessions"
-   ]
-  },
-  {
-   "name": "ScienceDaily Hypertension",
-   "url": "https://www.sciencedaily.com/news/health_medicine/hypertension/",
-   "keywords": [
-    "blood pressure",
-    "hypertension"
+    "고혈압",
+    "혈압 연구"
    ]
   },
   {
    "name": "코메디닷컴",
    "url": "https://kormedi.com/",
    "keywords": [
-    "고혈압"
+    "고혈압",
+    "혈압 변동성"
    ]
   },
   {
-   "name": "메디파나뉴스",
-   "url": "https://www.medipana.com/",
+   "name": "American Heart Association Newsroom",
+   "url": "https://newsroom.heart.org/news",
    "keywords": [
-    "고혈압 진료지침",
-    "대한고혈압학회"
-   ]
-  },
-  {
-   "name": "한국소통투데이",
-   "url": "https://www.kbcs.kr/",
-   "keywords": [
-    "고혈압 연구"
+    "blood pressure",
+    "Target: BP"
    ]
   }
  ],
  "dm": [
-  {
-   "name": "ADA 뉴스룸",
-   "url": "https://diabetes.org/newsroom",
-   "keywords": [
-    "consensus report",
-    "scientific statement"
-   ]
-  },
-  {
-   "name": "diaTribe",
-   "url": "https://diatribe.org/diabetes-research",
-   "keywords": [
-    "EASD 2026"
-   ]
-  },
   {
    "name": "하이닥 최신연구",
    "url": "https://news.hidoc.co.kr/",
@@ -3079,61 +2842,39 @@
    ]
   },
   {
-   "name": "클리닉저널",
-   "url": "https://www.clinicjournal.co.kr/",
+   "name": "ADA 뉴스룸",
+   "url": "https://diabetes.org/newsroom",
    "keywords": [
-    "당뇨병 연구팀"
+    "survey",
+    "insulin"
+   ]
+  },
+  {
+   "name": "메디파나뉴스",
+   "url": "https://www.medipana.com/",
+   "keywords": [
+    "1형 당뇨병",
+    "Diabetes Care"
    ]
   }
  ],
  "lipid": [
   {
-   "name": "국가건강정보포털",
-   "url": "https://health.kdca.go.kr/",
-   "keywords": [
-    "이상지질혈증",
-    "심혈관"
-   ]
-  },
-  {
-   "name": "한국지질동맥경화학회",
-   "url": "https://www.lipid.or.kr/",
-   "keywords": [
-    "이상지질혈증 진료지침"
-   ]
-  },
-  {
-   "name": "AHA Newsroom",
-   "url": "https://newsroom.heart.org/",
-   "keywords": [
-    "cholesterol",
-    "heart disease"
-   ]
-  },
-  {
-   "name": "ScienceDaily Cholesterol",
-   "url": "https://www.sciencedaily.com/news/health_medicine/cholesterol/",
-   "keywords": [
-    "LDL",
-    "statin",
-    "cholesterol"
-   ]
-  },
-  {
-   "name": "하이닥 뉴스",
+   "name": "하이닥 최신연구",
    "url": "https://news.hidoc.co.kr/",
    "keywords": [
     "콜레스테롤",
-    "심장약",
-    "심혈관"
+    "스타틴",
+    "가족성 고콜레스테롤혈증"
    ]
   },
   {
-   "name": "메디게이트뉴스",
-   "url": "https://www.medigatenews.com/",
+   "name": "메디칼업저버",
+   "url": "https://www.monews.co.kr/",
    "keywords": [
-    "이상지질혈증 팩트시트",
-    "지질동맥경화학회"
+    "ICoLA 2026",
+    "한국지질동맥경화학회",
+    "중성지방"
    ]
   }
  ],
@@ -3143,97 +2884,55 @@
    "url": "https://reptifiles.com/crested-gecko-care/",
    "keywords": [
     "crested gecko care",
-    "CGD",
-    "humidity",
-    "shedding",
-    "tail loss"
+    "obesity",
+    "enrichment",
+    "shopping list"
    ]
   },
   {
-   "name": "Reptiles Magazine",
-   "url": "https://reptilesmagazine.com/crested-gecko-care-sheet/",
+   "name": "PMC / G3",
+   "url": "https://pmc.ncbi.nlm.nih.gov/",
    "keywords": [
-    "crested gecko care sheet",
-    "breeding"
+    "Correlophus ciliatus genome"
    ]
   },
   {
-   "name": "Long Island Bird & Exotics Veterinary Clinic",
-   "url": "https://www.birdexoticsvet.com/ko/crested-gecko-care-guide",
+   "name": "Docta UCM (Animals)",
+   "url": "https://docta.ucm.es/",
    "keywords": [
-    "크레스티드게코 사육",
-    "수의사"
+    "crested gecko welfare study"
    ]
   },
   {
-   "name": "RVC Exotics Service",
-   "url": "https://www.rvc.ac.uk/",
+   "name": "MorphMarket Community",
+   "url": "https://community.morphmarket.com/",
    "keywords": [
-    "crested gecko care factsheet"
-   ]
-  },
-  {
-   "name": "WebMD Pets",
-   "url": "https://www.webmd.com/pets/crested-gecko-care",
-   "keywords": [
-    "crested gecko care"
-   ]
-  },
-  {
-   "name": "Zen Habitats",
-   "url": "https://www.zenhabitats.com/blogs/reptile-care-sheets-resources",
-   "keywords": [
-    "crested gecko morphs"
-   ]
-  },
-  {
-   "name": "For My Pet",
-   "url": "https://www.for-my-pet.com/encyclopedia/reptiles/",
-   "keywords": [
-    "크레스티드 게코 기초"
-   ]
-  },
-  {
-   "name": "더쎈뉴스",
-   "url": "https://www.mhns.co.kr/",
-   "keywords": [
-    "크레스티드 게코"
+    "crested gecko care guide"
    ]
   }
  ],
  "reptile": [
   {
    "name": "Reptiles Magazine",
-   "url": "https://reptilesmagazine.com/",
+   "url": "https://reptilesmagazine.com/news/",
    "keywords": [
-    "lizard care",
     "reptile news",
-    "care sheet"
-   ]
-  },
-  {
-   "name": "Kingsnake.com Journals",
-   "url": "https://www.kingsnake.com/blog/",
-   "keywords": [
-    "reptile rescue",
-    "herp news"
-   ]
-  },
-  {
-   "name": "환경포커스",
-   "url": "https://www.ecofocus.co.kr/",
-   "keywords": [
-    "도마뱀",
-    "파충류",
-    "국립생태원",
-    "사이테스"
+    "lizard care"
    ]
   },
   {
    "name": "ReptiFiles",
    "url": "https://reptifiles.com/",
    "keywords": [
-    "reptile care guide"
+    "day gecko care sheet",
+    "chahoua"
+   ]
+  },
+  {
+   "name": "Kingsnake.com Journals",
+   "url": "https://www.kingsnake.com/journals/",
+   "keywords": [
+    "herp news"
    ]
   }
  ],
@@ -3319,7 +3018,6 @@
    "keywords": [
     "한그릇 요리",
     "덮밥",
-    "볶음밥",
     "백종원 레시피"
    ]
   },
@@ -3327,8 +3025,7 @@
    "name": "YouTube 백종원 PAIK JONG WON",
    "url": "https://www.youtube.com/@paik_jongwon",
    "keywords": [
-    "백종원 레시피",
-    "백종원의 쿠킹로그"
+    "백종원 레시피"
    ]
   }
  ],
@@ -3344,7 +3041,7 @@
   },
   {
    "name": "YouTube 백종원 PAIK JONG WON",
-   "url": "https://www.youtube.com/@paikscuisine",
+   "url": "https://www.youtube.com/@paik_jongwon",
    "keywords": [
     "백종원 레시피"
    ]
@@ -3364,124 +3061,49 @@
    "name": "YouTube 백종원 PAIK JONG WON",
    "url": "https://www.youtube.com/@paik_jongwon",
    "keywords": [
-    "백종원 레시피",
-    "백종원 토스트"
-   ]
-  },
-  {
-   "name": "YouTube 만개의레시피 10K Recipe",
-   "url": "https://www.youtube.com/@만개의레시피",
-   "keywords": [
-    "간식 레시피"
+    "백종원 레시피"
    ]
   }
  ],
  "bfashion": [
   {
-   "name": "Interbrand Best Global Brands",
-   "url": "https://interbrand.com/best-brands/",
+   "name": "Interbrand Best Global Brands 2025",
+   "url": "https://interbrand.com/best-global-brands/global/",
    "keywords": [
-    "Louis Vuitton",
-    "Chanel",
-    "Hermès",
-    "Nike",
-    "Gucci"
+    "Best Global Brands 2025"
    ]
   },
   {
-   "name": "Kantar BrandZ",
-   "url": "https://www.kantar.com/campaigns/brandz/global",
+   "name": "FashionNetwork UK",
+   "url": "https://uk.fashionnetwork.com/",
    "keywords": [
-    "most valuable brands"
+    "Uniqlo",
+    "Fast Retailing"
    ]
   },
   {
-   "name": "Journal du Luxe (Interbrand 2025 럭셔리 순위 정리)",
-   "url": "https://www.journalduluxe.fr/fr/business/classement-interbrand-2025-luxe-plus-contraste-que-jamais",
+   "name": "Retail Gazette",
+   "url": "https://www.retailgazette.co.uk/",
    "keywords": [
-    "Interbrand 2025",
-    "luxe"
-   ]
-  },
-  {
-   "name": "The Media Leader FR (Kantar BrandZ 2026 정리)",
-   "url": "https://fr.themedialeader.com/classement-kantar-brandz-google-detrone-apple-chatgpt-poursuit-son-ascension/",
-   "keywords": [
-    "Kantar BrandZ 2026"
-   ]
-  },
-  {
-   "name": "Modaes (Kantar BrandZ 2025 패션 브랜드 정리)",
-   "url": "https://www.modaes.com/back-stage/cuanto-vale-la-moda-el-valor-de-las-mayores-marcas-cae-un-39-con-louis-vuitton-a-la-cabeza",
-   "keywords": [
-    "BrandZ 2025",
-    "moda"
+    "H&M"
    ]
   }
  ],
  "bcar": [
   {
-   "name": "Interbrand Best Global Brands 2025 (Motor1 정리)",
-   "url": "https://www.motor1.com/news/776060/most-valuable-car-brands-2025/",
+   "name": "Interbrand Best Global Brands 2025",
+   "url": "https://interbrand.com/best-global-brands/global/",
    "keywords": [
-    "Toyota",
-    "Mercedes-Benz",
-    "BMW",
-    "Tesla",
-    "Hyundai",
-    "Ferrari",
-    "Porsche",
-    "BYD"
-   ]
-  },
-  {
-   "name": "Interbrand Best Global Brands",
-   "url": "https://interbrand.com/best-brands/",
-   "keywords": [
-    "most valuable brands"
+    "Best Global Brands 2025"
    ]
   },
   {
    "name": "Electrek",
    "url": "https://electrek.co/",
    "keywords": [
-    "Tesla deliveries"
-   ]
-  },
-  {
-   "name": "CnEVPost",
-   "url": "https://cnevpost.com/",
-   "keywords": [
-    "BYD sales"
-   ]
-  },
-  {
-   "name": "BMWBLOG",
-   "url": "https://www.bmwblog.com/",
-   "keywords": [
-    "BMW sales"
-   ]
-  },
-  {
-   "name": "Just Auto",
-   "url": "https://www.just-auto.com/",
-   "keywords": [
-    "Toyota global sales"
-   ]
-  },
-  {
-   "name": "글로벌이코노믹",
-   "url": "https://www.g-enews.com/",
-   "keywords": [
-    "페라리"
-   ]
-  },
-  {
-   "name": "파이낸셜뉴스",
-   "url": "https://www.fnnews.com/",
-   "keywords": [
-    "포르쉐",
-    "이달의 차"
+    "Audi",
+    "Volkswagen",
+    "incentives"
    ]
   }
  ],
@@ -3490,58 +3112,14 @@
    "name": "Interbrand Best Global Brands 2025",
    "url": "https://interbrand.com/best-global-brands/global/",
    "keywords": [
-    "Microsoft",
-    "Nvidia",
-    "Cisco",
-    "Oracle",
-    "SAP",
-    "Adobe",
-    "Xiaomi",
-    "Huawei"
+    "Best Global Brands 2025"
    ]
   },
   {
-   "name": "ZDNet Korea",
-   "url": "https://zdnet.co.kr/",
+   "name": "Techaeris",
+   "url": "https://techaeris.com/",
    "keywords": [
-    "마이크로소프트",
-    "화웨이"
-   ]
-  },
-  {
-   "name": "ERP Today",
-   "url": "https://erp.today/",
-   "keywords": [
-    "Oracle",
-    "SAP Connect"
-   ]
-  },
-  {
-   "name": "Crowdfund Insider",
-   "url": "https://crowdfundinsider.com/",
-   "keywords": [
-    "Nvidia"
-   ]
-  },
-  {
-   "name": "GTPlanet",
-   "url": "https://www.gtplanet.net/",
-   "keywords": [
-    "Xiaomi"
-   ]
-  },
-  {
-   "name": "Grafa",
-   "url": "https://grafa.com/",
-   "keywords": [
-    "Adobe"
-   ]
-  },
-  {
-   "name": "PR Newswire",
-   "url": "https://www.prnewswire.com/",
-   "keywords": [
-    "Cisco"
+    "Dell"
    ]
   }
  ],
@@ -3550,98 +3128,40 @@
    "name": "Interbrand Best Global Brands 2025",
    "url": "https://interbrand.com/best-global-brands/global/",
    "keywords": [
-    "Coca-Cola",
-    "McDonald's",
-    "Pepsi",
-    "Nescafé",
-    "Budweiser",
-    "Monster",
-    "Nestlé",
-    "Corona",
-    "Danone",
-    "Nespresso"
-   ]
-  },
-  {
-   "name": "Kantar BrandZ Most Valuable Global Brands 2026",
-   "url": "https://www.kantar.com/inspiration/brands/most-valuable-global-brands-2026",
-   "keywords": [
-    "most valuable brands",
-    "McDonald's"
-   ]
-  },
-  {
-   "name": "CBS News",
-   "url": "https://www.cbsnews.com/",
-   "keywords": [
-    "Coca-Cola"
-   ]
-  },
-  {
-   "name": "Daily Coffee News",
-   "url": "https://dailycoffeenews.com/",
-   "keywords": [
-    "Nespresso"
-   ]
-  },
-  {
-   "name": "Comunicaffe",
-   "url": "https://comunicaffe.com/",
-   "keywords": [
-    "Nestlé"
-   ]
-  },
-  {
-   "name": "Transport Topics",
-   "url": "https://www.ttnews.com/",
-   "keywords": [
-    "PepsiCo"
+    "Best Global Brands 2025"
    ]
   }
  ],
  "bbeauty": [
   {
-   "name": "Interbrand Best Global Brands",
-   "url": "https://interbrand.com/best-global-brands/",
+   "name": "Interbrand Best Global Brands 2025",
+   "url": "https://interbrand.com/best-global-brands/global/",
    "keywords": [
-    "L'Oréal Paris",
-    "IKEA",
-    "Sephora",
-    "Gillette",
-    "Pampers"
+    "Best Global Brands 2025"
    ]
   },
   {
-   "name": "Kantar BrandZ Global 2026 (Personal Care Top 20, Mercado 보도)",
-   "url": "https://mercado.com.ar/marketing/kantar-brandz-global-2026-el-top-20-de-cuidado-personal-cayo-4",
+   "name": "Yahoo Finance (PR Newswire)",
+   "url": "https://finance.yahoo.com/",
    "keywords": [
-    "L'Oréal Paris",
+    "Lancôme"
+   ]
+  },
+  {
+   "name": "Cosmetics Business",
+   "url": "https://cosmeticsbusiness.com/",
+   "keywords": [
     "Colgate",
-    "Pampers",
-    "Lancôme",
     "Gillette",
-    "Nivea"
+    "L'Oréal Paris"
    ]
   },
   {
-   "name": "Upside",
-   "url": "https://www.upside24.com/",
+   "name": "코스인코리아",
+   "url": "https://www.cosinkorea.com/",
    "keywords": [
-    "L'Oréal"
-   ]
-  },
-  {
-   "name": "Beiersdorf Blog",
-   "url": "https://www.beiersdorf.com/blog",
-   "keywords": [
-    "NIVEA"
-   ]
-  },
-  {
-   "name": "Hunker",
-   "url": "https://www.hunker.com/",
-   "keywords": [
-    "new IKEA items"
+    "세포라",
+    "올리브영"
    ]
   }
  ],
@@ -3653,98 +3173,63 @@
     "About this Poem",
     "Poem-a-Day"
    ]
-  },
-  {
-   "name": "경향신문 詩想과 세상",
-   "url": "https://www.khan.co.kr/series/articles/ao347",
-   "keywords": [
-    "詩想과 세상"
-   ]
   }
  ],
  "poemnews": [
   {
-   "name": "경향신문 문화",
-   "url": "https://www.khan.co.kr/",
-   "keywords": [
-    "시인",
-    "시집",
-    "노벨문학상"
-   ]
-  },
-  {
-   "name": "서울신문 출판·문학",
-   "url": "https://www.seoul.co.kr/",
+   "name": "강원일보 문화",
+   "url": "https://kwnews.co.kr/",
    "keywords": [
     "시집",
     "시인"
    ]
   },
   {
-   "name": "한국일보 문화",
-   "url": "https://www.hankookilbo.com/",
+   "name": "중부매일 문화",
+   "url": "https://www.jbnews.com/",
    "keywords": [
-    "시인",
-    "문학주간"
+    "시집",
+    "시인"
    ]
   },
   {
-   "name": "T. S. Eliot Prize",
-   "url": "https://tseliot.com/prize/",
+   "name": "Bing News RSS(시인 시집)",
+   "url": "https://www.bing.com/news/search?q=%EC%8B%9C%EC%9D%B8+%EC%8B%9C%EC%A7%91&format=rss&setlang=ko",
    "keywords": [
-    "poetry prize",
-    "shortlist"
+    "시인",
+    "시집"
    ]
   }
  ],
  "aicert": [
   {
-   "name": "KPC자격(한국생산성본부)",
-   "url": "https://license.kpc.or.kr/",
+   "name": "Google Cloud Certification",
+   "url": "https://cloud.google.com/learn/certification",
    "keywords": [
-    "AI-POT",
-    "AIBT",
-    "GTQ-AI"
-   ]
-  },
-  {
-   "name": "한국인공지능협회 한국인공지능자격센터",
-   "url": "https://koraia.org/base_3/mp1/sub4.php?sub=04",
-   "keywords": [
-    "인공지능산업컨설턴트",
-    "인공지능활용능력",
-    "AIKTest"
+    "Generative AI Leader"
    ]
   },
   {
    "name": "AWS Certification",
    "url": "https://aws.amazon.com/certification/",
    "keywords": [
-    "AWS AI Practitioner",
-    "Machine Learning Engineer Associate"
-   ]
-  },
-  {
-   "name": "Google Cloud Certification",
-   "url": "https://cloud.google.com/learn/certification",
-   "keywords": [
-    "Professional Machine Learning Engineer"
+    "Generative AI Developer Professional",
+    "AIP-C01"
    ]
   },
   {
    "name": "Microsoft Learn",
    "url": "https://learn.microsoft.com/credentials/",
    "keywords": [
-    "Azure AI Engineer",
-    "AI-102"
+    "Azure AI Fundamentals",
+    "AI-901"
    ]
   },
   {
-   "name": "NVIDIA Certification",
-   "url": "https://www.nvidia.com/en-us/learn/certification/",
+   "name": "Databricks Certification",
+   "url": "https://www.databricks.com/learn/certification",
    "keywords": [
-    "NCA-GENL",
-    "Generative AI LLM"
+    "Generative AI Engineer Associate"
    ]
   }
  ],
@@ -3897,28 +3382,70 @@
  ],
  "luxprice": [
   {
+   "name": "마리끌레르 코리아 뷰티",
+   "url": "https://www.marieclairekorea.com/beauty/",
+   "keywords": [
+    "향수",
+    "신제품",
+    "가격"
+   ]
+  },
+  {
+   "name": "코치 코리아 공식몰",
+   "url": "https://korea.coach.com/shop/women/handbags/view-all",
+   "keywords": [
+    "신상품",
+    "가방"
+   ]
+  },
+  {
+   "name": "토리버치 코리아 공식몰",
+   "url": "https://www.toryburch.co.kr/",
+   "keywords": [
+    "신상품",
+    "가방"
+   ]
+  },
+  {
+   "name": "아크네 스튜디오 한국 공식 스토어",
+   "url": "https://www.acnestudios.com/kr/ko/woman/new-arrivals/",
+   "keywords": [
+    "신상품"
+   ]
+  },
+  {
+   "name": "아미 한국 공식 스토어",
+   "url": "https://www.amiparis.com/ko-kr/collections/unisex-new-arrivals",
+   "keywords": [
+    "신상품"
+   ]
+  },
+  {
+   "name": "SSF샵 메종 키츠네관",
+   "url": "https://www.ssfshop.com/Maison-Kitsune/main?brandShopNo=BDMA07A22&brndShopId=BQMKT",
+   "keywords": [
+    "신상품",
+    "니트",
+    "액세서리"
+   ]
+  },
+  {
+   "name": "에스콰이어 코리아",
+   "url": "https://www.esquirekorea.co.kr/",
+   "keywords": [
+    "가격",
+    "신상",
+    "백팩",
+    "시계"
+   ]
+  },
+  {
    "name": "Bing 뉴스 RSS(최신순)",
    "url": "https://www.bing.com/news/search?q=명품+신제품+가격+원&qft=sortbydate%3d%221%22&format=rss",
    "keywords": [
     "명품 신제품",
     "가격",
     "출시"
-   ]
-  },
-  {
-   "name": "패션서울",
-   "url": "https://fashionseoul.com/",
-   "keywords": [
-    "출시",
-    "가격"
-   ]
-  },
-  {
-   "name": "한국섬유신문",
-   "url": "https://www.ktnews.com/",
-   "keywords": [
-    "명품",
-    "가격 인상"
    ]
   }
  ]

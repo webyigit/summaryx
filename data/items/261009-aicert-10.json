@@ -1,0 +1,51 @@
+{
+ "title": "Google Cloud Generative AI Leader — 비개발자도 응시하는 생성형 AI 리더 자격",
+ "originalTitle": "Generative AI Leader | Google Cloud Certification",
+ "source": "Google Cloud",
+ "url": "https://cloud.google.com/learn/certification/generative-ai-leader",
+ "publishedAt": null,
+ "summary": [
+  "Generative AI Leader는 Google Cloud가 운영하는 생성형 AI 자격으로, 직무나 기술 경험과 관계없이 누구나 응시할 수 있도록 설계된 입문·비즈니스 성격의 시험이다. 엔지니어 대상 Professional Machine Learning Engineer와 달리 생성형 AI를 이해하고 조직에 도입하려는 기획·관리 직군도 겨냥한다.",
+  "시험은 90분 동안 객관식 50~60문항을 풀며, 응시료는 99달러(세금 별도)다. 언어는 영어·일본어·스페인어·포르투갈어로 한국어는 목록에 없다. 온라인 감독 또는 Pearson VUE 시험장에서 볼 수 있고, 응시 자격 제한은 없다. 출제 영역은 생성형 AI 기초, Google Cloud의 생성형 AI 제품, 모델 출력 개선 기법, 생성형 AI 솔루션을 위한 비즈니스 전략 네 가지다.",
+  "자격 유효기간은 3년이며 갱신 기간 안에 재인증할 수 있다. 공식 페이지는 최근 브랜드 변경을 반영해 시험이 업데이트됐다며 최신 제품명은 시험 가이드를 확인하라고 안내한다."
+ ],
+ "keyPoints": [
+  "직무 무관 누구나 응시 가능한 입문 자격",
+  "90분·50~60문항, 응시료 99달러",
+  "한국어 미지원, 유효기간 3년"
+ ],
+ "facts": [
+  [
+   "시행기관",
+   "Google Cloud"
+  ],
+  [
+   "자격 종류",
+   "벤더"
+  ],
+  [
+   "시험 일정",
+   "상시 예약 — 정기 회차 없음"
+  ],
+  [
+   "응시료",
+   "$99 (plus tax where applicable)"
+  ],
+  [
+   "시험 방식",
+   "90분, 객관식 50~60문항 / 온라인 감독 또는 시험장(Pearson VUE) / 영어·일본어·스페인어·포르투갈어"
+  ],
+  [
+   "응시 자격",
+   "없음"
+  ],
+  [
+   "난이도·대상",
+   "입문 — 기술 경험 유무와 관계없이 모든 직무"
+  ]
+ ],
+ "image": null,
+ "id": "261009-aicert-10",
+ "category": "aicert",
+ "collectedAt": "2026-10-09T01:31:09+09:00"
+}
