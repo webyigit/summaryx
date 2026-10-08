@@ -106,6 +106,13 @@
       '<div><small>기간</small><b' + (per === '확인 필요' ? ' class="na"' : '') + '>' + esc(per) + '</b></div></div>' +
       (due ? '<div class="due">입찰 마감 ' + esc(due) + '</div>' : '');
   }
+  // 맛집: 목록 카드마다 선정 근거, 목록 위에 분류별 선정 기준
+  var EAT = { eatseoul: 1, eatgg: 1, eatdj: 1, eatsj: 1 };
+  var EAT_RULE = '검색·웨이팅이 많은 인기 식당 중 미쉐린 가이드(빕 구르망·셀렉션), 블루리본, 지자체 공식 지정(서울미식 100선·수원맛집 100선·세종사랑 맛집 등), 웨이팅·검색 순위 기사로 근거가 확인된 곳만 싣습니다. 광고·체험단·협찬 글은 제외하고, 카드마다 실제 선정 근거를 적습니다.';
+  function eatHtml(a) {
+    var r = fact(a, '근거') || fact(a, '선정 근거');
+    return r ? '<div class="pick"><small>선정 기준</small>' + esc(r.length > 70 ? r.slice(0, 70) + '…' : r) + '</div>' : '';
+  }
   function toast(msg) {
     var t = document.getElementById('toast');
     t.textContent = msg; t.classList.add('show');
@@ -207,7 +214,7 @@
       (a.image ? '<img class="thumb" src="' + esc(a.image) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.remove(\'has-img\');this.remove()">' : '') +
       '<div class="txt"><div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
       '<span>' + esc(a.source) + '</span>' + pubHtml(a) + '</div>' +
-      (a.category === 'g2b' ? bidHtml(a) : '') +
+      (a.category === 'g2b' ? bidHtml(a) : EAT[a.category] ? eatHtml(a) : '') +
       '<h3>' + esc(a.title) + '</h3>' +
       '<p>' + esc((a.summary || [])[0]) + '</p>' +
       ((v || bookmarks[a.id]) ? '<div class="mini">' +
@@ -303,7 +310,8 @@
       }).join('') + '</div>' : '';
     $list.innerHTML = (sec === 'all' ? todayHtml() : '') +
       '<div class="sec-title">' + (sec === 'all' ? '최신 기사' : esc(S.name)) +
-      '<small>' + arr.length + '건</small></div>' + subs + listHtml(arr);
+      '<small>' + arr.length + '건</small></div>' + subs +
+      ((sec === 'eat' && (!cat || EAT[cat])) ? '<div class="rule"><b>맛집 선정 기준</b> ' + EAT_RULE + '</div>' : '') + listHtml(arr);
   }
 
   function bookmarksView() {
