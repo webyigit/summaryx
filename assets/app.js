@@ -15,7 +15,7 @@
     { id: 'care', name: '건강', cats: [['bp','고혈압'],['dm','당뇨'],['lipid','고지혈증·심혈관']] },
     { id: 'trip', name: '여행지', cats: [['tripko','국내 여행지'],['tripworld','해외 여행지']] },
     { id: 'karrot', name: '당근·중고', cats: [['usedwear','중고 의류 소식']] },
-    { id: 'poetry', name: '시', cats: [['poemread','명시 감상'],['poemnews','시 소식·시집']] },
+    { id: 'poetry', name: '시', cats: [['poemdaily','오늘의 명시'],['poemread','명시 감상'],['poemnews','시 소식·시집']] },
     { id: 'luxury', name: '명품', cats: [['luxprice','가격대별 제품'],['lux1','하이엔드'],['lux2','럭셔리'],['lux3','프리미엄·컨템포러리'],['luxwatch','워치·주얼리']] },
     { id: 'brands', name: '브랜드', cats: [['bfashion','패션·럭셔리'],['bcar','자동차'],['btech','IT·전자'],['bfood','식음료'],['bbeauty','뷰티·생활']] },
     { id: 'cook', name: '레시피', cats: [['recipe','한 그릇·메인'],['recipeside','반찬·국'],['recipesnack','간식·브런치']] },
