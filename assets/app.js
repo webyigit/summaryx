@@ -14,6 +14,7 @@
     { id: 'shop', name: '쇼핑', cats: [['shopguide','믿을 만한 쇼핑몰'],['shopmen','남성 의류'],['shopdeal','할인 행사']] },
     { id: 'care', name: '건강', cats: [['bp','고혈압'],['dm','당뇨'],['lipid','고지혈증·심혈관']] },
     { id: 'trip', name: '여행지', cats: [['tripko','국내 여행지'],['tripworld','해외 여행지']] },
+    { id: 'poetry', name: '시', cats: [['poemread','명시 감상'],['poemnews','시 소식·시집']] },
     { id: 'brands', name: '브랜드', cats: [['bfashion','패션·럭셔리'],['bcar','자동차'],['btech','IT·전자'],['bfood','식음료'],['bbeauty','뷰티·생활']] },
     { id: 'cook', name: '레시피', cats: [['recipe','한 그릇·메인'],['recipeside','반찬·국'],['recipesnack','간식·브런치']] },
     { id: 'archi', name: '건축', cats: [['arch','건축 소식'],['archproj','작품·프로젝트'],['interior','인테리어·공간']] },
@@ -562,6 +563,7 @@
       (a.facts && a.facts.length ? '<table class="facts">' + a.facts.map(function (f) {
         return '<tr><th>' + esc(f[0]) + '</th><td>' + (/^https?:\/\//.test(f[1] || '') ? '<a href="' + esc(f[1]) + '" target="_blank" rel="noopener">' + esc(f[1]) + '</a>' : esc(f[1])) + '</td></tr>';
       }).join('') + '</table>' : '') +
+      (a.poemText ? '<div class="poemtxt">' + esc(a.poemText).replace(/\n/g, '<br>') + '</div>' : '') +
       (a.ingredients && a.ingredients.length ? '<div class="points"><b>재료</b><ul>' +
         a.ingredients.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('') + '</ul></div>' : '') +
       (a.steps && a.steps.length ? '<div class="points steps"><b>만드는 법</b><ol>' +

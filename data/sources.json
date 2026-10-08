@@ -3463,5 +3463,35 @@
         "most valuable brands"
       ]
     }
+  ],
+  "poemread": [
+    {
+      "name": "위키문헌",
+      "url": "https://ko.wikisource.org/",
+      "keywords": [
+        "김소월",
+        "윤동주",
+        "한용운",
+        "이육사"
+      ]
+    },
+    {
+      "name": "Poetry Foundation",
+      "url": "https://www.poetryfoundation.org/",
+      "keywords": [
+        "public domain poems"
+      ]
+    }
+  ],
+  "poemnews": [
+    {
+      "name": "문학 기사(연합뉴스 문화)",
+      "url": "https://www.yna.co.kr/culture/book",
+      "keywords": [
+        "시집",
+        "시인",
+        "문학상"
+      ]
+    }
   ]
 }

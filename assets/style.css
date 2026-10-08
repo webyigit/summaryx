@@ -319,3 +319,5 @@ main { padding: 0 16px; }
 .src ul { margin: 4px 0 0; padding-left: 16px; font-size: 13px; }
 .src li { margin: 2px 0; }
 .src li a { color: var(--ink); }
+
+.poemtxt { margin: 14px 0; padding: 16px 18px; border-left: 3px solid var(--accent); font-size: 15.5px; line-height: 1.9; white-space: normal; }
