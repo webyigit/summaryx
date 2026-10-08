@@ -3301,5 +3301,57 @@
         "interior design"
       ]
     }
+  ],
+  "recipe": [
+    {
+      "name": "만개의레시피",
+      "url": "https://www.10000recipe.com/",
+      "keywords": [
+        "한그릇 요리",
+        "덮밥",
+        "볶음밥"
+      ]
+    },
+    {
+      "name": "YouTube 백종원 PAIK JONG WON",
+      "url": "https://www.youtube.com/@paikscuisine",
+      "keywords": [
+        "백종원 레시피"
+      ]
+    }
+  ],
+  "recipeside": [
+    {
+      "name": "만개의레시피",
+      "url": "https://www.10000recipe.com/",
+      "keywords": [
+        "밑반찬",
+        "국 끓이기"
+      ]
+    },
+    {
+      "name": "YouTube 백종원 PAIK JONG WON",
+      "url": "https://www.youtube.com/@paikscuisine",
+      "keywords": [
+        "백종원 레시피"
+      ]
+    }
+  ],
+  "recipesnack": [
+    {
+      "name": "만개의레시피",
+      "url": "https://www.10000recipe.com/",
+      "keywords": [
+        "간식 만들기",
+        "브런치"
+      ]
+    },
+    {
+      "name": "YouTube 백종원 PAIK JONG WON",
+      "url": "https://www.youtube.com/@paikscuisine",
+      "keywords": [
+        "백종원 레시피"
+      ]
+    }
   ]
 }

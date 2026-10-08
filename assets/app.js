@@ -14,6 +14,7 @@
     { id: 'shop', name: '쇼핑', cats: [['shopguide','믿을 만한 쇼핑몰'],['shopmen','남성 의류'],['shopdeal','할인 행사']] },
     { id: 'care', name: '건강', cats: [['bp','고혈압'],['dm','당뇨'],['lipid','고지혈증·심혈관']] },
     { id: 'trip', name: '여행지', cats: [['tripko','국내 여행지'],['tripworld','해외 여행지']] },
+    { id: 'cook', name: '레시피', cats: [['recipe','한 그릇·메인'],['recipeside','반찬·국'],['recipesnack','간식·브런치']] },
     { id: 'archi', name: '건축', cats: [['arch','건축 소식'],['archproj','작품·프로젝트'],['interior','인테리어·공간']] },
     { id: 'pet', name: '도마뱀', cats: [['gecko','크레스티드게코'],['reptile','도마뱀 키우기']] },
     { id: 'toon', name: '웹툰', cats: [['toon','웹툰 소식'],['toonhot','인기·추천']] },
@@ -420,7 +421,7 @@
     if (q) {
       var terms = q.toLowerCase().split(/\s+/);
       var res = state.articles.filter(function (a) {
-        var t = [a.title, a.originalTitle, a.source, (a.summary || []).join(' '), (a.keyPoints || []).join(' '), (a.requirements || []).join(' '), (a.facts || []).map(function (f) { return f.join(' '); }).join(' '), CAT_NAME[a.category]].join(' ').toLowerCase();
+        var t = [a.title, a.originalTitle, a.source, (a.summary || []).join(' '), (a.keyPoints || []).join(' '), (a.ingredients || []).join(' '), (a.requirements || []).join(' '), (a.facts || []).map(function (f) { return f.join(' '); }).join(' '), CAT_NAME[a.category]].join(' ').toLowerCase();
         return terms.every(function (w) {
           // 짧은 영문(AI, IT 등)은 단어 단위로만 (said·Spain 같은 오탐 방지)
           return /^[a-z0-9]{1,3}$/.test(w) ? new RegExp('(^|[^a-z0-9])' + w + '([^a-z0-9]|$)').test(t) : t.indexOf(w) >= 0;
@@ -513,28 +514,35 @@
     }
     var v = votes[id];
     var isVideo = /^[A-Za-z0-9_-]{11}$/.test(a.videoId || '');
+    var isRecipe = /^recipe/.test(a.category);
     $det.innerHTML = '<article class="detail">' +
       '<a class="back" href="' + ctxFor(a).href + '">‹ 목록</a>' +
       '<div class="meta"><span class="tag">' + esc(CAT_NAME[a.category] || a.category) + '</span>' +
       '<span>' + esc(a.source) + '</span>' + pubHtml(a) + '</div>' +
       '<h1>' + esc(a.title) + '</h1>' +
+      (isRecipe && a.image ? '<img class="hero" src="' + esc(a.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">' : '') +
       (isVideo ? '<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/' + esc(a.videoId) +
         '?playsinline=1&rel=0" title="' + esc(a.title) + '" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>'
-        : a.image ? '<img class="hero" src="' + esc(a.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">' : '') +
+        : a.image && !isRecipe ? '<img class="hero" src="' + esc(a.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">' : '') +
       (a.originalTitle && a.originalTitle !== a.title ? '<p class="orig">' + esc(a.originalTitle) + '</p>' : '') +
       (a.keyPoints && a.keyPoints.length ? '<div class="points"><b>핵심 요약</b><ul>' +
         a.keyPoints.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('') + '</ul></div>' : '') +
       (a.facts && a.facts.length ? '<table class="facts">' + a.facts.map(function (f) {
         return '<tr><th>' + esc(f[0]) + '</th><td>' + (/^https?:\/\//.test(f[1] || '') ? '<a href="' + esc(f[1]) + '" target="_blank" rel="noopener">' + esc(f[1]) + '</a>' : esc(f[1])) + '</td></tr>';
       }).join('') + '</table>' : '') +
+      (a.ingredients && a.ingredients.length ? '<div class="points"><b>재료</b><ul>' +
+        a.ingredients.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('') + '</ul></div>' : '') +
+      (a.steps && a.steps.length ? '<div class="points steps"><b>만드는 법</b><ol>' +
+        a.steps.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('') + '</ol></div>' : '') +
       (a.requirements && a.requirements.length ? '<div class="points reqs"><b>제안 요건</b><ul>' +
         a.requirements.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('') + '</ul></div>' : '') +
       (a.fit ? '<p class="fit"><b>에이전시 관점</b> ' + esc(a.fit) + '</p>' : '') +
       '<div class="body">' + (a.summary || []).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') + '</div>' +
-      '<p class="note">' + (isVideo ? '영상 소개는 AI가 정리한 내용입니다. 정확한 내용은 영상을 확인해 주세요.'
+      '<p class="note">' + (isRecipe ? '레시피는 원문과 영상을 바탕으로 AI가 정리한 내용입니다. 분량·시간은 원문을 확인해 주세요.' : isVideo ? '영상 소개는 AI가 정리한 내용입니다. 정확한 내용은 영상을 확인해 주세요.'
         : a.category === 'g2b' ? '공고 내용은 AI가 정리한 것입니다. 응찰 전 반드시 나라장터 원문 공고와 제안요청서를 확인해 주세요.'
         : '이 글은 원문 기사를 바탕으로 AI가 요약한 내용입니다. 정확한 내용은 원문을 확인해 주세요.') + '</p>' +
-      '<a class="cta" href="' + esc(a.url) + '" target="_blank" rel="noopener">' + (isVideo ? '유튜브에서 보기 ›' : a.category === 'g2b' ? '공고 원문 보기 ›' : a.category === 'paper' ? '논문 원문 보기 ›' : a.category === 'shopguide' ? '사이트 바로가기 ›' : '원문 보기 ›') + '</a>' +
+      (isRecipe && isVideo ? '<a class="cta" href="https://www.youtube.com/watch?v=' + esc(a.videoId) + '" target="_blank" rel="noopener">유튜브에서 보기 ›</a>' : '') +
+      '<a class="cta' + (isRecipe && isVideo ? ' cta2' : '') + '" href="' + esc(a.url) + '" target="_blank" rel="noopener">' + (isRecipe ? '레시피 원문 보기 ›' : isVideo ? '유튜브에서 보기 ›' : a.category === 'g2b' ? '공고 원문 보기 ›' : a.category === 'paper' ? '논문 원문 보기 ›' : a.category === 'shopguide' ? '사이트 바로가기 ›' : '원문 보기 ›') + '</a>' +
       '<div class="actions">' +
         '<button class="act' + (v === 1 ? ' on' : '') + '" data-act="up">' + ICON.up + '좋아요</button>' +
         '<button class="act' + (v === -1 ? ' on' : '') + '" data-act="down">' + ICON.down + '싫어요</button>' +
