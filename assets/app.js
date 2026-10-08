@@ -343,6 +343,37 @@
       });
   }
   function host(u) { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } }
+  // 출처 정리: 분류별로 글을 가져온 사이트(최근 14일, update.py가 data/source_index.json 생성)
+  var srcIdx = null;
+  function sourcesView() {
+    renderChips(null);
+    if (!srcIdx) {
+      $list.innerHTML = '<div class="sec-title">출처 정리</div><div class="empty">불러오는 중…</div>';
+      fetchJson('data/source_index.json').then(function (d) { srcIdx = d; if (location.hash.indexOf('#/sources') === 0) sourcesView(); })
+        .catch(function () { $list.innerHTML = '<div class="sec-title">출처 정리</div><div class="empty">출처 정보를 불러오지 못했어요.</div>'; });
+      return;
+    }
+    var total = 0, doms = {};
+    var body = SECTIONS.filter(function (S) { return S.id !== 'all'; }).map(function (S) {
+      var cats = S.cats.filter(function (c) { return (srcIdx.cats[c[0]] || []).length; });
+      if (!cats.length) return '';
+      return '<details class="srcsec"><summary>' + esc(S.name) + '<small>' + cats.length + '개 분류</small></summary>' +
+        cats.map(function (c) {
+          var rows = srcIdx.cats[c[0]];
+          return '<div class="srccat"><h4>' + esc(c[1]) + '<small>' + rows.length + '곳</small></h4>' + rows.map(function (r) {
+            total += r.count; doms[r.domain] = 1;
+            var feat = [r.lang === 'ko' ? '국내 매체' : '해외 매체', '최근 14일 ' + r.count + '건', '마지막 수집 ' + fmtDate(r.last)];
+            return '<div class="src"><div class="src-h"><a href="' + esc(r.home) + '" target="_blank" rel="noopener">' + esc(r.name) + '</a>' +
+              '<span class="dom">' + esc(r.domain) + '</span></div>' +
+              '<div class="src-f">' + esc(feat.join(' · ')) + (r.keywords && r.keywords.length ? '<br>주로 찾는 주제: ' + esc(r.keywords.join(', ')) : '') + '</div>' +
+              '<ul>' + r.recent.map(function (x) { return '<li><a href="#/a/' + esc(x.id) + '">' + esc(x.title) + '</a></li>'; }).join('') + '</ul></div>';
+          }).join('') + '</div>';
+        }).join('') + '</details>';
+    }).join('');
+    $list.innerHTML = '<div class="sec-title">출처 정리<small>' + Object.keys(doms).length + '곳</small></div>' +
+      '<div class="rule">최근 14일 동안 각 분류의 글을 가져온 사이트예요. 사이트 이름을 누르면 해당 사이트로, 아래 제목을 누르면 요약 글로 이동해요.</div>' + body;
+  }
+
   function linksView() {
     renderChips(null);
     var html = '<div class="sec-title">즐겨찾기<small>' + links.length + '건</small></div>' +
@@ -599,6 +630,7 @@
     }
     if (parts[0] === 'bookmarks') { setTab('bookmarks'); bookmarksView(); return; }
     if (parts[0] === 'links') { setTab('links'); linksView(); return; }
+    if (parts[0] === 'sources') { setTab('sources'); sourcesView(); return; }
     setTab('home');
     if (parts[0] === 'c' && CAT_SEC[parts[1]]) home(CAT_SEC[parts[1]], parts[1]);
     else if (parts[0] === 's' && SEC[parts[1]]) home(parts[1], null, parts[1] === 'bid' && /^(s|l|5|10)$/.test(parts[2] || '') ? parts[2] : null);

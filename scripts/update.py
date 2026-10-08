@@ -147,6 +147,45 @@ def report(now, items, sources, daily):
     print("리포트:", os.path.relpath(path, ROOT))
 
 
+def source_index(articles, sources):
+    """출처 정리: 분류별로 글을 가져온 사이트(도메인)·건수·최근 글. data/source_index.json"""
+    import re as _re
+    from urllib.parse import urlparse
+    known = {}
+    for cat, lst in (sources or {}).items():
+        for s in lst or []:
+            h = urlparse(s.get("url", "")).netloc.lower().removeprefix("www.")
+            if h:
+                known.setdefault(h, s)
+    out = {}
+    for a in articles:
+        h = urlparse(a.get("url", "")).netloc.lower().removeprefix("www.")
+        if not h:
+            continue
+        cat = a.get("category")
+        d = out.setdefault(cat, {}).setdefault(h, {"domain": h, "names": {}, "count": 0, "last": "", "ko": 0, "recent": []})
+        d["count"] += 1
+        nm = (a.get("source") or h).split("(")[0].strip()
+        d["names"][nm] = d["names"].get(nm, 0) + 1
+        d["last"] = max(d["last"], (a.get("collectedAt") or "")[:10])
+        ot = a.get("originalTitle") or ""
+        if _re.search("[가-힣]", ot) if ot else (_re.search("[가-힣]", a.get("source") or "") or h.endswith(".kr")):
+            d["ko"] += 1
+        if len(d["recent"]) < 3:
+            d["recent"].append({"id": a["id"], "title": a.get("title", "")})
+    res = {}
+    for cat, m in out.items():
+        rows = []
+        for h, d in m.items():
+            k = known.get(h) or {}
+            rows.append({"domain": h, "name": max(d["names"], key=d["names"].get), "home": "https://" + h + "/",
+                         "count": d["count"], "last": d["last"], "lang": "ko" if d["ko"] * 2 >= d["count"] else "en",
+                         "keywords": k.get("keywords", [])[:5], "listed": bool(k), "recent": d["recent"]})
+        rows.sort(key=lambda r: (-r["count"], r["domain"]))
+        res[cat] = rows
+    return res
+
+
 def main():
     if len(sys.argv) < 2:
         sys.exit(__doc__)
@@ -239,6 +278,8 @@ def main():
     dump(os.path.join(DATA, "articles.json"), {"updatedAt": now.isoformat(timespec="seconds"), "days": older,
                                                "articles": [a for a in slim if a.get("collectedAt", "")[:10] in front]})
     write(os.path.join(DATA, "sources.json"), sources)
+    dump(os.path.join(DATA, "source_index.json"), {"updatedAt": now.isoformat(timespec="seconds"),
+                                                    "cats": source_index(articles, sources)})
 
     daily = read(os.path.join(inc, "daily.json"), None)
     if daily:

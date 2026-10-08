@@ -305,3 +305,17 @@ main { padding: 0 16px; }
 .steps ol { margin: 6px 0 0; padding-left: 20px; }
 .steps li { margin: 4px 0; }
 .cta.cta2 { margin-top: 8px; background: transparent; color: var(--ink); border: 1px solid var(--line); }
+
+.srcsec { margin: 0 0 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--card, transparent); }
+.srcsec summary { padding: 12px 14px; font-weight: 800; cursor: pointer; }
+.srcsec summary small { margin-left: 6px; font-weight: 500; color: var(--sub); font-size: 12px; }
+.srccat { padding: 0 14px 6px; }
+.srccat h4 { margin: 8px 0 6px; font-size: 14px; }
+.srccat h4 small { margin-left: 6px; color: var(--sub); font-weight: 500; }
+.src { padding: 8px 0; border-top: 1px solid var(--line); }
+.src-h a { font-weight: 700; color: var(--accent); }
+.src-h .dom { margin-left: 6px; font-size: 12px; color: var(--sub); }
+.src-f { margin-top: 2px; font-size: 12.5px; color: var(--sub); line-height: 1.5; }
+.src ul { margin: 4px 0 0; padding-left: 16px; font-size: 13px; }
+.src li { margin: 2px 0; }
+.src li a { color: var(--ink); }
