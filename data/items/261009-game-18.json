@@ -1,0 +1,35 @@
+{
+ "title": "캡콤, 'RE 엔진'을 AI 시대에 맞는 게임 엔진으로 발전시킨다",
+ "originalTitle": "Capcom Is Looking To Evolve Its RE Engine Into An 'AI-Era Game Engine'",
+ "source": "Nintendo Life",
+ "url": "https://www.nintendolife.com/news/2026/10/capcom-is-looking-to-evolve-its-re-engine-into-an-ai-era-game-engine",
+ "publishedAt": "2026-10-04",
+ "summary": [
+  "'몬스터 헌터', '스트리트 파이터' 등을 만드는 캡콤이 자체 게임 엔진 'RE 엔진'을 'AI 시대의 게임 엔진'으로 바꿔 나가겠다고 밝혔어요. 캡콤 프로그래머 이시다 사토시가 '캡콤 오픈 컨퍼런스 RE: 2026'에서 설명한 내용이에요.",
+  "'REX'라는 계획은 게임 개발이 오래 걸리는 원인인 도구, 품질 검사(QA), 효율 문제를 해결하려는 거예요. 널리 쓰이는 프로그래밍 언어를 써서 AI가 코드를 더 잘 이해하게 하고, AI가 자동으로 프로그램을 만들거나 게임을 시험해 버그를 빨리 찾게 하겠다는 계획이에요.",
+  "캡콤은 그림 같은 아트는 AI로 만들지 않고, 만드는 사람들의 가능성을 넓히는 데 쓰겠다고 했어요. 이미 큰 게임사 여러 곳이 AI를 쓰고 있어 앞으로 어디까지 활용할지 관심이 모여요."
+ ],
+ "keyPoints": [
+  "RE 엔진을 AI 시대형 엔진으로 발전",
+  "AI로 버그 찾기·테스트 자동화 추진",
+  "아트 제작에는 AI 안 쓴다고 밝혀"
+ ],
+ "image": "https://images.nintendolife.com/1c1a62bbdcd8e/1280x720.jpg",
+ "facts": [
+  [
+   "회사",
+   "캡콤"
+  ],
+  [
+   "발표",
+   "캡콤 오픈 컨퍼런스 RE: 2026"
+  ],
+  [
+   "계획",
+   "REX(RE 엔진 개선)"
+  ]
+ ],
+ "id": "261009-game-18",
+ "category": "game",
+ "collectedAt": "2026-10-09T06:31:53+09:00"
+}

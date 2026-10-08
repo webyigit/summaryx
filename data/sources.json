@@ -1004,17 +1004,16 @@
    "url": "https://www.nintendolife.com/news",
    "keywords": [
     "Switch 2",
-    "Zelda",
+    "Pokemon",
     "Minecraft",
-    "Nintendo store"
+    "update"
    ]
   },
   {
    "name": "Minecraft.net",
    "url": "https://www.minecraft.net/en-us/articles",
    "keywords": [
-    "Minecraft Dungeons II",
-    "Switch 2",
+    "Marketplace",
     "Minecraft update"
    ]
   }
@@ -1025,80 +1024,62 @@
    "url": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
    "keywords": [
     "anime season",
-    "anime film",
-    "stream on Crunchyroll",
-    "Korean webtoon anime"
+    "anime film"
    ]
   },
   {
-   "name": "Bing News RSS (웹툰)",
-   "url": "https://www.bing.com/news/search?q=%EC%9B%B9%ED%88%B0&qft=sortbydate%3d%221%22&format=rss",
+   "name": "Bing News RSS (애니메이션)",
+   "url": "https://www.bing.com/news/search?q=%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98&qft=sortbydate%3d%221%22&format=rss",
    "keywords": [
-    "웹툰",
-    "웹툰 원작",
-    "네이버웹툰"
-   ]
-  },
-  {
-   "name": "Bing News RSS (애니메이션 개봉)",
-   "url": "https://www.bing.com/news/search?q=%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98+%EA%B0%9C%EB%B4%89&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "애니메이션 개봉",
+    "애니메이션",
     "극장판",
-    "단독 개봉"
+    "크런치롤"
    ]
   },
   {
-   "name": "뉴스핌",
-   "url": "https://www.newspim.com",
+   "name": "Bing News RSS (anime trailer)",
+   "url": "https://www.bing.com/news/search?q=anime+trailer&qft=sortbydate%3d%221%22&format=rss",
    "keywords": [
-    "애니메이션 개봉",
-    "극장판"
+    "anime trailer"
    ]
   },
   {
-   "name": "톱스타뉴스",
-   "url": "https://www.topstarnews.net",
+   "name": "Anime Corner 뉴스",
+   "url": "https://animecorner.me/category/news/",
    "keywords": [
-    "극장판 애니메이션 개봉"
+    "anime news"
    ]
   },
   {
-   "name": "씨네21",
-   "url": "https://cine21.com",
+   "name": "AniTrendz 뉴스",
+   "url": "https://anitrendz.net/news/",
    "keywords": [
-    "웹툰 원작 애니메이션"
+    "anime adaptation",
+    "trailer"
    ]
   }
  ],
  "sports": [
   {
-   "name": "스포츠경향 국내야구",
-   "url": "https://sports.khan.co.kr/baseball/korea-baseball",
+   "name": "스포츠경향",
+   "url": "https://sports.khan.co.kr/",
    "keywords": [
     "KBO",
-    "최다안타",
-    "다승왕",
-    "신인 계약금"
-   ]
-  },
-  {
-   "name": "스포츠경향 축구",
-   "url": "https://sports.khan.co.kr/soccer/korea-soccer",
-   "keywords": [
-    "국가대표",
-    "오세훈",
-    "우즈베키스탄"
+    "양현종",
+    "최원준",
+    "이강인",
+    "KLPGA",
+    "LET"
    ]
   },
   {
    "name": "OSEN 스포츠(날짜별)",
-   "url": "https://osen.co.kr/sports?date=20261008",
+   "url": "https://osen.co.kr/sports?date=20261009",
    "keywords": [
-    "대표팀 인터뷰",
-    "배구",
-    "테니스",
-    "이정후"
+    "황희찬",
+    "쑨잉사",
+    "V-리그 미디어데이",
+    "병역특례"
    ]
   },
   {
@@ -1107,8 +1088,9 @@
    "keywords": [
     "NLDS",
     "ALDS",
-    "Padres",
-    "Dodgers"
+    "Dodgers",
+    "Brewers",
+    "Rays"
    ]
   }
  ],
@@ -1844,55 +1826,42 @@
    "keywords": [
     "와인 마켓 인사이트",
     "수입 와인",
-    "와인 페스티벌",
-    "시음회"
+    "와인 출시"
    ]
   },
   {
    "name": "와인21",
    "url": "https://www.wine21.com/11_news/news_list.html",
    "keywords": [
-    "수입사 시음회",
-    "이달의 와인",
+    "와인 시음회",
     "와인 행사",
-    "한국와인"
-   ]
-  },
-  {
-   "name": "이투데이",
-   "url": "https://www.etoday.co.kr/",
-   "keywords": [
-    "편의점 와인",
-    "와인 매출",
-    "단독 와인"
-   ]
-  },
-  {
-   "name": "비즈니스플러스",
-   "url": "https://www.businessplus.kr/",
-   "keywords": [
-    "마트 와인",
-    "편의점 와인 신상"
-   ]
-  },
-  {
-   "name": "파이낸셜뉴스",
-   "url": "https://www.fnnews.com/",
-   "keywords": [
-    "Weekend 와인",
-    "와인 수입사 신규 수입",
-    "주류 신상"
+    "신간"
    ]
   },
   {
    "name": "Bing 뉴스 RSS (와인)",
-   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8+%EC%B6%9C%EC%8B%9C&format=rss&qft=sortbydate%3d%221%22",
+   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8+%EB%A7%A4%EC%B6%9C&format=rss&qft=sortbydate%3d%221%22",
    "keywords": [
-    "와인 출시",
-    "와인 시음회",
     "와인 매출",
-    "와인 수입사",
-    "와인 페스티벌"
+    "와인 시음회",
+    "한국와인",
+    "와인 페스티벌",
+    "와인 단독 출시"
+   ]
+  },
+  {
+   "name": "머니투데이",
+   "url": "https://www.mt.co.kr/",
+   "keywords": [
+    "편의점 와인"
+   ]
+  },
+  {
+   "name": "경향신문",
+   "url": "https://www.khan.co.kr/",
+   "keywords": [
+    "미사주",
+    "국산 와인"
    ]
   }
  ],
@@ -2180,6 +2149,15 @@
     "와인 마켓 인사이트",
     "수입 와인 Top 10"
    ]
+  },
+  {
+   "name": "Bing News RSS (품종 검색)",
+   "url": "https://www.bing.com/news/search?q=Merlot+wine&format=rss",
+   "keywords": [
+    "Merlot",
+    "grape variety explained",
+    "Cabernet Sauvignon grape"
+   ]
   }
  ],
  "winery": [
@@ -2190,17 +2168,7 @@
     "winery profile",
     "château",
     "estate history",
-    "family winery",
-    "Hall of Fame"
-   ]
-  },
-  {
-   "name": "Decanter (뉴스 아카이브 월별)",
-   "url": "https://www.decanter.com/news/archive/2026/09/",
-   "keywords": [
-    "acquires",
-    "ownership",
-    "winery sold"
+    "family winery"
    ]
   },
   {
@@ -2208,30 +2176,32 @@
    "url": "https://www.winespectator.com/",
    "keywords": [
     "winery sold",
-    "founders sell",
-    "estate vineyard",
-    "deal watch",
-    "obituary"
+    "founders",
+    "estate vineyard"
    ]
   },
   {
-   "name": "The Drinks Business",
-   "url": "https://www.thedrinksbusiness.com/",
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?sc_section_code=S1N1&view_type=sm",
    "keywords": [
-    "château heritage",
-    "winery acquired",
-    "estate profile",
-    "winery for sale"
+    "가문",
+    "샴페인 하우스",
+    "와이너리"
    ]
   },
   {
-   "name": "와인21",
-   "url": "https://www.wine21.com/11_news/news_list.html",
+   "name": "Parksville Qualicum News",
+   "url": "https://pqbnews.com/",
    "keywords": [
-    "와이너리",
-    "명가",
-    "방한",
-    "가족 경영"
+    "winery acquires"
+   ]
+  },
+  {
+   "name": "PR Newswire",
+   "url": "https://www.prnewswire.com/",
+   "keywords": [
+    "winery anniversary",
+    "Wine Star Awards"
    ]
   }
  ],
@@ -2252,7 +2222,8 @@
    "keywords": [
     "wine storage",
     "bonded warehouse",
-    "storage centres"
+    "storage centres",
+    "wine glass"
    ]
   },
   {
@@ -2276,7 +2247,15 @@
    "keywords": [
     "wine storage",
     "cellar",
-    "Sherry-Lehmann"
+    "wine fridge",
+    "wine cooler launch"
+   ]
+  },
+  {
+   "name": "Crown Wine Cellars 뉴스",
+   "url": "https://www.crownwinecellars.com/news-events/news/",
+   "keywords": [
+    "wine storage award"
    ]
   },
   {
