@@ -1,0 +1,35 @@
+{
+ "title": "npm 패키지 'tensorlake' 감염… 계정 정보 훔치는 웜 유포",
+ "originalTitle": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "Tensorlake의 앱·샌드박스·클라우드 서비스용 타입스크립트 SDK인 npm 패키지 'tensorlake'가 공급망 공격에 감염됐다. 악성 버전은 0.5.144로, 현재 npm에서 삭제됐다. StepSecurity에 따르면 10월 7일 01시 20분(UTC) 저장소에 첫 악성 커밋이 들어갔고, 약 하루 뒤 배포 워크플로가 이 버전을 npm에 올렸다.",
+  "소켓과 StepSecurity 분석에 따르면 설치 시 실행되는 악성코드는 npm·깃허브·AWS·쿠버네티스 계정 정보, SSH 키, .env 파일, 암호화폐 지갑, AI 코딩 도구 설정까지 훔친다. 피해자 계정으로 다른 패키지를 다시 배포하며 스스로 퍼지는 웜 형태이고, 탈취한 깃허브 토큰이 폐기되면 추가 명령을 실행하는 파괴적 기능도 있는 것으로 알려졌다.",
+  "악성 버전을 설치한 사용자는 즉시 삭제하고 모든 자격 증명을 교체해야 한다. 오픈소스 패키지를 노린 'Shai-Hulud' 계열 공급망 공격이 이어지면서 개발 환경 보안 점검의 중요성이 다시 커지고 있다."
+ ],
+ "keyPoints": [
+  "npm 'tensorlake' 0.5.144 악성 버전 배포",
+  "계정 정보 탈취·자가 전파 웜 탑재",
+  "설치했다면 즉시 삭제·자격 증명 교체"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1ZJrw-vCazDC3YJlfmY9WewJ170my9lYex6Ccg7VTa8UQCrXWoCiy_F9w_LoP-GDEarC_RoYnx63fAa_i_RmR5564MS6tgcoqi77wlcqPzX7kambOt4Gga7rsMlWWBwyHKZtCb1lAowiE4bf5up8aIJuwoVsZSKTq15TTynJ-uNPirAGnY8uwMMGqBsgU/s1600/npm-hack.jpg",
+ "facts": [
+  [
+   "패키지",
+   "tensorlake 0.5.144(npm)"
+  ],
+  [
+   "분석",
+   "Socket·StepSecurity"
+  ],
+  [
+   "조치",
+   "삭제·자격 증명 교체"
+  ]
+ ],
+ "id": "261009-security-19",
+ "category": "security",
+ "collectedAt": "2026-10-09T03:29:21+09:00"
+}

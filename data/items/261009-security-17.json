@@ -1,0 +1,35 @@
+{
+ "title": "가짜 암호화폐 지갑 파이어폭스 확장 16개, 복구 문구 탈취",
+ "originalTitle": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "보안업체 소켓 연구원 조지프 에드워즈가 암호화폐 지갑이나 유틸리티로 위장한 악성 파이어폭스 확장 프로그램 16개를 찾아냈다. 이 확장들은 지갑을 불러오는 과정에서 사용자가 입력한 복구 문구와 개인 키를 가로채 공격자 서버로 보냈다. 4개는 Rabby 지갑을, 나머지 12개는 OKX 지갑을 흉내 냈다.",
+  "이번 활동은 소켓이 8월에 공개한 공격의 연장선으로 보인다. 공격자는 이름·버전·설명·확장 ID를 계속 바꾸면서도 같은 지갑 화면과 탈취 로직, 서버를 재사용했다. 10월 5일 기준 확장 16개는 모두 삭제됐다.",
+  "가짜 지갑 화면에 실제 복구 문구나 개인 키를 입력한 사용자는 이미 털린 것으로 보고, 깨끗한 기기에서 새 지갑을 만든 뒤 자산을 옮겨야 한다. 설치된 확장 프로그램을 점검해 필요 없는 것은 지우고, 기업은 관리 환경의 확장을 감사하고 행동 기반 모니터링을 도입하라는 권고가 나왔다."
+ ],
+ "keyPoints": [
+  "Rabby·OKX 지갑 위장 확장 16개 발견",
+  "복구 문구·개인 키 가로채 외부 전송",
+  "입력했다면 새 지갑 만들어 자산 이동"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh25slDP7PhWH155CxM4JUNITLHKzjfSXpuF4WWZJmkycx5UQUIjLJd5Jg_mEDQi62FwRkfpLV14DBpVu2pybVwacKkHpc2MABge_OjMCn3ISyUTsh_JS0fM3wgzv4hbR1du-9fp7cmd0vvB33xeCv7RD7-o4A66gCoKtuCQxmmQL2jM2ljZOMyude3uhOb/s1600/firefox-plugins.jpg",
+ "facts": [
+  [
+   "발견",
+   "소켓(Socket)"
+  ],
+  [
+   "대상",
+   "파이어폭스 사용자·암호화폐 지갑"
+  ],
+  [
+   "상태",
+   "10월 5일 기준 전부 삭제"
+  ]
+ ],
+ "id": "261009-security-17",
+ "category": "security",
+ "collectedAt": "2026-10-09T03:29:21+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "5,300만 달러 탈취한 '우라늄 파이낸스' 해커 유죄 평결",
+ "originalTitle": "Uranium crypto exchange hacker convicted for stealing $53 million",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "미국 메릴랜드주에 사는 조너선 스팔레타(36)가 BNB 체인 기반 탈중앙 거래소 우라늄 파이낸스를 해킹해 5,300만 달러 이상을 훔친 혐의로 유죄 평결을 받았다. 그는 2021년 4월 두 차례에 걸쳐 스마트 계약의 결함을 악용했다. 첫 공격에서 약 140만 달러를 빼낸 뒤 나머지를 돌려주는 대가로 약 38만6천 달러를 가짜 '버그바운티'로 챙겼다.",
+  "약 3주 뒤 다른 코드 오류를 이용해 유동성 풀 자산의 90% 가까이, 약 5,330만 달러를 빼냈고 우라늄은 곧바로 문을 닫았다. 자금은 토네이도 캐시 믹서와 여러 탈중앙 거래소로 세탁됐고, 그는 미개봉 매직 더 개더링 카드 팩, 포켓몬 초판 세트, 고대 로마 동전 같은 수집품을 사들였다. 수사 당국은 2025년 2월 이 수집품을 압수하고 연결된 지갑에서 약 3,100만 달러어치 암호화폐를 회수했다.",
+  "그는 컴퓨터 사기와 자금세탁 혐의로 각각 최대 10년, 20년형에 처해질 수 있다. 제이미 맥도널드 연방검사는 이번 범죄로 실제 사람들이 5,000만 달러 넘게 잃었다고 말했다."
+ ],
+ "keyPoints": [
+  "DEX 우라늄 파이낸스 해커 유죄 평결",
+  "2021년 두 차례 공격으로 5,300만 달러 탈취",
+  "수집품 압수·암호화폐 3,100만 달러 회수"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2026/10/08/Bitcoin_cryptocurrency_theft.jpg",
+ "facts": [
+  [
+   "피고인",
+   "조너선 스팔레타(36)"
+  ],
+  [
+   "피해",
+   "우라늄 파이낸스 5,300만 달러 이상"
+  ],
+  [
+   "혐의",
+   "컴퓨터 사기·자금세탁"
+  ]
+ ],
+ "id": "261009-security-06",
+ "category": "security",
+ "collectedAt": "2026-10-09T03:29:21+09:00"
+}

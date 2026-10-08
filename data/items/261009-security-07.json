@@ -1,0 +1,35 @@
+{
+ "title": "MS 팀즈, 11월부터 외부 딥페이크 탐지 도구·사칭 방지 기능 지원",
+ "originalTitle": "Microsoft Teams to get support for third-party deepfake detection tools",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "마이크로소프트가 팀즈 회의에 두 가지 보안 기능을 더한다. 하나는 인증받은 외부 업체의 딥페이크 탐지 솔루션 지원으로, 이 솔루션이 회의 음성·영상을 분석해 합성·조작 여부를 판단하면 팀즈가 그 신호를 회의 화면에 띄우고 대응한다. 다른 하나는 사칭 방지 기능으로, 사칭 시도가 의심되면 경고와 위험 표시를 보여 참여 전에 주최자나 참석자를 의심해 볼 수 있게 한다.",
+  "마이크로소프트 365 로드맵에 따르면 두 기능은 개발 중이며 전 세계 배포를 거쳐 11월 정식 제공될 예정이다. 팀즈는 최근 관리자가 외부 봇의 회의 참여를 자동 차단하는 정책, 의심스러운 게스트 초대 신고 기능, 외부 발신 QR 코드 흐림 처리, 디펜더 포털에서 외부 사용자를 차단하는 기능 등을 잇달아 내놨다.",
+  "이번 조치는 랜섬웨어 조직 등 사이버 범죄 집단이 팀즈를 사회공학 공격 통로로 악용해 직원을 속이는 사례가 늘어난 데 따른 대응으로 풀이된다."
+ ],
+ "keyPoints": [
+  "팀즈 회의에 외부 딥페이크 탐지 솔루션 연동",
+  "사칭 의심 시 경고·위험 표시 제공",
+  "11월 정식 제공 예정"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2026/09/18/Microsoft_Teams.jpg",
+ "facts": [
+  [
+   "기업",
+   "마이크로소프트"
+  ],
+  [
+   "대상",
+   "Teams 회의"
+  ],
+  [
+   "시기",
+   "2026년 11월 정식 제공(예정)"
+  ]
+ ],
+ "id": "261009-security-07",
+ "category": "security",
+ "collectedAt": "2026-10-09T03:29:21+09:00"
+}

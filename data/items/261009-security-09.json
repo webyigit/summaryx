@@ -1,0 +1,35 @@
+{
+ "title": "폰투오운 아일랜드 둘째 날, 갤럭시 S26 세 번 더 뚫려… 카이스트 연구원도",
+ "originalTitle": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "트렌드마이크로 ZDI가 여는 해킹 대회 '폰투오운 아일랜드 2026' 둘째 날, 참가자들이 제로데이 45건으로 상금 23만2,500달러를 받았다. 가장 눈길을 끈 건 삼성 갤럭시 S26이 세 차례 더 뚫린 것으로, 카이스트 해킹랩 김경민 연구원, PetoWorks, 모바일 해킹랩 팀이 성공했다. 첫날에도 세 팀이 갤럭시 S26 공략에 성공했다.",
+  "이 밖에 소노스 스피커 Era 300을 1분도 안 돼 공략한 사례, AI 인프라 부문 Dynamo 해킹(4만 달러), 홈어시스턴트 허브와 오라클 자율 AI 데이터베이스 공략이 나왔다. 반면 원격 해킹 최고 상금 30만 달러가 걸린 아이폰 17에는 아무도 도전하지 않았다.",
+  "이 대회는 최신 패치를 마친 기기에서 제로데이를 찾는 것이 목적이며, 제조사는 90일 안에 고쳐야 하고 그 뒤 ZDI가 내용을 공개한다. 셋째 날에도 갤럭시 S26과 구글 픽셀 10 등이 다시 표적이 된다. 지난해 대회에서는 제로데이 73건에 102만 달러가 넘는 상금이 지급됐다."
+ ],
+ "keyPoints": [
+  "둘째 날 제로데이 45건·상금 23만2,500달러",
+  "갤럭시 S26 세 번 더 공략, 카이스트 연구원 포함",
+  "아이폰 17 도전자는 없어"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2026/10/07/Pwn2Own-Ireland.jpg",
+ "facts": [
+  [
+   "대회",
+   "Pwn2Own Ireland 2026(트렌드마이크로 ZDI)"
+  ],
+  [
+   "주요 대상",
+   "삼성 갤럭시 S26"
+  ],
+  [
+   "패치 기한",
+   "제조사 90일"
+  ]
+ ],
+ "id": "261009-security-09",
+ "category": "security",
+ "collectedAt": "2026-10-09T03:29:21+09:00"
+}

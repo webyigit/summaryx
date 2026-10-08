@@ -1,0 +1,35 @@
+{
+ "title": "러시아 연계 해킹조직 UAC-0099, 신형 악성코드로 우크라이나 정부 인력 노려",
+ "originalTitle": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "러시아와 연계된 해킹 조직 UAC-0099가 그동안 알려지지 않았던 .NET 기반 정보 탈취·원격 제어 악성코드 'ASHVEIN'으로 우크라이나 정부 인력을 노린 것으로 나타났다. 이 연구를 공개한 TrendAI는 이 조직을 'Earth Sirrush'로 추적하고 있다.",
+  "UAC-0099는 2023년 6월 우크라이나 침해대응팀 CERT-UA가 처음 공개했으며, 적어도 2022년 중반부터 우크라이나 국방·국경수비대·물류 기관을 공격해 왔다. TrendAI는 최근 표적이 민간 물류·기반시설 운영사로 넓어졌다고 밝혔다. 공격자는 우크라이나 국가경찰을 사칭한 미끼 문서로 피해자가 파일을 열게 유도했고, ASHVEIN은 계정 정보 탈취·감시·원격 제어 기능을 함께 갖췄다.",
+  "보안업체 ESET은 2025년 11월 이 조직이 파괴적 공격으로 알려진 러시아 APT 샌드웜에 초기 침투 경로를 넘겨주는 역할도 할 수 있다고 보고한 바 있어, 전쟁 속 우크라이나를 겨냥한 사이버 공격이 계속되고 있음을 보여준다."
+ ],
+ "keyPoints": [
+  "UAC-0099, 신형 악성코드 ASHVEIN 사용",
+  "우크라이나 정부 인력·민간 물류로 표적 확대",
+  "국가경찰 사칭 미끼 문서로 유인"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZWPW7zD0DZUCKyeRcD-sBZtZ28n4PPaJDPjiskf9ghOI7b3aYbYCEbNvITxaYjCkejq8Vfuc0xeZtJ7p2R4j4dEqGXwfb1JLqQVHrgE4uxdSCq-JJgAeLA0WZbz5Fi98LQbxr3ncRXodrBd83xaX2UpXtDb-Q55ryWBPeXGAQlDBykN_BYecleld5rxJM/s1600/uk.jpg",
+ "facts": [
+  [
+   "공격 조직",
+   "UAC-0099(러시아 연계)"
+  ],
+  [
+   "표적",
+   "우크라이나 정부 인력·물류·기반시설"
+  ],
+  [
+   "보고 기관",
+   "TrendAI"
+  ]
+ ],
+ "id": "261009-security-16",
+ "category": "security",
+ "collectedAt": "2026-10-09T03:29:21+09:00"
+}

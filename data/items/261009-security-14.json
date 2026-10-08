@@ -1,0 +1,35 @@
+{
+ "title": "소닉월, SMA1000 원격 접속 장비 최고 위험 SSRF 취약점 패치",
+ "originalTitle": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "소닉월이 원격 접속 보안 장비 SMA1000 시리즈의 서버 측 요청 위조(SSRF) 취약점(CVE-2026-102255)을 고치는 핫픽스를 내놨다. 최고 위험 등급으로 분류된 이 취약점은 인증 없이 원격에서 장비가 대신 요청을 보내게 만들어 내부 기능에 접근할 수 있게 한다. 대상은 SMA1000 6210·7210·8200v 모델이며, SMA 100 시리즈와 방화벽 SSL-VPN은 영향이 없다.",
+  "소닉월은 현재 악용 증거는 없다면서도 수정 버전으로 즉시 올릴 것을 강력히 권고했다. 섀도서버는 인터넷에 노출된 SMA1000 장비를 400대 이상 추적하고 있다.",
+  "SMA1000은 올해 여러 차례 제로데이 공격을 받았다. 7월에는 취약점 두 개가 악성코드 설치에 쓰였고 CISA는 이를 랜섬웨어 조직과 연관 지었다. 지난달에도 취약점 두 개가 엮여 원격 코드 실행에 악용됐다. CISA는 지난 4년간 소닉월 취약점 19건을 실제 악용 목록에 올렸고 이 중 13건이 랜섬웨어 공격에 쓰였다."
+ ],
+ "keyPoints": [
+  "SMA1000 최고 위험 SSRF 취약점 핫픽스",
+  "인증 없이 원격 악용 가능, 악용 증거는 없어",
+  "노출 장비 400대 이상…즉시 업데이트 권고"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2026/10/07/SonicWall.jpg",
+ "facts": [
+  [
+   "제조사",
+   "소닉월"
+  ],
+  [
+   "대상",
+   "SMA1000 6210·7210·8200v"
+  ],
+  [
+   "CVE",
+   "CVE-2026-102255"
+  ]
+ ],
+ "id": "261009-security-14",
+ "category": "security",
+ "collectedAt": "2026-10-09T03:29:21+09:00"
+}

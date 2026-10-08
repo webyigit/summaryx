@@ -1,0 +1,35 @@
+{
+ "title": "아웃룩, 11월부터 MSIX 설치 파일 첨부 차단",
+ "originalTitle": "Microsoft Outlook to block MSIX attachments starting November",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "마이크로소프트가 웹용 아웃룩과 새 윈도우용 아웃룩에서 .msix와 .msixbundle 첨부파일을 차단 목록에 넣는다. .msix는 윈도우 앱 설치 패키지, .msixbundle은 여러 패키지를 묶은 파일이다. 익스체인지 온라인 사용자에게 11월 초부터 적용이 시작돼 11월 중순 정식 반영된다.",
+  "적용되면 기본 정책에 따라 이 파일들을 보내거나 받거나 열거나 내려받을 수 없다. 이 형식을 쓰지 않는 조직은 따로 할 일이 없고, 꼭 필요한 조직은 관리자가 허용 목록에 추가하면 된다. 마이크로소프트는 사용 빈도가 낮아 대부분 조직은 영향을 받지 않을 것이라고 밝혔다.",
+  "이번 조치는 공격자가 악용해 온 오피스·윈도우 기능을 막는 흐름의 연장이다. 아웃룩은 2025년 6월 피싱에 쓰이던 .library-ms·.search-ms 파일을 막았고, 같은 해 10월에는 위험한 인라인 SVG 이미지 표시도 중단했다."
+ ],
+ "keyPoints": [
+  "아웃룩, .msix·.msixbundle 첨부 기본 차단",
+  "11월 초 배포 시작, 중순 정식 적용",
+  "필요 시 관리자가 허용 목록 추가 가능"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2025/04/29/Outlook.jpg",
+ "facts": [
+  [
+   "기업",
+   "마이크로소프트"
+  ],
+  [
+   "대상",
+   "웹용 아웃룩·새 윈도우용 아웃룩"
+  ],
+  [
+   "시기",
+   "2026년 11월"
+  ]
+ ],
+ "id": "261009-security-12",
+ "category": "security",
+ "collectedAt": "2026-10-09T03:29:21+09:00"
+}

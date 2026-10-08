@@ -1,0 +1,35 @@
+{
+ "title": "노출된 AI 서버 노린 채굴 봇넷 'PoeLLM', 3,400대 감염",
+ "originalTitle": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "루멘의 위협 연구팀 블랙 로터스 랩스가 인터넷에 노출된 AI 서비스를 노려 암호화폐를 채굴하는 봇넷 'PoeLLM'을 추적했다. 감염 서버는 3,400대가 넘고 하루 최대 800대가 활동했으며, 피해는 미국과 서유럽에 집중됐다. 최소 4월부터 활동했고 이후 크게 늘었다.",
+  "피해 서버 다수는 LiteLLM·Ollama 같은 AI 도구, PDF 변환기 Gotenberg, 개발 도구 Gitea를 외부에 그대로 노출한 상태였다. 감염된 서버는 다시 다른 서버를 찾아 공격하는 발판으로 쓰였다. 특이하게도 명령 서버 주소를 깃허브에 올린 시 한 편의 단어로 숨겨 두고, 시를 고쳐 주소를 바꾸는 방식을 썼다. 연구팀은 운영자가 이탈리아인일 가능성을 '중간 신뢰도'로 봤다.",
+  "연구팀은 AI·LLM 서버가 허술하게 설정된 채 노출되는 경우가 많고, 강력한 GPU를 갖춰 채굴에 알맞아 표적이 된다고 설명했다. 최신 보안 업데이트 적용, 외부 노출 최소화, 신뢰하는 IP로만 접근 제한, 공개된 침해 지표 점검을 권고했다."
+ ],
+ "keyPoints": [
+  "노출된 AI 서버 노린 채굴 봇넷 PoeLLM",
+  "3,400대 이상 감염, 미국·서유럽 집중",
+  "업데이트·외부 노출 차단 권고"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2026/04/10/Hacker_bitcoin.jpg",
+ "facts": [
+  [
+   "보고 기관",
+   "루멘 블랙 로터스 랩스"
+  ],
+  [
+   "표적",
+   "LiteLLM·Ollama·Gotenberg·Gitea 등 노출 서버"
+  ],
+  [
+   "규모",
+   "3,400대 이상"
+  ]
+ ],
+ "id": "261009-security-13",
+ "category": "security",
+ "collectedAt": "2026-10-09T03:29:21+09:00"
+}

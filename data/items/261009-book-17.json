@@ -1,0 +1,35 @@
+{
+ "title": "美 항소법원 \"웨스트로 판례 요약 무단 학습은 공정이용 아냐\"…AI 학습 데이터 판결",
+ "originalTitle": "The Third Circuit finds that AI companies can't use material with an original 'creative spark.'",
+ "source": "Literary Hub",
+ "url": "https://lithub.com/the-third-circuit-finds-that-ai-companies-cant-use-material-with-an-original-creative-spark/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "미국 제3순회항소법원이 톰슨로이터와 AI 법률검색 기업 로스 인텔리전스 간 저작권 소송에서 2025년 1심 판단을 대체로 유지했다. 톰슨로이터는 2020년, 로스가 라이선스를 거절당한 뒤 제3자 프로그램으로 판례 검색 서비스 웨스트로의 판례 요약(헤드노트)을 가져가 경쟁 AI 서비스를 만들었다며 소송을 냈다.",
+  "판결문을 쓴 타미카 몽고메리-리브스 판사는 판결문 자체는 저작권 대상이 아니지만 헤드노트에는 최소한의 '창작적 불꽃'이 있어 보호받는다고 봤다. 또 로스의 이용은 \"기껏해야 최소한으로 변형적\"이고 직접 경쟁하는 상품에 쓰였기 때문에 공정이용 항변이 받아들여지지 않았다.",
+  "판사는 \"평범한 저작권 사건\"이라고 선을 그었고 생성형이 아닌 AI 모델에 관한 사건이지만, AI 기업의 학습 데이터 수집에 영향을 줄 수 있다는 분석이 나온다. 저자 단체 쪽에서는 사실과 표현의 경계를 흐리고 학습 데이터 시장을 새로 만들 수 있다는 우려도 제기됐다."
+ ],
+ "keyPoints": [
+  "톰슨로이터 vs 로스 AI 소송, 항소심도 원고 승",
+  "판례 요약에 '창작적 불꽃' 인정, 공정이용 불인정",
+  "AI 학습 데이터 수집 관행에 영향 주목"
+ ],
+ "image": "https://s26162.pcdn.co/wp-content/uploads/2024/05/luddites-frame-breaking-1812.jpg",
+ "facts": [
+  [
+   "사건",
+   "Thomson Reuters v. ROSS Intelligence"
+  ],
+  [
+   "법원",
+   "미국 제3순회항소법원"
+  ],
+  [
+   "쟁점",
+   "AI 학습용 판례 요약 복제의 공정이용 여부"
+  ]
+ ],
+ "id": "261009-book-17",
+ "category": "book",
+ "collectedAt": "2026-10-09T03:29:21+09:00"
+}

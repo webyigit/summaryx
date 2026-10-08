@@ -875,57 +875,59 @@
  ],
  "movie": [
   {
-   "name": "Boxoffice Pro",
-   "url": "https://www.boxofficepro.com/",
-   "keywords": [
-    "weekend box office",
-    "box office opening",
-    "theatrical exhibition"
-   ]
-  },
-  {
    "name": "뉴스핌 (영화)",
    "url": "https://www.newspim.com/",
    "keywords": [
     "영화 개봉",
     "관객 돌파",
-    "예고편 공개",
-    "북미 박스오피스"
+    "예고편 공개"
    ]
   },
   {
-   "name": "일간스포츠 IS차트",
-   "url": "https://isplus.com/",
+   "name": "이투데이 영화",
+   "url": "https://www.etoday.co.kr/culture-life/movie",
    "keywords": [
-    "IS차트",
-    "박스오피스 1위",
-    "영화진흥위원회 통합전산망"
+    "영화 개봉",
+    "박스오피스",
+    "영화계"
    ]
   },
   {
    "name": "한국일보 문화",
    "url": "https://www.hankookilbo.com/",
    "keywords": [
-    "영화 흥행",
-    "영화계",
-    "영화제"
+    "영화제",
+    "영화계"
    ]
   },
   {
-   "name": "세계일보 문화",
-   "url": "https://www.segye.com/",
+   "name": "일간스포츠",
+   "url": "https://isplus.com/",
    "keywords": [
-    "할리우드 흥행",
-    "영화 개봉 성적"
+    "BIFF",
+    "IS차트"
    ]
   },
   {
-   "name": "Global Times (Culture)",
-   "url": "https://www.globaltimes.cn/",
+   "name": "스포츠경향",
+   "url": "https://sports.khan.co.kr/",
+   "keywords": [
+    "부산국제영화제"
+   ]
+  },
+  {
+   "name": "TheWrap",
+   "url": "https://www.thewrap.com/",
+   "keywords": [
+    "box office projections"
+   ]
+  },
+  {
+   "name": "CCTV English (CGTN)",
+   "url": "https://english.cctv.com/",
    "keywords": [
     "China box office",
-    "holiday box office",
-    "Chinese film"
+    "National Day holiday"
    ]
   }
  ],
@@ -1362,8 +1364,8 @@
    "keywords": [
     "신간",
     "베스트셀러",
-    "작가 인터뷰",
-    "[새책]"
+    "[새책]",
+    "[책과 삶]"
    ]
   },
   {
@@ -1371,18 +1373,24 @@
    "url": "https://ch.yes24.com/",
    "keywords": [
     "작가 인터뷰",
-    "노벨문학상",
-    "책 큐레이션"
+    "독서 트렌드"
+   ]
+  },
+  {
+   "name": "한국일보",
+   "url": "https://www.hankookilbo.com/",
+   "keywords": [
+    "노벨문학상"
    ]
   },
   {
    "name": "Publishing Perspectives",
    "url": "https://publishingperspectives.com/",
    "keywords": [
+    "Frankfurter Buchmesse",
     "publishing industry",
-    "book fair",
-    "literary prize",
-    "rights"
+    "audiobook",
+    "freedom to publish"
    ]
   },
   {
@@ -1390,27 +1398,9 @@
    "url": "https://lithub.com/category/news/",
    "keywords": [
     "Nobel Prize in Literature",
-    "Booker Prize",
-    "author interview",
-    "longlist"
-   ]
-  },
-  {
-   "name": "National Book Foundation",
-   "url": "https://www.nationalbook.org/category/news/",
-   "keywords": [
-    "National Book Awards",
-    "finalists",
-    "longlist"
-   ]
-  },
-  {
-   "name": "아주경제",
-   "url": "https://www.ajunews.com/",
-   "keywords": [
-    "노벨문학상",
-    "출판계",
-    "베스트셀러"
+    "Kirkus Prize",
+    "Caine Prize",
+    "AI copyright"
    ]
   }
  ],
@@ -1704,7 +1694,19 @@
  "g2b": [
   {
    "name": "조달데이터 JODALDATA (나라장터 공고 검색)",
-   "url": "https://jodaldata.com/bids.php?q=홈페이지"
+   "url": "https://jodaldata.com/bids.php?q=홈페이지",
+   "keywords": [
+    "홈페이지",
+    "플랫폼",
+    "누리집",
+    "고도화",
+    "유지관리",
+    "포털",
+    "온라인 홍보",
+    "웹사이트",
+    "모바일",
+    "정보화전략계획"
+   ]
   }
  ],
  "winepick": [
@@ -3421,16 +3423,40 @@
     "트럼프",
     "연준"
    ]
+  },
+  {
+   "name": "경향신문 국제",
+   "url": "https://www.khan.co.kr/world",
+   "keywords": [
+    "미국",
+    "트럼프"
+   ]
+  },
+  {
+   "name": "알자지라 미국·캐나다",
+   "url": "https://www.aljazeera.com/us-canada/",
+   "keywords": [
+    "US",
+    "Trump"
+   ]
   }
  ],
  "worldasia": [
   {
-   "name": "알자지라 아시아",
-   "url": "https://www.aljazeera.com/asia/",
+   "name": "경향신문 국제",
+   "url": "https://www.khan.co.kr/world",
    "keywords": [
-    "India",
-    "Pakistan",
-    "South Asia"
+    "일본",
+    "중국",
+    "북한"
+   ]
+  },
+  {
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
+   "keywords": [
+    "중국",
+    "일본"
    ]
   },
   {
@@ -3439,89 +3465,55 @@
    "keywords": [
     "China",
     "Japan",
-    "ASEAN",
-    "Australia",
-    "Pacific"
-   ]
-  },
-  {
-   "name": "연합뉴스 국제(아시아)",
-   "url": "https://www.yna.co.kr/international/asia-australia",
-   "keywords": [
-    "중국",
-    "일본"
-   ]
-  },
-  {
-   "name": "NHK World",
-   "url": "https://www3.nhk.or.jp/nhkworld/en/news/",
-   "keywords": [
-    "Japan"
-   ]
-  },
-  {
-   "name": "BBC 아시아",
-   "url": "https://www.bbc.com/news/world/asia",
-   "keywords": [
-    "Asia"
+    "ASEAN"
    ]
   }
  ],
  "worldeu": [
   {
-   "name": "알자지라 유럽",
-   "url": "https://www.aljazeera.com/europe/",
-   "keywords": [
-    "Europe",
-    "Russia",
-    "Ukraine"
-   ]
-  },
-  {
-   "name": "연합뉴스 국제(유럽)",
-   "url": "https://www.yna.co.kr/international/europe",
+   "name": "경향신문 국제",
+   "url": "https://www.khan.co.kr/world",
    "keywords": [
     "유럽",
+    "러시아",
+    "우크라이나"
+   ]
+  },
+  {
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
+   "keywords": [
+    "유럽",
+    "EU",
     "러시아"
-   ]
-  },
-  {
-   "name": "BBC 유럽",
-   "url": "https://www.bbc.com/news/world/europe",
-   "keywords": [
-    "Europe"
-   ]
-  },
-  {
-   "name": "가디언 월드",
-   "url": "https://www.theguardian.com/world",
-   "keywords": [
-    "Europe"
    ]
   }
  ],
  "worldmea": [
   {
-   "name": "연합뉴스 국제(중동·아프리카)",
-   "url": "https://www.yna.co.kr/international/middleeast-africa",
+   "name": "경향신문 국제",
+   "url": "https://www.khan.co.kr/world",
    "keywords": [
     "중동",
-    "아프리카"
+    "호르무즈"
    ]
   },
   {
-   "name": "알자지라",
-   "url": "https://www.aljazeera.com/news/",
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
    "keywords": [
-    "Middle East",
-    "Africa"
+    "중동",
+    "이란",
+    "이스라엘"
    ]
   },
   {
-   "name": "BBC 아프리카",
-   "url": "https://www.bbc.com/news/world/africa",
+   "name": "알자지라 아프리카",
+   "url": "https://www.aljazeera.com/africa/",
    "keywords": [
-    "Africa"
+    "Africa",
+    "Sudan",
+    "Ebola"
    ]
   }
  ]
