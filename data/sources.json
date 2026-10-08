@@ -3414,30 +3414,36 @@
  ],
  "worldus": [
   {
-   "name": "AP News 미국",
-   "url": "https://apnews.com/us-news",
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
    "keywords": [
     "미국",
-    "백악관"
-   ]
-  },
-  {
-   "name": "연합뉴스 국제(미주)",
-   "url": "https://www.yna.co.kr/international/northamerica",
-   "keywords": [
-    "미국",
-    "캐나다"
-   ]
-  },
-  {
-   "name": "BBC 미국·캐나다",
-   "url": "https://www.bbc.com/news/us-canada",
-   "keywords": [
-    "US"
+    "트럼프",
+    "연준"
    ]
   }
  ],
  "worldasia": [
+  {
+   "name": "알자지라 아시아",
+   "url": "https://www.aljazeera.com/asia/",
+   "keywords": [
+    "India",
+    "Pakistan",
+    "South Asia"
+   ]
+  },
+  {
+   "name": "알자지라 아시아태평양",
+   "url": "https://www.aljazeera.com/asia-pacific/",
+   "keywords": [
+    "China",
+    "Japan",
+    "ASEAN",
+    "Australia",
+    "Pacific"
+   ]
+  },
   {
    "name": "연합뉴스 국제(아시아)",
    "url": "https://www.yna.co.kr/international/asia-australia",
@@ -3462,6 +3468,15 @@
   }
  ],
  "worldeu": [
+  {
+   "name": "알자지라 유럽",
+   "url": "https://www.aljazeera.com/europe/",
+   "keywords": [
+    "Europe",
+    "Russia",
+    "Ukraine"
+   ]
+  },
   {
    "name": "연합뉴스 국제(유럽)",
    "url": "https://www.yna.co.kr/international/europe",
