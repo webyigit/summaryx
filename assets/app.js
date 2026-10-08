@@ -14,6 +14,7 @@
     { id: 'shop', name: '쇼핑', cats: [['shopguide','믿을 만한 쇼핑몰'],['shopmen','남성 의류'],['shopdeal','할인 행사']] },
     { id: 'care', name: '건강', cats: [['bp','고혈압'],['dm','당뇨'],['lipid','고지혈증·심혈관']] },
     { id: 'trip', name: '여행지', cats: [['tripko','국내 여행지'],['tripworld','해외 여행지']] },
+    { id: 'pet', name: '도마뱀', cats: [['gecko','크레스티드게코'],['reptile','도마뱀 키우기']] },
     { id: 'toon', name: '웹툰', cats: [['toon','웹툰 소식'],['toonhot','인기·추천']] },
     { id: 'teen', name: '학생', cats: [['game', '게임'], ['webtoon', '웹툰·애니'], ['sports', '스포츠'], ['science', '과학'], ['edu', '교육·진로']] },
     { id: 'ent', name: '연예·트렌드', cats: [['ent', '연예'], ['kpop', 'K-POP'], ['shorts', '쇼츠'], ['meme', '밈']] },
