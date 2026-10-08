@@ -327,3 +327,10 @@ main { padding: 0 16px; }
 
 .kchips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
 .kchips .sub { background: var(--bg, #fff); }
+.mascot { display: flex; align-items: center; gap: 10px; margin: 4px 0 14px; }
+.mascot .mbody { flex: none; width: 64px; height: 64px; padding: 0; border: 0; background: none; cursor: pointer; animation: mbob 2.6s ease-in-out infinite; }
+.mascot .mbubble { position: relative; flex: 1; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 9px 12px; font-size: 14px; line-height: 1.45; }
+.mascot .mbubble::before { content: ''; position: absolute; left: -6px; top: 50%; width: 10px; height: 10px; margin-top: -5px; background: var(--card); border-left: 1px solid var(--line); border-bottom: 1px solid var(--line); transform: rotate(45deg); }
+.mascot .mbubble b { margin-right: 6px; color: var(--accent); }
+@keyframes mbob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+@media (prefers-reduced-motion: reduce) { .mascot .mbody { animation: none; } }

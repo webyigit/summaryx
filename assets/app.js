@@ -148,6 +148,69 @@
   function luxHtml() {
     return '<div class="rule"><b>가격대 기준</b> 기사·공식몰에 적힌 국내 판매가로 나눴어요. 10만원대는 10만~49만원, 50만원대는 50만~99만원, 100만원 이상은 100만원부터예요. 가격이 없는 브랜드 소식은 \'전체\'에만 보여요.</div>';
   }
+  // 진입할 때마다 바뀌는 summaryx 캐릭터 30종(자체 제작 SVG). 캐릭터를 누르면 다른 친구로 바뀐다
+  var MASCOTS = [
+    ['냥이', '#ffb35c', 'cat'], ['토토', '#ffd0dc', 'bunny'], ['곰돌', '#b98256', 'bear'], ['크레', '#e8a25a', 'gecko'],
+    ['스티', '#cdb68a', 'gecko'], ['삐약', '#ffe14d', 'chick'], ['펭펭', '#40546b', 'penguin'], ['개굴', '#7cc96a', 'frog'],
+    ['부우', '#ecebff', 'ghost'], ['뽀뽀', '#9be3c3', 'alien'], ['삐삐', '#a9bccf', 'robot'], ['싹이', '#a6e07a', 'sprout'],
+    ['몽글', '#dcecff', 'cloud'], ['반짝', '#ffd84d', 'star'], ['몽실', '#ffb8a1', 'peach'], ['아보', '#9cc865', 'avocado'],
+    ['디노', '#6cc4a1', 'dino'], ['쭈꾸', '#ff8fa3', 'octopus'], ['멍멍', '#e8c39e', 'dog'], ['판판', '#ffffff', 'panda'],
+    ['폭스', '#ff8a3d', 'fox'], ['햄찌', '#f3c58f', 'hamster'], ['고래', '#6fa8ff', 'whale'], ['버섯이', '#f26b5b', 'mushroom'],
+    ['달님', '#fff0a0', 'moon'], ['말랑', '#c58bff', 'jelly'], ['도니', '#f7c08a', 'donut'], ['꽥꽥', '#ffe680', 'duck'],
+    ['몽이', '#f4f1ea', 'sheep'], ['용용', '#ff6f61', 'dragon']
+  ];
+  var GREET = ['오늘도 좋은 하루 보내요!', '새 소식 따끈하게 모아 왔어요', '커피 한 잔이랑 같이 읽어요', '오늘은 어떤 글이 궁금해요?',
+    '천천히 둘러봐요, 다 기다려 줄게요', '퇴근길 심심할 때 딱이에요', '좋아요 눌러 주면 신나요!', '맛집 탭도 꼭 들러 봐요',
+    '오늘의 명시 한 편 어때요?', '북마크해 두면 나중에 편해요', '세계 소식도 챙겨 왔어요', '물 한 잔 마시고 시작해요',
+    '잠깐 쉬어 가도 괜찮아요', '오늘 레시피로 저녁 해 볼까요?', '반가워요, 또 와 줬네요!', '읽고 싶은 건 검색해 봐요'];
+  var mascotIdx = Math.floor(Math.random() * MASCOTS.length), greetIdx = Math.floor(Math.random() * GREET.length);
+  function shade(hex, f) {
+    var n = parseInt(hex.slice(1), 16), r = n >> 16, g = (n >> 8) & 255, b = n & 255;
+    function c(v) { return Math.max(0, Math.min(255, Math.round(v * f))); }
+    return 'rgb(' + c(r) + ',' + c(g) + ',' + c(b) + ')';
+  }
+  function mascotSvg(m) {
+    var col = m[1], k = m[2], dk = shade(col, 0.78), back = '', front = '', body, ink = '#2b2420', eyeY = 44;
+    var ear = function (x, y, rx, ry, rot, c) { return '<ellipse cx="' + x + '" cy="' + y + '" rx="' + rx + '" ry="' + ry + '" transform="rotate(' + rot + ' ' + x + ' ' + y + ')" fill="' + (c || col) + '"/>'; };
+    body = '<circle cx="40" cy="46" r="26" fill="' + col + '"/>';
+    if (k === 'cat' || k === 'fox') { back = '<path d="M18 34 L22 12 L36 26Z M62 34 L58 12 L44 26Z" fill="' + col + '"/><path d="M22 28 L24 18 L31 25Z M58 28 L56 18 L49 25Z" fill="#ffd9d0"/>';
+      if (k === 'fox') front = '<path d="M14 50 Q40 76 66 50 Q60 70 40 72 Q20 70 14 50Z" fill="#fff"/>'; }
+    if (k === 'bunny') back = ear(30, 16, 6, 16, -10) + ear(50, 16, 6, 16, 10) + ear(30, 17, 3, 11, -10, '#ffb3c6') + ear(50, 17, 3, 11, 10, '#ffb3c6');
+    if (k === 'bear' || k === 'hamster') back = '<circle cx="19" cy="25" r="8" fill="' + col + '"/><circle cx="61" cy="25" r="8" fill="' + col + '"/><circle cx="19" cy="25" r="4" fill="' + dk + '"/><circle cx="61" cy="25" r="4" fill="' + dk + '"/>';
+    if (k === 'panda') { back = '<circle cx="19" cy="25" r="8" fill="#2b2b2b"/><circle cx="61" cy="25" r="8" fill="#2b2b2b"/>'; front = '<ellipse cx="30" cy="45" rx="7" ry="8" fill="#2b2b2b"/><ellipse cx="50" cy="45" rx="7" ry="8" fill="#2b2b2b"/>'; }
+    if (k === 'dog') front = ear(15, 42, 7, 14, 15, dk) + ear(65, 42, 7, 14, -15, dk);
+    if (k === 'gecko') { back = [22, 30, 40, 50, 58].map(function (x, i) { return '<circle cx="' + x + '" cy="' + (i === 2 ? 18 : i % 4 ? 20 : 25) + '" r="3.5" fill="' + dk + '"/>'; }).join(''); body = '<ellipse cx="40" cy="47" rx="29" ry="24" fill="' + col + '"/>'; eyeY = 42;
+      front = '<circle cx="27" cy="42" r="7" fill="#f4e04d"/><circle cx="53" cy="42" r="7" fill="#f4e04d"/>'; }
+    if (k === 'chick' || k === 'duck') { back = '<path d="M36 20 Q40 10 44 20" stroke="' + dk + '" stroke-width="3" fill="none"/>'; front = '<ellipse cx="40" cy="53" rx="' + (k === 'duck' ? 9 : 5) + '" ry="4" fill="#ff9a3c"/>'; }
+    if (k === 'penguin') { front = '<ellipse cx="40" cy="53" rx="17" ry="17" fill="#fff"/><path d="M36 50 L44 50 L40 55Z" fill="#ffb03b"/>'; }
+    if (k === 'frog') { back = '<circle cx="26" cy="24" r="10" fill="' + col + '"/><circle cx="54" cy="24" r="10" fill="' + col + '"/>'; eyeY = 24; }
+    if (k === 'ghost') body = '<path d="M14 46 Q14 20 40 20 Q66 20 66 46 L66 70 L59 64 L52 70 L45 64 L40 70 L35 64 L28 70 L21 64 L14 70Z" fill="' + col + '"/>';
+    if (k === 'alien') back = '<line x1="30" y1="24" x2="24" y2="10" stroke="' + dk + '" stroke-width="2.5"/><line x1="50" y1="24" x2="56" y2="10" stroke="' + dk + '" stroke-width="2.5"/><circle cx="24" cy="10" r="4" fill="#ff6fb1"/><circle cx="56" cy="10" r="4" fill="#ff6fb1"/>';
+    if (k === 'robot') { back = '<line x1="40" y1="22" x2="40" y2="10" stroke="' + dk + '" stroke-width="3"/><circle cx="40" cy="9" r="4" fill="#ff5a36"/>'; body = '<rect x="15" y="22" width="50" height="48" rx="12" fill="' + col + '"/><rect x="11" y="38" width="5" height="14" rx="2" fill="' + dk + '"/><rect x="64" y="38" width="5" height="14" rx="2" fill="' + dk + '"/>'; }
+    if (k === 'sprout') back = '<path d="M40 22 Q40 14 40 10" stroke="#5aa03c" stroke-width="3"/><ellipse cx="33" cy="11" rx="7" ry="4" fill="#5aa03c" transform="rotate(-25 33 11)"/><ellipse cx="47" cy="11" rx="7" ry="4" fill="#5aa03c" transform="rotate(25 47 11)"/>';
+    if (k === 'cloud') body = '<g fill="' + col + '"><circle cx="26" cy="48" r="16"/><circle cx="40" cy="38" r="18"/><circle cx="55" cy="48" r="16"/><rect x="18" y="46" width="44" height="20" rx="10"/></g>';
+    if (k === 'star') { body = '<path d="M40 10 L49 32 L72 33 L54 48 L60 71 L40 58 L20 71 L26 48 L8 33 L31 32Z" fill="' + col + '" stroke="' + dk + '" stroke-width="2" stroke-linejoin="round"/>'; eyeY = 42; }
+    if (k === 'peach') { back = '<ellipse cx="50" cy="20" rx="9" ry="5" fill="#6cc04a" transform="rotate(-20 50 20)"/>'; front = '<path d="M40 22 Q36 40 40 52" stroke="' + dk + '" stroke-width="1.5" fill="none"/>'; }
+    if (k === 'avocado') { body = '<path d="M40 16 Q60 16 64 50 Q64 72 40 72 Q16 72 16 50 Q20 16 40 16Z" fill="' + col + '"/>'; front = '<circle cx="40" cy="58" r="9" fill="#a86a3c"/>'; eyeY = 40; }
+    if (k === 'dino' || k === 'dragon') back = (k === 'dino' ? '<path d="M24 26 L28 14 L33 23 L38 11 L43 22 L48 12 L52 24 L57 16 L58 30Z" fill="' + dk + '"/>' : '<path d="M24 26 L18 8 L32 22Z M56 26 L62 8 L48 22Z" fill="#ffd25a"/>');
+    if (k === 'octopus') back = [16, 26, 36, 46, 56].map(function (x) { return '<ellipse cx="' + (x + 4) + '" cy="68" rx="5" ry="9" fill="' + dk + '"/>'; }).join('');
+    if (k === 'whale') { back = '<path d="M40 20 Q34 8 28 12 M40 20 Q46 8 52 12" stroke="#6fd3ff" stroke-width="3" fill="none"/>'; front = '<path d="M16 54 Q40 74 64 54 Q60 70 40 72 Q20 70 16 54Z" fill="#e9f3ff"/>'; }
+    if (k === 'mushroom') { body = '<rect x="24" y="40" width="32" height="30" rx="12" fill="#fff4e4"/>'; back = '<path d="M8 44 Q10 12 40 12 Q70 12 72 44Z" fill="' + col + '"/><circle cx="28" cy="26" r="5" fill="#fff"/><circle cx="50" cy="22" r="4" fill="#fff"/><circle cx="60" cy="36" r="3.5" fill="#fff"/>'; eyeY = 52; }
+    if (k === 'moon') front = '<path d="M58 28 Q72 46 58 66 Q66 46 58 28Z" fill="' + dk + '" opacity=".5"/>';
+    if (k === 'jelly') body = '<path d="M14 66 Q12 26 40 22 Q68 26 66 66 Q40 72 14 66Z" fill="' + col + '" opacity=".92"/><ellipse cx="30" cy="34" rx="5" ry="3" fill="#fff" opacity=".6"/>';
+    if (k === 'donut') back = '<path d="M16 40 Q20 18 40 18 Q60 18 64 40 Q56 34 50 40 Q44 32 38 40 Q30 32 24 40 Q20 34 16 40Z" fill="#ff8fc1"/>';
+    if (k === 'sheep') back = [[20, 30], [30, 20], [44, 18], [57, 26], [64, 40], [16, 46], [62, 56], [20, 60]].map(function (p) { return '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="10" fill="' + col + '" stroke="#ddd6c8"/>'; }).join('');
+    var eyes = '<circle cx="31" cy="' + eyeY + '" r="3.6" fill="' + ink + '"/><circle cx="49" cy="' + eyeY + '" r="3.6" fill="' + ink + '"/><circle cx="32.3" cy="' + (eyeY - 1.3) + '" r="1.2" fill="#fff"/><circle cx="50.3" cy="' + (eyeY - 1.3) + '" r="1.2" fill="#fff"/>';
+    var my = k === 'frog' ? 50 : eyeY + 8;
+    var face = eyes + '<ellipse cx="24" cy="' + (my - 1) + '" rx="4.5" ry="2.6" fill="#ff8a8a" opacity=".45"/><ellipse cx="56" cy="' + (my - 1) + '" rx="4.5" ry="2.6" fill="#ff8a8a" opacity=".45"/>' +
+      (k === 'chick' || k === 'duck' || k === 'penguin' ? '' : '<path d="M36 ' + my + ' Q40 ' + (my + 4) + ' 44 ' + my + '" stroke="' + ink + '" stroke-width="2" fill="none" stroke-linecap="round"/>');
+    return '<svg viewBox="0 0 80 80" width="64" height="64" aria-hidden="true">' + back + body + front + face + '</svg>';
+  }
+  function mascotHtml() {
+    var m = MASCOTS[mascotIdx];
+    return '<div class="mascot"><button class="mbody" data-mascot aria-label="다른 캐릭터 보기">' + mascotSvg(m) + '</button>' +
+      '<div class="mbubble"><b>' + esc(m[0]) + '</b>' + esc(GREET[greetIdx]) + '</div></div>';
+  }
   function toast(msg) {
     var t = document.getElementById('toast');
     t.textContent = msg; t.classList.add('show');
@@ -349,7 +412,7 @@
       S.cats.filter(function (c) { return hasCat(c[0]) || c[0] === cat; }).map(function (c) {
         return '<a class="sub' + (c[0] === cat ? ' on' : '') + '" href="#/c/' + c[0] + '">' + esc(c[1]) + '</a>';
       }).join('') + '</div>' : '';
-    $list.innerHTML = (sec === 'all' ? todayHtml() : '') +
+    $list.innerHTML = (sec === 'all' ? mascotHtml() + todayHtml() : '') +
       '<div class="sec-title">' + (sec === 'all' ? '최신 기사' : esc(S.name)) +
       '<small>' + arr.length + '건</small></div>' + subs +
       (sec === 'karrot' ? karrotHtml() : '') + (sec === 'luxury' ? luxHtml() : '') + ((sec === 'eat' && (!cat || EAT[cat])) ? '<div class="rule"><b>맛집 선정 기준</b> ' + EAT_RULE + '</div>' : '') + listHtml(arr);
@@ -776,6 +839,13 @@
   document.addEventListener('click', function (e) {
     if (drag && drag.moved && e.target.closest(HSCROLL)) { e.preventDefault(); e.stopPropagation(); }
   }, true);
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('[data-mascot]');
+    if (!b) return;
+    mascotIdx = (mascotIdx + 1 + Math.floor(Math.random() * (MASCOTS.length - 1))) % MASCOTS.length;
+    greetIdx = Math.floor(Math.random() * GREET.length);
+    var box = b.closest('.mascot'); if (box) box.outerHTML = mascotHtml();
+  });
   document.addEventListener('dragstart', function (e) {
     if (e.target.closest && e.target.closest(HSCROLL)) e.preventDefault();
   });
