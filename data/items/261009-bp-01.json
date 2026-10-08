@@ -1,0 +1,39 @@
+{
+ "title": "AI 챗봇에 '이 혈압계 검증됐나' 물었더니…정답률 63~91%",
+ "originalTitle": "Top AI tools accurately identified validated home BP monitors only about 2/3 of the time",
+ "source": "American Heart Association",
+ "url": "https://newsroom.heart.org/news/top-ai-tools-accurately-identified-validated-home-bp-monitors-only-about-23-of-the-time",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "미국심장협회(AHA)의 2025 고혈압 가이드라인은 가정에서 쓰는 혈압계로 독립 기관의 정확도 검증을 통과한 제품을 권한다. 그런데 요즘은 특정 혈압계가 검증 제품인지 AI 챗봇에 묻는 사람이 많아, 캐나다 연구진이 그 답이 얼마나 정확한지 시험했다.",
+  "연구진은 2026년 4~5월 가정용 혈압계 324종(검증 145종, 미검증 179종)을 놓고 구글 제미나이, 마이크로소프트 코파일럿, 챗GPT, 퍼플렉시티에 세 가지 방식으로 물었다. 비교 기준은 StrideBP·ValidateBP·Hypertension Canada 등록부였다. 정답률은 제미나이가 86~91%로 가장 높았고, 나머지 세 도구는 63~83%였다. 네 도구 모두 실제 검증된 제품을 '기준 미달'로 잘못 답하는 경우가 있었고, 같은 질문을 다시 하면 답이 바뀌기도 했다.",
+  "발표자인 몬트리올대 애나 소리아노 박사는 대부분의 도구가 '동전 던지기보다 조금 나은 수준'이라며, 잘못된 답 때문에 부정확한 혈압계를 믿게 되면 진단·치료가 엇나갈 수 있다고 우려했다. 이번 결과는 AHA 고혈압 학술대회(2026년 10월 7~11일)에서 발표된 동료심사 전 초록이다. 연구진은 혈압계 검증 여부를 공개 등록부(validatebp.org 등)에서 직접 확인하고, 가정혈압 측정·치료는 의료진과 상의하라고 권했다."
+ ],
+ "keyPoints": [
+  "AI 4종, 혈압계 검증 여부 정답률 63~91%",
+  "검증된 제품을 오히려 '미달'로 오답",
+  "검증 여부는 공식 등록부에서 직접 확인"
+ ],
+ "facts": [
+  [
+   "출처기관",
+   "미국심장협회(AHA) · 몬트리올대 연구진"
+  ],
+  [
+   "근거 종류",
+   "연구(학회 발표 초록, 동료심사 전)"
+  ],
+  [
+   "대상",
+   "가정에서 혈압을 재는 고혈압 환자·일반인"
+  ],
+  [
+   "발표",
+   "AHA Hypertension Scientific Sessions 2026, 포스터 TH125"
+  ]
+ ],
+ "image": "https://iprsoftwaremedia.com/67/files/20251/67ae9257d8ee0a1a97402bf7_BP%20check%202/BP%20check%202_hero.jpg?v=35cc420b-9d5c-42f2-8429-e9380706ffad",
+ "id": "261009-bp-01",
+ "category": "bp",
+ "collectedAt": "2026-10-09T00:11:04+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "혈압 잴 때 팔 늘어뜨리면 수축기 6.5mmHg 높게 나온다",
+ "originalTitle": "This common mistake can add nearly 7 points to your blood pressure reading",
+ "source": "ScienceDaily (Johns Hopkins Medicine)",
+ "url": "https://www.sciencedaily.com/releases/2026/09/260928100606.htm",
+ "publishedAt": "2026-09-30",
+ "summary": [
+  "진료 현장이나 집에서 혈압을 잴 때 팔을 무릎에 올리거나 옆으로 늘어뜨리는 경우가 흔하지만, 가이드라인은 팔을 책상 위에 받치고 커프를 심장 높이에 맞추라고 한다. 미국 존스홉킨스대 연구진이 팔 자세가 실제로 수치를 얼마나 바꾸는지 확인한 연구(JAMA Internal Medicine 게재)를 ScienceDaily가 소개했다. 원 논문은 2024년 발표됐다.",
+  "18~80세 성인 133명을 무작위로 나눠 책상 위·무릎 위·옆으로 늘어뜨린 세 자세에서 자동혈압계로 반복 측정했다. 책상 자세와 비교해 무릎 위에선 수축기 3.9mmHg·이완기 4.0mmHg, 팔을 늘어뜨리면 수축기 6.5mmHg·이완기 4.4mmHg 높게 나왔다. 연구진은 이 정도 차이면 정상 범위 수치가 고혈압 단계로 잘못 분류될 수 있다고 설명했다.",
+  "연구진은 측정 때 팔을 단단히 받치고, 팔 굵기에 맞는 커프를 심장 높이에 두며, 등을 기대고 두 발을 바닥에 붙인 채 다리를 꼬지 말라고 권했다. 혈압이 계속 높게 나오면 측정 자세부터 점검하되, 진단과 치료는 의료진과 상의해야 한다. 자동혈압계에서 얻은 결과라 다른 장비에는 그대로 적용되지 않을 수 있다."
+ ],
+ "keyPoints": [
+  "팔 늘어뜨리면 수축기 6.5mmHg 과대 측정",
+  "무릎 위 자세도 약 4mmHg 높게 나와",
+  "팔은 책상에, 커프는 심장 높이에"
+ ],
+ "facts": [
+  [
+   "출처기관",
+   "존스홉킨스 의대(JAMA Internal Medicine 게재)"
+  ],
+  [
+   "근거 종류",
+   "연구(무작위 교차 측정 연구, 2024년 논문 재소개)"
+  ],
+  [
+   "대상",
+   "진료실·가정에서 혈압을 재는 성인"
+  ]
+ ],
+ "image": "https://www.sciencedaily.com/images/1920/man-checking-his-own-blood-pressure.webp",
+ "id": "261009-bp-03",
+ "category": "bp",
+ "collectedAt": "2026-10-09T00:11:04+09:00"
+}

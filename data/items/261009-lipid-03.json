@@ -1,0 +1,35 @@
+{
+ "title": "CRISPR 유전자 편집 한 번에 LDL 52.5%↓…효과 1년 유지(NEJM)",
+ "originalTitle": "One CRISPR treatment cut \"bad\" cholesterol in half for a full year",
+ "source": "ScienceDaily (Cleveland Clinic)",
+ "url": "https://www.sciencedaily.com/releases/2026/09/260925005434.htm",
+ "publishedAt": "2026-09-27",
+ "summary": [
+  "미국 클리블랜드 클리닉 연구팀이 간에서 혈중 지방 조절 유전자 ANGPTL3를 끄는 CRISPR-Cas9 치료제 'CTX310'의 1년 추적 결과를 2026 유럽심장학회(ESC)에서 발표하고 NEJM에 동시 게재했다. 기존 약으로 지질이 충분히 조절되지 않은 환자 15명이 한 번의 정맥 주입을 받은 1상 시험이다.",
+  "최고 용량군에서 12개월 뒤 LDL 콜레스테롤은 기준치보다 52.5%, 중성지방은 47.8% 낮아졌다. 감소 효과는 투여 2개월째부터 나타나 1년간 유지됐고, 1년 동안 치료와 관련된 중대한 이상반응은 보고되지 않았다. 제1저자 루크 라핀 박사는 효과의 지속성이 인상적이라며 더 많은 환자에서 연구하겠다고 밝혔다.",
+  "다만 15명 대상의 초기 시험이고, 미국 FDA 권고에 따라 15년간 장기 안전성 추적이 예정돼 있다. 시험은 개발사(CRISPR Therapeutics)의 후원을 받았다. 실제 진료에 쓰이기까지는 대규모 임상이 더 필요한 실험적 치료다."
+ ],
+ "keyPoints": [
+  "ANGPTL3 끄는 CRISPR 치료 1회 주입",
+  "최고 용량 1년 뒤 LDL 52.5%·중성지방 47.8%↓",
+  "15명 1상, 장기 안전성 검증 필요"
+ ],
+ "image": "https://www.sciencedaily.com/images/1920/cholesterol-plaque-in-bloodstream.webp",
+ "facts": [
+  [
+   "출처기관",
+   "Cleveland Clinic / NEJM(DOI 10.1056/NEJMc2609825) / ESC 2026"
+  ],
+  [
+   "근거 종류",
+   "연구(1상 임상, 15명)"
+  ],
+  [
+   "대상",
+   "약물로 조절 안 되는 이상지질혈증 환자"
+  ]
+ ],
+ "id": "261009-lipid-03",
+ "category": "lipid",
+ "collectedAt": "2026-10-09T00:11:04+09:00"
+}

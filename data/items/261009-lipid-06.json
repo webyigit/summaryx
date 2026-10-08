@@ -1,0 +1,35 @@
+{
+ "title": "DNA 분자로 PCSK9 억제…생쥐 콜레스테롤 47%↓, 사람 적용은 아직",
+ "originalTitle": "DNA treatment cuts bad cholesterol by nearly 50% without statins",
+ "source": "ScienceDaily (University of Barcelona)",
+ "url": "https://www.sciencedaily.com/releases/2026/09/260909225602.htm",
+ "publishedAt": "2026-09-09",
+ "summary": [
+  "스페인 바르셀로나대와 미국 오리건대 연구팀이 LDL 콜레스테롤 제거를 방해하는 단백질 PCSK9의 생성을 줄이는 DNA 기반 분자(폴리퓨린 헤어핀, PPRH)를 개발해 학술지 Biochemical Pharmacology에 발표했다. PCSK9는 이미 주사형 억제제가 쓰이는 표적이다.",
+  "사람 간세포 실험에서 'HpE12' 분자는 PCSK9 RNA를 74%, 단백질을 87% 줄였다. 사람 PCSK9 유전자를 가진 형질전환 생쥐에게 한 번 주사하자 3일째 혈중 PCSK9가 50%, 콜레스테롤이 47% 줄었다. 연구팀은 합성 비용이 낮고 안정적이라는 점을 장점으로 들었다.",
+  "다만 결과는 세포와 생쥐에서만 나온 것으로, 사람에게 안전하고 효과적인지는 추가 연구가 필요하다. 제목의 '스타틴 없이'는 스타틴과 직접 비교한 결과가 아니며, 현재 복용 중인 약을 대신할 수 있다는 뜻으로 받아들이면 안 된다."
+ ],
+ "keyPoints": [
+  "PCSK9 생성 막는 DNA 분자 PPRH 개발",
+  "생쥐 1회 주사로 콜레스테롤 47%↓",
+  "세포·동물 단계, 사람 효과 미확인"
+ ],
+ "image": "https://www.sciencedaily.com/images/1920/coronary-artery-disease.webp",
+ "facts": [
+  [
+   "출처기관",
+   "University of Barcelona·University of Oregon / Biochemical Pharmacology(DOI 10.1016/j.bcp.2025.116976)"
+  ],
+  [
+   "근거 종류",
+   "연구(전임상: 세포·생쥐)"
+  ],
+  [
+   "대상",
+   "고콜레스테롤혈증 신약 연구"
+  ]
+ ],
+ "id": "261009-lipid-06",
+ "category": "lipid",
+ "collectedAt": "2026-10-09T00:11:04+09:00"
+}
