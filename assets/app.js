@@ -10,6 +10,9 @@
     { id: 'design', name: '디자인', cats: [['design', '디자인 뉴스'], ['cardesign', '자동차'], ['productd', '제품·산업'], ['brand', '브랜딩·그래픽'], ['package', '패키지'], ['uxui', 'UX/UI'], ['arch', '건축·인테리어']] },
     { id: 'life', name: '라이프', cats: [['fashion', '패션'], ['food', '푸드'], ['travel', '여행'], ['health', '건강']] },
     { id: 'wine', name: '와인', cats: [['wine', '업계 뉴스'], ['winepick', '추천·리뷰'], ['wineregion', '산지·빈티지'], ['winepair', '페어링'], ['winestudy', '와인 상식'], ['winetype', '세계 인기 와인'], ['winery', '와이너리'], ['cellar', '셀러·보관'], ['winedeal', '할인 정보'], ['wineko', '국내 와인']] },
+    { id: 'eat', name: '맛집·맛도리', cats: [['eatseoul','서울 맛집'],['eatgg','경기 맛집'],['eatdj','대전 맛집'],['eatsj','세종 맛집'],['worldfood','세계 맛도리']] },
+    { id: 'shop', name: '쇼핑', cats: [['shopguide','믿을 만한 쇼핑몰'],['shopmen','남성 의류'],['shopdeal','할인 행사']] },
+    { id: 'toon', name: '웹툰', cats: [['toon','웹툰 소식'],['toonhot','인기·추천']] },
     { id: 'teen', name: '학생', cats: [['game', '게임'], ['webtoon', '웹툰·애니'], ['sports', '스포츠'], ['science', '과학'], ['edu', '교육·진로']] },
     { id: 'ent', name: '연예·트렌드', cats: [['ent', '연예'], ['kpop', 'K-POP'], ['shorts', '쇼츠'], ['meme', '밈']] },
     { id: 'bid', name: '나라장터', cats: [['g2b', '나라장터']] },
@@ -519,7 +522,7 @@
       '<p class="note">' + (isVideo ? '영상 소개는 AI가 정리한 내용입니다. 정확한 내용은 영상을 확인해 주세요.'
         : a.category === 'g2b' ? '공고 내용은 AI가 정리한 것입니다. 응찰 전 반드시 나라장터 원문 공고와 제안요청서를 확인해 주세요.'
         : '이 글은 원문 기사를 바탕으로 AI가 요약한 내용입니다. 정확한 내용은 원문을 확인해 주세요.') + '</p>' +
-      '<a class="cta" href="' + esc(a.url) + '" target="_blank" rel="noopener">' + (isVideo ? '유튜브에서 보기 ›' : a.category === 'g2b' ? '공고 원문 보기 ›' : a.category === 'paper' ? '논문 원문 보기 ›' : '원문 보기 ›') + '</a>' +
+      '<a class="cta" href="' + esc(a.url) + '" target="_blank" rel="noopener">' + (isVideo ? '유튜브에서 보기 ›' : a.category === 'g2b' ? '공고 원문 보기 ›' : a.category === 'paper' ? '논문 원문 보기 ›' : a.category === 'shopguide' ? '사이트 바로가기 ›' : '원문 보기 ›') + '</a>' +
       '<div class="actions">' +
         '<button class="act' + (v === 1 ? ' on' : '') + '" data-act="up">' + ICON.up + '좋아요</button>' +
         '<button class="act' + (v === -1 ? ' on' : '') + '" data-act="down">' + ICON.down + '싫어요</button>' +
