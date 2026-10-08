@@ -1,0 +1,35 @@
+{
+ "title": "빛을 못 보던 사람들, 유전자 치료와 특수 고글로 '문'을 찾았다",
+ "originalTitle": "Gene therapy and special goggles give some blind people limited sight",
+ "source": "Science News",
+ "url": "https://www.sciencenews.org/article/cells-detect-light-blind-vision",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "'망막색소변성증'은 눈 안쪽 망막에서 빛을 느끼는 세포가 조금씩 망가지는 유전 질환이에요. 연구팀은 망가진 세포를 고치는 대신, 원래 빛을 느끼지 않는 다른 망막 세포가 빛에 반응하도록 바꾸는 방법을 썼어요. 이를 '광유전학'이라고 해요. 올해 노벨 생리의학상도 광유전학에 돌아갔어요.",
+  "연구팀은 조류(말무리)에서 나온 빛 감지 단백질의 유전 정보를 환자의 더 안 보이는 쪽 눈에 넣어, 신호를 뇌로 보내는 세포가 호박색 빛에 반응하게 했어요. 환자는 카메라가 달린 특수 고글을 쓰는데, 고글이 밝기 변화를 감지해 호박색 빛으로 망막에 쏴 줘요. 그 결과 10명 중 7명이 빛을 더 잘 느끼게 됐고, 행동 시험을 마친 8명 중 4명은 고글을 쓰고 문을 찾거나 선을 따라갈 수 있었어요.",
+  "아직 글자를 읽거나 얼굴을 알아보진 못해요. 또 시신경이 살아 있어야 하는 한계도 있어요. 하지만 원리가 실제로 통한다는 걸 보여 준 연구로, 결과는 10월 7일 의학 학술지 NEJM에 실렸어요."
+ ],
+ "keyPoints": [
+  "광유전학으로 망막 세포가 빛 느끼게 바꿔",
+  "10명 중 7명 빛 감도 개선",
+  "4명은 고글 쓰고 문 찾기·선 따라가기 성공"
+ ],
+ "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/10/100726_NB_optgenetics_main.jpg",
+ "facts": [
+  [
+   "분야",
+   "의학·생명과학"
+  ],
+  [
+   "발표",
+   "New England Journal of Medicine(2026-10-07)"
+  ],
+  [
+   "연구 책임",
+   "조제알랭 사헬·보톤드 로스카"
+  ]
+ ],
+ "id": "261009-science-14",
+ "category": "science",
+ "collectedAt": "2026-10-09T07:32:41+09:00"
+}

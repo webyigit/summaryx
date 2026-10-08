@@ -215,6 +215,15 @@
     "new music",
     "album spotlight"
    ]
+  },
+  {
+   "name": "데일리굿뉴스",
+   "url": "https://www.goodnews1.com/",
+   "keywords": [
+    "찬양",
+    "예배인도자",
+    "CCM"
+   ]
   }
  ],
  "christian": [
@@ -495,54 +504,6 @@
  ],
  "meme": [
   {
-   "name": "HSADzine (HS애드 공식 블로그) - 월간 밈",
-   "url": "https://blog.hsad.co.kr/category/%ED%8A%B8%EB%A0%8C%EB%93%9C/%EC%9D%B4%EB%8B%AC%EC%9D%98%20%ED%8A%B8%EB%A0%8C%EB%93%9C%20%EB%B0%88%EC%A7%91",
-   "keywords": [
-    "월간 밈",
-    "이달의 트렌드 밈집"
-   ]
-  },
-  {
-   "name": "고구마팜",
-   "url": "https://gogumafarm.kr/tag/%EB%B0%88/",
-   "keywords": [
-    "최신 밈 모음",
-    "유행 밈"
-   ]
-  },
-  {
-   "name": "캐릿(Careet) - 요즘 뜨는 밈",
-   "url": "https://www.careet.net/Content/Series/1",
-   "keywords": [
-    "요즘 뜨는 밈",
-    "Z세대 신조어"
-   ]
-  },
-  {
-   "name": "Know Your Meme",
-   "url": "https://knowyourmeme.com/editorials",
-   "keywords": [
-    "Meme Of The Month",
-    "meme explained"
-   ]
-  },
-  {
-   "name": "NapoleonCat Blog",
-   "url": "https://napoleoncat.com/blog/trending-memes/",
-   "keywords": [
-    "trending memes",
-    "monthly meme report"
-   ]
-  },
-  {
-   "name": "Forbes",
-   "url": "https://www.forbes.com/",
-   "keywords": [
-    "TikTok meme explained",
-    "viral trend"
-   ]
-  },
-  {
    "name": "Know Your Meme Trending (Guides)",
    "url": "https://trending.knowyourmeme.com/",
    "keywords": [
@@ -551,11 +512,25 @@
    ]
   },
   {
+   "name": "Know Your Meme",
+   "url": "https://knowyourmeme.com/editorials",
+   "keywords": [
+    "meme explained"
+   ]
+  },
+  {
    "name": "인스타공백닷컴 밈 사전",
    "url": "https://www.instablank.com/meme?year=2026",
    "keywords": [
     "월별 밈",
     "최신 유행 밈"
+   ]
+  },
+  {
+   "name": "고구마팜",
+   "url": "https://gogumafarm.kr/tag/%EB%B0%88/",
+   "keywords": [
+    "최신 밈 모음"
    ]
   },
   {
@@ -732,12 +707,27 @@
  "ent": [
   {
    "name": "Soompi",
-   "url": "https://www.soompi.com/",
+   "url": "https://www.soompi.com/feed",
    "keywords": [
-    "drama cast",
-    "stills",
-    "teaser",
-    "variety"
+    "drama preview",
+    "variety",
+    "teaser"
+   ]
+  },
+  {
+   "name": "MyDramaList News",
+   "url": "https://news.mydramalist.com/trending",
+   "keywords": [
+    "K-drama teaser",
+    "stills"
+   ]
+  },
+  {
+   "name": "HanCinema",
+   "url": "https://www.hancinema.net/",
+   "keywords": [
+    "Dramas Starting Today",
+    "premiere"
    ]
   },
   {
@@ -745,33 +735,16 @@
    "url": "https://www.koreatimes.co.kr/entertainment",
    "keywords": [
     "K-drama",
-    "variety",
-    "Netflix Korea"
+    "short-form drama"
    ]
   },
   {
-   "name": "The Korea Times Shows & Dramas",
-   "url": "https://www.koreatimes.co.kr/entertainment/shows-dramas",
+   "name": "스포츠경향 연예",
+   "url": "https://sports.khan.co.kr/entertainment",
    "keywords": [
-    "K-drama",
-    "variety show"
-   ]
-  },
-  {
-   "name": "HanCinema",
-   "url": "https://www.hancinema.net/",
-   "keywords": [
-    "cast",
-    "Dramas Starting Today"
-   ]
-  },
-  {
-   "name": "MyDramaList News",
-   "url": "https://news.mydramalist.com/",
-   "keywords": [
-    "K-drama stills",
-    "casting",
-    "premiere"
+    "시상식",
+    "드라마",
+    "예능"
    ]
   }
  ],
@@ -888,11 +861,19 @@
  ],
  "shorts": [
   {
+   "name": "kabo.sh Trending Shorts (US)",
+   "url": "https://kabo.sh/trending/youtube-shorts-this-week",
+   "keywords": [
+    "주간 인기 쇼츠",
+    "조회수 순위",
+    "video ID"
+   ]
+  },
+  {
    "name": "YouTube oEmbed API (영상 존재·제목·채널 검증)",
    "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/shorts/VIDEO_ID&format=json",
    "keywords": [
     "oembed",
-    "videoId 검증",
     "width 113/height 200 = 세로(쇼츠)"
    ]
   },
@@ -900,26 +881,16 @@
    "name": "kworb.net YouTube Trending (한국)",
    "url": "https://kworb.net/youtube/trending/kr.html",
    "keywords": [
-    "한국 인기 동영상",
-    "video ID 목록"
+    "한국 인기 동영상(대부분 가로 영상)"
    ]
   },
   {
-   "name": "Bing News RSS (키워드 최신순 정렬)",
+   "name": "Bing News RSS",
    "url": "https://www.bing.com/news/search?q=%EC%98%81%EC%83%81+%ED%99%94%EC%A0%9C+%EC%A1%B0%ED%9A%8C%EC%88%98&qft=sortbydate%3d%221%22&format=rss",
    "keywords": [
     "영상 화제 조회수",
-    "쇼츠 조회수 돌파",
+    "쇼츠 화제",
     "숏폼 영상 화제"
-   ]
-  },
-  {
-   "name": "WebSearch (youtube.com 한정)",
-   "url": "https://www.youtube.com/",
-   "keywords": [
-    "#shorts 아시안게임",
-    "크게 울어라 SHORT FILM",
-    "일본판 우영우 shorts"
    ]
   }
  ],
@@ -1527,21 +1498,16 @@
    "url": "https://www.hangyo.com/news/articleList.html?view_type=sm",
    "keywords": [
     "대입개편",
-    "수능",
     "고교학점제",
-    "교육부 국감",
-    "학생 캠프"
+    "교원단체"
    ]
   },
   {
    "name": "에듀진",
    "url": "https://www.edujin.co.kr/news/articleList.html?view_type=sm",
    "keywords": [
-    "학생부",
-    "수시",
-    "논술",
-    "학종",
-    "고교 학교생활"
+    "예비 고1",
+    "진로"
    ]
   },
   {
@@ -1549,26 +1515,28 @@
    "url": "https://www.edupress.kr/news/articleList.html?view_type=sm",
    "keywords": [
     "교육감",
-    "교원 선발",
-    "교육정책"
+    "원서접수",
+    "국감"
    ]
   },
   {
-   "name": "뉴스1 교육",
-   "url": "https://www.news1.kr/society/education",
+   "name": "한국대학신문",
+   "url": "https://news.unn.net/news/articleList.html?view_type=sm",
    "keywords": [
-    "교육부",
-    "학생 대회",
-    "수능"
+    "국감",
+    "수시",
+    "과기원",
+    "국립의대"
    ]
   },
   {
    "name": "뉴시스",
    "url": "https://www.newsis.com/society/list/?cid=10200&scid=10204",
    "keywords": [
-    "수험생",
     "청소년",
-    "수능"
+    "AI 가이드라인",
+    "근시",
+    "고교학점제 박람회"
    ]
   }
  ],

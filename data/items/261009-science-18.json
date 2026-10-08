@@ -1,0 +1,35 @@
+{
+ "title": "역대 가장 정확한 원자시계…'1초'의 정의가 바뀔 수도",
+ "originalTitle": "Physicists unveil the most accurate atomic clock ever — and it could literally redefine the second",
+ "source": "Live Science",
+ "url": "https://www.livescience.com/physics-mathematics/physicists-unveil-the-most-accurate-atomic-clock-ever-and-it-could-literally-redefine-the-second",
+ "publishedAt": "2026-10-01",
+ "summary": [
+  "원자시계는 원자가 내는 아주 규칙적인 떨림으로 시간을 재는 시계예요. 1968년부터는 세슘-133 원자의 떨림 91억 9000만여 번을 '1초'로 정해 쓰고 있어요. 이런 시계는 GPS와 인터넷 같은 곳에 꼭 필요해요.",
+  "싱가포르국립대 물리학자들이 루테튬-176 원자를 이용해 지금까지 가장 정확한 원자시계를 만들었어요. 정확도가 소수점 19자리에 이르고, 이전 기록보다 41% 좋아졌어요. 기존 초정밀 시계들은 온도·자기장·중력의 작은 변화에도 흔들렸는데, 이 시계는 온도가 5도나 오르내려도 정확했어요. 중력의 영향을 줄이는 기술도 썼어요. 연구는 9월 23일 '네이처'에 실렸어요.",
+  "국제도량형국은 2030년쯤 1초의 정의를 새로 정할 예정인데, 루테튬이 유력 후보가 될 수 있어요. 이렇게 정밀한 시계로는 중력 상수 같은 자연의 기본 숫자가 정말 변하지 않는지도 시험해 볼 수 있어요."
+ ],
+ "keyPoints": [
+  "루테튬-176 원자시계, 정확도 소수점 19자리",
+  "이전 기록보다 41% 향상, 온도 변화에 강해",
+  "2030년 '1초' 새 정의 후보"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "분야",
+   "물리"
+  ],
+  [
+   "연구팀",
+   "싱가포르국립대"
+  ],
+  [
+   "발표",
+   "Nature(2026-09-23)"
+  ]
+ ],
+ "id": "261009-science-18",
+ "category": "science",
+ "collectedAt": "2026-10-09T07:32:41+09:00"
+}
