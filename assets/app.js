@@ -127,6 +127,15 @@
         return '<a class="sub" href="https://www.daangn.com/kr/buy-sell/?search=' + encodeURIComponent(q) + '" target="_blank" rel="noopener">' + esc(q) + '</a>';
       }).join('') + '</div></div>';
   }
+  // 아키인사이드는 robots.txt로 수집이 막혀 있어 본문 요약 없이 검색에 나온 제목·원문 링크만 보여준다
+  var archLinks = null;
+  function archHtml() {
+    if (!archLinks || !(archLinks.items || []).length) return '';
+    return '<div class="rule"><b>아키인사이드 새 글</b> 이 매체는 자동 수집을 막고 있어 요약 없이 제목만 모았어요. 누르면 원문이 열려요.' +
+      '<ul class="alinks">' + archLinks.items.slice(0, 10).map(function (x) {
+        return '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.title) + '</a></li>';
+      }).join('') + '</ul></div>';
+  }
   // 명품 가격대: 원문에 적힌 국내 판매가 기준. 가격이 없으면 '전체'에만 보인다
   var LUX_BAND = [['', '전체'], ['10', '10만원대'], ['50', '50만원대'], ['100', '100만원 이상']];
   var LUX_LIM = { '10': [1e5, 5e5 - 1], '50': [5e5, 1e6 - 1], '100': [1e6, Infinity] };
@@ -251,8 +260,10 @@
   }
   Promise.all([
     fetchJson('data/articles.json'),
-    fetchJson('data/daily.json').catch(function () { return null; })
+    fetchJson('data/daily.json').catch(function () { return null; }),
+    fetchJson('data/archlinks.json').catch(function () { return null; })
   ]).then(function (res) {
+    archLinks = res[2];
     addArticles(res[0].articles || []);
     state.updatedAt = res[0].updatedAt;
     state.daily = res[1];
@@ -415,7 +426,7 @@
     $list.innerHTML = (sec === 'all' ? mascotHtml() + todayHtml() : '') +
       '<div class="sec-title">' + (sec === 'all' ? '최신 기사' : esc(S.name)) +
       '<small>' + arr.length + '건</small></div>' + subs +
-      (sec === 'karrot' ? karrotHtml() : '') + (sec === 'luxury' ? luxHtml() : '') + ((sec === 'eat' && (!cat || EAT[cat])) ? '<div class="rule"><b>맛집 선정 기준</b> ' + EAT_RULE + '</div>' : '') + listHtml(arr);
+      (sec === 'karrot' ? karrotHtml() : '') + (sec === 'luxury' ? luxHtml() : '') + ((sec === 'archi' && !cat) ? archHtml() : '') + ((sec === 'eat' && (!cat || EAT[cat])) ? '<div class="rule"><b>맛집 선정 기준</b> ' + EAT_RULE + '</div>' : '') + listHtml(arr);
   }
 
   function bookmarksView() {

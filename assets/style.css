@@ -336,3 +336,7 @@ main { padding: 0 16px; }
 @media (prefers-reduced-motion: reduce) { .mascot .mbody { animation: none; } }
 /* 더블탭 확대는 막고, 핀치 줌·스크롤은 그대로 */
 html, body, a, button, input, .item, .chip, .sub { touch-action: manipulation; }
+
+.alinks { margin: 8px 0 0; padding-left: 18px; }
+.alinks li { margin: 4px 0; }
+.alinks a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
