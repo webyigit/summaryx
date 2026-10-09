@@ -1,0 +1,39 @@
+{
+ "title": "프랑스 와인 라벨의 'AOC'는 무슨 뜻일까",
+ "originalTitle": "AOC Wine: Decoding French Wine Classifications",
+ "source": "Wine Folly",
+ "url": "https://winefolly.com/deep-dive/what-is-aoc-wine/",
+ "publishedAt": null,
+ "summary": [
+  "프랑스 와인 라벨에서 자주 보는 AOC는 'Appellation d'Origine Contrôlée(원산지 통제 명칭)'의 약자로, EU 기준의 AOP(원산지 보호 명칭)에 해당한다. 각 AOC는 지리적 범위와 함께 허용 품종, 식재 밀도, 수확량 같은 생산 규칙을 정한다. 1935년 설립된 INAO가 이 기준을 관리하며, 첫 AOC는 샤토뇌프 뒤 파프였다.",
+  "1937년까지 보르도·부르고뉴·샹파뉴의 AOC가 정해졌다. AOC는 지역 단위, 하위 지역, 마을(코뮌), 크뤼·프리미에 크뤼 순으로 범위가 좁아지는 계층 구조를 갖는다. 아래 단계인 IGP는 품종과 양조 방식이 더 자유롭고, 2025년엔 일부 지역에서 알코올 6%까지 낮춘 IGP 와인이 승인됐다. 가장 규제가 느슨한 뱅 드 프랑스는 구체적 지역을 표기하지 않아도 된다.",
+  "등급이 낮다고 품질이 낮은 것은 아니다. 2015년 리베르 파테르 그라브 와인은 뱅 드 프랑스로 강등됐는데도 병당 5,500달러에 팔렸다. 원문은 2025년 기준 AOC 363개, IGP 75개라고 설명하며, AOP 표기는 원산지와 엄격한 규칙을 뜻할 뿐 내 입맛에 맞는다는 보증은 아니라고 강조한다."
+ ],
+ "keyPoints": [
+  "AOC=원산지 통제 명칭, EU 기준 AOP",
+  "AOC→IGP→뱅 드 프랑스 순으로 규제 완화",
+  "등급은 원산지·규칙 표시일 뿐 맛 보증 아냐"
+ ],
+ "image": "https://media.winefolly.com/French-Wine-folly-Classifications-AOC-Appellation.png",
+ "facts": [
+  [
+   "주제",
+   "라벨 읽기·등급 제도"
+  ],
+  [
+   "국가",
+   "프랑스"
+  ],
+  [
+   "관리 기관",
+   "INAO(1935년 설립)"
+  ],
+  [
+   "필자",
+   "Phil Keeling"
+  ]
+ ],
+ "id": "261010-winestudy-06",
+ "category": "winestudy",
+ "collectedAt": "2026-10-10T05:31:25+09:00"
+}

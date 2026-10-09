@@ -1,0 +1,35 @@
+{
+ "title": "지방간이 간염·섬유화로 악화되는 고리…효소 'UBE2N' 줄면 진행, 되살리자 개선(생쥐)",
+ "originalTitle": "This protective enzyme could help stop fatty liver disease from getting worse",
+ "source": "ScienceDaily",
+ "url": "https://www.sciencedaily.com/releases/2026/10/261002080020.htm",
+ "publishedAt": "2026-10-03",
+ "summary": [
+  "대사이상 지방간질환(MASLD, 옛 비알코올성 지방간)은 미국에서만 약 1억 명이 앓고, 이 중 20~25%는 염증·세포 손상·흉터가 생기는 MASH로 악화한다. 현재 치료는 생활습관 교정 위주이고 약은 제한적이다. 미국 시더스-사이나이 등 다기관 연구팀은 간세포 속 효소 UBE2N의 역할을 살폈다(Nature Metabolism).",
+  "연구진은 질환이 진행될수록 간세포의 UBE2N 수치가 떨어지고, 수치가 낮을수록 손상 세포와 간 손상이 많다는 것을 확인했다. 이 효소는 손상된 미토콘드리아를 치우고 지방 분해를 돕는 것으로 보였다. 실험용 생쥐의 간에서 UBE2N을 정상 수준으로 회복시키자 지방 축적, 염증, 섬유화가 모두 줄었다.",
+  "다만 생쥐 대상 전임상 연구로 사람 대상 시험은 아직 없고, 효과 크기도 기사에 제시되지 않았다. 연구진은 이 경로를 강화하는 방법이 기존 치료를 보완할 수 있는지 후속 연구로 확인하겠다고 밝혔다."
+ ],
+ "keyPoints": [
+  "지방간 진행할수록 간세포 UBE2N 감소",
+  "생쥐 간에서 회복시키자 지방·염증·흉터 줄어",
+  "전임상 단계, 새 치료 표적 후보"
+ ],
+ "image": "https://www.sciencedaily.com/images/1920/diseased-liver-illustration.webp",
+ "facts": [
+  [
+   "출처기관",
+   "미국 시더스-사이나이 등 다기관"
+  ],
+  [
+   "근거 종류",
+   "연구(전임상, Nature Metabolism 2026)"
+  ],
+  [
+   "대상",
+   "간세포·생쥐"
+  ]
+ ],
+ "id": "261010-health-05",
+ "category": "health",
+ "collectedAt": "2026-10-10T05:31:25+09:00"
+}

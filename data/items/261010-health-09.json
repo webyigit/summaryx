@@ -1,0 +1,35 @@
+{
+ "title": "고위험 골수이형성증후군 줄기세포, 'NAD 에너지 중독'이 약점…NAMPT 차단 효과(전임상)",
+ "originalTitle": "Cancer stem cells have an \"energy addiction\" scientists may be able to exploit",
+ "source": "ScienceDaily",
+ "url": "https://www.sciencedaily.com/releases/2026/09/260930020319.htm",
+ "publishedAt": "2026-10-02",
+ "summary": [
+  "골수이형성증후군(MDS)은 주로 노인에게 생기는 혈액질환으로 미국에서 매년 1만~2만 명이 새로 진단되며, 고위험형은 급성 골수성 백혈병으로 진행할 수 있다. 미국 콜로라도대 안슈츠 암센터 스웨타 파텔 박사 등은 질병을 이끄는 MDS 줄기세포의 대사 약점을 찾았다(Blood Cancer Discovery).",
+  "환자 유래 세포와 동물 모델 실험에서 고위험 MDS 줄기세포는 정상 조혈모세포보다 세포 에너지 생산의 핵심 분자 NAD에 훨씬 더 의존했고, NAD를 재활용하는 '샐비지 경로'에 기대고 있었다. 이 경로의 효소 NAMPT를 막자 NAD가 줄어 암 줄기세포가 에너지 위기에 빠지고 수가 감소했지만, 정상 줄기세포는 이를 더 잘 보완했다.",
+  "세포·동물 단계의 전임상 연구로, 기사에는 구체적인 수치나 효과 크기가 없다. 연구진은 NAMPT를 겨냥한 약을 향후 임상 연구에서 검토할 계획이라고 밝혔을 뿐 아직 치료법은 없다."
+ ],
+ "keyPoints": [
+  "고위험 MDS 줄기세포, NAD에 과도하게 의존",
+  "NAMPT 차단 시 암 줄기세포 감소",
+  "전임상 단계, 임상 검증 예정"
+ ],
+ "image": "https://www.sciencedaily.com/images/1920/bright-glowing-cancer-cell.webp",
+ "facts": [
+  [
+   "출처기관",
+   "미국 콜로라도대 안슈츠 암센터"
+  ],
+  [
+   "근거 종류",
+   "연구(전임상, Blood Cancer Discovery 2026)"
+  ],
+  [
+   "대상",
+   "환자 유래 MDS 세포·동물 모델"
+  ]
+ ],
+ "id": "261010-health-09",
+ "category": "health",
+ "collectedAt": "2026-10-10T05:31:25+09:00"
+}

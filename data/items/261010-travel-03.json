@@ -1,0 +1,35 @@
+{
+ "title": "美 사우스웨스트, ChatGPT에 항공편 재고 직접 연결…예약은 자사 사이트로",
+ "originalTitle": "Southwest gives ChatGPT access to its flight inventory",
+ "source": "Travel Weekly",
+ "url": "https://www.travelweekly.com/Travel-News/Airline-News/Southwest-gives-ChatGPT-access-to-its-flight-inventory",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "사우스웨스트항공이 ChatGPT와 연결되는 플러그인을 내놓고 AI 검색 플랫폼이 자사 항공편 재고에 직접 접근할 수 있게 했다. 회사는 이를 미국 항공사와 생성형 AI 플랫폼 간 첫 연동이라고 소개했다.",
+  "다만 ChatGPT 안에서 바로 예약할 수는 없다. 여행객은 검색 후 Southwest.com으로 넘어가 구매하고 확인을 받는다. 대신 검색 단계에서 ChatGPT가 공개 검색 결과를 짜맞추는 대신 사우스웨스트 시스템에서 직접 운항 일정과 운임을 가져오므로 정보가 더 정확해질 가능성이 높다.",
+  "사우스웨스트는 앞으로도 오픈AI, 클라우드 파트너인 아마존웹서비스(AWS)와 협력해 AI 역량을 넓혀 갈 계획이다. 새로운 검색 창구를 얻으면서도 최종 판매는 자사 사이트에 남겨 고객과의 직접 관계를 지키는 방식이다."
+ ],
+ "keyPoints": [
+  "ChatGPT가 운항 일정·운임 직접 조회",
+  "예약·결제는 Southwest.com에서",
+  "오픈AI·AWS와 AI 협력 확대 예정"
+ ],
+ "image": "https://ik.imgkit.net/3vlqs5axxjf/TW/uploadedImages/Art/2024/0318/T0318SWA_C.jpg?tr=w-1200%2Cfo-auto",
+ "facts": [
+  [
+   "기업",
+   "사우스웨스트항공, 오픈AI, AWS"
+  ],
+  [
+   "지역",
+   "미국"
+  ],
+  [
+   "분야",
+   "항공 유통·AI"
+  ]
+ ],
+ "id": "261010-travel-03",
+ "category": "travel",
+ "collectedAt": "2026-10-10T05:31:25+09:00"
+}

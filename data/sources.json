@@ -551,6 +551,15 @@
    ]
   },
   {
+   "name": "식품음료신문",
+   "url": "https://www.thinkfood.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "식품업계",
+    "K-푸드 수출",
+    "신제품"
+   ]
+  },
+  {
    "name": "Food Dive",
    "url": "https://www.fooddive.com/",
    "keywords": [
@@ -566,6 +575,15 @@
     "pricing",
     "AI",
     "restaurant chain"
+   ]
+  },
+  {
+   "name": "Nation's Restaurant News",
+   "url": "https://www.nrn.com/",
+   "keywords": [
+    "restaurant chain",
+    "menu trends",
+    "franchise"
    ]
   }
  ],
@@ -821,6 +839,22 @@
    "keywords": [
     "fine wine market",
     "wine trade"
+   ]
+  },
+  {
+   "name": "Wine Spectator",
+   "url": "https://www.winespectator.com/news/trade-news",
+   "keywords": [
+    "trade news",
+    "bankruptcy"
+   ]
+  },
+  {
+   "name": "Vinetur",
+   "url": "https://www.vinetur.com/en/",
+   "keywords": [
+    "wine exports",
+    "bulk wine"
    ]
   }
  ],
@@ -1347,8 +1381,61 @@
    "keywords": [
     "airlines",
     "jet fuel",
-    "climate risk",
-    "tour operators"
+    "hotels",
+    "Gulf"
+   ]
+  },
+  {
+   "name": "Travel Weekly",
+   "url": "https://www.travelweekly.com/Travel-News",
+   "keywords": [
+    "airline news",
+    "cruise",
+    "TSA"
+   ]
+  },
+  {
+   "name": "Business Travel News Europe",
+   "url": "https://www.businesstravelnewseurope.com/News",
+   "keywords": [
+    "air travel",
+    "rail",
+    "eGates"
+   ]
+  },
+  {
+   "name": "PhocusWire",
+   "url": "https://www.phocuswire.com/news",
+   "keywords": [
+    "travel tech",
+    "OTA",
+    "AI"
+   ]
+  },
+  {
+   "name": "여행신문",
+   "url": "https://www.traveltimes.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "여행사",
+    "항공",
+    "OTA"
+   ]
+  },
+  {
+   "name": "트래블데일리",
+   "url": "https://www.traveldaily.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "항공",
+    "호텔",
+    "여행사"
+   ]
+  },
+  {
+   "name": "TTL뉴스",
+   "url": "https://www.ttlnews.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "여행 상품",
+    "관광"
    ]
   }
  ],
@@ -1507,23 +1594,16 @@
    "keywords": [
     "panel tasting",
     "expert's choice",
-    "editors' picks"
+    "supermarket wines",
+    "on the rack"
    ]
   },
   {
    "name": "Wine Spectator",
-   "url": "https://www.winespectator.com/ratings/magazine-tasting-reports",
+   "url": "https://www.winespectator.com/categories/tasting-reports",
    "keywords": [
-    "tasting report",
-    "values"
-   ]
-  },
-  {
-   "name": "The Drinks Business",
-   "url": "https://www.thedrinksbusiness.com/",
-   "keywords": [
-    "tasting notes",
-    "first release"
+    "new wine reviews",
+    "tasting report"
    ]
   },
   {
@@ -1531,15 +1611,53 @@
    "url": "https://www.jamessuckling.com/weekly-tasting-report",
    "keywords": [
     "weekly tasting report",
-    "monthly tasting report"
+    "our latest report"
+   ]
+  },
+  {
+   "name": "Wine Enthusiast",
+   "url": "https://www.wineenthusiast.com/ratings/",
+   "keywords": [
+    "ratings",
+    "bottles to watch"
+   ]
+  },
+  {
+   "name": "Chilled Magazine",
+   "url": "https://chilledmagazine.com/",
+   "keywords": [
+    "top 10 wine drops"
+   ]
+  },
+  {
+   "name": "Yorkshire Post (Christine Austin)",
+   "url": "https://www.yorkshirepost.co.uk/lifestyle/food-and-drink",
+   "keywords": [
+    "best wines",
+    "under £15"
+   ]
+  },
+  {
+   "name": "The Wine Lover's Kitchen",
+   "url": "https://thewineloverskitchen.com/",
+   "keywords": [
+    "LCBO Vintages release"
    ]
   },
   {
    "name": "와인21",
    "url": "https://www.wine21.com/11_news/news_list.html",
    "keywords": [
-    "신규 와인",
-    "이달의 와인"
+    "신규 와인"
+   ]
+  },
+  {
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?sc_section_code=S1N1&view_type=sm",
+   "keywords": [
+    "와인픽",
+    "출시",
+    "추천"
    ]
   }
  ],
@@ -1566,7 +1684,8 @@
    "url": "https://www.thedrinksbusiness.com/category/news/",
    "keywords": [
     "region",
-    "vintage"
+    "vintage",
+    "harvest 2026"
    ]
   },
   {
@@ -1583,9 +1702,28 @@
    "keywords": [
     "산지"
    ]
+  },
+  {
+   "name": "Harpers Wine & Spirit",
+   "url": "https://harpers.co.uk/news",
+   "keywords": [
+    "harvest",
+    "region"
+   ]
   }
  ],
  "winepair": [
+  {
+   "name": "Bing News RSS",
+   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8+%ED%8E%98%EC%96%B4%EB%A7%81&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "와인 페어링",
+    "와인 마리아주",
+    "\"wine pairing\"",
+    "\"what wine\" pair with",
+    "ワイン ペアリング"
+   ]
+  },
   {
    "name": "소믈리에타임즈",
    "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
@@ -1595,72 +1733,45 @@
    ]
   },
   {
-   "name": "세계일보 [최현태 기자의 와인홀릭]",
-   "url": "https://www.segye.com/",
-   "keywords": [
-    "와인홀릭",
-    "와인 페어링"
-   ]
-  },
-  {
-   "name": "Bing News RSS",
-   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8+%ED%8E%98%EC%96%B4%EB%A7%81&format=rss&qft=sortbydate%3d%221%22",
-   "keywords": [
-    "와인 페어링",
-    "와인 마리아주",
-    "\"wine pairing\"",
-    "\"what wine\" pair with"
-   ]
-  },
-  {
-   "name": "Mashed (Food)",
-   "url": "https://www.mashed.com/",
-   "keywords": [
-    "pair wine with food"
-   ]
-  },
-  {
    "name": "Decanter (Food pairing)",
    "url": "https://www.decanter.com/tag/food-pairing/",
    "keywords": [
     "what to drink with",
     "food pairing"
    ]
+  },
+  {
+   "name": "note.com (일본 와인 칼럼)",
+   "url": "https://note.com/",
+   "keywords": [
+    "ワイン ペアリング",
+    "マリアージュ"
+   ]
+  },
+  {
+   "name": "風傳媒 日本版",
+   "url": "https://japan.storm.mg/",
+   "keywords": [
+    "日本ワイン ペアリング"
+   ]
   }
  ],
  "winestudy": [
   {
-   "name": "와인21",
-   "url": "https://www.wine21.com/11_news/news_list.html",
-   "keywords": [
-    "와인21 도슨트",
-    "와인상식",
-    "품종"
-   ]
-  },
-  {
-   "name": "SevenFifty Daily",
-   "url": "https://daily.sevenfifty.com/category/articles/",
-   "keywords": [
-    "what to expect",
-    "explained",
-    "the science of"
-   ]
-  },
-  {
    "name": "Wine Enthusiast",
-   "url": "https://www.wineenthusiast.com/category/basics/drinks-terms-defined/",
+   "url": "https://www.wineenthusiast.com/category/basics/",
    "keywords": [
-    "drinks terms defined",
-    "grapes 101"
+    "region rundown",
+    "grapes 101",
+    "drinks terms defined"
    ]
   },
   {
-   "name": "WSET 블로그",
-   "url": "https://www.wsetglobal.com/knowledge-centre/blog/",
+   "name": "Wine Folly",
+   "url": "https://winefolly.com/deep-dive/",
    "keywords": [
-    "what is",
-    "wine story"
+    "deep dive",
+    "explained"
    ]
   }
  ],
