@@ -151,21 +151,11 @@
  ],
  "ccm": [
   {
-   "name": "CCM Magazine",
-   "url": "https://www.ccmmagazine.com/category/news/",
-   "keywords": [
-    "new album",
-    "worship",
-    "tour",
-    "cover story"
-   ]
-  },
-  {
    "name": "Jesus Freak Hideout",
    "url": "https://www.jesusfreakhideout.com/news/",
    "keywords": [
-    "Christian radio",
     "album release",
+    "new single",
     "tour dates"
    ]
   },
@@ -173,19 +163,8 @@
    "name": "The Christian Post (Entertainment)",
    "url": "https://www.christianpost.com/entertainment/",
    "keywords": [
-    "Christian music",
-    "worship leader",
-    "Dove Awards"
-   ]
-  },
-  {
-   "name": "크리스천투데이 (뮤직/CCM)",
-   "url": "https://www.christiantoday.co.kr/sections/cul_33",
-   "keywords": [
-    "CCM",
-    "찬양 앨범",
-    "워십",
-    "힐링보이스"
+    "Dove Awards",
+    "worship leader"
    ]
   },
   {
@@ -198,11 +177,26 @@
    ]
   },
   {
+   "name": "CCM Magazine",
+   "url": "https://www.ccmmagazine.com/category/news/",
+   "keywords": [
+    "new album",
+    "worship"
+   ]
+  },
+  {
    "name": "K-LOVE Music News",
    "url": "https://www.klove.com/music/blog/music-news",
    "keywords": [
-    "new music",
-    "album spotlight"
+    "new music"
+   ]
+  },
+  {
+   "name": "크리스천투데이 (뮤직/CCM)",
+   "url": "https://www.christiantoday.co.kr/sections/cul_33",
+   "keywords": [
+    "CCM",
+    "찬양 앨범"
    ]
   },
   {
@@ -210,7 +204,6 @@
    "url": "https://www.goodnews1.com/",
    "keywords": [
     "찬양",
-    "예배인도자",
     "CCM"
    ]
   }
@@ -253,6 +246,15 @@
     "church news",
     "missions",
     "religious freedom"
+   ]
+  },
+  {
+   "name": "국민일보 미션라이프",
+   "url": "https://www.kmib.co.kr/news/index.asp?sid1=chr",
+   "keywords": [
+    "교회",
+    "목회",
+    "선교"
    ]
   }
  ],
@@ -439,7 +441,7 @@
  ],
  "meme": [
   {
-   "name": "Know Your Meme Trending (Guides)",
+   "name": "Know Your Meme Trending",
    "url": "https://trending.knowyourmeme.com/",
    "keywords": [
     "meme explained",
@@ -447,18 +449,27 @@
    ]
   },
   {
-   "name": "Know Your Meme",
-   "url": "https://knowyourmeme.com/editorials",
+   "name": "Know Your Meme Guides",
+   "url": "https://knowyourmeme.com/editorials/guides",
    "keywords": [
     "meme explained"
    ]
   },
   {
-   "name": "인스타공백닷컴 밈 사전",
-   "url": "https://www.instablank.com/meme?year=2026",
+   "name": "Meme.com",
+   "url": "https://meme.com/memes",
    "keywords": [
-    "월별 밈",
-    "최신 유행 밈"
+    "new memes",
+    "TikTok trend"
+   ]
+  },
+  {
+   "name": "Bing News RSS (밈/meme)",
+   "url": "https://www.bing.com/news/search?q=meme+explained+viral&qft=sortbydate%3d%221%22&format=rss",
+   "keywords": [
+    "meme explained viral",
+    "밈 유행",
+    "TikTok trend meme"
    ]
   },
   {
@@ -469,12 +480,10 @@
    ]
   },
   {
-   "name": "Bing News RSS (밈/meme)",
-   "url": "https://www.bing.com/news/search?q=meme+explained+viral&qft=sortbydate%3d%221%22&format=rss",
+   "name": "인스타공백닷컴 밈 사전",
+   "url": "https://www.instablank.com/meme?year=2026",
    "keywords": [
-    "meme explained viral",
-    "밈 유행",
-    "TikTok trend meme"
+    "월별 밈"
    ]
   }
  ],
@@ -622,41 +631,42 @@
    "url": "https://www.soompi.com/feed",
    "keywords": [
     "drama preview",
-    "variety",
-    "teaser"
+    "teaser",
+    "review"
    ]
   },
   {
    "name": "MyDramaList News",
-   "url": "https://news.mydramalist.com/trending",
+   "url": "https://news.mydramalist.com/",
    "keywords": [
-    "K-drama teaser",
-    "stills"
+    "K-drama",
+    "ratings",
+    "awards"
    ]
   },
   {
    "name": "HanCinema",
    "url": "https://www.hancinema.net/",
    "keywords": [
-    "Dramas Starting Today",
-    "premiere"
-   ]
-  },
-  {
-   "name": "The Korea Times 엔터테인먼트",
-   "url": "https://www.koreatimes.co.kr/entertainment",
-   "keywords": [
-    "K-drama",
-    "short-form drama"
+    "interview",
+    "Dramas Starting Today"
    ]
   },
   {
    "name": "스포츠경향 연예",
    "url": "https://sports.khan.co.kr/entertainment",
    "keywords": [
-    "시상식",
     "드라마",
-    "예능"
+    "배우"
+   ]
+  },
+  {
+   "name": "allkpop",
+   "url": "https://www.allkpop.com/",
+   "keywords": [
+    "drama",
+    "variety",
+    "actor"
    ]
   }
  ],
@@ -1000,6 +1010,23 @@
  ],
  "science": [
   {
+   "name": "Live Science",
+   "url": "https://www.livescience.com/news",
+   "keywords": [
+    "animals",
+    "robot",
+    "archaeology"
+   ]
+  },
+  {
+   "name": "Science News",
+   "url": "https://www.sciencenews.org/",
+   "keywords": [
+    "volcano",
+    "geology"
+   ]
+  },
+  {
    "name": "NASA",
    "url": "https://www.nasa.gov/news/recently-published/",
    "keywords": [
@@ -1009,28 +1036,28 @@
    ]
   },
   {
-   "name": "NASA Earth Observatory",
-   "url": "https://science.nasa.gov/earth/earth-observatory/",
+   "name": "Science News Explores",
+   "url": "https://www.snexplores.org/",
    "keywords": [
-    "위성 사진",
-    "홍수"
-   ]
-  },
-  {
-   "name": "Live Science",
-   "url": "https://www.livescience.com/news",
-   "keywords": [
+    "students",
     "animals",
-    "meteor shower"
+    "space"
    ]
   },
   {
-   "name": "YTN 사이언스",
-   "url": "https://science.ytn.co.kr/",
+   "name": "ScienceAlert",
+   "url": "https://www.sciencealert.com/latest",
    "keywords": [
-    "과학기술인상",
-    "로봇",
-    "과학"
+    "discovery",
+    "nature"
+   ]
+  },
+  {
+   "name": "사이언스타임즈",
+   "url": "https://www.sciencetimes.co.kr/nscvrg/list/menu/248?searchCategory=220",
+   "keywords": [
+    "과학",
+    "발견"
    ]
   }
  ],
@@ -1519,7 +1546,8 @@
    "url": "https://www.newsis.com/society/list/?cid=10200&scid=10205",
    "keywords": [
     "문해력",
-    "임용시험"
+    "임용시험",
+    "청소년"
    ]
   },
   {
@@ -1527,7 +1555,26 @@
    "url": "https://www.edupress.kr/news/articleList.html?view_type=sm",
    "keywords": [
     "국감",
-    "교원 정치기본권"
+    "교원 정치기본권",
+    "1정 연수"
+   ]
+  },
+  {
+   "name": "교육플러스",
+   "url": "https://www.edpl.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "서·논술형",
+    "교부금",
+    "해외 교육"
+   ]
+  },
+  {
+   "name": "이투데이 교육",
+   "url": "https://www.etoday.co.kr/",
+   "keywords": [
+    "수능",
+    "국감",
+    "교권"
    ]
   }
  ],
