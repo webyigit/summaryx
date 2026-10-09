@@ -1,0 +1,21 @@
+{
+ "title": "아이폰 왓츠앱, 대화방 상단 이름이 '리퀴드 글래스' 버튼으로… 6개 바로가기",
+ "originalTitle": "WhatsApp for iPhone Gets a New Liquid Design Chat Navigation Button with Quick Shortcuts",
+ "source": "iThinkDifferent",
+ "url": "https://www.ithinkdiff.com/whatsapp-iphone-new-chat-navigation-button/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "아이폰용 왓츠앱에서 대화방 상단의 상대 이름이 누를 수 있는 버튼으로 바뀌었다. 버튼에는 프로필 사진·이름·접속 상태가 표시되고, 리퀴드 글래스 디자인이라 뒤쪽 배경화면에 맞춰 배경이 달라진다. 앞서 리퀴드 글래스 대화 화면 개편 이후 일부 배경화면에서 이름이 잘 안 읽힌다는 문제가 있었는데, 유리 버튼이 배경을 조절해 가독성을 높이는 방식이다.",
+  "버튼을 누르면 반투명 팝업이 열리고, 원래 대화 정보 화면 안에 있던 기능을 바로 쓸 수 있다. 1:1 대화에서는 검색, 연락처 정보, 미디어·링크·문서, 대화 테마, 사라지는 메시지, 알림 끄기 6가지이고, 그룹 대화에는 멤버 추가가 더해진다. 비즈니스 대화에도 비슷한 버전이 있다.",
+  "이 변화는 앱스토어의 iOS용 왓츠앱 26.39.75에서 처음 포착됐으며(WABetaInfo), 리퀴드 글래스가 이미 켜진 계정에만 단계적으로 배포 중이다. 왓츠앱은 전체 배포 일정을 밝히지 않았다."
+ ],
+ "keyPoints": [
+  "대화방 상단 이름이 리퀴드 글래스 버튼으로",
+  "누르면 검색·테마 등 6개 바로가기 팝업",
+  "iOS 26.39.75, 리퀴드 글래스 계정에 단계 배포"
+ ],
+ "image": "https://cdn.ithinkdiff.com/wp-content/uploads/2025/08/WhatsApp.jpg",
+ "category": "uxui",
+ "id": "261010-uxui-10",
+ "collectedAt": "2026-10-10T04:34:23+09:00"
+}

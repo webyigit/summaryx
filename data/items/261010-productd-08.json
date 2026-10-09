@@ -1,0 +1,39 @@
+{
+ "title": "배터리 방전돼도 다이얼 돌려 연다… 링의 첫 스마트 도어락",
+ "originalTitle": "A $249 Smart Lock That Still Opens When You've Forgotten to Charge It",
+ "source": "Yanko Design",
+ "url": "https://www.yankodesign.com/2026/10/08/a-249-smart-lock-that-still-opens-when-youve-forgotten-to-charge-it/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "아마존 계열 링(Ring)이 처음으로 스마트 도어락을 내놓는다. 가격은 249달러. 가장 눈에 띄는 디자인 요소는 백라이트 터치 키패드 아래 붙은 널링 다이얼로, 배터리가 다 됐을 때 잠깐 돌리면 키패드에 전원이 들어와 비밀번호를 입력할 수 있다. 충전 케이블이나 배터리 교체 없이 문을 열 수 있게 한 장치다.",
+  "평소에는 맨 위 원형 지문 센서, 방문자용 시간제한 PIN, 링 앱 원격 열기와 상태 확인, 알렉사 음성 제어를 쓴다. 전원은 충전식 배터리 팩이고 일반 싱글 실린더 데드볼트에 별도 배선 없이 달 수 있다. 원격 기능은 집 와이파이 대신 아마존 사이드워크 망을 쓰며, 카메라는 없지만 링 초인종·카메라와 활동 기록을 공유한다.",
+  "블랙·실버·브라스 마감이 예정됐고, 미국 출시는 인허가를 거쳐 2027년 초로 예상된다. 배터리 수명은 공개되지 않았다."
+ ],
+ "keyPoints": [
+  "방전 시 다이얼을 돌려 키패드 전원 공급",
+  "지문·PIN·앱·알렉사 지원",
+  "249달러, 미국 2027년 초 예정"
+ ],
+ "image": "https://www.yankodesign.com/images/design_news/2026/10/a-249-smart-lock-that-still-opens-when-youve-forgotten-to-charge-it/ring-smart-lock-02.jpg",
+ "facts": [
+  [
+   "브랜드",
+   "링(Ring, 아마존)"
+  ],
+  [
+   "가격",
+   "$249"
+  ],
+  [
+   "출시",
+   "미국 2027년 초 예정"
+  ],
+  [
+   "마감",
+   "블랙·실버·브라스"
+  ]
+ ],
+ "id": "261010-productd-08",
+ "category": "productd",
+ "collectedAt": "2026-10-10T04:34:23+09:00"
+}

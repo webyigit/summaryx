@@ -1,0 +1,21 @@
+{
+ "title": "구글 앱 검색창 새 디자인 배포… '+' 버튼 밖으로, '만들기'·'대화' 라벨",
+ "originalTitle": "Google is rolling out a redesigned search bar in the Google app",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/google-redesigned-search-bar-google-app-rollout-3721085/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "구글 앱 홈 화면의 검색창이 새 디자인으로 바뀌고 있다. 안드로이드 어소리티는 여러 테스트 기기에서 구글 앱 v17.65.17 업데이트 후 새 검색창이 나타나는 것을 확인했고, 비교적 넓게 배포되는 것으로 보인다고 전했다.",
+  "새 검색창은 더 얇아졌고 흰 배경에 은은한 테두리와 그림자가 들어갔다. 가장 큰 변화는 왼쪽의 '+' 아이콘이다. 이미지·파일 첨부, 나노 바나나 이미지 생성, AI 모드의 모델 전환을 여기서 한다. 전에는 검색창을 누른 뒤에야 '+'가 보였는데, 이제 첫 화면에 바로 나와 한 단계가 줄고 첨부 기능을 찾기 쉬워졌다. 검색창 아래 버튼에도 라벨이 붙어 나노 바나나 버튼은 'Create(만들기)', 서치 라이브 버튼은 'Talk(대화)'로 표시된다.",
+  "구글의 배포는 기기마다 시점이 달라 아직 안 보이는 사용자도 있을 수 있다. 개발 중인 설정 화면 개편 등 다른 변화는 이번 배포에 포함되지 않았다."
+ ],
+ "keyPoints": [
+  "구글 앱 v17.65.17에서 새 검색창 배포",
+  "첨부·이미지 생성 '+' 버튼이 첫 화면에 노출",
+  "버튼 라벨 'Create'·'Talk'로 기능 명확화"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2026/06/Google-logo-on-smartphone-stock-photo-1.jpg",
+ "category": "uxui",
+ "id": "261010-uxui-02",
+ "collectedAt": "2026-10-10T04:34:23+09:00"
+}
