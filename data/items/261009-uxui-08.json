@@ -1,0 +1,22 @@
+{
+ "title": "안드로이드 '포토 피커'에 자르기·회전 편집기 준비… 갤러리 앱엔 악재?",
+ "originalTitle": "These Android Photo Picker features could be good news for app devs, bad news for gallery apps",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/android-photo-picker-media-editor-features-apk-teardown-3720638/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "안드로이드 어소리티가 APK를 분석한 결과, 구글이 안드로이드 시스템 사진 선택기(포토 피커)에 미디어 편집 기능을 개발 중인 정황이 나왔다. 안드로이드 17 QPR2 베타 5의 문자열에는 다른 앱으로 사진을 넘기기 전 뒤집기·회전·자르기를 할 수 있는 기본 도구가 담겼다.",
+  "자르기는 3:4, 4:3, 정사각형, 사용자 지정 비율을 지원하는 것으로 보이며 '자르기 적용', '편집 메뉴로 돌아가기' 같은 조작과 모든 편집을 취소하고 미리보기로 돌아가는 옵션도 확인됐다. 다만 실제 화면에는 아직 새 UI 요소가 보이지 않아 갈 길이 남았고, 개발 중인 코드라 출시되지 않을 수도 있다.",
+  "앱 개발자에게는 자체 선택기를 만들 필요가 없는 데 더해 간단한 편집까지 시스템이 맡아 주는 셈이다. 반대로 사용자가 공유 전 갤러리 앱을 여는 일상적 이유가 줄어 갤러리 앱엔 불리할 수 있다. 포토 피커는 구글 플레이 시스템 업데이트로 갱신돼 OS 업데이트 없이도 배포될 수 있다."
+ ],
+ "keyPoints": [
+  "안드로이드 17 QPR2 베타 5에서 편집기 흔적",
+  "뒤집기·회전·비율별 자르기 지원 예정",
+  "OS 업데이트 없이 플레이 시스템으로 배포 가능"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/New-Photo-Picker-UI-on-Android-scaled.jpg",
+ "facts": [],
+ "id": "261009-uxui-08",
+ "category": "uxui",
+ "collectedAt": "2026-10-09T10:57:13+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "AWS, 로봇 개발 전 과정 묶은 오픈소스 '피지컬 AI 툴체인' 공개",
+ "originalTitle": "AWS launches open-source Physical AI Toolchain for robotics",
+ "source": "The Robot Report",
+ "url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "아마존웹서비스(AWS)가 로봇 개발자가 데이터 수집부터 학습, 시뮬레이션, 검증, 로봇 배포까지 한 흐름으로 진행할 수 있는 오픈소스 '피지컬 AI 툴체인'을 내놨다. AWS 서비스와 엔비디아의 피지컬 AI 소프트웨어를 하나의 개발 워크플로로 묶었다. AWS 스리 엘라프롤루 디렉터는 이를 인프라 대신 문제 해결에 집중하게 해 주는 '이지 버튼'이라고 표현했다. 2025년 종료된 로보메이커를 그대로 대체하는 것은 아니라고 했다.",
+  "툴체인은 합성 데이터 생성, 모델 학습, 시뮬레이션·검증, 엣지 배포, 지속 개선의 다섯 부분으로 구성된다. 학습은 세이지메이커, 배포는 IoT 그린그래스가 맡고 엔비디아 아이작 심·아이작 랩·GR00T·코스모스가 들어간다. LLM과 달리 로봇 학습 데이터가 부족해 합성 데이터가 중요하며, 현장 데이터를 다시 클라우드로 보내 '두뇌'를 계속 고친다는 구상이다.",
+  "100만 대 넘는 로봇을 운영하는 아마존의 경험을 반영했고 특정 하드웨어에 묶이지 않는다. AWS는 한국 RLWRLD와 휴머노이드 다섯 손가락 조작 모델을 개발한 사례도 소개했다."
+ ],
+ "keyPoints": [
+  "데이터~배포 5단계를 하나로 묶은 오픈소스",
+  "AWS 서비스+엔비디아 아이작·GR00T 결합",
+  "하드웨어 중립, 한국 RLWRLD 협업 사례"
+ ],
+ "image": "https://www.therobotreport.com/wp-content/uploads/2025/10/amazon-vulcan-teasr.jpg",
+ "facts": [
+  [
+   "기업",
+   "AWS·엔비디아"
+  ],
+  [
+   "구성",
+   "합성 데이터·학습·시뮬레이션·엣지 배포·지속 개선"
+  ],
+  [
+   "라이선스",
+   "오픈소스"
+  ]
+ ],
+ "id": "261009-robot-19",
+ "category": "robot",
+ "collectedAt": "2026-10-09T10:57:13+09:00"
+}

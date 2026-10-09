@@ -1,0 +1,35 @@
+{
+ "title": "구글, 여러 앱 넘나들며 업무 끝내는 '범용 제미나이 에이전트' 공개",
+ "originalTitle": "Google just gave Gemini a new role to fill at work, and it's a big one",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/google-gemini-universal-agent-3720956/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "구글 클라우드가 '제미나이 앳 워크 2026' 행사에서 여러 앱에 걸친 다단계 업무를 사람이 일일이 지시하지 않아도 처리하는 범용 제미나이 에이전트를 발표했다. 이메일 요약이나 문서 초안처럼 단일 작업을 돕던 기존 기능과 달리 업무 흐름 전체를 맡는 것이 특징이다.",
+  "예를 들어 중요한 회의 전 브리핑을 부탁하면 이메일을 찾고, 드라이브 문서를 모으고, 시트의 최신 수치를 확인해 정리한다. 구글 워크스페이스뿐 아니라 슬랙·마이크로소프트 365와도 연동되고, 클라우드에서 돌아 노트북에서 시작한 작업을 휴대폰에서 이어갈 수 있다. 세부 작업에는 전문 하위 에이전트를 불러 쓰며, 기업은 에이전트에 고유 신원과 이메일 주소를 줘 동료처럼 협업하게 할 수 있다.",
+  "현재는 기업 고객 대상 비공개 프리뷰로만 제공되며 개인 계정 확대 여부는 정해지지 않았다. 복잡한 업무에서 얼마나 안정적으로 작동할지는 실제 사용을 지켜봐야 한다."
+ ],
+ "keyPoints": [
+  "다단계 업무 맡는 범용 제미나이 에이전트",
+  "워크스페이스·슬랙·MS 365 연동",
+  "기업 대상 비공개 프리뷰로 시작"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2026/09/gemini-spark-sidebar-option-gemini-app-iphone-hero-image.jpg",
+ "facts": [
+  [
+   "기업",
+   "구글 클라우드"
+  ],
+  [
+   "발표",
+   "제미나이 앳 워크 2026"
+  ],
+  [
+   "제공",
+   "기업 고객 비공개 프리뷰"
+  ]
+ ],
+ "id": "261009-it-21",
+ "category": "it",
+ "collectedAt": "2026-10-09T10:57:13+09:00"
+}

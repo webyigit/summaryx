@@ -1,0 +1,22 @@
+{
+ "title": "구글 지도 '애스크 맵스', 대화 통째로 링크 공유·검색창 'Ask' 버튼 준비",
+ "originalTitle": "Google Maps could give Ask Maps a key chat-sharing upgrade",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/google-ask-maps-share-conversation-apk-teardown-3720761/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "구글 지도의 제미나이 기반 장소 질문 기능 '애스크 맵스(Ask Maps)'가 대화 전체를 공개 링크로 공유하는 기능을 준비 중인 것으로 보인다. 안드로이드 어소리티가 구글 지도 26.41.00 버전을 분석한 결과다. 지금은 답변 하나만 복사할 수 있고, 그마저 언급된 장소 링크가 빠진다.",
+  "분석팀은 '대화 공개 링크' 문자열을 찾았지만 실제 채팅에서 공유 옵션을 띄우지는 못했다. 대신 채팅 기록 화면의 점 세 개 메뉴를 활성화했는데, 여기에 공유한 애스크 맵스 대화를 모아 보는 '공유 링크 관리'와 기록을 한 번에 지우는 '모두 삭제'가 들어 있었다. 제미나이 앱과 비슷한 구조다.",
+  "또 검색창 아래 바로가기 칩 사이에 있는 애스크 맵스 버튼을 검색창 안으로 옮기고, 공간을 아끼려 'Ask'로 줄이는 작업 흔적도 나왔다. 개발 중 코드라 실제 출시 여부와 시기는 아직 알 수 없다."
+ ],
+ "keyPoints": [
+  "구글 지도 26.41 분석, 대화 공개 링크 공유",
+  "'공유 링크 관리'·'모두 삭제' 메뉴 확인",
+  "애스크 맵스 버튼, 검색창 안 'Ask'로 이동 검토"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2026/07/google-maps-ask-maps-chip-home-screen-image.jpg",
+ "facts": [],
+ "id": "261009-uxui-10",
+ "category": "uxui",
+ "collectedAt": "2026-10-09T10:57:13+09:00"
+}

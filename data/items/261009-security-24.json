@@ -1,0 +1,35 @@
+{
+ "title": "가짜 깃허브 저장소 1만7천 개로 정보 탈취 악성코드 유포…'페이크깃' 재개",
+ "originalTitle": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "가짜 깃허브 저장소로 악성코드를 퍼뜨리는 '페이크깃' 캠페인이 10월 4일부터 다시 활동을 시작했다. 공급망 보안업체 아피로에 따르면 이번에는 저장소 1만7,610개가 쓰였고, 그중 1만3천여 개가 34시간 만에 올라왔다.",
+  "저장소의 README에 있는 '다운로드' 버튼은 '스마트로더'가 든 압축파일로 연결되고, 이 로더가 정보 탈취 악성코드 '스틸C' 등을 설치한다. 대부분 일회용 계정이지만 실제 개발자 계정으로 보이는 700여 개도 확인됐다. 지난 7월 아일랜드(Island)가 보고한 7,600개 중 800개는 AI 스킬·MCP 서버로 위장하기도 했다.",
+  "아피로는 차단 목록이 일부만 반영되고 포크·릴리스 파일 등에 악성 파일이 남아 근절이 어렵다고 지적했다. 저장소 소유자를 확인하고 AI 스킬·MCP 서버는 공식 등록소나 개발사 저장소에서만 설치하며, 감염이 의심되면 세션·토큰을 폐기하고 패스키로 바꾸라고 권했다."
+ ],
+ "keyPoints": [
+  "가짜 저장소 1만7,610개로 스틸C 유포",
+  "34시간에 1만3천 개, 실제 계정도 악용",
+  "AI 스킬·MCP는 공식 경로로만 설치 권고"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2026/10/08/github.jpg",
+ "facts": [
+  [
+   "보고",
+   "아피로(Apiiro)"
+  ],
+  [
+   "규모",
+   "가짜 저장소 1만7,610개"
+  ],
+  [
+   "악성코드",
+   "스마트로더 → 스틸C"
+  ]
+ ],
+ "id": "261009-security-24",
+ "category": "security",
+ "collectedAt": "2026-10-09T10:57:13+09:00"
+}

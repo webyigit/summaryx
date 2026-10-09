@@ -1,0 +1,22 @@
+{
+ "title": "유튜브 뮤직, 앨범·플레이리스트 상단을 커버 아트로 가득 채운 새 화면 테스트",
+ "originalTitle": "YouTube Music is testing a fresh look with sprawling album art headers",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/youtube-music-album-playlist-redesign-3720792/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "유튜브 뮤직이 앨범·플레이리스트 페이지의 새 레이아웃을 시험하고 있다. 지금까지는 상자 안에 커버를 넣는 헤더였지만, 새 디자인은 커버 아트로 만든 큰 배경이 화면 위쪽 약 3분의 1을 덮는다. 아티스트 페이지와 비슷한 구성이다.",
+  "앨범에서는 설명 바로 아래 버튼 줄이 두 묶음으로 나뉜다. 왼쪽에는 오프라인 저장·보관함 추가용 원형 버튼, 오른쪽에는 큰 재생 버튼이 놓인다. 플레이리스트도 합성 커버가 상단을 가로지르고, 버튼 줄에 댓글 버튼이 더해지며 메뉴 버튼 자리에 셔플 버튼이 들어간다. 메뉴 버튼은 헤더 맨 위로 옮겨졌다.",
+  "여러 레딧 사용자가 변화를 발견했으며, 서버 측 A/B 테스트로 보여 일부 사용자에게만 나타난다. 반응이 좋으면 몇 주 안에 확대될 수 있다는 전망이다. 최근 재생 화면·전체 화면 앨범 아트 실험에 이은 것으로, 아트워크 중심으로 화면을 재편하는 흐름이 이어지고 있다."
+ ],
+ "keyPoints": [
+  "커버 아트 배경이 화면 상단 3분의 1 차지",
+  "재생 버튼 크게, 셔플·댓글 버튼 전면 배치",
+  "서버 측 A/B 테스트로 일부 사용자만"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2026/02/youtube-music-logo-phone-hero-feb-2026-3-scaled.jpg",
+ "facts": [],
+ "id": "261009-uxui-06",
+ "category": "uxui",
+ "collectedAt": "2026-10-09T10:57:13+09:00"
+}
