@@ -7,6 +7,8 @@
 
 ### 시간대 나눠 수집 (WebFetch 한도)
 WebFetch는 세션 전체에서 **시간당 약 400회**로 제한된다. 카테고리당 20건을 모으려면 루틴을 7번(01:22~07:22 KST, 1시간 간격)에 나눠 돌린다. 각 회차는 자기 묶음(8개 안팎)만 수집 → `update.py` → main 배포까지 끝낸다. 서브에이전트마다 WebFetch는 **최대 40회**로 제한하고(8개×40=320), 한도에 걸리면 모은 만큼만 저장한다.
+WebSearch도 한 턴(회차) 안에서 모든 에이전트가 함께 **200회**까지만 쓸 수 있다(2026-10-10 0회차에서 소진). 에이전트마다 WebSearch는 10회 안팎으로 제한하고, 목록 페이지·RSS를 WebFetch로 먼저 본다.
+
 ### 낮·저녁 경량 갱신 (10:47, 16:22 KST → 11시 반·17시 전에 반영)
 새 기사만 추가한다. 서브에이전트 13개가 묶음을 나눠 맡고(에이전트당 WebFetch 최대 30회), 카테고리당 **새 기사 최대 5건**(오늘 나온 것 우선, 이미 있는 URL·사건 제외, 없으면 0건). 묶음: ①ai·ax·robot ②it·applesamsung·semi·security ③car·g2b ④movie·music·show ⑤ent·kpop·meme ⑥game·webtoon·sports ⑦toon·toonhot·shopmen ⑧shopdeal·winedeal·wineko ⑨food·travel·tripko·tripworld ⑩bp·dm·lipid ⑪fashion·design·uxui ⑫wine·science·edu ⑬worldus·worldasia·worldeu·worldmea. 오늘 영역(daily)·paper·shorts·맛집·shopguide는 아침 수집만.
 
