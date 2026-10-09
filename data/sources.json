@@ -1928,22 +1928,15 @@
  "eatseoul": [
   {
    "name": "미쉐린 가이드 서울",
-   "url": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurants",
+   "url": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurants/bib-gourmand",
    "keywords": [
     "빕 구르망 2026",
     "서울미식 100선"
    ]
   },
   {
-   "name": "중앙일보 쿠킹(다음뉴스)",
-   "url": "https://v.daum.net/v/By2hjXPKh1",
-   "keywords": [
-    "빕 구르망 신규"
-   ]
-  },
-  {
-   "name": "서울시 보도자료",
-   "url": "https://www.seoul.go.kr/news/news_report.do?nttNo=467591&srchCtgry=466",
+   "name": "위키트리(서울미식 100선 정리)",
+   "url": "https://www.wikitree.co.kr/articles/1164258",
    "keywords": [
     "2026 서울미식 100선"
    ]
@@ -1952,46 +1945,37 @@
  "eatgg": [
   {
    "name": "서울신문 공공뉴스(경기관광공사 보도)",
-   "url": "https://m.go.seoul.co.kr/",
+   "url": "https://go.seoul.co.kr/",
    "keywords": [
-    "경기관광공사 노포 맛집"
+    "경기관광공사 세계 별미",
+    "경기관광공사 맛집 추천"
    ]
   }
  ],
  "eatdj": [
   {
-   "name": "다이닝코드",
-   "url": "https://www.diningcode.com/",
-   "keywords": [
-    "대전 맛집",
-    "성심당",
-    "대전 웨이팅"
-   ]
-  },
-  {
-   "name": "블루리본서베이",
-   "url": "https://www.bluer.co.kr/",
-   "keywords": [
-    "블루리본 대전"
-   ]
-  },
-  {
    "name": "대전일보",
    "url": "https://www.daejonilbo.com/",
    "keywords": [
-    "성심당",
-    "대전 빵집",
-    "대전 맛집"
+    "대전 맛집",
+    "대전 빵집"
    ]
   }
  ],
  "eatsj": [
   {
+   "name": "세계일보 여행",
+   "url": "https://www.segye.com/",
+   "keywords": [
+    "세종오식",
+    "세종 미식여행"
+   ]
+  },
+  {
    "name": "중도일보 (세종)",
    "url": "https://www.joongdo.co.kr/",
    "keywords": [
-    "세종 맛집 탐방",
-    "캐치테이블 세종 웨이팅"
+    "세종사랑 맛집"
    ]
   }
  ],
@@ -2001,7 +1985,8 @@
    "url": "https://soranews24.com/",
    "keywords": [
     "Japanese snack",
-    "convenience store"
+    "convenience store",
+    "tsukimi"
    ]
   },
   {
@@ -2014,55 +1999,25 @@
  ],
  "shopguide": [
   {
-   "name": "무신사 뉴스룸",
-   "url": "https://newsroom.musinsa.com/",
+   "name": "한섬 EQL",
+   "url": "https://www.eqlstore.com/",
    "keywords": [
-    "무진장",
-    "29CM 이구위크"
+    "한섬 편집숍"
    ]
   },
   {
-   "name": "SSF샵",
-   "url": "https://www.ssfshop.com/",
+   "name": "스파오닷컴",
+   "url": "https://www.spao.com/",
    "keywords": [
-    "삼성물산 패션"
+    "이랜드월드 공식 스토어"
    ]
   },
   {
-   "name": "LF몰",
-   "url": "https://www.lfmall.co.kr/",
+   "name": "패션플러스",
+   "url": "https://www.fashionplus.co.kr/",
    "keywords": [
-    "LF 공식몰",
-    "블랙프라이데이"
-   ]
-  },
-  {
-   "name": "더한섬닷컴",
-   "url": "https://www.thehandsome.com/",
-   "keywords": [
-    "한섬 공식몰"
-   ]
-  },
-  {
-   "name": "29CM",
-   "url": "https://www.29cm.co.kr/",
-   "keywords": [
-    "이구위크"
-   ]
-  },
-  {
-   "name": "코오롱몰",
-   "url": "https://www.kolonmall.com/",
-   "keywords": [
-    "코오롱FnC 공식몰"
-   ]
-  },
-  {
-   "name": "패션비즈",
-   "url": "https://fashionbiz.co.kr/",
-   "keywords": [
-    "온라인몰 세일",
-    "블랙프라이데이"
+    "백화점 브랜드 아울렛",
+    "아쇼페"
    ]
   }
  ],
@@ -2074,15 +2029,43 @@
     "menswear",
     "collaboration"
    ]
+  },
+  {
+   "name": "FashionUnited UK",
+   "url": "https://fashionunited.uk/",
+   "keywords": [
+    "menswear capsule"
+   ]
+  },
+  {
+   "name": "Valet.",
+   "url": "https://valetmag.com/",
+   "keywords": [
+    "On Our Radar"
+   ]
+  },
+  {
+   "name": "PAP",
+   "url": "https://www.pap-magazine.com/",
+   "keywords": [
+    "남성 협업 컬렉션"
+   ]
   }
  ],
  "shopdeal": [
   {
-   "name": "Bing 뉴스(한국어)",
-   "url": "https://www.bing.com/news/search?q=%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0+%ED%95%A0%EC%9D%B8&format=rss&qft=sortbydate%3d%221%22",
+   "name": "유니클로 공식 온라인 스토어",
+   "url": "https://www.uniqlo.com/kr/ko/men",
    "keywords": [
-    "아우터 할인 행사",
-    "센텀시티 할인"
+    "기간한정",
+    "APP 회원 특별 가격"
+   ]
+  },
+  {
+   "name": "파이낸셜뉴스",
+   "url": "https://www.fnnews.com/",
+   "keywords": [
+    "컴온스타일"
    ]
   }
  ],
@@ -2101,6 +2084,14 @@
    "keywords": [
     "웹툰 IP"
    ]
+  },
+  {
+   "name": "위클리툰",
+   "url": "https://www.weeklytoon.com/news/articleList.html",
+   "keywords": [
+    "웹툰 업계",
+    "웹툰 플랫폼"
+   ]
   }
  ],
  "toonhot": [
@@ -2110,6 +2101,20 @@
    "keywords": [
     "웹툰파헤치기",
     "웹툰 추천"
+   ]
+  },
+  {
+   "name": "위클리툰",
+   "url": "https://www.weeklytoon.com/news/articleList.html",
+   "keywords": [
+    "웹툰 신작"
+   ]
+  },
+  {
+   "name": "위키트리",
+   "url": "https://www.wikitree.co.kr/",
+   "keywords": [
+    "카카오엔터 신작 웹툰"
    ]
   }
  ],
@@ -2122,6 +2127,15 @@
     "한글날",
     "가볼 만한 곳"
    ]
+  },
+  {
+   "name": "트래블데일리",
+   "url": "https://www.traveldaily.co.kr/news/articleList.html?sc_section_code=S1N13",
+   "keywords": [
+    "단풍지도",
+    "주말판",
+    "가을 여행"
+   ]
   }
  ],
  "tripworld": [
@@ -2129,64 +2143,42 @@
    "name": "Lonely Planet",
    "url": "https://www.lonelyplanet.com/articles",
    "keywords": [
-    "Christmas markets",
-    "train trips",
-    "USA"
+    "fall travel",
+    "fall foliage",
+    "things to do"
+   ]
+  },
+  {
+   "name": "iwafu",
+   "url": "https://www.iwafu.com/kr/events",
+   "keywords": [
+    "가을 라이트업",
+    "단풍"
    ]
   }
  ],
  "seasonal": [
   {
-   "name": "농사로(농촌진흥청)",
-   "url": "https://www.nongsaro.go.kr/",
-   "keywords": [
-    "이달의 제철 음식",
-    "제철 농산물"
-   ]
-  },
-  {
-   "name": "대한민국 구석구석",
-   "url": "https://korean.visitkorea.or.kr/",
-   "keywords": [
-    "제철 음식",
-    "가을 제철"
-   ]
-  },
-  {
    "name": "위키트리 라이프·푸드",
    "url": "https://www.wikitree.co.kr/",
    "keywords": [
     "10월 제철",
-    "가을 제철 고르는 법",
-    "이달의 수산물"
+    "제철 해산물"
    ]
   },
   {
    "name": "뉴스와 생활정보",
    "url": "https://www.news-wa.com/",
    "keywords": [
-    "제철 고르는 법"
-   ]
-  },
-  {
-   "name": "레이디경향 쿠킹",
-   "url": "https://lady.khan.co.kr/cooking/",
-   "keywords": [
-    "제철",
+    "손질법",
     "고르는 법"
-   ]
-  },
-  {
-   "name": "GQ Korea",
-   "url": "https://www.gqkorea.co.kr/",
-   "keywords": [
-    "가을 제철 음식"
    ]
   },
   {
    "name": "비건뉴스",
    "url": "https://www.vegannews.co.kr/",
    "keywords": [
+    "10월 장바구니",
     "제철 채소·과일"
    ]
   }
@@ -2204,7 +2196,24 @@
    "name": "American Heart Association Newsroom",
    "url": "https://newsroom.heart.org/news",
    "keywords": [
-    "blood pressure"
+    "blood pressure",
+    "Hypertension Scientific Sessions"
+   ]
+  },
+  {
+   "name": "하이닥",
+   "url": "https://news.hidoc.co.kr/",
+   "keywords": [
+    "혈압",
+    "소금"
+   ]
+  },
+  {
+   "name": "메디파나뉴스",
+   "url": "https://www.medipana.com/",
+   "keywords": [
+    "고혈압 진료지침",
+    "난치성 고혈압"
    ]
   }
  ],
@@ -2224,6 +2233,14 @@
     "혈당",
     "공복"
    ]
+  },
+  {
+   "name": "Medical News Today",
+   "url": "https://www.medicalnewstoday.com/",
+   "keywords": [
+    "type 2 diabetes",
+    "EASD 2026"
+   ]
   }
  ],
  "lipid": [
@@ -2239,7 +2256,8 @@
    "url": "https://www.monews.co.kr/",
    "keywords": [
     "뇌졸중",
-    "심혈관"
+    "심혈관",
+    "ICoLA"
    ]
   }
  ],
@@ -2249,48 +2267,65 @@
    "url": "https://reptifiles.com/crested-gecko-care/",
    "keywords": [
     "crested gecko care",
-    "obesity",
-    "enrichment",
-    "shopping list"
-   ]
-  },
-  {
-   "name": "PMC / G3",
-   "url": "https://pmc.ncbi.nlm.nih.gov/",
-   "keywords": [
-    "Correlophus ciliatus genome"
-   ]
-  },
-  {
-   "name": "Docta UCM (Animals)",
-   "url": "https://docta.ucm.es/",
-   "keywords": [
-    "crested gecko welfare study"
+    "health",
+    "sick crested gecko"
    ]
   },
   {
    "name": "MorphMarket Community",
    "url": "https://community.morphmarket.com/",
    "keywords": [
-    "crested gecko care guide"
+    "crested gecko care guide",
+    "floppy tail syndrome",
+    "genetics"
+   ]
+  },
+  {
+   "name": "Zen Habitats",
+   "url": "https://www.zenhabitats.com/blogs/reptile-care-sheets-resources",
+   "keywords": [
+    "crested gecko lighting heating"
+   ]
+  },
+  {
+   "name": "BGSU Herpetarium",
+   "url": "https://www.bgsu.edu/arts-and-sciences/biological-sciences/facilities-and-resources/bgsu-herpetarium.html",
+   "keywords": [
+    "crested gecko"
+   ]
+  },
+  {
+   "name": "Exo Terra Care Guides",
+   "url": "https://exo-terra.com/explore/care-guides/",
+   "keywords": [
+    "Correlophus ciliatus"
+   ]
+  },
+  {
+   "name": "Reptiles Magazine",
+   "url": "https://reptilesmagazine.com/listings/lizard-species/crested-gecko/",
+   "keywords": [
+    "crested gecko"
    ]
   }
  ],
  "reptile": [
+  {
+   "name": "ReptiFiles",
+   "url": "https://reptifiles.com/lizard-care-sheets/",
+   "keywords": [
+    "lizard care sheet",
+    "gecko care",
+    "skink care",
+    "chameleon care"
+   ]
+  },
   {
    "name": "Reptiles Magazine",
    "url": "https://reptilesmagazine.com/news/",
    "keywords": [
     "reptile news",
     "lizard care"
-   ]
-  },
-  {
-   "name": "ReptiFiles",
-   "url": "https://reptifiles.com/",
-   "keywords": [
-    "day gecko care sheet",
-    "chahoua"
    ]
   },
   {
@@ -2303,20 +2338,12 @@
  ],
  "archproj": [
   {
-   "name": "아키인사이드",
-   "url": "https://archiinside.kr/",
+   "name": "SPACE(공간)",
+   "url": "https://vmspace.com/project/project.html",
    "keywords": [
-    "건축",
-    "건축가",
-    "준공"
-   ]
-  },
-  {
-   "name": "ArchDaily",
-   "url": "https://www.archdaily.com/",
-   "keywords": [
-    "project",
-    "completed"
+    "프로젝트",
+    "준공",
+    "건축가"
    ]
   },
   {
@@ -2329,34 +2356,16 @@
    ]
   },
   {
-   "name": "SPACE(공간)",
-   "url": "https://vmspace.com/project/project.html",
+   "name": "아키인사이드",
+   "url": "https://archiinside.kr/",
    "keywords": [
-    "프로젝트",
-    "준공",
-    "건축가"
+    "건축",
+    "건축가",
+    "준공"
    ]
   }
  ],
  "interior": [
-  {
-   "name": "아키인사이드",
-   "url": "https://archiinside.kr/",
-   "keywords": [
-    "인테리어",
-    "공간",
-    "리모델링"
-   ]
-  },
-  {
-   "name": "월간 디자인",
-   "url": "https://design.co.kr/",
-   "keywords": [
-    "공간 디자인",
-    "호텔",
-    "플래그십"
-   ]
-  },
   {
    "name": "Dezeen Interiors",
    "url": "https://www.dezeen.com/interiors/",
@@ -2368,11 +2377,12 @@
    ]
   },
   {
-   "name": "SPACE(공간)",
-   "url": "https://vmspace.com/",
+   "name": "월간 디자인",
+   "url": "https://design.co.kr/category/project/space/",
    "keywords": [
-    "리노베이션",
-    "공간"
+    "공간 디자인",
+    "리모델링",
+    "플래그십"
    ]
   }
  ],
@@ -2381,9 +2391,11 @@
    "name": "만개의레시피",
    "url": "https://www.10000recipe.com/",
    "keywords": [
-    "한그릇 요리",
-    "덮밥",
-    "백종원 레시피"
+    "백종원 순두부찌개",
+    "백종원 카레",
+    "볶음우동",
+    "부대찌개",
+    "콩나물불고기"
    ]
   },
   {
@@ -2399,9 +2411,11 @@
    "name": "만개의레시피",
    "url": "https://www.10000recipe.com/",
    "keywords": [
-    "밑반찬",
-    "국 끓이기",
-    "백종원"
+    "백종원 계란말이",
+    "오이무침",
+    "콩나물무침",
+    "가지볶음",
+    "어묵탕"
    ]
   },
   {
@@ -2417,9 +2431,11 @@
    "name": "만개의레시피",
    "url": "https://www.10000recipe.com/",
    "keywords": [
-    "간식 만들기",
-    "브런치",
-    "에어프라이어 간식"
+    "백종원 떡볶이",
+    "김치전",
+    "에그인헬",
+    "어묵꼬치",
+    "토마토달걀볶음"
    ]
   },
   {
@@ -2439,18 +2455,25 @@
    ]
   },
   {
-   "name": "FashionNetwork UK",
-   "url": "https://uk.fashionnetwork.com/",
+   "name": "FashionUnited",
+   "url": "https://fashionunited.uk/",
    "keywords": [
-    "Uniqlo",
-    "Fast Retailing"
+    "Zara",
+    "Inditex"
    ]
   },
   {
-   "name": "Retail Gazette",
-   "url": "https://www.retailgazette.co.uk/",
+   "name": "Haute Living",
+   "url": "https://hauteliving.com/",
    "keywords": [
-    "H&M"
+    "Tiffany"
+   ]
+  },
+  {
+   "name": "PR Newswire APAC",
+   "url": "https://prnewswire.com/apac/",
+   "keywords": [
+    "Pandora"
    ]
   }
  ],
@@ -2463,12 +2486,31 @@
    ]
   },
   {
-   "name": "Electrek",
-   "url": "https://electrek.co/",
+   "name": "Nissan Global Newsroom",
+   "url": "https://global.nissannews.com/en/",
    "keywords": [
-    "Audi",
-    "Volkswagen",
-    "incentives"
+    "Nissan"
+   ]
+  },
+  {
+   "name": "Honda Global Newsroom",
+   "url": "https://global.honda/en/newsroom/",
+   "keywords": [
+    "Honda"
+   ]
+  },
+  {
+   "name": "현대자동차그룹 뉴스",
+   "url": "https://www.hyundaimotorgroup.com/ko/news",
+   "keywords": [
+    "기아 판매"
+   ]
+  },
+  {
+   "name": "Business Explainer",
+   "url": "https://businessexplainer.co.za/motoring/",
+   "keywords": [
+    "Range Rover"
    ]
   }
  ],
@@ -2481,10 +2523,32 @@
    ]
   },
   {
-   "name": "Techaeris",
-   "url": "https://techaeris.com/",
+   "name": "PR Newswire",
+   "url": "https://prnewswire.com/",
    "keywords": [
-    "Dell"
+    "IBM"
+   ]
+  },
+  {
+   "name": "아이뉴스24",
+   "url": "https://m.inews24.com/",
+   "keywords": [
+    "구글",
+    "퀄컴"
+   ]
+  },
+  {
+   "name": "Notebookcheck",
+   "url": "https://notebookcheck.net/",
+   "keywords": [
+    "HP"
+   ]
+  },
+  {
+   "name": "GuruFocus",
+   "url": "https://gurufocus.com/",
+   "keywords": [
+    "Philips"
    ]
   }
  ],
@@ -2494,6 +2558,21 @@
    "url": "https://interbrand.com/best-global-brands/global/",
    "keywords": [
     "Best Global Brands 2025"
+   ]
+  },
+  {
+   "name": "Just Drinks",
+   "url": "https://www.just-drinks.com/news/",
+   "keywords": [
+    "Danone",
+    "Coca-Cola"
+   ]
+  },
+  {
+   "name": "Merca2.0",
+   "url": "https://www.merca20.com/",
+   "keywords": [
+    "Nescafé"
    ]
   }
  ],
@@ -2528,6 +2607,13 @@
     "세포라",
     "올리브영"
    ]
+  },
+  {
+   "name": "Yahoo (Parade)",
+   "url": "https://www.aol.com/",
+   "keywords": [
+    "Pampers"
+   ]
   }
  ],
  "poemread": [
@@ -2542,59 +2628,47 @@
  ],
  "poemnews": [
   {
-   "name": "강원일보 문화",
-   "url": "https://kwnews.co.kr/",
-   "keywords": [
-    "시집",
-    "시인"
-   ]
-  },
-  {
-   "name": "중부매일 문화",
-   "url": "https://www.jbnews.com/",
-   "keywords": [
-    "시집",
-    "시인"
-   ]
-  },
-  {
    "name": "Bing News RSS(시인 시집)",
    "url": "https://www.bing.com/news/search?q=%EC%8B%9C%EC%9D%B8+%EC%8B%9C%EC%A7%91&format=rss&setlang=ko",
    "keywords": [
     "시인",
     "시집"
    ]
+  },
+  {
+   "name": "Bing News RSS(시인 문학상)",
+   "url": "https://www.bing.com/news/search?q=%EC%8B%9C%EC%9D%B8+%EB%AC%B8%ED%95%99%EC%83%81+%EC%88%98%EC%83%81&format=rss&setlang=ko",
+   "keywords": [
+    "시인",
+    "문학상"
+   ]
   }
  ],
  "aicert": [
   {
-   "name": "Google Cloud Certification",
-   "url": "https://cloud.google.com/learn/certification",
-   "keywords": [
-    "Generative AI Leader"
-   ]
-  },
-  {
-   "name": "AWS Certification",
-   "url": "https://aws.amazon.com/certification/",
-   "keywords": [
-    "Generative AI Developer Professional",
-    "AIP-C01"
-   ]
-  },
-  {
    "name": "Microsoft Learn",
    "url": "https://learn.microsoft.com/credentials/",
    "keywords": [
-    "Azure AI Fundamentals",
-    "AI-901"
+    "AB-730",
+    "AB-731",
+    "AB-100"
+   ]
+  },
+  {
+   "name": "NVIDIA Certification",
+   "url": "https://www.nvidia.com/en-us/learn/certification/",
+   "keywords": [
+    "NCA-AIIO",
+    "NCP-AAI",
+    "NCA-GENM"
    ]
   },
   {
    "name": "Databricks Certification",
    "url": "https://www.databricks.com/learn/certification",
    "keywords": [
-    "Generative AI Engineer Associate"
+    "Machine Learning Associate",
+    "Machine Learning Professional"
    ]
   }
  ],
@@ -2638,81 +2712,48 @@
    "keywords": [
     "중고거래 플랫폼 수수료"
    ]
+  },
+  {
+   "name": "이투데이",
+   "url": "https://www.etoday.co.kr",
+   "keywords": [
+    "리커머스"
+   ]
   }
  ],
  "lux1": [
   {
-   "name": "패션·럭셔리 뉴스",
-   "url": "https://www.businessoffashion.com/",
+   "name": "FashionNetwork",
+   "url": "https://ww.fashionnetwork.com/",
    "keywords": [
-    "에르메스",
-    "샤넬",
-    "루이비통"
-   ]
-  },
-  {
-   "name": "Bing 뉴스 RSS(최신순)",
-   "url": "https://www.bing.com/news/search?q=에르메스+OR+샤넬+OR+루이비통&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "에르메스",
-    "샤넬",
-    "루이비통"
+    "Hermès",
+    "Chanel",
+    "Saint Laurent",
+    "Ralph Lauren"
    ]
   }
  ],
  "lux2": [
   {
-   "name": "패션·럭셔리 뉴스",
-   "url": "https://www.businessoffashion.com/",
+   "name": "FashionNetwork",
+   "url": "https://ww.fashionnetwork.com/",
    "keywords": [
-    "디올",
-    "구찌",
-    "프라다",
-    "생로랑",
-    "셀린느",
-    "보테가 베네타"
-   ]
-  },
-  {
-   "name": "패션서울",
-   "url": "https://fashionseoul.com/",
-   "keywords": [
-    "보테가 베네타",
-    "로에베",
-    "발렌티노"
-   ]
-  },
-  {
-   "name": "W Korea",
-   "url": "https://www.wkorea.com/",
-   "keywords": [
-    "컬렉션",
-    "보테가 베네타"
+    "Hermès",
+    "Chanel",
+    "Saint Laurent",
+    "Ralph Lauren"
    ]
   }
  ],
  "lux3": [
   {
-   "name": "한국섬유신문",
-   "url": "https://www.ktnews.com/",
+   "name": "FashionNetwork",
+   "url": "https://ww.fashionnetwork.com/",
    "keywords": [
-    "메종 마르지엘라",
-    "아미",
-    "코치",
-    "랄프로렌",
-    "부티크 오픈"
-   ]
-  },
-  {
-   "name": "패션·럭셔리 뉴스",
-   "url": "https://www.businessoffashion.com/",
-   "keywords": [
-    "메종 마르지엘라",
-    "아크네 스튜디오",
-    "띠어리",
-    "마크 제이콥스",
-    "코치",
-    "토리버치"
+    "Hermès",
+    "Chanel",
+    "Saint Laurent",
+    "Ralph Lauren"
    ]
   }
  ],
@@ -2721,17 +2762,8 @@
    "name": "한국섬유신문",
    "url": "https://www.ktnews.com/",
    "keywords": [
+    "쇼메",
     "까르띠에",
-    "반클리프 아펠",
-    "불가리",
-    "롤렉스"
-   ]
-  },
-  {
-   "name": "디지털데일리",
-   "url": "https://www.ddaily.co.kr/",
-   "keywords": [
-    "명품 시계",
     "하이 주얼리"
    ]
   },
@@ -2739,58 +2771,67 @@
    "name": "Wallpaper*",
    "url": "https://www.wallpaper.com/watches-jewellery",
    "keywords": [
-    "Audemars Piguet",
     "Patek Philippe",
-    "Cartier"
+    "Rolex",
+    "Tiffany"
    ]
   }
  ],
  "luxprice": [
   {
-   "name": "루이비통 공식몰(한국)",
-   "url": "https://kr.louisvuitton.com/kor-kr/",
+   "name": "얼루어 코리아",
+   "url": "https://www.allurekorea.com/",
    "keywords": [
-    "루이비통",
+    "신상 백",
     "가격"
    ]
   },
   {
-   "name": "에르메스 공식몰(한국)",
-   "url": "https://www.hermes.com/kr/ko/",
+   "name": "에스콰이어 코리아",
+   "url": "https://www.esquirekorea.co.kr/",
    "keywords": [
-    "에르메스",
+    "가을 신상",
     "가격"
    ]
   },
   {
-   "name": "불가리 공식몰(한국)",
-   "url": "https://www.bulgari.com/ko-kr/",
+   "name": "마리끌레르 코리아",
+   "url": "https://www.marieclairekorea.com/",
    "keywords": [
-    "불가리",
-    "가격"
-   ]
-  },
-  {
-   "name": "반클리프 아펠 공식몰(한국)",
-   "url": "https://www.vancleefarpels.com/kr/ko/",
-   "keywords": [
-    "반클리프 아펠",
-    "가격"
-   ]
-  },
-  {
-   "name": "티파니 공식몰(한국)",
-   "url": "https://www.tiffany.kr/",
-   "keywords": [
-    "티파니",
+    "향수",
     "가격"
    ]
   }
  ],
  "poemdaily": [
   {
-   "name": "브런치·기사 본문 대조",
-   "url": "https://brunch.co.kr/"
+   "name": "경북매일 「광야」 해설(본문 대조)",
+   "url": "https://kbmaeil.com/article/202002100270908",
+   "keywords": [
+    "광야",
+    "이육사"
+   ]
+  },
+  {
+   "name": "한국교육신문 「광야」 바로 읽기(본문 대조)",
+   "url": "https://hangyo.com/news/article.html?no=64355",
+   "keywords": [
+    "광야"
+   ]
+  },
+  {
+   "name": "브런치 「별 헤는 밤」 해석(본문 대조)",
+   "url": "https://brunch.co.kr/@habincoco/4",
+   "keywords": [
+    "별 헤는 밤"
+   ]
+  },
+  {
+   "name": "위키독스 블로그 「별 헤는 밤」(본문 대조)",
+   "url": "https://wikidocs.net/blog/@farryoon/6269/",
+   "keywords": [
+    "별 헤는 밤"
+   ]
   }
  ],
  "worldus": [

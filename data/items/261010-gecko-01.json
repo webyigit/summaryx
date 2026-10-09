@@ -1,0 +1,39 @@
+{
+ "title": "크레스티드게코 조명·난방 가이드: UVI 1.0 이하, 사육장은 27℃ 넘기지 않기",
+ "originalTitle": "Crested Gecko Complete Lighting and Heating Guide",
+ "source": "Zen Habitats",
+ "url": "https://www.zenhabitats.com/blogs/reptile-care-sheets-resources/crested-gecko-complete-lighting-and-heating-guide",
+ "publishedAt": "2023-12-29",
+ "summary": [
+  "사육장 제조사 젠해비탯의 사육 칼럼니스트 매들린 스미스가 크레스티드게코의 조명·온도·습도 기준을 한 번에 정리했다. 크레스티드게코는 해 질 녘과 새벽에 주로 움직이는 동물이라 UVB가 생존에 꼭 필요하진 않지만, 세기와 거리를 맞추면 도움이 될 수 있다는 입장이다.",
+  "UVB는 그늘에 사는 종용 저출력 제품(ZooMed 5.0 T8, Arcadia 6%·ShadeDweller 등)을 유리가 아닌 철망 위에 두고, 게코가 닿는 곳에서 UVI 1.0 이하가 되게 하라고 권한다. 온도는 위쪽 28~29℃, 아래쪽 21~24℃, 밤 18~22℃이며 전체 공기 온도는 약 27℃(80℉)를 넘기지 않는다. 열원은 반드시 온도조절기에 연결하고, 야간 조명은 생체 리듬을 흐트러뜨릴 수 있어 쓰지 않는다. 광주기는 따뜻한 달 14시간, 추운 달 10시간이다.",
+  "습도는 60~80%를 목표로 저녁(필요하면 아침에도) 분무하고, 곰팡이를 막기 위해 40~50%까지 마른 뒤 다시 뿌린다. 글은 \"조금 더운 것보다 조금 서늘한 편이 안전하다\"고 강조한다. 다만 판매 사이트의 글이라 자사 사육장 상품이 함께 소개돼 있다."
+ ],
+ "keyPoints": [
+  "UVB는 선택, 쓰면 UVI 1.0 이하로 약하게",
+  "상단 28~29℃·하단 21~24℃·밤 18~22℃",
+  "습도 60~80%, 40~50%까지 마른 뒤 분무"
+ ],
+ "image": "https://www.zenhabitats.com/cdn/shop/articles/crested_gecko_lighting_and_heating.jpg?v=1703963841",
+ "facts": [
+  [
+   "근거",
+   "Zen Habitats 사육 가이드 (Madeline Smith)"
+  ],
+  [
+   "대상 종",
+   "크레스티드게코 (Correlophus ciliatus)"
+  ],
+  [
+   "구분",
+   "조명·온습도 가이드"
+  ],
+  [
+   "참고",
+   "사육장 판매사 블로그 글(자사 상품 노출)"
+  ]
+ ],
+ "id": "261010-gecko-01",
+ "category": "gecko",
+ "collectedAt": "2026-10-10T01:31:27+09:00"
+}

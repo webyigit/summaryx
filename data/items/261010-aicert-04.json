@@ -1,0 +1,51 @@
+{
+ "title": "NVIDIA AI Infrastructure and Operations(NCA-AIIO) — AI 데이터센터 인프라 입문 자격",
+ "originalTitle": "AI Infrastructure and Operations (NCA-AIIO)",
+ "source": "NVIDIA",
+ "url": "https://www.nvidia.com/en-us/learn/certification/ai-infrastructure-operations-associate/",
+ "publishedAt": null,
+ "summary": [
+  "NCA-AIIO는 엔비디아가 운영하는 Associate 등급 자격으로, AI를 돌리는 인프라와 운영에 대한 기초 지식을 평가한다. 공식 페이지가 꼽은 대상은 데이터센터 기술자, IT 관리자, 네트워크 엔지니어, 시스템 관리자, DevOps 엔지니어, 솔루션·시스템 아키텍트뿐 아니라 사업 책임자와 영업 담당자까지 폭넓다.",
+  "출제 비중은 AI 인프라 40%, 필수 AI 지식 38%, AI 운영 22%다. 시험은 50문항을 60분 안에 푸는 원격 감독 온라인 시험이고 언어는 영어뿐이다. 응시료는 125달러이며, 자격은 발급일로부터 2년간 유효하다.",
+  "사전 조건으로는 데이터센터 인프라에 대한 기본 이해를 요구한다. GPU 서버와 네트워크가 AI 프로젝트의 핵심이 되면서, 모델 개발보다 인프라 구축·운영 쪽에서 AI 역량을 증명하려는 사람에게 맞는 입문 자격이다."
+ ],
+ "keyPoints": [
+  "AI 인프라·운영 기초를 묻는 Associate 자격",
+  "50문항·60분·125달러, 영어 원격 시험",
+  "유효기간 2년, 데이터센터 기초 이해 필요"
+ ],
+ "image": "https://www.nvidia.com/content/dam/en-zz/Solutions/training/infiniband/corp-kv-og.jpg",
+ "facts": [
+  [
+   "시행기관",
+   "NVIDIA"
+  ],
+  [
+   "자격 종류",
+   "벤더"
+  ],
+  [
+   "시험 일정",
+   "상시 응시(원격 감독, 정기 회차 없음)"
+  ],
+  [
+   "응시료",
+   "$125"
+  ],
+  [
+   "시험 방식",
+   "온라인 원격 감독, 50문항, 60분, 영어"
+  ],
+  [
+   "응시 자격",
+   "공식 선수 자격 없음(데이터센터 인프라 기본 이해 권장)"
+  ],
+  [
+   "난이도·대상",
+   "입문(Associate) — 인프라·IT 운영·영업·아키텍트"
+  ]
+ ],
+ "id": "261010-aicert-04",
+ "category": "aicert",
+ "collectedAt": "2026-10-10T01:31:27+09:00"
+}

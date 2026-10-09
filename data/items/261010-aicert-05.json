@@ -1,0 +1,51 @@
+{
+ "title": "NVIDIA Agentic AI Professional(NCP-AAI) — 에이전트형 AI 개발 중급 자격",
+ "originalTitle": "NVIDIA-Certified Professional: Agentic AI (NCP-AAI)",
+ "source": "NVIDIA",
+ "url": "https://www.nvidia.com/en-us/learn/certification/agentic-ai-professional/",
+ "publishedAt": null,
+ "summary": [
+  "NCP-AAI는 엔비디아가 '중급(intermediate) 자격'으로 소개하는 Professional 등급 시험으로, 실제 서비스 수준의 에이전트형 AI를 설계·개발·운영하는 능력을 평가한다. 대상은 소프트웨어 개발자·엔지니어, 솔루션 아키텍트, 머신러닝 엔지니어, 데이터 과학자, AI 전략가 등이다.",
+  "출제 범위는 에이전트 아키텍처·설계(15%), 에이전트 개발(15%), 평가·튜닝(13%), 배포·확장(13%), 인지·계획·메모리(10%), 지식 통합·데이터 처리(10%) 등 열 개 영역으로 나뉜다. 엔비디아 플랫폼 구현과 안전·윤리·규정 준수, 사람과 AI의 상호작용·감독도 별도 영역으로 포함됐다.",
+  "시험은 60~70문항을 120분 동안 푸는 영어 원격 감독 시험이고 응시료는 200달러, 유효기간은 2년이다. 공식 페이지는 AI·ML 직무 경험 1~2년과 실서비스 에이전트형 AI 프로젝트 경험을 권장한다. 입문자보다는 이미 LLM 애플리케이션을 만들어 본 개발자에게 맞다."
+ ],
+ "keyPoints": [
+  "실서비스 에이전트형 AI 역량을 묻는 중급 자격",
+  "60~70문항·120분·200달러, 영어",
+  "AI·ML 경력 1~2년 권장, 유효 2년"
+ ],
+ "image": "https://www.nvidia.com/content/dam/en-zz/Solutions/training/infiniband/corp-kv-og.jpg",
+ "facts": [
+  [
+   "시행기관",
+   "NVIDIA"
+  ],
+  [
+   "자격 종류",
+   "벤더"
+  ],
+  [
+   "시험 일정",
+   "상시 응시(원격 감독, 정기 회차 없음)"
+  ],
+  [
+   "응시료",
+   "$200"
+  ],
+  [
+   "시험 방식",
+   "온라인 원격 감독, 60~70문항, 120분, 영어"
+  ],
+  [
+   "응시 자격",
+   "공식 선수 자격 없음(AI·ML 경력 1~2년, 에이전트형 AI 실무 경험 권장)"
+  ],
+  [
+   "난이도·대상",
+   "중급(Professional) — AI 개발자·ML 엔지니어"
+  ]
+ ],
+ "id": "261010-aicert-05",
+ "category": "aicert",
+ "collectedAt": "2026-10-10T01:31:27+09:00"
+}

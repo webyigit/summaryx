@@ -1,0 +1,51 @@
+{
+ "title": "NVIDIA Generative AI Multimodal(NCA-GENM) — 멀티모달 생성형 AI 입문 자격",
+ "originalTitle": "NVIDIA Generative AI Multimodal Certification (NCA-GENM)",
+ "source": "NVIDIA",
+ "url": "https://www.nvidia.com/en-us/learn/certification/generative-ai-multimodal-associate/",
+ "publishedAt": null,
+ "summary": [
+  "NCA-GENM은 엔비디아의 입문(Associate) 자격으로, 텍스트·이미지 등 여러 형태의 데이터를 다루는 멀티모달 생성형 AI 모델을 만들고 시험하는 기초 역량을 평가한다. 공식 페이지는 생성형 멀티모달 모델의 개발·프로그래밍·테스트를 돕고, 모델을 고르고 학습시키며 배포 방식을 이해하는 주니어 개발자를 대상으로 설명한다.",
+  "출제 비중은 실험 25%, 머신러닝·AI 핵심 지식 20%, 멀티모달 데이터 15%, 소프트웨어 개발 15%, 데이터 분석 10%, 성능 최적화 10%, 신뢰할 수 있는 AI 5%다. 응시 조건으로는 생성형 AI에 대한 기본 이해만 요구한다.",
+  "시험은 60분 동안 객관식으로 치르는 영어 원격 감독 시험이며 응시료는 125달러다. 문항 수는 페이지 안에서 50문항과 50~60문항으로 엇갈려 표기돼 있어 등록 전에 확인이 필요하다. 유효기간은 2년이고 재인증은 시험을 다시 보는 방식이다."
+ ],
+ "keyPoints": [
+  "멀티모달 생성형 AI 기초를 묻는 입문 자격",
+  "60분 객관식·125달러, 영어 원격 시험",
+  "문항 수 표기 엇갈림(50 / 50~60)"
+ ],
+ "image": "https://www.nvidia.com/content/dam/graphics/key-visual/2026/light/nvidia-kv-2026-og.jpg",
+ "facts": [
+  [
+   "시행기관",
+   "NVIDIA"
+  ],
+  [
+   "자격 종류",
+   "벤더"
+  ],
+  [
+   "시험 일정",
+   "상시 응시(원격 감독, 정기 회차 없음)"
+  ],
+  [
+   "응시료",
+   "$125"
+  ],
+  [
+   "시험 방식",
+   "온라인 원격 감독, 객관식 50문항(표기 50~60문항 병기), 60분, 영어"
+  ],
+  [
+   "응시 자격",
+   "공식 선수 자격 없음(생성형 AI 기본 이해)"
+  ],
+  [
+   "난이도·대상",
+   "입문(Associate) — 주니어 AI 개발자"
+  ]
+ ],
+ "id": "261010-aicert-06",
+ "category": "aicert",
+ "collectedAt": "2026-10-10T01:31:27+09:00"
+}

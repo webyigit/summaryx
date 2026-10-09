@@ -1,0 +1,51 @@
+{
+ "title": "Databricks Machine Learning Professional — MLOps까지 묻는 엔터프라이즈 ML 자격",
+ "originalTitle": "Databricks Certified Machine Learning Professional",
+ "source": "Databricks",
+ "url": "https://www.databricks.com/learn/certification/machine-learning-professional",
+ "publishedAt": null,
+ "summary": [
+  "Databricks Certified Machine Learning Professional은 기업 규모의 머신러닝 솔루션을 설계·구현·관리하는 능력을 평가하는 데이터브릭스의 상위 자격이다. Associate가 플랫폼 위의 기본 ML 작업을 본다면, Professional은 모델 운영(MLOps)까지 포함한 엔지니어링 역량에 무게를 둔다.",
+  "출제 비중은 모델 개발 44%, ML Ops 44%, 모델 배포 12%로 운영 영역 비중이 크다. 채점 대상 59문항을 120분 동안 객관식으로 풀고, 시험 보조 자료는 쓸 수 없다. SQL 문항은 ANSI SQL 표준을 따른다고 공식 페이지는 밝힌다.",
+  "응시료는 200달러이고 언어는 영어뿐이며, 온라인 또는 시험센터에서 감독하에 치른다. 필수 선수 조건은 없지만 시험 가이드에 나온 ML 작업을 1년 이상 해 본 경험을 권장한다. 유효기간은 2년이다."
+ ],
+ "keyPoints": [
+  "기업 규모 ML 설계·운영 역량 평가",
+  "모델 개발·ML Ops 각 44% 비중",
+  "59문항·120분·200달러, 영어만"
+ ],
+ "image": "https://www.databricks.com/sites/default/files/2022/04/databricks-certification-and-badging-og.png",
+ "facts": [
+  [
+   "시행기관",
+   "Databricks"
+  ],
+  [
+   "자격 종류",
+   "벤더"
+  ],
+  [
+   "시험 일정",
+   "상시 응시(정기 회차 없음)"
+  ],
+  [
+   "응시료",
+   "$200"
+  ],
+  [
+   "시험 방식",
+   "감독 시험(온라인 또는 시험센터), 채점 59문항 객관식, 120분, 영어"
+  ],
+  [
+   "응시 자격",
+   "선수 자격 없음(관련 ML 실무 1년 이상 권장)"
+  ],
+  [
+   "난이도·대상",
+   "중상급(Professional) — ML 엔지니어"
+  ]
+ ],
+ "id": "261010-aicert-08",
+ "category": "aicert",
+ "collectedAt": "2026-10-10T01:31:27+09:00"
+}
