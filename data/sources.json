@@ -937,6 +937,22 @@
     "anime adaptation",
     "trailer"
    ]
+  },
+  {
+   "name": "Bing News RSS (애니 개봉)",
+   "url": "https://www.bing.com/news/search?q=%EC%95%A0%EB%8B%88+%EA%B0%9C%EB%B4%89&qft=sortbydate%3d%221%22&format=rss",
+   "keywords": [
+    "애니 개봉",
+    "극장판 애니"
+   ]
+  },
+  {
+   "name": "Bing News RSS (어린이 애니메이션)",
+   "url": "https://www.bing.com/news/search?q=%EC%96%B4%EB%A6%B0%EC%9D%B4+%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98&qft=sortbydate%3d%221%22&format=rss",
+   "keywords": [
+    "어린이 애니메이션",
+    "캐릭터 축제"
+   ]
   }
  ],
  "sports": [
@@ -945,32 +961,40 @@
    "url": "https://sports.khan.co.kr/",
    "keywords": [
     "KBO",
-    "양현종",
-    "최원준",
     "이강인",
     "KLPGA",
-    "LET"
+    "박신자컵",
+    "신유빈",
+    "K리그1"
    ]
   },
   {
    "name": "OSEN 스포츠(날짜별)",
-   "url": "https://osen.co.kr/sports?date=20261009",
+   "url": "https://osen.co.kr/sports?date=20261010",
    "keywords": [
-    "황희찬",
-    "쑨잉사",
-    "V-리그 미디어데이",
-    "병역특례"
+    "김민수",
+    "A매치",
+    "이강인"
    ]
   },
   {
    "name": "MLB.com News",
    "url": "https://www.mlb.com/news",
    "keywords": [
-    "NLDS",
     "ALDS",
-    "Dodgers",
-    "Brewers",
-    "Rays"
+    "NLCS",
+    "Guardians",
+    "Rays",
+    "Teruaki Sato",
+    "154-game"
+   ]
+  },
+  {
+   "name": "헤럴드경제 미주판",
+   "url": "https://www.heraldk.com/",
+   "keywords": [
+    "KPGA",
+    "배용준"
    ]
   }
  ],
@@ -1783,6 +1807,32 @@
     "와인 행사",
     "와인 업계"
    ]
+  },
+  {
+   "name": "와인21 이벤트",
+   "url": "https://www.wine21.com/12_event/event_list.html",
+   "keywords": [
+    "시음회",
+    "와인 디너"
+   ]
+  },
+  {
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "와인 출시",
+    "와인 행사"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS",
+   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8+%EB%A7%A4%EC%B6%9C&format=rss",
+   "keywords": [
+    "와인 매출",
+    "와이너리",
+    "국산 와인",
+    "와인 박람회"
+   ]
   }
  ],
  "cardesign": [
@@ -2108,6 +2158,15 @@
     "grape variety explained",
     "Cabernet Sauvignon grape"
    ]
+  },
+  {
+   "name": "Bing News RSS (주간 품종 뉴스)",
+   "url": "https://www.bing.com/news/search?q=wine+grape+varietal+guide&format=rss&qft=interval%3d%228%22",
+   "keywords": [
+    "grape varietal guide",
+    "chilled red",
+    "Zinfandel"
+   ]
   }
  ],
  "winery": [
@@ -2153,6 +2212,33 @@
     "winery anniversary",
     "Wine Star Awards"
    ]
+  },
+  {
+   "name": "Wine Industry Advisor",
+   "url": "https://wineindustryadvisor.com/",
+   "keywords": [
+    "winery founder",
+    "family winery",
+    "Wine Business Innovation Series"
+   ]
+  },
+  {
+   "name": "The Drinks Business",
+   "url": "https://www.thedrinksbusiness.com/",
+   "keywords": [
+    "champagne house",
+    "estate",
+    "family"
+   ]
+  },
+  {
+   "name": "Wine Enthusiast (Wine Star Awards)",
+   "url": "https://wineenthusiast.com/culture/industry-news/",
+   "keywords": [
+    "Person of the Year",
+    "Wine Star Awards",
+    "winery"
+   ]
   }
  ],
  "cellar": [
@@ -2161,34 +2247,7 @@
    "url": "https://www.winespectator.com/listing/ask-dr-vinny/storage",
    "keywords": [
     "Dr. Vinny storage",
-    "cellar temperature",
-    "shipping heat",
-    "recork"
-   ]
-  },
-  {
-   "name": "The Drinks Business",
-   "url": "https://www.thedrinksbusiness.com/",
-   "keywords": [
-    "wine storage",
-    "bonded warehouse",
-    "storage centres",
-    "wine glass"
-   ]
-  },
-  {
-   "name": "Wine Industry Advisor",
-   "url": "https://wineindustryadvisor.com/",
-   "keywords": [
-    "wine storage facility"
-   ]
-  },
-  {
-   "name": "Forbes Vetted",
-   "url": "https://www.forbes.com/sites/forbes-personal-shopper/",
-   "keywords": [
-    "best wine cooler",
-    "wine fridge"
+    "cellar temperature"
    ]
   },
   {
@@ -2197,30 +2256,14 @@
    "keywords": [
     "wine storage",
     "cellar",
-    "wine fridge",
-    "wine cooler launch"
+    "wine fridge"
    ]
   },
   {
-   "name": "Crown Wine Cellars 뉴스",
-   "url": "https://www.crownwinecellars.com/news-events/news/",
+   "name": "This Old House",
+   "url": "https://www.thisoldhouse.com/kitchens/best-wine-cooler",
    "keywords": [
-    "wine storage award"
-   ]
-  },
-  {
-   "name": "전자신문",
-   "url": "https://www.etnews.com/",
-   "keywords": [
-    "와인셀러 출시",
-    "와인냉장고"
-   ]
-  },
-  {
-   "name": "유스연합",
-   "url": "https://www.youthassembly.kr/",
-   "keywords": [
-    "와인 보관법"
+    "best wine cooler"
    ]
   }
  ],
@@ -2267,6 +2310,21 @@
    "keywords": [
     "대형마트 할인 행사 와인",
     "고래잇 와인"
+   ]
+  },
+  {
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "와인 장터",
+    "와인 할인"
+   ]
+  },
+  {
+   "name": "펴늬(편의점 행사)",
+   "url": "https://pyony.com/posts/",
+   "keywords": [
+    "편의점 이달의 와인"
    ]
   }
  ],
