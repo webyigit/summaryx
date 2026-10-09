@@ -1,0 +1,35 @@
+{
+ "title": "세탁기만 한 우주선 '오터', 고장 난 위성 4개를 가까이서 살펴본다…나사 SSPICY 임무",
+ "originalTitle": "NASA's SSPICY Mission to Demonstrate In-Space Inspection Technologies",
+ "source": "NASA",
+ "url": "https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "지구 주위에는 해마다 통신·날씨 예보·길 안내용 위성이 수천 개씩 올라가요. 그런데 고장 난 위성이나 다 쓴 로켓 몸통이 부서지거나 서로 부딪히면 '우주 쓰레기'가 생겨 다른 위성을 위협할 수 있어요.",
+  "나사는 이런 물체를 가까이서 살펴보는 기술을 시험하려고 10월 1일 미국 캘리포니아 반덴버그 우주군 기지에서 'SSPICY' 임무를 발사했어요. 스타피시 스페이스가 만든 세탁기만 한 우주선 '오터'가 내년 초 고장 난 미국 위성·로켓 몸통 최대 4개에 수백 야드 거리까지 다가가, 얼마나 빨리 도는지·어느 쪽을 향하는지·표면 상태는 어떤지 조사해요.",
+  "오터는 사람이 거의 조종하지 않아도 컴퓨터 비전과 센서로 스스로 길을 찾고, 전기 추진 엔진과 움직이는 로봇 팔(붐)로 궤도를 옮겨 다녀요. 이 기술들을 한 시스템으로 함께 시험하는 건 처음이에요. 이번엔 위성을 만지거나 붙지는 않지만, 앞으로 우주에서 위성을 고치고 쓰레기를 치우는 데 밑바탕이 될 거예요."
+ ],
+ "keyPoints": [
+  "10월 1일 발사, 내년 초 위성 4개 근접 조사",
+  "세탁기만 한 '오터'가 스스로 길 찾아",
+  "우주 쓰레기 줄이고 위성 수리 준비"
+ ],
+ "image": "https://www.nasa.gov/wp-content/uploads/2026/10/otter-2.png",
+ "facts": [
+  [
+   "임무",
+   "SSPICY(소형 우주선 추진·점검 능력)"
+  ],
+  [
+   "발사",
+   "2026년 10월 1일, 반덴버그 우주군 기지"
+  ],
+  [
+   "우주선",
+   "Starfish Space 'Otter 24C'"
+  ]
+ ],
+ "id": "261009-science-25",
+ "category": "science",
+ "collectedAt": "2026-10-09T16:31:27+09:00"
+}

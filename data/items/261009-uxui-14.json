@@ -1,0 +1,22 @@
+{
+ "title": "안드로이드, 게임패드를 마우스처럼… 자유 커서 '게임패드 마우스' 준비",
+ "originalTitle": "Android could soon turn your gamepad into a mouse",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/android-gamepad-mouse-3720781/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "안드로이드 17 QPR3 베타 1에서 '게임패드 마우스' 기능의 흔적이 발견됐다. 게임 컨트롤러로 마우스 같은 커서를 화면 어디로든 움직이는 기능이다.",
+  "지금 안드로이드의 게임패드 탐색은 누를 수 있는 요소 사이를 커서가 '점프'하는 방식이다. 단순한 화면에는 쓸 만하지만 떠 있는 메뉴나 스크롤 피드에서는 불편하다. 새 모드에서는 조이스틱으로 커서를 자유롭게 옮기고, 기본 버튼을 누르면 그 위치를 터치한 것처럼 동작한다. 코드에는 'Gamepad mouse'라는 제목과 '연결된 게임패드로 커서 제어'라는 설명이 들어 있다.",
+  "터치패드가 달린 컨트롤러나 서드파티 키 매핑 앱으로 비슷한 일을 할 수는 있지만, 기본 지원되면 별도 하드웨어나 앱이 필요 없다. 안드로이드 오소리티는 터치스크린 조작이 어려운 사용자에게 도움이 되는 접근성 기능으로 봤다. 출시일은 나오지 않았고 내년 봄 QPR3 정식판에 들어갈 수 있다고 내다봤지만, 개발 중인 코드라 실제 출시는 보장되지 않는다."
+ ],
+ "keyPoints": [
+  "게임패드로 자유 커서·탭 입력",
+  "요소 사이 점프 방식의 한계 보완",
+  "접근성 기대, 출시는 미정"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2024/07/Playstation-controller.jpg",
+ "facts": [],
+ "id": "261009-uxui-14",
+ "category": "uxui",
+ "collectedAt": "2026-10-09T16:31:27+09:00"
+}

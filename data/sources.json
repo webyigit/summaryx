@@ -101,23 +101,23 @@
  ],
  "car": [
   {
+   "name": "오토헤럴드",
+   "url": "https://www.autoherald.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "신차",
+    "전기차",
+    "수소차",
+    "공개"
+   ]
+  },
+  {
    "name": "Electrek",
    "url": "https://electrek.co/",
    "keywords": [
     "EV",
     "Tesla",
-    "Hyundai",
-    "recall"
-   ]
-  },
-  {
-   "name": "오토헤럴드",
-   "url": "https://www.autoherald.co.kr/",
-   "keywords": [
-    "신차",
-    "전기차",
-    "수입차",
-    "공개"
+    "BMW",
+    "bus"
    ]
   }
  ],
@@ -327,6 +327,14 @@
     "fashion business",
     "Paris Fashion Week"
    ]
+  },
+  {
+   "name": "FashionNetwork USA",
+   "url": "https://us.fashionnetwork.com/",
+   "keywords": [
+    "fashion business",
+    "collaboration"
+   ]
   }
  ],
  "art": [
@@ -389,6 +397,14 @@
     "designer",
     "craft"
    ]
+  },
+  {
+   "name": "디자인정글",
+   "url": "https://www.jungle.co.kr/magazine/",
+   "keywords": [
+    "디자인 전시",
+    "인터뷰"
+   ]
   }
  ],
  "meme": [
@@ -448,6 +464,14 @@
     "redesign",
     "Pixel"
    ]
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/",
+   "keywords": [
+    "iOS 27",
+    "UI"
+   ]
   }
  ],
  "food": [
@@ -457,7 +481,7 @@
    "keywords": [
     "외식",
     "프랜차이즈",
-    "신메뉴"
+    "컬처 마케팅"
    ]
   },
   {
@@ -465,16 +489,16 @@
    "url": "https://www.foodnews.co.kr/news/articleList.html?view_type=sm",
    "keywords": [
     "식품산업",
-    "K-푸드",
-    "한식"
+    "급식",
+    "영양"
    ]
   },
   {
    "name": "Food Dive",
    "url": "https://www.fooddive.com/",
    "keywords": [
-    "food industry",
-    "packaged food",
+    "cocoa",
+    "sustainability",
     "CPG"
    ]
   },
@@ -482,17 +506,9 @@
    "name": "Restaurant Dive",
    "url": "https://www.restaurantdive.com/",
    "keywords": [
-    "restaurant chain",
-    "delivery"
-   ]
-  },
-  {
-   "name": "Nation's Restaurant News",
-   "url": "https://www.nrn.com/",
-   "keywords": [
-    "quick-service",
-    "menu trends",
-    "restaurant technology"
+    "pricing",
+    "AI",
+    "restaurant chain"
    ]
   }
  ],
@@ -635,6 +651,13 @@
     "obituary",
     "Bollywood"
    ]
+  },
+  {
+   "name": "일간스포츠",
+   "url": "https://isplus.com/",
+   "keywords": [
+    "BIFF"
+   ]
   }
  ],
  "shorts": [
@@ -674,11 +697,12 @@
  ],
  "wine": [
   {
-   "name": "Harpers Wine & Spirit",
-   "url": "https://harpers.co.uk/news/",
+   "name": "The Drinks Business",
+   "url": "https://www.thedrinksbusiness.com/news/",
    "keywords": [
-    "fine wine market",
-    "wine trade"
+    "wine trade",
+    "restructure",
+    "fine wine"
    ]
   },
   {
@@ -688,6 +712,14 @@
     "wine tourism",
     "wine festival",
     "export"
+   ]
+  },
+  {
+   "name": "Harpers Wine & Spirit",
+   "url": "https://harpers.co.uk/news/",
+   "keywords": [
+    "fine wine market",
+    "wine trade"
    ]
   }
  ],
@@ -808,6 +840,23 @@
   }
  ],
  "science": [
+  {
+   "name": "NASA",
+   "url": "https://www.nasa.gov/news/recently-published/",
+   "keywords": [
+    "우주",
+    "위성",
+    "화성"
+   ]
+  },
+  {
+   "name": "NASA Earth Observatory",
+   "url": "https://science.nasa.gov/earth/earth-observatory/",
+   "keywords": [
+    "위성 사진",
+    "홍수"
+   ]
+  },
   {
    "name": "Live Science",
    "url": "https://www.livescience.com/news",
@@ -1033,6 +1082,14 @@
     "클래식",
     "예술요원"
    ]
+  },
+  {
+   "name": "뉴시스 공연",
+   "url": "https://www.newsis.com/culture/list?cid=10700&scid=10702",
+   "keywords": [
+    "뮤지컬",
+    "국악"
+   ]
   }
  ],
  "arch": [
@@ -1083,53 +1140,13 @@
  ],
  "travel": [
   {
-   "name": "여행신문",
-   "url": "https://www.traveltimes.co.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "유류할증료",
-    "항공 노선",
-    "방한 관광객",
-    "여행업계"
-   ]
-  },
-  {
-   "name": "투어코리아",
-   "url": "https://www.tournews21.com/news/articleList.html?view_type=sm",
-   "keywords": [
-    "가을 축제",
-    "가볼 만한 곳",
-    "항공사 통합",
-    "호텔"
-   ]
-  },
-  {
    "name": "Skift",
    "url": "https://skift.com/news/",
    "keywords": [
     "airlines",
-    "hotels",
-    "Airbnb",
-    "travel trends"
-   ]
-  },
-  {
-   "name": "Lonely Planet",
-   "url": "https://www.lonelyplanet.com/news",
-   "keywords": [
-    "travel news",
-    "airline policy",
-    "destinations",
-    "visa"
-   ]
-  },
-  {
-   "name": "트래블데일리",
-   "url": "https://www.traveldaily.co.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "항공 프로모션",
-    "관광 정책",
-    "OTA",
-    "공항"
+    "jet fuel",
+    "climate risk",
+    "tour operators"
    ]
   }
  ],
@@ -1177,11 +1194,19 @@
  ],
  "edu": [
   {
-   "name": "한국대학신문",
-   "url": "https://news.unn.net/news/articleList.html?view_type=sm",
+   "name": "한국교육신문",
+   "url": "https://www.hangyo.com/news/article_list_all.html",
    "keywords": [
-    "교부금",
-    "늘봄학교"
+    "교권",
+    "교원단체"
+   ]
+  },
+  {
+   "name": "뉴시스 교육",
+   "url": "https://www.newsis.com/society/list/?cid=10200&scid=10205",
+   "keywords": [
+    "문해력",
+    "임용시험"
    ]
   },
   {
@@ -1261,12 +1286,13 @@
  "g2b": [
   {
    "name": "조달데이터 JODALDATA (나라장터 공고 검색)",
-   "url": "https://jodaldata.com/bids.php?q=홈페이지",
+   "url": "https://jodaldata.com/bids.php?q=고도화",
    "keywords": [
-    "홈페이지",
+    "고도화",
     "플랫폼",
-    "누리집",
-    "고도화"
+    "시스템 구축",
+    "홈페이지",
+    "누리집"
    ]
   }
  ],
@@ -1436,47 +1462,11 @@
  ],
  "wineko": [
   {
-   "name": "소믈리에타임즈",
-   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
-   "keywords": [
-    "와인 마켓 인사이트",
-    "수입 와인",
-    "와인 출시"
-   ]
-  },
-  {
    "name": "와인21",
    "url": "https://www.wine21.com/11_news/news_list.html",
    "keywords": [
-    "와인 시음회",
     "와인 행사",
-    "신간"
-   ]
-  },
-  {
-   "name": "Bing 뉴스 RSS (와인)",
-   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8+%EB%A7%A4%EC%B6%9C&format=rss&qft=sortbydate%3d%221%22",
-   "keywords": [
-    "와인 매출",
-    "와인 시음회",
-    "한국와인",
-    "와인 페스티벌",
-    "와인 단독 출시"
-   ]
-  },
-  {
-   "name": "머니투데이",
-   "url": "https://www.mt.co.kr/",
-   "keywords": [
-    "편의점 와인"
-   ]
-  },
-  {
-   "name": "경향신문",
-   "url": "https://www.khan.co.kr/",
-   "keywords": [
-    "미사주",
-    "국산 와인"
+    "와인 업계"
    ]
   }
  ],
@@ -2078,16 +2068,8 @@
  ],
  "shopmen": [
   {
-   "name": "한국면세뉴스",
-   "url": "https://www.kdfnews.com/",
-   "keywords": [
-    "FW 남성 스타일링",
-    "패딩"
-   ]
-  },
-  {
-   "name": "Complex Style",
-   "url": "https://www.complex.com/style",
+   "name": "Hypebeast Fashion",
+   "url": "https://hypebeast.com/fashion",
    "keywords": [
     "menswear",
     "collaboration"
@@ -2097,10 +2079,10 @@
  "shopdeal": [
   {
    "name": "Bing 뉴스(한국어)",
-   "url": "https://www.bing.com/news/search?q=%ED%8C%A8%EC%85%98+%EC%84%B8%EC%9D%BC+%EC%BF%A0%ED%8F%B0+%EB%AC%B4%EC%8B%A0%EC%82%AC&format=rss&qft=sortbydate%3d%221%22",
+   "url": "https://www.bing.com/news/search?q=%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0+%ED%95%A0%EC%9D%B8&format=rss&qft=sortbydate%3d%221%22",
    "keywords": [
-    "패션 세일 쿠폰 무신사",
-    "아우터 할인 행사"
+    "아우터 할인 행사",
+    "센텀시티 할인"
    ]
   }
  ],
@@ -2115,7 +2097,7 @@
   },
   {
    "name": "Bing News RSS (웹툰 IP)",
-   "url": "https://www.bing.com/news/search?q=%EC%9B%B9%ED%88%B0+IP&qft=sortbydate%3d%221%22&format=rss",
+   "url": "https://www.bing.com/news/search?q=%EC%9B%B9%ED%88%B0+IP&qft=interval%3d%227%22&format=rss",
    "keywords": [
     "웹툰 IP"
    ]
@@ -2123,11 +2105,11 @@
  ],
  "toonhot": [
   {
-   "name": "웹툰가이드 추천",
-   "url": "https://www.webtoonguide.com/ko/board/recommend-home",
+   "name": "이데일리 김정유의 웹툰파헤치기",
+   "url": "https://www.edaily.co.kr/",
    "keywords": [
-    "웹툰 추천",
-    "연재중"
+    "웹툰파헤치기",
+    "웹툰 추천"
    ]
   }
  ],
@@ -2136,26 +2118,9 @@
    "name": "투어코리아",
    "url": "https://www.tournews21.com/news/articleList.html?sc_word=%EA%B0%80%EB%B3%BC&view_type=sm",
    "keywords": [
-    "가볼 만한 곳",
-    "국내여행",
-    "가을 축제"
-   ]
-  },
-  {
-   "name": "대한민국 구석구석",
-   "url": "https://korean.visitkorea.or.kr/",
-   "keywords": [
-    "가볼만한곳",
-    "10월 여행지",
-    "축제"
-   ]
-  },
-  {
-   "name": "트래블데일리",
-   "url": "https://www.traveldaily.co.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "[주말판]",
-    "서울관광재단 코스"
+    "가을 축제",
+    "한글날",
+    "가볼 만한 곳"
    ]
   }
  ],
@@ -2164,42 +2129,9 @@
    "name": "Lonely Planet",
    "url": "https://www.lonelyplanet.com/articles",
    "keywords": [
-    "best things to do",
-    "things to know before visiting",
-    "where to go in October"
-   ]
-  },
-  {
-   "name": "투어코리아",
-   "url": "https://www.tournews21.com/news/articleList.html?view_type=sm",
-   "keywords": [
-    "해외 여행지",
-    "관광청",
-    "가볼 만한 곳"
-   ]
-  },
-  {
-   "name": "트래블데일리",
-   "url": "https://www.traveldaily.co.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "해외 여행지",
-    "휴양지",
-    "금주의 DESTINATION"
-   ]
-  },
-  {
-   "name": "iwafu",
-   "url": "https://www.iwafu.com/kr/",
-   "keywords": [
-    "일본 단풍",
-    "가을 축제"
-   ]
-  },
-  {
-   "name": "Condé Nast Traveler",
-   "url": "https://www.cntraveler.com/",
-   "keywords": [
-    "destinations"
+    "Christmas markets",
+    "train trips",
+    "USA"
    ]
   }
  ],
@@ -2261,37 +2193,36 @@
  ],
  "bp": [
   {
+   "name": "ScienceDaily 고혈압",
+   "url": "https://www.sciencedaily.com/news/health_medicine/hypertension/",
+   "keywords": [
+    "hypertension",
+    "blood pressure"
+   ]
+  },
+  {
    "name": "American Heart Association Newsroom",
    "url": "https://newsroom.heart.org/news",
    "keywords": [
-    "blood pressure",
-    "DASH"
-   ]
-  },
-  {
-   "name": "WHO 뉴스",
-   "url": "https://www.who.int/news",
-   "keywords": [
-    "hypertension",
-    "pre-eclampsia"
-   ]
-  },
-  {
-   "name": "Northeastern Global News",
-   "url": "https://news.northeastern.edu/",
-   "keywords": [
-    "hypertension",
-    "pregnancy"
+    "blood pressure"
    ]
   }
  ],
  "dm": [
   {
-   "name": "ScienceDaily 당뇨",
-   "url": "https://www.sciencedaily.com/news/health_medicine/diabetes/",
+   "name": "하이닥",
+   "url": "https://news.hidoc.co.kr/",
    "keywords": [
-    "EASD 2026",
-    "CGM"
+    "당뇨",
+    "공복혈당장애"
+   ]
+  },
+  {
+   "name": "코메디닷컴",
+   "url": "https://kormedi.com/",
+   "keywords": [
+    "혈당",
+    "공복"
    ]
   }
  ],
@@ -2300,18 +2231,15 @@
    "name": "하이닥 최신연구",
    "url": "https://news.hidoc.co.kr/",
    "keywords": [
-    "콜레스테롤",
-    "스타틴",
-    "가족성 고콜레스테롤혈증"
+    "스타틴"
    ]
   },
   {
    "name": "메디칼업저버",
    "url": "https://www.monews.co.kr/",
    "keywords": [
-    "ICoLA 2026",
-    "한국지질동맥경화학회",
-    "중성지방"
+    "뇌졸중",
+    "심혈관"
    ]
   }
  ],
@@ -2867,104 +2795,71 @@
  ],
  "worldus": [
   {
+   "name": "알자지라",
+   "url": "https://www.aljazeera.com/news/",
+   "keywords": [
+    "US",
+    "Mexico",
+    "ICE"
+   ]
+  },
+  {
    "name": "뉴시스 국제",
    "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
    "keywords": [
     "미국",
-    "트럼프",
-    "연준"
-   ]
-  },
-  {
-   "name": "경향신문 국제",
-   "url": "https://www.khan.co.kr/world",
-   "keywords": [
-    "미국",
-    "트럼프"
-   ]
-  },
-  {
-   "name": "알자지라 미국·캐나다",
-   "url": "https://www.aljazeera.com/us-canada/",
-   "keywords": [
-    "US",
-    "Trump"
+    "캐나다",
+    "재정적자"
    ]
   }
  ],
  "worldasia": [
   {
-   "name": "경향신문 국제",
-   "url": "https://www.khan.co.kr/world",
-   "keywords": [
-    "일본",
-    "중국",
-    "북한"
-   ]
-  },
-  {
    "name": "뉴시스 국제",
    "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
    "keywords": [
+    "대만",
     "중국",
-    "일본"
-   ]
-  },
-  {
-   "name": "알자지라 아시아태평양",
-   "url": "https://www.aljazeera.com/asia-pacific/",
-   "keywords": [
-    "China",
-    "Japan",
-    "ASEAN"
+    "일본",
+    "필리핀"
    ]
   }
  ],
  "worldeu": [
   {
-   "name": "경향신문 국제",
-   "url": "https://www.khan.co.kr/world",
+   "name": "알자지라",
+   "url": "https://www.aljazeera.com/news/",
    "keywords": [
-    "유럽",
-    "러시아",
-    "우크라이나"
+    "Northern Ireland",
+    "Russia",
+    "Germany"
    ]
   },
   {
    "name": "뉴시스 국제",
    "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
    "keywords": [
-    "유럽",
-    "EU",
-    "러시아"
+    "나토",
+    "영국"
    ]
   }
  ],
  "worldmea": [
   {
-   "name": "경향신문 국제",
-   "url": "https://www.khan.co.kr/world",
+   "name": "알자지라",
+   "url": "https://www.aljazeera.com/news/",
    "keywords": [
-    "중동",
-    "호르무즈"
+    "Gaza",
+    "West Bank"
    ]
   },
   {
    "name": "뉴시스 국제",
    "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
    "keywords": [
-    "중동",
-    "이란",
-    "이스라엘"
-   ]
-  },
-  {
-   "name": "알자지라 아프리카",
-   "url": "https://www.aljazeera.com/africa/",
-   "keywords": [
-    "Africa",
-    "Sudan",
-    "Ebola"
+    "리야드",
+    "호르무즈",
+    "유가"
    ]
   }
  ]

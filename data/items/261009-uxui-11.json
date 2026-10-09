@@ -1,0 +1,22 @@
+{
+ "title": "iOS 27 홈 앱, 알림 7개를 1개로 묶는 '알림 줄이기'와 AI 영상 요약",
+ "originalTitle": "Apple Home adds two powerful new features in iOS 27",
+ "source": "9to5Mac",
+ "url": "https://9to5mac.com/2026/10/08/heres-everything-new-for-apples-home-app-in-ios-27/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "애플이 iOS 27에서 홈 앱의 알림 방식과 카메라 영상 탐색 화면을 손봤다. 9to5Mac은 두 가지 변화를 핵심으로 꼽았다.",
+  "첫째는 iCloud+에 포함된 HomeKit 보안 비디오 개선이다. 애플 인텔리전스가 여러 클립을 묶어 무슨 일이 있었는지 설명문을 만들어 주고, 검색에서 '택배 도착' 같은 장면을 찾을 수 있다. 검색 화면 맨 위에는 다시 볼 만한 클립을 모은 섹션이 생겼다. 지원 카메라는 최대 1080p에서 4K로 스트리밍·녹화할 수 있게 됐다.",
+  "둘째는 실시간으로 갱신되는 알림이다. 홈 앱 설정의 새 애플 인텔리전스 항목에 있는 '알림 줄이기' 토글을 켜면 관련 이벤트를 알림 하나로 묶고, 상황이 바뀔 때마다 내용을 바꿔 쓴다. 기사 예시에서는 알림 7개가 '리디아 도착. 우편함 확인. 차고 문 닫힘.' 한 줄로 합쳐졌다. 알림이 쌓이는 피로를 줄이는 UX 변화지만, 지원 기기·지역 등 세부 조건은 기사에 나오지 않는다."
+ ],
+ "keyPoints": [
+  "'알림 줄이기'로 관련 알림 하나로 갱신",
+  "AI가 카메라 클립 요약·장면 검색",
+  "보안 비디오 4K 지원"
+ ],
+ "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/apple-home-app-icon-ios-27.jpg?quality=82&strip=all&resize=1200,628",
+ "facts": [],
+ "id": "261009-uxui-11",
+ "category": "uxui",
+ "collectedAt": "2026-10-09T16:31:27+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "위성으로 본 태국 대홍수…논밭이 물에 잠기고 400만 명 넘게 피해",
+ "originalTitle": "Floodwaters Overwhelm Thailand",
+ "source": "NASA Earth Observatory",
+ "url": "https://science.nasa.gov/earth/earth-observatory/floodwaters-overwhelm-thailand/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "태국에 9월 중순부터 큰비가 내리면서 10월 초까지 곳곳이 물에 잠겼어요. 나사는 랜드샛 8·9호 위성이 10월 2일 찍은 사진과 1년 전 사진을 나란히 놓고, 프라찐부리주 방빠꽁강 주변 논밭과 양식장이 얼마나 잠겼는지 보여 줬어요. 물과 땅이 잘 구별되도록 일부러 색을 바꾼 '가짜 색' 사진이에요.",
+  "원인은 9월 말 며칠 동안 한자리에 머문 저기압이에요. 따뜻한 타이만에서 수증기와 에너지를 끌어와 엄청난 비를 뿌렸어요. 약 100km 떨어진 방콕에는 48시간 동안 300mm 가까운 비가 내렸는데, 이는 방콕의 9월 한 달 평균(344mm)에 맞먹는 양이에요.",
+  "국제적십자사연맹에 따르면 9월 중순 이후 50개 주가 홍수 피해를 입어 400만 명 넘는 사람이 영향을 받았고 수십 명이 숨졌어요. 정부는 논과 과수원 등 농경지 약 27만 헥타르가 피해를 본 것으로 추산하고 있어요."
+ ],
+ "keyPoints": [
+  "랜드샛 위성으로 잠긴 논밭 비교",
+  "정체한 저기압이 타이만 수증기로 폭우",
+  "50개 주·400만 명 이상 피해"
+ ],
+ "image": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/floodwaters-overwhelm-thailand/thailandflooding_oli2_20261002_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+ "facts": [
+  [
+   "지역",
+   "태국 프라찐부리주 방빠꽁강 일대"
+  ],
+  [
+   "위성",
+   "Landsat 8·9 (OLI)"
+  ],
+  [
+   "피해",
+   "50개 주, 400만 명 이상(IFRC)"
+  ]
+ ],
+ "id": "261009-science-26",
+ "category": "science",
+ "collectedAt": "2026-10-09T16:31:27+09:00"
+}

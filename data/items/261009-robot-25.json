@@ -1,0 +1,35 @@
+{
+ "title": "헬름AI, 피지컬 AI 파운데이션 모델로 1년간 7000만 달러 계약…\"손익분기 눈앞\"",
+ "originalTitle": "Helm.ai reaches $70M in signed commercial contracts for its foundation models",
+ "source": "The Robot Report",
+ "url": "https://www.therobotreport.com/helm-ai-reaches-70m-signed-commercial-contracts-foundation-models/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "2016년 설립된 미국 캘리포니아의 헬름AI가 피지컬 AI용 파운데이션 모델로 최근 12개월간 7000만 달러 규모의 상업 계약을 맺었다고 밝혔다. 고객은 글로벌 완성차 업체, 1차 부품사, 산업 자동화 기업이며, 자율주행이 주력이지만 광산·건설 분야도 있다.",
+  "블라디슬라프 보로닌스키 CEO는 기술이 '실제 현장 배치 단계로 넘어가고 있다'며, 자본 효율적 방식 덕에 이 분야에선 드물게 손익분기 경로에 들어섰다고 말했다. 회사의 '딥 티칭'은 환경을 인식하는 학습과 그 안에서 행동하는 학습을 분리해 각각 엔드투엔드로 학습하는 비지도 방식으로, 적은 데이터로 낯선 환경에 일반화하고 하드웨어 연산 한계 안에서 돌아가는 것이 강점이라고 설명했다. 대규모 로봇 군단이 없는 로봇 업계에선 데이터 효율이 핵심이라는 주장이다.",
+  "소프트웨어는 SAE 레벨2~4 자율주행, 중장비 인식, 배송 드론 등에 쓰인다. 보로닌스키는 휴머노이드도 감지 문제는 비슷하다며, 로봇 산업이 10년 전 자율주행처럼 '도약의 순간'에 들어섰다고 봤다."
+ ],
+ "keyPoints": [
+  "12개월간 상업 계약 7000만 달러 확보",
+  "인식·행동 분리 학습 '딥 티칭'으로 데이터 효율",
+  "자율주행 넘어 광산·건설·로봇으로 확장"
+ ],
+ "image": "https://www.therobotreport.com/wp-content/uploads/2026/10/helmai-featured.jpg",
+ "facts": [
+  [
+   "기업",
+   "헬름AI(Helm.ai)"
+  ],
+  [
+   "계약 규모",
+   "7000만 달러(12개월)"
+  ],
+  [
+   "대표",
+   "블라디슬라프 보로닌스키"
+  ]
+ ],
+ "id": "261009-robot-25",
+ "category": "robot",
+ "collectedAt": "2026-10-09T16:31:27+09:00"
+}

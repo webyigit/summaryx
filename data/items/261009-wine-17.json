@@ -1,0 +1,35 @@
+{
+ "title": "모엣 헤네시·UC 데이비스, AI로 와인 결함 '사람보다 먼저' 잡는다",
+ "originalTitle": "AI learns to detect wine faults before humans can",
+ "source": "The Drinks Business",
+ "url": "https://www.thedrinksbusiness.com/2026/10/ai-learns-to-detect-wine-faults-before-humans-can/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "모엣 헤네시가 반도체 기업 아날로그 디바이스(ADI), 미국 UC 데이비스와 함께 와인의 화학 정보를 분석하고 AI로 품질 위험 신호를 찾는 감지 시스템을 개발하고 있다. 기술은 MIT 초기 연구에서 출발해 ADI가 발전시켰으며, 미리 정한 조건만 찾는 대신 머신러닝으로 복잡한 화학 데이터 속 의미 있는 신호를 골라낸다.",
+  "첫 시험 대상은 '생버섯 향(FMA)'이라는 와인 결함이었다. 모엣 헤네시 연구센터가 시료와 데이터 라이브러리를 만들어 알고리즘을 학습시킨 결과, 기존 방식으로 결함을 알아채기 전에 FMA 위험이 높은 시료를 가려냈다. 모엣 헤네시 R&D 담당 마누엘 르망은 \"포도와 와인의 화학적 언어를 빠르게 읽어낼 수 있다\"고 말했다.",
+  "협력사들은 포도나무 병해 조기 감지, 토양 평가, 기후변화·산불과 관련된 다른 결함으로 활용을 넓힐 계획이다. 다만 시스템은 양조가를 대체하는 것이 아니라 판단을 돕는 도구라고 강조했으며, 정확도나 상용화 시기는 공개되지 않았다."
+ ],
+ "keyPoints": [
+  "모엣 헤네시·ADI·UC 데이비스 공동 개발",
+  "'생버섯 향' 결함 위험을 사전 감지",
+  "병해·토양·산불 영향 감지로 확대 검토"
+ ],
+ "image": "https://www.thedrinksbusiness.com/content/uploads/2026/10/iStock-828562300-1.jpg",
+ "facts": [
+  [
+   "참여 기관",
+   "Moët Hennessy, Analog Devices, UC Davis"
+  ],
+  [
+   "첫 시험 결함",
+   "Fresh Mushroom Aroma(FMA)"
+  ],
+  [
+   "공개 안 된 정보",
+   "정확도·시료 수·상용화 시기"
+  ]
+ ],
+ "id": "261009-wine-17",
+ "category": "wine",
+ "collectedAt": "2026-10-09T16:31:27+09:00"
+}

@@ -1,0 +1,22 @@
+{
+ "title": "구글북 '글로우바', 충전 표시는 세밀해졌지만 '똑똑' 두드리기는 빠졌다",
+ "originalTitle": "Googlebook Glowbar doesn't have the 'knock-knock' Chromebook Pixel battery gesture",
+ "source": "9to5Google",
+ "url": "https://9to5google.com/2026/10/07/googlebook-glowbar/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "구글북의 '글로우바'는 크롬북 픽셀 노트북에 있던 상판 라이트 바를 되살린 요소다. 크롬북 픽셀은 덮개 위쪽에 네 칸짜리 표시등이 있었고, 구글북은 디스플레이 뒷면에 빛 막대를 넣었다.",
+  "주 역할은 배터리 상태 표시다. 전원을 꽂으면 켜지고, 충전 중과 분리 직후 잔량을 보여 준다. 9to5Google의 벤 슌은 예전보다 더 세밀하게 잔량을 보여 줘 실용적이라고 평가했다. 다만 원조의 가장 기억에 남는 상호작용이 빠졌다. 크롬북 픽셀은 닫힌 덮개를 두드리면(knock-knock) 불이 들어와 열거나 충전하지 않고도 배터리를 확인할 수 있었는데, 구글북은 이 입력을 지원하지 않아 전원 연결에만 반응한다.",
+  "그 밖에 덮개를 닫을 때 애니메이션이 나오고 제미나이와 연동되지만, 기자는 디스플레이 뒷면 조명으로 제미나이와 상호작용하는 의미는 잘 모르겠다고 했다. 하드웨어 피드백 디자인에서 '확인하는 동작'이 왜 중요한지 보여 주는 사례다."
+ ],
+ "keyPoints": [
+  "크롬북 픽셀 라이트 바를 계승한 글로우바",
+  "충전 잔량 표시는 더 세밀해짐",
+  "닫힌 덮개 두드려 확인하는 동작은 삭제"
+ ],
+ "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/hp-googlebook-glowbar-1.jpg?quality=82&strip=all&resize=1200,628",
+ "facts": [],
+ "id": "261009-uxui-12",
+ "category": "uxui",
+ "collectedAt": "2026-10-09T16:31:27+09:00"
+}

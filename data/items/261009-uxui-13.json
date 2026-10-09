@@ -1,0 +1,22 @@
+{
+ "title": "구글북, 옆에 둔 안드로이드폰으로 잠금 해제 준비… 코드에서 설정 화면 발견",
+ "originalTitle": "Googlebooks could soon borrow this convenient unlocking option",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/googlebook-android-phone-unlock-apk-teardown-3720577/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "안드로이드 오소리티가 안드로이드 17 QPR3 베타 1의 코드를 분석해, 구글이 구글북용 '휴대전화 잠금 해제(Phone Unlock)'를 개발 중인 흔적을 찾았다. 가까이 있는 잠금 해제된 안드로이드폰으로 노트북을 여는 기능으로, 구글은 아직 공식 발표하지 않았다.",
+  "설정의 'Phone unlock' 항목에서 연결할 폰을 고르고 등록·해제할 수 있으며, 설정 화면 그림에는 'G' 로고가 있는 노트북이 그려져 있다. 등록 후에는 덮개를 열거나 마우스를 움직이거나 잠금 화면에서 키를 누르면 자동으로 풀린다. 폰은 범위 안에 있고 잠금이 풀린 상태여야 한다. 해제될 때마다 폰에 알림이 오고, 이를 누르면 원치 않은 해제를 되돌려 노트북을 다시 잠글 수 있다.",
+  "설정 문구에는 강력한 PIN·패턴·비밀번호보다 덜 안전할 수 있다는 경고도 담겼다. 크롬북에는 비슷한 기능이 이미 있고, 개발 중인 코드라 출시 전 바뀌거나 빠질 수 있다. 알림 동기화·앱 스트리밍 등 기기 간 연속성을 넓히는 흐름의 하나다."
+ ],
+ "keyPoints": [
+  "구글북 '폰 잠금 해제' 코드 발견",
+  "덮개 열기·키 입력 시 자동 해제",
+  "해제 알림 눌러 즉시 재잠금 가능"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2026/09/Lenovo-Googlebook-15-open-scaled.jpeg",
+ "facts": [],
+ "id": "261009-uxui-13",
+ "category": "uxui",
+ "collectedAt": "2026-10-09T16:31:27+09:00"
+}
