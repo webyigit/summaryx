@@ -1,0 +1,39 @@
+{
+ "title": "회사 기기 3천여 대 잠그고 비트코인 요구한 前 엔지니어, 징역 32개월",
+ "originalTitle": "Engineer sentenced for locking over 3,000 devices on employer network",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "미국 미주리주 캔자스시티에 사는 57세 전직 인프라 엔지니어 대니얼 라인이 다니던 회사 네트워크를 마비시키고 돈을 요구한 혐의로 징역 32개월을 선고받았다. 피해 회사는 뉴저지에 본사를 둔 산업 기업으로 이름은 공개되지 않았다.",
+  "그는 2023년 11월 관리자 계정으로 원격 접속해 도메인 관리자 계정 13개를 지우고 사용자 301명의 비밀번호를 바꿨다. 관리자 계정 비밀번호도 바꿔 서버 254대와 PC 3,284대 접근을 막았다. 11월 25일에는 '네트워크가 뚫렸다'는 메일로 비트코인 20개(당시 약 75만 달러)를 내지 않으면 매일 서버 40대를 끄겠다고 협박했다.",
+  "수사 결과 그는 범행 직전 숨긴 가상머신에서 비밀번호 변경, 계정 삭제, 로그 삭제 방법을 검색한 것으로 드러났다. 내부자 위협의 위험성과 관리자 권한 관리의 중요성을 보여주는 사례다."
+ ],
+ "keyPoints": [
+  "前 인프라 엔지니어, 회사 네트워크 잠그고 협박",
+  "서버 254대·PC 3,284대 접근 차단",
+  "비트코인 20개 요구, 징역 32개월 선고"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2025/11/10/Hacker_IAB.jpg",
+ "facts": [
+  [
+   "피고",
+   "Daniel Rhyne(57)"
+  ],
+  [
+   "형량",
+   "징역 32개월"
+  ],
+  [
+   "범행 시기",
+   "2023년 11월"
+  ],
+  [
+   "요구액",
+   "비트코인 20개(약 75만 달러)"
+  ]
+ ],
+ "id": "261010-security-13",
+ "category": "security",
+ "collectedAt": "2026-10-10T03:29:49+09:00"
+}

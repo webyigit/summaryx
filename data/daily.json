@@ -1,35 +1,29 @@
 {
- "date": "2026-10-09",
+ "date": "2026-10-10",
  "verse": {
-  "ref": "전도서 3:11",
-  "text": "하나님이 모든 것을 지으시되 때를 따라 아름답게 하셨고 또 사람에게 영원을 사모하는 마음을 주셨느니라 그러나 하나님의 하시는 일의 시종을 사람으로 측량할 수 없게 하셨도다",
+  "ref": "시편 65:11",
+  "text": "주의 은택으로 년사에 관 씌우시니 주의 길에는 기름이 떨어지며",
   "version": "개역한글"
  },
  "english": {
-  "expression": "lost for words",
-  "meaning": "너무 놀랍거나 감동해서 할 말을 잃다, 말문이 막히다",
-  "example": "When my students handed me a card they had written in Hangeul, I was completely lost for words.",
-  "exampleKo": "학생들이 한글로 직접 쓴 카드를 건넸을 때, 나는 정말 할 말을 잃었어.",
-  "tip": "be lost for words 형태로 주로 쓰고, 미국에서는 at a loss for words도 많이 씁니다. 좋은 일에도 나쁜 일에도 쓸 수 있어서, 감동했을 때는 'I'm lost for words. Thank you so much.'처럼 말하면 자연스럽습니다."
+  "expression": "fall into place",
+  "meaning": "(흩어져 있던 일들이) 제자리를 찾다, 착착 맞아떨어지다, 술술 풀리다",
+  "example": "It was a stressful month, but once we fixed the schedule, everything started to fall into place.",
+  "exampleKo": "정신없는 한 달이었지만, 일정을 정리하고 나니 모든 게 착착 맞아떨어지기 시작했어.",
+  "tip": "퍼즐 조각이 제자리에 쏙 들어가는 모습을 떠올리면 쉽습니다. 주어로 everything, things, it all을 자주 쓰고, 'Things are finally falling into place.'(이제야 일이 풀리기 시작하네)처럼 진행형으로도 많이 씁니다."
  },
  "quote": {
-  "text": "모든 사람들이 쉽게 익히어, 날로 씀에 편하게 하고자 할 따름이니라.",
-  "original": "欲使人人易習 便於日用耳",
-  "author": "세종대왕, 『훈민정음』 어제 서문(1446) — 한글날을 맞아 (현대어 풀이: 박지홍)"
- },
- "poem": {
-  "title": "자화상",
-  "poet": "윤동주 (1917–1945)",
-  "text": "산모퉁이를 돌아 논가 외딴 우물을 홀로 찾아가선\n가만히 들여다봅니다.\n\n우물 속에는 달이 밝고 구름이 흐르고\n하늘이 펼치고 파아란 바람이 불고 가을이 있습니다.\n\n그리고 한 사나이가 있습니다.\n어쩐지 그 사나이가 미워져 돌아갑니다.\n\n돌아가다 생각하니 그 사나이가 가엾어집니다.\n도로 가 들여다보니 사나이는 그대로 있습니다.\n\n다시 그 사나이가 미워져 돌아갑니다.\n돌아가다 생각하니 그 사나이가 그리워집니다.\n\n우물 속에는 달이 밝고 구름이 흐르고\n하늘이 펼치고 파아란 바람이 불고 가을이 있고\n추억처럼 사나이가 있습니다.",
-  "source": "1939년 작, 유고시집 『하늘과 바람과 별과 시』(1948) 수록"
+  "text": "꿈에서 보는 것 같은 자연.",
+  "original": "nature, as seen in a dream",
+  "author": "오딜롱 르동 (Odilon Redon, 1840–1916), 화가 — 클리블랜드미술관 「꽃병(Vase of Flowers)」 해설에 인용된, 그가 그리고자 한 것 (프랑스어 원문 [확인 필요])"
  },
  "art": {
-  "title": "맑은 가을날의 강과 산 — River and Mountains on a Clear Autumn Day (江山秋霁图)",
-  "artist": "동기창 (董其昌, Dong Qichang, 1555–1636)",
-  "year": "c. 1624–27",
-  "image": "https://openaccess-cdn.clevelandart.org/1959.46/1959.46_web.jpg",
-  "page": "https://clevelandart.org/art/1959.46",
-  "credit": "퍼블릭 도메인(CC0) · Cleveland Museum of Art",
-  "description": "명나라 문인화가 동기창은 추상화된 산수를 화면에 대각선으로 펼쳐 놓아, 옛 대가들을 떠올리게 하면서도 자신만의 화풍을 드러냈습니다. 그림에 적은 글에서 그는 원나라 대가 황공망이 이 작품을 보았더라면 좋았겠다고 썼습니다. 그가 소장했던 동원의 「소상도」에서 영향을 받았을 가능성도 있습니다."
+  "title": "사과 따는 사람들 — The Apple Gatherers",
+  "artist": "칼 앤더슨 (Karl Anderson, 1874–1956)",
+  "year": "1912",
+  "image": "https://openaccess-cdn.clevelandart.org/1926.485/1926.485_web.jpg",
+  "page": "https://clevelandart.org/art/1926.485",
+  "credit": "퍼블릭 도메인(CC0) · Cleveland Museum of Art, Bequest of Ralph King",
+  "description": "미국 화가 칼 앤더슨은 산업화된 도시를 싫어해 시골 풍경을 즐겨 그렸습니다. 사과를 따는 모습은 도시의 공장 노동과 대조를 이루고, 흰 옷을 입은 소녀는 이상화된 순수함을 나타내는 것으로 볼 수 있습니다. 그는 자신의 그림이 '삶의 아름다움이 지닌 향기'를 담아내기를 바랐다고 말했습니다."
  }
 }

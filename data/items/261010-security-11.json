@@ -1,0 +1,43 @@
+{
+ "title": "시트릭스, 넷스케일러 SAML 구성 치명적 결함 패치… CVSS 9.5",
+ "originalTitle": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "시트릭스가 NetScaler ADC와 NetScaler Gateway의 메모리 오버플로 취약점 CVE-2026-107406(CVSS 9.5)을 패치했다. 특정 설정에서 원격 코드 실행이나 서비스 거부로 이어질 수 있으며, 장비가 SAML 신원 제공자(IdP)나 서비스 제공자(SP)로 구성된 경우에 해당한다. JP모건체이스 XOR팀 연구원들과 맥심 수하노프가 제보했다.",
+  "영향 범위는 14.1·13.1 계열과 FIPS·NDcPP 판이며, Secure Private Access 하이브리드 구성도 포함된다. 수정 버전은 14.1-73.46, 13.1-64.29 이상 등이다. 이번 결함의 실제 악용 증거는 없지만, 다른 넷스케일러 취약점 3건(CVE-2026-88771·88772·88779)은 현재 공격에 쓰이고 있다.",
+  "관리자는 설정에 'authentication samlAction'이나 'authentication samlIdPProfile' 항목이 있는지 확인하고, 시트릭스 권고 CTX697191에 따라 서둘러 업그레이드해야 한다."
+ ],
+ "keyPoints": [
+  "넷스케일러 CVE-2026-107406, CVSS 9.5",
+  "SAML IdP·SP 구성에서 원격 코드 실행 가능",
+  "14.1-73.46·13.1-64.29 이상으로 업그레이드"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifRR7IQ4Ngqm8ANJ-DKwW60qeemJlrfrtvhaAwtpzW37_jAkbdctxJEqjw8k_m1KT32ryqoxa1dNYoEPG-E9xNwrbtXqbOjbzmgs3JM9RW68FZMNA8ky14QKTLpEfHop9A4xmXO46fxQaeXZMZzzMQ-qoIXLpMrr8Gbekn3cgNX5xc7bYvMRDYKjDeLf4o/s1600/cit.jpg",
+ "facts": [
+  [
+   "CVE",
+   "CVE-2026-107406"
+  ],
+  [
+   "CVSS",
+   "9.5"
+  ],
+  [
+   "수정 버전",
+   "14.1-73.46, 13.1-64.29 이상 등"
+  ],
+  [
+   "악용 여부",
+   "증거 없음"
+  ],
+  [
+   "권고",
+   "CTX697191"
+  ]
+ ],
+ "id": "261010-security-11",
+ "category": "security",
+ "collectedAt": "2026-10-10T03:29:49+09:00"
+}

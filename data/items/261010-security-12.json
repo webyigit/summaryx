@@ -1,0 +1,39 @@
+{
+ "title": "FBI 등 7개국 공동 경보 \"中 연계 해커, 훔친 이메일을 제3자에 열람시키는 포털 운영\"",
+ "originalTitle": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "미국 FBI와 6개국 기관이 10월 8일 공동 보안 경보를 내고, 중국 기업 인테그리티 테크놀로지 그룹과 연계된 해커들이 동남아를 중심으로 정부·경찰·의료·종교 단체의 이메일을 훔쳐 왔다고 밝혔다. 이 회사는 2025년 미국과 영국의 제재를 받았으며 혐의를 부인했다.",
+  "해커들은 1,300여 개 점검 스크립트를 담은 도구와 공개 스캐너로 취약점을 찾고, 마이크로소프트 365·익스체인지 계정 비밀번호를 대입해 메일함을 복사했다. 경보는 악용된 취약점 8건을 열거했고, 훔친 메일에 제3자가 접근할 수 있는 웹 애플리케이션까지 운영했다고 설명했다. 활동은 최소 2021년 1월부터 이어졌다.",
+  "이 회사는 2024년 FBI가 무력화한 20만 대 규모 봇넷 '레이터 트레인'과도 연결된 곳이다. 기관들은 패치, 다중요소 인증 적용, 계정 탈취 징후 감시, 침해 지표 점검을 권고했다."
+ ],
+ "keyPoints": [
+  "7개국 공동 경보, 中 인테그리티 테크 연계 해커 지목",
+  "M365·익스체인지 계정 공격으로 이메일 탈취",
+  "훔친 메일을 제3자에 제공하는 포털 운영"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyj_ek8VTEYw5CpVqkAK63I01D84oGBvRsHmwpjeAfat3TCDqzhXqRWXWCGkNZKwH3rF0uyeuowCSGcBT-mLkdw-174FA0gGh8ZIVKOXUbXt9w0eTZZTlMGE-ySkZIIkswfxe0-cEU9ww6E8iIpWI2eDQU_NrsezDxIoE2WNBt8mDtG6nYeke9Ut17_JY/s1600/china-email.jpg",
+ "facts": [
+  [
+   "발표",
+   "FBI 외 6개국 기관 공동 경보"
+  ],
+  [
+   "지목 대상",
+   "Integrity Technology Group 연계 해커"
+  ],
+  [
+   "주요 피해",
+   "동남아 정부·경찰·의료·종교 단체"
+  ],
+  [
+   "활동 시기",
+   "최소 2021년 1월부터"
+  ]
+ ],
+ "id": "261010-security-12",
+ "category": "security",
+ "collectedAt": "2026-10-10T03:29:49+09:00"
+}

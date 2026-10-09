@@ -1,0 +1,39 @@
+{
+ "title": "TP-Link, 美 4개 주에서 추가 피소… '라우터 보안·중국 연관성' 쟁점",
+ "originalTitle": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "미국 플로리다·아이오와·몬태나·네브래스카 4개 주가 10월 6일 공유기 업체 TP-Link Systems를 소비자보호법 위반으로 각 주 법원에 제소했다. 2월 텍사스에 이어 소송은 모두 5건이 됐다.",
+  "주정부들은 TP-Link가 'HomeShield' 등으로 보안을 광고했지만 해킹된 라우터와 업데이트가 끊긴 제품이 있었다고 주장한다. 또 중국 TP-Link Technologies와 완전히 다른 회사라는 설명과 '베트남 생산' 주장에도 의문을 제기했고, 앱 개인정보 처리방침에 중국 정보법에 따른 데이터 노출 위험이 빠졌다고 봤다. 다만 소장은 TP-Link가 백도어를 심었다고 주장하지는 않는다.",
+  "10월 7일에는 21개 주 법무장관이 FCC에 우려 서한을 보냈다. TP-Link는 소송이 '잘못된 전제'에 기반했다며 미국 독립 기업이고 고객 네트워크 데이터를 외국 정부와 공유하지 않는다고 반박했다."
+ ],
+ "keyPoints": [
+  "플로리다 등 4개 주, TP-Link 소비자보호법 위반 소송",
+  "보안 광고·중국 연관성·개인정보 고지 문제 지적",
+  "TP-Link \"잘못된 전제\" 반박"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigXm446RUyCxv1-oRtdkXFCb2Hax0UsQEnanQtli1OViTiFpjV4Jb96qpsy94Td6DK6LDrre8q2masVzeA9X1hQE8ct3TEChlzZmNTaqux1CDT52o1A_6cuQYY4-inbvKDNYN4rqTGNrmrit-YcGBZbTppW5RUxNvcom2OV9pS8jU8twPWsj_Vtwgjqvg/s1600/tp.jpg",
+ "facts": [
+  [
+   "피고",
+   "TP-Link Systems"
+  ],
+  [
+   "원고",
+   "플로리다·아이오와·몬태나·네브래스카(텍사스 포함 총 5개 주)"
+  ],
+  [
+   "제소일",
+   "2026-10-06"
+  ],
+  [
+   "회사 입장",
+   "혐의 부인"
+  ]
+ ],
+ "id": "261010-security-06",
+ "category": "security",
+ "collectedAt": "2026-10-10T03:29:49+09:00"
+}

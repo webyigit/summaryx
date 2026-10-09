@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>시트릭스, 넷스케일러 SAML 구성 치명적 결함 패치… CVSS 9.5 | summaryx</title>
+<meta name="description" content="시트릭스가 NetScaler ADC와 NetScaler Gateway의 메모리 오버플로 취약점 CVE-2026-107406(CVSS 9.5)을 패치했다. 특정 설정에서 원격 코드 실행이나 서비스 거부로 이어질 수 있으며, 장비가 SAML 신원 제공자(IdP)나 서비스 ">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="시트릭스, 넷스케일러 SAML 구성 치명적 결함 패치… CVSS 9.5">
+<meta property="og:description" content="시트릭스가 NetScaler ADC와 NetScaler Gateway의 메모리 오버플로 취약점 CVE-2026-107406(CVSS 9.5)을 패치했다. 특정 설정에서 원격 코드 실행이나 서비스 거부로 이어질 수 있으며, 장비가 SAML 신원 제공자(IdP)나 서비스 ">
+<meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifRR7IQ4Ngqm8ANJ-DKwW60qeemJlrfrtvhaAwtpzW37_jAkbdctxJEqjw8k_m1KT32ryqoxa1dNYoEPG-E9xNwrbtXqbOjbzmgs3JM9RW68FZMNA8ky14QKTLpEfHop9A4xmXO46fxQaeXZMZzzMQ-qoIXLpMrr8Gbekn3cgNX5xc7bYvMRDYKjDeLf4o/s1600/cit.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="../../#/a/261010-security-11">
+<script>location.replace('../../#/a/261010-security-11');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261010-security-11">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">시트릭스, 넷스케일러 SAML 구성 치명적 결함 패치… CVSS 9.5</h1>
+<p>시트릭스가 NetScaler ADC와 NetScaler Gateway의 메모리 오버플로 취약점 CVE-2026-107406(CVSS 9.5)을 패치했다. 특정 설정에서 원격 코드 실행이나 서비스 거부로 이어질 수 있으며, 장비가 SAML 신원 제공자(IdP)나 서비스 제공자(SP)로 구성된 경우에 해당한다. JP모건체이스 XOR팀 연구원들과 맥심 수하노프가 제보했다.</p><p>영향 범위는 14.1·13.1 계열과 FIPS·NDcPP 판이며, Secure Private Access 하이브리드 구성도 포함된다. 수정 버전은 14.1-73.46, 13.1-64.29 이상 등이다. 이번 결함의 실제 악용 증거는 없지만, 다른 넷스케일러 취약점 3건(CVE-2026-88771·88772·88779)은 현재 공격에 쓰이고 있다.</p><p>관리자는 설정에 &#x27;authentication samlAction&#x27;이나 &#x27;authentication samlIdPProfile&#x27; 항목이 있는지 확인하고, 시트릭스 권고 CTX697191에 따라 서둘러 업그레이드해야 한다.</p>
+<p><a href="https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html">원문 보기</a></p>
+</body></html>

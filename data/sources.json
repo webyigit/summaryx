@@ -343,40 +343,28 @@
  "art": [
   {
    "name": "The Art Newspaper",
-   "url": "https://www.theartnewspaper.com/keywords/art-market",
+   "url": "https://www.theartnewspaper.com/",
    "keywords": [
     "art market",
-    "auction",
-    "art fair",
-    "museum"
+    "museum",
+    "exhibition"
    ]
   },
   {
    "name": "Artnet News",
    "url": "https://news.artnet.com/",
    "keywords": [
-    "auction record",
+    "auction",
     "gallery",
-    "exhibition",
-    "art world"
+    "art fair"
    ]
   },
   {
    "name": "Hyperallergic",
    "url": "https://hyperallergic.com/",
    "keywords": [
-    "exhibition review",
-    "artists",
-    "museum news"
-   ]
-  },
-  {
-   "name": "Frieze",
-   "url": "https://www.frieze.com/tags/frieze-london-2026",
-   "keywords": [
-    "Frieze London",
-    "Frieze Masters",
-    "contemporary art"
+    "museum news",
+    "artists"
    ]
   },
   {
@@ -384,10 +372,16 @@
    "url": "https://www.newsis.com/culture/list/?cid=10700&scid=10701",
    "keywords": [
     "전시",
+    "미술관"
+   ]
+  },
+  {
+   "name": "뉴스1 공연·전시",
+   "url": "https://www.news1.kr/life-culture/performance-exhibition",
+   "keywords": [
+    "개인전",
     "미술관",
-    "갤러리",
-    "작가",
-    "컬렉터"
+    "전시"
    ]
   }
  ],
@@ -524,6 +518,24 @@
     "tour",
     "AI in music"
    ]
+  },
+  {
+   "name": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/",
+   "keywords": [
+    "music industry",
+    "AI music",
+    "live"
+   ]
+  },
+  {
+   "name": "Stereogum",
+   "url": "https://www.stereogum.com/category/news/",
+   "keywords": [
+    "new release",
+    "tour",
+    "concert"
+   ]
   }
  ],
  "ent": [
@@ -644,31 +656,41 @@
    "name": "이투데이 영화",
    "url": "https://www.etoday.co.kr/culture-life/movie",
    "keywords": [
-    "영화계",
-    "부산국제영화제"
+    "부산국제영화제",
+    "개봉"
    ]
   },
   {
    "name": "스포츠경향",
-   "url": "https://sports.khan.co.kr/",
+   "url": "https://sports.khan.co.kr/entertainment/movie",
    "keywords": [
     "BIFF",
-    "부일영화상"
+    "암살자(들)"
    ]
   },
   {
    "name": "뉴스컬처",
    "url": "https://www.nc.press/",
    "keywords": [
-    "부산국제영화제"
+    "부산국제영화제",
+    "박스오피스"
+   ]
+  },
+  {
+   "name": "뉴스핌 영화",
+   "url": "https://www.newspim.com/news/lists/?category_cd=110020",
+   "keywords": [
+    "BIFF",
+    "개봉"
    ]
   },
   {
    "name": "TheWrap",
    "url": "https://www.thewrap.com/",
    "keywords": [
-    "obituary",
-    "Bollywood"
+    "box office",
+    "Oscars",
+    "interview"
    ]
   },
   {
@@ -1062,6 +1084,16 @@
    ]
   },
   {
+   "name": "보안뉴스",
+   "url": "https://www.boannews.com/media/t_list.asp",
+   "keywords": [
+    "개인정보 유출",
+    "해킹",
+    "취약점",
+    "패치"
+   ]
+  },
+  {
    "name": "BleepingComputer",
    "url": "https://www.bleepingcomputer.com/",
    "keywords": [
@@ -1139,6 +1171,14 @@
     "Caine Prize",
     "AI copyright"
    ]
+  },
+  {
+   "name": "서울신문 출판·문학",
+   "url": "https://www.seoul.co.kr/news/life/publication-literature",
+   "keywords": [
+    "베스트셀러",
+    "신간"
+   ]
   }
  ],
  "show": [
@@ -1165,6 +1205,15 @@
    "keywords": [
     "뮤지컬",
     "국악"
+   ]
+  },
+  {
+   "name": "뉴스1 공연·전시",
+   "url": "https://www.news1.kr/life-culture/performance-exhibition",
+   "keywords": [
+    "뮤지컬",
+    "연극",
+    "클래식"
    ]
   }
  ],
@@ -1368,7 +1417,9 @@
     "플랫폼",
     "시스템 구축",
     "홈페이지",
-    "누리집"
+    "누리집",
+    "포털",
+    "유지관리"
    ]
   }
  ],
@@ -2913,11 +2964,22 @@
  "worldus": [
   {
    "name": "알자지라",
-   "url": "https://www.aljazeera.com/news/",
+   "url": "https://www.aljazeera.com/us-canada/",
    "keywords": [
     "US",
-    "Mexico",
-    "ICE"
+    "ICE",
+    "execution",
+    "Senate"
+   ]
+  },
+  {
+   "name": "알자지라 중남미",
+   "url": "https://www.aljazeera.com/latin-america/",
+   "keywords": [
+    "Venezuela",
+    "Brazil",
+    "El Salvador",
+    "Colombia"
    ]
   },
   {
@@ -2925,8 +2987,16 @@
    "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
    "keywords": [
     "미국",
-    "캐나다",
-    "재정적자"
+    "뉴욕증시",
+    "항모"
+   ]
+  },
+  {
+   "name": "경향신문 국제",
+   "url": "https://www.khan.co.kr/world",
+   "keywords": [
+    "미국",
+    "트럼프"
    ]
   }
  ],
@@ -2940,16 +3010,37 @@
     "일본",
     "필리핀"
    ]
+  },
+  {
+   "name": "Al Jazeera Asia",
+   "url": "https://www.aljazeera.com/asia/",
+   "keywords": [
+    "India",
+    "Afghanistan",
+    "Sri Lanka"
+   ]
+  },
+  {
+   "name": "Al Jazeera Asia-Pacific",
+   "url": "https://www.aljazeera.com/asia-pacific/",
+   "keywords": [
+    "Malaysia",
+    "Japan",
+    "Australia",
+    "Philippines"
+   ]
   }
  ],
  "worldeu": [
   {
    "name": "알자지라",
-   "url": "https://www.aljazeera.com/news/",
+   "url": "https://www.aljazeera.com/where/europe/",
    "keywords": [
-    "Northern Ireland",
     "Russia",
-    "Germany"
+    "Ukraine",
+    "UK",
+    "Belgium",
+    "NATO"
    ]
   },
   {
@@ -2957,26 +3048,53 @@
    "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
    "keywords": [
     "나토",
-    "영국"
+    "영국",
+    "독일",
+    "EU",
+    "러시아"
+   ]
+  },
+  {
+   "name": "경향신문 국제",
+   "url": "https://www.khan.co.kr/world",
+   "keywords": [
+    "유럽",
+    "러시아"
    ]
   }
  ],
  "worldmea": [
   {
    "name": "알자지라",
-   "url": "https://www.aljazeera.com/news/",
+   "url": "https://www.aljazeera.com/middle-east/",
    "keywords": [
-    "Gaza",
-    "West Bank"
+    "Middle East",
+    "Africa"
+   ]
+  },
+  {
+   "name": "알자지라 아프리카",
+   "url": "https://www.aljazeera.com/africa/",
+   "keywords": [
+    "Ethiopia",
+    "Kenya",
+    "Sudan"
+   ]
+  },
+  {
+   "name": "경향신문 중동·아프리카",
+   "url": "https://www.khan.co.kr/world/mideast-africa/articles",
+   "keywords": [
+    "중동",
+    "아프리카"
    ]
   },
   {
    "name": "뉴시스 국제",
    "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
    "keywords": [
-    "리야드",
     "호르무즈",
-    "유가"
+    "이란"
    ]
   }
  ]

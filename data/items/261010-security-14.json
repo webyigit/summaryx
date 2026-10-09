@@ -1,0 +1,39 @@
+{
+ "title": "워드프레스 플러그인 '닌자 폼' 등 저장형 XSS 악용… 관리자 계정 몰래 생성",
+ "originalTitle": "Ninja Forms plugin flaw exploited to hack WordPress sites",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "워드프레스 보안업체 패치스택이 플러그인 '닌자 폼(Ninja Forms)'과 'WPC Product Bundles for WooCommerce'의 저장형 XSS 취약점이 실제 공격에 쓰이고 있다고 밝혔다. 두 공격에 같은 자바스크립트가 쓰여 한 공격자의 소행으로 본다. 10월 4일 WPC 플러그인 사용자 대상 공격이, 다음 날 닌자 폼 대상 공격이 확인됐다.",
+  "취약점은 닌자 폼 CVE-2026-94504(3.15.3 이하)와 WPC Product Bundles CVE-2026-93836(8.6.6 이하)이며 모두 '높음' 등급이다. 닌자 폼은 50만 개 이상, WPC는 3만 개 이상 사이트에 설치돼 있다. 악성 코드는 관리자가 주문·양식 데이터를 볼 때 실행돼, 화면에 보이지 않는 관리자 계정과 위장 플러그인을 만든다.",
+  "패치스택은 아직 악용이 제한적이라고 했다. 닌자 폼은 3.15.4, WPC는 8.6.7 이상으로 업데이트해야 하지만 이미 감염된 사이트는 업데이트만으로 정리되지 않으므로 낯선 관리자 계정과 플러그인을 점검해야 한다."
+ ],
+ "keyPoints": [
+  "닌자 폼·WPC Product Bundles XSS 실제 악용",
+  "숨은 관리자 계정·위장 플러그인 설치",
+  "3.15.4·8.6.7 업데이트와 감염 점검 필요"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2026/04/07/NinjaForms.jpg",
+ "facts": [
+  [
+   "CVE",
+   "CVE-2026-94504(Ninja Forms), CVE-2026-93836(WPC Product Bundles)"
+  ],
+  [
+   "수정 버전",
+   "3.15.4 / 8.6.7"
+  ],
+  [
+   "설치 규모",
+   "50만+ / 3만+ 사이트"
+  ],
+  [
+   "발견",
+   "Patchstack"
+  ]
+ ],
+ "id": "261010-security-14",
+ "category": "security",
+ "collectedAt": "2026-10-10T03:29:49+09:00"
+}
