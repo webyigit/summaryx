@@ -1,0 +1,35 @@
+{
+ "title": "약한 셀만 건너뛰는 '재구성형 배터리', 전기차 배터리 수명 최대 20%↑",
+ "originalTitle": "Cell bypass aims to extend the usable life of EV batteries",
+ "source": "electrive.com",
+ "url": "https://www.electrive.com/2026/10/09/cell-bypass-aims-to-extend-the-usable-life-of-ev-batteries/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "전기차 배터리 셀은 저마다 노화 속도가 달라, 기존 팩에서는 약한 셀 하나가 팩 전체의 용량과 수명을 깎는다. 스웨덴 찰머스공대 연구진은 스위치와 제어 장치로 셀 연결을 바꿔 약한 셀을 건너뛰는 '재구성형 배터리 팩'을 분석해 네이처 커뮤니케이션즈에 발표했다. PHINIA와 스카니아도 참여했다.",
+  "셀을 하나하나 제어하는 최상위 방식에서는 일부 고전압 차량의 수명이 20% 넘게 늘어나는 것으로 시뮬레이션됐다. 연 1만2,000km를 달리는 80kWh 배터리 기준으로 기존 팩이 10년 만에 교체될 때 재구성형 팩은 약 11년, 14개월가량 더 쓸 수 있고 잔존가치도 높다.",
+  "전자부품이 늘어 초기 비용은 오르지만 수명과 잔존가치로 상쇄될 수 있다는 분석이다. 아직 양산차에는 없고, 실제로는 셀 그룹 단위 제어가 유력해 20%는 이론적 상한이다. 전기 트럭·장거리 차량에서 효과가 크고, 퇴역 후 ESS 재활용도 쉬워질 수 있다."
+ ],
+ "keyPoints": [
+  "찰머스공대, 네이처 커뮤니케이션즈 발표",
+  "셀 단위 제어 시 수명 20% 이상↑(이론 상한)",
+  "80kWh 기준 교체 시기 약 14개월 연장"
+ ],
+ "image": "https://www.electrive.com/media/2026/10/202610-chambers-university-bypass-zellen-batterien.jpg",
+ "facts": [
+  [
+   "연구기관",
+   "찰머스공대(스웨덴), PHINIA, 스카니아"
+  ],
+  [
+   "학술지",
+   "Nature Communications"
+  ],
+  [
+   "분야",
+   "배터리 팩 구조"
+  ]
+ ],
+ "id": "261010-car-10",
+ "category": "car",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

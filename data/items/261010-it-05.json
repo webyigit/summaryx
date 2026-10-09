@@ -1,0 +1,35 @@
+{
+ "title": "AT&T 가입자들에 '비밀번호 변경' 알림 무더기 발송…\"해킹 징후는 아직 없어\"",
+ "originalTitle": "AT&T customers are getting surprise password change alerts, but don't panic yet",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/att-password-changed-3720864/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "미국 통신사 AT&T 가입자 상당수가 본인이 바꾸지 않았는데도 계정 비밀번호가 변경됐다는 알림을 이메일과 문자로 받았다. 레딧 AT&T 커뮤니티에는 새벽 3시 27분, 5시 37분께 같은 메시지를 받았다는 글이 여럿 올라왔다.",
+  "여러 가입자가 같은 시각에 알림을 받은 점으로 미뤄 AT&T가 실수로 대량 발송했을 가능성이 거론된다. 처음엔 피싱을 의심한 이용자가 많았지만 메일은 공식 발송으로 보였고, 현재까지 계정이 실제로 침해됐다는 징후는 없다.",
+  "안드로이드 어소리티는 당황할 필요는 없지만 확실히 하고 싶다면 AT&T 사기 대응 부서에 문의하라고 권했다. AT&T는 기사 작성 시점까지 원인에 대한 문의에 답하지 않았다."
+ ],
+ "keyPoints": [
+  "AT&T 가입자에 비번 변경 알림 대량 발송",
+  "같은 시각 수신…실수 발송 가능성",
+  "계정 침해 징후 없음, AT&T 답변 없어"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2026/05/ATT-logo-on-phone-stock-photo-5.jpg",
+ "facts": [
+  [
+   "회사",
+   "AT&T"
+  ],
+  [
+   "현상",
+   "비밀번호 변경 알림 이메일·문자 대량 수신"
+  ],
+  [
+   "회사 입장",
+   "기사 시점 무응답"
+  ]
+ ],
+ "id": "261010-it-05",
+ "category": "it",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

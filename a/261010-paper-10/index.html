@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>순환 루프 트랜스포머: 문장이 길어질수록 더 깊이 생각하는 구조 | summaryx</title>
+<meta name="description" content="트랜스포머는 토큰마다 정해진 층 수만큼만 계산하기 때문에, 순서가 길어질수록 상태를 계속 따라가야 하는 문제(예: 비트의 홀짝 판정, 순열 추적)에 약하다. 순환 루프 트랜스포머(RLT)는 층을 병렬 인과 인코더와 순환 디코더로 나눈다. 디코더는 각 토큰에서 인코더 출">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="순환 루프 트랜스포머: 문장이 길어질수록 더 깊이 생각하는 구조">
+<meta property="og:description" content="트랜스포머는 토큰마다 정해진 층 수만큼만 계산하기 때문에, 순서가 길어질수록 상태를 계속 따라가야 하는 문제(예: 비트의 홀짝 판정, 순열 추적)에 약하다. 순환 루프 트랜스포머(RLT)는 층을 병렬 인과 인코더와 순환 디코더로 나눈다. 디코더는 각 토큰에서 인코더 출">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261010-paper-10">
+<script>location.replace('../../#/a/261010-paper-10');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261010-paper-10">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">순환 루프 트랜스포머: 문장이 길어질수록 더 깊이 생각하는 구조</h1>
+<p>트랜스포머는 토큰마다 정해진 층 수만큼만 계산하기 때문에, 순서가 길어질수록 상태를 계속 따라가야 하는 문제(예: 비트의 홀짝 판정, 순열 추적)에 약하다.</p><p>순환 루프 트랜스포머(RLT)는 층을 병렬 인과 인코더와 순환 디코더로 나눈다. 디코더는 각 토큰에서 인코더 출력과 직전 토큰의 최종 디코더 상태를 합쳐 계산하므로, 토큰당 비용은 고정이면서 계산 경로는 길이에 따라 늘어난다. 연구진은 8층 모델의 다섯 가지 분할을 8층 트랜스포머와 6개 알고리즘 과제에서 비교했다.</p><p>40비트까지 학습한 홀짝 판정에서 두 RLT 분할은 256비트까지 모든 시드에서 100%를 맞혔지만 트랜스포머는 찍기 수준이었다. 순열 추적은 학습 길이의 8배에서 97% 대 1% 미만, 모듈러 산술은 최대 93% 대 33%였다. 피드백 연결을 빼면 성능이 무너져 핵심이 이 연결에 있음을 보였다.</p>
+<p><a href="https://arxiv.org/abs/2610.07591">원문 보기</a></p>
+</body></html>

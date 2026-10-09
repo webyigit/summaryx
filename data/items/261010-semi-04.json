@@ -1,0 +1,21 @@
+{
+ "title": "글로벌파운드리, TSMC CoWoS용 실리콘 인터포저 美서 생산…20억 달러 계약",
+ "originalTitle": "GlobalFoundries reaches agreement to establish U.S.-based supply of silicon interposers for advanced AI packaging",
+ "source": "GlobalFoundries",
+ "url": "https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "글로벌파운드리(GF)가 TSMC와 다년간 20억 달러 규모의 제조 계약을 맺었다. GF가 TSMC에 제조 서비스를 제공해, AI 칩 패키징 기술인 CoWoS 생태계에 쓰이는 실리콘 인터포저를 미국에서 공급하는 내용이다. 인터포저는 GPU와 HBM을 한 패키지 안에서 연결하는 중간 기판이다.",
+  "GF는 뉴욕주 몰타 공장에 생산 능력을 추가하며, 미국 최초의 실리콘 인터포저 공급처가 된다고 밝혔다. 내장형 딥트렌치 커패시터 부품을 포함한 첨단 패키징 기술을 지원하며, 양산은 2028년 상반기 시작된다. 계약 기간은 우선 5년이고 수요에 따라 증설할 수 있는 틀을 담았다.",
+  "에드 캐스트 GF 수석부사장은 첨단 패키징이 차세대 AI 시스템의 성능·전력 효율·확장성에 점점 더 중요해지고 있다고 말했다. 대만에 몰린 CoWoS 공급망 일부를 미국으로 옮기는 의미가 있지만, 미국 칩스법·뉴욕주 보조금 일정 등 변수도 함께 언급됐다."
+ ],
+ "keyPoints": [
+  "GF-TSMC 5년·20억 달러 인터포저 계약",
+  "뉴욕 몰타 공장, 2028년 상반기 양산",
+  "미국 첫 CoWoS 인터포저 공급처"
+ ],
+ "image": "https://assets.gf.com/asset/328833518282/image_67ck9gq2992hf4eml5fp0ftk7j?content-disposition=inline",
+ "id": "261010-semi-04",
+ "category": "semi",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

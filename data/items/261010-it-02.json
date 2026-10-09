@@ -1,0 +1,35 @@
+{
+ "title": "스페이스X \"메이저 이동통신사 되겠다\"…800MHz 저대역 주파수 인수",
+ "originalTitle": "SpaceX wants to become a 'major mobile carrier' with low-band spectrum acquisition",
+ "source": "Engadget",
+ "url": "https://www.engadget.com/2281967/spacex-major-mobile-carrier-low-band-spectrum-acquisition/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "스페이스X가 위성 인터넷 스타링크를 넘어 미국의 주요 이동통신사가 되겠다는 계획을 밝혔다. 그레인 매니지먼트가 보유한 전국 800MHz 대역 주파수 포트폴리오(최대 14MHz 페어 대역) 전부를 인수하기로 합의했으며, 거래는 미 연방통신위원회(FCC) 승인이 필요하다.",
+  "스페이스X는 저대역 주파수가 벽 등 장애물을 잘 통과해 '스타링크 모바일'이 실내에서도 안정적인 서비스를 할 수 있게 해준다며, 메이저 통신사가 되기 위한 핵심 기술 공백을 메운다고 설명했다. 대부분의 휴대폰이 이미 이 대역을 지원해 수백만 명을 잠재 고객으로 삼을 수 있다는 점도 강조했다.",
+  "회사는 앞서 에코스타에서도 주파수 면허를 사들였으며, 위성과 지상 주파수를 함께 운용하는 첫 사업자가 될 수 있다고 밝혔다. FCC는 2GHz에 최적화된 스타링크 모바일 2세대 위성 1만5000기 배치도 승인했는데, 현 세대보다 대역폭이 100배 이상 크다는 게 회사 설명이다."
+ ],
+ "keyPoints": [
+  "그레인 매니지먼트 800MHz 주파수 전량 인수",
+  "실내 커버리지 확보로 통신사 도약 노려",
+  "FCC, 2세대 위성 1만5000기 배치 승인"
+ ],
+ "image": "https://www.engadget.com/img/gallery/spacex-wants-to-become-a-major-mobile-carrier-with-low-band-spectrum-acquisition/l-intro-1791534538.jpg",
+ "facts": [
+  [
+   "인수 대상",
+   "그레인 매니지먼트 800MHz 포트폴리오(최대 14MHz 페어)"
+  ],
+  [
+   "승인",
+   "FCC 승인 필요"
+  ],
+  [
+   "관련",
+   "스타링크 모바일 2세대 위성 1만5000기 승인"
+  ]
+ ],
+ "id": "261010-it-02",
+ "category": "it",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

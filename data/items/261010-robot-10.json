@@ -1,0 +1,35 @@
+{
+ "title": "IEEE 비디오 프라이데이: 볼풀 속 '은퇴 휴머노이드'·랩하는 리치 미니",
+ "originalTitle": "Video Friday: Robot Decommissioning Takes a Fun Turn",
+ "source": "IEEE Spectrum",
+ "url": "https://spectrum.ieee.org/video-friday-reachy-mini-raps",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "IEEE 스펙트럼의 주간 로봇 영상 모음 '비디오 프라이데이' 이번 호는 유쾌한 장면으로 시작한다. 데반트로(Devanthro)의 휴머노이드가 가운을 걸친 채 형형색색 공이 가득한 볼풀로 떨어지는 '퇴역' 영상, 폴른 로보틱스의 소형 로봇 리치 미니(Reachy Mini)가 랩을 하는 영상이 소개됐다.",
+  "연구 성과도 다양하다. 하이브리드 로보틱스의 'Workhorse'는 로봇 없이 찍은 사람 시연 영상만으로 유니트리 G1이 상자를 손과 발로 분류하고, 날아오는 상자를 받고, 여행가방을 넘어뜨려 올라서는 전신 조작을 배우게 했다. MIT의 SANDO는 낯선 공간에서 움직이는 장애물을 피하며 수학적 안전 보장을 주는 내비게이션이고, 노스캐롤라이나주립대는 바다나리를 본뜬 부드러운 수중 로봇이 공기 입력 두 개로 세 가지 방식으로 헤엄치는 모습을 보였다.",
+  "이 밖에 EPFL의 실 모양 선형 모터, 쿠카 로봇팔의 비접촉 세차, 제너럴리스트의 Gen-1.5 정밀 조작, 춤추는 로봇 CoDance, ICRA 2026 기조강연 등이 실렸다. 필자는 생크추어리 AI 영상의 편집 흔적을 짚는 등 비평적 시선도 곁들였다."
+ ],
+ "keyPoints": [
+  "볼풀 퇴역 휴머노이드·랩하는 리치 미니",
+  "사람 시연만으로 G1 전신 조작 학습",
+  "MIT 안전 내비·바다나리 수중 로봇 소개"
+ ],
+ "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68398684&width=1200&height=600&coordinates=0%2C52%2C0%2C53",
+ "facts": [
+  [
+   "연재",
+   "IEEE Spectrum Video Friday"
+  ],
+  [
+   "필자",
+   "Evan Ackerman"
+  ],
+  [
+   "주요 소개",
+   "Devanthro·Reachy Mini·Workhorse·SANDO"
+  ]
+ ],
+ "id": "261010-robot-10",
+ "category": "robot",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

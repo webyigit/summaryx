@@ -1,0 +1,21 @@
+{
+ "title": "엔비디아 'NVHBM'이 바꾼 HBM 베이스다이 전략…마이크론·삼성도 TSMC 손잡는다",
+ "originalTitle": "[News] NVIDIA's NVHBM Reshapes Base Die Strategies: How Micron, Samsung Are Bringing TSMC Into the Fold",
+ "source": "TrendForce",
+ "url": "https://www.trendforce.com/news/2026/10/09/news-nvidias-nvhbm-reshapes-memory-makers-base-die-strategies-as-micron-samsung-turn-to-external-foundries/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "엔비디아가 8월 공개한 맞춤형 HBM 'NVHBM'은 메모리 컨트롤러를 HBM 맨 아래 베이스다이로 옮기는 구조다. 엔비디아에 따르면 표준 HBM4E보다 대역폭은 최대 30% 늘고 HBM 전력은 15% 줄며, 연산 다이 면적을 최대 25% 더 확보할 수 있다. 맞춤형 I/O PHY는 패키지 면적을 최대 67% 줄인다.",
+  "트렌드포스가 국내외 보도를 종합한 바에 따르면 마이크론은 HBM4E부터 코어다이를 1감마 공정으로 옮기고 베이스다이는 외부(TSMC 유력)에서 만든다. 삼성전자는 그동안 시스템LSI·파운드리를 통한 자체 베이스다이 전략에서 벗어나, 고객 요구에 따라 삼성 파운드리나 TSMC 베이스다이를 모두 쓰는 투트랙을 추진하는 것으로 전해졌다. SK하이닉스는 이미 HBM4 베이스다이에 TSMC 12나노를 쓰고, HBM4E·맞춤형 HBM에는 3나노가 우선 거론된다.",
+  "아마존 안나푸르나랩스도 차세대 트레이니움4에 NVHBM을 채택할 예정이다. HBM이 로직 공정을 품은 '맞춤형 반도체'로 바뀌면서 메모리 3사와 TSMC의 협력 구도가 더 깊어질 전망이다."
+ ],
+ "keyPoints": [
+  "NVHBM, 대역폭 30%↑·전력 15%↓",
+  "마이크론 HBM4E 베이스다이 외부 생산",
+  "삼성도 TSMC 베이스다이 병행 추진"
+ ],
+ "image": "https://img.trendforce.com/blog/wp-content/uploads/2026/08/27095303/NVIDIA-NVHBM-624x332.jpg",
+ "id": "261010-semi-02",
+ "category": "semi",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

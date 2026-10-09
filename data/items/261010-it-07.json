@@ -1,0 +1,35 @@
+{
+ "title": "맥에서 '구글북 OS' 돌린다…오픈소스 가상머신 'gbos-vm' 등장",
+ "originalTitle": "You can now run Googlebook OS on your Mac, unofficially of course",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/googlebook-os-apple-silicon-mac-gbos-vm-3720744/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "한 개발자가 애플 실리콘 맥에서 구글의 안드로이드 기반 데스크톱 OS '구글북 OS'를 GPU 가속 가상머신으로 실행하는 오픈소스 도구 'gbos-vm'을 공개했다. 개발자 스카일러 테일러-배릭이 레딧과 깃허브에 올렸으며, 구글북 노트북을 사지 않고도 플랫폼을 체험할 수 있는 방법으로 주목받았다.",
+  "에뮬레이션이 아니라 macOS 기본 하이퍼바이저에서 ARM 게스트를 돌리며 UTM·QEMU·MoltenVK·ANGLE 기반 구성요소를 쓴다. 메모리 16GB 이상 애플 실리콘 맥과 약 60GB 저장 공간, 안드로이드 SDK 등이 필요하다. 설치 스크립트가 델 XPS 구글북 복구 이미지와 구글 커틀피시 빌드를 공식 서버에서 내려받아 앱으로 묶어준다.",
+  "블루투스가 안 되고 화면은 60Hz로 제한되는 등 한계가 있어 일상용은 아니다. 다만 구글북의 안드로이드 앱 지원이 아직 복잡한 만큼 개발자와 애호가가 미리 시험해볼 수 있는 놀이터가 될 전망이다."
+ ],
+ "keyPoints": [
+  "애플 실리콘 맥서 구글북 OS 가상 실행",
+  "16GB 램·약 60GB 저장 공간 필요",
+  "비공식 실험, 블루투스 미지원 등 한계"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2026/09/HP-Googlebook-14-open-2-scaled.jpeg",
+ "facts": [
+  [
+   "프로젝트",
+   "gbos-vm(오픈소스)"
+  ],
+  [
+   "개발자",
+   "스카일러 테일러-배릭"
+  ],
+  [
+   "요구 사양",
+   "애플 실리콘 맥, 램 16GB 이상, 약 60GB"
+  ]
+ ],
+ "id": "261010-it-07",
+ "category": "it",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

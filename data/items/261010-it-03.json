@@ -1,0 +1,35 @@
+{
+ "title": "인텔, DDR4 쓰는 구형 LGA1700 소켓용 새 CPU 낸다…메모리값 급등 여파",
+ "originalTitle": "Intel is reportedly launching new CPUs on old sockets that support DDR4 memory",
+ "source": "Engadget",
+ "url": "https://www.engadget.com/2282431/intel-is-reportedly-launching-new-cpus-on-old-sockets-that-support-ddr4-memory/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "메인보드 제조사 기가바이트에 따르면 인텔이 2021년부터 쓰인 LGA 1700 소켓용 새 프로세서를 내년에 출시할 계획이다. PC게이머 보도는 구형 플랫폼을 다시 쓰는 주된 이유로 비싼 메모리 가격을 꼽았다.",
+  "LGA 1700은 DDR5와 DDR4를 모두 지원한다. 랩터레이크·앨더레이크 리프레시 제품이 DDR4용으로 나오면 AI 수요로 메모리 값이 치솟은 이른바 '램포칼립스' 속에서 소비자 부담을 덜 수 있다. 기사에 따르면 32GB 기준 DDR4 키트는 약 210달러, DDR5는 480달러 이상이다.",
+  "인텔은 공식 확인하지 않았지만 로버트 할록 부사장은 최근 랩터레이크 칩을 \"앞으로 수년간\" 공급하겠다며 \"LGA 1700은 여전히 좋은 소켓\"이고 DDR4 수요가 크다고 말했다. 게임 테스트에서 DDR5의 프레임 향상은 1~10% 수준이라 DDR4로도 대부분의 최신 게임을 즐길 수 있다는 평가다."
+ ],
+ "keyPoints": [
+  "기가바이트 \"인텔, LGA1700용 신형 CPU 내년 출시\"",
+  "32GB DDR4 약 210달러 vs DDR5 480달러+",
+  "인텔 부사장 \"LGA1700 여전히 좋은 소켓\""
+ ],
+ "image": "https://www.engadget.com/img/gallery/intel-is-reportedly-launching-new-cpus-on-old-sockets-that-support-ddr4-memory/l-intro-1791565172.jpg",
+ "facts": [
+  [
+   "출처",
+   "기가바이트·PC게이머 보도(인텔 미확인)"
+  ],
+  [
+   "소켓",
+   "LGA 1700(DDR4·DDR5 지원)"
+  ],
+  [
+   "출시 시기",
+   "내년"
+  ]
+ ],
+ "id": "261010-it-03",
+ "category": "it",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

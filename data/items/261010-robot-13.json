@@ -1,0 +1,39 @@
+{
+ "title": "창고 로봇 '울트라', 시리즈A 5000만 달러 유치…피지컬 인텔리전스 AI로 포장",
+ "originalTitle": "Ultra Raises $50 Million Series A for Warehouse Robots, Deepens Physical Intelligence Partnership",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/ultra-50-million-series-a-warehouse-robots-physical-intelligence",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "미국 브루클린의 창고 로봇 스타트업 울트라(Ultra)가 시리즈A로 5000만 달러를 유치했다. 포춘에 따르면 프레임워크 벤처스가 주도하고 Y콤비네이터가 참여했으며, 앞선 시드 1200만 달러를 합쳐 공개된 누적 투자는 6200만 달러다. 로봇은 서비스형으로 팔아, 고객은 초기 연동비를 낸 뒤 매달 하드웨어·소프트웨어 지원료를 낸다. 지금까지 50만 건 넘는 주문을 포장했다고 한다.",
+  "주력 로봇 '오퍼레이터(OP1)'는 잠금 바퀴가 달린 고정형 기계로 작업 구역을 옮겨 다니며 포장·분류·키팅을 한다. 설치 면적은 가로세로 5피트, 팔당 최대 10파운드를 들고 일반 120V 콘센트로 작동한다. 뉴욕·조지아·뉴저지·텍사스에 배치됐다.",
+  "두뇌는 피지컬 인텔리전스(PI)의 AI 모델이다. 울트라는 π0.6 모델로 한 교대 근무를 96.4% 자율로 처리했다고 밝혔는데, 이는 한 번의 근무 기록이다. 모델이 막히면 사람이 원격 개입해 주문을 처리하고, 그 기록이 다음 모델의 학습 데이터가 된다. 하드웨어·현장은 울트라, 모델은 PI가 맡는 분업으로, 앞으로는 개입 비용을 얼마나 줄이느냐가 관건이다."
+ ],
+ "keyPoints": [
+  "울트라 시리즈A 5000만 달러, 누적 6200만",
+  "포장·분류 로봇 OP1, 50만 건 넘게 처리",
+  "PI 모델로 한 교대 96.4% 자율 기록"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/ultra-op1-customer-site-2-dUZAHSE2zGVJQK00VZ2of1WBtXTANO.webp",
+ "facts": [
+  [
+   "기업",
+   "울트라(Ultra)"
+  ],
+  [
+   "CEO",
+   "존 밀러 슈워츠"
+  ],
+  [
+   "투자",
+   "시리즈A 5000만 달러(프레임워크 벤처스 주도)"
+  ],
+  [
+   "AI 파트너",
+   "피지컬 인텔리전스(π0.6)"
+  ]
+ ],
+ "id": "261010-robot-13",
+ "category": "robot",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

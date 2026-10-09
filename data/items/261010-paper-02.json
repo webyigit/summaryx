@@ -1,0 +1,43 @@
+{
+ "title": "nanoMuse: 내 모든 기기에서 도는 오픈소스 개인 비서 에이전트",
+ "originalTitle": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.08699",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "메타의 'Muse'처럼 사용자의 계정과 기기에서 직접 일을 처리하고, 오래 기억하며, 무엇을 했는지 보고하는 개인 에이전트가 기대치를 높이고 있다. 다만 Muse는 클라우드 기반의 닫힌 서비스라 구조를 들여다보거나 직접 운영하기 어렵다.",
+  "연구진은 공개 자료와 Muse의 실제 운영 프롬프트 사본을 바탕으로 설계를 분석한 뒤, GPL-3.0 오픈소스 에이전트 nanoMuse를 내놨다. 사용자의 각 기기에서 실행되고, 누구나 호스팅할 수 있는 중계 서버로 하나의 대화를 공유하며, 모든 행동은 'Sentinel'이라는 안전 계층을 거친다. 기억은 사람이 읽을 수 있는 파일로 저장한다.",
+  "논문은 아직 만들어야 할 열린 구성요소에 대한 로드맵도 제시한다. 개인 비서형 AI를 특정 기업 클라우드에 묶지 않고 투명하게 운영할 수 있는 대안이라는 점에서 주목받았다."
+ ],
+ "keyPoints": [
+  "메타 Muse 설계를 분석해 만든 오픈소스 비서",
+  "행동마다 안전 계층 Sentinel이 검사",
+  "기억은 사람이 읽는 파일로 저장"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Guangyi Liu, Yong Liu, Jiangning Zhang"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "인공지능(cs.AI) · 개인 에이전트"
+  ],
+  [
+   "arXiv ID",
+   "2610.08699"
+  ],
+  [
+   "코드",
+   "https://github.com/nano-muse/nanoMuse (프로젝트 https://nanomuse.cn)"
+  ]
+ ],
+ "id": "261010-paper-02",
+ "category": "paper",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

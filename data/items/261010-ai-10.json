@@ -1,0 +1,39 @@
+{
+ "title": "메타, 아동 성착취물로 유도하는 '우회 광고' 잡는 LLM 탐지 도구 도입",
+ "originalTitle": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
+ "source": "TechCrunch",
+ "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "메타가 2026년 상반기 페이스북·인스타그램에서 아동 성착취 콘텐츠 3,320만 건에 조치했으며, 이 중 97% 이상을 이용자 신고 전에 자체 시스템으로 찾아냈다고 밝혔다. 이와 함께 메타 밖의 불법 콘텐츠로 사람들을 이끄는 광고·계정을 찾는 새 AI 도구를 공개했다.",
+  "핵심은 메타가 '사인포스팅'이라 부르는 수법을 잡는 대규모 언어 모델 시스템이다. 광고 자체에는 불법 내용이 없지만 외부 사이트로 연결해 관문 역할을 하는 방식으로, 메타는 이제 광고 내용뿐 아니라 광고가 어디로 연결되는지도 평가해 해당 사이트를 차단하고 책임 계정에 조치한다. 자사 안전장치의 허점을 찾는 '레드팀 AI 에이전트'를 도입하고, 계정 삭제 뒤 새 계정으로 돌아오는 이용자 식별도 강화했다.",
+  "메타는 청소년 안전 문제로 소송과 의회 비판을 받아 왔으며, 8월에는 미국 29개 주가 낸 소송을 최대 180억 달러에 합의했다."
+ ],
+ "keyPoints": [
+  "상반기 아동 성착취 콘텐츠 3,320만 건 조치",
+  "LLM으로 광고의 연결 목적지까지 평가",
+  "레드팀 AI 에이전트로 안전장치 허점 점검"
+ ],
+ "image": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-2152655802.jpg?resize=1200,802",
+ "facts": [
+  [
+   "기업",
+   "메타"
+  ],
+  [
+   "대상",
+   "페이스북·인스타그램 광고·계정"
+  ],
+  [
+   "기간",
+   "2026년 상반기 조치 실적"
+  ],
+  [
+   "새 도구",
+   "사인포스팅 탐지 LLM, 레드팀 AI 에이전트"
+  ]
+ ],
+ "id": "261010-ai-10",
+ "category": "ai",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

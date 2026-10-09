@@ -1,0 +1,35 @@
+{
+ "title": "삼성, '갤럭시 A04s' 소프트웨어 지원 종료",
+ "originalTitle": "Samsung ends software support for Galaxy A04s",
+ "source": "SamMobile",
+ "url": "https://www.sammobile.com/news/samsung-ends-software-support-galaxy-a04s/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "삼성전자가 보안 업데이트 페이지에서 갤럭시 A04s를 제외했다. 사실상 소프트웨어 지원이 끝나 앞으로 안드로이드 OS 업그레이드와 보안 패치를 더는 받지 못한다.",
+  "A04s는 2022년 8월 31일 안드로이드 12 기반 원 UI 코어 4로 출시돼 두 차례 OS 업그레이드를 받았다. 현재 안드로이드 14 기반 원 UI 6.1이 마지막 버전이며, 마지막 업데이트는 2026년 8월 보안 패치였다.",
+  "당장 위험해지는 것은 아니지만 새로 발견되는 보안 위협에 점점 취약해질 수 있어, 기사는 갤럭시 A08 등 새 기기로 바꾸는 것을 권했다."
+ ],
+ "keyPoints": [
+  "보안 업데이트 목록에서 A04s 제외",
+  "원 UI 6.1(안드로이드 14)이 마지막",
+  "8월 보안 패치가 최종 업데이트"
+ ],
+ "image": "https://www.sammobile.com/wp-content/uploads/2025/05/Galaxy-S23-Ultra-update.jpg",
+ "facts": [
+  [
+   "모델",
+   "갤럭시 A04s"
+  ],
+  [
+   "출시",
+   "2022-08-31(원 UI 코어 4·안드로이드 12)"
+  ],
+  [
+   "최종 버전",
+   "원 UI 6.1·2026년 8월 보안 패치"
+  ]
+ ],
+ "id": "261010-applesamsung-15",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

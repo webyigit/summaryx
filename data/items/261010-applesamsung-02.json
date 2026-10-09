@@ -1,0 +1,35 @@
+{
+ "title": "애플·LG 스마트홈 기기, 아이폰 갖다 대면 바로 제어…'근접 제어' 기능 유출",
+ "originalTitle": "Leak Details iPhone Features for Apple's LG Home Accessories",
+ "source": "MacRumors",
+ "url": "https://www.macrumors.com/2026/10/09/leak-details-iphone-features-for-home-accessories/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "블룸버그가 이번 주 공개한 애플·LG 합작 스마트홈 액세서리(온도조절기·온도센서·데드볼트 도어락·유선 비디오 도어벨·보안 카메라)에 들어갈 아이폰 전용 기능이 유출자 'pdfu'를 통해 드러났다.",
+  "첫째는 '근접 제어(Proximity Control)'다. 아이폰을 기기에 대거나 가까이 가져가면 다이내믹 아일랜드에 온도조절기는 '컨트롤 열기', 카메라·도어벨은 카메라 뷰어 바로가기가 뜬다. 다이내믹 아일랜드가 없는 기기에서는 30초간 알림이 표시되고, 홈 앱에서 끌 수 있다. 기기는 NFC 태그에 식별자를 저장하고 저전력 블루투스 신호를 보낸다. 코드는 iOS 27.0부터 있었고 iOS 27.2에서 '실행 전 묻기' 방식으로 정리됐다.",
+  "둘째는 전원이 없는 상태에서도 NFC로 아이폰의 페어링 정보와 네트워크 자격 증명을 기기 보안 칩(NXP SE051H)에 넘겨, 전원을 켜면 와이파이·스레드에 접속하고 홈 허브가 매터 설정을 마치는 방식이다. 이 방식은 홈킷 전용이다. 블룸버그는 LG 기기 출시까지 몇 달은 걸릴 것으로 봤으며, 10월 13일 '웰컴 홈' 발표와의 연관도 관심사다."
+ ],
+ "keyPoints": [
+  "아이폰 대면 다이내믹 아일랜드에 제어창",
+  "전원 없이 NFC로 미리 페어링, 홈킷 전용",
+  "LG 기기 출시는 수개월 뒤 전망"
+ ],
+ "image": "https://images.macrumors.com/t/Y5LosWiiqev53GeuCdn3HHvaHJw=/2500x/article-new/2026/02/iOS-26-Home-Feature.jpg",
+ "facts": [
+  [
+   "유출 출처",
+   "pdfu(유출자)"
+  ],
+  [
+   "대상 기기",
+   "LG 온도조절기·도어락·도어벨·카메라 등"
+  ],
+  [
+   "관련 OS",
+   "iOS 27.0~27.2 코드"
+  ]
+ ],
+ "id": "261010-applesamsung-02",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

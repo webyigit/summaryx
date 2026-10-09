@@ -1,0 +1,35 @@
+{
+ "title": "美 A3, 산업용 이동로봇 안전표준 R15.08 3부 발표…'사용자 책임' 명시",
+ "originalTitle": "A3 announces R15.08 Part 3 safety standard for industrial mobile robot users is now available",
+ "source": "Robotics 24/7",
+ "url": "https://www.robotics247.com/article/a3-announces-r15.08-part-3-safety-standard-for-industrial-mobile-robot-users-is-now-available",
+ "publishedAt": "2026-10-04",
+ "summary": [
+  "미국 자동화진흥협회(A3)가 산업용 이동로봇(IMR) 안전표준 R15.08 시리즈의 마지막인 3부 'ANSI/A3 R15.08-3-2026'을 내놓았다. 1부는 로봇 자체의 안전 요구사항, 2부는 IMR 시스템·응용의 요구사항을 다뤘고, 새 3부는 공장·물류센터에서 이동로봇을 매일 운영하는 '사용자'의 책임에 초점을 맞췄다.",
+  "3부는 위험성 평가, 변경 관리, 직원 교육, 정기 점검과 검토 등 장비 수명 주기 동안 위험을 허용 가능한 수준으로 유지하는 요구사항과 지침을 담았다. A3는 고정형 산업로봇 안전표준 R15.06의 3부와 함께 개발해, 고정 로봇과 이동로봇을 함께 쓰는 현장에 일관된 운영 지침을 주도록 했다.",
+  "표준은 A3 온라인 스토어에서 PDF로 판매되며 회원은 1~3부 묶음도 살 수 있다. 설계·시스템 단계 표준만 있던 공백을, 실제 사용 단계의 안전 관리 기준으로 메웠다는 데 의미가 있다."
+ ],
+ "keyPoints": [
+  "IMR 안전표준 R15.08 3부작 완성",
+  "3부는 운영 사용자 책임·점검·교육 규정",
+  "고정 로봇 표준 R15.06 3부와 함께 개발"
+ ],
+ "image": "https://www.robotics247.com/images/2026_article/A3-ANSI-IMR-Safety-Standard-Part3-main-Robotics247-2026.jpg",
+ "facts": [
+  [
+   "기관",
+   "미국 자동화진흥협회(A3)"
+  ],
+  [
+   "표준",
+   "ANSI/A3 R15.08-3-2026"
+  ],
+  [
+   "대상",
+   "산업용 이동로봇(IMR) 사용자"
+  ]
+ ],
+ "id": "261010-robot-08",
+ "category": "robot",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

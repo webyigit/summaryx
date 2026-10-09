@@ -1,0 +1,35 @@
+{
+ "title": "가민 '페닉스 8', 어두운 곳에서도 최대 밝기 고정 버그…\"업데이트로 수정\"",
+ "originalTitle": "Garmin Fenix 8 is blazing bright as the sun, even in dark rooms",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/garmin-fenix-8-brightness-bug-3720806/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "가민이 스마트워치 페닉스 8의 화면이 늘 최대 밝기로 켜져 있는 버그를 공식 확인했다. 가민 포럼에 이용자 신고가 이어졌고, 밝은 곳에서 어두운 곳으로 이동해도 밝기가 자동으로 낮아지지 않는 현상이다. 화면을 만지거나 버튼을 누르면 잠시 정상으로 돌아온다.",
+  "이 문제는 '올웨이즈 온 디스플레이(AOD)'를 켜고 손목 제스처를 끈 특정 설정에서만 나타난다. 화면이 계속 밝게 켜져 있으면 배터리가 빨리 닳아 사용자 불만이 크다.",
+  "가민은 엔지니어들이 문제를 파악하고 향후 소프트웨어 업데이트로 고칠 예정이라고 밝혔지만 배포 시점은 알리지 않았다. 그때까지는 화면 터치나 버튼으로 임시 대응하라고 안내했다."
+ ],
+ "keyPoints": [
+  "페닉스 8, 어두운 곳에서도 최대 밝기 버그",
+  "AOD 켜고 손목 제스처 끈 경우에만 발생",
+  "가민 \"업데이트로 수정\", 시점 미정"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2024/10/Garmin-Fenix-8-AMOLED-top-down.jpg",
+ "facts": [
+  [
+   "제품",
+   "가민 페닉스 8"
+  ],
+  [
+   "발생 조건",
+   "AOD 켜짐 + 손목 제스처 꺼짐"
+  ],
+  [
+   "대응",
+   "향후 소프트웨어 업데이트(시점 미정)"
+  ]
+ ],
+ "id": "261010-it-06",
+ "category": "it",
+ "collectedAt": "2026-10-10T02:30:50+09:00"
+}

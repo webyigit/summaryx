@@ -1,17 +1,6 @@
 {
  "ai": [
   {
-   "name": "TechCrunch AI",
-   "url": "https://techcrunch.com/category/artificial-intelligence/",
-   "keywords": [
-    "AI model",
-    "OpenAI",
-    "Anthropic",
-    "AI funding",
-    "AI policy"
-   ]
-  },
-  {
    "name": "AI타임스",
    "url": "https://www.aitimes.com/news/articleList.html?view_type=sm",
    "keywords": [
@@ -20,6 +9,17 @@
     "앤트로픽",
     "AI 규제",
     "AI 투자"
+   ]
+  },
+  {
+   "name": "TechCrunch AI",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "keywords": [
+    "AI model",
+    "OpenAI",
+    "Anthropic",
+    "AI funding",
+    "AI policy"
    ]
   },
   {
@@ -65,20 +65,19 @@
    ]
   },
   {
-   "name": "아시아뉴스통신",
-   "url": "https://www.anewsa.com",
-   "keywords": [
-    "공공기관 AX",
-    "AI 전환 TF",
-    "AI 교육"
-   ]
-  },
-  {
    "name": "인공지능신문",
    "url": "https://www.aitimes.kr/news/articleList.html?view_type=sm",
    "keywords": [
     "공공기관 AI 활용",
     "업무 효율"
+   ]
+  },
+  {
+   "name": "AI타임스",
+   "url": "https://www.aitimes.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "기업 AI 도입",
+    "AX 사례"
    ]
   },
   {
@@ -91,11 +90,22 @@
    ]
   },
   {
-   "name": "AI타임스",
-   "url": "https://www.aitimes.com/news/articleList.html?view_type=sm",
+   "name": "아시아뉴스통신",
+   "url": "https://www.anewsa.com",
    "keywords": [
-    "기업 AI 도입",
-    "AX 사례"
+    "공공기관 AX",
+    "AI 전환 TF",
+    "AI 교육"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS(최신순)",
+   "url": "https://www.bing.com/news/search?q=AX+%EB%8F%84%EC%9E%85&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "AX 도입",
+    "공공 AX",
+    "AX 협약",
+    "AI 에이전트 도입 업무"
    ]
   }
  ],
@@ -118,6 +128,24 @@
     "Tesla",
     "BMW",
     "bus"
+   ]
+  },
+  {
+   "name": "모터그래프",
+   "url": "https://www.motorgraph.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "신차",
+    "출시",
+    "자율주행"
+   ]
+  },
+  {
+   "name": "electrive.com",
+   "url": "https://www.electrive.com/",
+   "keywords": [
+    "EV",
+    "charging",
+    "battery"
    ]
   }
  ],
@@ -230,13 +258,13 @@
  ],
  "it": [
   {
-   "name": "9to5Mac",
-   "url": "https://9to5mac.com/",
+   "name": "Engadget",
+   "url": "https://www.engadget.com/",
    "keywords": [
-    "Apple",
-    "iPhone",
-    "smartphone market",
-    "Apple Watch"
+    "gadgets",
+    "Meta",
+    "SpaceX",
+    "Intel"
    ]
   },
   {
@@ -244,69 +272,44 @@
    "url": "https://techcrunch.com/category/hardware/",
    "keywords": [
     "hardware",
-    "gadgets",
-    "devices",
-    "startup"
+    "smart ring"
    ]
   },
   {
-   "name": "지디넷코리아 반도체·디스플레이",
-   "url": "https://www.zdnet.co.kr/news/?lstcode=0050",
+   "name": "TechCrunch Latest",
+   "url": "https://techcrunch.com/latest/",
    "keywords": [
-    "반도체",
-    "삼성전자",
-    "SK하이닉스",
-    "디스플레이"
-   ]
-  },
-  {
-   "name": "Electrek",
-   "url": "https://electrek.co/",
-   "keywords": [
-    "Tesla",
-    "energy tech",
-    "battery"
-   ]
-  },
-  {
-   "name": "Engadget",
-   "url": "https://www.engadget.com/",
-   "keywords": [
-    "gadgets",
-    "smartglasses",
-    "wearables",
-    "Microsoft Surface"
+    "Starlink",
+    "Spotify",
+    "policy"
    ]
   },
   {
    "name": "Android Authority",
    "url": "https://www.androidauthority.com/news/",
    "keywords": [
-    "Samsung Galaxy",
-    "Pixel",
-    "One UI",
-    "Android"
+    "T-Mobile",
+    "AT&T",
+    "Garmin",
+    "Kindle",
+    "Googlebook"
    ]
   },
   {
    "name": "지디넷코리아 인터넷",
    "url": "https://zdnet.co.kr/news/?lstcode=0040",
    "keywords": [
-    "플랫폼",
-    "틱톡",
     "네이버",
-    "치지직"
+    "쿠팡"
    ]
   },
   {
    "name": "전자신문 통신",
    "url": "https://www.etnews.com/news/section.html?id1=03",
    "keywords": [
-    "통신",
-    "5G",
-    "유료방송",
-    "SKT",
-    "TV 시장"
+    "토스",
+    "레노버",
+    "케이블TV"
    ]
   }
  ],
@@ -579,6 +582,22 @@
    ]
   },
   {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/",
+   "keywords": [
+    "Apple TV",
+    "iOS"
+   ]
+  },
+  {
+   "name": "AppleInsider",
+   "url": "https://appleinsider.com/",
+   "keywords": [
+    "Mac",
+    "Apple Silicon"
+   ]
+  },
+  {
    "name": "SamMobile",
    "url": "https://www.sammobile.com/",
    "keywords": [
@@ -608,7 +627,7 @@
    "url": "https://etnews.com/",
    "keywords": [
     "아이폰",
-    "아이폰 듀오"
+    "삼성전자"
    ]
   },
   {
@@ -915,6 +934,34 @@
     "robot funding",
     "Optimus"
    ]
+  },
+  {
+   "name": "Humanoids Daily",
+   "url": "https://www.humanoidsdaily.com/",
+   "keywords": [
+    "humanoid",
+    "robot funding",
+    "patent",
+    "eldercare robot"
+   ]
+  },
+  {
+   "name": "Robotics 24/7",
+   "url": "https://www.robotics247.com/",
+   "keywords": [
+    "warehouse robot",
+    "safety standard",
+    "robotics funding"
+   ]
+  },
+  {
+   "name": "헬로티",
+   "url": "https://www.hellot.net/news/articleList.html?sc_section_code=S1N4",
+   "keywords": [
+    "로봇",
+    "물류 자동화",
+    "피지컬 AI"
+   ]
   }
  ],
  "semi": [
@@ -970,6 +1017,35 @@
     "AI chip",
     "foundry",
     "DRAM"
+   ]
+  },
+  {
+   "name": "TrendForce News",
+   "url": "https://www.trendforce.com/news/",
+   "keywords": [
+    "HBM",
+    "TSMC",
+    "foundry",
+    "memory price"
+   ]
+  },
+  {
+   "name": "Semiconductor Engineering Week in Review",
+   "url": "https://semiengineering.com/",
+   "keywords": [
+    "chip industry",
+    "fab",
+    "packaging",
+    "lithography"
+   ]
+  },
+  {
+   "name": "BusinessKorea",
+   "url": "https://www.businesskorea.co.kr/news/articleList.html?sc_section_code=S1N2&view_type=sm",
+   "keywords": [
+    "SK hynix",
+    "Samsung",
+    "semiconductor"
    ]
   }
  ],
