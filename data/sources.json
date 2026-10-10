@@ -893,38 +893,31 @@
     "Marketplace",
     "Minecraft update"
    ]
+  },
+  {
+   "name": "루리웹 게임 뉴스",
+   "url": "https://bbs.ruliweb.com/news/531",
+   "keywords": [
+    "신작 출시",
+    "업데이트",
+    "인디게임"
+   ]
   }
  ],
  "webtoon": [
-  {
-   "name": "Crunchyroll News (RSS)",
-   "url": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
-   "keywords": [
-    "anime season",
-    "anime film"
-   ]
-  },
-  {
-   "name": "Bing News RSS (애니메이션)",
-   "url": "https://www.bing.com/news/search?q=%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "애니메이션",
-    "극장판",
-    "크런치롤"
-   ]
-  },
-  {
-   "name": "Bing News RSS (anime trailer)",
-   "url": "https://www.bing.com/news/search?q=anime+trailer&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "anime trailer"
-   ]
-  },
   {
    "name": "Anime Corner 뉴스",
    "url": "https://animecorner.me/category/news/",
    "keywords": [
     "anime news"
+   ]
+  },
+  {
+   "name": "Anime Corner RSS",
+   "url": "https://animecorner.me/feed/",
+   "keywords": [
+    "anime news",
+    "NYCC"
    ]
   },
   {
@@ -936,19 +929,35 @@
    ]
   },
   {
-   "name": "Bing News RSS (애니 개봉)",
-   "url": "https://www.bing.com/news/search?q=%EC%95%A0%EB%8B%88+%EA%B0%9C%EB%B4%89&qft=sortbydate%3d%221%22&format=rss",
+   "name": "Crunchyroll News (RSS)",
+   "url": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
    "keywords": [
-    "애니 개봉",
-    "극장판 애니"
+    "anime season",
+    "anime film"
+   ]
+  },
+  {
+   "name": "Siliconera 애니",
+   "url": "https://www.siliconera.com/category/anime/",
+   "keywords": [
+    "anime",
+    "manga",
+    "webtoon"
+   ]
+  },
+  {
+   "name": "Bing News RSS (애니)",
+   "url": "https://www.bing.com/news/search?q=%EC%95%A0%EB%8B%88&qft=sortbydate%3d%221%22&format=rss",
+   "keywords": [
+    "애니",
+    "만화가"
    ]
   },
   {
    "name": "Bing News RSS (어린이 애니메이션)",
    "url": "https://www.bing.com/news/search?q=%EC%96%B4%EB%A6%B0%EC%9D%B4+%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98&qft=sortbydate%3d%221%22&format=rss",
    "keywords": [
-    "어린이 애니메이션",
-    "캐릭터 축제"
+    "어린이 애니메이션"
    ]
   }
  ],
@@ -957,41 +966,42 @@
    "name": "스포츠경향",
    "url": "https://sports.khan.co.kr/",
    "keywords": [
-    "KBO",
-    "이강인",
-    "KLPGA",
+    "손흥민",
+    "김경문",
+    "K리그1",
+    "KBL",
     "박신자컵",
-    "신유빈",
-    "K리그1"
+    "조코비치"
    ]
   },
   {
    "name": "OSEN 스포츠(날짜별)",
-   "url": "https://osen.co.kr/sports?date=20261010",
+   "url": "https://osen.co.kr/sports?date=20261011",
    "keywords": [
-    "김민수",
-    "A매치",
-    "이강인"
+    "신유빈",
+    "이강인",
+    "설영우",
+    "김민재"
    ]
   },
   {
    "name": "MLB.com News",
    "url": "https://www.mlb.com/news",
    "keywords": [
-    "ALDS",
     "NLCS",
-    "Guardians",
-    "Rays",
-    "Teruaki Sato",
-    "154-game"
+    "ALCS",
+    "ALDS Game 5",
+    "Seiya Suzuki",
+    "Sonny Gray"
    ]
   },
   {
    "name": "헤럴드경제 미주판",
    "url": "https://www.heraldk.com/",
    "keywords": [
-    "KPGA",
-    "배용준"
+    "아람코 코리아 챔피언십",
+    "청야니",
+    "김효주"
    ]
   }
  ],
@@ -1798,6 +1808,22 @@
     "와인 디너",
     "마스터 클래스"
    ]
+  },
+  {
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "국내 출시",
+    "시음회",
+    "와인 디너"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS",
+   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8&qft=sortbydate%3d%221%22&format=rss",
+   "keywords": [
+    "와인"
+   ]
   }
  ],
  "cardesign": [
@@ -1965,61 +1991,57 @@
    "url": "https://www.decanter.com/wine/grape-varieties/",
    "keywords": [
     "grape variety",
-    "World Vranec Day",
-    "Grenache",
-    "Shiraz"
+    "Pinotage Day",
+    "Cabernet Franc"
    ]
   },
   {
-   "name": "Decanter - Wine",
-   "url": "https://www.decanter.com/wine/",
+   "name": "Chowhound",
+   "url": "https://www.chowhound.com/",
    "keywords": [
-    "grape day",
-    "collector's guide",
-    "vintage revisit"
+    "Cabernet Sauvignon vs Merlot",
+    "grape difference"
    ]
   },
   {
-   "name": "Wine Enthusiast - Grapes 101",
-   "url": "https://www.wineenthusiast.com/basics/",
+   "name": "Tasting Table",
+   "url": "https://www.tastingtable.com/",
    "keywords": [
-    "grapes 101",
-    "best Chenin Blanc",
-    "best Albariño"
+    "Pinot Noir alternatives",
+    "low-tannin red",
+    "Gamay"
    ]
   },
   {
-   "name": "VinePair",
-   "url": "https://vinepair.com/feed/",
+   "name": "Mashed",
+   "url": "https://www.mashed.com/",
    "keywords": [
-    "grape explained",
-    "Ask a Wine Pro"
+    "Pinot Noir vs Merlot"
    ]
   },
   {
-   "name": "소믈리에타임즈",
-   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
+   "name": "Korea Daily (English)",
+   "url": "https://en.koreadaily.com/",
    "keywords": [
-    "와인 마켓 인사이트",
-    "수입 와인 Top 10"
+    "Sauvignon Blanc",
+    "Dana Estates"
+   ]
+  },
+  {
+   "name": "Wine Industry Advisor",
+   "url": "https://wineindustryadvisor.com/",
+   "keywords": [
+    "Merlot",
+    "variety news"
    ]
   },
   {
    "name": "Bing News RSS (품종 검색)",
-   "url": "https://www.bing.com/news/search?q=Merlot+wine&format=rss",
+   "url": "https://www.bing.com/news/search?q=Cabernet+Sauvignon+wine&format=rss",
    "keywords": [
-    "Merlot",
-    "grape variety explained",
-    "Cabernet Sauvignon grape"
-   ]
-  },
-  {
-   "name": "Bing News RSS (주간 품종 뉴스)",
-   "url": "https://www.bing.com/news/search?q=wine+grape+varietal+guide&format=rss&qft=interval%3d%228%22",
-   "keywords": [
-    "grape varietal guide",
-    "chilled red",
-    "Zinfandel"
+    "Cabernet Sauvignon",
+    "Pinot Noir",
+    "Sauvignon Blanc"
    ]
   }
  ],
@@ -2086,12 +2108,30 @@
    ]
   },
   {
-   "name": "Wine Enthusiast (Wine Star Awards)",
-   "url": "https://wineenthusiast.com/culture/industry-news/",
+   "name": "Wine Enthusiast",
+   "url": "https://www.wineenthusiast.com/",
    "keywords": [
     "Person of the Year",
     "Wine Star Awards",
-    "winery"
+    "winery",
+    "podcast family winery"
+   ]
+  },
+  {
+   "name": "와인21",
+   "url": "https://www.wine21.com/11_news/news_list.html",
+   "keywords": [
+    "와이너리",
+    "와인메이커 인터뷰"
+   ]
+  },
+  {
+   "name": "Harpers Wine & Spirit",
+   "url": "https://harpers.co.uk/news/",
+   "keywords": [
+    "château",
+    "estate",
+    "appoints"
    ]
   }
  ],
@@ -2111,6 +2151,13 @@
     "wine storage",
     "cellar",
     "wine fridge"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS (wine cellar)",
+   "url": "https://www.bing.com/news/search?q=wine+cellar&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "wine cellar"
    ]
   },
   {

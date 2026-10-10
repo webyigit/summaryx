@@ -1,0 +1,39 @@
+{
+ "title": "효모 두 종을 차례로: 카베르네 소비뇽의 향은 풍부하게, 알코올은 낮게",
+ "originalTitle": "Two Yeasts, One Wine: Sequential Fermentation Boosts Cabernet Sauvignon Aroma and Cuts Alcohol",
+ "source": "Bioengineer.org",
+ "url": "https://bioengineer.org/two-yeasts-one-wine-sequential-fermentation-boosts-cabernet-sauvignon-aroma-and-cuts-alcohol/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "세계 최다 재배 레드 품종 카베르네 소비뇽은 기후 변화로 포도 당도가 높아지면서 알코올이 지나치게 올라가는 문제가 생기고 있다. 중국 화중농업대·허난과학기술원 연구팀은 'npj Science of Food'에 실린 연구에서 토착 효모 두 종의 투입 방식을 바꿔 이 문제를 풀어 보려 했다.",
+  "연구팀은 표준 발효 효모 사카로미세스 세레비지애와, 자연 발효 초기에 흔히 우세한 비(非)사카로미세스 효모 한세니아스포라 우바룸(Z5L-22 균주)을 썼다. 세레비지애 단독, 두 효모 동시 투입, 우바룸을 먼저 넣고 이틀 뒤 세레비지애를 넣는 '순차 발효' 세 가지를 비교했다. 단독·동시 투입에서는 세레비지애가 금세 우바룸을 눌렀지만, 순차 발효에서는 이틀의 선점 기간 동안 우바룸이 자리를 잡아 향 성분을 만들어 냈다.",
+  "두 혼합 발효 모두 단독 발효보다 알코올이 낮았는데, 우바룸이 당 일부를 글리세롤·이산화탄소 쪽으로 돌린 덕으로 풀이된다. 특히 순차 발효 와인은 총 폴리페놀·안토시아닌과 에스테르·모노테르펜 등 향 성분이 더 풍부했다. 다만 한 품종·특정 균주만 시험했고 발효가 길어져 상업 규모에서는 발효 정체 위험이 있다는 한계도 함께 제시됐다."
+ ],
+ "keyPoints": [
+  "토착 효모 우바룸 먼저, 이틀 뒤 일반 효모 투입",
+  "알코올은 낮아지고 색·폴리페놀·향은 증가",
+  "단일 품종 실험, 상업 적용엔 과제 남아"
+ ],
+ "image": "https://bioengineer.org/wp-content/uploads/2026/10/stackrss-featured-3379.png",
+ "facts": [
+  [
+   "품종",
+   "카베르네 소비뇽"
+  ],
+  [
+   "연구",
+   "Hu 외, npj Science of Food (2026), DOI 10.1038/s41538-026-01165-z"
+  ],
+  [
+   "소속",
+   "화중농업대·허난과학기술원"
+  ],
+  [
+   "방법",
+   "Hanseniaspora uvarum → 2일 뒤 Saccharomyces cerevisiae 순차 발효"
+  ]
+ ],
+ "id": "261011-winetype-03",
+ "category": "winetype",
+ "collectedAt": "2026-10-11T06:33:42+09:00"
+}
