@@ -1916,18 +1916,11 @@
  ],
  "eatseoul": [
   {
-   "name": "미쉐린 가이드 서울",
+   "name": "미쉐린 가이드 서울 빕 구르망",
    "url": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurants/bib-gourmand",
    "keywords": [
     "빕 구르망 2026",
-    "서울미식 100선"
-   ]
-  },
-  {
-   "name": "위키트리(서울미식 100선 정리)",
-   "url": "https://www.wikitree.co.kr/articles/1164258",
-   "keywords": [
-    "2026 서울미식 100선"
+    "서울 맛집"
    ]
   }
  ],
@@ -1939,9 +1932,39 @@
     "경기관광공사 세계 별미",
     "경기관광공사 맛집 추천"
    ]
+  },
+  {
+   "name": "경기일보 '경기도 가볼만한 곳'",
+   "url": "https://www.kyeonggi.com/seriesList/002558",
+   "keywords": [
+    "경기도 가볼만한 곳 맛집"
+   ]
+  },
+  {
+   "name": "여행픽",
+   "url": "https://www.thetrippick.com/",
+   "keywords": [
+    "오산 맛집 선정",
+    "경기 시군 맛집 지정"
+   ]
   }
  ],
  "eatdj": [
+  {
+   "name": "세계일보(대전 취재)",
+   "url": "https://www.segye.com/",
+   "keywords": [
+    "성심당",
+    "대전 웨이팅"
+   ]
+  },
+  {
+   "name": "위키트리(대전빵축제 라인업)",
+   "url": "https://www.wikitree.co.kr/articles/1162266",
+   "keywords": [
+    "2026 대전빵축제"
+   ]
+  },
   {
    "name": "대전일보",
    "url": "https://www.daejonilbo.com/",
@@ -1953,18 +1976,17 @@
  ],
  "eatsj": [
   {
-   "name": "세계일보 여행",
-   "url": "https://www.segye.com/",
-   "keywords": [
-    "세종오식",
-    "세종 미식여행"
-   ]
-  },
-  {
    "name": "중도일보 (세종)",
    "url": "https://www.joongdo.co.kr/",
    "keywords": [
-    "세종사랑 맛집"
+    "세종사랑 맛집 98곳"
+   ]
+  },
+  {
+   "name": "대전일보(세종사랑맛집 2025 명단)",
+   "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2238296",
+   "keywords": [
+    "세종사랑맛집 44곳"
    ]
   }
  ],
@@ -1975,14 +1997,15 @@
    "keywords": [
     "Japanese snack",
     "convenience store",
-    "tsukimi"
+    "Starbucks Japan"
    ]
   },
   {
-   "name": "The Korea Herald Food",
-   "url": "https://www.koreaherald.com/LifenCulture/Food",
+   "name": "VnExpress International Food",
+   "url": "https://e.vnexpress.net/news/travel/food-recipes",
    "keywords": [
-    "food trend"
+    "TasteAtlas",
+    "street food"
    ]
   }
  ],
@@ -2025,23 +2048,9 @@
    "keywords": [
     "menswear collection"
    ]
-  },
-  {
-   "name": "싱글리스트",
-   "url": "https://www.slist.kr/",
-   "keywords": [
-    "남성복"
-   ]
   }
  ],
  "shopdeal": [
-  {
-   "name": "MTN 머니투데이방송",
-   "url": "https://news.mtn.co.kr/",
-   "keywords": [
-    "월간 십일절"
-   ]
-  },
   {
    "name": "Bing 뉴스 RSS",
    "url": "https://www.bing.com/news/search?q=%ED%8C%A8%EC%85%98+%ED%95%A0%EC%9D%B8+%ED%96%89%EC%82%AC&format=rss&qft=sortbydate%3d%221%22",
@@ -2062,7 +2071,16 @@
    "name": "Bing News RSS",
    "url": "https://www.bing.com/news/search?q=웹툰&format=rss",
    "keywords": [
-    "웹툰"
+    "웹툰",
+    "웹툰 작가",
+    "신작 웹툰 공개"
+   ]
+  },
+  {
+   "name": "위클리툰",
+   "url": "https://www.weeklytoon.com/news/articleList.html",
+   "keywords": [
+    "웹툰 업계"
    ]
   }
  ],
@@ -2088,6 +2106,13 @@
    "keywords": [
     "카카오엔터 신작 웹툰"
    ]
+  },
+  {
+   "name": "웹툰가이드 추천",
+   "url": "https://www.webtoonguide.com/ko/board/recommend-home",
+   "keywords": [
+    "웹툰 추천"
+   ]
   }
  ],
  "tripko": [
@@ -2106,6 +2131,13 @@
     "지자체 소식",
     "부산"
    ]
+  },
+  {
+   "name": "노컷뉴스",
+   "url": "https://www.nocutnews.co.kr/",
+   "keywords": [
+    "제주 가을 여행"
+   ]
   }
  ],
  "tripworld": [
@@ -2117,6 +2149,13 @@
     "불꽃놀이",
     "도자기 시장"
    ]
+  },
+  {
+   "name": "Lonely Planet",
+   "url": "https://www.lonelyplanet.com/articles",
+   "keywords": [
+    "where to go in October"
+   ]
   }
  ],
  "seasonal": [
@@ -2124,28 +2163,29 @@
    "name": "위키트리 라이프·푸드",
    "url": "https://www.wikitree.co.kr/",
    "keywords": [
-    "10월 제철",
-    "제철 해산물"
-   ]
-  },
-  {
-   "name": "뉴스와 생활정보",
-   "url": "https://www.news-wa.com/",
-   "keywords": [
-    "손질법",
-    "고르는 법"
+    "가을 제철",
+    "버섯",
+    "모과"
    ]
   },
   {
    "name": "비건뉴스",
    "url": "https://www.vegannews.co.kr/",
    "keywords": [
-    "10월 장바구니",
-    "제철 채소·과일"
+    "10월 제철 채소"
    ]
   }
  ],
  "bp": [
+  {
+   "name": "ScienceDaily Health",
+   "url": "https://www.sciencedaily.com/news/health_medicine/",
+   "keywords": [
+    "heart disease",
+    "cholesterol",
+    "hypertension"
+   ]
+  },
   {
    "name": "News-Medical",
    "url": "https://www.news-medical.net/medical/news",
@@ -2153,6 +2193,15 @@
     "blood pressure",
     "diabetes",
     "cholesterol"
+   ]
+  },
+  {
+   "name": "AHA Newsroom",
+   "url": "https://newsroom.heart.org/news",
+   "keywords": [
+    "blood pressure",
+    "cholesterol",
+    "stroke"
    ]
   }
  ],
@@ -2165,6 +2214,24 @@
     "diabetes",
     "cholesterol"
    ]
+  },
+  {
+   "name": "하이닥 뉴스",
+   "url": "https://news.hidoc.co.kr/news/articleList.html",
+   "keywords": [
+    "당뇨",
+    "혈당",
+    "고혈압"
+   ]
+  },
+  {
+   "name": "코메디닷컴",
+   "url": "https://kormedi.com/category/healthnews/",
+   "keywords": [
+    "당뇨",
+    "혈압",
+    "콜레스테롤"
+   ]
   }
  ],
  "lipid": [
@@ -2173,7 +2240,8 @@
    "url": "https://www.sciencedaily.com/news/health_medicine/",
    "keywords": [
     "heart disease",
-    "cholesterol"
+    "cholesterol",
+    "hypertension"
    ]
   },
   {
@@ -2183,6 +2251,15 @@
     "blood pressure",
     "diabetes",
     "cholesterol"
+   ]
+  },
+  {
+   "name": "AHA Newsroom",
+   "url": "https://newsroom.heart.org/news",
+   "keywords": [
+    "blood pressure",
+    "cholesterol",
+    "stroke"
    ]
   }
  ],
@@ -2316,11 +2393,7 @@
    "name": "만개의레시피",
    "url": "https://www.10000recipe.com/",
    "keywords": [
-    "백종원 순두부찌개",
-    "백종원 카레",
-    "볶음우동",
-    "부대찌개",
-    "콩나물불고기"
+    "백종원 레시피"
    ]
   },
   {
@@ -2336,11 +2409,7 @@
    "name": "만개의레시피",
    "url": "https://www.10000recipe.com/",
    "keywords": [
-    "백종원 계란말이",
-    "오이무침",
-    "콩나물무침",
-    "가지볶음",
-    "어묵탕"
+    "백종원 레시피"
    ]
   },
   {
@@ -2356,11 +2425,7 @@
    "name": "만개의레시피",
    "url": "https://www.10000recipe.com/",
    "keywords": [
-    "백종원 떡볶이",
-    "김치전",
-    "에그인헬",
-    "어묵꼬치",
-    "토마토달걀볶음"
+    "백종원 레시피"
    ]
   },
   {
@@ -2380,25 +2445,19 @@
    ]
   },
   {
+   "name": "Hypebeast",
+   "url": "https://hypebeast.com/fashion",
+   "keywords": [
+    "Nike",
+    "adidas"
+   ]
+  },
+  {
    "name": "FashionUnited",
-   "url": "https://fashionunited.uk/",
+   "url": "https://fashionunited.com/news/business",
    "keywords": [
     "Zara",
     "Inditex"
-   ]
-  },
-  {
-   "name": "Haute Living",
-   "url": "https://hauteliving.com/",
-   "keywords": [
-    "Tiffany"
-   ]
-  },
-  {
-   "name": "PR Newswire APAC",
-   "url": "https://prnewswire.com/apac/",
-   "keywords": [
-    "Pandora"
    ]
   }
  ],
@@ -2411,31 +2470,12 @@
    ]
   },
   {
-   "name": "Nissan Global Newsroom",
-   "url": "https://global.nissannews.com/en/",
+   "name": "Electrek",
+   "url": "https://electrek.co/",
    "keywords": [
-    "Nissan"
-   ]
-  },
-  {
-   "name": "Honda Global Newsroom",
-   "url": "https://global.honda/en/newsroom/",
-   "keywords": [
-    "Honda"
-   ]
-  },
-  {
-   "name": "현대자동차그룹 뉴스",
-   "url": "https://www.hyundaimotorgroup.com/ko/news",
-   "keywords": [
-    "기아 판매"
-   ]
-  },
-  {
-   "name": "Business Explainer",
-   "url": "https://businessexplainer.co.za/motoring/",
-   "keywords": [
-    "Range Rover"
+    "Tesla",
+    "Kia",
+    "BMW"
    ]
   }
  ],
@@ -2448,32 +2488,20 @@
    ]
   },
   {
-   "name": "PR Newswire",
-   "url": "https://prnewswire.com/",
-   "keywords": [
-    "IBM"
-   ]
-  },
-  {
-   "name": "아이뉴스24",
-   "url": "https://m.inews24.com/",
-   "keywords": [
-    "구글",
-    "퀄컴"
-   ]
-  },
-  {
    "name": "Notebookcheck",
-   "url": "https://notebookcheck.net/",
+   "url": "https://www.notebookcheck.net/News.152.0.html",
    "keywords": [
-    "HP"
+    "Sony",
+    "Nintendo",
+    "Intel",
+    "Apple"
    ]
   },
   {
-   "name": "GuruFocus",
-   "url": "https://gurufocus.com/",
+   "name": "Salesforce Blog",
+   "url": "https://www.salesforce.com/blog/",
    "keywords": [
-    "Philips"
+    "Dreamforce"
    ]
   }
  ],
@@ -2490,14 +2518,28 @@
    "url": "https://www.just-drinks.com/news/",
    "keywords": [
     "Danone",
-    "Coca-Cola"
+    "PepsiCo"
    ]
   },
   {
-   "name": "Merca2.0",
-   "url": "https://www.merca20.com/",
+   "name": "Khaosod English",
+   "url": "https://khaosodenglish.com/",
    "keywords": [
-    "Nescafé"
+    "NESCAFÉ"
+   ]
+  },
+  {
+   "name": "SWI swissinfo.ch",
+   "url": "https://swissinfo.ch/eng/",
+   "keywords": [
+    "Nestlé"
+   ]
+  },
+  {
+   "name": "Yahoo Finance (Benzinga)",
+   "url": "https://finance.yahoo.com/",
+   "keywords": [
+    "Budweiser"
    ]
   }
  ],
@@ -2510,34 +2552,19 @@
    ]
   },
   {
-   "name": "Yahoo Finance (PR Newswire)",
-   "url": "https://finance.yahoo.com/",
-   "keywords": [
-    "Lancôme"
-   ]
-  },
-  {
    "name": "Cosmetics Business",
    "url": "https://cosmeticsbusiness.com/",
    "keywords": [
-    "Colgate",
-    "Gillette",
-    "L'Oréal Paris"
+    "L'Oréal",
+    "P&G",
+    "Gillette"
    ]
   },
   {
-   "name": "코스인코리아",
-   "url": "https://www.cosinkorea.com/",
+   "name": "Verge Magazine",
+   "url": "https://vergemagazine.co.uk/",
    "keywords": [
-    "세포라",
-    "올리브영"
-   ]
-  },
-  {
-   "name": "Yahoo (Parade)",
-   "url": "https://www.aol.com/",
-   "keywords": [
-    "Pampers"
+    "Sephora"
    ]
   }
  ],
@@ -2567,33 +2594,31 @@
     "시인",
     "문학상"
    ]
+  },
+  {
+   "name": "Bing News RSS(시집 출간, 최신순)",
+   "url": "https://www.bing.com/news/search?q=%EC%8B%9C%EC%A7%91+%EC%B6%9C%EA%B0%84&qft=sortbydate%3d%221%22&format=rss&setlang=ko",
+   "keywords": [
+    "시집",
+    "출간"
+   ]
   }
  ],
  "aicert": [
   {
-   "name": "Microsoft Learn",
-   "url": "https://learn.microsoft.com/credentials/",
-   "keywords": [
-    "AB-730",
-    "AB-731",
-    "AB-100"
-   ]
-  },
-  {
    "name": "NVIDIA Certification",
    "url": "https://www.nvidia.com/en-us/learn/certification/",
    "keywords": [
-    "NCA-AIIO",
-    "NCP-AAI",
-    "NCA-GENM"
+    "NCP-GENL",
+    "NCP-AIO",
+    "NCP-AII"
    ]
   },
   {
-   "name": "Databricks Certification",
-   "url": "https://www.databricks.com/learn/certification",
+   "name": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/credentials/",
    "keywords": [
-    "Machine Learning Associate",
-    "Machine Learning Professional"
+    "DP-100"
    ]
   }
  ],
@@ -2654,7 +2679,8 @@
     "Hermès",
     "Chanel",
     "Saint Laurent",
-    "Ralph Lauren"
+    "Ralph Lauren",
+    "Ami"
    ]
   }
  ],
@@ -2666,7 +2692,24 @@
     "Hermès",
     "Chanel",
     "Saint Laurent",
-    "Ralph Lauren"
+    "Ralph Lauren",
+    "Ami"
+   ]
+  },
+  {
+   "name": "보그 코리아",
+   "url": "https://www.vogue.co.kr/",
+   "keywords": [
+    "2027 봄/여름",
+    "컬렉션"
+   ]
+  },
+  {
+   "name": "한경 매거진",
+   "url": "https://magazine.hankyung.com/",
+   "keywords": [
+    "명품",
+    "프라다"
    ]
   }
  ],
@@ -2678,52 +2721,43 @@
     "Hermès",
     "Chanel",
     "Saint Laurent",
-    "Ralph Lauren"
+    "Ralph Lauren",
+    "Ami"
    ]
   }
  ],
  "luxwatch": [
   {
-   "name": "한국섬유신문",
-   "url": "https://www.ktnews.com/",
+   "name": "한국경제",
+   "url": "https://www.hankyung.com/",
    "keywords": [
-    "쇼메",
-    "까르띠에",
-    "하이 주얼리"
+    "명품의세계",
+    "리치몬트"
    ]
   },
   {
-   "name": "Wallpaper*",
-   "url": "https://www.wallpaper.com/watches-jewellery",
+   "name": "WWD 코리아",
+   "url": "https://www.wwdkorea.com/",
    "keywords": [
-    "Patek Philippe",
-    "Rolex",
-    "Tiffany"
+    "까르띠에",
+    "워치"
    ]
   }
  ],
  "luxprice": [
   {
+   "name": "GQ 코리아",
+   "url": "https://www.gqkorea.co.kr/",
+   "keywords": [
+    "워치",
+    "가격"
+   ]
+  },
+  {
    "name": "얼루어 코리아",
    "url": "https://www.allurekorea.com/",
    "keywords": [
     "신상 백",
-    "가격"
-   ]
-  },
-  {
-   "name": "에스콰이어 코리아",
-   "url": "https://www.esquirekorea.co.kr/",
-   "keywords": [
-    "가을 신상",
-    "가격"
-   ]
-  },
-  {
-   "name": "마리끌레르 코리아",
-   "url": "https://www.marieclairekorea.com/",
-   "keywords": [
-    "향수",
     "가격"
    ]
   }
@@ -2756,6 +2790,29 @@
    "url": "https://wikidocs.net/blog/@farryoon/6269/",
    "keywords": [
     "별 헤는 밤"
+   ]
+  },
+  {
+   "name": "카이르뉴스 [시가 좋다] 「엄마야 누나야」",
+   "url": "https://www.kairnews.com/news/410122",
+   "keywords": [
+    "엄마야 누나야"
+   ]
+  },
+  {
+   "name": "한국민족문화대백과 「엄마야 누나야」",
+   "url": "https://encykorea.aks.ac.kr/Article/E0036210",
+   "keywords": [
+    "엄마야 누나야",
+    "김소월"
+   ]
+  },
+  {
+   "name": "경향신문 [여적] 단풍예보",
+   "url": "https://www.khan.co.kr/article/200009211903361",
+   "keywords": [
+    "오매 단풍 들것네",
+    "김영랑"
    ]
   }
  ],
