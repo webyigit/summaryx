@@ -1,0 +1,21 @@
+{
+ "title": "텍스트 대신 '확률'을 내는 AI 'Jev', 출시 몇 주 만에 기업가치 75억 달러",
+ "originalTitle": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+ "source": "TechCrunch",
+ "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "AI 모델 'Jev'를 만든 타입세이프 AI(TypeSafe AI)가 기업가치 75억 달러를 인정받아 8억 7000만 달러를 유치했다. Jev가 9월 15일 공개된 지 몇 주 만이다. 이번 투자는 안드리슨 호로위츠(a16z)가 주도하고 세쿼이아와 기존 투자사 DCVC가 참여했다. 회사는 포춘 500 기업의 3분의 1이 이미 Jev를 쓰고 있다며, 이례적으로 빠른 기업 도입 속도를 강조했다.",
+  "Jev는 트랜스포머 구조를 쓰지만 일반적인 대형언어모델(LLM)과 달리 글을 생성하지 않는다. 대신 회사가 '보정된 결정(calibrated decisions)'이라 부르는 확률값을 내놓는다. 타입세이프는 LLM보다 훨씬 빠르고 토큰도 크게 적게 쓴다고 주장하며, 텍스트나 코드 작성보다는 업무 자동화에 특히 맞는 모델로 내세운다.",
+  "오픈AI 연구원 출신 공동창업자 디오구 알메이다는 언어 모델은 사람의 언어에는 뛰어나지만 \"컴퓨터는 다른 언어를 쓴다\"며 자동화에는 덜 유용하다고 설명했다. 회사는 2024년 알메이다와 메타 연구 엔지니어 출신 사샤 성, 엔지니어 겸 창업가 에릭 가프니가 함께 세웠다."
+ ],
+ "keyPoints": [
+  "타입세이프 AI, 8.7억 달러 유치·가치 75억 달러",
+  "Jev는 글 대신 확률 '보정된 결정' 출력",
+  "포춘 500의 3분의 1이 사용 중이라고 주장"
+ ],
+ "image": "https://techcrunch.com/wp-content/uploads/2026/09/typesafe-ai.jpg?resize=1174,1200",
+ "id": "261010-ai-22",
+ "category": "ai",
+ "collectedAt": "2026-10-10T10:56:25+09:00"
+}

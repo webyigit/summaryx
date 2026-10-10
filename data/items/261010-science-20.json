@@ -1,0 +1,35 @@
+{
+ "title": "토성과 고리, 위성까지 한 장에…'운 좋은 사진' 기법으로 찍은 선명한 토성",
+ "originalTitle": "APOD: 2026 October 8 - The Saturn System Smörgåsbord",
+ "source": "NASA Science (APOD)",
+ "url": "https://science.nasa.gov/image-article/apod-2026-october-8-the-saturn-system-smorgasbord/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "나사의 '오늘의 천문 사진(APOD)'에 토성과 여러 위성이 아주 선명하게 찍힌 사진이 올라왔어요. 영국의 천체 사진가 톰 윌리엄스가 공기가 유난히 고요했던 하룻밤에 찍은 사진이에요.",
+  "하늘이 맑아도 사진이 흐려지는 이유는 온도와 밀도가 다른 공기 덩어리가 빛을 이리저리 휘게 하기 때문이에요. 천문학자들은 이것을 '시상(seeing)'이라고 불러요. 윌리엄스는 '럭키 이미징'이라는 방법을 썼어요. 고속 카메라로 아주 짧은 사진을 수천 장 연달아 찍은 뒤 가장 또렷한 것만 골라 합치는 방식이에요.",
+  "사진에서는 토성의 가장 큰 위성 타이탄, 얼음 줄무늬가 있는 엔켈라두스, 고리 사이의 틈과 '스포크' 무늬를 찾아볼 수 있어요. 토성은 10월 4일 지구가 태양과 토성 사이에 들어오는 '충'을 지나 지금이 관측하기 좋은 때예요."
+ ],
+ "keyPoints": [
+  "고속 카메라로 수천 장 찍어 선명한 것만 합성",
+  "타이탄·엔켈라두스·고리 틈까지 보여",
+  "10월 4일 '충' 지나 토성 관측 적기"
+ ],
+ "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/october/2026-09-21-2349_3-TW-RGB-Sat2_1.5x_Labelled.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+ "facts": [
+  [
+   "사진",
+   "톰 윌리엄스(영국)"
+  ],
+  [
+   "기법",
+   "럭키 이미징"
+  ],
+  [
+   "토성 충",
+   "2026-10-04"
+  ]
+ ],
+ "category": "science",
+ "id": "261010-science-20",
+ "collectedAt": "2026-10-10T10:56:25+09:00"
+}

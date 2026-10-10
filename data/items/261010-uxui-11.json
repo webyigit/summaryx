@@ -1,0 +1,21 @@
+{
+ "title": "구글 챗, 이모지를 HDR로 더 밝게… 설정에 'HDR 이모지' 토글 준비",
+ "originalTitle": "Google Chat may soon get an HDR upgrade... for emoji?",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/google-chat-hdr-emoji-support-apk-teardown-3721301/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "안드로이드 어소리티가 지메일 앱(버전 2026.10.05.993506826)을 분해한 결과, 'HDR 이모지'라는 설정 문구와 '지원되는 이모지를 높은 밝기와 대비의 HDR로 표시한다'는 설명이 발견됐다. 문구는 지메일 안에 있었지만 레이아웃 파일상 지메일에 들어 있는 구글 챗 설정으로, 스마트 작성 옵션 아래에 토글이 생길 것으로 보인다. 단독 구글 챗 앱에도 함께 적용될 가능성이 크다.",
+  "슬랙에서는 이미 HDR 이미지로 만든 커스텀 이모지가 주변 화면보다 훨씬 밝게 보이는 사례가 있다. 구글 챗은 회사·학교 계정에서 조직용 커스텀 이모지를 만들 수 있어 HDR 적용 1순위 후보로 꼽히지만, '지원되는 이모지'라는 표현이 넓어 기본 이모지까지 확대될 여지도 있다.",
+  "아직 기능은 공개되지 않았고 구글도 출시 일정을 밝히지 않았다. 앱 코드 분석으로 찾은 개발 중 기능이라 출시 전에 바뀌거나 빠질 수 있다."
+ ],
+ "keyPoints": [
+  "지메일 앱 코드서 'HDR 이모지' 설정 발견",
+  "구글 챗 설정의 스마트 작성 아래 토글 예상",
+  "출시 미정, 개발 중 기능이라 바뀔 수 있음"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2026/09/Google-Chat-compose-box-for-unsent-messages.jpg",
+ "id": "261010-uxui-11",
+ "category": "uxui",
+ "collectedAt": "2026-10-10T10:56:25+09:00"
+}
