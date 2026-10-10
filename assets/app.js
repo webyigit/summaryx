@@ -244,20 +244,64 @@
     });
   }
   // 첫 화면은 최근 이틀치만, 이전 날짜는 뒤에서 불러와 목록에 붙인다(스크롤 위치 유지)
+  var loadedDays = {};
+  // 목록을 다시 그리되 보던 위치는 그대로 둔다(상세 화면·입력 중에는 목록만 또는 건너뜀)
+  function rerender() {
+    var y = window.scrollY, ly = $list.scrollTop;
+    // 화면 맨 위에 보이던 기사를 기준으로 위치를 되돌린다(위에 새 기사가 붙어도 보던 곳 유지)
+    var anchor = null, top = 0;
+    [].some.call(document.querySelectorAll('.item'), function (el) {
+      var r = el.getBoundingClientRect();
+      if (r.bottom > 60) { anchor = el.getAttribute('href'); top = r.top; return true; }
+    });
+    var m = location.hash.match(/^#\/a\/(.+)/);
+    if (m) {
+      if (WIDE.matches && state.leftHref) { renderList(state.leftHref); markActive(decodeURIComponent(m[1])); }
+    } else if (!(document.activeElement && document.activeElement.tagName === 'INPUT')) route();
+    window.scrollTo(0, y); $list.scrollTop = ly;
+    if (anchor && !WIDE.matches && !m) {
+      var el = document.querySelector('.item[href="' + anchor.replace(/"/g, '\\"') + '"]');
+      if (el) window.scrollTo(0, window.scrollY + el.getBoundingClientRect().top - top);
+    }
+  }
   function loadOlder(days) {
-    if (!days.length) return;
-    Promise.all(days.map(function (d) {
+    days = days.filter(function (d) { return !loadedDays[d]; });
+    if (!days.length) return Promise.resolve();
+    days.forEach(function (d) { loadedDays[d] = 1; });
+    return Promise.all(days.map(function (d) {
       return fetchJson('data/days/' + d + '.json').then(function (r) { return r.articles || []; }).catch(function () { return []; });
     })).then(function (lists) {
       addArticles([].concat.apply([], lists));
-      var y = window.scrollY, ly = $list.scrollTop;
-      var m = location.hash.match(/^#\/a\/(.+)/);
-      if (m) {
-        if (WIDE.matches && state.leftHref) { renderList(state.leftHref); markActive(decodeURIComponent(m[1])); }
-      } else if (!(document.activeElement && document.activeElement.tagName === 'INPUT')) route();
-      window.scrollTo(0, y); $list.scrollTop = ly;
+      rerender();
     });
   }
+  function showUpdated() {
+    if (state.updatedAt) document.getElementById('updated').textContent = fmtDate(state.updatedAt.slice(0, 10)) + ' 업데이트';
+  }
+  // 새 기사 자동 반영: 3분마다, 그리고 탭으로 돌아올 때 updatedAt이 바뀌었는지 보고 바뀌었을 때만 새 데이터를 붙인다
+  var checking = false;
+  function checkUpdate() {
+    if (checking || document.hidden || !state.updatedAt) return;
+    checking = true;
+    fetchJson('data/articles.json').then(function (d) {
+      if (!d.updatedAt || d.updatedAt === state.updatedAt) return;
+      var before = state.articles.length;
+      state.updatedAt = d.updatedAt;
+      addArticles(d.articles || []);
+      showUpdated();
+      return Promise.all([
+        fetchJson('data/daily.json').then(function (x) { state.daily = x; }).catch(function () {}),
+        fetchJson('data/archlinks.json').then(function (x) { archLinks = x; }).catch(function () {})
+      ]).then(function () {
+        rerender();
+        var n = state.articles.length - before;
+        if (n > 0) toast('새 기사 ' + n + '건을 불러왔어요');
+        return loadOlder(d.days || []);
+      });
+    }).catch(function () {}).then(function () { checking = false; });
+  }
+  setInterval(checkUpdate, 3 * 60 * 1000);
+  document.addEventListener('visibilitychange', function () { if (!document.hidden) checkUpdate(); });
   Promise.all([
     fetchJson('data/articles.json'),
     fetchJson('data/daily.json').catch(function () { return null; }),
@@ -268,7 +312,7 @@
     state.updatedAt = res[0].updatedAt;
     state.daily = res[1];
     state.articles.forEach(function (a) { state.byId[a.id] = a; });
-    if (state.updatedAt) document.getElementById('updated').textContent = fmtDate(state.updatedAt.slice(0, 10)) + ' 업데이트';
+    showUpdated();
     route();
     loadOlder(res[0].days || []);
   }).catch(function () {
