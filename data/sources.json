@@ -550,6 +550,62 @@
     "식품 동향",
     "K-푸드 마케팅"
    ]
+  },
+  {
+   "name": "푸드투데이",
+   "url": "https://www.foodtoday.or.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "식품 안전",
+    "국감",
+    "식품 트렌드"
+   ]
+  },
+  {
+   "name": "식품음료신문 thinkfood",
+   "url": "https://www.thinkfood.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "식품업계",
+    "K-푸드 수출"
+   ]
+  },
+  {
+   "name": "식품외식경제 foodbank",
+   "url": "https://www.foodbank.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "외식 프랜차이즈",
+    "외식 트렌드"
+   ]
+  },
+  {
+   "name": "Food Dive",
+   "url": "https://www.fooddive.com/",
+   "keywords": [
+    "food industry",
+    "beverage"
+   ]
+  },
+  {
+   "name": "Restaurant Dive",
+   "url": "https://www.restaurantdive.com/",
+   "keywords": [
+    "restaurant chains",
+    "franchise"
+   ]
+  },
+  {
+   "name": "Nation's Restaurant News",
+   "url": "https://www.nrn.com/",
+   "keywords": [
+    "restaurant industry"
+   ]
+  },
+  {
+   "name": "Food Business News",
+   "url": "https://www.foodbusinessnews.net/",
+   "keywords": [
+    "food manufacturing",
+    "ingredients"
+   ]
   }
  ],
  "music": [
@@ -778,6 +834,24 @@
    "keywords": [
     "wine exports",
     "bulk wine"
+   ]
+  },
+  {
+   "name": "WineNews",
+   "url": "https://winenews.it/en/",
+   "keywords": [
+    "Italian wine market",
+    "bottlings",
+    "wine policy"
+   ]
+  },
+  {
+   "name": "Decanter",
+   "url": "https://www.decanter.com/wine-news/",
+   "keywords": [
+    "auction",
+    "Michelin grapes",
+    "acquisition"
    ]
   }
  ],
@@ -1278,6 +1352,66 @@
     "Brand USA",
     "inbound travel"
    ]
+  },
+  {
+   "name": "Skift",
+   "url": "https://skift.com/news/",
+   "keywords": [
+    "hotel",
+    "airline",
+    "tourism"
+   ]
+  },
+  {
+   "name": "Business Travel News Europe",
+   "url": "https://www.businesstravelnewseurope.com/",
+   "keywords": [
+    "airline",
+    "strike",
+    "rail"
+   ]
+  },
+  {
+   "name": "PhocusWire",
+   "url": "https://www.phocuswire.com/news",
+   "keywords": [
+    "travel tech",
+    "AI",
+    "biometrics"
+   ]
+  },
+  {
+   "name": "여행신문 트래블데일리",
+   "url": "https://www.traveldaily.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "여행상품",
+    "관광공사"
+   ]
+  },
+  {
+   "name": "투어코리아",
+   "url": "https://www.tournews21.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "축제",
+    "여행"
+   ]
+  },
+  {
+   "name": "TTL뉴스",
+   "url": "https://www.ttlnews.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "관광",
+    "리조트",
+    "축제"
+   ]
+  },
+  {
+   "name": "여행신문",
+   "url": "https://www.traveltimes.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "여행업계",
+    "항공"
+   ]
   }
  ],
  "health": [
@@ -1319,6 +1453,16 @@
     "NIH-funded study",
     "prevention",
     "research"
+   ]
+  },
+  {
+   "name": "News-Medical",
+   "url": "https://www.news-medical.net/medical/news",
+   "keywords": [
+    "study",
+    "liver",
+    "children",
+    "Alzheimer's"
    ]
   }
  ],
@@ -1491,56 +1635,76 @@
     "출시",
     "추천"
    ]
+  },
+  {
+   "name": "Tim Atkin MW",
+   "url": "https://timatkin.com/",
+   "keywords": [
+    "wine of the week",
+    "tasting notes"
+   ]
+  },
+  {
+   "name": "The Drinks Business",
+   "url": "https://www.thedrinksbusiness.com/",
+   "keywords": [
+    "Champagne Masters",
+    "Global Wine Masters"
+   ]
+  },
+  {
+   "name": "Tastings.com (BTI)",
+   "url": "https://www.tastings.com/",
+   "keywords": [
+    "On-Demand and New Releases Reviews"
+   ]
   }
  ],
  "wineregion": [
-  {
-   "name": "Vinetur (English)",
-   "url": "https://www.vinetur.com/en/",
-   "keywords": [
-    "harvest 2026",
-    "appellation",
-    "region"
-   ]
-  },
   {
    "name": "Wine Industry Advisor",
    "url": "https://wineindustryadvisor.com/",
    "keywords": [
     "harvest 2026",
-    "Napa"
+    "DOCG"
    ]
   },
   {
-   "name": "The Drinks Business",
-   "url": "https://www.thedrinksbusiness.com/category/news/",
+   "name": "MICHELIN Guide",
+   "url": "https://guide.michelin.com/us/en/articles/news-and-views",
    "keywords": [
-    "region",
-    "vintage",
-    "harvest 2026"
+    "Grape selection",
+    "Champagne"
    ]
   },
   {
-   "name": "Investing.com",
-   "url": "https://www.investing.com/news/",
+   "name": "Euronews",
+   "url": "https://www.euronews.com/",
    "keywords": [
-    "France wine harvest",
-    "Agreste"
+    "best wine regions Europe 2027"
    ]
   },
   {
-   "name": "와인21",
-   "url": "https://www.wine21.com/11_news/news_list.html",
+   "name": "Teatro Naturale",
+   "url": "https://www.teatronaturale.it/",
    "keywords": [
-    "산지"
+    "vendemmia 2026",
+    "consorzio"
    ]
   },
   {
-   "name": "Harpers Wine & Spirit",
-   "url": "https://harpers.co.uk/news",
+   "name": "Radio Siena TV",
+   "url": "https://www.radiosienatv.it/",
    "keywords": [
-    "harvest",
-    "region"
+    "vendemmia 2026 Toscana"
+   ]
+  },
+  {
+   "name": "Bing News RSS",
+   "url": "https://www.bing.com/news/search?q=vendemmia+2026+qualit%C3%A0+consorzio&format=rss",
+   "keywords": [
+    "vendemmia 2026",
+    "vendanges 2026 bilan"
    ]
   }
  ],
@@ -1553,7 +1717,9 @@
     "와인 마리아주",
     "\"wine pairing\"",
     "\"what wine\" pair with",
-    "ワイン ペアリング"
+    "ワイン ペアリング",
+    "マリアージュ ワイン",
+    "\"paired with\" wine dinner chef"
    ]
   },
   {
@@ -1581,29 +1747,45 @@
    ]
   },
   {
-   "name": "風傳媒 日本版",
-   "url": "https://japan.storm.mg/",
+   "name": "Food-Blog.co.za",
+   "url": "https://www.food-blog.co.za/",
    "keywords": [
-    "日本ワイン ペアリング"
+    "wine pairing dinner"
+   ]
+  },
+  {
+   "name": "Houston Press (Restaurants)",
+   "url": "https://www.houstonpress.com/restaurants/",
+   "keywords": [
+    "wine dinner"
    ]
   }
  ],
  "winestudy": [
   {
+   "name": "Wine Folly",
+   "url": "https://winefolly.com/deep-dive/",
+   "keywords": [
+    "deep dive",
+    "explained",
+    "guide"
+   ]
+  },
+  {
    "name": "Wine Enthusiast",
    "url": "https://www.wineenthusiast.com/category/basics/",
    "keywords": [
-    "region rundown",
+    "how to serve",
     "grapes 101",
     "drinks terms defined"
    ]
   },
   {
-   "name": "Wine Folly",
-   "url": "https://winefolly.com/deep-dive/",
+   "name": "SevenFifty Daily",
+   "url": "https://daily.sevenfifty.com/",
    "keywords": [
-    "deep dive",
-    "explained"
+    "native grapes",
+    "region explained"
    ]
   }
  ],

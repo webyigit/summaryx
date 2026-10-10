@@ -1,0 +1,35 @@
+{
+ "title": "IAG의 AI 자동화 원칙…\"얼마나 중요한가·피해 범위·대안은 있나\" 세 가지 질문",
+ "originalTitle": "BA-parent IAG applies a 3-question test for AI automation",
+ "source": "PhocusWire",
+ "url": "https://www.phocuswire.com/news/technology/iags-3-question-test-ai-automation",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "영국항공 모회사 IAG의 벤 디아스 최고 AI 과학자가 런던 스킵트 데이터+AI 서밋에서 그룹의 AI 도입 기준을 소개했다. IAG는 정비(MRO) 같은 그룹 차원 과제에 집중하고, 계열 항공사마다 자체 AI 팀과 위험 위원회를 둬 사례별로 판단하는 분산형 구조를 쓴다.",
+  "원칙은 '기본은 사람을 돕고, 자동화는 위험도에 따라'다. 자동화 전에는 세 가지를 묻는다. 시스템이 얼마나 중요하고 실패 시 매출·안전·고객·평판에 어떤 비용이 드는지, 실패가 한곳에 머무는지 다른 시스템으로 번지는지(폭발 반경), AI가 실패했을 때 대안이 있는지다. 빨리 복구할 수 있는 시스템일수록 넓게 자동화하고, 나머지는 정식 위험 평가를 거친다. IAG의 AI 정책에는 편향·차별 금지, 사람의 감독 등 10개 원칙이 있다.",
+  "같은 행사에서 아코르는 중앙집중형 관리를, 스트로베리는 직원 실험을 막지 않는 방식을 소개했다. 안전이 중요한 항공업은 디지털 스타트업보다 신중하게 AI를 확산하고 있다는 평가다."
+ ],
+ "keyPoints": [
+  "IAG, 자동화 전 '중요도·피해 범위·대안' 점검",
+  "계열사별 AI 팀·위험위원회 두는 분산 구조",
+  "AI 정책 10대 원칙, 사람 감독 포함"
+ ],
+ "image": "https://ik.imgkit.net/3vlqs5axxjf/external/https://ckbox.cloud/Nvtt0hWlKPm5OQkhAlsd/assets/wA65DKjc38Tk/file?tr=w-1200%2Cfo-auto",
+ "facts": [
+  [
+   "기업",
+   "IAG(영국항공 모회사)"
+  ],
+  [
+   "인물",
+   "벤 디아스 최고 AI 과학자"
+  ],
+  [
+   "행사",
+   "Skift Data + AI Summit 런던"
+  ]
+ ],
+ "id": "261011-travel-11",
+ "category": "travel",
+ "collectedAt": "2026-10-11T05:32:05+09:00"
+}
