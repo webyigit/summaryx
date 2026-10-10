@@ -233,6 +233,48 @@
     "찬양",
     "CCM"
    ]
+  },
+  {
+   "name": "GodTube Music News",
+   "url": "https://www.godtube.com/music-news/",
+   "keywords": [
+    "new album",
+    "Christmas album",
+    "anniversary"
+   ]
+  },
+  {
+   "name": "Worship Leader Magazine",
+   "url": "https://worshipleader.com/category/worship-music/",
+   "keywords": [
+    "set list",
+    "worship songs"
+   ]
+  },
+  {
+   "name": "기독일보 문화",
+   "url": "https://www.christiandaily.co.kr/sections/cul",
+   "keywords": [
+    "찬양",
+    "워십 투어"
+   ]
+  },
+  {
+   "name": "국민일보 더 미션 문화",
+   "url": "https://www.kmib.co.kr/article/listing.asp?sid1=mcu&sid2=0001",
+   "keywords": [
+    "찬양",
+    "CCM",
+    "공연"
+   ]
+  },
+  {
+   "name": "주간기독신문",
+   "url": "https://www.kidok.com/",
+   "keywords": [
+    "뮤지컬",
+    "찬양"
+   ]
   }
  ],
  "christian": [
@@ -484,6 +526,13 @@
    ]
   },
   {
+   "name": "Know Your Meme (newest entries)",
+   "url": "https://knowyourmeme.com/memes/all?sort=newest",
+   "keywords": [
+    "new meme entries"
+   ]
+  },
+  {
    "name": "Bing News RSS (meme)",
    "url": "https://www.bing.com/news/search?q=meme+viral+tiktok&qft=sortbydate%3d%221%22&format=rss",
    "keywords": [
@@ -658,6 +707,23 @@
    ]
   },
   {
+   "name": "TV리포트",
+   "url": "https://tvreport.co.kr/",
+   "keywords": [
+    "드라마",
+    "예능",
+    "배우"
+   ]
+  },
+  {
+   "name": "OSEN",
+   "url": "https://www.osen.co.kr/",
+   "keywords": [
+    "예능",
+    "배우"
+   ]
+  },
+  {
    "name": "allkpop",
    "url": "https://www.allkpop.com/",
    "keywords": [
@@ -785,11 +851,10 @@
   },
   {
    "name": "Bing News RSS",
-   "url": "https://www.bing.com/news/search?q=%EC%98%81%EC%83%81+%ED%99%94%EC%A0%9C+%EC%A1%B0%ED%9A%8C%EC%88%98&qft=sortbydate%3d%221%22&format=rss",
+   "url": "https://www.bing.com/news/search?q=%EC%87%BC%EC%B8%A0+%ED%99%94%EC%A0%9C&qft=sortbydate%3d%221%22&format=rss",
    "keywords": [
-    "영상 화제 조회수",
     "쇼츠 화제",
-    "숏폼 영상 화제"
+    "유튜브 쇼츠 떡상"
    ]
   }
  ],
@@ -1482,15 +1547,16 @@
    "url": "https://www.hangyo.com/news/article_list_all.html",
    "keywords": [
     "교권",
-    "교원단체"
+    "교원단체",
+    "학교 현장"
    ]
   },
   {
    "name": "뉴시스 교육",
    "url": "https://www.newsis.com/society/list/?cid=10200&scid=10205",
    "keywords": [
-    "문해력",
-    "임용시험",
+    "대학",
+    "교육부",
     "청소년"
    ]
   },
@@ -1498,27 +1564,26 @@
    "name": "에듀프레스",
    "url": "https://www.edupress.kr/news/articleList.html?view_type=sm",
    "keywords": [
-    "국감",
-    "교원 정치기본권",
-    "1정 연수"
+    "고등교육",
+    "교육지원청"
    ]
   },
   {
    "name": "교육플러스",
    "url": "https://www.edpl.co.kr/news/articleList.html?view_type=sm",
    "keywords": [
-    "서·논술형",
+    "국감",
     "교부금",
-    "해외 교육"
+    "교육감"
    ]
   },
   {
    "name": "이투데이 교육",
-   "url": "https://www.etoday.co.kr/",
+   "url": "https://www.etoday.co.kr/society/education",
    "keywords": [
-    "수능",
-    "국감",
-    "교권"
+    "대학 AI",
+    "진학상담",
+    "수능"
    ]
   }
  ],
@@ -1530,6 +1595,24 @@
     "comeback",
     "tour",
     "anniversary"
+   ]
+  },
+  {
+   "name": "Soompi",
+   "url": "https://www.soompi.com/feed",
+   "keywords": [
+    "comeback",
+    "world tour",
+    "brand reputation"
+   ]
+  },
+  {
+   "name": "The Korea Herald K-pop",
+   "url": "https://www.koreaherald.com/Kpop",
+   "keywords": [
+    "debut",
+    "concert",
+    "exhibit"
    ]
   }
  ],
