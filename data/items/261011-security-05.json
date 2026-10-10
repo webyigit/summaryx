@@ -1,0 +1,35 @@
+{
+ "title": "소닉월 SMA1000 최고 위험 SSRF 취약점, 패치 사흘 만에 공격 시도 포착",
+ "originalTitle": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "소닉월이 이번 주 화요일 패치한 SMA1000 원격 접속 장비의 최고 심각도 취약점(CVE-2026-102255)을 노린 공격 시도가 확인됐다. 이 결함은 Appliance WorkPlace 인터페이스의 서버 측 요청 위조(SSRF) 문제로, 인증 없이 장비가 대신 요청을 보내게 해 내부 기능에 접근할 수 있다. 대상은 6210·7210·8200v 모델이다.",
+  "소닉월 공지에는 실제 악용 표시가 없었지만, 프레비디언의 라이언 듀허스트는 10월 9일 자사 허니팟에서 이 취약점과 일치하는 공격 시도를 탐지했다고 밝혔다. 실제 침해 성공 여부는 확인되지 않았다. 섀도서버는 인터넷에 노출된 SMA1000 장비를 400대 이상으로 집계한다.",
+  "SMA1000은 올해 7월과 9월에도 제로데이 공격을 받았고, CISA는 4년간 소닉월 취약점 19건을 실제 악용 목록에 올렸다. 관리자는 즉시 패치를 적용하고 장비 노출 여부와 침해 흔적을 점검해야 한다."
+ ],
+ "keyPoints": [
+  "CVE-2026-102255, 인증 없는 SSRF 결함",
+  "패치 사흘 만에 허니팟서 공격 시도 탐지",
+  "노출 장비 400대 이상… 즉시 패치 필요"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2026/10/09/SonicWall-headpic.jpg",
+ "facts": [
+  [
+   "CVE",
+   "CVE-2026-102255"
+  ],
+  [
+   "대상",
+   "SMA1000 6210·7210·8200v"
+  ],
+  [
+   "권고",
+   "소닉월 공지 SNWLID-2026-0017 패치 적용"
+  ]
+ ],
+ "id": "261011-security-05",
+ "category": "security",
+ "collectedAt": "2026-10-11T03:30:48+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "깃허브 저장소 수만 곳에 자격증명 훔치는 액션 워크플로 심겨… '고스트액션' 재등장",
+ "originalTitle": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "소켓(Socket)에 따르면 10월 7일 이후 500개가 넘는 깃허브 계정이 비밀 정보를 빼돌리는 악성 깃허브 액션 워크플로를 수만 개 저장소에 커밋했다. 유명 메인테이너 계정 두 개도 340여 개 저장소에 이를 밀어 넣었고, 한 계정은 16분 만에 318개 저장소를 오염시켰다.",
+  "이번 활동은 2025년 9월 처음 보고돼 817개 저장소에서 3,325개 비밀 정보를 훔친 공급망 공격 '고스트액션(GhostAction)'과 연결된다. 깃가디언은 8월 31일~9월 30일에도 373개 사용자·조직의 772개 공개 저장소가 공격받았다고 밝혔다. 노리는 정보는 클라우드 키, AI 서비스 API 키, 소스 관리 토큰, CI/CD 비밀값 등이다.",
+  "아직 탈취한 배포 자격증명으로 악성 패키지가 배포된 사례는 없다. 연구진은 저장소에 악성 워크플로가 있으면 침해로 간주해 자격증명을 폐기하고 비밀값을 교체하며, 모든 브랜치와 포크에서 워크플로를 제거하라고 권했다."
+ ],
+ "keyPoints": [
+  "500여 계정이 수만 저장소에 악성 워크플로",
+  "공급망 공격 '고스트액션' 연관",
+  "발견 시 자격증명 폐기·비밀값 교체"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoJXBEAVVijhwsYs32WSejvp0sG3ej-Qoi7Z6qHDp8rY5IZENkKOpexrbbU1BNyiCbbB0ZXHjEDL-UYqu7CDpPpoYLiGXkuLCZJTItgP5XeLD_Sb1galPzOGtrFZigEM5CGUbwi9gcL_-XCYY6NKu9j5FiakIWn5s66DZE-OjrLZO3sMGka3YNFvGUecJT/s1600/gitworm.jpg",
+ "facts": [
+  [
+   "캠페인",
+   "고스트액션(GhostAction)"
+  ],
+  [
+   "분석",
+   "StepSecurity·Socket·GitGuardian"
+  ],
+  [
+   "대상",
+   "깃허브 공개 저장소"
+  ]
+ ],
+ "id": "261011-security-09",
+ "category": "security",
+ "collectedAt": "2026-10-11T03:30:48+09:00"
+}

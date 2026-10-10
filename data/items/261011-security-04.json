@@ -1,0 +1,35 @@
+{
+ "title": "독일, 일본서 송환된 '킬린' 랜섬웨어 핵심 조직원 체포",
+ "originalTitle": "Germany arrests alleged core Qilin ransomware member after extradition",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "독일 당국이 랜섬웨어 조직 킬린(Qilin)의 핵심 조직원으로 의심되는 러시아 국적자를 체포했다. 이 남성은 이달 초 일본에서 독일로 송환됐으며, 일본 경찰청이 송환 사실을 확인했다. 언론 보도에 따르면 그는 관광객으로 일본에 입국했다가 5월 오사카의 한 호텔에서 붙잡혔다.",
+  "일본 법무성과 도쿄고등검찰청은 독일과 협력해 도주범인인도법에 따라 임시 구금 영장을 받은 뒤 송환을 진행했다. 독일의 체포 영장은 자국에서 발생한 랜섬웨어 사건과 관련된 것으로, 구체적 혐의는 공개되지 않았다.",
+  "킬린은 2022년 8월 'Agenda'라는 이름으로 등장한 서비스형 랜섬웨어로, 데이터를 훔친 뒤 암호화하는 이중 갈취 방식을 쓴다. 62개국 2,350여 곳을 공격했고 닛산·아사히 등이 피해를 입었다. 조직원이 붙잡힌 6월 이후에도 450곳 넘는 피해 기관을 유출 사이트에 올리는 등 활동은 이어지고 있다."
+ ],
+ "keyPoints": [
+  "일본서 송환된 러시아인, 독일서 체포",
+  "5월 오사카 호텔서 처음 구금",
+  "킬린, 62개국 2,350여 곳 공격"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2026/10/09/police-arrest.jpg",
+ "facts": [
+  [
+   "조직",
+   "킬린(Qilin) 랜섬웨어"
+  ],
+  [
+   "국가",
+   "독일·일본"
+  ],
+  [
+   "피의자",
+   "러시아 국적(이름 비공개)"
+  ]
+ ],
+ "id": "261011-security-04",
+ "category": "security",
+ "collectedAt": "2026-10-11T03:30:48+09:00"
+}

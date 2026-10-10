@@ -570,6 +570,22 @@
    "keywords": [
     "new release"
    ]
+  },
+  {
+   "name": "Consequence",
+   "url": "https://consequence.net/category/music/",
+   "keywords": [
+    "tour",
+    "new song"
+   ]
+  },
+  {
+   "name": "뉴시스",
+   "url": "https://www.newsis.com/culture/list/?cid=10700&scid=10703",
+   "keywords": [
+    "앨범",
+    "밴드"
+   ]
   }
  ],
  "ent": [
@@ -654,6 +670,32 @@
     "trailer",
     "review",
     "horror"
+   ]
+  },
+  {
+   "name": "/Film",
+   "url": "https://www.slashfilm.com/category/movies/",
+   "keywords": [
+    "movie news",
+    "review",
+    "box office"
+   ]
+  },
+  {
+   "name": "일간스포츠",
+   "url": "https://isplus.com/",
+   "keywords": [
+    "[31st BIFF]",
+    "영화",
+    "기자회견"
+   ]
+  },
+  {
+   "name": "코리아타임스 Films",
+   "url": "https://www.koreatimes.co.kr/entertainment/films",
+   "keywords": [
+    "BIFF",
+    "Korean film"
    ]
   }
  ],
@@ -1039,13 +1081,6 @@
  ],
  "security": [
   {
-   "name": "지디넷코리아",
-   "url": "https://zdnet.co.kr/",
-   "keywords": [
-    "유출"
-   ]
-  },
-  {
    "name": "보안뉴스",
    "url": "https://www.boannews.com/media/t_list.asp",
    "keywords": [
@@ -1059,6 +1094,31 @@
     "금융권 보안",
     "국정감사"
    ]
+  },
+  {
+   "name": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/",
+   "keywords": [
+    "breach",
+    "ransomware",
+    "arrest"
+   ]
+  },
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/",
+   "keywords": [
+    "supply chain",
+    "AI security"
+   ]
+  },
+  {
+   "name": "데이터넷",
+   "url": "https://www.datanet.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "사기",
+    "보안"
+   ]
   }
  ],
  "book": [
@@ -1066,53 +1126,44 @@
    "name": "경향신문 책",
    "url": "https://www.khan.co.kr/culture/book/articles",
    "keywords": [
-    "신간",
-    "베스트셀러",
-    "[새책]",
-    "[책과 삶]"
+    "[책과 삶]",
+    "[새책]"
    ]
   },
   {
-   "name": "채널예스",
-   "url": "https://ch.yes24.com/",
+   "name": "한국일보 책",
+   "url": "https://www.hankookilbo.com/news/culture/book",
    "keywords": [
-    "작가 인터뷰",
-    "독서 트렌드"
+    "새 책",
+    "번역"
    ]
   },
   {
-   "name": "한국일보",
-   "url": "https://www.hankookilbo.com/",
+   "name": "뉴시스 문화",
+   "url": "https://www.newsis.com/culture/list/?cid=10700&scid=10701",
    "keywords": [
-    "노벨문학상"
+    "[신간]"
+   ]
+  },
+  {
+   "name": "세계일보",
+   "url": "https://www.segye.com/",
+   "keywords": [
+    "[새로 나온 책]"
    ]
   },
   {
    "name": "Publishing Perspectives",
    "url": "https://publishingperspectives.com/",
    "keywords": [
-    "Frankfurter Buchmesse",
-    "publishing industry",
-    "audiobook",
-    "freedom to publish"
+    "Frankfurter Buchmesse"
    ]
   },
   {
    "name": "Literary Hub",
    "url": "https://lithub.com/category/news/",
    "keywords": [
-    "Nobel Prize in Literature",
-    "Kirkus Prize",
-    "Caine Prize",
-    "AI copyright"
-   ]
-  },
-  {
-   "name": "서울신문 출판·문학",
-   "url": "https://www.seoul.co.kr/news/life/publication-literature",
-   "keywords": [
-    "베스트셀러",
-    "신간"
+    "Best Reviewed Books"
    ]
   }
  ],
@@ -1122,14 +1173,26 @@
    "url": "https://www.nc.press/",
    "keywords": [
     "국악",
-    "전통춤"
+    "전통춤",
+    "공연",
+    "발레"
    ]
   },
   {
    "name": "Playbill",
    "url": "https://www.playbill.com/news",
    "keywords": [
-    "Off-Broadway"
+    "Off-Broadway",
+    "Broadway"
+   ]
+  },
+  {
+   "name": "뉴시스 공연",
+   "url": "https://www.newsis.com/culture/list?cid=10700&scid=10702",
+   "keywords": [
+    "공연",
+    "뮤지컬",
+    "클래식"
    ]
   }
  ],
@@ -1337,7 +1400,11 @@
     "고도화",
     "홈페이지",
     "플랫폼 구축",
-    "정보시스템"
+    "정보시스템",
+    "누리집",
+    "시스템 구축",
+    "ISP",
+    "홍보 콘텐츠"
    ]
   }
  ],
@@ -2937,27 +3004,36 @@
  ],
  "worldus": [
   {
+   "name": "알자지라 미국·캐나다",
+   "url": "https://www.aljazeera.com/us-canada/",
+   "keywords": [
+    "midterms",
+    "Delta",
+    "diesel"
+   ]
+  },
+  {
    "name": "알자지라 중남미",
    "url": "https://www.aljazeera.com/latin-america/",
    "keywords": [
-    "Panama",
-    "earthquake"
+    "Mexico",
+    "Brazil"
+   ]
+  },
+  {
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
+   "keywords": [
+    "트럼프",
+    "중간선거",
+    "페루"
    ]
   },
   {
    "name": "경향신문 국제",
    "url": "https://www.khan.co.kr/world",
    "keywords": [
-    "미국",
-    "트럼프"
-   ]
-  },
-  {
-   "name": "알자지라 중동",
-   "url": "https://www.aljazeera.com/middle-east/",
-   "keywords": [
-    "ICC",
-    "sanctions"
+    "미국"
    ]
   }
  ],
@@ -2976,6 +3052,30 @@
     "Japan",
     "Okinawa"
    ]
+  },
+  {
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
+   "keywords": [
+    "일본",
+    "중국",
+    "북한",
+    "남아시아"
+   ]
+  },
+  {
+   "name": "Al Jazeera India",
+   "url": "https://www.aljazeera.com/where/india/",
+   "keywords": [
+    "India"
+   ]
+  },
+  {
+   "name": "Al Jazeera Pakistan",
+   "url": "https://www.aljazeera.com/where/pakistan/",
+   "keywords": [
+    "Pakistan"
+   ]
   }
  ],
  "worldeu": [
@@ -2983,8 +3083,25 @@
    "name": "알자지라 유럽",
    "url": "https://www.aljazeera.com/where/europe/",
    "keywords": [
-    "France",
-    "Renoir"
+    "Poland",
+    "Ukraine"
+   ]
+  },
+  {
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
+   "keywords": [
+    "우크라이나",
+    "러시아"
+   ]
+  },
+  {
+   "name": "유로뉴스 유럽",
+   "url": "https://www.euronews.com/news/europe",
+   "keywords": [
+    "EU",
+    "energy",
+    "UK"
    ]
   }
  ],
@@ -2995,7 +3112,44 @@
    "keywords": [
     "Yemen",
     "Sudan",
-    "UAE"
+    "UAE",
+    "Gaza",
+    "Iran"
+   ]
+  },
+  {
+   "name": "알자지라 아프리카",
+   "url": "https://www.aljazeera.com/africa/",
+   "keywords": [
+    "Ethiopia",
+    "Sudan",
+    "Kenya"
+   ]
+  },
+  {
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
+   "keywords": [
+    "사우디",
+    "후티",
+    "예멘"
+   ]
+  },
+  {
+   "name": "경향신문 국제",
+   "url": "https://www.khan.co.kr/world",
+   "keywords": [
+    "중동",
+    "아프리카"
+   ]
+  },
+  {
+   "name": "아프리카뉴스",
+   "url": "https://www.africanews.com/",
+   "keywords": [
+    "Djibouti",
+    "Niger",
+    "DR Congo"
    ]
   }
  ]

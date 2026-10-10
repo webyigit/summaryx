@@ -1,0 +1,35 @@
+{
+ "title": "사이버범죄 자금 세탁용 '돈세탁책' 1만5천 명 운영한 남성 유죄 인정",
+ "originalTitle": "Man admits to running network of 15,000 money mules for cybercriminals",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "우크라이나·러시아 이중국적자 올레그 코르니예프(42)가 사이버범죄 수익을 세탁하는 조직 'YMCO(Your Mule Cashout)'를 이끈 혐의를 미국 법원에서 인정했다. YMCO는 2007년 9월부터 미국 내 1만5천 명이 넘는 돈세탁책(머니 뮬)을 부린 것으로 알려졌다.",
+  "조직은 가짜 회사 명의 스팸 메일로 미국인을 모집했고, 모집된 사람들은 합법적인 결제 업무라고 믿었다. 해커들이 훔친 돈이 이들 계좌로 들어오면 웨스턴유니언·머니그램으로 몰도바·우크라이나·러시아·라트비아의 인출책에게 보냈다. 35개 넘는 은행의 750여 개 계좌에서 1천만 달러 이상이 빼돌려졌고, 확인된 피해는 1,470만 달러에 이른다.",
+  "코르니예프는 자금세탁·가중 신원도용 등 5개 혐의를 인정해 최소 2년에서 최대 50년형에 처해질 수 있다. 미 법무부는 돈세탁책과 모집책도 끝까지 추적하겠다고 밝혔다."
+ ],
+ "keyPoints": [
+  "YMCO, 미국서 돈세탁책 1만5천여 명 운영",
+  "750여 계좌서 1천만 달러 이상 세탁",
+  "최대 징역 50년, 선고는 아직"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2026/10/09/hacker_money_laundering_dollars.jpg",
+ "facts": [
+  [
+   "피고인",
+   "올레그 코르니예프(42)"
+  ],
+  [
+   "조직",
+   "Your Mule Cashout(YMCO)"
+  ],
+  [
+   "피해",
+   "확인 피해 1,470만 달러"
+  ]
+ ],
+ "id": "261011-security-06",
+ "category": "security",
+ "collectedAt": "2026-10-11T03:30:48+09:00"
+}

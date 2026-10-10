@@ -1,0 +1,35 @@
+{
+ "title": "'클로드 맥' 검색 광고에 빙 리디렉트 숨겨… 가짜 설치 명령어로 악성 스크립트 실행 유도",
+ "originalTitle": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "보안업체 푸시 시큐리티가 'claude mac'을 검색한 사용자에게 노출된 악성 구글 광고를 발견했다. 광고에는 bing.com 도메인이 표시돼 믿을 만해 보였지만, 클릭하면 구글·빙 리디렉트를 거쳐 해킹된 남미 소매업체 워드프레스 사이트, 이어 가짜 클로드 다운로드 페이지로 연결됐다. 푸시는 이 기법을 '애드셉션(Adception)'이라 부른다.",
+  "가짜 페이지는 앤트로픽의 실제 설치 명령어를 보여주지만 복사 버튼을 누르면 다른 악성 명령어가 클립보드에 담긴다. 이를 터미널에 붙여 넣으면 공격자 서버에서 추가 파일을 내려받는 스크립트가 실행된다. 직접 접속하거나 검색엔진을 거치지 않은 방문은 404 페이지로 보내 자동 탐지를 피했고, 최종 악성코드는 확인되지 않았다.",
+  "푸시는 같은 ClickFix 도구 모음(AcSig)을 쓰는 다른 도메인도 다수 찾아냈다. 웹 페이지에서 복사한 터미널 명령어를 그대로 실행하지 말고, 광고 링크 대신 공식 사이트에서만 소프트웨어를 받는 것이 기본 대응이다."
+ ],
+ "keyPoints": [
+  "'claude mac' 검색 광고로 가짜 설치 페이지 유도",
+  "복사 버튼에 악성 명령어 바꿔치기(ClickFix)",
+  "광고 대신 공식 사이트에서 내려받아야"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2026/05/07/ClaudeChats.png",
+ "facts": [
+  [
+   "발견",
+   "푸시 시큐리티(Push Security)"
+  ],
+  [
+   "대상",
+   "macOS 사용자"
+  ],
+  [
+   "기법",
+   "구글 광고·빙 리디렉트 악용 ClickFix"
+  ]
+ ],
+ "id": "261011-security-02",
+ "category": "security",
+ "collectedAt": "2026-10-11T03:30:48+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "MS \"지원 끝난 윈도, 2027년 인증서 교체 뒤 보안 업데이트 못 받는다\"",
+ "originalTitle": "Microsoft: Outdated Windows devices will stop receiving security updates",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "마이크로소프트가 2027년 윈도 업데이트 인증서 교체 이후 지원이 끝난 윈도 버전을 쓰는 기기는 윈도 업데이트에 접속할 수 없어 보안 업데이트를 받지 못한다고 알렸다. 기존 인증서는 2027년 5월 17일과 6월 19일에 만료된다.",
+  "지원 중인 윈도에는 이미 새 인증서가 배포돼 최신 상태라면 따로 할 일이 없다. 윈도 11 24H2와 윈도 서버 2025는 2025년 9월 이후 보안 업데이트를, 그 밖의 윈도 11·윈도 10·서버 2022는 2026년 7월 이후 업데이트를 2027년 6월 19일 전에 설치해야 한다. 윈도 10 엔터프라이즈 2019 LTSC·서버 2019·서버 2016은 5월 17일이 기한이다.",
+  "MS는 관리자에게 오래된 기기를 파악해 업그레이드 계획을 세우라고 권했다. WSUS로 업데이트를 받는 기기에는 이번 변경이 적용되지 않는다."
+ ],
+ "keyPoints": [
+  "2027년 5·6월 업데이트 인증서 만료",
+  "지원 끝난 윈도는 업데이트 접속 불가",
+  "버전별 기한 전 최신 업데이트 설치해야"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2025/08/22/Windows.jpg",
+ "facts": [
+  [
+   "기업",
+   "마이크로소프트"
+  ],
+  [
+   "기한",
+   "2027-05-17, 2027-06-19"
+  ],
+  [
+   "예외",
+   "WSUS 업데이트 기기"
+  ]
+ ],
+ "id": "261011-security-07",
+ "category": "security",
+ "collectedAt": "2026-10-11T03:30:48+09:00"
+}
