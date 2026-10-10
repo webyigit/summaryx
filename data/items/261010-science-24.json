@@ -1,0 +1,35 @@
+{
+ "title": "지구에선 절대 못 보는 '달의 뒷면'…울퉁불퉁한 이유는 두꺼운 껍질 때문",
+ "originalTitle": "APOD: 2026 October 10 – Lunar Farside",
+ "source": "NASA",
+ "url": "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside/",
+ "publishedAt": "2026-10-10",
+ "summary": [
+  "달은 스스로 한 바퀴 도는 시간과 지구를 한 바퀴 도는 시간이 같아서, 지구에서는 늘 같은 면(앞면)만 보여요. 나사(NASA)의 '오늘의 천문 사진(APOD)'이 10월 10일 소개한 사진은 우리가 볼 수 없는 달의 뒷면이에요.",
+  "이 사진은 달 궤도를 도는 탐사선 '루나 리커니슨스 오비터(LRO)'의 광각 카메라로 찍은 사진을 이어 붙인 모자이크예요. 2009년 11월부터 2011년 2월까지 찍은 1만 5,000장 넘는 사진으로 만든 달 전체 지도의 일부로, 가장 선명한 버전은 한 픽셀이 약 100m를 보여줄 만큼 자세해요.",
+  "뒷면은 충돌 자국투성이로 거칠어 보이는데, 앞면에는 '바다(마리아)'라고 부르는 어둡고 매끈한 평원이 넓게 퍼져 있어 확 달라요. 그 이유로 뒷면의 껍질(지각)이 더 두꺼워서, 달 속의 녹은 물질이 표면까지 올라와 평원을 만들기 어려웠기 때문이라는 설명이 나와요."
+ ],
+ "keyPoints": [
+  "지구에선 볼 수 없는 달 뒷면 사진 공개",
+  "LRO 사진 1만 5천여 장으로 만든 모자이크",
+  "뒷면 지각이 두꺼워 매끈한 '바다'가 적어"
+ ],
+ "image": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/october/farside_lro1600.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+ "facts": [
+  [
+   "촬영",
+   "NASA 루나 리커니슨스 오비터(LRO) 광각 카메라"
+  ],
+  [
+   "이미지 출처",
+   "NASA/GSFC/Arizona State Univ."
+  ],
+  [
+   "해상도",
+   "픽셀당 약 100m"
+  ]
+ ],
+ "id": "261010-science-24",
+ "category": "science",
+ "collectedAt": "2026-10-10T16:29:48+09:00"
+}

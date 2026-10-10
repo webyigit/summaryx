@@ -1,0 +1,35 @@
+{
+ "title": "메타 채용 공고에 '휴머노이드 로봇 하드웨어' 명시…출시 후 유지·개선 엔지니어 모집",
+ "originalTitle": "Meta Job Listing Explicitly References Its Humanoid Robot Hardware",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/meta-job-listing-humanoid-robot-hardware",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "메타가 미국 워싱턴주 레드먼드에서 '로보틱스 유지 엔지니어링' 기계설계 엔지니어를 뽑는다. 메타 채용 페이지의 공고는 '메타 로보틱스 하드웨어' 팀을 언급하며 '초기 출시 이후의 우리 휴머노이드 로봇 하드웨어'라는 표현을 써, 메타 로봇 사업의 실물 기계를 공개적으로 직접 언급했다.",
+  "공고에 따르면 이 엔지니어는 하드웨어 설계 상태와 지속 개선을 맡는다. 부품 파손, 접합부 마모, 피로 균열, 풀린 체결부를 조사해 수정안을 설계·시험하고, 손이 닿기 어려운 체결부나 부품 간섭, 번거로운 조립 순서 등을 제작·조립팀과 해결한다. 조립 시간, 반복 고장, 수정 반영 시간을 관리 지표로 삼고, 소량 다품종 생산에서 중간 규모 생산으로 옮겨 간 경험과 모터·액추에이터·감속기 경험을 우대한다.",
+  "메타의 휴머노이드 개발은 2025년 2월 로이터가 리얼리티랩스 안 로봇 조직(전 크루즈 CEO 마크 휘튼 주도)을 보도하며 알려졌고, 2026년 5월에는 어슈어드 로봇 인텔리전스를 인수했다. 다만 공고만으로는 생산 대수나 출시 일정, 고객 출하 여부는 알 수 없고, 메타가 휴머노이드 신뢰성·조립 엔지니어링 인력을 꾸리고 있다는 점을 보여 준다고 기사는 짚었다."
+ ],
+ "keyPoints": [
+  "공고에 '초기 출시 후 휴머노이드 하드웨어' 명시",
+  "파손·마모 분석, 조립 개선 담당 엔지니어 모집",
+  "생산 대수·출시 일정은 공고에 없어"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/meta-humanoid-hardware-job-listing-hero-BZA7eqKlaBePIVtDJhoMmaoOT7xtmC.webp",
+ "facts": [
+  [
+   "기업",
+   "메타(Meta Robotics Hardware 팀)"
+  ],
+  [
+   "근무지",
+   "미국 워싱턴주 레드먼드"
+  ],
+  [
+   "관련 인수",
+   "어슈어드 로봇 인텔리전스(2026년 5월)"
+  ]
+ ],
+ "id": "261010-robot-25",
+ "category": "robot",
+ "collectedAt": "2026-10-10T16:29:48+09:00"
+}

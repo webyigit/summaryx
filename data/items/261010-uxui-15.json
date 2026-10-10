@@ -1,0 +1,35 @@
+{
+ "title": "지메일 라이브에 목소리 7종 추가 준비… 점 세 개 메뉴에 '음성 설정' 바텀 시트",
+ "originalTitle": "Gmail Live may soon gain some new voices, courtesy of Gemini",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/gmail-live-android-new-voices-apk-teardown-3721242/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "구글은 최근 지메일 앱에 메일을 훑어 일정이나 회의 날짜 등을 찾아 주는 대화형 검색 '지메일 라이브'를 베타로 내놨다. 제미나이 라이브와 달리 아직 목소리를 바꿀 수 없는데, Android Authority가 지메일 2026.10.05 버전을 분해해 페가수스·카펠라·디퍼·오리온·우르사·베가·이클립스 등 7개 목소리를 찾았다. 기존 기본 목소리는 '오비트'다.",
+  "지금 화면 하단엔 음소거와 종료 버튼뿐이지만, 새 UI에서는 오른쪽 위 점 세 개 메뉴에 '음성 설정'이 생기고 누르면 목소리 목록이 바텀 시트로 열린다. 목소리를 바꾸면 지메일 라이브가 다시 시작돼 그때까지의 대화가 사라진다는 경고도 뜬다.",
+  "초기 테스트에서는 모든 목소리가 정상 작동했고, 구글 킵과 문서의 라이브 기능에도 비슷한 목소리 변경 옵션 흔적이 보인다. 출시 시점은 미정이며 APK 분해 기능이라 공개되지 않을 수도 있다."
+ ],
+ "keyPoints": [
+  "지메일 라이브에 새 목소리 7종 발견",
+  "점 세 개 메뉴→음성 설정 바텀 시트",
+  "변경 시 대화 초기화 경고, 킵·문서에도 흔적"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2025/02/Gmail-Gemini-Button-1-of-1.jpg",
+ "facts": [
+  [
+   "앱",
+   "지메일 2026.10.05"
+  ],
+  [
+   "기본 목소리",
+   "Orbit"
+  ],
+  [
+   "근거",
+   "APK 분해(미출시)"
+  ]
+ ],
+ "id": "261010-uxui-15",
+ "category": "uxui",
+ "collectedAt": "2026-10-10T16:29:48+09:00"
+}

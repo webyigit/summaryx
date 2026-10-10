@@ -111,6 +111,13 @@
  ],
  "car": [
   {
+   "name": "Electrek",
+   "url": "https://electrek.co/",
+   "keywords": [
+    "EV"
+   ]
+  },
+  {
    "name": "오토헤럴드",
    "url": "https://www.autoherald.co.kr/news/articleList.html?view_type=sm",
    "keywords": [
@@ -120,10 +127,10 @@
    ]
   },
   {
-   "name": "Electrek",
-   "url": "https://electrek.co/",
+   "name": "모터그래프",
+   "url": "https://www.motorgraph.com/news/articleList.html?view_type=sm",
    "keywords": [
-    "EV"
+    "신차"
    ]
   },
   {
@@ -131,13 +138,6 @@
    "url": "https://www.electrive.com/",
    "keywords": [
     "EV"
-   ]
-  },
-  {
-   "name": "모터그래프",
-   "url": "https://www.motorgraph.com/news/articleList.html?view_type=sm",
-   "keywords": [
-    "신차"
    ]
   }
  ],
@@ -252,11 +252,26 @@
  ],
  "it": [
   {
-   "name": "지디넷코리아 인터넷",
-   "url": "https://zdnet.co.kr/news/?lstcode=0040",
+   "name": "지디넷코리아",
+   "url": "https://zdnet.co.kr/",
    "keywords": [
-    "멜론",
-    "플랫폼"
+    "공공 AI",
+    "LLM"
+   ]
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/",
+   "keywords": [
+    "TrendForce",
+    "notebook"
+   ]
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/",
+   "keywords": [
+    "Google TV Streamer"
    ]
   }
  ],
@@ -463,49 +478,47 @@
  ],
  "food": [
   {
-   "name": "Nation's Restaurant News",
-   "url": "https://www.nrn.com/",
+   "name": "식품저널 foodnews",
+   "url": "https://www.foodnews.co.kr/news/articleList.html?view_type=sm",
    "keywords": [
-    "restaurant chain",
-    "executive"
-   ]
-  },
-  {
-   "name": "식품외식경제",
-   "url": "https://www.foodbank.co.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "외식",
-    "교육"
+    "식품 동향",
+    "K-푸드 마케팅"
    ]
   }
  ],
  "music": [
   {
-   "name": "Stereogum",
-   "url": "https://www.stereogum.com/category/news/",
-   "keywords": [
-    "new release",
-    "concert"
-   ]
-  },
-  {
    "name": "NME",
    "url": "https://www.nme.com/news/music",
    "keywords": [
-    "album",
-    "tour"
+    "album"
    ]
   },
   {
    "name": "Music Business Worldwide",
    "url": "https://www.musicbusinessworldwide.com/",
    "keywords": [
-    "music industry",
-    "live"
+    "music industry"
+   ]
+  },
+  {
+   "name": "Stereogum",
+   "url": "https://www.stereogum.com/category/news/",
+   "keywords": [
+    "new release"
    ]
   }
  ],
  "ent": [
+  {
+   "name": "텐아시아",
+   "url": "https://www.tenasia.co.kr/",
+   "keywords": [
+    "드라마",
+    "예능",
+    "시청률"
+   ]
+  },
   {
    "name": "allkpop",
    "url": "https://www.allkpop.com/",
@@ -522,13 +535,6 @@
     "drama preview",
     "teaser"
    ]
-  },
-  {
-   "name": "MyDramaList News",
-   "url": "https://news.mydramalist.com/",
-   "keywords": [
-    "premiere date"
-   ]
   }
  ],
  "applesamsung": [
@@ -536,50 +542,26 @@
    "name": "MacRumors",
    "url": "https://www.macrumors.com/",
    "keywords": [
-    "Apple",
     "iPhone Duo",
-    "Apple TV",
-    "home hub"
+    "October"
    ]
   },
   {
    "name": "SamMobile",
    "url": "https://www.sammobile.com/",
    "keywords": [
-    "Galaxy F70"
-   ]
-  },
-  {
-   "name": "ZDNet Korea",
-   "url": "https://zdnet.co.kr/",
-   "keywords": [
-    "삼성전자 스마트폰 출하"
+    "Always On Display"
    ]
   }
  ],
  "movie": [
   {
-   "name": "이투데이 영화",
-   "url": "https://www.etoday.co.kr/culture-life/movie",
-   "keywords": [
-    "박스오피스",
-    "개봉"
-   ]
-  },
-  {
-   "name": "뉴스컬처",
-   "url": "https://www.nc.press/",
-   "keywords": [
-    "부산국제영화제",
-    "개봉"
-   ]
-  },
-  {
    "name": "TheWrap",
-   "url": "https://www.thewrap.com/",
+   "url": "https://www.thewrap.com/creative-content/movies/",
    "keywords": [
+    "trailer",
     "review",
-    "box office"
+    "horror"
    ]
   }
  ],
@@ -927,30 +909,36 @@
  ],
  "semi": [
   {
-   "name": "ZDNet Korea 반도체",
-   "url": "https://zdnet.co.kr/news/?lstcode=0050&page=1",
+   "name": "디일렉",
+   "url": "https://www.thelec.kr/news/articleList.html?view_type=sm",
    "keywords": [
-    "시놉시스",
-    "파운드리",
-    "TSMC"
+    "ASML",
+    "무라타",
+    "부품"
    ]
   }
  ],
  "security": [
   {
+   "name": "지디넷코리아",
+   "url": "https://zdnet.co.kr/",
+   "keywords": [
+    "유출"
+   ]
+  },
+  {
    "name": "보안뉴스",
    "url": "https://www.boannews.com/media/t_list.asp",
    "keywords": [
-    "취약점",
-    "보이스피싱"
+    "은행이 뚫린다"
    ]
   },
   {
    "name": "데일리시큐",
    "url": "https://www.dailysecu.com/news/articleList.html?view_type=sm",
    "keywords": [
-    "개인정보 노출",
-    "금융권 보안"
+    "금융권 보안",
+    "국정감사"
    ]
   }
  ],
@@ -1011,19 +999,18 @@
  ],
  "show": [
   {
-   "name": "뉴시스 공연",
-   "url": "https://www.newsis.com/culture/list?cid=10700&scid=10702",
+   "name": "뉴스컬처",
+   "url": "https://www.nc.press/",
    "keywords": [
     "국악",
-    "클래식",
-    "공연"
+    "전통춤"
    ]
   },
   {
    "name": "Playbill",
    "url": "https://www.playbill.com/news",
    "keywords": [
-    "Broadway"
+    "Off-Broadway"
    ]
   }
  ],
@@ -1095,9 +1082,8 @@
    "name": "Travel Weekly",
    "url": "https://www.travelweekly.com/Travel-News",
    "keywords": [
-    "airline news",
-    "corporate travel",
-    "Brand USA"
+    "Brand USA",
+    "inbound travel"
    ]
   }
  ],
@@ -1196,15 +1182,7 @@
    "keywords": [
     "comeback",
     "tour",
-    "awards"
-   ]
-  },
-  {
-   "name": "스포츠경향 연예",
-   "url": "https://sports.khan.co.kr/entertainment",
-   "keywords": [
-    "투어",
-    "매진"
+    "anniversary"
    ]
   }
  ],
@@ -1239,7 +1217,8 @@
    "keywords": [
     "고도화",
     "홈페이지",
-    "플랫폼 구축"
+    "플랫폼 구축",
+    "정보시스템"
    ]
   }
  ],
@@ -1433,37 +1412,12 @@
  ],
  "wineko": [
   {
-   "name": "와인21",
-   "url": "https://www.wine21.com/11_news/news_list.html",
-   "keywords": [
-    "와인 행사",
-    "와인 업계"
-   ]
-  },
-  {
    "name": "와인21 이벤트",
    "url": "https://www.wine21.com/12_event/event_list.html",
    "keywords": [
     "시음회",
-    "와인 디너"
-   ]
-  },
-  {
-   "name": "소믈리에타임즈",
-   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
-   "keywords": [
-    "와인 출시",
-    "와인 행사"
-   ]
-  },
-  {
-   "name": "Bing 뉴스 RSS",
-   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8+%EB%A7%A4%EC%B6%9C&format=rss",
-   "keywords": [
-    "와인 매출",
-    "와이너리",
-    "국산 와인",
-    "와인 박람회"
+    "와인 디너",
+    "마스터 클래스"
    ]
   }
  ],
@@ -2058,35 +2012,34 @@
  ],
  "shopmen": [
   {
-   "name": "FashionUnited UK",
-   "url": "https://fashionunited.uk/press/fashion",
+   "name": "Hypebeast Fashion",
+   "url": "https://hypebeast.com/fashion",
    "keywords": [
-    "menswear capsule"
+    "collaboration",
+    "release"
    ]
   },
   {
    "name": "Complex Style",
    "url": "https://www.complex.com/style",
    "keywords": [
-    "collection",
-    "collaboration"
+    "menswear collection"
+   ]
+  },
+  {
+   "name": "싱글리스트",
+   "url": "https://www.slist.kr/",
+   "keywords": [
+    "남성복"
    ]
   }
  ],
  "shopdeal": [
   {
-   "name": "세계일보",
-   "url": "https://www.segye.com/",
+   "name": "MTN 머니투데이방송",
+   "url": "https://news.mtn.co.kr/",
    "keywords": [
-    "가을옷 할인",
-    "주말 특가"
-   ]
-  },
-  {
-   "name": "뉴시스",
-   "url": "https://www.newsis.com/",
-   "keywords": [
-    "주말e커머스"
+    "월간 십일절"
    ]
   },
   {
@@ -2102,15 +2055,14 @@
    "name": "웹툰가이드 뉴스",
    "url": "https://www.webtoonguide.com/ko/board/news-column",
    "keywords": [
-    "웹툰 소식",
-    "웹툰 업계"
+    "웹툰 소식"
    ]
   },
   {
-   "name": "위클리툰",
-   "url": "https://www.weeklytoon.com/news/articleList.html",
+   "name": "Bing News RSS",
+   "url": "https://www.bing.com/news/search?q=웹툰&format=rss",
    "keywords": [
-    "웹툰 업계"
+    "웹툰"
    ]
   }
  ],
@@ -2158,19 +2110,12 @@
  ],
  "tripworld": [
   {
-   "name": "Lonely Planet",
-   "url": "https://www.lonelyplanet.com/articles",
-   "keywords": [
-    "best places",
-    "Bolivia"
-   ]
-  },
-  {
    "name": "iwafu",
    "url": "https://www.iwafu.com/kr/events",
    "keywords": [
     "가을 축제",
-    "벌룬"
+    "불꽃놀이",
+    "도자기 시장"
    ]
   }
  ],
@@ -2202,42 +2147,42 @@
  ],
  "bp": [
   {
-   "name": "Medical News Today",
-   "url": "https://www.medicalnewstoday.com/news",
+   "name": "News-Medical",
+   "url": "https://www.news-medical.net/medical/news",
    "keywords": [
     "blood pressure",
-    "stroke",
-    "type 2 diabetes"
+    "diabetes",
+    "cholesterol"
    ]
   }
  ],
  "dm": [
   {
-   "name": "Medical News Today",
-   "url": "https://www.medicalnewstoday.com/news",
+   "name": "News-Medical",
+   "url": "https://www.news-medical.net/medical/news",
    "keywords": [
     "blood pressure",
-    "stroke",
-    "type 2 diabetes"
+    "diabetes",
+    "cholesterol"
    ]
   }
  ],
  "lipid": [
   {
-   "name": "Medical News Today",
-   "url": "https://www.medicalnewstoday.com/news",
+   "name": "ScienceDaily Health",
+   "url": "https://www.sciencedaily.com/news/health_medicine/",
    "keywords": [
-    "blood pressure",
-    "stroke",
-    "type 2 diabetes"
+    "heart disease",
+    "cholesterol"
    ]
   },
   {
-   "name": "American Heart Association Newsroom",
-   "url": "https://newsroom.heart.org/news",
+   "name": "News-Medical",
+   "url": "https://www.news-medical.net/medical/news",
    "keywords": [
-    "stroke",
-    "blood pressure"
+    "blood pressure",
+    "diabetes",
+    "cholesterol"
    ]
   }
  ],

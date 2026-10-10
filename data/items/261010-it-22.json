@@ -1,0 +1,21 @@
+{
+ "title": "구글, 차세대 'TV 스트리머' 개발 중…마이크·재실 감지 탑재",
+ "originalTitle": "Next-gen Google TV Streamer in the works with microphones, presence sensing, & new remote",
+ "source": "9to5Google",
+ "url": "https://9to5google.com/2026/10/09/next-gen-google-tv-streamer/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "9to5구글이 사정을 아는 소식통을 인용해 구글이 차세대 '구글 TV 스트리머'를 개발하고 있다고 보도했다. 현 모델은 크롬캐스트 위드 구글 TV 4K 이후 약 4년 만에 나온 제품이다. 구글은 지난 8월 현 모델 가격을 50달러 올렸다.",
+  "새 모델은 전체 디자인을 유지하면서 폭이 좁아져 조금 더 작아진다. 가장 큰 변화는 본체에 마이크를 넣어 '헤이 구글' 음성 명령을 바로 받는 것이다. 사람이 방에 들어오면 구글 포토 화면보호기를 켜고, 가까이 오면 시간·날씨 같은 정보를 보여주는 재실 감지 기능도 더해진다. 프로세서가 빨라지고 저장공간도 현재의 32GB보다 늘어난다.",
+  "리모컨 디자인은 크게 바뀌지 않지만, 유튜브·넷플릭스 버튼 외에 바로가기 버튼이 두 개 더 생긴다. 출시 시점과 가격은 알려지지 않았다. 재실 감지는 TCL이 구글 TV 기기에 처음 도입한 기능으로, 구글이 이를 자사 하드웨어로 넓히는 셈이다."
+ ],
+ "keyPoints": [
+  "본체 마이크로 '헤이 구글' 음성 명령 지원",
+  "재실 감지로 화면보호기·정보 화면 자동 표시",
+  "더 빠른 칩·32GB 넘는 저장공간, 출시일 미정"
+ ],
+ "image": "https://9to5google.com/wp-content/uploads/sites/4/2024/09/Google-TV-Streamer-design-and-hardware-12.jpg?quality=82&strip=all&resize=1200,628",
+ "id": "261010-it-22",
+ "category": "it",
+ "collectedAt": "2026-10-10T16:29:48+09:00"
+}

@@ -1,0 +1,39 @@
+{
+ "title": "르쿤의 AMI 랩스 'H-JEPA'…여러 단계로 나눠 계획하는 월드모델, 연산은 줄고 성공률은 올라",
+ "originalTitle": "H-JEPA teaches world models to plan at multiple levels of abstraction",
+ "source": "VentureBeat",
+ "url": "https://venturebeat.com/technology/h-jepa-teaches-world-models-to-plan-at-multiple-levels-of-abstraction",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "JEPA(결합 임베딩 예측 구조)는 픽셀 같은 세부를 예측하는 대신 관찰을 압축된 잠재 표현으로 바꿔 세계를 모델링하는 방식이다. 하지만 먼 미래를 예측하려면 작은 시뮬레이션 단계를 수없이 거쳐야 해 연산이 늘고 오차가 쌓이며, 하나의 표현이 세밀한 물리 동작과 장기 목표 진척을 동시에 담아야 하는 한계가 있었다. 미로 속 4족 로봇이 경로를 짤 때는 다리 위치보다 현재 위치가 중요한 것과 같은 문제다.",
+  "얀 르쿤의 AMI(Advanced Machine Intelligence) 랩스와 학계 연구진이 내놓은 H-JEPA는 시간 단위가 다른 여러 층이 각자의 표현으로 상태 변화를 예측한다. 계획할 때는 최상위 층이 목표에 다가가는 행동을 찾고, 그 예측 상태를 아래 층의 하위 목표로 넘겨 맨 아래 층이 실제 동작을 낸다. 시뮬레이션 환경 4곳에서 층을 3개까지 늘릴수록 대체로 성공률이 오르고 계획 연산은 줄었으며, 비주얼 앤트메이즈에서는 3단계 H-JEPA가 기존 계층형 모델 HWM의 거의 두 배 성공률을 냈다. 실제 로봇 조작 영상 데이터셋 DROID에서도 더 적은 연산으로 계획 정확도를 높였다.",
+  "연구진은 층을 늘린다고 늘 좋아지는 것은 아니며 학습 데이터 범위에 따라 효과가 달라진다고 밝혔다. 앞으로 상위 표현을 언어와 연결해 목표 이미지 대신 지시문으로 목표를 줄 수 있게 하겠다는 계획이며, 로봇 내비게이션·창고 자동화·조작 분야에 쓰일 수 있다고 기사는 봤다."
+ ],
+ "keyPoints": [
+  "여러 시간 단위 층이 하위 목표를 넘기며 계획",
+  "앤트메이즈서 기존 계층 모델의 약 2배 성공률",
+  "층 증가 효과는 데이터 범위 따라 제한적"
+ ],
+ "image": "https://images.ctfassets.net/jdtwqhzvc2n1/3kKnA1HQq2791NSR418deL/0ad41cefa76a4f4a8446fc88d3a9f709/Layered_AI_Mapping_Visualization.png?w=800&q=75",
+ "facts": [
+  [
+   "연구 주체",
+   "AMI 랩스(얀 르쿤)·학계 연구진"
+  ],
+  [
+   "모델",
+   "H-JEPA(계층형 JEPA 월드모델)"
+  ],
+  [
+   "평가 환경",
+   "FourRoom·Visual AntMaze·Push-T·OGBench Cube·DROID"
+  ],
+  [
+   "저자(기사)",
+   "벤 딕슨"
+  ]
+ ],
+ "id": "261010-ai-25",
+ "category": "ai",
+ "collectedAt": "2026-10-10T16:29:48+09:00"
+}
