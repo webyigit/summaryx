@@ -1,0 +1,39 @@
+{
+ "title": "게임보이 카트리지를 꽂으면 OST가 나온다… 탁상 플레이어 '레트로 송 버드'",
+ "originalTitle": "Retro Song Bird Is the Record Player Game Boy Cartridges Deserved",
+ "source": "Yanko Design",
+ "url": "https://www.yankodesign.com/2026/10/09/retro-song-bird-is-the-record-player-game-boy-cartridges-deserved/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "버드 카르텔 게임즈(Bird Cartel Games)의 BJ가 만든 '레트로 송 버드(Retro Song Bird)'는 게임보이 카트리지를 위쪽 슬롯에 꽂으면 화면이나 게임 플레이 없이 그 게임의 배경음악만 틀어 주는 탁상형 음악 플레이어 시제품이다. 반투명 민트색 몸체에 앞면 스피커 그릴, 옆면 버튼을 단 레코드플레이어 같은 구성이다.",
+  "녹음된 음원을 저장하는 방식이 아니라 카트리지 코드 일부를 읽어 게임보이 사운드 하드웨어를 에뮬레이션해 음악을 재현한다. 개발자는 1,900개 이상 게임을 지원한다고 밝혔지만 기사는 검증된 목록은 아니라고 짚었다. 곡과 효과음을 넘겨 들을 수 있고, 내장 스피커와 스테레오 라인 출력을 갖췄다.",
+  "세이브 데이터 백업·복원, ROM 복사, WAV 내보내기도 되며 게임보이의 사운드 채널 4개를 각각 USB 오디오로 보내 작곡 프로그램에서 쓸 수 있다. 카트리지 음악으로 깨우는 알람 모드, 게임보이 카메라를 128×112 화소 웹캠으로 쓰는 모드도 있다. 가격은 미정이고 2026년 말 출하를 목표로 하며, 색상은 바뀔 수 있다."
+ ],
+ "keyPoints": [
+  "게임보이 카트리지 음악 전용 탁상 플레이어",
+  "사운드 칩 에뮬레이션, 4채널 USB 오디오",
+  "시제품, 2026년 말 출하 목표"
+ ],
+ "image": "https://www.yankodesign.com/images/design_news/2026/10/retro-song-bird-is-the-record-player-game-boy-cartridges-deserved/retro-song-bird-02.jpg",
+ "facts": [
+  [
+   "개발",
+   "BJ(Bird Cartel Games)"
+  ],
+  [
+   "상태",
+   "시제품"
+  ],
+  [
+   "출하",
+   "2026년 말 목표"
+  ],
+  [
+   "가격",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261011-productd-06",
+ "category": "productd",
+ "collectedAt": "2026-10-11T04:33:23+09:00"
+}

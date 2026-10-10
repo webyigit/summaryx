@@ -1,0 +1,21 @@
+{
+ "title": "왓츠앱 iOS 설정 화면 개편 테스트… 자주 쓰는 항목만 '나' 탭에, 나머지는 톱니바퀴 메뉴로",
+ "originalTitle": "WhatsApp tests a redesigned interface for the Settings tab on iOS",
+ "source": "WABetaInfo",
+ "url": "https://wabetainfo.com/whatsapp-tests-a-redesigned-interface-for-the-settings-tab-on-ios/",
+ "publishedAt": "2026-10-10",
+ "summary": [
+  "왓츠앱은 지난 1년 동안 이벤트 허브, 서드파티 에이전트와의 대화, 보호자 관리 기능 등 설정 항목을 계속 늘려 왔다. 그 결과 설정 화면이 길고 훑어보기 어려워졌다는 지적이 나왔고, WABetaInfo는 테스트플라이트로 배포된 iOS 베타 26.40.10.21에서 이를 단순하게 정리한 새 설정 화면을 발견했다.",
+  "새 '나(You)' 탭 상단에는 이름·프로필 사진·전화번호와 프로필 편집·공유 버튼이 그대로 남고, 본문에는 구독, 목록, 브로드캐스트 메시지, 이벤트, 별표 메시지, 연결된 기기처럼 자주 쓰는 항목만 놓인다. 계정·개인정보·채팅·화면 모양·알림·에이전트·저장공간·보호자 관리 등 나머지 설정은 내비게이션 바의 톱니바퀴 아이콘 뒤로 옮겨지고, 그 안에는 설정 검색창과 도움말, 계정 센터가 들어간다. 두 번째 계정 추가와 전환은 상단 계정 이름을 눌러 한다.",
+  "자주 쓰는 기능과 드물게 쓰는 기능을 두 단계로 나눠 정보 밀도를 낮추는 전형적인 설정 화면 재구성이다. 다만 아직 개발 중으로 베타 테스터에게도 공개되지 않았고, 정식 배포 일정은 나오지 않았다."
+ ],
+ "keyPoints": [
+  "iOS 베타 26.40.10.21에서 새 설정 화면 발견",
+  "자주 쓰는 항목은 '나' 탭, 나머지는 톱니바퀴 메뉴",
+  "설정 검색창 추가, 배포 일정은 미정"
+ ],
+ "image": "https://wabetainfo.com/wp-content/uploads/2026/10/WA_NEW_REDESIGNED_INTERFACE_SETTINGS_PAGE_IOS.webp",
+ "category": "uxui",
+ "id": "261011-uxui-01",
+ "collectedAt": "2026-10-11T04:33:23+09:00"
+}

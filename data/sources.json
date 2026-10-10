@@ -353,7 +353,7 @@
    "url": "https://uk.fashionnetwork.com/",
    "keywords": [
     "fashion business",
-    "Paris Fashion Week"
+    "retail"
    ]
   },
   {
@@ -361,7 +361,23 @@
    "url": "https://us.fashionnetwork.com/",
    "keywords": [
     "fashion business",
-    "collaboration"
+    "appointments"
+   ]
+  },
+  {
+   "name": "FashionUnited",
+   "url": "https://fashionunited.com/news/fashion",
+   "keywords": [
+    "Paris Fashion Week SS27",
+    "brand"
+   ]
+  },
+  {
+   "name": "WWD Korea",
+   "url": "https://www.wwdkorea.com/",
+   "keywords": [
+    "패션 산업",
+    "지속가능성"
    ]
   }
  ],
@@ -412,23 +428,6 @@
  ],
  "design": [
   {
-   "name": "Wallpaper*",
-   "url": "https://www.wallpaper.com/design",
-   "keywords": [
-    "design events",
-    "designer",
-    "craft"
-   ]
-  },
-  {
-   "name": "디자인정글",
-   "url": "https://www.jungle.co.kr/magazine/",
-   "keywords": [
-    "디자인 전시",
-    "인터뷰"
-   ]
-  },
-  {
    "name": "디자인플러스",
    "url": "https://design.co.kr/",
    "keywords": [
@@ -441,24 +440,38 @@
    "url": "https://www.creativereview.co.uk/",
    "keywords": [
     "exhibition",
-    "title sequence",
-    "creative industry"
+    "creative industry",
+    "campaign"
    ]
   },
   {
-   "name": "It's Nice That",
-   "url": "https://www.itsnicethat.com/",
+   "name": "Creative Bloq",
+   "url": "https://www.creativebloq.com/design",
    "keywords": [
-    "designer",
-    "illustration"
+    "billboard",
+    "poster design",
+    "design news"
    ]
   },
   {
-   "name": "Fast Company Co.Design",
-   "url": "https://www.fastcompany.com/co-design",
+   "name": "스페셜타임스",
+   "url": "https://www.specialtimes.co.kr/",
    "keywords": [
-    "design",
-    "retail design"
+    "서울디자인위크"
+   ]
+  },
+  {
+   "name": "국제뉴스",
+   "url": "https://www.gukjenews.com/",
+   "keywords": [
+    "디자인 축제"
+   ]
+  },
+  {
+   "name": "Egyptian Streets",
+   "url": "https://egyptianstreets.com/",
+   "keywords": [
+    "design exhibition"
    ]
   }
  ],
@@ -480,11 +493,20 @@
  ],
  "uxui": [
   {
-   "name": "Android Authority",
-   "url": "https://www.androidauthority.com/news/",
+   "name": "WABetaInfo",
+   "url": "https://wabetainfo.com/",
    "keywords": [
-    "APK teardown",
-    "UI redesign"
+    "WhatsApp",
+    "redesign",
+    "interface"
+   ]
+  },
+  {
+   "name": "Nielsen Norman Group",
+   "url": "https://www.nngroup.com/articles/",
+   "keywords": [
+    "UX research",
+    "AI UX"
    ]
   },
   {
@@ -492,42 +514,23 @@
    "url": "https://9to5google.com/",
    "keywords": [
     "redesign",
-    "Pixel"
+    "Gemini app"
    ]
   },
   {
-   "name": "9to5Mac",
-   "url": "https://9to5mac.com/",
+   "name": "MacRumors",
+   "url": "https://www.macrumors.com/",
    "keywords": [
-    "iOS 27",
-    "UI"
+    "homeOS",
+    "interface"
    ]
   },
   {
-   "name": "디자인 나침반",
-   "url": "https://designcompass.org/",
+   "name": "Chrome Unboxed",
+   "url": "https://chromeunboxed.com/",
    "keywords": [
-    "UX",
-    "UI",
-    "서비스 디자인"
-   ]
-  },
-  {
-   "name": "디지털인사이트",
-   "url": "https://ditoday.com/tag/ui/",
-   "keywords": [
-    "UI",
-    "UX",
-    "개편"
-   ]
-  },
-  {
-   "name": "Bing News RSS",
-   "url": "https://www.bing.com/news/search?q=app+redesign+UI&qft=interval%3d%227%22&format=rss",
-   "keywords": [
-    "redesign",
-    "Liquid Glass",
-    "UI 개편"
+    "Googlebook",
+    "desktop UI"
    ]
   },
   {
@@ -1257,6 +1260,14 @@
     "architecture news",
     "studio interview"
    ]
+  },
+  {
+   "name": "Archinect 피처",
+   "url": "https://archinect.com/features",
+   "keywords": [
+    "interview",
+    "architecture practice"
+   ]
   }
  ],
  "travel": [
@@ -1671,13 +1682,12 @@
  ],
  "package": [
   {
-   "name": "The Dieline",
-   "url": "https://thedieline.com/",
+   "name": "Packaging Digest",
+   "url": "https://www.packagingdigest.com/packaging-design",
    "keywords": [
-    "packaging redesign",
-    "limited edition packaging",
-    "sustainable packaging",
-    "Pentawards"
+    "packaging design",
+    "beer packaging",
+    "flexible packaging"
    ]
   },
   {
@@ -1690,70 +1700,11 @@
    ]
   },
   {
-   "name": "Dezeen (Packaging)",
-   "url": "https://www.dezeen.com/design/packaging/",
+   "name": "The Dieline",
+   "url": "https://thedieline.com/",
    "keywords": [
-    "packaging design",
-    "plastic-free packaging",
-    "compostable"
-   ]
-  },
-  {
-   "name": "디자인 나침반",
-   "url": "https://designcompass.org/",
-   "keywords": [
-    "패키지 디자인",
-    "브랜드 디자인"
-   ]
-  },
-  {
-   "name": "식품음료신문",
-   "url": "https://www.thinkfood.co.kr/",
-   "keywords": [
-    "패키지 리뉴얼",
-    "한정판 패키지",
-    "친환경 포장"
-   ]
-  },
-  {
-   "name": "식품저널",
-   "url": "https://www.foodnews.co.kr/",
-   "keywords": [
-    "패키지",
-    "콜라보 한정판",
-    "포장재"
-   ]
-  },
-  {
-   "name": "브랜드브리프",
-   "url": "https://www.brandbrief.co.kr/",
-   "keywords": [
-    "패키지 디자인",
-    "브랜드 리뉴얼",
-    "K-디자인 어워드"
-   ]
-  },
-  {
-   "name": "헤럴드경제",
-   "url": "https://biz.heraldcorp.com/",
-   "keywords": [
-    "패키지 리뉴얼"
-   ]
-  },
-  {
-   "name": "파이낸셜뉴스",
-   "url": "https://www.fnnews.com/",
-   "keywords": [
-    "패키지 디자인",
-    "식품 패키지"
-   ]
-  },
-  {
-   "name": "지피코리아",
-   "url": "https://www.gpkorea.com/",
-   "keywords": [
-    "패키지 리뉴얼",
-    "주류"
+    "packaging redesign",
+    "limited edition packaging"
    ]
   }
  ],
@@ -1764,69 +1715,33 @@
    "keywords": [
     "product design",
     "gadget",
-    "home",
-    "EDC"
+    "home"
    ]
   },
   {
    "name": "Dezeen (Design)",
    "url": "https://www.dezeen.com/design/",
    "keywords": [
-    "product design",
     "furniture",
-    "lighting",
-    "sustainable material"
-   ]
-  },
-  {
-   "name": "Dezeen Showroom",
-   "url": "https://www.dezeen.com/dezeen-showroom/",
-   "keywords": [
-    "furniture",
-    "lighting",
-    "acoustic",
-    "textile"
+    "lighting"
    ]
   },
   {
    "name": "Core77",
    "url": "https://www.core77.com/",
    "keywords": [
-    "industrial design",
-    "furniture design",
-    "tools"
+    "industrial design"
    ]
   },
   {
-   "name": "Wallpaper* Design & Interiors",
-   "url": "https://www.wallpaper.com/design-interiors",
+   "name": "designboom (RSS)",
+   "url": "https://www.designboom.com/feed/",
    "keywords": [
-    "furniture",
-    "lighting",
-    "reissue"
-   ]
-  },
-  {
-   "name": "월간 디자인 (design.co.kr)",
-   "url": "https://design.co.kr/",
-   "keywords": [
-    "프로덕트",
-    "산업디자인",
-    "가구",
-    "공예"
+    "product design"
    ]
   }
  ],
  "brand": [
-  {
-   "name": "디자인 나침반",
-   "url": "https://designcompass.org/",
-   "keywords": [
-    "브랜드",
-    "서체",
-    "로고"
-   ]
-  },
   {
    "name": "Logos-World News",
    "url": "https://logos-world.net/news/",
@@ -1836,44 +1751,29 @@
    ]
   },
   {
-   "name": "It's Nice That",
-   "url": "https://www.itsnicethat.com/graphic-design",
+   "name": "디자인 나침반",
+   "url": "https://designcompass.org/",
+   "keywords": [
+    "브랜드",
+    "아이콘",
+    "로고"
+   ]
+  },
+  {
+   "name": "The Brand Identity",
+   "url": "https://the-brandidentity.com/",
    "keywords": [
     "identity",
-    "typeface"
+    "typeface",
+    "rebrand"
    ]
   },
   {
-   "name": "Creative Review",
-   "url": "https://www.creativereview.co.uk/",
+   "name": "Reason Why",
+   "url": "https://www.reasonwhy.es/",
    "keywords": [
-    "branding",
-    "identity"
-   ]
-  },
-  {
-   "name": "Creative Boom",
-   "url": "https://www.creativeboom.com/news/",
-   "keywords": [
-    "typography",
-    "identity"
-   ]
-  },
-  {
-   "name": "Design Week",
-   "url": "https://www.designweek.co.uk/design-disciplines/graphic-design/",
-   "keywords": [
-    "rebrand",
-    "identity"
-   ]
-  },
-  {
-   "name": "월간 디자인 (design.co.kr)",
-   "url": "https://design.co.kr/",
-   "keywords": [
-    "브랜딩",
-    "한글",
-    "서체"
+    "rebranding",
+    "nueva identidad"
    ]
   }
  ],

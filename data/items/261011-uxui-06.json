@@ -1,0 +1,21 @@
+{
+ "title": "제미나이 앱 무료 사용자는 '자동' 모델만… 구독자엔 '생각 수준' 낮음·보통·높음 3단계 메뉴",
+ "originalTitle": "Free Gemini users now on 'Auto' models as app adds thinking levels",
+ "source": "9to5Google",
+ "url": "https://9to5google.com/2026/10/09/gemini-auto-free-users/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "구글 제미나이 앱의 모델 선택 메뉴가 바뀌었다. 9to5Google에 따르면 AI 요금제가 없는 무료 사용자는 더 이상 모델을 직접 고를 수 없고, '자동(Auto)'과 'Gemini 3 모델' 하나만 선택지로 남는다. 구글은 대부분의 질문은 Flash-Lite로 처리하고, 더 깊은 추론이 필요한 질문은 Flash나 Pro로 보낼 수 있다고 설명했다. '스마트 모델 선택'을 끄면 무료 사용자의 모든 답변은 Flash-Lite가 맡는다.",
+  "구독자에게는 기존 '확장(Extended)' 옵션 대신 '생각 수준' 메뉴가 생겼다. 낮음(빠르고 효율적), 보통(균형 잡힌 깊이), 높음(더 철저하게) 세 단계로, 구글 안티그래비티와 AI 스튜디오의 표기와 맞췄다. 무료 계정의 자동 모델 전환은 미국 시간 10월 9일 저녁부터 대부분 계정에 적용되고, 생각 수준은 모든 구독자에게 배포 중이다. Google AI Plus는 곧 Flash-Lite와 Flash로 제한된다.",
+  "모델 이름을 직접 고르게 하던 방식에서 '자동'과 추상화된 단계 선택으로 옮겨 가며, 사용자가 모델 이름을 몰라도 쓰도록 선택지를 단순화한 변화다."
+ ],
+ "keyPoints": [
+  "무료 사용자 모델 선택지 '자동' 하나로",
+  "구독자엔 생각 수준 낮음·보통·높음",
+  "AI 스튜디오·안티그래비티와 표기 통일"
+ ],
+ "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/Gemini-app-on-Pixel-11-Pro.jpg?quality=82&strip=all&resize=1200,628",
+ "category": "uxui",
+ "id": "261011-uxui-06",
+ "collectedAt": "2026-10-11T04:33:23+09:00"
+}

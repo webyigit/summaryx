@@ -1,0 +1,21 @@
+{
+ "title": "왓츠앱 안드로이드에 '연락처' 탭 생긴다… 온라인 표시 초록 점·생일 알림·활동순 정렬",
+ "originalTitle": "WhatsApp is testing a new Contacts tab on Android",
+ "source": "WABetaInfo",
+ "url": "https://wabetainfo.com/whatsapp-is-testing-a-new-contacts-tab-on-android/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "왓츠앱은 앞서 베타 2.26.13.3에서 설정 안에 '온라인 중인 연락처' 목록을 넣는 방안을 시험했지만 이를 접고, 별도의 '연락처' 탭으로 발전시키고 있다. WABetaInfo가 안드로이드 베타 2.26.40.3에서 이 탭을 확인했다.",
+  "새 탭에는 이름·번호·사용자 이름으로 찾는 검색창과 전체 연락처 목록이 있고, 지금 접속 중인 사람은 프로필 사진에 초록 점이, 접속 중이 아니면 마지막 접속 시간이 표시된다. 정렬은 접속 중인 사람을 먼저 보여주는 '활동순'과 '가나다순' 두 가지다. 휴대폰 주소록에 저장된 생일이면 이름 옆에 케이크 이모지와 '오늘 생일'이 붙고, 목록 끝에는 메타 AI 바로가기와 '친구 초대' 영역이 있다.",
+  "마지막 접속이나 온라인 상태를 숨긴 사람은 활동순 목록이나 초록 점에 나타나지 않아, 상대의 공개 설정을 그대로 따르도록 설계됐다. 아직 개발 단계로 정식 배포 일정은 공개되지 않았다."
+ ],
+ "keyPoints": [
+  "안드로이드 베타 2.26.40.3에서 연락처 탭 확인",
+  "온라인 초록 점·마지막 접속·생일 표시",
+  "상대 공개 설정 따라 상태 노출 제한"
+ ],
+ "image": "https://wabetainfo.com/wp-content/uploads/2026/10/WA_NEW_CONTACTS_TAB_ONLINE_CONTACTS_BIRTHDAY_SHARE_INVITE_FEATURE_ANDROID.webp",
+ "category": "uxui",
+ "id": "261011-uxui-02",
+ "collectedAt": "2026-10-11T04:33:23+09:00"
+}
