@@ -1,0 +1,35 @@
+{
+ "title": "세리액트 AI 양팔 로봇, 잘란도 반품 처리 투입…독일·폴란드 물류센터 가동",
+ "originalTitle": "CEVA Logistics deploys Sereact's AI-powered dual-arm robotic systems for Zalando returns handling at sites in Germany and Poland",
+ "source": "Robotics 24/7",
+ "url": "https://www.robotics247.com/article/ceva-logistics-deploys-sereacts-ai-powered-dual-arm-robotic-systems-for-zalando-returns-handling-at-sites-in-germany-and-poland",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "로봇 AI 기업 세리액트(Sereact)와 패션 플랫폼 잘란도, 물류기업 CEVA 로지스틱스가 독일 그레벤과 폴란드 시비에보진 두 물류센터에서 AI 기반 반품 자동 처리를 시작했다. 세리액트의 피지컬 AI 플랫폼 '코텍스(Cortex)'로 움직이는 양팔 로봇이 반품된 의류를 스스로 분류한다. 세 회사는 이를 유럽 전역 반품 자동화의 첫 단계로 소개했다.",
+  "반품은 로봇에게 까다로운 작업이다. 포장이 엉망이고 물건이 뒤섞여 들어오기 때문에 미리 프로그래밍한 로봇으로는 다루기 어렵다. 세리액트는 코텍스가 처음 보는 물건도 품목별 학습 없이 식별·파지·분류한다고 설명한다. CEVA는 서비스형 로봇(RaaS) 방식으로 분류 속도를 높이고 사람 손이 닿는 단계를 줄여 일정한 품질을 낸다고 밝혔다.",
+  "잘란도는 2026년 7월 세리액트 시리즈B에 전략적 투자자로 참여했다. 세리액트 공동창업자 랄프 굴데 CEO는 \"반품은 패션 물류에서 가장 어려운 조작 문제\"라며 잘란도 물량을 실제 생산 환경에서 처리하는 것이 가장 강력한 증거라고 말했다. 세리액트는 같은 7월 아르바토와도 유럽·미국 3개 거점 확대 협력을 발표했다."
+ ],
+ "keyPoints": [
+  "독일·폴란드 2개 센터서 반품 자동 처리 가동",
+  "처음 보는 물건도 품목별 학습 없이 분류",
+  "잘란도, 7월 세리액트 시리즈B 전략 투자"
+ ],
+ "image": "https://www.robotics247.com/images/2026_article/Sereact-CEVALogistics-Zalando-returnshandling-ecommerce-main-Robotics247-2026.jpg",
+ "facts": [
+  [
+   "기업",
+   "세리액트·잘란도·CEVA 로지스틱스"
+  ],
+  [
+   "거점",
+   "독일 그레벤, 폴란드 시비에보진"
+  ],
+  [
+   "플랫폼",
+   "코텍스(Cortex)"
+  ]
+ ],
+ "id": "261011-robot-09",
+ "category": "robot",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trace2Env: 옛 사용 기록만으로 AI가 &#x27;가짜 환경&#x27;을 연기하게 하다 | summaryx</title>
+<meta name="description" content="에이전트를 훈련·평가하려면 상대할 환경(웹사이트, 업무 시스템 등)이 필요하지만, 원래 시스템을 쓸 수 없거나 새로 구현하기 어려운 경우가 많다. 이 논문은 실행 가능한 시스템을 다시 만드는 대신, 언어모델 에이전트가 환경 역할을 맡는 &#x27;에이전트형 언어 월드 모델&#x27;을 ">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Trace2Env: 옛 사용 기록만으로 AI가 &#x27;가짜 환경&#x27;을 연기하게 하다">
+<meta property="og:description" content="에이전트를 훈련·평가하려면 상대할 환경(웹사이트, 업무 시스템 등)이 필요하지만, 원래 시스템을 쓸 수 없거나 새로 구현하기 어려운 경우가 많다. 이 논문은 실행 가능한 시스템을 다시 만드는 대신, 언어모델 에이전트가 환경 역할을 맡는 &#x27;에이전트형 언어 월드 모델&#x27;을 ">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261011-paper-03">
+<script>location.replace('../../#/a/261011-paper-03');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261011-paper-03">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">Trace2Env: 옛 사용 기록만으로 AI가 &#x27;가짜 환경&#x27;을 연기하게 하다</h1>
+<p>에이전트를 훈련·평가하려면 상대할 환경(웹사이트, 업무 시스템 등)이 필요하지만, 원래 시스템을 쓸 수 없거나 새로 구현하기 어려운 경우가 많다. 이 논문은 실행 가능한 시스템을 다시 만드는 대신, 언어모델 에이전트가 환경 역할을 맡는 &#x27;에이전트형 언어 월드 모델&#x27;을 제안했다.</p><p>핵심 틀인 Trace2Env는 별도 학습 없이, 과거에 쌓인 상호작용 기록(트레이스)을 재사용 가능한 &#x27;환경 월드북&#x27;으로 정리한다. 실행 중에는 환경 역할 에이전트가 이 월드북과 지속되는 에피소드 상태를 참고해 다음 화면·응답을 만들어 낸다.</p><p>9개 환경에서 프롬프트만 쓴 기준선보다 다음 관찰을 더 정확히 재현하고 긴 상호작용에서도 일관성이 높았다. 이 가짜 환경에서 만든 행동을 실제 환경에 다시 돌려도 유효한 경우가 더 많았다고 한다.</p>
+<p><a href="https://arxiv.org/abs/2610.06100">원문 보기</a></p>
+</body></html>

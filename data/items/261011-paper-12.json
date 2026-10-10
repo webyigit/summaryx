@@ -1,0 +1,43 @@
+{
+ "title": "이미지 생성 AI 사후학습: '취향 보상'과 '채점표 보상'을 잘 섞는 법",
+ "originalTitle": "Post-Training Frontier Text-to-Image Models by Composing Preference and Rubric Rewards",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.02967",
+ "publishedAt": "2026-10-02",
+ "summary": [
+  "이미지 생성 모델을 강화학습으로 다듬을 때, 사람 취향을 학습한 보상 모델만 쓰면 점수만 올리는 '보상 해킹'이 생기기 쉽다. 이 논문은 두 종류의 보상을 결합하는 사후학습 방법을 제안했다.",
+  "하나는 대규모 사람 선호 데이터로 학습한 선호 보상으로 전반적인 미감을 잡고, 다른 하나는 프롬프트 충실도 등을 점검하는 채점표(루브릭) 보상으로 보상 해킹을 막는다. 저자들은 둘을 단순 가중평균하면 최적화가 잘 안 된다는 점을 보이고, 선호 최적화와 채점표 충족 사이 균형을 잡는 결합 전략을 내놓았다.",
+  "2026년 9월 4일 기준 Arena 텍스트-이미지 리더보드에서 강화학습한 Flux2dev는 원래 모델보다 Elo가 69점 올랐고, 사후학습한 Ideogram-4는 Elo 1223.5로 모든 오픈소스 모델을 넘었다고 자체 보고했다. 학습 데이터 1천 건 부분집합 Arena-T2I-Training도 공개했다."
+ ],
+ "keyPoints": [
+  "선호 보상+루브릭 보상 결합으로 보상 해킹 억제",
+  "단순 가중평균 대신 균형 잡는 결합 전략",
+  "Flux2dev Elo +69, Ideogram-4 1223.5"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Yuanhao Ban, I-Hung Hsu, Anastasios Angelopoulos, Wei-Lin Chiang, Ion Stoica, Cho-Jui Hsieh"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "컴퓨터 비전(cs.CV), cs.AI · 이미지 생성 사후학습"
+  ],
+  [
+   "arXiv ID",
+   "2610.02967"
+  ],
+  [
+   "코드",
+   "[확인 필요] (Arena-T2I-Training 데이터 공개 언급)"
+  ]
+ ],
+ "id": "261011-paper-12",
+ "category": "paper",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

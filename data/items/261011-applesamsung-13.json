@@ -1,0 +1,35 @@
+{
+ "title": "애플, 아이폰18 프로 맥스 AT&T '먹통' 대응 2차 통신사 업데이트…iOS 27.2 베타 대상",
+ "originalTitle": "Apple rolls out AT&T carrier update for iPhone 18 Pro Max on iOS 27.2 beta",
+ "source": "9to5Mac",
+ "url": "https://9to5mac.com/2026/10/08/apple-rolls-out-att-carrier-update-for-iphone-18-pro-max-on-ios-27-2-beta/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "9월 말부터 미국 AT&T를 쓰는 일부 아이폰18 프로 맥스에서 통화·문자·데이터가 끊기고 상태 표시줄에 'SOS'만 뜨는 문제가 보고됐다. 애플은 10월 2일 일부 사용자에게 이 문제가 있다고 인정하고, iOS 27.0.1과 새 통신사 설정 업데이트로 확산을 막되 이미 서비스가 끊긴 기기는 하드웨어 교체가 필요하다고 밝혔다.",
+  "이번에는 iOS 27.2 베타를 쓰는 AT&T 아이폰18 프로 맥스 사용자에게도 통신사 번들 업데이트가 배포됐다. 아론 페리스가 X에서 '긴급 업데이트'라며 처음 발견했으며, 번들 버전은 72.0.2에서 72.0.3으로 올라간다. 지난주 iOS 27.0 사용자는 72.1을 받았지만 베타 사용자는 72.0.2에 머물러 있었다.",
+  "문제는 미국판에 퀄컴 모뎀을 쓰는 아이폰18 프로 맥스에서만 나타났고, 애플 자체 C2 모뎀을 쓰는 아이폰18 프로는 영향이 없었다. 이번 조치는 기존 대응을 베타 사용자에게까지 넓힌 것으로 보인다."
+ ],
+ "keyPoints": [
+  "AT&T 아이폰18 프로 맥스 통신 끊김 문제",
+  "iOS 27.2 베타에 번들 72.0.3 배포",
+  "퀄컴 모뎀 모델만 영향, C2 모뎀 프로는 무관"
+ ],
+ "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-18-pro-color-lineup-official.jpg?quality=82&strip=all&resize=1200,628",
+ "facts": [
+  [
+   "제품",
+   "아이폰18 프로 맥스(미국 AT&T)"
+  ],
+  [
+   "번들 버전",
+   "72.0.2 → 72.0.3"
+  ],
+  [
+   "대상 OS",
+   "iOS 27.2 베타"
+  ]
+ ],
+ "id": "261011-applesamsung-13",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

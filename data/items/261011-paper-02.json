@@ -1,0 +1,43 @@
+{
+ "title": "TokenRouter: 여러 LLM을 토큰 단위로 갈아 쓰는 서빙을 최대 64배 빠르게",
+ "originalTitle": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.12242",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "한 문장을 생성하면서 토큰마다 큰 모델과 작은 모델을 번갈아 쓰는 '토큰 단위 라우팅'은 비용을 아끼면서 품질을 높일 수 있다. 하지만 지금의 서빙 시스템은 모델 하나만 돌린다는 가정으로 만들어져, 여러 모델이 단계를 맞추지 못하고 배치 투입이 늦어지는 문제가 생기며 개발도 복잡하다.",
+  "TokenRouter는 개발자에게는 요청 중심으로 프로그래밍하게 하고, 실제 실행은 모델 중심으로 처리한다. LLM마다 서브서버를 띄워 요청을 비동기로 나눠 보내고, 각 서브서버는 처리량 모델로 정한 값에 따라 '지연 배칭' 스케줄러를 쓴다.",
+  "저자들은 기존 시스템보다 디코딩 처리량이 2.01~64.15배 높았다고 밝혔다. 여러 모델을 섞어 쓰는 추론 방식을 실제 서비스에 올리는 데 필요한 기반 기술이다."
+ ],
+ "keyPoints": [
+  "토큰마다 다른 LLM을 쓰는 라우팅 전용 서빙",
+  "LLM별 서브서버+비동기 디스패치·지연 배칭",
+  "디코딩 처리량 2.01~64.15배 향상"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Tianyu Fu, Tengxuan Liu, Ruoxi Wang, Yixin Dong, Yi Ge, Yichen You, Yu Wang"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "계산언어학(cs.CL) · LLM 추론 시스템"
+  ],
+  [
+   "arXiv ID",
+   "2610.12242"
+  ],
+  [
+   "코드",
+   "https://github.com/thu-nics/TokenRouter"
+  ]
+ ],
+ "id": "261011-paper-02",
+ "category": "paper",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

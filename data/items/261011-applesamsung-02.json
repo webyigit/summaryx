@@ -1,0 +1,35 @@
+{
+ "title": "갤럭시 S27 프로·울트라, 'DC 디밍' 탑재설…화면 깜빡임 줄인다",
+ "originalTitle": "Galaxy S27 Pro and Ultra to feature DC Dimming to tackle PWM screen flicker",
+ "source": "Sammy Fans",
+ "url": "https://www.sammyfans.com/2026/10/09/galaxy-s27-pro-and-ultra-to-feature-dc-dimming/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "삼성전자의 차기 플래그십 갤럭시 S27 프로와 S27 울트라에 'DC 디밍'이 적용될 수 있다는 관측이 나왔다. X(옛 트위터)의 팁스터 @WalleGalaxy는 두 모델의 디스플레이가 DC 디밍을 지원해 눈의 피로를 줄일 것이라고 주장했다.",
+  "현재 갤럭시 화면은 밝기를 조절할 때 빛을 빠르게 껐다 켜는 PWM 방식을 쓰는데, 이 깜빡임에 민감한 일부 사용자는 눈의 피로를 호소해 왔다. DC 디밍은 픽셀에 흐르는 전류 자체를 낮춰 밝기를 줄이므로 PWM 특유의 깜빡임이 없다는 설명이다. 팁스터는 삼성이 여러 디스플레이 안전 업체와 이전 모델의 눈 피로 문제를 논의하고 있으며 '눈 보호 모드'도 계속 개선될 것이라고 덧붙였다.",
+  "관련 유출로는 상위 두 모델에 삼성디스플레이의 M16 OLED, 하위 두 모델에 M14+ 패널이 들어간다는 전망과, 올해 S26 울트라 전용인 '프라이버시 디스플레이'가 S27 프로·울트라로 확대될 수 있다는 이야기도 있다. 아직 공식 발표가 아닌 루머 단계다."
+ ],
+ "keyPoints": [
+  "S27 프로·울트라에 DC 디밍 적용설",
+  "PWM 깜빡임으로 인한 눈 피로 완화 목적",
+  "상위 모델 M16 OLED·프라이버시 디스플레이 전망"
+ ],
+ "image": "https://www.sammyfans.com/wp-content/uploads/2026/04/samsung-lock-screen-img1.jpg",
+ "facts": [
+  [
+   "제품",
+   "갤럭시 S27 프로·S27 울트라"
+  ],
+  [
+   "출처",
+   "X 팁스터 @WalleGalaxy"
+  ],
+  [
+   "상태",
+   "루머(미확인)"
+  ]
+ ],
+ "id": "261011-applesamsung-02",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

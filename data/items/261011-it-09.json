@@ -1,0 +1,21 @@
+{
+ "title": "가민 '페닉스 9 프로' GPS 끊김…외부 앱 개발자들 \"수정 너무 느려\"",
+ "originalTitle": "Garmin's Fenix 9 Pro has GPS problems and app devs are frustrated",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/garmin-fenix-9-pro-gps-issue-3721441/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "최근 출시된 가민 스마트워치 '페닉스 9 프로'에서 GPS 모듈 문제가 발생해 외부 개발자 앱이 피해를 보고 있다. 가민 커뮤니티 포럼에 올라온 개발자 글(노트북체크 보도)에 따르면, 운동을 시작한 세션의 약 절반에서 GPS가 14초쯤 뒤 끊긴다. 이 때문에 가민이 아닌 내비게이션·운동 앱에서는 정확한 위치 데이터를 얻지 못한다.",
+  "이 개발자는 버그를 신고했지만 해결에 \"한없이 오래 걸린다\"고 했다. 앞서 '포러너 170'의 자이로스코프 접근을 막았던 일, 센서 기록의 타임스탬프 문제 등도 함께 지적하며 가민이 자사 소프트웨어 문제만 우선 처리한다고 비판했다. 같은 스레드의 다른 개발자들도 비슷한 불만을 털어놨다.",
+  "개발자들은 버그 신고 후 수정까지 몇 달씩 걸려, 커넥트IQ 스토어에서 다른 플랫폼보다 악평이 훨씬 많이 달린다고 호소했다. 서드파티 생태계 관리가 가민의 숙제로 떠오른 셈이다."
+ ],
+ "keyPoints": [
+  "페닉스 9 프로, 세션 절반서 14초 만에 GPS 끊김",
+  "외부 운동·내비 앱 정확한 위치 못 받아",
+  "개발자들 \"가민, 자사 앱만 우선 수정\""
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2024/10/Garmin-Fenix-8-AMOLED-activity-menu.jpg",
+ "id": "261011-it-09",
+ "category": "it",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

@@ -1,0 +1,39 @@
+{
+ "title": "삼성 10월 보안 패치 공개…치명적 취약점 9건 등 안드로이드 45건 수정",
+ "originalTitle": "Samsung officially details October 2026 security patch – Up to 83 fixes",
+ "source": "Sammy Fans",
+ "url": "https://www.sammyfans.com/2026/10/06/samsung-october-2026-security-patch-release-notes/",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "삼성전자가 2026년 10월 보안 유지보수 릴리스(SMR) 노트를 공개했다. 이번 패키지는 구글의 안드로이드 패치 비중이 크며, 안드로이드 취약점 45건(치명적 9건, 높음 33건, 보통 3건)을 다룬다. 이미 이전 업데이트에 반영된 CVE 3건과 삼성 기기에 해당하지 않는 1건도 명시됐다.",
+  "삼성반도체가 위험도 높음 패치 4건을 추가했고, 삼성 모바일은 자체 취약점(SVE) 27건을 공개했는데 이 중 13건만 세부 내용을 밝혔다. 미디어 구성요소의 경계 밖 쓰기 버그, HEIF 디코더의 입력 검증 결함 2건, 로컬 공격자가 시스템 권한으로 코드를 실행할 수 있는 WSM 서비스의 해제 후 사용(use-after-free) 문제 등이 포함됐다. 대부분 안드로이드 14~17에 영향을 주며 모두 비공개로 제보된 것이다.",
+  "설정의 보안 소프트웨어 버전에서 'SMR Oct-2026 Release 1'이 보이면 적용된 것이다. 배포는 갤럭시 S 시리즈 등 플래그십부터 시작해 다른 모델로 넓어진다. 제목의 '최대 83건'이 어떻게 계산됐는지는 기사에 설명돼 있지 않다."
+ ],
+ "keyPoints": [
+  "안드로이드 취약점 45건, 그중 치명적 9건",
+  "삼성 자체 취약점 27건 공개(13건 상세)",
+  "'SMR Oct-2026 Release 1'로 적용 확인"
+ ],
+ "image": "https://www.sammyfans.com/wp-content/uploads/2026/04/security-update-image-1.jpg",
+ "facts": [
+  [
+   "회사",
+   "삼성전자"
+  ],
+  [
+   "패치",
+   "SMR Oct-2026 Release 1"
+  ],
+  [
+   "안드로이드",
+   "45건(치명적 9·높음 33·보통 3)"
+  ],
+  [
+   "삼성 SVE",
+   "27건"
+  ]
+ ],
+ "id": "261011-applesamsung-06",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

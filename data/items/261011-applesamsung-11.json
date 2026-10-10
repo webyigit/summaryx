@@ -1,0 +1,35 @@
+{
+ "title": "갤럭시 A16·A55, 원 UI 9 베타 2·3차 배포…고속충전·와이파이 문제 수정",
+ "originalTitle": "Galaxy A16 and A55 grab One UI 9 Beta 2 and Beta 3 updates",
+ "source": "Sammy Fans",
+ "url": "https://www.sammyfans.com/2026/10/07/galaxy-a16-and-a55-grab-one-ui-9-beta-2-and-beta-3-updates/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "삼성전자가 보급형 갤럭시 A16에 원 UI 9 두 번째 베타를, 갤럭시 A55에 세 번째 베타를 배포했다. 두 업데이트 모두 2026년 9월 보안 패치를 담았다. 삼성은 이미 원 UI 9 정식 배포를 시작해 한국부터 순차 제공 중이며 곧 전 세계로 넓힐 예정이다.",
+  "갤럭시 A55 5G(빌드 A556SKSUBZZI9) 베타 3의 핵심은 와이파이 안정성 개선이다. 갤럭시 A16 5G(빌드 A166PXXU9ZZJ1) 베타 2는 고속 충전이 작동하지 않던 문제, 전원이 꺼진 상태에서 배터리 보호가 실패할 수 있던 문제, 타이머 촬영 때 카메라 앱에 빠른 설정 아이콘이 뜨던 버그를 고쳤고 사진 편집기도 새 버전으로 바꿨다.",
+  "이번 빌드는 베타 프로그램 참가자를 위한 다듬기 업데이트 성격이다. 보급형 모델까지 원 UI 9 정식 버전이 내려오기 전 마지막 점검 단계로 볼 수 있다."
+ ],
+ "keyPoints": [
+  "A16 베타 2·A55 베타 3, 9월 보안 패치 포함",
+  "A16 고속충전 미작동 문제 수정",
+  "원 UI 9 정식판은 한국부터 순차 배포"
+ ],
+ "image": "https://www.sammyfans.com/wp-content/uploads/2024/07/galaxy-a55-one-ui-img.jpg",
+ "facts": [
+  [
+   "제품",
+   "갤럭시 A16 5G·A55 5G"
+  ],
+  [
+   "빌드",
+   "A166PXXU9ZZJ1 / A556SKSUBZZI9"
+  ],
+  [
+   "보안 패치",
+   "2026년 9월"
+  ]
+ ],
+ "id": "261011-applesamsung-11",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

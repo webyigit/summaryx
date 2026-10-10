@@ -1,0 +1,21 @@
+{
+ "title": "AI 칩·실리콘 포토닉스 시대, 열·휨·노화 관리가 설계 난제로",
+ "originalTitle": "Thermal Complexity Grows With AI Chips And Photonics",
+ "source": "Semiconductor Engineering",
+ "url": "https://semiengineering.com/thermal-complexity-grows-with-ai-chips-and-photonics/",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "세미컨덕터 엔지니어링이 DAC에서 시놉시스·실바코·빈치·키사이트 EDA·지멘스 EDA 전문가들과 연 비공개 좌담의 두 번째 편이다. 포토닉스는 적은 에너지로 데이터를 옮길 수 있지만 열·휨·응력을 설계 초기부터 이해해야 하고, 멀티다이의 과도(transient) 열 거동은 복잡한 만큼 더 정교한 최적화 기회가 되며, 열로 가속되는 노화를 예측할 도구가 부족하다는 것이 핵심이다.",
+  "키사이트의 크리스 무스는 포토닉스가 데이터센터 병목을 줄일 잠재력이 크지만 아직 확장하기 어렵고, 수천 개 히터를 보정하는 일도 과제라고 했다. 빈치의 사티시 라다크리슈난은 아주 작은 온도 변화도 링 공진기 특성을 바꾼다며 CPO는 시스템 전체 과도 시뮬레이션이 필요하다고 말했다. 시놉시스의 랭 린은 디지털 트랜지스터와 달리 실리콘 포토닉스는 직류가 계속 흘러 열과 응력이 크다고 설명했다.",
+  "실바코의 잭 버그는 10도마다 신뢰성이 크게 떨어진다는 아레니우스 경험칙을 들었고, 라다크리슈난은 온다이 열 센서로 열화를 추적해 소프트웨어가 성능을 조절하는 추세를 소개했다. 린은 HBM 업체 등이 제공하는 모델을 통합하려면 계층형 모델과 표준이 필요하다고 강조했다."
+ ],
+ "keyPoints": [
+  "포토닉스 확산에 열·휨·응력 설계 부담 커져",
+  "CPO는 시스템 전체 과도 열 시뮬레이션 필요",
+  "열 가속 노화 예측 도구 부족 지적"
+ ],
+ "image": "https://semiengineering.com/wp-content/uploads/2026/09/Screenshot-2026-09-12-at-3.09.59-PM.png",
+ "id": "261011-semi-10",
+ "category": "semi",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

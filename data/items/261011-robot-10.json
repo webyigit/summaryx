@@ -1,0 +1,35 @@
+{
+ "title": "엑소텍 '스카이포드'로 오후 5시 주문 다음 날 아침 배송…퍼스트 서플라이 물류센터",
+ "originalTitle": "First Supply utilizes Exotec's robotic systems in new distribution center to guarantee next-morning delivery on orders placed by 5 p.m.",
+ "source": "Robotics 24/7",
+ "url": "https://www.robotics247.com/article/first-supply-utilizes-exotecs-robotic-systems-in-new-distribution-center-to-guarantee-next-morning-delivery-on-orders-placed-by-5-pm",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "냉난방·배관·조명 등 산업 자재 도매업체 퍼스트 서플라이가 새 물류센터에 로봇 기업 엑소텍의 자동창고 시스템 '스카이포드(Skypod)'를 도입해, 오후 5시 전 주문을 다음 날 아침 배송하는 서비스를 내놨다. 공사 일정을 맞춰야 하는 시공업자 고객을 겨냥한 것이다.",
+  "엑소텍에 따르면 재고를 한 시설에 모으고 로봇 보조 피킹으로 속도를 높여, 기존 랙 면적을 늘리지 않고도 보관 용량이 4배가 됐으며 향후 하드웨어 증설용으로 30%를 더 확보했다. 피킹 속도는 수작업보다 약 10배 빠르고 1만4000개 이상의 품목(SKU)을 다룬다. 가동 1년여 만에 야간 재고 보충과 하루 물량의 최대 20%에 이르는 익일 주문을 처리하고 있다.",
+  "퍼스트 서플라이의 스티브 베어 최고물류책임자는 성수기와 일일 피크 수요를 맞출 수 있게 됐다고 말했다. 2025년 여름 위스콘신 남동부 돌발 홍수 때 수백 곳의 피해 고객에게 자재를 빠르게 공급한 사례도 소개됐다. 기사는 엑소텍 측 발표를 바탕으로 한 것이다."
+ ],
+ "keyPoints": [
+  "오후 5시 전 주문, 다음 날 아침 배송 보장",
+  "보관 용량 4배·피킹 속도 수작업의 약 10배",
+  "1만4000개 이상 SKU 처리"
+ ],
+ "image": "https://www.robotics247.com/images/2026_article/Exotec-FirstSupply-Skypod-ASRS-deployment-main-Robotics247-2026.jpg",
+ "facts": [
+  [
+   "기업",
+   "엑소텍(Exotec)·퍼스트 서플라이"
+  ],
+  [
+   "시스템",
+   "스카이포드(Skypod) 자동창고"
+  ],
+  [
+   "성과",
+   "보관 4배, 피킹 약 10배 빠름"
+  ]
+ ],
+ "id": "261011-robot-10",
+ "category": "robot",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

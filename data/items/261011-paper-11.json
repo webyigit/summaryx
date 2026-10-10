@@ -1,0 +1,43 @@
+{
+ "title": "Memento 3: 모델은 고정, '규칙집'을 고쳐 가며 ARC-AGI-3 25게임 전부 클리어",
+ "originalTitle": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.11794",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "AI가 스스로 나아지려면 보통 모델 가중치를 다시 학습해야 한다. Memento 3는 LLM은 그대로 두고, 에이전트가 외부 메모리에 세상의 작동 원리를 적어 두고 고쳐 가는 방식으로 자기 개선을 시도했다.",
+  "에이전트는 '환경이 이렇게 돌아간다'는 가설들을 자연어 규칙집으로 관리하고, 이를 예측·계획용 실행 코드로 바꾼다. 관찰→반성→규칙 수정→코드 변환→검증을 반복하며 예측이 틀린 부분을 고치는데, 새 코드는 규칙집에 충실하고 관찰된 전이를 칸 단위로 정확히 재현할 때만 채택한다. 여러 월드 모델을 동시에 유지하며 탐색을 이끄는 확장판도 있다.",
+  "ARC-AGI-3 공개 25게임의 모든 레벨을 통과했고, 사람 대비 행동 효율 지표(RHAE) 평균 100.0에 사람 행동 수의 44%만 썼다. 아타리 퐁에서는 학습된 제어기가 추가 LLM 호출 없이 세 판 모두 21:0으로 이겼다."
+ ],
+ "keyPoints": [
+  "LLM 고정, 자연어 규칙집→실행 코드로 월드 모델",
+  "ARC-AGI-3 공개 25게임 전 레벨 클리어",
+  "사람 행동 수의 44%, 퐁 21:0 3연승"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Haoyu Zhao, Zhengxu Yu, Zhiyuan He, Meng Fang, Rasul Tutunov, Haitham Bou-Ammar, Weilin Luo, Jun Wang"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "인공지능(cs.AI), cs.CL·cs.CV·cs.LG · 자기 개선 에이전트"
+  ],
+  [
+   "arXiv ID",
+   "2610.11794"
+  ],
+  [
+   "코드",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261011-paper-11",
+ "category": "paper",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

@@ -1,0 +1,21 @@
+{
+ "title": "CPO 테스트는 '움직이는 과녁'…테라다인·어드밴테스트 등 공정 과제 진단",
+ "originalTitle": "CPO Testing Faces A Moving Target Problem",
+ "source": "Semiconductor Engineering",
+ "url": "https://semiengineering.com/cpo-testing-faces-a-moving-target-problem/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "대형 AI 데이터센터 확산으로 공동 패키지 광학(CPO)·근접 패키지 광학(NPO)이 주류로 다가오면서 이를 대량 생산 단계에서 어떻게 테스트할지가 과제로 떠올랐다. 세미컨덕터 엔지니어링은 테라다인, 어드밴테스트, ASE 자회사 ISE랩스, 키사이트 관계자들과 좌담을 열었다. 테라다인의 맷 그리핀은 광 트랜시버 테스트는 20년 해 왔지만, 대량 생산에 필요한 자동 광 정렬·소프트웨어·데이터 분석 규모가 핵심 변화라고 말했다.",
+  "ISE랩스의 데이브 암스트롱은 로직의 스캔 테스트 같은 테스트 용이화 설계(DFT)가 광학엔 없어 링·변조기를 하나씩 시험해야 한다고 지적했다. 그는 PIC 테스트부터 웨이퍼·다이 단위 광 엔진, 모듈, 시스템 수준까지 다섯 단계 테스트 흐름을 제시했다. 키사이트 측은 광 정렬 정밀도와 광 프로브 카드 제작의 어려움, 광섬유 어레이(FAU) 채널 간 편차를 문제로 들었다.",
+  "그리핀은 중앙 다이 1~8kW, 광 엔진당 10~30W, 소자당 커넥터 4~32개라는 시험 조건을 들며 열 관리가 관건이라고 했다. 참석자들은 공정이 성숙하면 일부 시험은 DFT로 대체되겠지만, 커넥터 설계가 제각각이고 수백 가닥 FAU 요구가 빠르게 늘어 표준화가 시급하다고 입을 모았다."
+ ],
+ "keyPoints": [
+  "CPO·NPO 대량 생산 테스트가 새 과제",
+  "광학엔 DFT 없어 부품별 시험 부담",
+  "중앙 다이 1~8kW 등 열 관리가 관건"
+ ],
+ "image": "https://semiengineering.com/wp-content/uploads/2026/10/Screenshot-2026-10-05-at-4.58.48-PM.png",
+ "id": "261011-semi-09",
+ "category": "semi",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

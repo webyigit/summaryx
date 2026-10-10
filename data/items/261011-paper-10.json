@@ -1,0 +1,43 @@
+{
+ "title": "OuroWorld: 멈춘 3D 장면을 끝없이 반복되는 '3D 시네마그래프'로",
+ "originalTitle": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.12461",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "최근 3D 월드 모델은 사진 같은 장면을 만들어 돌아다닐 수 있게 하지만, 장면 속 사물은 멈춰 있다. 시네마그래프는 사진 일부만 반복해 움직이는 표현인데, OuroWorld는 이를 어느 각도에서 봐도 되는 3D로 확장했다.",
+  "정적인 3D 가우시안 스플래팅 장면을 받으면, 비전-언어 모델이 그럴듯한 움직임을 추론해 영상 모델이 기준 영상을 만들고, 이를 여러 시점 영상으로 넓힌다. 이어 푸리에 급수 변형장으로 움직임이 구조적으로 끊김 없이 반복되게 하고, 기준 시점에 고정된 'Grounded Drift Field'로 시점 간 불일치를 흡수한다. 마스크 없이 물·연기 같은 유체뿐 아니라 일반 변형, 물체 움직임, 조명 변화까지 다룬다.",
+  "재구성·생성 장면 39개에서 모든 기준선을 앞섰고 사용자 비교 평가에서 70.8~99.0% 승률을 기록했다."
+ ],
+ "keyPoints": [
+  "정적 3D 장면을 반복 움직이는 3D로 변환",
+  "푸리에 변형장으로 이음매 없는 루프",
+  "39개 장면, 사용자 평가 승률 70.8~99%"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "You-Zhe Xie, Ting-Wei Chou, Yu-Hsuan Li, Kaipeng Zhang, Zhixiang Wang, Yu-Lun Liu"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "컴퓨터 비전(cs.CV), 그래픽스(cs.GR) · 3D 생성"
+  ],
+  [
+   "arXiv ID",
+   "2610.12461"
+  ],
+  [
+   "코드",
+   "https://ouroworld.userwei.com (프로젝트 페이지)"
+  ]
+ ],
+ "id": "261011-paper-10",
+ "category": "paper",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

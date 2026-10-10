@@ -43,6 +43,24 @@
     "LLM",
     "AI 반도체"
    ]
+  },
+  {
+   "name": "인공지능신문",
+   "url": "https://www.aitimes.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "AI 연구",
+    "AI 에이전트",
+    "AI 인프라"
+   ]
+  },
+  {
+   "name": "전자신문 AI·SW",
+   "url": "https://www.etnews.com/news/section.html?id1=04",
+   "keywords": [
+    "AI",
+    "LLM",
+    "AI 인프라"
+   ]
   }
  ],
  "ax": [
@@ -138,6 +156,23 @@
    "url": "https://www.electrive.com/",
    "keywords": [
     "EV"
+   ]
+  },
+  {
+   "name": "오토데일리",
+   "url": "https://www.autodaily.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "국감",
+    "전기차",
+    "완성차 실적"
+   ]
+  },
+  {
+   "name": "뉴시스",
+   "url": "https://www.newsis.com/car/list/?cid=13100&scid=13101",
+   "keywords": [
+    "시승기",
+    "자동차"
    ]
   }
  ],
@@ -255,23 +290,51 @@
    "name": "지디넷코리아",
    "url": "https://zdnet.co.kr/",
    "keywords": [
-    "공공 AI",
-    "LLM"
+    "플랫폼",
+    "통신",
+    "PC"
    ]
   },
   {
-   "name": "9to5Mac",
-   "url": "https://9to5mac.com/",
+   "name": "전자신문",
+   "url": "https://www.etnews.com/",
    "keywords": [
-    "TrendForce",
-    "notebook"
+    "공공 SW",
+    "통신"
+   ]
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/latest/",
+   "keywords": [
+    "startup",
+    "surveillance",
+    "energy"
+   ]
+  },
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/",
+   "keywords": [
+    "wearable",
+    "Google"
+   ]
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/news/",
+   "keywords": [
+    "Android",
+    "Gboard",
+    "Kindle"
    ]
   },
   {
    "name": "9to5Google",
    "url": "https://9to5google.com/",
    "keywords": [
-    "Google TV Streamer"
+    "Pixel Watch",
+    "Fitbit"
    ]
   }
  ],
@@ -542,15 +605,44 @@
    "name": "MacRumors",
    "url": "https://www.macrumors.com/",
    "keywords": [
-    "iPhone Duo",
-    "October"
+    "iPhone 18",
+    "macOS 27",
+    "battery"
    ]
   },
   {
    "name": "SamMobile",
    "url": "https://www.sammobile.com/",
    "keywords": [
-    "Always On Display"
+    "Galaxy",
+    "Art Store",
+    "Z Fold 8"
+   ]
+  },
+  {
+   "name": "Sammy Fans",
+   "url": "https://www.sammyfans.com/",
+   "keywords": [
+    "Galaxy S27",
+    "One UI 9",
+    "security patch"
+   ]
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/",
+   "keywords": [
+    "iPhone 18 Pro Max",
+    "OLED MacBook Pro"
+   ]
+  },
+  {
+   "name": "AppleInsider",
+   "url": "https://appleinsider.com/",
+   "keywords": [
+    "Apple Watch Series 12",
+    "Apple TV",
+    "Apple Intelligence"
    ]
   }
  ],
@@ -844,38 +936,7 @@
    "keywords": [
     "humanoid",
     "physical AI",
-    "industrial robot",
-    "robotics funding"
-   ]
-  },
-  {
-   "name": "로봇신문",
-   "url": "https://www.irobotnews.com/news/articleList.html?view_type=sm",
-   "keywords": [
-    "휴머노이드",
-    "협동로봇",
-    "피지컬 AI",
-    "로봇 기업"
-   ]
-  },
-  {
-   "name": "IEEE Spectrum Robotics",
-   "url": "https://spectrum.ieee.org/topic/robotics/",
-   "keywords": [
-    "humanoid robot",
-    "robot hand",
-    "Video Friday",
-    "robotics research"
-   ]
-  },
-  {
-   "name": "TechCrunch Robotics",
-   "url": "https://techcrunch.com/category/robotics/",
-   "keywords": [
-    "robotics startup",
-    "humanoid",
-    "robot funding",
-    "Optimus"
+    "dexterity"
    ]
   },
   {
@@ -883,9 +944,17 @@
    "url": "https://www.humanoidsdaily.com/",
    "keywords": [
     "humanoid",
-    "robot funding",
-    "patent",
-    "eldercare robot"
+    "robot fight",
+    "conference"
+   ]
+  },
+  {
+   "name": "헬로티 로봇",
+   "url": "https://www.hellot.net/news/articleList.html?sc_section_code=S1N4",
+   "keywords": [
+    "로봇",
+    "피지컬 AI",
+    "휴머노이드"
    ]
   },
   {
@@ -893,16 +962,15 @@
    "url": "https://www.robotics247.com/",
    "keywords": [
     "warehouse robot",
-    "safety standard",
-    "robotics funding"
+    "AMR",
+    "returns automation"
    ]
   },
   {
-   "name": "헬로티",
-   "url": "https://www.hellot.net/news/articleList.html?sc_section_code=S1N4",
+   "name": "로봇신문",
+   "url": "https://www.irobotnews.com/news/articleList.html?view_type=sm",
    "keywords": [
-    "로봇",
-    "물류 자동화",
+    "휴머노이드",
     "피지컬 AI"
    ]
   }
@@ -915,6 +983,57 @@
     "ASML",
     "무라타",
     "부품"
+   ]
+  },
+  {
+   "name": "지디넷코리아 반도체",
+   "url": "https://zdnet.co.kr/news/?lstcode=0050",
+   "keywords": [
+    "반도체",
+    "HBM",
+    "패키징"
+   ]
+  },
+  {
+   "name": "디지털투데이",
+   "url": "https://www.digitaltoday.co.kr/",
+   "keywords": [
+    "메모리",
+    "DDR"
+   ]
+  },
+  {
+   "name": "Focus Taiwan",
+   "url": "https://focustaiwan.tw/business",
+   "keywords": [
+    "TSMC",
+    "semiconductor"
+   ]
+  },
+  {
+   "name": "EE Times",
+   "url": "https://www.eetimes.com/",
+   "keywords": [
+    "memory",
+    "EDA",
+    "CXL"
+   ]
+  },
+  {
+   "name": "Semiconductor Engineering",
+   "url": "https://semiengineering.com/",
+   "keywords": [
+    "packaging",
+    "photonics",
+    "test"
+   ]
+  },
+  {
+   "name": "TrendForce",
+   "url": "https://www.trendforce.com/news/",
+   "keywords": [
+    "HBM",
+    "foundry"
    ]
   }
  ],

@@ -1,0 +1,21 @@
+{
+ "title": "지보드에서 갑자기 대문자 입력 안 돼…베타 버전 버그 의심",
+ "originalTitle": "Some Gboard users suddenly can't type capital letters",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/gboard-shift-key-not-working-bug-3721254/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "구글 키보드 앱 '지보드(Gboard)'에서 시프트 키가 갑자기 먹통이 돼 대문자를 직접 입력할 수 없다는 신고가 이어지고 있다. 레딧 r/gboard와 r/pixel_phones에는 픽셀과 샤오미 기기 등에서 같은 증상을 겪었다는 글이 여럿 올라왔고, 다른 제조사 기기도 영향을 받을 수 있다.",
+  "앱 강제 종료, 캐시 삭제, 재부팅, 키보드 배열 전환으로 잠시 고쳐지지만 몇 시간에서 하루이틀 안에 다시 나타난다는 반응이 많다. 안드로이드 어소리티 직원 기기에서도 같은 일이 생겼는데, 이 기기는 지보드 베타를 쓰고 있었고 레딧 피해자 중에도 베타 참가자가 있었다. 최신 정식판에서는 재현되지 않았다.",
+  "베타가 원인이라고 단정할 수는 없지만 유력한 용의자로 보인다. 매체는 베타 프로그램을 나와 정식판으로 돌아가 보라고 권했고, 구글에 문제 인지 여부와 수정 계획을 문의한 상태다."
+ ],
+ "keyPoints": [
+  "지보드 시프트 키 먹통, 대문자 입력 불가",
+  "캐시 삭제 등으로 잠시 해결돼도 재발",
+  "베타 버전 원인 의심, 정식판 복귀 권장"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2026/08/google-pixel-11-pro-gboard-rambler-scaled.jpg",
+ "id": "261011-it-12",
+ "category": "it",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

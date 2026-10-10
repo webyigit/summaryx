@@ -1,0 +1,39 @@
+{
+ "title": "삼성, 2027년 메모리 물량 75~80% 장기계약으로 채워…엔비디아·구글·MS",
+ "originalTitle": "Samsung's 2027 memory supply is largely covered by LTAs with NVIDIA, Google and Microsoft",
+ "source": "Sammy Fans",
+ "url": "https://www.sammyfans.com/2026/10/09/samsung-2027-memory-supply-ltas/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "AI 인프라 투자 급증으로 반도체 업계에서 장기공급계약(LTA)이 새 표준이 되고 있는 가운데, 삼성전자가 2027년 메모리 공급 물량 대부분을 빅테크와의 장기계약으로 확보했다는 보도가 나왔다. Sammy Fans는 SemiconductorsX를 인용해 삼성이 HBM을 포함한 2027년 메모리 물량의 75~80%를 LTA로 채우고 있으며, 엔비디아·구글·마이크로소프트가 주요 계약 상대라고 전했다.",
+  "메모리는 전통적으로 분기 단위 가격과 현물 거래로 팔렸고, 시황에 따라 협상력이 오갔다. 1년 앞서 물량을 묶는 방식은 이를 뒤집어 구매자는 확실성에 돈을 내고 공급사는 가시성을 얻는다. SK하이닉스와 마이크론도 비슷한 대형 계약을 서두르고 있어, 업계가 이제 수요가 아니라 공급을 희소 자원으로 본다는 분석이다. 삼성전기가 대만 델타일렉트로닉스와 약 7000억 원 규모 MLCC 계약에 근접했다는 국내 보도도 함께 소개됐다.",
+  "다만 가격·물량 배분·위약 조항 등 계약 조건은 공개되지 않았고, 공식 발표가 아닌 업계 소식통에 기댄 보도다. 기사는 안정적 매출 덕분에 삼성이 가격 변동에 일일이 대응하지 않고 HBM 증설을 계획할 수 있다고 평가했다."
+ ],
+ "keyPoints": [
+  "2027년 메모리 물량 75~80% 장기계약 확보설",
+  "엔비디아·구글·MS가 주요 고객",
+  "계약 조건 비공개, 업계 소식통 기반"
+ ],
+ "image": "https://www.sammyfans.com/wp-content/uploads/2026/06/samsung-featured-img1.jpg",
+ "facts": [
+  [
+   "회사",
+   "삼성전자"
+  ],
+  [
+   "원출처",
+   "SemiconductorsX"
+  ],
+  [
+   "고객",
+   "엔비디아·구글·마이크로소프트"
+  ],
+  [
+   "비중",
+   "2027년 물량의 75~80%(HBM 포함)"
+  ]
+ ],
+ "id": "261011-applesamsung-03",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

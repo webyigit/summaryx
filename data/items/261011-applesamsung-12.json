@@ -1,0 +1,35 @@
+{
+ "title": "\"애플 인텔리전스 때문에 맥 구매 중단? 사실 아냐\"…기업 IT 관리자들 반박",
+ "originalTitle": "Companies aren't being forced to stop buying Macs because of Apple Intelligence",
+ "source": "AppleInsider",
+ "url": "https://appleinsider.com/articles/26/10/08/companies-arent-being-forced-to-stop-buying-macs-because-of-apple-intelligence",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "애플이 macOS 골든게이트(macOS 27)에서 애플 인텔리전스를 끄는 설정을 없애면서, 생성형 AI를 금지하는 기관은 새 맥을 살 수 없게 될 것이라는 주장이 퍼졌다. AppleInsider는 실제 AI 금지 정책을 둔 조직의 IT 관리자들을 비공개로 취재해 이 주장을 검증했다.",
+  "핵심은 기업용 단말 관리(MDM)다. 개인은 애플 인텔리전스를 지우기가 쉽지 않지만, 기업은 잼프(Jamf) 같은 MDM으로 원격에서 기능을 통째로 끌 수 있다. 워싱턴 인근 포춘 500 기업 관리자는 원치 않는 기능을 끄고 외부 AI 앱 설치도 막을 수 있다고 했고, 텍사스 오스틴 지역 관리자는 MDM 없이 관리하는 게 문제라고 잘라 말했다. 군 IT 관리자도 실질적 위협이 아니라고 봤으며, 2026년 10월 기준 국방부가 애플 인텔리전스를 이유로 애플 하드웨어 구매를 막은 사례는 없다고 전했다.",
+  "취재한 관리자 누구도 구매 계획을 바꾸지 않겠다고 답했다. 다만 반AI 정책을 둔 기업이 얼마나 되는지는 불분명하고, 애플은 기업 판매 실적을 따로 공개하지 않는다."
+ ],
+ "keyPoints": [
+  "macOS 27, 애플 인텔리전스 끄기 설정 삭제 논란",
+  "기업은 MDM으로 원격 비활성화 가능",
+  "취재한 IT 관리자 모두 맥 구매 유지"
+ ],
+ "image": "https://photos5.appleinsider.com/gallery/60019-123354-Apple-Intelligence-Logo-xl.jpg",
+ "facts": [
+  [
+   "회사",
+   "애플"
+  ],
+  [
+   "대상",
+   "macOS 골든게이트(macOS 27)"
+  ],
+  [
+   "관리 도구",
+   "MDM(잼프 등)"
+  ]
+ ],
+ "id": "261011-applesamsung-12",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

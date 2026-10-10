@@ -1,0 +1,35 @@
+{
+ "title": "애플, macOS '전체 디스크 접근' 권한 강화 예고…\"AI 에이전트 위험 커져\"",
+ "originalTitle": "Apple Announces 'Full Disk Access' Changes on macOS Due to AI Agents",
+ "source": "MacRumors",
+ "url": "https://www.macrumors.com/2026/10/02/apple-announces-macos-full-disk-access-changes/",
+ "publishedAt": "2026-10-02",
+ "summary": [
+  "애플이 개발자 뉴스 사이트를 통해 macOS의 '전체 디스크 접근(Full Disk Access)' 설정에 '추가 통제'를 도입하겠다고 밝혔다. 이유로는 AI 에이전트가 가져오는 새로운 위험을 들었다. MacRumors는 메타의 '뮤즈', 오픈AI의 '닷츠' 같은 상시 실행형 AI 에이전트가 개인정보 우려를 키운 흐름과 연결해 전했다.",
+  "전체 디스크 접근은 백업 앱이 제대로 작동하도록 macOS의 표준 개인정보 보호 장치를 대부분 우회하는 권한이다. 애플은 일부 개발자가 이 권한을 사용자 몰래 파일·메일·메시지·방문 기록에 접근하는 식으로 쓰고 있으며, 메신저 앱의 경우 대화 상대의 개인정보까지 위협할 수 있다고 지적했다.",
+  "앞으로는 사용자가 매우 명시적인 조작을 해야만 이 권한을 줄 수 있게 된다. 애플은 AI 에이전트가 더 똑똑하고 자율적으로 바뀔수록 위험이 크게 늘어나므로, 사용자가 위험을 분명히 알고 결정하게 하겠다고 설명했다. 적용 시점은 밝히지 않았다."
+ ],
+ "keyPoints": [
+  "전체 디스크 접근 권한에 추가 통제 도입",
+  "AI 에이전트의 파일·메일 접근 위험 지적",
+  "명시적 사용자 조작 필요, 적용 시점 미정"
+ ],
+ "image": "https://images.macrumors.com/t/jY2B60TcXjktT6Ak7DYGNSkzllo=/2065x/article-new/2026/06/macOS-27-next-to-MacBook-Pro-Running-macOS-27.jpg",
+ "facts": [
+  [
+   "회사",
+   "애플"
+  ],
+  [
+   "대상",
+   "macOS 골든게이트(macOS 27)"
+  ],
+  [
+   "시행 시점",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261011-applesamsung-17",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

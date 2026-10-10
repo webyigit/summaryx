@@ -1,0 +1,43 @@
+{
+ "title": "Learn2Play Bench: 낯선 규칙의 게임에서 AI는 경험으로 배울 수 있을까",
+ "originalTitle": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.08215",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "LLM 에이전트가 잘하는 이유가 '진짜 배워서'인지 '이미 알던 지식' 덕분인지 구분하기 어렵다. 이 벤치마크는 처음 보는, 때로는 직관에 어긋나는 규칙을 가진 텍스트 게임들을 새로 만들어, 에이전트가 직접 부딪히며 규칙을 익혀야만 점수를 얻도록 설계했다.",
+  "게임은 같은 입력에 같은 피드백을 주어 재현 가능하고 자동 채점되며, 게임 인스턴스를 바꿔 가며 배운 것이 옮겨 가는지도 본다.",
+  "결과는 세 가지다. 행동과 피드백 기록을 규칙으로 요약하는 것보다 통째로 보관하는 편이 학습에 유리했고, 상위권 사람 플레이어의 최고 점수가 평가된 에이전트보다 높았다. 또 에이전트를 감싸는 하네스만 바꿔도 성능은 오르고 추론 비용은 줄 수 있었다."
+ ],
+ "keyPoints": [
+  "처음 보는 규칙의 텍스트 게임으로 학습력 측정",
+  "기록 요약보다 원본 기록 보관이 유리",
+  "최고 수준 사람이 여전히 AI보다 고득점"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Yibo Li, Jinhang Qiu, Zhi Zheng, Qianyun Guo, Jiaying Wu, Shuo Ji, Bryan Hooi"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "인공지능(cs.AI) · 에이전트 벤치마크"
+  ],
+  [
+   "arXiv ID",
+   "2610.08215"
+  ],
+  [
+   "코드",
+   "https://liushiliushi.github.io/learn2play-bench-website/ (프로젝트 페이지)"
+  ]
+ ],
+ "id": "261011-paper-04",
+ "category": "paper",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

@@ -1,0 +1,43 @@
+{
+ "title": "AgentMonBench: 오래 일하는 AI 에이전트, '실제로 뭘 했는지' 증거로 감독하기",
+ "originalTitle": "What Did the Agent Actually Do? Evidence-Grounded Oversight for Long-Horizon Agents",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.06406",
+ "publishedAt": "2026-10-05",
+ "summary": [
+  "AI 에이전트가 오랫동안 혼자 일할수록 사용자는 어떤 결정을 확인해야 할지 알기 어렵다. 활동 기록이 방대하고 근거가 여기저기 흩어져 있기 때문이다. 이 논문은 중요한 결정을 짚어 내고 그 영향을 판단할 증거 위치를 찾아 주는 '모니터'를 연구했다.",
+  "이를 평가하려고 소프트웨어 엔지니어링 기반 벤치마크 AgentMonBench(3개 하위 세트)를 만들어, 에이전트 행동이 요구사항에 맞는지와 모니터가 검증할 만한 자율 결정을 알아채는지를 함께 측정했다. 또 학습이 필요 없는 '증거 기반 행동 그래프(EBG)'를 제안했는데, 출처가 연결된 증거를 행동 단위로 묶고 그래프로 이어 과제별 관점으로 보여 준다.",
+  "8개 모델 실험에서 EBG는 원래 맥락을 그대로 주는 것보다 대부분 설정에서 결정 식별과 증거 위치 찾기를 개선했고, 입력 규모·하이퍼파라미터가 달라도 효과가 유지됐다."
+ ],
+ "keyPoints": [
+  "장시간 에이전트의 중요 결정·증거를 짚는 모니터",
+  "SW 엔지니어링 벤치마크 AgentMonBench 공개",
+  "학습 불필요 EBG, 8개 모델서 대부분 개선"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Zhongxiang Sun, Jiahao Yan, Hongkang Zhao, Haojie Ding, Boheng Zhang, Fan Yang, Xiao Zhang, Jun Xu"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "인공지능(cs.AI), cs.CL · 에이전트 감독·안전"
+  ],
+  [
+   "arXiv ID",
+   "2610.06406"
+  ],
+  [
+   "코드",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261011-paper-13",
+ "category": "paper",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}

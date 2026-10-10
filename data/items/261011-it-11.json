@@ -1,0 +1,21 @@
+{
+ "title": "안드로이드 17 QPR2 베타 7 배포…배터리 광탈 버그 수정, 픽셀 11도 포함",
+ "originalTitle": "Android 17 QPR2 Beta 7 arrives to save testers from dead batteries",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/android-17-qpr2-beta-7-3721513/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "구글이 10월 9일 픽셀 6a 이후 기기를 대상으로 '안드로이드 17 QPR2 베타 7'을 배포했다. 2주 전 나온 베타 6과 달리 이번에는 픽셀 11 시리즈도 포함됐다. 픽셀 11 이용자들은 아직 안드로이드 17 QPR1 정식 업데이트를 기다리는 중이고, 구글은 QPR3 베타도 함께 개발하고 있다.",
+  "이번 빌드의 핵심은 두 가지 버그 수정이다. 기기를 뒤집어 무음으로 만드는 'Flip to Shh' 기능 때문에 대기 중 깊은 절전 상태에 들어가지 못해 배터리가 과도하게 닳던 문제와, 시스템 다운로드 관리자로 시작한 HTTPS 다운로드가 바로 실패하던 문제를 고쳤다.",
+  "구글은 픽셀 11 프로 폴드 이용자가 얼굴 인식 잠금 해제를 다시 등록해야 할 수 있다는 경고를 반복했다. 베타 후반부라 큰 변화는 적을 것으로 보이며, 시험해 보려면 중요한 파일을 백업한 뒤 안드로이드 베타 프로그램에 등록하면 된다."
+ ],
+ "keyPoints": [
+  "픽셀 6a 이후·픽셀 11에 QPR2 베타 7 배포",
+  "대기 중 배터리 과소모·다운로드 실패 수정",
+  "픽셀 11 프로 폴드는 얼굴 인식 재등록 필요할 수도"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2026/02/android-17-logo-hero-3-scaled.jpg",
+ "id": "261011-it-11",
+ "category": "it",
+ "collectedAt": "2026-10-11T02:31:38+09:00"
+}
