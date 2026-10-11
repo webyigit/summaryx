@@ -830,6 +830,30 @@
     "T1",
     "발로란트"
    ]
+  },
+  {
+   "name": "인벤",
+   "url": "https://m.inven.co.kr/webzine/wznews.php",
+   "keywords": [
+    "업데이트",
+    "e스포츠"
+   ]
+  },
+  {
+   "name": "게임메카",
+   "url": "https://www.gamemeca.com/news.php",
+   "keywords": [
+    "신작",
+    "업데이트"
+   ]
+  },
+  {
+   "name": "루리웹 게임 뉴스",
+   "url": "https://bbs.ruliweb.com/news/531",
+   "keywords": [
+    "출시",
+    "체험판"
+   ]
   }
  ],
  "webtoon": [
@@ -838,26 +862,96 @@
    "url": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
    "keywords": [
     "character trailer",
-    "creditless opening"
+    "creditless opening",
+    "music video"
+   ]
+  },
+  {
+   "name": "AniTrendz News",
+   "url": "https://anitrendz.net/news/",
+   "keywords": [
+    "manhwa",
+    "license",
+    "NYCC"
+   ]
+  },
+  {
+   "name": "Siliconera Anime",
+   "url": "https://www.siliconera.com/category/anime/",
+   "keywords": [
+    "anime",
+    "figure",
+    "YouTube"
+   ]
+  },
+  {
+   "name": "ComicBook.com Anime",
+   "url": "https://comicbook.com/anime/news/",
+   "keywords": [
+    "dub",
+    "animated series",
+    "trailer"
+   ]
+  },
+  {
+   "name": "ABEMA TIMES 애니",
+   "url": "https://times.abema.tv/ko/anime",
+   "keywords": [
+    "선행 상영회",
+    "애니"
+   ]
+  },
+  {
+   "name": "경향게임스 웹툰&웹소설",
+   "url": "https://www.khgames.co.kr/",
+   "keywords": [
+    "웹툰 원작 애니",
+    "GV"
    ]
   }
  ],
  "sports": [
   {
+   "name": "스포츠경향",
+   "url": "https://sports.khan.co.kr/",
+   "keywords": [
+    "KBO",
+    "박신자컵",
+    "PGA"
+   ]
+  },
+  {
    "name": "OSEN 스포츠",
    "url": "https://osen.co.kr/sports",
    "keywords": [
-    "손흥민",
-    "KBL",
-    "전국체전"
+    "K리그",
+    "해외파",
+    "라리가"
    ]
   },
   {
    "name": "MLB.com",
    "url": "https://www.mlb.com/news",
    "keywords": [
-    "ALDS",
-    "ALCS"
+    "NLCS",
+    "ALCS",
+    "김혜성"
+   ]
+  },
+  {
+   "name": "일간스포츠",
+   "url": "https://isplus.com/",
+   "keywords": [
+    "KBO",
+    "KBL"
+   ]
+  },
+  {
+   "name": "헤럴드경제 미주판",
+   "url": "https://www.heraldk.com/",
+   "keywords": [
+    "KPGA",
+    "골프"
    ]
   }
  ],
@@ -1607,6 +1701,32 @@
     "와인 마켓 인사이트",
     "수입 와인"
    ]
+  },
+  {
+   "name": "와인21 이벤트",
+   "url": "https://www.wine21.com/12_event/event_list.html",
+   "keywords": [
+    "와인 디너",
+    "시음회",
+    "와인 행사"
+   ]
+  },
+  {
+   "name": "와인21 뉴스",
+   "url": "https://www.wine21.com/11_news/news_list.html",
+   "keywords": [
+    "신규 와인",
+    "국내 출시"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS",
+   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8+%EC%B6%9C%EC%8B%9C&format=rss",
+   "keywords": [
+    "와인 출시",
+    "와인 시음회",
+    "와인 매출"
+   ]
   }
  ],
  "cardesign": [
@@ -1807,61 +1927,39 @@
  ],
  "winetype": [
   {
+   "name": "Mashed (Shopping Tips·와인)",
+   "url": "https://www.mashed.com/category/wine/",
+   "keywords": [
+    "How much should you spend",
+    "Pinot Noir",
+    "Merlot"
+   ]
+  },
+  {
+   "name": "The Irish Times - Drink",
+   "url": "https://www.irishtimes.com/food/drink/",
+   "keywords": [
+    "Bordeaux",
+    "grape",
+    "John Wilson"
+   ]
+  },
+  {
    "name": "Decanter - Grape varieties",
    "url": "https://www.decanter.com/wine/grape-varieties/",
    "keywords": [
     "grape variety",
-    "Pinotage Day",
-    "Cabernet Franc"
-   ]
-  },
-  {
-   "name": "Chowhound",
-   "url": "https://www.chowhound.com/",
-   "keywords": [
-    "Cabernet Sauvignon vs Merlot",
-    "grape difference"
-   ]
-  },
-  {
-   "name": "Tasting Table",
-   "url": "https://www.tastingtable.com/",
-   "keywords": [
-    "Pinot Noir alternatives",
-    "low-tannin red",
-    "Gamay"
-   ]
-  },
-  {
-   "name": "Mashed",
-   "url": "https://www.mashed.com/",
-   "keywords": [
-    "Pinot Noir vs Merlot"
-   ]
-  },
-  {
-   "name": "Korea Daily (English)",
-   "url": "https://en.koreadaily.com/",
-   "keywords": [
-    "Sauvignon Blanc",
-    "Dana Estates"
-   ]
-  },
-  {
-   "name": "Wine Industry Advisor",
-   "url": "https://wineindustryadvisor.com/",
-   "keywords": [
-    "Merlot",
-    "variety news"
+    "Day"
    ]
   },
   {
    "name": "Bing News RSS (품종 검색)",
-   "url": "https://www.bing.com/news/search?q=Cabernet+Sauvignon+wine&format=rss",
+   "url": "https://www.bing.com/news/search?q=Pinot+Noir+wine&format=rss",
    "keywords": [
-    "Cabernet Sauvignon",
     "Pinot Noir",
-    "Sauvignon Blanc"
+    "Cabernet Sauvignon",
+    "Sauvignon Blanc",
+    "Merlot"
    ]
   }
  ],
@@ -1957,11 +2055,29 @@
  ],
  "cellar": [
   {
-   "name": "Wine Spectator (Ask Dr. Vinny - Storage)",
-   "url": "https://www.winespectator.com/listing/ask-dr-vinny/storage",
+   "name": "The Wine Cellarage (All Posts)",
+   "url": "https://winecellarage.com/all-posts/",
    "keywords": [
-    "Dr. Vinny storage",
-    "cellar temperature"
+    "wine storage",
+    "humidity",
+    "champagne storage"
+   ]
+  },
+  {
+   "name": "Rosehill Wine Cellars (RWC Journal)",
+   "url": "https://rosehillwinecellars.com/blogs/rwc-journal",
+   "keywords": [
+    "wine cooling unit",
+    "wine racking",
+    "humidity"
+   ]
+  },
+  {
+   "name": "Wine Ark (News & tips)",
+   "url": "https://wineark.com.au/wine-resources/news-tips/",
+   "keywords": [
+    "wine storage",
+    "drinking windows"
    ]
   },
   {
@@ -1969,22 +2085,7 @@
    "url": "https://www.bing.com/news/search?q=wine+storage+cellar&format=rss&qft=sortbydate%3d%221%22",
    "keywords": [
     "wine storage",
-    "cellar",
-    "wine fridge"
-   ]
-  },
-  {
-   "name": "Bing 뉴스 RSS (wine cellar)",
-   "url": "https://www.bing.com/news/search?q=wine+cellar&format=rss&qft=sortbydate%3d%221%22",
-   "keywords": [
-    "wine cellar"
-   ]
-  },
-  {
-   "name": "This Old House",
-   "url": "https://www.thisoldhouse.com/kitchens/best-wine-cooler",
-   "keywords": [
-    "best wine cooler"
+    "cellar"
    ]
   }
  ],

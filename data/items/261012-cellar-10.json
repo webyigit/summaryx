@@ -1,0 +1,39 @@
+{
+ "title": "와인셀러 냉각기는 어떻게 작동할까… 에어컨과 다른 점과 설치 전 체크",
+ "originalTitle": "Wine Cooling Unit: How It Works and What Your Cellar Needs",
+ "source": "Rosehill Wine Cellars",
+ "url": "https://rosehillwinecellars.com/blogs/rwc-journal/wine-cooling-unit-how-it-works-and-what-your-cellar-needs",
+ "publishedAt": "2026-10-03",
+ "summary": [
+  "방 하나를 와인 저장고로 꾸밀 때 핵심 장비가 셀러 냉각기다. 로즈힐 와인 셀러스는 냉각기가 방의 열을 빼내는 장치일 뿐, 단열·기밀·습도·셀러 설계도 환경을 함께 좌우한다고 설명한다. 장기 보관 기준은 대체로 55°F(약 13℃), 상대습도 50~70%이며 '정확한 숫자보다 일관성'이 중요하다.",
+  "작동 원리는 일반 냉장 사이클과 같다. 증발기에서 냉매가 셀러 공기의 열을 흡수하고, 압축기가 압력을 높이며, 응축기가 열을 셀러 밖으로 내보낸 뒤 팽창장치가 압력을 낮춰 다시 순환한다. 따라서 따뜻한 배기가 장치 주변에 갇히거나 셀러로 되돌아오면 안 된다. 냉각 과정에서 코일에 맺힌 물이 빠지긴 하지만 냉각기가 원하는 습도를 유지해 준다는 보장은 없다.",
+  "일반 에어컨이 무조건 부적합한 것은 아니지만 생활 공간용 장비는 사람의 사용 패턴에 맞춰 돌아가므로 제조사 자료와 전문가 확인이 필요하다. 단열이 약한 벽·천장, 문 틈, 햇빛 드는 유리, 따뜻한 인접 공간, 셀러 안 조명 등이 열 부하가 되며, 용량은 방 크기만이 아니라 이런 요소를 함께 따져 정해야 한다. 패널 개방이나 냉매·전기 작업은 전문가 몫이다."
+ ],
+ "keyPoints": [
+  "장기 보관 기준 55°F·습도 50~70%, 일관성이 핵심",
+  "냉각기는 열 제거 장치, 습도 유지는 별도",
+  "용량은 방 크기+단열·유리·조명 등 열 부하로"
+ ],
+ "image": "https://rosehillwinecellars.com/cdn/shop/articles/wine-cooling-unit-how-it-works-and-what-your-cellar-needs.jpg?width=2048",
+ "facts": [
+  [
+   "출처",
+   "Rosehill Wine Cellars 저널"
+  ],
+  [
+   "권장 조건",
+   "약 55°F, 상대습도 50~70%"
+  ],
+  [
+   "대상",
+   "룸형 와인셀러 구축·운영자"
+  ],
+  [
+   "글 성격",
+   "제조·판매사 가이드"
+  ]
+ ],
+ "id": "261012-cellar-10",
+ "category": "cellar",
+ "collectedAt": "2026-10-12T06:31:54+09:00"
+}
