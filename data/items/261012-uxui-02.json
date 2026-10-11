@@ -1,0 +1,39 @@
+{
+ "title": "파이어폭스 157 '노바' 디자인, 프로톤 이후 최대 개편… 둥근 탭·새 색상·사이드바 강조",
+ "originalTitle": "How to Bring Back Firefox's Old Interface After the Nova Redesign",
+ "source": "Tech to Geek",
+ "url": "https://www.tech2geek.net/how-to-bring-back-firefoxs-old-interface-after-the-nova-redesign/",
+ "publishedAt": "2026-10-10",
+ "summary": [
+  "모질라가 파이어폭스 157 업데이트로 새 인터페이스 '노바(Nova)'를 적용했다. 기사는 2021년 '프로톤' 이후 가장 큰 화면 개편이라고 설명한다. 둥근 모양의 탭, 바뀐 색상, 더 눈에 띄는 사이드바가 핵심이고 여백과 아이콘도 손봤다. 모질라는 브라우저를 더 깔끔하고 일관되게 만들고, 맞춤 설정·접근성·탐색을 개선하려는 개편이라고 밝혔다.",
+  "그러나 큰 디자인 변화가 늘 그렇듯 익숙한 작업 흐름이 흐트러져 불만을 가진 사용자도 있다. 기사는 예전 화면으로 돌아가는 방법 두 가지를 안내한다. 하나는 about:config에서 browser.nova.enabled 항목이 보이면 false로 바꾸고 재시작하는 방법, 다른 하나는 모질라의 'Firefox Proton' 테마를 설치해 예전 색감과 스타일을 일부 되살리는 방법이다.",
+  "다만 about:config 항목은 공식 문서에 없는 설정이라 이후 버전에서 사라지거나 바뀔 수 있고, 테마는 탭 모양과 배치까지 완전히 되돌리지 못한다. 결국 두 방법 모두 영구적·완전한 복원은 보장하지 않아, 노바가 파이어폭스의 기본 모습으로 자리 잡을 가능성이 크다."
+ ],
+ "keyPoints": [
+  "파이어폭스 157에 새 디자인 '노바' 적용",
+  "둥근 탭·새 색상·사이드바 강조",
+  "about:config·테마로 일부 되돌리기 가능"
+ ],
+ "image": "https://www.tech2geek.net/wp-content/uploads/2026/10/2026-10-10_09-15.webp",
+ "facts": [
+  [
+   "제품",
+   "파이어폭스 157"
+  ],
+  [
+   "디자인 이름",
+   "노바(Nova), 프로톤(2021) 이후 최대 개편"
+  ],
+  [
+   "주요 변화",
+   "둥근 탭·색상·사이드바·여백·아이콘"
+  ],
+  [
+   "되돌리기",
+   "browser.nova.enabled=false 또는 Proton 테마(비공식, 완전 복원 아님)"
+  ]
+ ],
+ "id": "261012-uxui-02",
+ "category": "uxui",
+ "collectedAt": "2026-10-12T04:32:00+09:00"
+}

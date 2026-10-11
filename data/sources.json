@@ -361,6 +361,38 @@
     "fashion business",
     "retail"
    ]
+  },
+  {
+   "name": "FashionUnited",
+   "url": "https://fashionunited.com/news/fashion",
+   "keywords": [
+    "fashion week",
+    "sustainability"
+   ]
+  },
+  {
+   "name": "Hypebeast",
+   "url": "https://hypebeast.com/fashion",
+   "keywords": [
+    "collaboration",
+    "release"
+   ]
+  },
+  {
+   "name": "The Impression",
+   "url": "https://theimpression.com/category/news/",
+   "keywords": [
+    "runway",
+    "designer news"
+   ]
+  },
+  {
+   "name": "한국섬유신문",
+   "url": "https://www.ktnews.com/",
+   "keywords": [
+    "패션 기업",
+    "섬유"
+   ]
   }
  ],
  "art": [
@@ -416,6 +448,54 @@
     "design news",
     "logo"
    ]
+  },
+  {
+   "name": "Dezeen",
+   "url": "https://www.dezeen.com/design/",
+   "keywords": [
+    "design news",
+    "exhibition"
+   ]
+  },
+  {
+   "name": "Domus",
+   "url": "https://www.domusweb.it/en/design.html",
+   "keywords": [
+    "design",
+    "designer interview"
+   ]
+  },
+  {
+   "name": "Design Week",
+   "url": "https://www.designweek.co.uk/",
+   "keywords": [
+    "design industry",
+    "design leader"
+   ]
+  },
+  {
+   "name": "Creative Boom",
+   "url": "https://www.creativeboom.com/news/",
+   "keywords": [
+    "design event",
+    "creative industry"
+   ]
+  },
+  {
+   "name": "월간 디자인",
+   "url": "https://design.co.kr/",
+   "keywords": [
+    "디자인 전시",
+    "디자이너"
+   ]
+  },
+  {
+   "name": "디자인정글",
+   "url": "https://www.jungle.co.kr/magazine",
+   "keywords": [
+    "디자인 전시리뷰",
+    "디자인 칼럼"
+   ]
   }
  ],
  "meme": [
@@ -434,6 +514,38 @@
    "keywords": [
     "Googlebook",
     "app UX"
+   ]
+  },
+  {
+   "name": "9to5Mac",
+   "url": "https://9to5mac.com/",
+   "keywords": [
+    "app design",
+    "iOS 27"
+   ]
+  },
+  {
+   "name": "디지털 인사이트",
+   "url": "https://ditoday.com/",
+   "keywords": [
+    "UX",
+    "UXer의 현장 수업"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS(앱 UI 개편)",
+   "url": "https://www.bing.com/news/search?q=%EC%95%B1+UI+%EA%B0%9C%ED%8E%B8&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "앱 UI 개편",
+    "UX 디자인"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS(app redesign)",
+   "url": "https://www.bing.com/news/search?q=app+redesign+interface&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "app redesign",
+    "interface"
    ]
   }
  ],
@@ -1014,21 +1126,21 @@
  ],
  "arch": [
   {
-   "name": "건축세계",
-   "url": "https://www.archiworldjournal.com/news/articleList.html?sc_section_code=S1N3",
-   "keywords": [
-    "건축상",
-    "설계공모",
-    "건축 뉴스"
-   ]
-  },
-  {
    "name": "건축사신문",
    "url": "https://www.ancnews.kr/news/articleList.html?view_type=sm",
    "keywords": [
     "설계공모",
     "공공건축",
     "건축 정책"
+   ]
+  },
+  {
+   "name": "건축세계",
+   "url": "https://www.archiworldjournal.com/news/articleList.html?sc_section_code=S1N3",
+   "keywords": [
+    "건축상",
+    "설계공모",
+    "건축 뉴스"
    ]
   },
   {
@@ -1075,11 +1187,11 @@
    ]
   },
   {
-   "name": "Archinect 피처",
-   "url": "https://archinect.com/features",
+   "name": "Bing 뉴스 RSS",
+   "url": "https://www.bing.com/news/search?q=%EA%B1%B4%EC%B6%95%EA%B0%80&format=rss",
    "keywords": [
-    "interview",
-    "architecture practice"
+    "건축가",
+    "건축상"
    ]
   }
  ],
@@ -1498,7 +1610,7 @@
    "keywords": [
     "concept",
     "restomod",
-    "facelift"
+    "Paris Motor Show"
    ]
   },
   {
@@ -1506,7 +1618,8 @@
    "url": "https://www.autoevolution.com/news/",
    "keywords": [
     "concept",
-    "coachbuilt"
+    "rendering",
+    "car.design.trends"
    ]
   },
   {
@@ -1514,7 +1627,8 @@
    "url": "https://www.autoherald.co.kr/news/articleList.html?view_type=sm",
    "keywords": [
     "디자인",
-    "콘셉트"
+    "콘셉트",
+    "복원"
    ]
   },
   {
@@ -1528,21 +1642,30 @@
  ],
  "package": [
   {
-   "name": "Packaging Digest",
-   "url": "https://www.packagingdigest.com/packaging-design",
-   "keywords": [
-    "packaging design",
-    "beer packaging",
-    "flexible packaging"
-   ]
-  },
-  {
    "name": "Packaging of the World",
    "url": "https://packagingoftheworld.com/",
    "keywords": [
     "food packaging",
     "cosmetics packaging",
     "beverage label"
+   ]
+  },
+  {
+   "name": "Packaging Digest",
+   "url": "https://www.packagingdigest.com/packaging-design",
+   "keywords": [
+    "packaging design",
+    "food & beverage",
+    "merch"
+   ]
+  },
+  {
+   "name": "Packaging Insights",
+   "url": "https://www.packaginginsights.com/news.html",
+   "keywords": [
+    "paper packaging",
+    "recyclable packaging",
+    "bakery packaging"
    ]
   },
   {
@@ -1585,6 +1708,24 @@
    "keywords": [
     "product design"
    ]
+  },
+  {
+   "name": "Design Milk (RSS)",
+   "url": "https://design-milk.com/feed/",
+   "keywords": [
+    "design",
+    "furniture",
+    "product"
+   ]
+  },
+  {
+   "name": "Wallpaper* Design",
+   "url": "https://www.wallpaper.com/design-interiors",
+   "keywords": [
+    "furniture",
+    "lighting",
+    "homeware"
+   ]
   }
  ],
  "brand": [
@@ -1620,6 +1761,14 @@
    "keywords": [
     "rebranding",
     "nueva identidad"
+   ]
+  },
+  {
+   "name": "Creative Review",
+   "url": "https://www.creativereview.co.uk/category/design/",
+   "keywords": [
+    "identity",
+    "rebrand"
    ]
   }
  ],
