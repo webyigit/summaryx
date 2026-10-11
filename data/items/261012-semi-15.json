@@ -1,0 +1,39 @@
+{
+ "title": "자나두·글로벌파운드리, 광자 양자컴퓨터 부품 300mm 양산 협력",
+ "originalTitle": "Xanadu and GlobalFoundries Announce Strategic Partnership to Accelerate Utility-Scale Quantum Manufacturing",
+ "source": "Xanadu(GlobeNewswire)",
+ "url": "https://www.globenewswire.com/news-release/2026/10/06/3375326/0/en/xanadu-and-globalfoundries-announce-strategic-partnership-to-accelerate-utility-scale-quantum-manufacturing.html",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "빛(광자)으로 계산하는 양자컴퓨터를 개발하는 캐나다 자나두(Xanadu)가 파운드리 글로벌파운드리(GF)와 다년간 전략적 협력을 맺었다. 실험실 수준의 핵심 부품을 반도체 공장 대량 생산 체계로 옮기는 것이 목표로, GF 뉴욕주 몰타의 300mm 생산 라인에서 만든다.",
+  "대상은 초저손실 질화규소(SiN) 광회로와 초전도 나노와이어 단일광자 검출기(SNSPD)다. SiN은 광자를 거의 손실 없이 실어 나르는 '광학 회로 기판' 역할을 하고, SNSPD는 빛 펄스 하나에 든 광자 수를 세는 검출기로 자나두는 시스템 속도를 높이고 칩 수를 크게 줄일 것으로 기대한다.",
+  "양사는 고성능 양자 모듈 관련 추가 협력도 검토 중이며, 이번 협력은 자나두의 내결함성 양자컴퓨터 시연기의 제조 기반이 될 전망이다. 계약 금액이나 구체적 일정은 공개되지 않았다. 반도체 파운드리가 양자 부품 생산으로 영역을 넓히는 사례다."
+ ],
+ "keyPoints": [
+  "GF 몰타 300mm 라인서 양자 광부품 생산",
+  "초저손실 SiN 광회로·SNSPD 검출기 양산화",
+  "계약 금액·일정은 비공개"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "기업",
+   "Xanadu·GlobalFoundries"
+  ],
+  [
+   "생산지",
+   "미국 뉴욕주 몰타(300mm)"
+  ],
+  [
+   "대상",
+   "SiN 광회로, SNSPD"
+  ],
+  [
+   "계약 규모",
+   "비공개"
+  ]
+ ],
+ "id": "261012-semi-15",
+ "category": "semi",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

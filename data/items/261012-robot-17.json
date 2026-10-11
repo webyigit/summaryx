@@ -1,0 +1,35 @@
+{
+ "title": "로봇이 실패를 기억한다…모노리토스, '로봇 경험 메모리' 시험할 팀 모집",
+ "originalTitle": "Monolithos Seeks Robotics Teams to Test a Memory Layer for Robot Experience",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/monolithos-robot-brain-memory-layer-interview",
+ "publishedAt": "2026-10-10",
+ "summary": [
+  "미국 스타트업 모노리토스(Monolithos)가 로봇의 실패와 사람의 개입 기록을 오래 보관해 다음 판단에 쓰게 하는 소프트웨어 '로봇 브레인(Robot Brain)'을 만들고, 이를 시험할 로봇 팀을 찾고 있다. 기존 로봇 시스템 옆에서 돌아가는 장기 기억 서비스로, 실패·수정·결과를 기록해 계획이나 복구 단계에 관련 경험을 건넨다.",
+  "각 '교훈'은 근거가 된 사건과 적용 조건, 반대 증거와 함께 저장되고, 새 증거가 나오면 이전 해석을 무효화하고 고친다. 블록 밀기 시뮬레이션에서 과거 결과로 제어 설정을 고르자 16개 조건 중 13개에서 복구에 성공해, 고정 설정(7개)보다 나았다.",
+  "다만 실제 로봇에서 사람의 교정이 다음 시도를 개선하는 전 과정은 아직 보여주지 못했고, 잘 만든 수작업 복구 규칙이나 로그 검색보다 낫다는 것도 입증하지 못했다고 창업자 사일러스 위는 인정했다. 다음 목표는 외부 팀의 실제 시스템 안에서 반복 실패와 복구 비용을 비교 평가하는 것이다."
+ ],
+ "keyPoints": [
+  "로봇 실패·교정 기록하는 장기 기억 계층",
+  "시뮬레이션 복구 성공 16개 중 13개",
+  "실물 효과는 아직 미검증, 외부 시험 모집"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/monolithos-robot-brain-memory-NKO6rwVs9duLosrhmPK5NWsr4QMeuC.webp",
+ "facts": [
+  [
+   "기업",
+   "모노리토스(Monolithos), 미국"
+  ],
+  [
+   "제품",
+   "로봇 브레인(Robot Brain) 공개 알파"
+  ],
+  [
+   "창업자",
+   "사일러스 위(Silas Yu)"
+  ]
+ ],
+ "id": "261012-robot-17",
+ "category": "robot",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

@@ -1,0 +1,39 @@
+{
+ "title": "美 에너지부 '제네시스 미션', 페르미랩에 극한 환경 칩 AI 설계 과제 맡겨",
+ "originalTitle": "Fermilab to lead two new Genesis Mission awards to accelerate development of microelectronics and quantum",
+ "source": "Fermilab",
+ "url": "https://news.fnal.gov/2026/10/fermilab-to-lead-two-new-genesis-mission-awards-to-accelerate-development-of-microelectronics-and-quantum/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "미국 에너지부(DOE)가 17개 국립연구소에 AI를 적용해 과학 생산성을 두 배로 끌어올리겠다는 '제네시스 미션'의 2차 과제를 선정하면서, 페르미 국립가속기연구소(페르미랩)가 주도하는 과제 2건이 포함됐다. 이 가운데 반도체 관련 과제는 극저온·강한 방사선 같은 극한 환경용 맞춤 칩 설계를 AI로 앞당기는 'AXESS'다.",
+  "AXESS 2단계에는 AMD, IBM, 지멘스 EDA, 애리조나주립대, 조지아공대, MIT, 퍼듀대, UC샌디에이고 등과 로렌스버클리·오크리지·샌디아·SLAC 국립연구소가 참여한다. 페르미랩 최고기술책임자 안나 그라셀리노는 설계 기간을 몇 달에서 몇 분으로 줄일 수 있다고 밝혔다. 양자·핵융합·입자물리 장비에 쓰일 칩이 주요 대상이다.",
+  "다른 과제는 양자 센서 개발을 위해 복잡한 양자 상태를 AI로 효율적으로 측정·분석하는 연구로 IBM·엔비디아 등이 참여한다. 과제 기간은 다년이며 지원 금액은 발표문에 나오지 않았다."
+ ],
+ "keyPoints": [
+  "DOE 제네시스 미션 2차 과제에 페르미랩 2건",
+  "AXESS: 극한 환경용 칩 설계 AI로 단축",
+  "AMD·IBM·지멘스 EDA·국립연구소 대거 참여"
+ ],
+ "image": "https://news.fnal.gov/wp-content/uploads/2026/10/26-0132-06.hr_.jpg",
+ "facts": [
+  [
+   "발주",
+   "미국 에너지부(DOE) 제네시스 미션"
+  ],
+  [
+   "주관",
+   "페르미 국립가속기연구소"
+  ],
+  [
+   "과제",
+   "AXESS(2단계)·QCVV(1단계)"
+  ],
+  [
+   "지원액",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261012-semi-12",
+ "category": "semi",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

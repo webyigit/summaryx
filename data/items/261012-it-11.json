@@ -1,0 +1,21 @@
+{
+ "title": "폴더블 폰 닫으면 안드로이드 오토 발신 안 돼…\"제미나이 전환 후 발생\" 제보",
+ "originalTitle": "This Android Auto problem is affecting calls on foldable phones",
+ "source": "Engadget",
+ "url": "https://www.engadget.com/2280033/android-auto-bug-affecting-foldable-phones-calling/",
+ "publishedAt": "2026-10-10",
+ "summary": [
+  "폴더블 폰 이용자들이 휴대폰을 닫은 상태에서는 안드로이드 오토로 전화를 걸 수 없다고 호소하고 있다. 레딧과 구글·모토로라 지원 포럼에 관련 글이 이어졌고, 받는 전화는 정상이라고 한다. 한 이용자는 통화를 계속하려면 폰을 펼치라는 메시지가 떴다고 전했다.",
+  "제보는 주로 안드로이드 16을 쓰는 모토로라 레이저 울트라(60·70) 이용자에게서 나왔고, 4월에는 삼성 갤럭시 Z 플립7에서도 같은 증상이 보고됐다. 여러 이용자가 제미나이를 쓰기 시작한 뒤 문제가 생겼다고 말해 관련 가능성이 거론되지만 원인은 확인되지 않았다.",
+  "한 레딧 이용자는 제미나이에서 구글 어시스턴트로 되돌리자 해결됐다고 했지만, 구글이 2026년 9월 4일부터 요건을 갖춘 폰에서 어시스턴트를 없애고 있어 현실적인 해법이 되기 어렵다. 구글과 모토로라는 공식 수정은 내놓지 않은 채 사례를 수집하고 있으며, 당분간은 폰을 펼쳐서 거는 것이 유일한 우회법이다."
+ ],
+ "keyPoints": [
+  "폴더블 닫힌 상태서 안드로이드 오토 발신 불가",
+  "레이저 울트라 중심, 제미나이 사용 후 발생 제보",
+  "구글·모토로라 조사 중, 공식 수정 없어"
+ ],
+ "image": "https://www.engadget.com/img/gallery/this-android-auto-problem-is-affecting-calls-on-foldable-phones/l-intro-1791386416.jpg",
+ "id": "261012-it-11",
+ "category": "it",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

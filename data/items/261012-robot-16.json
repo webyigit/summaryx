@@ -1,0 +1,35 @@
+{
+ "title": "로보테라 'VPP2', 로보도조 시뮬레이션 벤치마크 1위…영상 예측을 행동으로",
+ "originalTitle": "Robotera’s VPP2 Tops RoboDojo Simulation Benchmark by Linking Video Prediction to Robot Actions",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/robotera-vpp2-robodojo-simulation-benchmark",
+ "publishedAt": "2026-10-11",
+ "summary": [
+  "중국 휴머노이드 기업 로보테라(Robotera)의 '비디오 예측 정책 2(VPP2)'가 로봇 조작 벤치마크 '로보도조(RoboDojo)'의 시뮬레이션 리더보드에서 1위에 올랐다. 평균 점수 39.26, 성공률 32.26%로 2위 PhysicalRSI(36.27점·31.38%)를 근소하게 앞섰다. 다만 개방형 과제 성공률은 4.08%로 PhysicalRSI(24.92%)에 크게 뒤져 모든 항목에서 앞선 것은 아니다.",
+  "VPP2는 앞으로의 화면을 예측하고 이를 로봇 행동으로 바꾸는 '세계행동모델'이다. 상세 설명이 붙은 조작 영상으로 영상 파운데이션 모델을 추가 학습한 뒤, 한 번에 미래를 예측하는 시각 계획기로 압축하고, 행동 모듈이 이를 로봇 동작으로 옮긴다. 로보테라는 추가 데이터나 자기개선 없이 낸 결과라고 밝혔다.",
+  "실물 로봇 시험에서는 ALOHA 플랫폼 10개 과제 평균 성공률 58.5%를 보고했고, 상위 계획을 더하자 5개 과제군 성공률이 27.6%에서 57.6%로 올랐다. 코드는 MIT 라이선스로 깃허브에 공개됐다."
+ ],
+ "keyPoints": [
+  "VPP2, 로보도조 시뮬레이션 리더보드 1위",
+  "미래 화면 예측을 행동으로 바꾸는 방식",
+  "개방형 과제는 4.08%로 약점 남아"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/robotera-vpp2-robodojo-leaderboard-fyVT4IvVFbKPWvoBAM3qtyCqLLtLER.webp",
+ "facts": [
+  [
+   "기업",
+   "로보테라(Robotera)"
+  ],
+  [
+   "모델",
+   "VPP2(Video Prediction Policy 2)"
+  ],
+  [
+   "성적",
+   "평균 39.26점, 성공률 32.26%"
+  ]
+ ],
+ "id": "261012-robot-16",
+ "category": "robot",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

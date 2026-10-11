@@ -1,0 +1,43 @@
+{
+ "title": "FreeMatching: 편집된 사진에서도 '같은 부분'을 정확히 짝짓는 대응점 매칭",
+ "originalTitle": "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.12421",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "두 이미지에서 같은 지점을 픽셀 단위로 짝짓는 '조밀 대응(dense correspondence)'은 영상 추적·3D 복원 등의 기초 기술이다. 기존 방법은 움직임이 부드럽고 형태가 단단하다는 가정에 기대 왔는데, 이미지 편집이나 참조 이미지 기반 생성처럼 물체의 모습은 같지만 물리적 연속성은 깨지는 경우엔 잘 맞지 않는다.",
+  "연구진이 제안한 FreeMatching은 생성 모델과 의미 이해 모델의 표현을 결합하고, 고전 데이터셋·추적된 영상·합성 장면으로 학습한다. 여기에 교사 모델이 이끄는 반복 보정 단계를 더해, 조밀 대응 정답 라벨 없이도 편집 상황의 매칭을 개선했다.",
+  "어려운 편집 이미지 쌍에서 대응 정확도가 높아졌고 고전 벤치마크에서도 경쟁력을 유지했다. 또 생성 결과가 원래 물체의 정체성을 얼마나 지켰는지 재는 정량 지표로 쓸 수 있으며, 그 점수가 사람의 판단과 상관관계를 보였다. NeurIPS 2026 채택 논문이다."
+ ],
+ "keyPoints": [
+  "편집·생성 이미지에서도 통하는 대응점 매칭",
+  "생성·의미 표현 결합, 라벨 없이 반복 보정",
+  "정체성 보존 평가 지표로도 활용 가능"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Luping Liu, Bingyi Kang, Yifan Wang, Dong Xu"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "컴퓨터 비전(cs.CV), cs.LG · 대응점 매칭 (NeurIPS 2026 채택)"
+  ],
+  [
+   "arXiv ID",
+   "2610.12421"
+  ],
+  [
+   "코드",
+   "https://github.com/luping-liu/FreeMatching"
+  ]
+ ],
+ "id": "261012-paper-03",
+ "category": "paper",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

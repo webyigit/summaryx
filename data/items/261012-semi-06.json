@@ -1,0 +1,35 @@
+{
+ "title": "우주·방사선·극저온까지…극한 환경이 칩 신뢰성 설계를 바꾼다",
+ "originalTitle": "Extreme Environments Push Chips To Their Breaking Point",
+ "source": "Semiconductor Engineering",
+ "url": "https://semiengineering.com/extreme-environments-push-chips-to-their-breaking-point/",
+ "publishedAt": "2026-10-05",
+ "summary": [
+  "궤도 데이터센터, 국방, 입자물리, 양자컴퓨팅 등으로 반도체 쓰임새가 넓어지면서 칩이 방사선·열충격·진동·압력·잡음·극저온을 동시에 견뎌야 하는 상황이 늘고 있다. 세미컨덕터 엔지니어링은 예전처럼 좁은 조건에서 한 번 검증하는 방식으로는 부족하고, 신뢰성을 설계 마지막 단계가 아니라 처음부터 다뤄야 한다고 짚었다.",
+  "위성군·궤도 데이터센터·미사일 방어(골든 돔) 수요로 최신 공정에서도 내방사선 설계가 늘 것이라는 시놉시스 측 전망이 소개됐다. 사례로는 방사성 붕괴를 장수명 초소형 전력으로 바꾸는 DARPA 'Rads to Watts', AI로 극한 환경용 칩 설계를 앞당기는 페르미랩·지멘스의 AXESS, 약 9000큐리 방사선원과 77K 극저온 장비를 결합한 애리조나주립대(ASU) 시험 설비가 언급됐다.",
+  "이매지네이션 테크놀로지스는 우주선(宇宙線)에 의한 비트 반전이 AI 학습·추론을 위협한다며 다중 GPU 투표, 차량용 오류 검출 기법을 대안으로 들었다. 기사는 AI 기반 가상 모델도 결국 실제 물리 시험으로 검증해야 한다고 강조했다."
+ ],
+ "keyPoints": [
+  "방사선·극저온·진동 동시 견뎌야 하는 칩 증가",
+  "궤도 데이터센터·국방 수요로 내방사선 설계 확대",
+  "AI 설계 모델도 물리 시험 검증 필수"
+ ],
+ "image": "https://semiengineering.com/wp-content/uploads/2026/10/extreme1.jpg",
+ "facts": [
+  [
+   "주제",
+   "극한 환경 칩 신뢰성"
+  ],
+  [
+   "필자",
+   "Liz Allan"
+  ],
+  [
+   "언급 기관",
+   "시놉시스·페르미랩·지멘스·ASU·NXP·인피니언·이매지네이션"
+  ]
+ ],
+ "id": "261012-semi-06",
+ "category": "semi",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "\"피지컬 AI엔 센서~실리콘 잇는 뉴로모픽 계층 필요\"",
+ "originalTitle": "Physical AI Needs a Neuromorphic Path from Sensor to Silicon",
+ "source": "EE Times",
+ "url": "https://www.eetimes.com/physical-ai-needs-a-neuromorphic-path-from-sensor-to-silicon/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "스페인 연구기관 이켈란(Ikerlan)에서 뉴로모픽 3D 비전 프로세서 'BEGI' 설계를 이끄는 사비에르 이투르베가 EE타임스 기고에서, 로봇·드론 같은 피지컬 AI가 현실 세계 센서 데이터를 디지털 데이터처럼 고정 주기로 샘플링해 처리하는 한 한계에 부딪힌다고 주장했다. 물리 현상은 드물고 예측하기 어려운데 고정 샘플링은 대부분 쓸모없는 데이터를 대량으로 만든다는 것이다.",
+  "그는 센서와 AI 사이에 무엇을 넘길지 고르는 중간 계층을 두자고 제안했다. 픽셀별 밝기 변화만 기록하는 이벤트 카메라 같은 이벤트 기반 감지를 바탕으로, 이벤트 흐름을 장애물 거리·상대 속도·충돌까지 남은 시간 같은 과제별 물리 상태로 바꿔 GPU·NPU에 넘기고, 회피 기동처럼 빠른 반사 반응은 이 계층이 직접 처리하는 구조다.",
+  "하드웨어 측면에선 3D 적층 등으로 센서와 로직을 가깝게 붙이는 공동 설계가 반도체 기업에 기회가 될 수 있고, 명령어 집합(ISA)처럼 공통 '물리 상태 인터페이스'를 표준화하면 이벤트 비전과 이벤트 레이더가 같은 정보를 AI에 넘길 수 있다고 내다봤다."
+ ],
+ "keyPoints": [
+  "고정 샘플링이 피지컬 AI 효율 떨어뜨려",
+  "이벤트 기반 감지로 과제별 물리 상태만 전달",
+  "센서-로직 3D 적층 공동 설계가 칩 업계 기회"
+ ],
+ "image": "https://www.eetimes.com/wp-content/uploads/image_893d53.png?resize=1200,675",
+ "facts": [
+  [
+   "필자",
+   "Xabier Iturbe(Ikerlan, BEGI 설계 책임)"
+  ],
+  [
+   "형식",
+   "기고(오피니언)"
+  ],
+  [
+   "주제",
+   "뉴로모픽·이벤트 기반 센싱"
+  ]
+ ],
+ "id": "261012-semi-08",
+ "category": "semi",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

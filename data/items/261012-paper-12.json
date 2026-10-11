@@ -1,0 +1,43 @@
+{
+ "title": "SGF+: 5초 영상으로 학습해 24시간 연속 생성하는 자기회귀 영상 모델",
+ "originalTitle": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.10429",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "앞 장면을 보고 다음 장면을 이어 만드는 자기회귀 영상 생성 모델은 두 가지 일을 같은 파라미터로 한다. 지금 프레임의 노이즈를 걷어내는 일과, 이후 프레임이 참고할 '맥락(키·값 표현)'을 기록하는 일이다. 연구진은 두 역할의 학습 신호(그래디언트)가 서로 다른 방향으로 밀어 화질과 시간적 일관성을 함께 높이기 어렵게 만든다는 것을 발견했다.",
+  "SGF+(Self Gradient Forcing Plus)는 맥락 기록과 노이즈 제거에 별도 파라미터를 주되 인과적 어텐션으로 연결해 둔다. 보조 손실 없이 원래 생성 목표로만 학습하고, 맥락 기록은 미래 프레임 예측에 얼마나 도움이 되는지를 통해 간접적으로 학습된다.",
+  "비교 모델보다 프레임 단위·청크 단위 생성 모두에서 화질과 장기 일관성이 좋아졌고, 추가 영상 데이터나 더 긴 학습 구간도 필요 없었다. 5초 길이로만 학습했는데도 긴 영상 미세조정 없이 최대 24시간 연속 생성이 가능하다고 밝혔다."
+ ],
+ "keyPoints": [
+  "맥락 기록·노이즈 제거 역할의 그래디언트 충돌 발견",
+  "두 역할에 별도 파라미터, 보조 손실 없음",
+  "5초 학습으로 최대 24시간 연속 생성"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Zihan Su, Junhao Zhuang, Yaowei Li, Siwen Lu, Haoran Li, Lingen Li, Haoyu Wu, Weiyang Jin, Songchun Zhang, Haoyang Huang, Chun Yuan, Zeyue Xue, Nan Duan"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "컴퓨터 비전(cs.CV) · 영상 생성"
+  ],
+  [
+   "arXiv ID",
+   "2610.10429"
+  ],
+  [
+   "코드",
+   "https://zihan-su.github.io/self-gradient-forcing-plus (프로젝트 페이지)"
+  ]
+ ],
+ "id": "261012-paper-12",
+ "category": "paper",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

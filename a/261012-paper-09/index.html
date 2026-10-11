@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STEPQuant: 선형 어텐션 모델의 &#x27;기억 상태&#x27;를 6비트로 줄여 서빙 메모리 최대 68.7% 절감 | summaryx</title>
+<meta name="description" content="선형 어텐션 모델은 길이에 따라 커지는 KV 캐시 대신 크기가 고정된 &#x27;순환 상태&#x27;를 쓴다. 그래도 동시에 많은 요청을 처리하면 이 상태들이 메모리를 많이 차지한다. 낮은 정밀도로 줄이는 양자화를 하면 오차가 상태 갱신마다 쌓여 정확도가 크게 떨어지는 것이 문제였다. ">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="STEPQuant: 선형 어텐션 모델의 &#x27;기억 상태&#x27;를 6비트로 줄여 서빙 메모리 최대 68.7% 절감">
+<meta property="og:description" content="선형 어텐션 모델은 길이에 따라 커지는 KV 캐시 대신 크기가 고정된 &#x27;순환 상태&#x27;를 쓴다. 그래도 동시에 많은 요청을 처리하면 이 상태들이 메모리를 많이 차지한다. 낮은 정밀도로 줄이는 양자화를 하면 오차가 상태 갱신마다 쌓여 정확도가 크게 떨어지는 것이 문제였다. ">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261012-paper-09">
+<script>location.replace('../../#/a/261012-paper-09');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261012-paper-09">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">STEPQuant: 선형 어텐션 모델의 &#x27;기억 상태&#x27;를 6비트로 줄여 서빙 메모리 최대 68.7% 절감</h1>
+<p>선형 어텐션 모델은 길이에 따라 커지는 KV 캐시 대신 크기가 고정된 &#x27;순환 상태&#x27;를 쓴다. 그래도 동시에 많은 요청을 처리하면 이 상태들이 메모리를 많이 차지한다. 낮은 정밀도로 줄이는 양자화를 하면 오차가 상태 갱신마다 쌓여 정확도가 크게 떨어지는 것이 문제였다.</p><p>연구진은 오차의 영향이 두 가지에 달려 있음을 밝혔다. 시간 측면에서는 오래 남는 기억의 오차가 많은 디코딩 단계에 걸쳐 전달되고, 공간 측면에서는 키 행마다 출력에 미치는 영향이 다르며 값의 크기도 행·열마다 크게 다르다. STEPQuant는 오차 크기와 기억 지속 시간에 따라 정밀도를 배분하고, 키 행·값 열의 스케일을 함께 정하는 학습 후 양자화 기법이다.</p><p>Qwen3.8-27B와 Kimi-Linear-48B-A3B-Instruct에서 명목 6비트로 FP32 상태 정확도에 거의 근접했고, 4비트에서도 균일 INT8보다 나았다. SGLang에 GPU 커널과 함께 넣었을 때 순환 상태를 5배 넘게 압축하고 전체 서빙 메모리를 최대 68.7% 줄였다.</p>
+<p><a href="https://arxiv.org/abs/2609.38169">원문 보기</a></p>
+</body></html>

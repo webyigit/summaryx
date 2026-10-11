@@ -1,0 +1,35 @@
+{
+ "title": "\"화려한 데모보다 '지루한' 로봇이 이긴다\"…형태는 작업에서 출발해야",
+ "originalTitle": "Will 'boring' robots win in the real world? Why robotic form should follow workflow",
+ "source": "The Robot Report",
+ "url": "https://www.therobotreport.com/will-boring-robots-win-in-the-real-world-why-robotic-form-should-follow-workflow/",
+ "publishedAt": "2026-10-11",
+ "summary": [
+  "센서 기업 VPG의 론 주커만 혁신 디렉터는 기고에서, 업계가 멋진 플랫폼을 먼저 만들고 일거리를 찾는 '로봇 우선' 방식에 빠져 있다고 지적했다. 상업적으로 살아남으려면 돈이 되는 작업을 먼저 정하고, 로봇이 사람보다 잘할 수 있는지 따진 뒤 하드웨어·센서·형태를 거꾸로 설계해야 한다는 것이다.",
+  "예컨대 자동차 핀 삽입은 0.1N 이하의 힘 분해능이 필요하지만, 팔레트 적재는 큰 하중과 100만 회 내구성이 중요해 같은 센서로 둘 다 만족시키기 어렵다. 그의 시험에서는 접촉력을 ±0.2N 안으로 유지하자 커넥터 불량률이 1.2%에서 0.5%로 떨어져 라인당 연 45만 달러를 아꼈다. 새로 짓는 시설은 바퀴·다리형 전용 로봇이 유리하고, 사람 기준으로 지어진 기존 공장에서는 휴머노이드형이 개조 비용을 아낄 수 있다고 봤다.",
+  "그는 바이럴 영상 대신 개입 간 평균 시간(MTBI), 작업 단위당 비용, 재배치 시간, 운영 시간당 안전사고 같은 지표를 보라고 제안했다. 한 번 성공하는 영상이 아니라 같은 일을 1만 번 연속 실패 없이 해내는 것이 사업이라는 주장이다."
+ ],
+ "keyPoints": [
+  "작업에서 출발해 로봇 형태를 거꾸로 설계",
+  "힘 제어로 커넥터 불량 1.2%→0.5%",
+  "MTBI·작업당 비용 등 운영 지표 강조"
+ ],
+ "image": "https://www.therobotreport.com/wp-content/uploads/2026/10/bostondynamics-featured.jpg",
+ "facts": [
+  [
+   "필자",
+   "론 주커만, VPG 혁신 디렉터"
+  ],
+  [
+   "형식",
+   "기고"
+  ],
+  [
+   "핵심 지표",
+   "MTBI·작업 단위당 비용·재배치 시간·안전사고율"
+  ]
+ ],
+ "id": "261012-robot-18",
+ "category": "robot",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

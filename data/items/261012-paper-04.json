@@ -1,0 +1,43 @@
+{
+ "title": "MC-Sparse: 영상·3D 생성 AI를 품질 손실 없이 최대 2.3배 빠르게",
+ "originalTitle": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.06801",
+ "publishedAt": "2026-10-05",
+ "summary": [
+  "영상이나 3D 물체를 만드는 확산 트랜스포머는 다룰 토큰이 매우 많아 느리다. 일부 토큰 사이 계산만 하는 '희소 어텐션'으로 속도를 높일 수 있지만, 많이 생략할수록 품질이 떨어지는 문제가 있었다.",
+  "연구진은 통제된 비교 실험으로 품질 저하의 원인을 세 가지로 나눴다. 토큰을 묶음 단위로 고르는 제약, 중요한 토큰 쌍을 잘못 고르는 선택 오류, 버린 토큰의 기여가 사라지는 손실이다. 이를 바탕으로 만든 MC-Sparse는 추가 학습 없이, 키·값 토큰을 개별로 고르고 비슷한 쿼리를 GPU에 유리한 타일로 묶으며, 정확한 어텐션 확률로 고른 인덱스와 '전체 계산과의 차이(잔차)'를 저장해 여러 디노이징 단계에서 재사용한다.",
+  "기존 희소 방식보다 전체 어텐션 결과에 더 가깝게 맞췄고, Minimax-H3-Base 영상 생성에서 1.80배, 3D 에셋 생성에서 2.32배 빨라지면서 품질 손실은 미미했다고 보고했다."
+ ],
+ "keyPoints": [
+  "희소 어텐션 품질 저하 원인 세 가지 규명",
+  "학습 없이 토큰 개별 선택·잔차 재사용",
+  "영상 1.80배·3D 2.32배 가속, 품질 유지"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Jiarui Chen, Zeqiang Lai, Jiangshan Wang, Ziheng Ouyang, Ye Huang, Xiangyu Yue, Cewu Lu, Chunchao Guo"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "컴퓨터 비전(cs.CV), cs.AI · 확산 트랜스포머 효율화"
+  ],
+  [
+   "arXiv ID",
+   "2610.06801"
+  ],
+  [
+   "코드",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261012-paper-04",
+ "category": "paper",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

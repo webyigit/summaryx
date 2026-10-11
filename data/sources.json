@@ -16,9 +16,59 @@
     "AI 보고서",
     "소버린 AI"
    ]
+  },
+  {
+   "name": "TechCrunch AI",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "keywords": [
+    "AI startup",
+    "AI agents"
+   ]
+  },
+  {
+   "name": "VentureBeat AI",
+   "url": "https://venturebeat.com/category/ai/",
+   "keywords": [
+    "enterprise AI",
+    "agents"
+   ]
+  },
+  {
+   "name": "Engadget AI",
+   "url": "https://www.engadget.com/ai/",
+   "keywords": [
+    "OpenAI",
+    "ChatGPT"
+   ]
+  },
+  {
+   "name": "SiliconANGLE AI",
+   "url": "https://siliconangle.com/category/ai/",
+   "keywords": [
+    "AI governance"
+   ]
+  },
+  {
+   "name": "자본시장(jabon)",
+   "url": "https://www.jabon.co.kr/",
+   "keywords": [
+    "AI 소송"
+   ]
   }
  ],
  "ax": [
+  {
+   "name": "Bing 뉴스 RSS(최신순)",
+   "url": "https://www.bing.com/news/search?q=AX+%EC%A0%84%ED%99%98+%EA%B8%B0%EC%97%85&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "AX 전환",
+    "AX 기업 AI",
+    "공공 AX",
+    "AX 중소기업",
+    "AI 전환 기업 사례",
+    "AX 교육 임직원"
+   ]
+  },
   {
    "name": "헬로티",
    "url": "https://www.hellot.net/news/article_list_all.html",
@@ -27,11 +77,17 @@
    ]
   },
   {
-   "name": "Bing 뉴스 RSS(최신순)",
-   "url": "https://www.bing.com/news/search?q=AX+%EC%A0%84%ED%99%98+%EA%B8%B0%EC%97%85&format=rss&qft=sortbydate%3d%221%22",
+   "name": "디지털투데이",
+   "url": "https://www.digitaltoday.co.kr/news/articleList.html?view_type=sm",
    "keywords": [
-    "AX 전환",
-    "중소기업 AX"
+    "기업용 AI"
+   ]
+  },
+  {
+   "name": "지디넷코리아",
+   "url": "https://zdnet.co.kr/news/?lstcode=0050&page=1",
+   "keywords": [
+    "AI 업무 도입"
    ]
   }
  ],
@@ -65,6 +121,23 @@
    "keywords": [
     "신차",
     "전기차"
+   ]
+  },
+  {
+   "name": "Carscoops",
+   "url": "https://www.carscoops.com/",
+   "keywords": [
+    "신차",
+    "리뷰",
+    "리콜"
+   ]
+  },
+  {
+   "name": "electrive",
+   "url": "https://www.electrive.com/",
+   "keywords": [
+    "EV",
+    "충전"
    ]
   }
  ],
@@ -221,11 +294,46 @@
  ],
  "it": [
   {
+   "name": "전자신문",
+   "url": "https://www.etnews.com/news/section.html?id1=03",
+   "keywords": [
+    "통신",
+    "6G",
+    "플랫폼"
+   ]
+  },
+  {
+   "name": "지디넷코리아",
+   "url": "https://zdnet.co.kr/news/?lstcode=0000",
+   "keywords": [
+    "서버",
+    "디스플레이",
+    "플랫폼 규제"
+   ]
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/news/",
+   "keywords": [
+    "Googlebook",
+    "handheld"
+   ]
+  },
+  {
    "name": "9to5Google",
    "url": "https://9to5google.com/",
    "keywords": [
+    "Google Health",
     "Google Wallet",
     "Googlebook"
+   ]
+  },
+  {
+   "name": "Engadget",
+   "url": "https://www.engadget.com/news/",
+   "keywords": [
+    "Android Auto",
+    "bug"
    ]
   },
   {
@@ -233,7 +341,7 @@
    "url": "https://techcrunch.com/latest/",
    "keywords": [
     "startup",
-    "energy"
+    "hardware"
    ]
   }
  ],
@@ -408,24 +516,56 @@
    "name": "MacRumors",
    "url": "https://www.macrumors.com/",
    "keywords": [
-    "Apple home hub",
-    "ADT"
+    "HomeView",
+    "iPhone Duo",
+    "Apple TV 4K"
    ]
   },
   {
    "name": "9to5Mac",
    "url": "https://9to5mac.com/",
    "keywords": [
-    "MacBook Pro",
-    "M7"
+    "iOS 27",
+    "macOS 27"
    ]
   },
   {
    "name": "9to5Google",
-   "url": "https://9to5google.com/",
+   "url": "https://9to5google.com/guides/samsung/",
    "keywords": [
-    "One UI 9",
-    "Android 17"
+    "Googlebook",
+    "Galaxy"
+   ]
+  },
+  {
+   "name": "SamMobile",
+   "url": "https://www.sammobile.com/",
+   "keywords": [
+    "Galaxy S27",
+    "The Frame"
+   ]
+  },
+  {
+   "name": "디지털데일리",
+   "url": "https://www.ddaily.co.kr/",
+   "keywords": [
+    "삼성전자",
+    "애플"
+   ]
+  },
+  {
+   "name": "Android Authority",
+   "url": "https://www.androidauthority.com/news/",
+   "keywords": [
+    "iPhone Duo"
+   ]
+  },
+  {
+   "name": "파이낸셜뉴스",
+   "url": "https://www.fnnews.com/",
+   "keywords": [
+    "삼성 MX",
+    "갤럭시"
    ]
   }
  ],
@@ -571,6 +711,31 @@
  ],
  "robot": [
   {
+   "name": "로봇신문",
+   "url": "https://www.irobotnews.com/",
+   "keywords": [
+    "로봇",
+    "휴머노이드",
+    "피지컬 AI"
+   ]
+  },
+  {
+   "name": "Humanoids Daily",
+   "url": "https://www.humanoidsdaily.com/news",
+   "keywords": [
+    "humanoid",
+    "robot foundation model"
+   ]
+  },
+  {
+   "name": "The Robot Report",
+   "url": "https://www.therobotreport.com/",
+   "keywords": [
+    "robotics",
+    "physical AI"
+   ]
+  },
+  {
    "name": "Robotics 24/7",
    "url": "https://www.robotics247.com/",
    "keywords": [
@@ -646,6 +811,24 @@
    "keywords": [
     "HBM",
     "foundry"
+   ]
+  },
+  {
+   "name": "Semiconductor Engineering Week In Review",
+   "url": "https://semiengineering.com/chip-industry-week-in-review-159/",
+   "keywords": [
+    "M&A",
+    "funding",
+    "research"
+   ]
+  },
+  {
+   "name": "BusinessKorea",
+   "url": "https://www.businesskorea.co.kr/news/articleList.html?sc_section_code=S1N2&view_type=sm",
+   "keywords": [
+    "Samsung",
+    "SK hynix",
+    "CXMT"
    ]
   }
  ],

@@ -1,0 +1,21 @@
+{
+ "title": "구글북 리눅스 지원 아쉽다면…앱 '브레드스틱 리눅스'로 데스크톱·GIMP 실행",
+ "originalTitle": "Linux app support is disappointing on Googlebooks, but Breadstick Linux is the solution",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/breadstick-linux-android-app-googlebooks-3721224/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "구글의 새 노트북 플랫폼 구글북은 기본 리눅스 지원(안드로이드 터미널)이 명령줄 중심이라 쓰기 어렵다는 평가가 나온다. 안드로이드 어소리티는 그 대안으로 구글 플레이의 서드파티 앱 '브레드스틱 리눅스'를 소개했다. 컨테이너 안에서 맞춤형 데비안 리눅스를 돌리는 앱으로, 원래 폰·태블릿용이었다가 구글북에 맞게 손봤고 최신판은 인텔 기반 모델도 지원한다.",
+  "필요 파일을 내려받고 계정을 만든 뒤 추천 앱 메뉴에서 한 번에 소프트웨어를 설치하면 데스크톱 모드, 터미널, 떠 있는 앱 창을 쓸 수 있다. 시험에서 GIMP와 2D 게임 슈퍼턱스 2는 매끄럽게 돌았지만, 크롬은 백그라운드 프로세스 제한 경고가 떴고 이를 풀려면 시스템 전체에 적용되는 ADB 명령이 필요해 배터리에 영향을 줄 수 있다.",
+  "무료판은 데스크톱 모드, 떠 있는 리눅스 앱 2개, 터미널 탭 2개, SSH·VNC, .deb·AppImage 설치를 지원한다. 20달러 일회성 결제인 프로판은 무제한 앱 창, 인쇄, 드래그 앤 드롭, GPU 가속, 다중 데스크톱 등을 더한다. 윈도 앱은 지원하지 않는다."
+ ],
+ "keyPoints": [
+  "구글북 기본 리눅스 지원은 명령줄 위주",
+  "브레드스틱, 데비안 컨테이너로 데스크톱 제공",
+  "무료판 기본 기능, 프로판 20달러 일회성"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2026/10/breadstick-Linux-on-Googlebook-edited-scaled.jpg",
+ "id": "261012-it-09",
+ "category": "it",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

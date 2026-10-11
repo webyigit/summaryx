@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SRD: 실패한 시도의 &#x27;뒤늦은 깨달음&#x27;을 미리 내다보는 능력으로 바꾸는 학습법 | summaryx</title>
+<meta name="description" content="검증 가능한 보상을 쓰는 강화학습(RLVR)은 과제가 끝난 뒤 성공·실패 점수 하나로 에이전트를 학습시킨다. 그런데 여러 시도를 묶어 비교하는 방식에서는 모든 시도가 똑같이 실패(또는 성공)하면 학습 신호가 사라진다. 그 시도들 안에도 과제가 무엇을 요구하는지, 어디서">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SRD: 실패한 시도의 &#x27;뒤늦은 깨달음&#x27;을 미리 내다보는 능력으로 바꾸는 학습법">
+<meta property="og:description" content="검증 가능한 보상을 쓰는 강화학습(RLVR)은 과제가 끝난 뒤 성공·실패 점수 하나로 에이전트를 학습시킨다. 그런데 여러 시도를 묶어 비교하는 방식에서는 모든 시도가 똑같이 실패(또는 성공)하면 학습 신호가 사라진다. 그 시도들 안에도 과제가 무엇을 요구하는지, 어디서">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261012-paper-08">
+<script>location.replace('../../#/a/261012-paper-08');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261012-paper-08">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">SRD: 실패한 시도의 &#x27;뒤늦은 깨달음&#x27;을 미리 내다보는 능력으로 바꾸는 학습법</h1>
+<p>검증 가능한 보상을 쓰는 강화학습(RLVR)은 과제가 끝난 뒤 성공·실패 점수 하나로 에이전트를 학습시킨다. 그런데 여러 시도를 묶어 비교하는 방식에서는 모든 시도가 똑같이 실패(또는 성공)하면 학습 신호가 사라진다. 그 시도들 안에도 과제가 무엇을 요구하는지, 어디서 실패하는지에 대한 정보가 있는데도 말이다.</p><p>연구진은 과제 후 경험을 &#x27;행동 전 예측&#x27;의 학습 재료로 쓰는 &#x27;전망 학습&#x27;을 제안하고, 이를 자기 회고 증류(SRD)로 구현했다. 모델이 끝난 시도를 돌아보며 얻은 깨달음을, 그 기록을 보지 않은 상태의 같은 모델이 미리 예측하도록 증류한다. 이 예측은 학습 목표로만 쓰이고 실제 사용 시에는 생성하지 않는다.</p><p>도구 활용·장기 에이전트 과제 10종에서 RLVR과 자기 증류에 더해 최대 24.2%p 개선됐다. 특히 2B 모델에서 98%의 시도 묶음이 전부 실패하던 상황에서 RLVR은 성공률 0.0%로 끝났지만, SRD를 더하면 60.6%에 도달했다.</p>
+<p><a href="https://arxiv.org/abs/2610.08077">원문 보기</a></p>
+</body></html>

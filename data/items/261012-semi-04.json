@@ -1,0 +1,35 @@
+{
+ "title": "르네사스, 첫 100V 저전압 GaN FET 출시…AI 데이터센터·휴머노이드 겨냥",
+ "originalTitle": "Renesas Expands GaN Portfolio with First Low-Voltage GaN FETs for AI Data Centers and Robotics",
+ "source": "Renesas",
+ "url": "https://www.renesas.com/en/about/newsroom/renesas-expands-gan-portfolio-first-low-voltage-gan-fets-ai-data-centers-and-robotics",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "일본 르네사스 일렉트로닉스가 질화갈륨(GaN) 전력반도체 제품군을 저전압 영역으로 넓혀 첫 100V 인핸스먼트 모드 GaN 트랜지스터 4종(RTP100E 시리즈)을 내놨다. 대상은 AI 데이터센터, 휴머노이드 로봇, 공장 자동화, 산업용 모터, 전동공구, 태양광 마이크로인버터 등이다.",
+  "온저항은 5mΩ~1.2mΩ이며 역회복 전하가 0이고 게이트·출력 전하가 낮다. 르네사스는 비교 대상 GaN 소자보다 하드 스위칭 성능지수가 최대 35%, 소프트 스위칭은 최대 63% 낮고, 스위칭 손실 40~70% 감소, 시스템 전력 밀도 최대 2배, 실리콘 설계 대비 효율 1~3% 향상을 내세웠다. 하단·양면 냉각 옵션을 지원하고 실리콘 MOSFET과 호환되는 패키지라 기판을 크게 바꾸지 않고 옮길 수 있다.",
+  "회사는 AI 서버와 산업 인프라가 800VDC·48V 버스 구조로 바뀌고 변환 단계가 MHz급 스위칭으로 옮겨 가는 흐름을 겨냥했다고 설명했다. 제품과 평가 보드는 바로 구매할 수 있다."
+ ],
+ "keyPoints": [
+  "첫 100V E-mode GaN FET 4종 출시",
+  "온저항 5~1.2mΩ, 스위칭 손실 40~70%↓(회사 주장)",
+  "800VDC·48V AI 서버 전원 구조 겨냥"
+ ],
+ "image": "https://www.renesas.com/sites/default/files/styles/open_graph/public/low-voltage-gan-pressphoto-en.jpg?itok=pNoh_LEc",
+ "facts": [
+  [
+   "기업",
+   "르네사스 일렉트로닉스"
+  ],
+  [
+   "제품",
+   "RTP100E 시리즈 100V GaN FET 4종"
+  ],
+  [
+   "출시",
+   "즉시 구매 가능(평가 보드 포함)"
+  ]
+ ],
+ "id": "261012-semi-04",
+ "category": "semi",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

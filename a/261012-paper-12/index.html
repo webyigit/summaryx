@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SGF+: 5초 영상으로 학습해 24시간 연속 생성하는 자기회귀 영상 모델 | summaryx</title>
+<meta name="description" content="앞 장면을 보고 다음 장면을 이어 만드는 자기회귀 영상 생성 모델은 두 가지 일을 같은 파라미터로 한다. 지금 프레임의 노이즈를 걷어내는 일과, 이후 프레임이 참고할 &#x27;맥락(키·값 표현)&#x27;을 기록하는 일이다. 연구진은 두 역할의 학습 신호(그래디언트)가 서로 다른 방향">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SGF+: 5초 영상으로 학습해 24시간 연속 생성하는 자기회귀 영상 모델">
+<meta property="og:description" content="앞 장면을 보고 다음 장면을 이어 만드는 자기회귀 영상 생성 모델은 두 가지 일을 같은 파라미터로 한다. 지금 프레임의 노이즈를 걷어내는 일과, 이후 프레임이 참고할 &#x27;맥락(키·값 표현)&#x27;을 기록하는 일이다. 연구진은 두 역할의 학습 신호(그래디언트)가 서로 다른 방향">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261012-paper-12">
+<script>location.replace('../../#/a/261012-paper-12');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261012-paper-12">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">SGF+: 5초 영상으로 학습해 24시간 연속 생성하는 자기회귀 영상 모델</h1>
+<p>앞 장면을 보고 다음 장면을 이어 만드는 자기회귀 영상 생성 모델은 두 가지 일을 같은 파라미터로 한다. 지금 프레임의 노이즈를 걷어내는 일과, 이후 프레임이 참고할 &#x27;맥락(키·값 표현)&#x27;을 기록하는 일이다. 연구진은 두 역할의 학습 신호(그래디언트)가 서로 다른 방향으로 밀어 화질과 시간적 일관성을 함께 높이기 어렵게 만든다는 것을 발견했다.</p><p>SGF+(Self Gradient Forcing Plus)는 맥락 기록과 노이즈 제거에 별도 파라미터를 주되 인과적 어텐션으로 연결해 둔다. 보조 손실 없이 원래 생성 목표로만 학습하고, 맥락 기록은 미래 프레임 예측에 얼마나 도움이 되는지를 통해 간접적으로 학습된다.</p><p>비교 모델보다 프레임 단위·청크 단위 생성 모두에서 화질과 장기 일관성이 좋아졌고, 추가 영상 데이터나 더 긴 학습 구간도 필요 없었다. 5초 길이로만 학습했는데도 긴 영상 미세조정 없이 최대 24시간 연속 생성이 가능하다고 밝혔다.</p>
+<p><a href="https://arxiv.org/abs/2610.10429">원문 보기</a></p>
+</body></html>

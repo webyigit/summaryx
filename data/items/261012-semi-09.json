@@ -1,0 +1,35 @@
+{
+ "title": "트렌드포스 \"메모리·CPU값에 2027년 노트북 출하 감소 우려\"",
+ "originalTitle": "Rising Costs Threaten Notebook Demand in 2027, Raising Risks of Shipment Declines and Price Increases, Says TrendForce",
+ "source": "TrendForce",
+ "url": "https://www.trendforce.com/presscenter/news/20261008-13264.html",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "시장조사업체 트렌드포스는 2027년 노트북 시장의 가장 큰 위험이 부품 수급이 아니라 원가 상승에 따른 수요 위축으로 옮겨 갔다고 분석했다. 2027년 세계 노트북 출하량은 한 자릿수 초반 감소가 예상되며, D램·CPU 가격이 높게 유지되고 브랜드가 이를 소비자 가격에 전가하면 교체 주기가 길어져 감소 폭이 한 자릿수 후반까지 커질 수 있다.",
+  "2026년 출하는 CPU 공급 개선, 브랜드의 선제 구매, 일부 앞당겨진 교체 수요 덕에 버텼지만 실제 수요 회복은 아니라는 진단이다. 2026년 3분기 기준 권장가 900달러대 주력 노트북에서 CPU·D램·SSD가 부품원가(BOM)의 약 68%를 차지했다. 브랜드는 가격 인상, 마진 희생, 메모리 용량 축소 같은 사양 하향 중 선택해야 하는 처지다.",
+  "D램은 AI 서버가 첨단 공정 생산능력을 흡수하면서 PC용 공급 증가가 제한돼 빠듯한 상태가 이어지고, 낸드는 신규 증설로 2027년 하반기 다소 풀릴 수 있다. PCB·MLCC·PMIC도 가격 상승이나 납기 지연 압박이 있다고 트렌드포스는 덧붙였다."
+ ],
+ "keyPoints": [
+  "2027년 노트북 출하 한 자릿수 감소 전망",
+  "900달러 노트북 원가 68%가 CPU·D램·SSD",
+  "AI 서버가 D램 흡수…PC용 공급 빠듯"
+ ],
+ "image": "https://img.trendforce.com/EDM/2026/10/20261008_152148_3.jpg",
+ "facts": [
+  [
+   "기관",
+   "TrendForce"
+  ],
+  [
+   "전망",
+   "2027년 노트북 출하 한 자릿수 초반~후반 감소"
+  ],
+  [
+   "원가 비중",
+   "CPU·D램·SSD 약 68%(2026년 3분기)"
+  ]
+ ],
+ "id": "261012-semi-09",
+ "category": "semi",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}

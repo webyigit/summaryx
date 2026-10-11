@@ -1,0 +1,35 @@
+{
+ "title": "키사이트, RF 설계 SW에 에이전틱 AI…MCP 서버로 AI 에이전트 연결",
+ "originalTitle": "Keysight Advances its Design Software with Agentic AI",
+ "source": "Keysight",
+ "url": "https://www.keysight.com/gb/en/about/newsroom/catalog/news-release.2026.1006_pr26-095-keysight-advances-its-design-software-with-agentic-ai.html",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "계측·설계 SW 기업 키사이트가 RF(무선주파수) 회로 설계 소프트웨어에 에이전틱 AI 기능을 넣었다. 엔지니어가 자신이 쓰는 대형언어모델(LLM)로 AI 에이전트에게 복잡한 RF 설계 작업을 맡기고, 결과는 키사이트 시뮬레이션으로 검증하는 방식이다. 대상 제품은 ADS 2027과 RF 회로 시뮬레이션 프로페셔널(Nexus)이다.",
+  "핵심은 AI 에이전트를 ADS에 연결하는 MCP(Model Context Protocol) 서버다. 키사이트가 만든 문서화된 기능·도구를 에이전트에 제공해 일반 AI 답변의 들쭉날쭉함을 줄인다. 작업 흐름을 매크로로 녹화해 에이전트가 배우게 하고, 그래픽 설계도를 에이전트가 읽을 수 있는 코드로 바꾸며, 파이썬 스크립트도 생성한다.",
+  "키사이트는 RF 설계가 전문 지식과 LLM이 잘 읽지 못하는 회로도·레이아웃에 의존해 AI 도입이 느렸다고 설명했다. 이 기능들은 지금 바로 쓸 수 있다."
+ ],
+ "keyPoints": [
+  "ADS 2027 등에 에이전틱 AI 기능 탑재",
+  "MCP 서버로 고객 LLM과 설계 도구 연결",
+  "에이전트 결과는 키사이트 시뮬레이션으로 검증"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "기업",
+   "Keysight Technologies"
+  ],
+  [
+   "제품",
+   "ADS 2027, RF Circuit Simulation Professional(Nexus)"
+  ],
+  [
+   "출시",
+   "즉시 제공"
+  ]
+ ],
+ "id": "261012-semi-17",
+ "category": "semi",
+ "collectedAt": "2026-10-12T02:32:23+09:00"
+}
