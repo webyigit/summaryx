@@ -1,0 +1,35 @@
+{
+ "title": "항공·호텔 멤버십을 챗GPT·클로드 안으로…디피니티브 'AI 로열티' 플랫폼",
+ "originalTitle": "Dfinitiv unveils travel loyalty experiences platform for AI assistants",
+ "source": "PhocusWire",
+ "url": "https://www.phocuswire.com/news/technology/dfinitiv-unveils-travel-loyalty-experiences-platform-ai-assistants",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "로열티 커머스 기술 기업 디피니티브(Dfinitiv)가 여행 로열티 프로그램을 챗GPT·클로드 같은 AI 어시스턴트 안에서 구현하는 플랫폼을 내놨다. 회원이 어시스턴트에서 로그인하면 현재 혜택과 제휴 오퍼를 보고, 기능이 갖춰지는 대로 구매까지 할 수 있다. 대화 안 결제가 안 되는 곳에서는 프로그램 자체 결제 화면으로 넘긴다.",
+  "플랫폼은 세 부분으로 이뤄진다. 'AI 포지'는 MCP 서버와 가드레일을 포함한 로열티 프로그램용 AI 앱을 만들고, 'AI 엔진'은 모든 어시스턴트에 같은 지식과 규칙을 제공하며, 'AI 센터'는 어떤 어시스턴트가 쓰는지, 회원이 무엇을 묻는지, 질문당 비용과 답변 공백을 보여준다. 조 피츠제럴드 CEO는 새 AI 어시스턴트마다 하나의 채널이며, 빠지면 고객 대화를 남에게 뺏긴다고 강조했다. 플랫폼마다 규칙이 달라 이를 따라잡는 도구가 필요하다는 설명이다.",
+  "디피니티브는 약 1년 전 유나이티드항공 벤처스의 투자를 받았고, 유나이티드 마일리지플러스 X 쇼핑·외식 서비스를 이미 운영 중이다. 회원 데이터는 AI 학습에 쓰지 않는다고 밝혔으며, 11월 포커스라이트 콘퍼런스에서 시연할 예정이다."
+ ],
+ "keyPoints": [
+  "로열티 혜택을 AI 어시스턴트 안에서 조회·구매",
+  "포지·엔진·센터 3개 구성, MCP 서버 지원",
+  "유나이티드항공 벤처스 투자 기업"
+ ],
+ "image": "https://ik.imgkit.net/3vlqs5axxjf/external/https://ckbox.cloud/Nvtt0hWlKPm5OQkhAlsd/assets/LMT_DVOn7rlr/file?tr=w-1200%2Cfo-auto",
+ "facts": [
+  [
+   "기업",
+   "Dfinitiv"
+  ],
+  [
+   "플랫폼",
+   "SmartCXP AI(Agentic Loyalty Experiences)"
+  ],
+  [
+   "투자",
+   "United Airlines Ventures"
+  ]
+ ],
+ "id": "261012-travel-09",
+ "category": "travel",
+ "collectedAt": "2026-10-12T05:31:18+09:00"
+}

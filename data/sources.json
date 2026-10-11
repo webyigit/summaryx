@@ -559,11 +559,36 @@
    ]
   },
   {
+   "name": "식품저널",
+   "url": "https://www.foodnews.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "농식품부",
+    "식품 안전"
+   ]
+  },
+  {
+   "name": "푸드아이콘",
+   "url": "https://www.foodicon.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "농진청",
+    "국감",
+    "K-푸드"
+   ]
+  },
+  {
    "name": "Food Dive",
    "url": "https://www.fooddive.com/",
    "keywords": [
     "ingredients",
     "protein"
+   ]
+  },
+  {
+   "name": "Food Business News",
+   "url": "https://www.foodbusinessnews.net/",
+   "keywords": [
+    "snacks",
+    "bakery"
    ]
   },
   {
@@ -767,7 +792,8 @@
    "url": "https://wineindustryadvisor.com/",
    "keywords": [
     "award",
-    "wine tourism"
+    "wine tourism",
+    "winery AI"
    ]
   },
   {
@@ -776,6 +802,15 @@
    "keywords": [
     "Italian wine market",
     "wine tourism"
+   ]
+  },
+  {
+   "name": "Vinetur",
+   "url": "https://www.vinetur.com/en/",
+   "keywords": [
+    "wine trade",
+    "alcohol policy",
+    "wine exports"
    ]
   }
  ],
@@ -1200,8 +1235,57 @@
    "name": "Skift",
    "url": "https://skift.com/news/",
    "keywords": [
-    "luxury travel",
-    "tour operator"
+    "Saudi tourism",
+    "travel AI"
+   ]
+  },
+  {
+   "name": "Travel Weekly",
+   "url": "https://www.travelweekly.com/Travel-News",
+   "keywords": [
+    "all-inclusive",
+    "cruise",
+    "airline"
+   ]
+  },
+  {
+   "name": "Business Travel News Europe",
+   "url": "https://www.businesstravelnewseurope.com/",
+   "keywords": [
+    "TMC",
+    "airline"
+   ]
+  },
+  {
+   "name": "PhocusWire",
+   "url": "https://www.phocuswire.com/news",
+   "keywords": [
+    "AI agent",
+    "loyalty",
+    "vacation rental"
+   ]
+  },
+  {
+   "name": "Aviation24.be",
+   "url": "https://www.aviation24.be/",
+   "keywords": [
+    "airline",
+    "airport"
+   ]
+  },
+  {
+   "name": "트래블데일리",
+   "url": "https://www.traveldaily.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "여행 상품",
+    "여행지"
+   ]
+  },
+  {
+   "name": "여행신문",
+   "url": "https://www.traveltimes.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "여행업계"
    ]
   },
   {
@@ -1342,59 +1426,42 @@
  ],
  "winepick": [
   {
+   "name": "The Irish Times (John Wilson)",
+   "url": "https://www.irishtimes.com/author/john-wilson/",
+   "keywords": [
+    "wines for the weekend",
+    "affordable wines"
+   ]
+  },
+  {
+   "name": "Natalie MacLean",
+   "url": "https://www.nataliemaclean.com/blog/",
+   "keywords": [
+    "wine picks",
+    "Thanksgiving wines"
+   ]
+  },
+  {
    "name": "Decanter",
    "url": "https://www.decanter.com/wine-reviews-tastings/",
    "keywords": [
     "panel tasting",
-    "expert's choice",
-    "supermarket wines",
-    "on the rack"
+    "expert's choice"
    ]
   },
   {
    "name": "Wine Spectator",
    "url": "https://www.winespectator.com/categories/tasting-reports",
    "keywords": [
-    "new wine reviews",
-    "tasting report"
+    "new wine reviews"
    ]
   },
   {
-   "name": "JamesSuckling.com",
-   "url": "https://www.jamessuckling.com/weekly-tasting-report",
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?sc_section_code=S1N1&view_type=sm",
    "keywords": [
-    "weekly tasting report",
-    "our latest report"
-   ]
-  },
-  {
-   "name": "Wine Enthusiast",
-   "url": "https://www.wineenthusiast.com/ratings/",
-   "keywords": [
-    "ratings",
-    "bottles to watch"
-   ]
-  },
-  {
-   "name": "Chilled Magazine",
-   "url": "https://chilledmagazine.com/",
-   "keywords": [
-    "top 10 wine drops"
-   ]
-  },
-  {
-   "name": "Yorkshire Post (Christine Austin)",
-   "url": "https://www.yorkshirepost.co.uk/lifestyle/food-and-drink",
-   "keywords": [
-    "best wines",
-    "under £15"
-   ]
-  },
-  {
-   "name": "The Wine Lover's Kitchen",
-   "url": "https://thewineloverskitchen.com/",
-   "keywords": [
-    "LCBO Vintages release"
+    "와인픽",
+    "출시"
    ]
   },
   {
@@ -1403,138 +1470,80 @@
    "keywords": [
     "신규 와인"
    ]
-  },
-  {
-   "name": "소믈리에타임즈",
-   "url": "https://www.sommeliertimes.com/news/articleList.html?sc_section_code=S1N1&view_type=sm",
-   "keywords": [
-    "와인픽",
-    "출시",
-    "추천"
-   ]
-  },
-  {
-   "name": "Tim Atkin MW",
-   "url": "https://timatkin.com/",
-   "keywords": [
-    "wine of the week",
-    "tasting notes"
-   ]
-  },
-  {
-   "name": "The Drinks Business",
-   "url": "https://www.thedrinksbusiness.com/",
-   "keywords": [
-    "Champagne Masters",
-    "Global Wine Masters"
-   ]
-  },
-  {
-   "name": "Tastings.com (BTI)",
-   "url": "https://www.tastings.com/",
-   "keywords": [
-    "On-Demand and New Releases Reviews"
-   ]
   }
  ],
  "wineregion": [
   {
-   "name": "Wine Industry Advisor",
-   "url": "https://wineindustryadvisor.com/",
+   "name": "Vinetur (EN)",
+   "url": "https://www.vinetur.com/en/",
    "keywords": [
     "harvest 2026",
-    "DOCG"
-   ]
-  },
-  {
-   "name": "MICHELIN Guide",
-   "url": "https://guide.michelin.com/us/en/articles/news-and-views",
-   "keywords": [
-    "Grape selection",
-    "Champagne"
-   ]
-  },
-  {
-   "name": "Euronews",
-   "url": "https://www.euronews.com/",
-   "keywords": [
-    "best wine regions Europe 2027"
+    "wine output forecast"
    ]
   },
   {
    "name": "Teatro Naturale",
-   "url": "https://www.teatronaturale.it/",
+   "url": "https://www.teatronaturale.it/tracce/italia.htm",
    "keywords": [
-    "vendemmia 2026",
-    "consorzio"
+    "vendemmia 2026"
    ]
   },
   {
-   "name": "Radio Siena TV",
-   "url": "https://www.radiosienatv.it/",
+   "name": "The Drinks Business",
+   "url": "https://www.thedrinksbusiness.com/category/news/",
    "keywords": [
-    "vendemmia 2026 Toscana"
+    "2026 vintage",
+    "harvest"
    ]
   },
   {
-   "name": "Bing News RSS",
-   "url": "https://www.bing.com/news/search?q=vendemmia+2026+qualit%C3%A0+consorzio&format=rss",
+   "name": "Sud Radio",
+   "url": "https://www.sudradio.fr/",
    "keywords": [
-    "vendemmia 2026",
-    "vendanges 2026 bilan"
+    "vendanges 2026"
+   ]
+  },
+  {
+   "name": "WineNews (EN)",
+   "url": "https://winenews.it/en/",
+   "keywords": [
+    "harvest 2026",
+    "consortium",
+    "Franciacorta"
    ]
   }
  ],
  "winepair": [
   {
+   "name": "PR TIMES (ワインペアリング 검색)",
+   "url": "https://prtimes.jp/main/action.php?run=html&page=searchkey&search_word=%E3%83%AF%E3%82%A4%E3%83%B3%E3%83%9A%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0",
+   "keywords": [
+    "ワインペアリング",
+    "メーカーズディナー"
+   ]
+  },
+  {
    "name": "Bing News RSS",
-   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8+%ED%8E%98%EC%96%B4%EB%A7%81&format=rss&qft=sortbydate%3d%221%22",
+   "url": "https://www.bing.com/news/search?q=%22what+wine+to+drink+with%22+OR+%22wine+to+pair+with%22&format=rss&qft=sortbydate%3d%221%22",
    "keywords": [
-    "와인 페어링",
-    "와인 마리아주",
-    "\"wine pairing\"",
-    "\"what wine\" pair with",
-    "ワイン ペアリング",
+    "\"what wine to drink with\"",
+    "\"wine to pair with\"",
     "マリアージュ ワイン",
-    "\"paired with\" wine dinner chef"
+    "와인 마리아주"
    ]
   },
   {
-   "name": "소믈리에타임즈",
-   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
+   "name": "D Magazine",
+   "url": "https://www.dmagazine.com/",
    "keywords": [
-    "도윤의 와인픽",
-    "한식 페어링"
-   ]
-  },
-  {
-   "name": "Decanter (Food pairing)",
-   "url": "https://www.decanter.com/tag/food-pairing/",
-   "keywords": [
-    "what to drink with",
-    "food pairing"
+    "steakhouse wine"
    ]
   },
   {
    "name": "note.com (일본 와인 칼럼)",
    "url": "https://note.com/",
    "keywords": [
-    "ワイン ペアリング",
-    "マリアージュ"
-   ]
-  },
-  {
-   "name": "Food-Blog.co.za",
-   "url": "https://www.food-blog.co.za/",
-   "keywords": [
-    "wine pairing dinner"
-   ]
-  },
-  {
-   "name": "Houston Press (Restaurants)",
-   "url": "https://www.houstonpress.com/restaurants/",
-   "keywords": [
-    "wine dinner"
+    "ワインに合う おつまみ"
    ]
   }
  ],
@@ -1546,6 +1555,13 @@
     "deep dive",
     "explained",
     "guide"
+   ]
+  },
+  {
+   "name": "Wine Folly (Tips)",
+   "url": "https://winefolly.com/tips/",
+   "keywords": [
+    "tasting challenge"
    ]
   },
   {
@@ -1563,6 +1579,23 @@
    "keywords": [
     "native grapes",
     "region explained"
+   ]
+  },
+  {
+   "name": "Decanter (월별 아카이브)",
+   "url": "https://www.decanter.com/archive/2026/10/",
+   "keywords": [
+    "region guide",
+    "vintage guide",
+    "Forgotten France"
+   ]
+  },
+  {
+   "name": "와인21",
+   "url": "https://www.wine21.com/11_news/news_list.html",
+   "keywords": [
+    "와인21 도슨트",
+    "와인상식"
    ]
   }
  ],

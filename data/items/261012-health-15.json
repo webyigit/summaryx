@@ -1,0 +1,35 @@
+{
+ "title": "경도인지장애·치매에 가상현실 훈련, 어떤 방식이 나을까…36개 연구 메타분석",
+ "originalTitle": "Virtual reality for cognitive and neuropsychiatric outcomes in mild cognitive impairment and dementia: a network meta-analysis",
+ "source": "하이닥",
+ "url": "https://news.hidoc.co.kr/news/articleView.html?idxno=68593",
+ "publishedAt": "2026-10-11",
+ "summary": [
+  "가상현실(VR)을 이용한 인지 훈련이 경도인지장애·치매 환자에게 쓰이고 있지만, 화면을 보는 반몰입형과 헤드셋을 쓰는 완전몰입형 등 방식이 다양해 어느 쪽이 나은지는 분명치 않았다. 홍콩대 연구팀은 이를 비교한 네트워크 메타분석을 npj Digital Medicine에 발표했다.",
+  "2025년 8월까지 9개 데이터베이스에서 찾은 무작위대조시험 36개, 경도인지장애·치매 성인 2,048명의 자료를 분석했다. 중재 기간은 4~24주, 회당 18~100분이었다. 전반적 인지기능에는 과제를 풀며 도전하는 반몰입형 VR이 1위(SUCRA 80.9%), 문제 해결 중심 완전몰입형이 2위(70.6%)였다. 실행기능과 기억력은 도전 기반 완전몰입형이 가장 높은 순위(각 75.7%, 76.4%)였다.",
+  "다만 연구 간 방법 차이와 비뚤림 위험 때문에 결과의 확실성은 제한적이다. 특정 VR 프로그램이 확립된 치료라는 뜻은 아니어서, 적용 전 환자별 적합성과 추가 근거 확인이 필요하다."
+ ],
+ "keyPoints": [
+  "무작위시험 36개·2,048명 네트워크 메타분석",
+  "전반 인지엔 도전형 반몰입 VR 1위",
+  "근거 확실성 제한, 확립 치료는 아냐"
+ ],
+ "image": "https://cdn.news.hidoc.co.kr/news/thumbnail/202610/68593_93092_2119_v150.jpg",
+ "facts": [
+  [
+   "출처기관",
+   "홍콩대 (npj Digital Medicine, 2026)"
+  ],
+  [
+   "근거 종류",
+   "체계적 문헌고찰·네트워크 메타분석"
+  ],
+  [
+   "대상",
+   "경도인지장애·치매 성인 2,048명"
+  ]
+ ],
+ "id": "261012-health-15",
+ "category": "health",
+ "collectedAt": "2026-10-12T05:31:18+09:00"
+}
