@@ -148,55 +148,17 @@
    "keywords": [
     "album release",
     "new single",
-    "tour dates"
-   ]
-  },
-  {
-   "name": "The Christian Post (Entertainment)",
-   "url": "https://www.christianpost.com/entertainment/",
-   "keywords": [
-    "Dove Awards",
-    "worship leader"
+    "signing"
    ]
   },
   {
    "name": "Gospel Music Association News",
    "url": "https://gospelmusic.org/news",
    "keywords": [
-    "Dove Awards",
+    "tour",
     "label",
-    "signing"
-   ]
-  },
-  {
-   "name": "CCM Magazine",
-   "url": "https://www.ccmmagazine.com/category/news/",
-   "keywords": [
-    "new album",
-    "worship"
-   ]
-  },
-  {
-   "name": "K-LOVE Music News",
-   "url": "https://www.klove.com/music/blog/music-news",
-   "keywords": [
-    "new music"
-   ]
-  },
-  {
-   "name": "크리스천투데이 (뮤직/CCM)",
-   "url": "https://www.christiantoday.co.kr/sections/cul_33",
-   "keywords": [
-    "CCM",
-    "찬양 앨범"
-   ]
-  },
-  {
-   "name": "데일리굿뉴스",
-   "url": "https://www.goodnews1.com/",
-   "keywords": [
-    "찬양",
-    "CCM"
+    "signing",
+    "Dove Awards"
    ]
   },
   {
@@ -204,41 +166,40 @@
    "url": "https://www.godtube.com/music-news/",
    "keywords": [
     "new album",
-    "Christmas album",
-    "anniversary"
+    "tour"
    ]
   },
   {
-   "name": "Worship Leader Magazine",
-   "url": "https://worshipleader.com/category/worship-music/",
+   "name": "K-LOVE Music News",
+   "url": "https://www.klove.com/music/blog/music-news",
    "keywords": [
-    "set list",
-    "worship songs"
+    "new music",
+    "live performance"
    ]
   },
   {
-   "name": "기독일보 문화",
-   "url": "https://www.christiandaily.co.kr/sections/cul",
+   "name": "The Christian Post (Entertainment)",
+   "url": "https://www.christianpost.com/entertainment/",
+   "keywords": [
+    "The Chosen",
+    "interview"
+   ]
+  },
+  {
+   "name": "데일리굿뉴스",
+   "url": "https://www.goodnews1.com/",
    "keywords": [
     "찬양",
-    "워십 투어"
+    "CCM",
+    "힙합"
    ]
   },
   {
    "name": "국민일보 더 미션 문화",
    "url": "https://www.kmib.co.kr/article/listing.asp?sid1=mcu&sid2=0001",
    "keywords": [
-    "찬양",
     "CCM",
-    "공연"
-   ]
-  },
-  {
-   "name": "주간기독신문",
-   "url": "https://www.kidok.com/",
-   "keywords": [
-    "뮤지컬",
-    "찬양"
+    "신곡"
    ]
   }
  ],
@@ -289,6 +250,14 @@
     "교회",
     "목회",
     "선교"
+   ]
+  },
+  {
+   "name": "International Christian Concern",
+   "url": "https://persecution.org/news/",
+   "keywords": [
+    "persecution",
+    "religious freedom"
    ]
   }
  ],
@@ -505,6 +474,23 @@
    "keywords": [
     "new meme entries"
    ]
+  },
+  {
+   "name": "Bing News RSS (밈)",
+   "url": "https://www.bing.com/news/search?q=%EB%B0%88&qft=sortbydate%3d%221%22&format=rss",
+   "keywords": [
+    "밈",
+    "밈 유행",
+    "챌린지 밈"
+   ]
+  },
+  {
+   "name": "Blue Bear Creative - Social Media Trends This Week",
+   "url": "https://bluebearcreative.co/blog/social-media-trends-this-week/",
+   "keywords": [
+    "weekly TikTok trends",
+    "brand meme formats"
+   ]
   }
  ],
  "uxui": [
@@ -648,6 +634,38 @@
    ]
   },
   {
+   "name": "텐아시아",
+   "url": "https://www.tenasia.co.kr/",
+   "keywords": [
+    "예능",
+    "배우"
+   ]
+  },
+  {
+   "name": "Soompi",
+   "url": "https://www.soompi.com/",
+   "keywords": [
+    "K-drama",
+    "ratings"
+   ]
+  },
+  {
+   "name": "스포츠경향",
+   "url": "https://sports.khan.co.kr/entertainment",
+   "keywords": [
+    "드라마",
+    "예능"
+   ]
+  },
+  {
+   "name": "MyDramaList News",
+   "url": "https://news.mydramalist.com/",
+   "keywords": [
+    "K-drama",
+    "actor"
+   ]
+  },
+  {
    "name": "allkpop",
    "url": "https://www.allkpop.com/",
    "keywords": [
@@ -782,7 +800,7 @@
    "url": "https://www.bing.com/news/search?q=%EC%87%BC%EC%B8%A0+%ED%99%94%EC%A0%9C&qft=sortbydate%3d%221%22&format=rss",
    "keywords": [
     "쇼츠 화제",
-    "유튜브 쇼츠 떡상"
+    "쇼츠 조회수 돌파"
    ]
   }
  ],
@@ -963,6 +981,49 @@
     "discovery",
     "animals",
     "space"
+   ]
+  },
+  {
+   "name": "Science News Explores",
+   "url": "https://www.snexplores.org/",
+   "keywords": [
+    "students",
+    "science"
+   ]
+  },
+  {
+   "name": "Space.com",
+   "url": "https://www.space.com/news",
+   "keywords": [
+    "space",
+    "stargazing"
+   ]
+  },
+  {
+   "name": "EarthSky",
+   "url": "https://earthsky.org/",
+   "keywords": [
+    "sky",
+    "space",
+    "earth"
+   ]
+  },
+  {
+   "name": "ScienceDaily",
+   "url": "https://www.sciencedaily.com/news/top/science/",
+   "keywords": [
+    "discovery",
+    "fossil",
+    "space"
+   ]
+  },
+  {
+   "name": "사이언스타임즈",
+   "url": "https://www.sciencetimes.co.kr/",
+   "keywords": [
+    "과학",
+    "신종",
+    "극지"
    ]
   }
  ],
@@ -1465,6 +1526,22 @@
    "keywords": [
     "문해력"
    ]
+  },
+  {
+   "name": "한국교육신문",
+   "url": "https://www.hangyo.com/news/section_list_all.html",
+   "keywords": [
+    "교원",
+    "국감"
+   ]
+  },
+  {
+   "name": "에듀프레스",
+   "url": "https://www.edupress.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "교육감",
+    "대입"
+   ]
   }
  ],
  "kpop": [
@@ -1474,6 +1551,30 @@
    "keywords": [
     "comeback",
     "performance"
+   ]
+  },
+  {
+   "name": "Soompi",
+   "url": "https://www.soompi.com/feed",
+   "keywords": [
+    "comeback",
+    "chart",
+    "tour"
+   ]
+  },
+  {
+   "name": "스타뉴스",
+   "url": "https://www.starnewskorea.com/",
+   "keywords": [
+    "K-POP",
+    "컴백"
+   ]
+  },
+  {
+   "name": "The Korea Times",
+   "url": "https://www.koreatimes.co.kr/entertainment/k-pop",
+   "keywords": [
+    "K-pop"
    ]
   }
  ],
