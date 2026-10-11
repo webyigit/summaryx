@@ -1,0 +1,43 @@
+{
+ "title": "흩어진 서버실을 한 건물로 — 펜첼 발리어의 ETH 취리히 회넥베르크 데이터센터",
+ "originalTitle": "Data Center ETH Zurich / Penzel Valier",
+ "source": "ArchDaily",
+ "url": "https://www.archdaily.com/1186404/data-center-eth-zurich-penzel-valier",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "스위스 취리히 연방공대(ETH Zurich)의 회넥베르크 캠퍼스에 새 데이터센터(HRZ)가 2026년 완공됐다. 설계는 크리스티안 펜첼·마르틴 발리어가 이끄는 펜첼 발리어(Penzel Valier)가 맡았고, 면적은 4,488㎡, 주재료는 콘크리트다.",
+  "건축가들은 이 건물을 'ETH 디지털 인프라를 위한 통합 건물'로 설명한다. 구조·설비·디자인을 따로 덧붙이지 않고 처음부터 함께 개발했다는 뜻이다. 건물에는 ETH IT 서비스와 여러 학과가 쓰는 서버·스토리지·통신 시스템이 들어간다.",
+  "이 센터는 대학의 장기 디지털 전략의 일부로 중앙 캠퍼스 데이터센터와 함께 운영되며, 여기저기 흩어져 있던 낡은 시설 여러 곳을 대신해 연산 자원을 한곳에 모은다. 대학의 필요가 바뀌면 시설이 커질 수 있도록 향후 확장도 고려해 설계했다. 원문 설명이 짧아 구체적인 공법·평면·에너지 성능은 공개되지 않았다."
+ ],
+ "keyPoints": [
+  "ETH 취리히 회넥베르크 캠퍼스 데이터센터",
+  "구조·설비·디자인을 처음부터 통합 설계",
+  "분산된 노후 시설 통합, 확장 고려"
+ ],
+ "image": "https://images.adsttc.com/media/images/6ac4/e93a/07c3/d100/017f/d802/large_jpg/111_260719_PTI_ETH_0130_mer.jpg?1791289684",
+ "facts": [
+  [
+   "건축가",
+   "Penzel Valier(Christian Penzel, Martin Valier)"
+  ],
+  [
+   "위치",
+   "스위스 취리히"
+  ],
+  [
+   "용도",
+   "대학 데이터센터"
+  ],
+  [
+   "규모",
+   "4,488㎡"
+  ],
+  [
+   "준공 연도",
+   "2026"
+  ]
+ ],
+ "id": "261012-archproj-05",
+ "category": "archproj",
+ "collectedAt": "2026-10-12T01:32:35+09:00"
+}

@@ -1,0 +1,39 @@
+{
+ "title": "위고비 성분 세마글루타이드, 심혈관 사건 20%↓…체중·혈압·LDL 변화로는 3분의 1만 설명(SELECT 매개 분석, 유럽심장저널)",
+ "originalTitle": "Semaglutide cuts major heart events, but researchers still cannot fully explain why",
+ "source": "News-Medical",
+ "url": "https://www.news-medical.net/news/20260927/Semaglutide-cuts-major-heart-events-but-researchers-still-cannot-fully-explain-why.aspx",
+ "publishedAt": "2026-09-27",
+ "summary": [
+  "SELECT 시험은 당뇨가 없지만 심혈관질환이 있는 과체중·비만 성인에서 주 1회 세마글루타이드 2.4mg이 주요 심혈관 사건(MACE)을 위약 대비 20%(8.0%→6.5%) 줄인다는 것을 보여줬다. 그런데 이 효과가 살이 빠져서인지, 다른 경로 때문인지는 분명하지 않았다. 콜훈 교수 등은 미리 계획된 매개 분석 결과를 '유럽심장저널(European Heart Journal)'에 발표했다.",
+  "대상은 45세 이상, BMI 27 이상, 심혈관질환이 있는 1만7604명(평균 추적 39.8개월)이다. 체중·허리둘레·고감도 CRP·당화혈색소·혈압·지질·콩팥 지표 등 12개 요인을 분석했다. 요인별로는 허리둘레 64.0%, hsCRP 42.1%, 당화혈색소 29.0%, 체중 19.5%, 중성지방 18.6%, 수축기 혈압 14.3%, LDL 콜레스테롤 10.9% 등이 효과 일부를 설명하는 것으로 추정됐지만, 여러 요인을 함께 넣으면 설명되는 몫은 31.4%였다.",
+  "세마글루타이드는 12개 지표를 모두 개선했지만 이것만으로 심혈관 이득을 다 설명하지 못했다. 연구진은 염증, 동맥 플라크, 지방간염, 심장 주변 지방 등 측정하지 않은 경로가 관여할 수 있다고 봤으나 추정일 뿐이며, 매개 추정치의 불확실성이 크다는 한계도 밝혔다."
+ ],
+ "keyPoints": [
+  "SELECT 1만7604명, MACE 20% 감소",
+  "12개 위험요인 함께 봐도 31.4%만 설명",
+  "허리둘레·염증 기여 커…나머지 경로는 미지"
+ ],
+ "image": "https://www.news-medical.net/images/news/ImageForNews_847712_17905667311764008.jpg",
+ "facts": [
+  [
+   "출처기관",
+   "European Heart Journal(Colhoun H.M. 외, 2026)"
+  ],
+  [
+   "근거 종류",
+   "연구(무작위 임상시험 SELECT의 사전 계획 매개 분석)"
+  ],
+  [
+   "대상",
+   "당뇨 없는 심혈관질환 동반 BMI 27 이상 성인 1만7604명"
+  ],
+  [
+   "핵심 수치",
+   "MACE 8.0%→6.5%, 매개 설명 31.4%"
+  ]
+ ],
+ "id": "261012-lipid-02",
+ "category": "lipid",
+ "collectedAt": "2026-10-12T01:32:35+09:00"
+}

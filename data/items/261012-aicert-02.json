@@ -1,0 +1,51 @@
+{
+ "title": "NVIDIA Accelerated Data Science Associate(NCA-ADS) — RAPIDS로 배우는 GPU 데이터 과학 입문 자격",
+ "originalTitle": "NVIDIA-Certified Associate: Accelerated Data Science (NCA-ADS)",
+ "source": "NVIDIA",
+ "url": "https://www.nvidia.com/en-us/learn/certification/accelerated-data-science-associate/",
+ "publishedAt": null,
+ "summary": [
+  "NCA-ADS는 엔비디아의 입문(Associate) 벤더 자격으로, GPU 기반 도구를 써서 대용량 데이터를 처리·분석하고 머신러닝·ETL·분석 속도를 높이는 기본기를 확인한다. 공식 페이지는 이런 가속 데이터 과학 경험 1~2년을 권장한다.",
+  "시험은 60분, 50~60문항이며 온라인 원격 감독으로 영어로 치른다. 응시료는 $125(국가에 따라 세금 추가 가능)이고, 자격은 발급일로부터 2년간 유효하며 재응시로 갱신한다. 출제 비중은 데이터 조작·준비 23%, RAPIDS 머신러닝 16%, 파이프라인·워크플로 자동화 13%, 기술 분석·시각화 13%, 가속 데이터 과학 기초 12%, MLOps 입문 10%, 고급 자료구조 7%, 소프트웨어·환경 관리 6%이다.",
+  "엔비디아의 GPU 데이터 과학 라이브러리 RAPIDS를 이용한 머신러닝이 별도 영역으로 출제되는 것이 특징이다. 판다스·사이킷런 등으로 분석해 본 사람이 GPU 가속으로 넘어가는 첫 단계로 적합하고, 이후 중급 NCP-ADS로 이어진다."
+ ],
+ "keyPoints": [
+  "엔비디아 GPU 데이터 과학 입문 자격",
+  "60분·50~60문항, 응시료 125달러",
+  "RAPIDS 머신러닝 16% 별도 출제"
+ ],
+ "image": "https://www.nvidia.com/content/dam/en-zz/Solutions/learn/certification/genai-llm-associate/corp-kv-og.jpg",
+ "facts": [
+  [
+   "시행기관",
+   "NVIDIA"
+  ],
+  [
+   "자격 종류",
+   "벤더 자격(Associate(입문))"
+  ],
+  [
+   "시험 일정",
+   "상시 온라인 응시(정해진 회차 없음 [확인 필요])"
+  ],
+  [
+   "응시료",
+   "$125"
+  ],
+  [
+   "시험 방식",
+   "온라인 원격 감독, 60분, 50~60문항, 영어"
+  ],
+  [
+   "응시 자격",
+   "공식 요건 없음, 권장: GPU 기반 도구로 대용량 데이터를 처리·분석한 가속 데이터 과학 경험 1~2년"
+  ],
+  [
+   "난이도·대상",
+   "입문. 데이터 과학자·데이터 분석가·데이터 엔지니어·ML 엔지니어·소프트웨어 엔지니어·연구자"
+  ]
+ ],
+ "id": "261012-aicert-02",
+ "category": "aicert",
+ "collectedAt": "2026-10-12T01:32:35+09:00"
+}

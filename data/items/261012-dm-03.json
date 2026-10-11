@@ -1,0 +1,39 @@
+{
+ "title": "'BPA-프리' 대체 물질 BPS 혈중 농도 높을수록 당화혈색소↑…제2형 당뇨 307명 분석, 추가 보정하면 유의성 사라져",
+ "originalTitle": "A chemical used in BPA-free products may have a connection to diabetes control",
+ "source": "News-Medical",
+ "url": "https://www.news-medical.net/news/20260923/A-chemical-used-in-BPA-free-products-may-have-a-connection-to-diabetes-control.aspx",
+ "publishedAt": "2026-09-23",
+ "summary": [
+  "비스페놀A(BPA)는 내분비 교란 우려로 많은 제품에서 빠졌고, 그 자리를 비스페놀S(BPS) 같은 대체 물질이 채우고 있다. 미국 피츠버그대 의료원(UPMC) 당뇨 동반질환 연구 자료를 활용한 연구팀이 혈중 비스페놀 농도와 혈당 조절의 관계를 살펴 'Acta Diabetologica'에 발표했다.",
+  "대상은 고혈압이나 이상지질혈증을 함께 앓으며 먹는 혈당강하제를 복용하는 40세 이상 제2형 당뇨 환자 307명(평균 약 64세)이다. 평균 당화혈색소는 7.43%, 복약 순응도는 약 80%였다. 나이·성별·인종·복약 순응도·식단을 보정해도 혈중 BPS가 높을수록 당화혈색소가 높았지만, BPA는 연관이 없었다. 그러나 BPA·BMI·체력까지 보정하자 BPS의 연관성은 통계적으로 유의하지 않았다. 약을 잘 챙겨 먹고 콜레스테롤·포화지방 식단 점수가 좋을수록 당화혈색소가 낮은 관계는 유지됐다.",
+  "연구진은 단면 연구라 BPS가 혈당 조절을 나쁘게 만든다고 말할 수 없고, 연관성도 약하다고 밝혔다. 식단 설문으로는 비스페놀 노출을 제대로 추정하지 못했다는 한계도 있다. 현재로선 복약과 식단 관리가 혈당 조절의 기본이라는 점이 다시 확인된 셈이다."
+ ],
+ "keyPoints": [
+  "제2형 당뇨 307명 혈중 BPA·BPS 측정",
+  "BPS↑ 당화혈색소↑, 추가 보정 시 유의성 소실",
+  "복약 순응·식단 점수는 혈당과 일관된 연관"
+ ],
+ "image": "https://www.news-medical.net/images/news/ImageForNews_847507_17902114072716081.jpg",
+ "facts": [
+  [
+   "출처기관",
+   "미국 피츠버그대 의료원(UPMC) 자료, Acta Diabetologica(2026)"
+  ],
+  [
+   "근거 종류",
+   "연구(단면 2차 분석)"
+  ],
+  [
+   "대상",
+   "제2형 당뇨병 성인 307명(평균 약 64세)"
+  ],
+  [
+   "한계",
+   "단면 연구, 연관성 약함"
+  ]
+ ],
+ "id": "261012-dm-03",
+ "category": "dm",
+ "collectedAt": "2026-10-12T01:32:35+09:00"
+}
