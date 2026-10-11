@@ -1,0 +1,35 @@
+{
+ "title": "구글북-안드로이드 연동 '베터 투게더' 개선…갤럭시 지원도 시작",
+ "originalTitle": "Googlebook improving 'Better Together' Android sync features, Samsung support rolling out",
+ "source": "9to5Google",
+ "url": "https://9to5google.com/2026/10/10/googlebook-android-sync-updates-samsung-support-rolling-out/",
+ "publishedAt": "2026-10-11",
+ "summary": [
+  "구글 노트북 '구글북'의 핵심 장점은 안드로이드폰과의 긴밀한 연동이지만, 출시 초기 '베터 투게더' 기능은 제대로 동작하지 않는 경우가 많았다. 구글이 이를 고치는 업데이트를 내놓으면서 가장 큰 빈자리였던 삼성 갤럭시 지원도 시작됐다.",
+  "연동 기능에는 앱 스트리밍, 알림 동기화, 이어서 하기(Continue On), 인스턴트 핫스팟 등이 있다. 구글은 첫 설정 단계를 줄인 '더 매끄러운 초기 설정'을 배포하고, 페어링 뒤에도 QR코드가 화면에 남던 버그를 고쳤다. 쓰려면 휴대폰이 안드로이드 17과 구글 플레이 서비스 26.37 이상, 교차 기기 서비스 앱 1.0.1346 이상이어야 한다.",
+  "구글은 같은 계정 로그인, 블루투스·와이파이 켜기, 호텔·카페 같은 격리형 네트워크나 VPN 피하기 등 문제 해결법도 안내했다. 레딧에서는 갤럭시에서 기능이 작동한다는 이용자 후기가 나왔지만, 갤럭시 지원은 원 UI 9가 필요해 아직 일부 기종에서만 가능하다."
+ ],
+ "keyPoints": [
+  "구글북 연동 기능 설정 간소화·버그 수정",
+  "안드로이드 17·플레이 서비스 26.37 필요",
+  "갤럭시 지원 시작, 원 UI 9 기종만"
+ ],
+ "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/hp-googlebook-logo-1.jpg?quality=82&strip=all&resize=1200,628",
+ "facts": [
+  [
+   "회사",
+   "구글"
+  ],
+  [
+   "제품",
+   "구글북(Better Together)"
+  ],
+  [
+   "요구 사항",
+   "안드로이드 17, 플레이 서비스 26.37+"
+  ]
+ ],
+ "id": "261011-it-22",
+ "category": "it",
+ "collectedAt": "2026-10-11T16:30:43+09:00"
+}
