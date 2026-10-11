@@ -1,0 +1,35 @@
+{
+ "title": "AWS AI 에이전트 플랫폼 '베드록 에이전트코어', 프롬프트 하나로 장악 가능했던 결함 공개",
+ "originalTitle": "'AgentCorruption' Puts AWS Environments at Risk With Single Prompt",
+ "source": "Dark Reading",
+ "url": "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "보안기업 제니티 랩스의 타미르 이샤이 샤르바트 연구 책임자가 토론토 SecTor 2026에서 AWS의 AI 에이전트 운영 플랫폼 베드록 에이전트코어(AgentCore)의 결함 'AgentCorruption'을 발표했다. 에이전트가 임시 자격증명 등이 담긴 인스턴스 메타데이터 서비스(IMDS)에 닿을 수 있어, 공개 챗봇에 보낸 프롬프트 하나로 같은 계정·리전의 다른 에이전트까지 장악할 수 있었다는 내용이다.",
+  "기본 역할 권한도 리전 전체에 넓게 걸려 있어 시크릿 매니저에 저장된 비밀 정보 노출, 측면 이동, 에이전트 메모리 오염까지 가능했다고 연구진은 설명했다. 제니티는 지난해 12월 AWS에 알렸고, AWS는 2월 새 에이전트에 IMDSv2를 의무화하고 기본 역할에서 다른 에이전트 호출·대화 열람·시크릿 매니저 접근 권한을 뺐다.",
+  "AWS는 '예상되고 문서화된 동작'이라며 개발자가 명시적으로 권한을 줘야만 가능하다고 반박하고 최소 권한 부여를 권고했다. 실제 악용 흔적은 없었으며, 연구진은 이 문제가 AWS만의 것이 아니라며 에이전트마다 권한을 줄여야 피해 범위가 작아진다고 강조했다."
+ ],
+ "keyPoints": [
+  "에이전트가 IMDS에 접근해 자격증명 탈취 가능",
+  "AWS, 2월 IMDSv2 의무화·기본 권한 축소",
+  "AWS는 '문서화된 동작'이라며 최소 권한 권고"
+ ],
+ "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt7fb7357c5c7dbc54/6ac7f27aebe12bcaad81c134/aichatbot-_jittawit.21-Getty-1432457969.jpg?disable=upscale&width=1200&height=630&fit=crop",
+ "facts": [
+  [
+   "대상",
+   "AWS Bedrock AgentCore"
+  ],
+  [
+   "발견",
+   "제니티 랩스(Zenity Labs)"
+  ],
+  [
+   "상태",
+   "패치됨, 악용 흔적 없음"
+  ]
+ ],
+ "id": "261012-security-05",
+ "category": "security",
+ "collectedAt": "2026-10-12T03:30:48+09:00"
+}

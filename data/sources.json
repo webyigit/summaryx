@@ -491,6 +491,14 @@
    "keywords": [
     "news"
    ]
+  },
+  {
+   "name": "Exclaim!",
+   "url": "https://exclaim.ca/music/news",
+   "keywords": [
+    "tour",
+    "news"
+   ]
   }
  ],
  "ent": [
@@ -596,6 +604,14 @@
    "url": "https://www.koreatimes.co.kr/entertainment/films",
    "keywords": [
     "BIFF"
+   ]
+  },
+  {
+   "name": "Bing News RSS",
+   "url": "https://www.bing.com/news/search?q=%EB%B6%80%EC%82%B0%EA%B5%AD%EC%A0%9C%EC%98%81%ED%99%94%EC%A0%9C&format=rss",
+   "keywords": [
+    "부산국제영화제",
+    "film festival"
    ]
   }
  ],
@@ -834,6 +850,15 @@
  ],
  "security": [
   {
+   "name": "데일리시큐",
+   "url": "https://www.dailysecu.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "개인정보 유출",
+    "금융권 해킹",
+    "다크웹"
+   ]
+  },
+  {
    "name": "보안뉴스",
    "url": "https://www.boannews.com/media/t_list.asp",
    "keywords": [
@@ -842,10 +867,43 @@
    ]
   },
   {
-   "name": "디지털투데이",
-   "url": "https://www.digitaltoday.co.kr/",
+   "name": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/",
    "keywords": [
-    "AI 모의해킹"
+    "data breach",
+    "ransomware"
+   ]
+  },
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/",
+   "keywords": [
+    "vulnerability",
+    "zero-day"
+   ]
+  },
+  {
+   "name": "Dark Reading",
+   "url": "https://www.darkreading.com/",
+   "keywords": [
+    "AI agent security",
+    "cybercrime arrest"
+   ]
+  },
+  {
+   "name": "SecurityWeek",
+   "url": "https://www.securityweek.com/",
+   "keywords": [
+    "breach",
+    "patch"
+   ]
+  },
+  {
+   "name": "데이터넷",
+   "url": "https://www.datanet.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "금융권 해킹",
+    "OT 보안"
    ]
   }
  ],
@@ -893,6 +951,21 @@
    "keywords": [
     "Best Reviewed Books"
    ]
+  },
+  {
+   "name": "채널예스(예스24)",
+   "url": "https://ch.yes24.com/",
+   "keywords": [
+    "[리뷰]",
+    "[인터뷰]"
+   ]
+  },
+  {
+   "name": "CrimeReads",
+   "url": "https://crimereads.com/",
+   "keywords": [
+    "Best True Crime of the Month"
+   ]
   }
  ],
  "show": [
@@ -902,6 +975,40 @@
    "keywords": [
     "공연",
     "연극"
+   ]
+  },
+  {
+   "name": "뉴스컬처",
+   "url": "https://www.nc.press/news/articleList.html?sc_section_code=S1N4&view_type=sm",
+   "keywords": [
+    "발레",
+    "클래식",
+    "전통춤"
+   ]
+  },
+  {
+   "name": "국민일보 문화(공연·음악)",
+   "url": "https://www.kmib.co.kr/article/listing.asp?sid1=cul&sid2=0002",
+   "keywords": [
+    "연극",
+    "클래식"
+   ]
+  },
+  {
+   "name": "Playbill",
+   "url": "https://playbill.com/news",
+   "keywords": [
+    "Broadway",
+    "Off-Broadway"
+   ]
+  },
+  {
+   "name": "BroadwayWorld",
+   "url": "https://www.broadwayworld.com/",
+   "keywords": [
+    "Broadway",
+    "West End",
+    "ballet"
    ]
   }
  ],
@@ -1114,7 +1221,10 @@
     "구축",
     "고도화",
     "플랫폼",
-    "누리집"
+    "누리집",
+    "홍보",
+    "디자인",
+    "유지관리"
    ]
   }
  ],
@@ -2600,6 +2710,55 @@
     "Trump",
     "media"
    ]
+  },
+  {
+   "name": "알자지라 중남미",
+   "url": "https://www.aljazeera.com/latin-america/",
+   "keywords": [
+    "Mexico",
+    "Brazil",
+    "Venezuela"
+   ]
+  },
+  {
+   "name": "뉴스1 미국·캐나다",
+   "url": "https://www.news1.kr/world/usa-canada",
+   "keywords": [
+    "트럼프",
+    "중간선거"
+   ]
+  },
+  {
+   "name": "한국일보 국제",
+   "url": "https://www.hankookilbo.com/News/International",
+   "keywords": [
+    "미국",
+    "트럼프"
+   ]
+  },
+  {
+   "name": "Mexico News Daily",
+   "url": "https://mexiconewsdaily.com/category/news/",
+   "keywords": [
+    "Mexico"
+   ]
+  },
+  {
+   "name": "The Rio Times",
+   "url": "https://www.riotimesonline.com/",
+   "keywords": [
+    "Latin America",
+    "Haiti",
+    "Peru"
+   ]
+  },
+  {
+   "name": "CBS News Face the Nation",
+   "url": "https://www.cbsnews.com/face-the-nation/",
+   "keywords": [
+    "transcript",
+    "Senate"
+   ]
   }
  ],
  "worldasia": [
@@ -2607,7 +2766,35 @@
    "name": "Al Jazeera Asia",
    "url": "https://www.aljazeera.com/asia/",
    "keywords": [
-    "India"
+    "India",
+    "Pakistan"
+   ]
+  },
+  {
+   "name": "Al Jazeera Asia Pacific",
+   "url": "https://www.aljazeera.com/asia-pacific/",
+   "keywords": [
+    "China",
+    "Japan",
+    "Southeast Asia"
+   ]
+  },
+  {
+   "name": "경향신문 국제",
+   "url": "https://www.khan.co.kr/world",
+   "keywords": [
+    "중국",
+    "대만",
+    "일본"
+   ]
+  },
+  {
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
+   "keywords": [
+    "아시아",
+    "중국",
+    "일본"
    ]
   }
  ],
@@ -2618,14 +2805,55 @@
    "keywords": [
     "EU"
    ]
+  },
+  {
+   "name": "알자지라 유럽",
+   "url": "https://www.aljazeera.com/europe/",
+   "keywords": [
+    "Europe",
+    "Russia",
+    "Ukraine"
+   ]
+  },
+  {
+   "name": "경향신문 국제",
+   "url": "https://www.khan.co.kr/world",
+   "keywords": [
+    "유럽",
+    "우크라이나"
+   ]
+  },
+  {
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
+   "keywords": [
+    "유럽",
+    "러시아"
+   ]
   }
  ],
  "worldmea": [
+  {
+   "name": "알자지라",
+   "url": "https://www.aljazeera.com/middle-east/",
+   "keywords": [
+    "Middle East",
+    "Africa"
+   ]
+  },
   {
    "name": "아프리카뉴스",
    "url": "https://www.africanews.com/",
    "keywords": [
     "Africa"
+   ]
+  },
+  {
+   "name": "경향신문 국제",
+   "url": "https://www.khan.co.kr/world/world-general/articles",
+   "keywords": [
+    "중동",
+    "호르무즈"
    ]
   }
  ]

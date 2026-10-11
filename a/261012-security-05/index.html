@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AWS AI 에이전트 플랫폼 &#x27;베드록 에이전트코어&#x27;, 프롬프트 하나로 장악 가능했던 결함 공개 | summaryx</title>
+<meta name="description" content="보안기업 제니티 랩스의 타미르 이샤이 샤르바트 연구 책임자가 토론토 SecTor 2026에서 AWS의 AI 에이전트 운영 플랫폼 베드록 에이전트코어(AgentCore)의 결함 &#x27;AgentCorruption&#x27;을 발표했다. 에이전트가 임시 자격증명 등이 담긴 인스턴스 메타">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AWS AI 에이전트 플랫폼 &#x27;베드록 에이전트코어&#x27;, 프롬프트 하나로 장악 가능했던 결함 공개">
+<meta property="og:description" content="보안기업 제니티 랩스의 타미르 이샤이 샤르바트 연구 책임자가 토론토 SecTor 2026에서 AWS의 AI 에이전트 운영 플랫폼 베드록 에이전트코어(AgentCore)의 결함 &#x27;AgentCorruption&#x27;을 발표했다. 에이전트가 임시 자격증명 등이 담긴 인스턴스 메타">
+<meta property="og:image" content="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt7fb7357c5c7dbc54/6ac7f27aebe12bcaad81c134/aichatbot-_jittawit.21-Getty-1432457969.jpg?disable=upscale&amp;width=1200&amp;height=630&amp;fit=crop">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="../../#/a/261012-security-05">
+<script>location.replace('../../#/a/261012-security-05');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261012-security-05">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">AWS AI 에이전트 플랫폼 &#x27;베드록 에이전트코어&#x27;, 프롬프트 하나로 장악 가능했던 결함 공개</h1>
+<p>보안기업 제니티 랩스의 타미르 이샤이 샤르바트 연구 책임자가 토론토 SecTor 2026에서 AWS의 AI 에이전트 운영 플랫폼 베드록 에이전트코어(AgentCore)의 결함 &#x27;AgentCorruption&#x27;을 발표했다. 에이전트가 임시 자격증명 등이 담긴 인스턴스 메타데이터 서비스(IMDS)에 닿을 수 있어, 공개 챗봇에 보낸 프롬프트 하나로 같은 계정·리전의 다른 에이전트까지 장악할 수 있었다는 내용이다.</p><p>기본 역할 권한도 리전 전체에 넓게 걸려 있어 시크릿 매니저에 저장된 비밀 정보 노출, 측면 이동, 에이전트 메모리 오염까지 가능했다고 연구진은 설명했다. 제니티는 지난해 12월 AWS에 알렸고, AWS는 2월 새 에이전트에 IMDSv2를 의무화하고 기본 역할에서 다른 에이전트 호출·대화 열람·시크릿 매니저 접근 권한을 뺐다.</p><p>AWS는 &#x27;예상되고 문서화된 동작&#x27;이라며 개발자가 명시적으로 권한을 줘야만 가능하다고 반박하고 최소 권한 부여를 권고했다. 실제 악용 흔적은 없었으며, 연구진은 이 문제가 AWS만의 것이 아니라며 에이전트마다 권한을 줄여야 피해 범위가 작아진다고 강조했다.</p>
+<p><a href="https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt">원문 보기</a></p>
+</body></html>
