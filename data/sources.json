@@ -5,8 +5,6 @@
    "url": "https://www.aitimes.com/news/articleList.html?view_type=sm",
    "keywords": [
     "AI 모델",
-    "오픈AI",
-    "앤트로픽",
     "AI 규제",
     "AI 투자"
    ]
@@ -15,115 +13,26 @@
    "name": "TechCrunch AI",
    "url": "https://techcrunch.com/category/artificial-intelligence/",
    "keywords": [
-    "AI model",
-    "OpenAI",
-    "Anthropic",
-    "AI funding",
-    "AI policy"
-   ]
-  },
-  {
-   "name": "VentureBeat AI",
-   "url": "https://venturebeat.com/category/ai/",
-   "keywords": [
-    "enterprise AI",
-    "AI agents",
-    "LLM release",
-    "Claude",
-    "GPT"
-   ]
-  },
-  {
-   "name": "지디넷코리아 인공지능",
-   "url": "https://zdnet.co.kr/newskey/?lstcode=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",
-   "keywords": [
-    "인공지능",
-    "생성형 AI",
-    "AI 에이전트",
-    "LLM",
-    "AI 반도체"
-   ]
-  },
-  {
-   "name": "인공지능신문",
-   "url": "https://www.aitimes.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "AI 연구",
-    "AI 에이전트",
-    "AI 인프라"
-   ]
-  },
-  {
-   "name": "전자신문 AI·SW",
-   "url": "https://www.etnews.com/news/section.html?id1=04",
-   "keywords": [
-    "AI",
-    "LLM",
-    "AI 인프라"
+    "AI safety",
+    "Microsoft"
    ]
   }
  ],
  "ax": [
   {
+   "name": "Bing 뉴스 RSS(최신순)",
+   "url": "https://www.bing.com/news/search?q=%EC%97%85%EB%AC%B4+AI+%EB%8F%84%EC%9E%85+AX&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "AX",
+    "AI 도입"
+   ]
+  },
+  {
    "name": "지디넷코리아",
    "url": "https://zdnet.co.kr/news/?lstcode=0000",
    "keywords": [
     "AX",
-    "AI 에이전트 도입",
-    "공공 AX"
-   ]
-  },
-  {
-   "name": "전자신문 AI·SW",
-   "url": "https://www.etnews.com/news/section.html?id1=04",
-   "keywords": [
-    "공공AX",
-    "AX 교육",
-    "AI 거버넌스"
-   ]
-  },
-  {
-   "name": "인공지능신문",
-   "url": "https://www.aitimes.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "공공기관 AI 활용",
-    "업무 효율"
-   ]
-  },
-  {
-   "name": "AI타임스",
-   "url": "https://www.aitimes.com/news/articleList.html?view_type=sm",
-   "keywords": [
-    "기업 AI 도입",
-    "AX 사례"
-   ]
-  },
-  {
-   "name": "파이낸셜뉴스",
-   "url": "https://www.fnnews.com",
-   "keywords": [
-    "AX",
-    "국방 AX",
-    "AI 전환"
-   ]
-  },
-  {
-   "name": "아시아뉴스통신",
-   "url": "https://www.anewsa.com",
-   "keywords": [
-    "공공기관 AX",
-    "AI 전환 TF",
-    "AI 교육"
-   ]
-  },
-  {
-   "name": "Bing 뉴스 RSS(최신순)",
-   "url": "https://www.bing.com/news/search?q=AX+%EB%8F%84%EC%9E%85&format=rss&qft=sortbydate%3d%221%22",
-   "keywords": [
-    "AX 도입",
-    "공공 AX",
-    "AX 협약",
-    "AI 에이전트 도입 업무"
+    "에이전틱 AI"
    ]
   }
  ],
@@ -382,12 +291,11 @@
  ],
  "fashion": [
   {
-   "name": "한국섬유신문",
-   "url": "https://www.ktnews.com/",
+   "name": "FashionUnited",
+   "url": "https://fashionunited.com/news/fashion",
    "keywords": [
-    "패션 기업",
-    "유통",
-    "컬렉션"
+    "material innovation",
+    "brand"
    ]
   },
   {
@@ -399,27 +307,11 @@
    ]
   },
   {
-   "name": "FashionNetwork USA",
-   "url": "https://us.fashionnetwork.com/",
-   "keywords": [
-    "fashion business",
-    "appointments"
-   ]
-  },
-  {
-   "name": "FashionUnited",
-   "url": "https://fashionunited.com/news/fashion",
-   "keywords": [
-    "Paris Fashion Week SS27",
-    "brand"
-   ]
-  },
-  {
    "name": "WWD Korea",
    "url": "https://www.wwdkorea.com/",
    "keywords": [
     "패션 산업",
-    "지속가능성"
+    "럭셔리"
    ]
   }
  ],
@@ -470,167 +362,56 @@
  ],
  "design": [
   {
-   "name": "디자인플러스",
-   "url": "https://design.co.kr/",
+   "name": "Dezeen",
+   "url": "https://www.dezeen.com/design/",
    "keywords": [
-    "디자인 전시",
-    "공예"
-   ]
-  },
-  {
-   "name": "Creative Review",
-   "url": "https://www.creativereview.co.uk/",
-   "keywords": [
-    "exhibition",
-    "creative industry",
-    "campaign"
-   ]
-  },
-  {
-   "name": "Creative Bloq",
-   "url": "https://www.creativebloq.com/design",
-   "keywords": [
-    "billboard",
-    "poster design",
-    "design news"
-   ]
-  },
-  {
-   "name": "스페셜타임스",
-   "url": "https://www.specialtimes.co.kr/",
-   "keywords": [
-    "서울디자인위크"
-   ]
-  },
-  {
-   "name": "국제뉴스",
-   "url": "https://www.gukjenews.com/",
-   "keywords": [
-    "디자인 축제"
-   ]
-  },
-  {
-   "name": "Egyptian Streets",
-   "url": "https://egyptianstreets.com/",
-   "keywords": [
-    "design exhibition"
+    "installation",
+    "retail design"
    ]
   }
  ],
  "meme": [
-  {
-   "name": "Meme.com",
-   "url": "https://meme.com/memes",
-   "keywords": [
-    "new memes"
-   ]
-  },
   {
    "name": "Know Your Meme (newest entries)",
    "url": "https://knowyourmeme.com/memes/all?sort=newest",
    "keywords": [
     "new meme entries"
    ]
-  },
-  {
-   "name": "Bing News RSS (meme)",
-   "url": "https://www.bing.com/news/search?q=meme+viral+tiktok&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "meme viral tiktok"
-   ]
   }
  ],
  "uxui": [
   {
-   "name": "WABetaInfo",
-   "url": "https://wabetainfo.com/",
-   "keywords": [
-    "WhatsApp",
-    "redesign",
-    "interface"
-   ]
-  },
-  {
-   "name": "Nielsen Norman Group",
-   "url": "https://www.nngroup.com/articles/",
-   "keywords": [
-    "UX research",
-    "AI UX"
-   ]
-  },
-  {
    "name": "9to5Google",
    "url": "https://9to5google.com/",
    "keywords": [
-    "redesign",
-    "Gemini app"
-   ]
-  },
-  {
-   "name": "MacRumors",
-   "url": "https://www.macrumors.com/",
-   "keywords": [
-    "homeOS",
-    "interface"
-   ]
-  },
-  {
-   "name": "Chrome Unboxed",
-   "url": "https://chromeunboxed.com/",
-   "keywords": [
     "Googlebook",
-    "desktop UI"
+    "app UX"
    ]
   },
   {
-   "name": "TechSpot",
-   "url": "https://www.techspot.com/",
+   "name": "Creative Bloq",
+   "url": "https://www.creativebloq.com/design",
    "keywords": [
-    "Windows",
-    "UI redesign"
+    "UX",
+    "design software"
    ]
   }
  ],
  "food": [
   {
-   "name": "식품저널 foodnews",
-   "url": "https://www.foodnews.co.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "식품 동향",
-    "K-푸드 마케팅"
-   ]
-  },
-  {
    "name": "푸드투데이",
    "url": "https://www.foodtoday.or.kr/news/articleList.html?view_type=sm",
    "keywords": [
-    "식품 안전",
     "국감",
-    "식품 트렌드"
-   ]
-  },
-  {
-   "name": "식품음료신문 thinkfood",
-   "url": "https://www.thinkfood.co.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "식품업계",
-    "K-푸드 수출"
-   ]
-  },
-  {
-   "name": "식품외식경제 foodbank",
-   "url": "https://www.foodbank.co.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "외식 프랜차이즈",
-    "외식 트렌드"
+    "식품 안전"
    ]
   },
   {
    "name": "Food Dive",
    "url": "https://www.fooddive.com/",
    "keywords": [
-    "food industry",
-    "beverage"
+    "ingredients",
+    "protein"
    ]
   },
   {
@@ -640,21 +421,6 @@
     "restaurant chains",
     "franchise"
    ]
-  },
-  {
-   "name": "Nation's Restaurant News",
-   "url": "https://www.nrn.com/",
-   "keywords": [
-    "restaurant industry"
-   ]
-  },
-  {
-   "name": "Food Business News",
-   "url": "https://www.foodbusinessnews.net/",
-   "keywords": [
-    "food manufacturing",
-    "ingredients"
-   ]
   }
  ],
  "music": [
@@ -662,37 +428,14 @@
    "name": "NME",
    "url": "https://www.nme.com/news/music",
    "keywords": [
-    "album"
-   ]
-  },
-  {
-   "name": "Music Business Worldwide",
-   "url": "https://www.musicbusinessworldwide.com/",
-   "keywords": [
-    "music industry"
+    "interview"
    ]
   },
   {
    "name": "Stereogum",
    "url": "https://www.stereogum.com/category/news/",
    "keywords": [
-    "new release"
-   ]
-  },
-  {
-   "name": "Consequence",
-   "url": "https://consequence.net/category/music/",
-   "keywords": [
-    "tour",
-    "new song"
-   ]
-  },
-  {
-   "name": "뉴시스",
-   "url": "https://www.newsis.com/culture/list/?cid=10700&scid=10703",
-   "keywords": [
-    "앨범",
-    "밴드"
+    "news"
    ]
   }
  ],
@@ -703,23 +446,6 @@
    "keywords": [
     "드라마",
     "예능",
-    "시청률"
-   ]
-  },
-  {
-   "name": "TV리포트",
-   "url": "https://tvreport.co.kr/",
-   "keywords": [
-    "드라마",
-    "예능",
-    "배우"
-   ]
-  },
-  {
-   "name": "OSEN",
-   "url": "https://www.osen.co.kr/",
-   "keywords": [
-    "예능",
     "배우"
    ]
   },
@@ -727,17 +453,8 @@
    "name": "allkpop",
    "url": "https://www.allkpop.com/",
    "keywords": [
-    "drama",
-    "variety",
-    "actor"
-   ]
-  },
-  {
-   "name": "Soompi",
-   "url": "https://www.soompi.com/feed",
-   "keywords": [
-    "drama preview",
-    "teaser"
+    "actor",
+    "variety"
    ]
   }
  ],
@@ -792,17 +509,13 @@
    "name": "TheWrap",
    "url": "https://www.thewrap.com/creative-content/movies/",
    "keywords": [
-    "trailer",
-    "review",
-    "horror"
+    "box office"
    ]
   },
   {
    "name": "/Film",
    "url": "https://www.slashfilm.com/category/movies/",
    "keywords": [
-    "movie news",
-    "review",
     "box office"
    ]
   },
@@ -810,17 +523,14 @@
    "name": "일간스포츠",
    "url": "https://isplus.com/",
    "keywords": [
-    "[31st BIFF]",
-    "영화",
-    "기자회견"
+    "IS차트"
    ]
   },
   {
    "name": "코리아타임스 Films",
    "url": "https://www.koreatimes.co.kr/entertainment/films",
    "keywords": [
-    "BIFF",
-    "Korean film"
+    "BIFF"
    ]
   }
  ],
@@ -860,45 +570,11 @@
  ],
  "wine": [
   {
-   "name": "The Drinks Business",
-   "url": "https://www.thedrinksbusiness.com/news/",
-   "keywords": [
-    "wine trade",
-    "restructure",
-    "fine wine"
-   ]
-  },
-  {
    "name": "Wine Industry Advisor",
    "url": "https://wineindustryadvisor.com/",
    "keywords": [
-    "wine tourism",
-    "wine festival",
-    "export"
-   ]
-  },
-  {
-   "name": "Harpers Wine & Spirit",
-   "url": "https://harpers.co.uk/news/",
-   "keywords": [
-    "fine wine market",
-    "wine trade"
-   ]
-  },
-  {
-   "name": "Wine Spectator",
-   "url": "https://www.winespectator.com/news/trade-news",
-   "keywords": [
-    "trade news",
-    "bankruptcy"
-   ]
-  },
-  {
-   "name": "Vinetur",
-   "url": "https://www.vinetur.com/en/",
-   "keywords": [
-    "wine exports",
-    "bulk wine"
+    "award",
+    "wine tourism"
    ]
   },
   {
@@ -906,123 +582,35 @@
    "url": "https://winenews.it/en/",
    "keywords": [
     "Italian wine market",
-    "bottlings",
-    "wine policy"
-   ]
-  },
-  {
-   "name": "Decanter",
-   "url": "https://www.decanter.com/wine-news/",
-   "keywords": [
-    "auction",
-    "Michelin grapes",
-    "acquisition"
+    "wine tourism"
    ]
   }
  ],
  "game": [
   {
-   "name": "인벤",
-   "url": "https://m.inven.co.kr/webzine/wznews.php",
-   "keywords": [
-    "e스포츠",
-    "신작 출시",
-    "업데이트",
-    "게임 축제"
-   ]
-  },
-  {
    "name": "게임메카",
    "url": "https://www.gamemeca.com/news.php",
    "keywords": [
     "업데이트",
-    "순위분석",
-    "체험회",
-    "출시"
-   ]
-  },
-  {
-   "name": "Nintendo Life",
-   "url": "https://www.nintendolife.com/news",
-   "keywords": [
-    "Switch 2",
-    "Pokemon",
-    "Minecraft",
-    "update"
-   ]
-  },
-  {
-   "name": "Minecraft.net",
-   "url": "https://www.minecraft.net/en-us/articles",
-   "keywords": [
-    "Marketplace",
-    "Minecraft update"
+    "인디"
    ]
   },
   {
    "name": "루리웹 게임 뉴스",
    "url": "https://bbs.ruliweb.com/news/531",
    "keywords": [
-    "신작 출시",
-    "업데이트",
-    "인디게임"
+    "1주년",
+    "쇼케이스"
    ]
   }
  ],
  "webtoon": [
   {
-   "name": "Anime Corner 뉴스",
-   "url": "https://animecorner.me/category/news/",
-   "keywords": [
-    "anime news"
-   ]
-  },
-  {
-   "name": "Anime Corner RSS",
-   "url": "https://animecorner.me/feed/",
-   "keywords": [
-    "anime news",
-    "NYCC"
-   ]
-  },
-  {
-   "name": "AniTrendz 뉴스",
-   "url": "https://anitrendz.net/news/",
-   "keywords": [
-    "anime adaptation",
-    "trailer"
-   ]
-  },
-  {
    "name": "Crunchyroll News (RSS)",
    "url": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
    "keywords": [
-    "anime season",
-    "anime film"
-   ]
-  },
-  {
-   "name": "Siliconera 애니",
-   "url": "https://www.siliconera.com/category/anime/",
-   "keywords": [
-    "anime",
-    "manga",
-    "webtoon"
-   ]
-  },
-  {
-   "name": "Bing News RSS (애니)",
-   "url": "https://www.bing.com/news/search?q=%EC%95%A0%EB%8B%88&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "애니",
-    "만화가"
-   ]
-  },
-  {
-   "name": "Bing News RSS (어린이 애니메이션)",
-   "url": "https://www.bing.com/news/search?q=%EC%96%B4%EB%A6%B0%EC%9D%B4+%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "어린이 애니메이션"
+    "NYCC",
+    "webtoon anime"
    ]
   }
  ],
@@ -1031,141 +619,31 @@
    "name": "스포츠경향",
    "url": "https://sports.khan.co.kr/",
    "keywords": [
-    "손흥민",
-    "김경문",
-    "K리그1",
-    "KBL",
-    "박신자컵",
-    "조코비치"
-   ]
-  },
-  {
-   "name": "OSEN 스포츠(날짜별)",
-   "url": "https://osen.co.kr/sports?date=20261011",
-   "keywords": [
-    "신유빈",
-    "이강인",
-    "설영우",
-    "김민재"
-   ]
-  },
-  {
-   "name": "MLB.com News",
-   "url": "https://www.mlb.com/news",
-   "keywords": [
-    "NLCS",
-    "ALCS",
-    "ALDS Game 5",
-    "Seiya Suzuki",
-    "Sonny Gray"
-   ]
-  },
-  {
-   "name": "헤럴드경제 미주판",
-   "url": "https://www.heraldk.com/",
-   "keywords": [
-    "아람코 코리아 챔피언십",
-    "청야니",
-    "김효주"
+    "KIA",
+    "레이예스",
+    "3위 경쟁"
    ]
   }
  ],
  "science": [
   {
-   "name": "Live Science",
-   "url": "https://www.livescience.com/news",
+   "name": "Space.com",
+   "url": "https://www.space.com/news",
    "keywords": [
-    "animals",
-    "robot",
-    "archaeology"
-   ]
-  },
-  {
-   "name": "Science News",
-   "url": "https://www.sciencenews.org/",
-   "keywords": [
-    "volcano",
-    "geology"
-   ]
-  },
-  {
-   "name": "NASA",
-   "url": "https://www.nasa.gov/news/recently-published/",
-   "keywords": [
-    "우주",
-    "위성",
-    "화성"
-   ]
-  },
-  {
-   "name": "Science News Explores",
-   "url": "https://www.snexplores.org/",
-   "keywords": [
-    "students",
-    "animals",
-    "space"
-   ]
-  },
-  {
-   "name": "ScienceAlert",
-   "url": "https://www.sciencealert.com/latest",
-   "keywords": [
-    "discovery",
-    "nature"
-   ]
-  },
-  {
-   "name": "사이언스타임즈",
-   "url": "https://www.sciencetimes.co.kr/nscvrg/list/menu/248?searchCategory=220",
-   "keywords": [
-    "과학",
-    "발견"
+    "astronomy",
+    "stargazing",
+    "eclipse"
    ]
   }
  ],
  "robot": [
   {
-   "name": "The Robot Report",
-   "url": "https://www.therobotreport.com/",
-   "keywords": [
-    "humanoid",
-    "physical AI",
-    "dexterity"
-   ]
-  },
-  {
    "name": "Humanoids Daily",
    "url": "https://www.humanoidsdaily.com/",
    "keywords": [
     "humanoid",
-    "robot fight",
-    "conference"
-   ]
-  },
-  {
-   "name": "헬로티 로봇",
-   "url": "https://www.hellot.net/news/articleList.html?sc_section_code=S1N4",
-   "keywords": [
-    "로봇",
-    "피지컬 AI",
-    "휴머노이드"
-   ]
-  },
-  {
-   "name": "Robotics 24/7",
-   "url": "https://www.robotics247.com/",
-   "keywords": [
-    "warehouse robot",
-    "AMR",
-    "returns automation"
-   ]
-  },
-  {
-   "name": "로봇신문",
-   "url": "https://www.irobotnews.com/news/articleList.html?view_type=sm",
-   "keywords": [
-    "휴머노이드",
-    "피지컬 AI"
+    "robot data",
+    "Panasonic"
    ]
   }
  ],
@@ -1321,30 +799,12 @@
  ],
  "show": [
   {
-   "name": "뉴스컬처",
-   "url": "https://www.nc.press/",
-   "keywords": [
-    "국악",
-    "전통춤",
-    "공연",
-    "발레"
-   ]
-  },
-  {
-   "name": "Playbill",
-   "url": "https://www.playbill.com/news",
-   "keywords": [
-    "Off-Broadway",
-    "Broadway"
-   ]
-  },
-  {
    "name": "뉴시스 공연",
    "url": "https://www.newsis.com/culture/list?cid=10700&scid=10702",
    "keywords": [
     "공연",
-    "뮤지컬",
-    "클래식"
+    "클래식",
+    "SPAF"
    ]
   }
  ],
@@ -1421,71 +881,19 @@
  ],
  "travel": [
   {
-   "name": "Travel Weekly",
-   "url": "https://www.travelweekly.com/Travel-News",
-   "keywords": [
-    "Brand USA",
-    "inbound travel"
-   ]
-  },
-  {
    "name": "Skift",
    "url": "https://skift.com/news/",
    "keywords": [
-    "hotel",
-    "airline",
-    "tourism"
+    "luxury travel",
+    "tour operator"
    ]
   },
   {
-   "name": "Business Travel News Europe",
-   "url": "https://www.businesstravelnewseurope.com/",
+   "name": "Lonely Planet",
+   "url": "https://www.lonelyplanet.com/articles",
    "keywords": [
-    "airline",
-    "strike",
-    "rail"
-   ]
-  },
-  {
-   "name": "PhocusWire",
-   "url": "https://www.phocuswire.com/news",
-   "keywords": [
-    "travel tech",
-    "AI",
-    "biometrics"
-   ]
-  },
-  {
-   "name": "여행신문 트래블데일리",
-   "url": "https://www.traveldaily.co.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "여행상품",
-    "관광공사"
-   ]
-  },
-  {
-   "name": "투어코리아",
-   "url": "https://www.tournews21.com/news/articleList.html?view_type=sm",
-   "keywords": [
-    "축제",
-    "여행"
-   ]
-  },
-  {
-   "name": "TTL뉴스",
-   "url": "https://www.ttlnews.com/news/articleList.html?view_type=sm",
-   "keywords": [
-    "관광",
-    "리조트",
-    "축제"
-   ]
-  },
-  {
-   "name": "여행신문",
-   "url": "https://www.traveltimes.co.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "여행업계",
-    "항공"
+    "holiday flights",
+    "Google Flights"
    ]
   }
  ],
@@ -1543,47 +951,25 @@
  ],
  "edu": [
   {
-   "name": "한국교육신문",
-   "url": "https://www.hangyo.com/news/article_list_all.html",
-   "keywords": [
-    "교권",
-    "교원단체",
-    "학교 현장"
-   ]
-  },
-  {
    "name": "뉴시스 교육",
    "url": "https://www.newsis.com/society/list/?cid=10200&scid=10205",
    "keywords": [
-    "대학",
-    "교육부",
-    "청소년"
-   ]
-  },
-  {
-   "name": "에듀프레스",
-   "url": "https://www.edupress.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "고등교육",
-    "교육지원청"
+    "국정감사",
+    "교육부"
    ]
   },
   {
    "name": "교육플러스",
    "url": "https://www.edpl.co.kr/news/articleList.html?view_type=sm",
    "keywords": [
-    "국감",
-    "교부금",
-    "교육감"
+    "해외 교육"
    ]
   },
   {
    "name": "이투데이 교육",
    "url": "https://www.etoday.co.kr/society/education",
    "keywords": [
-    "대학 AI",
-    "진학상담",
-    "수능"
+    "문해력"
    ]
   }
  ],
@@ -1593,26 +979,22 @@
    "url": "https://www.allkpop.com",
    "keywords": [
     "comeback",
-    "tour",
-    "anniversary"
+    "performance"
    ]
   },
   {
    "name": "Soompi",
    "url": "https://www.soompi.com/feed",
    "keywords": [
-    "comeback",
-    "world tour",
-    "brand reputation"
+    "comeback"
    ]
   },
   {
    "name": "The Korea Herald K-pop",
    "url": "https://www.koreaherald.com/Kpop",
    "keywords": [
-    "debut",
-    "concert",
-    "exhibit"
+    "music video",
+    "record"
    ]
   }
  ],
@@ -1645,14 +1027,12 @@
    "name": "조달데이터 JODALDATA (나라장터 공고 검색)",
    "url": "https://jodaldata.com/bids.php?q=고도화",
    "keywords": [
-    "고도화",
-    "홈페이지",
-    "플랫폼 구축",
-    "정보시스템",
-    "누리집",
+    "콘텐츠",
     "시스템 구축",
-    "ISP",
-    "홍보 콘텐츠"
+    "고도화",
+    "누리집",
+    "홈페이지",
+    "플랫폼 구축"
    ]
   }
  ],
@@ -1884,28 +1264,10 @@
  ],
  "wineko": [
   {
-   "name": "와인21 이벤트",
-   "url": "https://www.wine21.com/12_event/event_list.html",
-   "keywords": [
-    "시음회",
-    "와인 디너",
-    "마스터 클래스"
-   ]
-  },
-  {
-   "name": "소믈리에타임즈",
-   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
-   "keywords": [
-    "국내 출시",
-    "시음회",
-    "와인 디너"
-   ]
-  },
-  {
    "name": "Bing 뉴스 RSS",
-   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8&qft=sortbydate%3d%221%22&format=rss",
+   "url": "https://www.bing.com/news/search?q=%EB%82%A8%EC%82%B0+%EC%99%80%EC%9D%B8%ED%8E%98%EC%8A%A4%ED%83%80&format=rss&qft=sortbydate%3d%221%22",
    "keywords": [
-    "와인"
+    "남산 와인페스타"
    ]
   }
  ],
@@ -2459,19 +1821,17 @@
  ],
  "toon": [
   {
+   "name": "이데일리",
+   "url": "https://www.edaily.co.kr/",
+   "keywords": [
+    "뉴욕 코믹콘 웹툰"
+   ]
+  },
+  {
    "name": "웹툰가이드 뉴스",
    "url": "https://www.webtoonguide.com/ko/board/news-column",
    "keywords": [
     "웹툰 소식"
-   ]
-  },
-  {
-   "name": "Bing News RSS",
-   "url": "https://www.bing.com/news/search?q=웹툰&format=rss",
-   "keywords": [
-    "웹툰",
-    "웹툰 작가",
-    "신작 웹툰 공개"
    ]
   },
   {
@@ -2484,25 +1844,11 @@
  ],
  "toonhot": [
   {
-   "name": "이데일리 김정유의 웹툰파헤치기",
-   "url": "https://www.edaily.co.kr/",
+   "name": "헤럴드경제",
+   "url": "https://biz.heraldcorp.com/",
    "keywords": [
-    "웹툰파헤치기",
-    "웹툰 추천"
-   ]
-  },
-  {
-   "name": "위클리툰",
-   "url": "https://www.weeklytoon.com/news/articleList.html",
-   "keywords": [
-    "웹툰 신작"
-   ]
-  },
-  {
-   "name": "위키트리",
-   "url": "https://www.wikitree.co.kr/",
-   "keywords": [
-    "카카오엔터 신작 웹툰"
+    "웹툰 추천",
+    "신작 웹툰"
    ]
   },
   {
@@ -2515,26 +1861,11 @@
  ],
  "tripko": [
   {
-   "name": "투어코리아",
-   "url": "https://www.tournews21.com/news/articleList.html?sc_word=%EA%B0%80%EB%B3%BC&view_type=sm",
+   "name": "TTL뉴스",
+   "url": "https://www.ttlnews.com/news/articleList.html?view_type=sm",
    "keywords": [
-    "가을 축제",
-    "가볼 만한 곳"
-   ]
-  },
-  {
-   "name": "트래블데일리",
-   "url": "https://www.traveldaily.co.kr/news/articleList.html?sc_section_code=S1N13",
-   "keywords": [
-    "지자체 소식",
-    "부산"
-   ]
-  },
-  {
-   "name": "노컷뉴스",
-   "url": "https://www.nocutnews.co.kr/",
-   "keywords": [
-    "제주 가을 여행"
+    "정원",
+    "축제"
    ]
   }
  ],
@@ -2543,16 +1874,8 @@
    "name": "iwafu",
    "url": "https://www.iwafu.com/kr/events",
    "keywords": [
-    "가을 축제",
-    "불꽃놀이",
-    "도자기 시장"
-   ]
-  },
-  {
-   "name": "Lonely Planet",
-   "url": "https://www.lonelyplanet.com/articles",
-   "keywords": [
-    "where to go in October"
+    "도쿄 스카이트리",
+    "교토 공연"
    ]
   }
  ],
@@ -2576,21 +1899,11 @@
  ],
  "bp": [
   {
-   "name": "ScienceDaily Health",
-   "url": "https://www.sciencedaily.com/news/health_medicine/",
+   "name": "하이닥 뉴스",
+   "url": "https://news.hidoc.co.kr/news/articleList.html",
    "keywords": [
-    "heart disease",
-    "cholesterol",
-    "hypertension"
-   ]
-  },
-  {
-   "name": "News-Medical",
-   "url": "https://www.news-medical.net/medical/news",
-   "keywords": [
-    "blood pressure",
-    "diabetes",
-    "cholesterol"
+    "혈압",
+    "고혈압"
    ]
   },
   {
@@ -2598,19 +1911,25 @@
    "url": "https://newsroom.heart.org/news",
    "keywords": [
     "blood pressure",
-    "cholesterol",
-    "stroke"
+    "hypertension"
+   ]
+  },
+  {
+   "name": "News-Medical",
+   "url": "https://www.news-medical.net/medical/news",
+   "keywords": [
+    "blood pressure"
    ]
   }
  ],
  "dm": [
   {
-   "name": "News-Medical",
-   "url": "https://www.news-medical.net/medical/news",
+   "name": "News-Medical Diabetes",
+   "url": "https://www.news-medical.net/condition/Diabetes",
    "keywords": [
-    "blood pressure",
     "diabetes",
-    "cholesterol"
+    "metformin",
+    "SGLT2"
    ]
   },
   {
@@ -2618,46 +1937,40 @@
    "url": "https://news.hidoc.co.kr/news/articleList.html",
    "keywords": [
     "당뇨",
-    "혈당",
-    "고혈압"
+    "혈당"
    ]
   },
   {
    "name": "코메디닷컴",
    "url": "https://kormedi.com/category/healthnews/",
    "keywords": [
-    "당뇨",
-    "혈압",
-    "콜레스테롤"
+    "당뇨"
    ]
   }
  ],
  "lipid": [
   {
+   "name": "하이닥 뉴스",
+   "url": "https://news.hidoc.co.kr/news/articleList.html",
+   "keywords": [
+    "심혈관",
+    "동맥경화",
+    "부정맥"
+   ]
+  },
+  {
    "name": "ScienceDaily Health",
    "url": "https://www.sciencedaily.com/news/health_medicine/",
    "keywords": [
-    "heart disease",
     "cholesterol",
-    "hypertension"
+    "heart disease"
    ]
   },
   {
    "name": "News-Medical",
-   "url": "https://www.news-medical.net/medical/news",
+   "url": "https://www.news-medical.net/condition/Cholesterol",
    "keywords": [
-    "blood pressure",
-    "diabetes",
     "cholesterol"
-   ]
-  },
-  {
-   "name": "AHA Newsroom",
-   "url": "https://newsroom.heart.org/news",
-   "keywords": [
-    "blood pressure",
-    "cholesterol",
-    "stroke"
    ]
   }
  ],
@@ -3219,9 +2532,8 @@
    "name": "알자지라 미국·캐나다",
    "url": "https://www.aljazeera.com/us-canada/",
    "keywords": [
-    "midterms",
-    "Delta",
-    "diesel"
+    "shooting",
+    "hurricane"
    ]
   },
   {
@@ -3229,64 +2541,31 @@
    "url": "https://www.aljazeera.com/latin-america/",
    "keywords": [
     "Mexico",
-    "Brazil"
+    "hurricane"
    ]
   },
   {
    "name": "뉴시스 국제",
    "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
    "keywords": [
-    "트럼프",
-    "중간선거",
-    "페루"
-   ]
-  },
-  {
-   "name": "경향신문 국제",
-   "url": "https://www.khan.co.kr/world",
-   "keywords": [
-    "미국"
+    "트럼프"
    ]
   }
  ],
  "worldasia": [
   {
-   "name": "경향신문 국제",
-   "url": "https://www.khan.co.kr/world",
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
    "keywords": [
-    "북한"
+    "인도"
    ]
   },
   {
    "name": "Al Jazeera Asia-Pacific",
    "url": "https://www.aljazeera.com/asia-pacific/",
    "keywords": [
-    "Japan",
-    "Okinawa"
-   ]
-  },
-  {
-   "name": "뉴시스 국제",
-   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
-   "keywords": [
-    "일본",
-    "중국",
-    "북한",
-    "남아시아"
-   ]
-  },
-  {
-   "name": "Al Jazeera India",
-   "url": "https://www.aljazeera.com/where/india/",
-   "keywords": [
-    "India"
-   ]
-  },
-  {
-   "name": "Al Jazeera Pakistan",
-   "url": "https://www.aljazeera.com/where/pakistan/",
-   "keywords": [
-    "Pakistan"
+    "Okinawa",
+    "Japan"
    ]
   }
  ],
@@ -3295,25 +2574,15 @@
    "name": "알자지라 유럽",
    "url": "https://www.aljazeera.com/where/europe/",
    "keywords": [
-    "Poland",
-    "Ukraine"
-   ]
-  },
-  {
-   "name": "뉴시스 국제",
-   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
-   "keywords": [
-    "우크라이나",
-    "러시아"
+    "Ukraine",
+    "UK"
    ]
   },
   {
    "name": "유로뉴스 유럽",
    "url": "https://www.euronews.com/news/europe",
    "keywords": [
-    "EU",
-    "energy",
-    "UK"
+    "EU"
    ]
   }
  ],
@@ -3322,46 +2591,17 @@
    "name": "알자지라",
    "url": "https://www.aljazeera.com/middle-east/",
    "keywords": [
-    "Yemen",
-    "Sudan",
-    "UAE",
-    "Gaza",
-    "Iran"
-   ]
-  },
-  {
-   "name": "알자지라 아프리카",
-   "url": "https://www.aljazeera.com/africa/",
-   "keywords": [
-    "Ethiopia",
-    "Sudan",
-    "Kenya"
-   ]
-  },
-  {
-   "name": "뉴시스 국제",
-   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
-   "keywords": [
-    "사우디",
-    "후티",
-    "예멘"
-   ]
-  },
-  {
-   "name": "경향신문 국제",
-   "url": "https://www.khan.co.kr/world",
-   "keywords": [
-    "중동",
-    "아프리카"
+    "Israel",
+    "Gaza"
    ]
   },
   {
    "name": "아프리카뉴스",
    "url": "https://www.africanews.com/",
    "keywords": [
-    "Djibouti",
-    "Niger",
-    "DR Congo"
+    "Nigeria",
+    "Guinea-Bissau",
+    "Tigray"
    ]
   }
  ]

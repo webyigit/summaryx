@@ -1,0 +1,35 @@
+{
+ "title": "아마존 '나에 대해' 페이지가 사용자를 놀린다?… 추천 알고리즘의 추정 공개에 SNS 화제",
+ "originalTitle": "Amazon's 'About You' section is quietly roasting users, and people love it",
+ "source": "Creative Bloq",
+ "url": "https://www.creativebloq.com/news/amazons-about-you-section-is-quietly-roasting-users-and-people-love-it",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "아마존이 5월 계정 설정에 넣은 '어바웃 유(About You)'는 구매 기록·리뷰·위시리스트·알렉사 대화를 바탕으로 회사가 사용자에 대해 내린 추정을 보여 주는 화면이다. 아마존은 이 추정이 광고와 상품 추천에 쓰이며, 사용자가 내용을 고치거나 지우고 다른 AI 챗봇의 데이터를 가져와 프로필을 보강할 수 있다고 설명한다.",
+  "스레드 사용자 @fangirlinmegan이 자신의 체형에 대한 민망한 추정이 적힌 화면을 올리면서 기능이 널리 알려졌다. 이후 '진지하게 커피를 내린다', '고양이를 돌본다', '키 큰 책을 가지고 있다' 같은 화면이 줄줄이 공유됐고, 퍼시피카와 지프에 모두 맞는 부품을 산 사람이 지프 소유자로 분류된 사례도 나왔다.",
+  "반응은 대체로 재미있다는 쪽이지만 섬뜩하다는 의견도 있다. 기사는 구글·메타의 광고 설정보다 훨씬 세분화된 카테고리라는 점, 알고리즘의 논리를 보여 주는 투명성이 신뢰를 얻을 수도 있다는 점을 짚으면서도, 보이는 것은 아마존이 가진 데이터의 일부일 가능성이 크다고 경고했다. 앱에서는 계정 > 쇼핑 설정 > About you에서 볼 수 있다."
+ ],
+ "keyPoints": [
+  "구매·리뷰·알렉사 대화로 만든 사용자 추정 공개",
+  "SNS서 정확·엉뚱한 추정 캡처 공유 열풍",
+  "투명성 vs 프로파일링 우려, 일부 데이터만 노출"
+ ],
+ "image": "https://cdn.mos.cms.futurecdn.net/jeV6nnFS8VGufGk5VghfcJ-1920-80.jpg",
+ "facts": [
+  [
+   "서비스",
+   "Amazon 'About You'"
+  ],
+  [
+   "위치",
+   "계정 > 쇼핑 설정 > About you"
+  ],
+  [
+   "필자",
+   "Joe Foley"
+  ]
+ ],
+ "id": "261011-uxui-11",
+ "category": "uxui",
+ "collectedAt": "2026-10-11T10:57:44+09:00"
+}

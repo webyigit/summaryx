@@ -1,0 +1,35 @@
+{
+ "title": "개발자 한 명이 AI로 포토샵·일러스트레이터 등 어도비 앱 7종 복제해 무료 공개… '전문가가 믿고 쓸까' 논란",
+ "originalTitle": "Someone just rebuilt Adobe Creative Cloud with AI – then gave it away for free",
+ "source": "Creative Bloq",
+ "url": "https://www.creativebloq.com/design/design-software/someone-just-rebuilt-adobe-creative-cloud-with-ai-then-gave-it-away-for-free",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "어도비의 AI 약관과 해지 위약금 정책에 불만을 가진 사용자들이 캔바·어피니티 같은 대안으로 옮겨 가는 가운데, 개발자 브랜던 토머스가 어도비 앱을 '클린룸' 방식으로 복제한 도구를 무료·오픈소스로 공개했다. 레딧 글에 따르면 포토샵·일러스트레이터·프리미어·라이트룸·애프터 이펙트·인디자인·아크로뱃 프로 등 7종이며 모두 러스트로 만들었고, 기사는 클로드와 러스트로 개발됐다고 전했다.",
+  "토머스는 해지 과정의 '다크 패턴' 위약금을 여러 번 겪은 것이 계기였다고 해커뉴스에 밝혔고, 15년 경력에 러스트 경험 10년 정도라며 '소프트웨어는 끝났다'고 적었다.",
+  "크리에이티브 블록의 대니얼 존 디자인 에디터는 기존 소프트웨어를 베끼는 것이 새로운 것을 만드는 것만큼 의미 있는지, 전문 크리에이터가 생계가 걸린 파일을 AI가 만든 소프트웨어에 맡길지 의문을 제기했다. 한 레딧 사용자도 포토샵처럼 보이는 검증 안 된 도구와 꾸준히 유지보수되는 전문 소프트웨어 사이에는 큰 차이가 있다고 지적했다."
+ ],
+ "keyPoints": [
+  "어도비 앱 7종을 AI로 복제, 무료·오픈소스 공개",
+  "계기는 구독 해지 '다크 패턴' 위약금",
+  "전문가 신뢰·유지보수 측면 회의론"
+ ],
+ "image": "https://cdn.mos.cms.futurecdn.net/z4qUZQDmLs4Mxw7a7Cx85G-889-80.jpg",
+ "facts": [
+  [
+   "개발자",
+   "Brandon Thomas"
+  ],
+  [
+   "대상",
+   "Adobe 앱 7종 클론(Rust)"
+  ],
+  [
+   "필자",
+   "Daniel John"
+  ]
+ ],
+ "id": "261011-uxui-12",
+ "category": "uxui",
+ "collectedAt": "2026-10-11T10:57:44+09:00"
+}
