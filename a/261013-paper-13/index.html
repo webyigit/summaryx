@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SCAPO: 문제와 상관없는 표현에 흔들리는 토큰을 덜 보상해 추론을 강화한다 | summaryx</title>
+<meta name="description" content="검증 가능한 보상을 쓰는 강화학습(RLVR)은 LLM 추론을 강화하지만, 문제와 답은 그대로인데 관련 없는 문구만 바뀌어도 모델 출력이 흔들린다. 연구진은 문제·정답은 유지한 채 무관한 부분만 바꾼 &#x27;준사실(semifactual)&#x27; 프롬프트로 이를 조사했고, 흔들림 정">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SCAPO: 문제와 상관없는 표현에 흔들리는 토큰을 덜 보상해 추론을 강화한다">
+<meta property="og:description" content="검증 가능한 보상을 쓰는 강화학습(RLVR)은 LLM 추론을 강화하지만, 문제와 답은 그대로인데 관련 없는 문구만 바뀌어도 모델 출력이 흔들린다. 연구진은 문제·정답은 유지한 채 무관한 부분만 바꾼 &#x27;준사실(semifactual)&#x27; 프롬프트로 이를 조사했고, 흔들림 정">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261013-paper-13">
+<script>location.replace('../../#/a/261013-paper-13');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261013-paper-13">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">SCAPO: 문제와 상관없는 표현에 흔들리는 토큰을 덜 보상해 추론을 강화한다</h1>
+<p>검증 가능한 보상을 쓰는 강화학습(RLVR)은 LLM 추론을 강화하지만, 문제와 답은 그대로인데 관련 없는 문구만 바뀌어도 모델 출력이 흔들린다. 연구진은 문제·정답은 유지한 채 무관한 부분만 바꾼 &#x27;준사실(semifactual)&#x27; 프롬프트로 이를 조사했고, 흔들림 정도가 토큰마다 크게 다르다는 것을 발견했다. 크게 흔들리는 토큰을 디코딩 때 억제하기만 해도 가중치 수정 없이 정확도가 올랐다.</p><p>문제는 GRPO가 응답의 모든 토큰에 같은 결과 기반 이득(advantage)을 줘, 쓸모 있는 추론과 함께 엉뚱한 의존성까지 강화할 수 있다는 점이다. SCAPO는 고정된 응답에서 각 토큰 확률이 준사실 개입에 얼마나 흔들리는지 재고, 이를 정규화해 학습 초기에 불안정한 토큰의 이득을 줄인다. 안정적이라는 이유만으로 추가 보상을 주지는 않는다.</p><p>Qwen3-4B-Base와 Qwen3-1.7B-Base에서 AIME 2024~2026 정확도가 GRPO보다 각각 5.63%p, 4.17%p 높았고, 비교한 분포 밖 벤치마크 모두에서 가장 좋았다.</p>
+<p><a href="https://arxiv.org/abs/2609.40360">원문 보기</a></p>
+</body></html>

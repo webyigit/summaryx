@@ -1,0 +1,43 @@
+{
+ "title": "SWE-Game: 코딩 에이전트는 원하는 게임을 만들 수 있을까",
+ "originalTitle": "SWE-Game: Can Coding Agents Build the Games We Want?",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2609.33678",
+ "publishedAt": "2026-09-27",
+ "summary": [
+  "코딩 에이전트가 버그 수정 같은 작업을 넘어 완성된 '게임'까지 만들 수 있는지 평가할 기준이 부족했다. SWE-Game은 실행 가능한 Godot 기준 게임 41개(2D·3D, 13개 장르)를 바탕으로 247개 과제를 만든 벤치마크다.",
+  "과제는 다섯 유형이다. 짧은 기획서로 게임 만들기, 설계 문서대로 구현하기, 뼈대 코드 완성하기, 일부러 심은 결함 83개 고치기, Godot 게임을 Unity로 옮기기다. 평가는 엔진 상태 검사, 기준 입력 재생, 에이전트가 녹화한 시연을 결합하고 화면 표현은 비전-언어 모델 채점 기준으로 본다.",
+  "Opus5가 다섯 유형 모두에서 가장 높았지만 세 가지 '만들기' 과제에서 최고 점수도 100점 만점에 60점 아래였다(기획서→게임 50.38점). 요구사항 누락과 게임 로직 오류가 흔한 실패였다. 실행 기반 검사는 사람 판정과 92.59% 균형 정확도로 맞아, 영상 기반 VLM 심사(78.41%)보다 믿을 만했다."
+ ],
+ "keyPoints": [
+  "Godot 게임 41개 기반 247개 과제",
+  "최고 모델도 만들기 과제 60점 미만",
+  "실행 검사가 사람 판정과 92.6% 일치"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Xiaoyu Chen, Lai Wei, Jin Wang, Xiangyu Zou, Ruochen Fan, Enze Luo, Mingzhe Yao, Jiahui Zhu, Yuhua Wen, Linghe Kong, Weiran Huang"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "인공지능(cs.AI) · 코딩 에이전트 벤치마크"
+  ],
+  [
+   "arXiv ID",
+   "2609.33678"
+  ],
+  [
+   "코드",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261013-paper-04",
+ "category": "paper",
+ "collectedAt": "2026-10-13T02:32:24+09:00"
+}

@@ -1,0 +1,21 @@
+{
+ "title": "픽셀 11 전용 AI 받아쓰기 '램블러', 다른 안드로이드폰에서도…개발자 개조판 'PixelBoard' 등장",
+ "originalTitle": "Someone ported Pixel 11's Rambler voice-to-text to other Android phones",
+ "source": "9to5Google",
+ "url": "https://9to5google.com/2026/10/11/android-gboard-rambler-port/",
+ "publishedAt": "2026-10-11",
+ "summary": [
+  "'램블러(Rambler)'는 구글 픽셀 11 시리즈와 구글북에만 들어간 AI 음성 받아쓰기 기능이다. 말한 내용을 처리해 문법과 서식을 다듬고 '음', '어' 같은 군말과 말실수를 지워준다. 실시간 미리보기나 단어 그대로의 받아쓰기는 안 되지만, 9to5Google은 기존 받아쓰기보다 크게 나아졌다고 평가한다. 다만 픽셀 11 전용이라 다른 폰 사용자는 쓸 수 없었다.",
+  "한 개발자가 공식 지보드(Gboard) 앱을 개조한 'PixelBoard'를 공개하면서 거의 모든 안드로이드폰에서 램블러와 픽셀용 새 글쓰기 도구를 쓸 수 있게 됐다. 깃허브에서 내려받아 설치(사이드로드)하거나 기존 지보드를 패치하는 방식이다. 9to5Google이 갤럭시 Z 폴드 8에서 시험해 보니 픽셀 11과 똑같이 작동했다.",
+  "다만 공식 앱이 아닌 개조판을 설치하는 것은 위험이 따르며 기기마다 결과가 다를 수 있다. 구글이 램블러를 다른 기기로 넓힐지는 아직 알 수 없고, 플레이스토어 앱을 원하면 마이크로소프트 스위프트키가 대안이라고 매체는 소개했다."
+ ],
+ "keyPoints": [
+  "램블러: 군말 지우고 문법 다듬는 AI 받아쓰기",
+  "개조 지보드 'PixelBoard'로 타사 폰에서도 작동",
+  "비공식 설치라 보안 위험…구글 확대 계획 미정"
+ ],
+ "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/Rambler-2.jpg?quality=82&strip=all&resize=1200,628",
+ "id": "261013-it-12",
+ "category": "it",
+ "collectedAt": "2026-10-13T02:32:24+09:00"
+}

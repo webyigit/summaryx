@@ -1,0 +1,43 @@
+{
+ "title": "Opera: 코딩 에이전트에 준 조언이 실제로 해결될 때까지 추적하는 비평가",
+ "originalTitle": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2609.33987",
+ "publishedAt": "2026-09-27",
+ "summary": [
+  "오래 걸리는 작업을 하는 코딩 에이전트에게 주는 수정 조언은 너무 늦거나, 진행 상황을 잘못 판단하거나, 진짜 문제를 놓쳐 오히려 일을 망치기도 한다. 기존 비평가(critic)는 작업 경로를 평가해 피드백을 줄 뿐, 그 뒤 에이전트가 무엇을 했는지는 잘 확인하지 않았다.",
+  "Opera는 각 수정 조언을 지속 메모로 저장하고 진단한 문제가 실제로 고쳐질 때까지 추적한다. 정기 점검과 사건 기반 점검으로 검토 시점을 정하고, 유형별 진단 연산자로 문제를 분류하며, 보내기 전에 보이는 증거로 피드백을 검증하고, 이후 행동을 지켜보며 '시키는 대로만 한 것'과 '진짜 해결'을 구분한다.",
+  "테스트 시 비평가로 쓰면 4개 정책 모델에서 해결률이 Terminal-Bench 2.1 최대 12.4점, SWE-Bench Pro 일부 15.0점, DeepSWE v1.1 8.9점 올랐다. Opera가 이끈 실행 기록으로 Qwen3.5-9B를 미세조정하자 비평가 없이도 SWE-Bench Pro 미공개 저장소 해결률이 10.2점 올랐다."
+ ],
+ "keyPoints": [
+  "조언을 메모로 남기고 해결까지 추적",
+  "Terminal-Bench·SWE-Bench Pro 해결률 상승",
+  "Opera 기록으로 미세조정하니 10.2점↑"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Kai Mei, Zhiyuan Hu, Yutong Dai, Juntao Tan, Yifan Zhang, Dingjie Song, Dimitris N. Metaxas, Silvio Savarese, Ran Xu, Zeyuan Chen"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "계산언어학(cs.CL) · 코딩 에이전트·비평 모델"
+  ],
+  [
+   "arXiv ID",
+   "2609.33987"
+  ],
+  [
+   "코드",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261013-paper-11",
+ "category": "paper",
+ "collectedAt": "2026-10-13T02:32:24+09:00"
+}

@@ -1,0 +1,43 @@
+{
+ "title": "ReSAIL: 에이전트가 스스로를 반복 증류할 때 생기는 붕괴를 막는다",
+ "originalTitle": "ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2609.39306",
+ "publishedAt": "2026-09-30",
+ "summary": [
+  "LLM 에이전트를 스스로의 경험으로 반복해 증류(self-distillation)하는 방법은 사람 데이터 없이 성능을 끌어올리는 길로 주목받는다. 그런데 연구진은 이 과정을 여러 주기 반복하면 실제 배치 성능은 물론, 정답 힌트 같은 '특권 정보'를 받은 상태의 과제 성능까지 무너질 수 있음을 확인했다.",
+  "이를 막기 위해 제안한 ReSAIL은 기존 방법에 덧붙이는 플러그인이다. 특권 정보가 교사 모델의 예측을 가장 크게 바꾸는 상호작용 단계를 골라 학습하고, 궤적마다 증류 손실의 균형을 맞추며, 학생 모델이 고정된 교사의 '특권 정보 조건' 출력에서 멀어지지 않도록 규제한다.",
+  "ALFWorld와 TextCraft에서 세 주기에 걸쳐 성능이 개선됐고, 멀티모달 GUI 에이전트용 AITZ에서도 행동 예측이 좋아졌다고 연구진은 보고했다. 자기 개선형 에이전트의 안정성 문제를 짚은 연구다."
+ ],
+ "keyPoints": [
+  "반복 자기 증류 시 에이전트 성능 붕괴 확인",
+  "핵심 단계 선별·손실 균형·교사 규제 결합",
+  "ALFWorld·TextCraft·AITZ서 개선"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Shengjie Jin, Hengbo Xu, Zelong Sun, YuJie Guo, Zhiwu Lu"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "머신러닝(cs.LG)·cs.AI · 에이전트 자기 증류"
+  ],
+  [
+   "arXiv ID",
+   "2609.39306"
+  ],
+  [
+   "코드",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261013-paper-02",
+ "category": "paper",
+ "collectedAt": "2026-10-13T02:32:24+09:00"
+}

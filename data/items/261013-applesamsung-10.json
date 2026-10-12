@@ -1,0 +1,39 @@
+{
+ "title": "갤럭시 A57, 원 UI 9.0 설치 후 '부팅 불가' 보고…업데이트 보류 권고",
+ "originalTitle": "Galaxy A57 owners may want to avoid upgrading to One UI 9.0 right now",
+ "source": "SamMobile",
+ "url": "https://www.sammobile.com/news/galaxy-a57-owners-may-want-to-avoid-one-ui-9-0-right-now/",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "삼성전자가 한국 밖 지역에서 갤럭시 A57용 원 UI 9.0 배포를 시작한 지 24시간도 안 돼 문제가 불거졌다. 업데이트를 설치한 일부 A57 사용자들이 휴대폰이 부팅되지 않는다고 호소하고 있다.",
+  "샘모바일은 네덜란드 매체 갤럭시클럽을 통해 이 문제를 처음 접했고, 레딧에도 같은 증상을 올린 사용자가 최소 1명 있다고 전했다. 다만 어떤 빌드·국가에서 발생하는지, 원인이 무엇인지는 아직 확인되지 않았고 해결책도 나오지 않았다.",
+  "샘모바일은 상황이 더 분명해질 때까지 A57 사용자는 업데이트를 미루는 편이 낫다고 조언했다. 같은 날 원 UI 9 설치 후 오류 화면에 갇히는 사례도 보고된 만큼, 보급형 모델로 정식 배포가 넓어지는 과정에서 안정성 논란이 이어질지 주목된다."
+ ],
+ "keyPoints": [
+  "A57 원 UI 9.0 배포 하루 만에 부팅 불가 보고",
+  "원인·해결책 아직 확인 안 돼",
+  "상황 정리 때까지 업데이트 보류 권고"
+ ],
+ "image": "https://www.sammobile.com/wp-content/uploads/2026/04/Galaxy-A57-review-5.jpg",
+ "facts": [
+  [
+   "회사",
+   "삼성전자"
+  ],
+  [
+   "대상",
+   "갤럭시 A57"
+  ],
+  [
+   "증상",
+   "업데이트 후 부팅 불가"
+  ],
+  [
+   "최초 보도",
+   "갤럭시클럽(네덜란드)"
+  ]
+ ],
+ "id": "261013-applesamsung-10",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-13T02:32:24+09:00"
+}

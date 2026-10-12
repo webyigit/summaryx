@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VIEScore2: 생성 이미지의 점수와 &#x27;어디가 잘못됐는지&#x27;를 함께 알려 주는 평가 모델 | summaryx</title>
+<meta name="description" content="AI가 만든 이미지를 평가하는 모델은 보통 점수 하나만 내놓을 뿐, 이미지의 어느 부분 때문에 그 점수가 나왔는지는 보여 주지 않는다. 그래서 생성·편집 모델을 고칠 때 쓸 수 있는 정보가 적었다. VIEScore2는 이미지 생성과 편집을 모두 평가하는 모델로, 이미지">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="VIEScore2: 생성 이미지의 점수와 &#x27;어디가 잘못됐는지&#x27;를 함께 알려 주는 평가 모델">
+<meta property="og:description" content="AI가 만든 이미지를 평가하는 모델은 보통 점수 하나만 내놓을 뿐, 이미지의 어느 부분 때문에 그 점수가 나왔는지는 보여 주지 않는다. 그래서 생성·편집 모델을 고칠 때 쓸 수 있는 정보가 적었다. VIEScore2는 이미지 생성과 편집을 모두 평가하는 모델로, 이미지">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261013-paper-05">
+<script>location.replace('../../#/a/261013-paper-05');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261013-paper-05">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">VIEScore2: 생성 이미지의 점수와 &#x27;어디가 잘못됐는지&#x27;를 함께 알려 주는 평가 모델</h1>
+<p>AI가 만든 이미지를 평가하는 모델은 보통 점수 하나만 내놓을 뿐, 이미지의 어느 부분 때문에 그 점수가 나왔는지는 보여 주지 않는다. 그래서 생성·편집 모델을 고칠 때 쓸 수 있는 정보가 적었다.</p><p>VIEScore2는 이미지 생성과 편집을 모두 평가하는 모델로, 이미지를 N×N 격자로 나눠 품질 점수와 결함 위치를 한 번에 예측한다. 격자 기반 텍스트 형식 덕분에 점수만 있는 데이터, 위치만 있는 데이터, 둘 다 있는 데이터를 한데 섞어 3만 8천 개 예시로 학습할 수 있었다. 지도 미세조정 뒤 GRPO 강화학습으로 결함 위치 찾기를 다듬었고, 보상은 칸 단위 겹침(Dice)·점수 정확도·형식 준수를 합쳤다.</p><p>주요 벤치마크에서 전체 점수 상관(SRCC) 0.601로, 같은 입력의 제로샷 최강 기준인 Gemini-3-Flash(0.491)를 앞섰다. 결함 위치 찾기에서도 6개 중 3개 벤치마크 1위, 5개에서 3위 안에 들었다.</p>
+<p><a href="https://arxiv.org/abs/2610.00994">원문 보기</a></p>
+</body></html>

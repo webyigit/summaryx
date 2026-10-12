@@ -1,0 +1,35 @@
+{
+ "title": "스위스 유통사 OTTO'S, 트럭 전량 전기로…벤츠 eActros 600 22대, 옥상 태양광 충전",
+ "originalTitle": "OTTO'S electrifies entire truck fleet with the Mercedes-Benz eActros 600",
+ "source": "electrive",
+ "url": "https://www.electrive.com/2026/10/12/ottos-electrifies-entire-truck-fleet-with-the-mercedes-benz-eactros-600/",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "스위스 유통업체 OTTO'S가 트럭 운송을 모두 전기로 바꾼다. 메르세데스-벤츠 전기 트럭 eActros 600 22대로 스위스 내 140여 개 지점에 물건을 공급하며, 충전 전력은 루체른주 주르제 본사 옥상 태양광을 중심으로 지점 태양광까지 자체 전력망에 끌어와 쓸 계획이다.",
+  "차체는 스위스 업체 란츠+마르티가 만들었고 2축 트레일러도 함께 납품해 트럭을 연결 차량으로 운행할 수 있다. eActros 600은 LFP 배터리 3팩(합계 621kWh)으로 최대 약 500km를 달리고 CCS로 최대 400kW 충전을 지원한다. 마크 이네이헨 CEO는 '일일 운송 경로의 약 80%가 이 거리 안에 든다'고 말했다.",
+  "트럭은 하루 2~4회 운행하며 본사로 돌아와 충전한다. 다만 회사는 충전 용량, 투자비, 22대 전체 투입 일정은 공개하지 않았다."
+ ],
+ "keyPoints": [
+  "eActros 600 22대로 트럭 전량 전동화",
+  "본사·지점 옥상 태양광으로 충전",
+  "1회 충전 최대 500km, 경로 80% 커버"
+ ],
+ "image": "https://www.electrive.com/media/2026/10/eactros-600-gliederzug-ottos-schweiz-aufbau-lanzmarti.jpg",
+ "facts": [
+  [
+   "기업",
+   "OTTO'S(스위스)"
+  ],
+  [
+   "차량",
+   "메르세데스-벤츠 eActros 600 22대"
+  ],
+  [
+   "배터리",
+   "LFP 621kWh, 최대 약 500km"
+  ]
+ ],
+ "id": "261013-car-05",
+ "category": "car",
+ "collectedAt": "2026-10-13T02:32:24+09:00"
+}

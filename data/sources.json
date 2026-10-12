@@ -9,14 +9,6 @@
    ]
   },
   {
-   "name": "지디넷코리아",
-   "url": "https://zdnet.co.kr/news/?lstcode=0050&page=1",
-   "keywords": [
-    "월드 모델",
-    "피지컬 AI"
-   ]
-  },
-  {
    "name": "디지털투데이",
    "url": "https://www.digitaltoday.co.kr/news/articleList.html?view_type=sm",
    "keywords": [
@@ -25,10 +17,19 @@
    ]
   },
   {
-   "name": "로봇신문",
-   "url": "https://www.irobotnews.com/",
+   "name": "지디넷코리아",
+   "url": "https://zdnet.co.kr/news/?lstcode=0050&page=1",
    "keywords": [
-    "중국 AI 산업"
+    "월드 모델",
+    "피지컬 AI"
+   ]
+  },
+  {
+   "name": "TechCrunch AI",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "keywords": [
+    "AI startup",
+    "AI agent"
    ]
   }
  ],
@@ -38,6 +39,30 @@
    "url": "https://www.hellot.net/news/article_list_all.html",
    "keywords": [
     "제조 AX"
+   ]
+  },
+  {
+   "name": "Bing News RSS",
+   "url": "https://www.bing.com/news/search?q=AX&format=rss&setlang=ko&cc=KR",
+   "keywords": [
+    "AX",
+    "AX 전환",
+    "제조 AX"
+   ]
+  },
+  {
+   "name": "지디넷코리아 AX",
+   "url": "https://zdnet.co.kr/newskey/?lstcode=AX",
+   "keywords": [
+    "AX"
+   ]
+  },
+  {
+   "name": "아이티데일리",
+   "url": "https://www.itdaily.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "AI 전환",
+    "AI 에이전트"
    ]
   }
  ],
@@ -63,6 +88,31 @@
    "url": "https://electrek.co/",
    "keywords": [
     "EV"
+   ]
+  },
+  {
+   "name": "모터그래프",
+   "url": "https://www.motorgraph.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "신차",
+    "모터스포츠"
+   ]
+  },
+  {
+   "name": "electrive",
+   "url": "https://www.electrive.com/",
+   "keywords": [
+    "EV",
+    "배터리",
+    "충전"
+   ]
+  },
+  {
+   "name": "Carscoops",
+   "url": "https://www.carscoops.com/",
+   "keywords": [
+    "신차",
+    "리뷰"
    ]
   }
  ],
@@ -206,6 +256,24 @@
    ]
   },
   {
+   "name": "지디넷코리아 컴퓨팅",
+   "url": "https://zdnet.co.kr/news/?lstcode=0020",
+   "keywords": [
+    "클라우드",
+    "네트워킹",
+    "IT 운영"
+   ]
+  },
+  {
+   "name": "디지털데일리",
+   "url": "https://www.ddaily.co.kr/news/section/?sec=1",
+   "keywords": [
+    "국감",
+    "통신",
+    "공공 클라우드"
+   ]
+  },
+  {
    "name": "Android Authority",
    "url": "https://www.androidauthority.com/news/",
    "keywords": [
@@ -227,7 +295,8 @@
    "url": "https://www.engadget.com/news/",
    "keywords": [
     "Android Auto",
-    "bug"
+    "bug",
+    "car privacy"
    ]
   },
   {
@@ -398,33 +467,51 @@
    "name": "MacRumors",
    "url": "https://www.macrumors.com/",
    "keywords": [
-    "HomeView",
-    "iPhone Duo",
-    "Apple TV 4K"
+    "Tim Cook China",
+    "OLED iPad mini",
+    "AirPods 5",
+    "Apple TV 4K",
+    "Indie Games Week"
    ]
   },
   {
    "name": "9to5Mac",
    "url": "https://9to5mac.com/",
    "keywords": [
-    "iOS 27",
-    "macOS 27"
-   ]
-  },
-  {
-   "name": "9to5Google",
-   "url": "https://9to5google.com/guides/samsung/",
-   "keywords": [
-    "Googlebook",
-    "Galaxy"
+    "iPhone Duo"
    ]
   },
   {
    "name": "SamMobile",
    "url": "https://www.sammobile.com/",
    "keywords": [
-    "Galaxy S27",
-    "The Frame"
+    "One UI 9",
+    "Galaxy Z Fold 8",
+    "Galaxy S24",
+    "Galaxy A57"
+   ]
+  },
+  {
+   "name": "Sammy Fans",
+   "url": "https://www.sammyfans.com/",
+   "keywords": [
+    "Galaxy S26 Ultra",
+    "Galaxy S23 One UI 9"
+   ]
+  },
+  {
+   "name": "삼성전자 뉴스룸",
+   "url": "https://news.samsung.com/kr/latest",
+   "keywords": [
+    "SSAFY"
+   ]
+  },
+  {
+   "name": "미디어펜",
+   "url": "https://www.mediapen.com/",
+   "keywords": [
+    "갤럭시 Z8",
+    "Which?"
    ]
   },
   {
@@ -433,21 +520,6 @@
    "keywords": [
     "삼성전자",
     "애플"
-   ]
-  },
-  {
-   "name": "Android Authority",
-   "url": "https://www.androidauthority.com/news/",
-   "keywords": [
-    "iPhone Duo"
-   ]
-  },
-  {
-   "name": "파이낸셜뉴스",
-   "url": "https://www.fnnews.com/",
-   "keywords": [
-    "삼성 MX",
-    "갤럭시"
    ]
   }
  ],
@@ -569,6 +641,35 @@
    ]
   },
   {
+   "name": "로봇신문",
+   "url": "https://www.irobotnews.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "로봇",
+    "휴머노이드"
+   ]
+  },
+  {
+   "name": "The Robot Report",
+   "url": "https://www.therobotreport.com/",
+   "keywords": [
+    "robotics"
+   ]
+  },
+  {
+   "name": "Robotics 24/7",
+   "url": "https://www.robotics247.com/",
+   "keywords": [
+    "robotics"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS(로봇 도입)",
+   "url": "https://www.bing.com/news/search?q=%EB%A1%9C%EB%B4%87+%EB%8F%84%EC%9E%85&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "로봇 도입"
+   ]
+  },
+  {
    "name": "Bing 뉴스 RSS(로봇 공개)",
    "url": "https://www.bing.com/news/search?q=%EB%A1%9C%EB%B4%87+%EA%B3%B5%EA%B0%9C&format=rss&qft=sortbydate%3d%221%22",
    "keywords": [
@@ -653,6 +754,23 @@
     "Samsung",
     "SK hynix",
     "CXMT"
+   ]
+  },
+  {
+   "name": "디지털데일리",
+   "url": "https://www.ddaily.co.kr/",
+   "keywords": [
+    "반도체",
+    "공급망"
+   ]
+  },
+  {
+   "name": "Tom's Hardware 반도체 RSS",
+   "url": "https://www.tomshardware.com/feeds/tag/semiconductors",
+   "keywords": [
+    "Nvidia",
+    "Groq",
+    "foundry"
    ]
   }
  ],

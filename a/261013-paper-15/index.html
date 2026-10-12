@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>5천만 토큰 기억: KV 상태를 디스크에 저장했다 다시 불러 재계산보다 빠르게 | summaryx</title>
+<meta name="description" content="언어모델은 문맥 창에 들어가는 글만 다룰 수 있고, 프롬프트를 보낼 때마다 내부 키-값(KV) 상태를 다시 계산해야 한다. 이 논문은 약 1만 6천 토큰 블록마다 KV 상태를 암호화된 로컬 NVMe 저장소에 저장해 두었다가 재계산 없이 그대로 다시 불러오는 메모리 계층">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="5천만 토큰 기억: KV 상태를 디스크에 저장했다 다시 불러 재계산보다 빠르게">
+<meta property="og:description" content="언어모델은 문맥 창에 들어가는 글만 다룰 수 있고, 프롬프트를 보낼 때마다 내부 키-값(KV) 상태를 다시 계산해야 한다. 이 논문은 약 1만 6천 토큰 블록마다 KV 상태를 암호화된 로컬 NVMe 저장소에 저장해 두었다가 재계산 없이 그대로 다시 불러오는 메모리 계층">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261013-paper-15">
+<script>location.replace('../../#/a/261013-paper-15');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261013-paper-15">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">5천만 토큰 기억: KV 상태를 디스크에 저장했다 다시 불러 재계산보다 빠르게</h1>
+<p>언어모델은 문맥 창에 들어가는 글만 다룰 수 있고, 프롬프트를 보낼 때마다 내부 키-값(KV) 상태를 다시 계산해야 한다. 이 논문은 약 1만 6천 토큰 블록마다 KV 상태를 암호화된 로컬 NVMe 저장소에 저장해 두었다가 재계산 없이 그대로 다시 불러오는 메모리 계층(공개 패키지 galahad-kv)을 시험했다.</p><p>공개 텍스트 5천만 토큰을 NVIDIA H100 한 장에서 vLLM으로 Gemma 4 12B·31B에 흘려 넣었다. 0~5천만 토큰 깊이에서 고른 100개 블록이 두 모델 모두 100% 재계산 없이 복원됐다. 블록 불러오기는 재계산보다 2.8~4.3배 빨랐고 GPU 에너지는 8.8~12.3배 적게 들었으며, GPU 메모리 사용량은 내내 일정했다. 수백만 토큰 앞에 심어 둔 사실을 물었을 때 12B는 100번 중 82번, 31B는 98번 맞혔고 지어낸 답은 없었다.</p><p>저자는 이것이 주의 창을 넓히는 게 아니라 저장된 상태를 재사용하는 것이고, 한 번에 블록 하나만 불러오며, 테라바이트급 로컬 디스크가 필요하다는 한계도 밝혔다. 단독 저자 논문이다.</p>
+<p><a href="https://arxiv.org/abs/2610.10845">원문 보기</a></p>
+</body></html>

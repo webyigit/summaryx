@@ -1,0 +1,43 @@
+{
+ "title": "MIMESIS: 진짜 사람처럼 구는 '가상 사용자'로 대화 에이전트를 훈련한다",
+ "originalTitle": "MIMESIS: Learning User Simulators as Training Environments for Interactive Agents",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.09484",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "대화형 에이전트를 훈련·평가하려면 사용자와의 상호작용이 많이 필요하지만 사람 피드백은 비싸고 늘리기 어렵다. 대신 LLM으로 가상 사용자를 만들 수 있는데, 흔히 쓰는 범용 비서형 모델은 지나치게 순응적이고 요구를 너무 명시적으로 말하며 서로 비슷해 실제 사용자와 거리가 있다.",
+  "MIMESIS는 이 목적에 맞춰 만든 사용자 시뮬레이터다. 사람의 실제 대화에 명시적 추론 지도를 붙여 학습했고, 실제 사용자에게서 뽑은 13가지 행동 패턴을 흉내 낸다. 90억 파라미터 모델이 SOUL-Index 65.7로 시험한 최강 프런티어 모델을 넘었고, 가장 강한 기준인 Claude-Opus-5보다 행동 충실도는 13.4점 높고 튜링 거리는 3.6점 낮았다.",
+  "이 시뮬레이터로 다중 턴 강화학습을 한 에이전트는 8개 환경에서 GPT-5.5로 훈련한 에이전트보다 처음 보는 9개 가상 사용자 모두에게 더 잘 대응했다. 시뮬레이터의 속마음 추론을 코치가 짧은 조언으로 바꿔 주는 CSD 기법도 추가 이득을 냈다."
+ ],
+ "keyPoints": [
+  "실제 사용자 행동 13가지를 흉내 내는 9B 모델",
+  "Claude-Opus-5보다 행동 충실도 13.4점↑",
+  "이걸로 훈련한 에이전트, 새 사용자에 강해"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Hoang Phan, Dat Huynh, Andrey Zhmoginov, Qi Zeng, Wancen Mu, Yue Cao, Shengjie Bi, Yun He, Changdae Oh, Deren Lei"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "인공지능(cs.AI) · 사용자 시뮬레이터·에이전트 강화학습"
+  ],
+  [
+   "arXiv ID",
+   "2610.09484"
+  ],
+  [
+   "코드",
+   "https://github.com/VietHoang1512/mimesis"
+  ]
+ ],
+ "id": "261013-paper-06",
+ "category": "paper",
+ "collectedAt": "2026-10-13T02:32:24+09:00"
+}

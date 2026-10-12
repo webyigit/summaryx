@@ -1,0 +1,21 @@
+{
+ "title": "그록 전 엔지니어들, '엔비디아 200억 달러 거래' 두고 이사회 상대 집단소송",
+ "originalTitle": "Former Groq engineers sue board over $20 billion Nvidia deal, saying it handed Nvidia the LPU and the team that built it",
+ "source": "Tom's Hardware",
+ "url": "https://www.tomshardware.com/tech-industry/semiconductors/former-groq-engineers-sue-board-over-usd20-billion-nvidia-deal-saying-it-handed-nvidia-the-lpu-and-the-team-that-built-it-plaintiffs-allege-the-board-kept-billions-from-other-shareholders",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "AI 추론 칩 LPU를 만든 그록의 전 엔지니어 벤저민 세레브린과 조슈아 루빈이 미국 델라웨어 형평법원에 그록 전 이사회와 조너선 로스 전 CEO를 상대로 집단소송을 냈다. 엔비디아와의 200억 달러 거래가 사실상 기술과 인력을 넘기면서 다른 주주들에게 돌아갈 몫을 막았다는 주장이다.",
+  "거래는 투자자에게 가는 170억 달러 라이선스료와 엔비디아로 옮긴 엔지니어용 30억 달러 주식 풀로 짜였다. 원고들은 이사회가 이해상충 상태였고 로스 등 핵심 인력이 별도 보상을 받았다고 주장한다. 엔비디아는 그록 엔지니어 약 200명 가운데 거의 전원을 채용했고, 10-K에 144억 달러를 영업권, 25억 달러를 기술 가치로 잡은 것으로 전해졌다.",
+  "그록은 소송이 '근거 없다'며 투자자와 직원에게 큰 가치를 줬다고 반박했다. 엔비디아는 회사를 인수하지 않았다는 입장이지만, 상원의원들은 이를 '역(逆) 애크하이어'로 부르고 FTC도 이런 거래를 들여다보고 있어 빅테크의 칩 스타트업 흡수 방식에 대한 논란이 커지고 있다."
+ ],
+ "keyPoints": [
+  "전 엔지니어 2명, 델라웨어서 집단소송",
+  "라이선스 170억+주식 풀 30억 달러 구조 문제 제기",
+  "그록 \"근거 없다\"…FTC도 유사 거래 검토"
+ ],
+ "image": "https://cdn.mos.cms.futurecdn.net/49QX9DhQjJDwWiR2NPT9tD-1920-80.jpg",
+ "id": "261013-semi-11",
+ "category": "semi",
+ "collectedAt": "2026-10-13T02:32:24+09:00"
+}

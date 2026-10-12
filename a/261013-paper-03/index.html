@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>온폴리시 증류는 왜 때로 무너지나: 강화학습 관점의 분석 | summaryx</title>
+<meta name="description" content="온폴리시 증류(OPD)는 학생 모델이 직접 만든 답에 교사 모델이 점수를 매겨 가르치는 후속 학습법이다. 성능을 올려 주기도 하지만, 지나치게 길고 같은 말을 되풀이하는 출력으로 무너지기도 하는데 그 차이가 왜 생기는지는 잘 알려지지 않았다. 연구진은 이를 강화학습 문">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="온폴리시 증류는 왜 때로 무너지나: 강화학습 관점의 분석">
+<meta property="og:description" content="온폴리시 증류(OPD)는 학생 모델이 직접 만든 답에 교사 모델이 점수를 매겨 가르치는 후속 학습법이다. 성능을 올려 주기도 하지만, 지나치게 길고 같은 말을 되풀이하는 출력으로 무너지기도 하는데 그 차이가 왜 생기는지는 잘 알려지지 않았다. 연구진은 이를 강화학습 문">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261013-paper-03">
+<script>location.replace('../../#/a/261013-paper-03');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261013-paper-03">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">온폴리시 증류는 왜 때로 무너지나: 강화학습 관점의 분석</h1>
+<p>온폴리시 증류(OPD)는 학생 모델이 직접 만든 답에 교사 모델이 점수를 매겨 가르치는 후속 학습법이다. 성능을 올려 주기도 하지만, 지나치게 길고 같은 말을 되풀이하는 출력으로 무너지기도 하는데 그 차이가 왜 생기는지는 잘 알려지지 않았다.</p><p>연구진은 이를 강화학습 문제로 다시 봤다. 교사는 학생의 행동에 암묵적으로 보상을 주는 셈이고, 여기에는 교사 자신은 거의 만들지 않는 행동도 포함된다. 실험 결과 OPD는 학생의 근본 능력을 넓히기보다 정답을 더 쉽게 뽑게 만드는 쪽으로 작동했다. 교사의 암묵적 보상이 믿을 만하면 이득이 되지만, 품질과 어긋나면 &#x27;보상 해킹&#x27;이 일어나 길고 반복적인 출력이 증폭됐다.</p><p>건강하지 않은 응답을 학습에서 가리는 마스킹과 SFT 초기화가 붕괴를 각각 줄였다. 연구진은 교사가 답을 잘 만드는 능력만큼 학생 출력을 제대로 평가하는 신뢰도가 중요하다고 결론지었다.</p>
+<p><a href="https://arxiv.org/abs/2610.03185">원문 보기</a></p>
+</body></html>

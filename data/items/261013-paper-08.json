@@ -1,0 +1,43 @@
+{
+ "title": "VibeEdit: 글 대신 이미지 위에 표시해 원하는 곳만 고친다",
+ "originalTitle": "VibeEdit: Image Editing with Canvas Instructions",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.12229",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "원하는 수정 내용을 글로 설명하기는 쉽지만, 비슷한 물체가 여러 개 있을 때 '어느 것'을 고칠지 글로 지목하기는 어렵다. VibeEdit은 사용자가 이미지 위에 표시와 짧은 메모를 남기면 그것이 곧 '어디를, 무엇으로' 바꿀지 알려 주는 캔버스 지시가 되는 편집 방식을 제안했다.",
+  "별도 텍스트 프롬프트 없이 물체 추가·삭제·교체·속성 변경·이동을 처리한다. 학습용으로 물체 마스크와 구조화된 설명이 붙은 155만 쌍의 편집 데이터를 만들고, 여기서 캔버스 지시를 생성했다. Qwen-Image-Edit을 바탕으로 원본 이미지와 캔버스 지시를 따로 인코딩하는 층 분리 구조를 썼고, 영역 가중 미세조정 뒤 편집 완수·국소 품질·나머지 영역 보존을 보상하는 강화학습을 거쳤다.",
+  "비슷한 물체 중 올바른 대상을 고르는 데 초점을 맞춘 419개 사례 벤치마크에서 VLM 채점 79.9점, 편집 영역 밖 PSNR 32.8dB를 기록해 가장 강한 텍스트 지시 기준 FireRed(67.4점, 24.0dB)를 앞섰다."
+ ],
+ "keyPoints": [
+  "이미지 위 표시·메모로 편집 대상 지정",
+  "155만 쌍 데이터, Qwen-Image-Edit 기반",
+  "419개 사례서 79.9점, FireRed 67.4점"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Jinjing Zhao, Fangyun Wei, Yitong Wang, Xiuyu Wu, Yunuo Chen, Yang Yue, Sirui Zhang, Wenbo Wang, Hongyang Zhang, Dong Chen, Yan Lu, Chang Xu"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "컴퓨터 비전(cs.CV)·cs.AI · 이미지 편집"
+  ],
+  [
+   "arXiv ID",
+   "2610.12229"
+  ],
+  [
+   "코드",
+   "https://zhaojingjing713.github.io/VibeEdit/ (프로젝트 페이지)"
+  ]
+ ],
+ "id": "261013-paper-08",
+ "category": "paper",
+ "collectedAt": "2026-10-13T02:32:24+09:00"
+}

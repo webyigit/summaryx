@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SQAM: 무거운 계산 없이 플로 정책 로봇을 강화학습으로 다듬는다 | summaryx</title>
+<meta name="description" content="플로(flow) 정책은 다양한 행동 분포를 표현할 수 있어 로봇 제어에 많이 쓰이고, 시연 데이터를 넘어서도록 오프폴리시 강화학습으로 미세조정하는 시도가 늘고 있다. 하지만 행동이 여러 플로 단계를 거쳐 만들어지기 때문에 학습된 가치 함수에 맞춰 다듬기가 어렵다. 기존">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SQAM: 무거운 계산 없이 플로 정책 로봇을 강화학습으로 다듬는다">
+<meta property="og:description" content="플로(flow) 정책은 다양한 행동 분포를 표현할 수 있어 로봇 제어에 많이 쓰이고, 시연 데이터를 넘어서도록 오프폴리시 강화학습으로 미세조정하는 시도가 늘고 있다. 하지만 행동이 여러 플로 단계를 거쳐 만들어지기 때문에 학습된 가치 함수에 맞춰 다듬기가 어렵다. 기존">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261013-paper-14">
+<script>location.replace('../../#/a/261013-paper-14');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261013-paper-14">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">SQAM: 무거운 계산 없이 플로 정책 로봇을 강화학습으로 다듬는다</h1>
+<p>플로(flow) 정책은 다양한 행동 분포를 표현할 수 있어 로봇 제어에 많이 쓰이고, 시연 데이터를 넘어서도록 오프폴리시 강화학습으로 미세조정하는 시도가 늘고 있다. 하지만 행동이 여러 플로 단계를 거쳐 만들어지기 때문에 학습된 가치 함수에 맞춰 다듬기가 어렵다. 기존 &#x27;수반(adjoint) 매칭&#x27;은 최종 행동의 가치 정보를 단계마다 거꾸로 전달하는데, 매 단계 벡터-야코비안 곱이 필요해 단계 수와 모델 크기에 따라 비용이 커진다.</p><p>연구진은 사전학습된 플로 정책의 속도 야코비안이 배치 평균으로 보면 대각선에 몰려 있다는 점을 발견했다. 이를 이용해 최종 행동의 가치 기울기를 플로 시간만큼 곱하기만 하면 되는 닫힌 형태의 &#x27;스칼라 수반&#x27;을 유도해 단계별 계산을 없앴다. 또 정책이 만든 행동에서 비평가(critic) 값을 제한하는 것이 매우 중요하다는 점을 찾아, 둘을 결합한 SQAM을 제안했다.</p><p>OGBench의 가장 어려운 4개 영역에서 각 영역 최강 기준보다 성공률이 18~35%p 높았다. 실제 양팔 로봇에서 비전-언어-행동(VLA) 정책을 미세조정한 실험에서도 3개 과제 모두 지도 미세조정보다 나았다.</p>
+<p><a href="https://arxiv.org/abs/2610.10437">원문 보기</a></p>
+</body></html>

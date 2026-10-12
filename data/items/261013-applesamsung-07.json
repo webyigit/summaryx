@@ -1,0 +1,39 @@
+{
+ "title": "원 UI 9 업데이트 후 오류 화면에 '갇힘'…비행기 모드로 푸는 임시 해법",
+ "originalTitle": "Samsung breaks One UI 9 updates, here's the quick fix",
+ "source": "SamMobile",
+ "url": "https://www.sammobile.com/news/samsung-breaks-one-ui-9-updates-heres-the-quick-fix/",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "원 UI 9로 업데이트한 일부 갤럭시 사용자들이 설치 직후 변경 내역이 떠야 할 자리에 오류 화면이 뜨면서 더 진행하지 못하는 문제를 겪고 있다. 레딧에 올라온 사례에 따르면 재부팅을 반복해도 휴대폰 안으로 들어갈 수 없다.",
+  "한 레딧 사용자가 공유한 해결법은 세 단계다. 볼륨 아래와 전원 버튼을 눌러 강제 재시작하고, 삼성 로고가 나오면 볼륨 아래 버튼을 계속 눌러 안전 모드로 부팅한 뒤, 안전 모드에서 비행기 모드를 켜 와이파이·모바일 데이터를 끊고 다시 재시작하면 정상 부팅된다는 것이다.",
+  "샘모바일은 X 사용자 @fahadalijaved의 글을 인용해, 삼성이 펌웨어 유출을 막으려고 서버 쪽 설정을 바꾼 것이 부작용을 낳았을 수 있다고 전했다. 삼성의 공식 입장이나 복구 일정은 아직 나오지 않았으며, 그때까지는 업데이트를 시작하기 전에 비행기 모드를 켜 두라고 권했다."
+ ],
+ "keyPoints": [
+  "원 UI 9 설치 후 오류 화면에서 멈춤",
+  "안전 모드→비행기 모드→재시작으로 해결",
+  "유출 방지용 서버 변경 부작용 추정"
+ ],
+ "image": "https://www.sammobile.com/wp-content/uploads/2026/09/Galaxy-Z-Flip-8-review-One-UI-9.0.jpg",
+ "facts": [
+  [
+   "회사",
+   "삼성전자"
+  ],
+  [
+   "대상",
+   "원 UI 9 업데이트 갤럭시 기기(예시 화면 Z 플립8)"
+  ],
+  [
+   "원인",
+   "[확인 필요] 서버 측 변경 추정"
+  ],
+  [
+   "공식 입장",
+   "없음(원문 기준)"
+  ]
+ ],
+ "id": "261013-applesamsung-07",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-13T02:32:24+09:00"
+}

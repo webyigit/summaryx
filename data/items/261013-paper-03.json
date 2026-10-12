@@ -1,0 +1,43 @@
+{
+ "title": "온폴리시 증류는 왜 때로 무너지나: 강화학습 관점의 분석",
+ "originalTitle": "Gains and Collapse in On-Policy Distillation: A Reinforcement Learning Perspective",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.03185",
+ "publishedAt": "2026-10-02",
+ "summary": [
+  "온폴리시 증류(OPD)는 학생 모델이 직접 만든 답에 교사 모델이 점수를 매겨 가르치는 후속 학습법이다. 성능을 올려 주기도 하지만, 지나치게 길고 같은 말을 되풀이하는 출력으로 무너지기도 하는데 그 차이가 왜 생기는지는 잘 알려지지 않았다.",
+  "연구진은 이를 강화학습 문제로 다시 봤다. 교사는 학생의 행동에 암묵적으로 보상을 주는 셈이고, 여기에는 교사 자신은 거의 만들지 않는 행동도 포함된다. 실험 결과 OPD는 학생의 근본 능력을 넓히기보다 정답을 더 쉽게 뽑게 만드는 쪽으로 작동했다. 교사의 암묵적 보상이 믿을 만하면 이득이 되지만, 품질과 어긋나면 '보상 해킹'이 일어나 길고 반복적인 출력이 증폭됐다.",
+  "건강하지 않은 응답을 학습에서 가리는 마스킹과 SFT 초기화가 붕괴를 각각 줄였다. 연구진은 교사가 답을 잘 만드는 능력만큼 학생 출력을 제대로 평가하는 신뢰도가 중요하다고 결론지었다."
+ ],
+ "keyPoints": [
+  "OPD를 교사의 암묵적 보상으로 해석",
+  "보상 어긋나면 길고 반복적인 출력 증폭",
+  "마스킹·SFT 초기화로 붕괴 완화"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Han Cui, Jianhao Yan, Yun Luo, Hongbo Zhang, Zhizhang Fu, Yue Zhang"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "인공지능(cs.AI)·cs.CL · 지식 증류·후속 학습"
+  ],
+  [
+   "arXiv ID",
+   "2610.03185"
+  ],
+  [
+   "코드",
+   "https://github.com/HancCui/opd_hacking"
+  ]
+ ],
+ "id": "261013-paper-03",
+ "category": "paper",
+ "collectedAt": "2026-10-13T02:32:24+09:00"
+}
