@@ -1,0 +1,35 @@
+{
+ "title": "지구의 '무게 중심'이 계절마다 움직인다…나사가 더 정확히 쟀다",
+ "originalTitle": "Earth's center is moving, and NASA just measured it",
+ "source": "ScienceDaily (NASA JPL)",
+ "url": "https://www.sciencedaily.com/releases/2026/10/261005071520.htm",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "지구의 '무게 중심(질량 중심)'은 늘 같은 자리에 있지 않아요. 계절마다 눈과 얼음, 강물, 공기가 지구 이곳저곳으로 옮겨 다니면서 몇 mm씩 이리저리 움직여요. 이 점은 위성 내비게이션과 땅 높이를 재는 기준점이라, 정확히 알아야 해요. 그런데 2017년과 2023년 국제 추정치가 약 7mm나 차이가 날 만큼 재기가 어려웠어요.",
+  "나사 제트추진연구소(JPL)의 도널드 아거스 연구팀은 인공위성 라지오스 1·2호에 레이저를 쏘아 거리를 재는 방법에 GPS와 여러 위성의 궤도 자료를 합쳤어요. 물과 얼음 무게 때문에 땅이 살짝 눌려 관측소가 움직이는 효과도 계산에 넣었어요. 그 결과 1년 동안 오가는 움직임은 8년 전 추정의 절반 정도로 나왔어요. 3월에는 북반구에 쌓인 눈 때문에 중심이 북극 쪽으로 약 3mm, 4월에는 아마존 강물 때문에 남아메리카 쪽으로 2.2mm 옮겨 가요.",
+  "이번 결과는 지구 중력을 재는 위성 GRACE-FO 관측과도 잘 맞았어요. 다만 레이저 관측소가 지구에 고르게 퍼져 있지 않고, 공기의 영향은 예보 모델에 기댄 값이라 더 다듬을 부분이 남아 있어요. 연구는 'Geophysical Journal International'에 실려요."
+ ],
+ "keyPoints": [
+  "지구 질량 중심은 계절마다 몇 mm씩 이동",
+  "레이저·GPS 합쳐 더 정밀하게 측정",
+  "연간 움직임은 예전 추정의 절반 수준"
+ ],
+ "image": "https://www.sciencedaily.com/images/1920/earth-layers-center-of-mass.webp",
+ "facts": [
+  [
+   "연구팀",
+   "나사 제트추진연구소(도널드 아거스) 등"
+  ],
+  [
+   "방법",
+   "위성 레이저 거리 측정(LAGEOS)+GPS"
+  ],
+  [
+   "학술지",
+   "Geophysical Journal International (2026년 11월호)"
+  ]
+ ],
+ "id": "261013-science-11",
+ "category": "science",
+ "collectedAt": "2026-10-13T07:33:54+09:00"
+}

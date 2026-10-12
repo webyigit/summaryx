@@ -1,0 +1,35 @@
+{
+ "title": "뜨겁게 굽는 '중간 단계'에서 숨은 신소재 발견…태양광 수소·배터리에 쓸까",
+ "originalTitle": "Scientists find hidden materials that could improve batteries and solar fuels",
+ "source": "ScienceDaily (University of Warwick)",
+ "url": "https://www.sciencedaily.com/releases/2026/10/261007042118.htm",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "새로운 고체 재료를 만들 때는 원료 분자를 뜨겁게 가열해요. 이때 최종 재료가 되기 전 잠깐 나타났다 사라지는 '중간 단계' 물질이 생기는데, 보통은 관심을 받지 못하고 지나가요. 영국 워릭대와 버밍엄대 연구팀은 이 숨은 중간 단계를 자세히 들여다봤어요.",
+  "연구팀은 필요한 원소가 한 분자에 다 들어 있는 원료를 쓰고, 온도를 올리며 변화를 고체 핵자기공명(NMR), X선 회절 같은 방법으로 추적했어요. 그 결과 햇빛으로 물에서 수소를 만드는 연구에 많이 쓰이는 '바나듐산 비스무트(BiVO₄)'의 새로운 형태 'β-BiVO₄'를 찾았어요. 원자 배열이 기존 것과 다르고, 빛을 받아들이는 성질을 정하는 '띠 간격'이 훨씬 커요. 또 다른 중간 물질은 리튬을 많이 저장할 수 있어 차세대 배터리 재료 후보로 꼽혔어요.",
+  "연구팀은 어떤 원료를 쓰고 어떻게 분해되느냐에 따라 만들어지는 물질이 달라져, 보통 방법으로는 못 만드는 구조도 얻을 수 있다고 설명해요. 다만 연구한 원료가 몇 가지뿐이고, 실제 배터리나 태양광 장치 성능은 아직 시험하지 않았어요. 연구는 'Nature Communications'에 실렸어요."
+ ],
+ "keyPoints": [
+  "가열 도중 잠깐 생기는 중간 물질 분석",
+  "새 형태 'β-BiVO₄' 발견, 띠 간격 더 커",
+  "리튬 많이 저장하는 중간 물질도 확인"
+ ],
+ "image": "https://www.sciencedaily.com/images/1920/bottled-sunlight-liquid-battery-energy.webp",
+ "facts": [
+  [
+   "연구팀",
+   "영국 워릭대·버밍엄대(세바스천 파이크 등)"
+  ],
+  [
+   "물질",
+   "β-BiVO₄(바나듐산 비스무트 새 형태)"
+  ],
+  [
+   "학술지",
+   "Nature Communications (2026)"
+  ]
+ ],
+ "id": "261013-science-18",
+ "category": "science",
+ "collectedAt": "2026-10-13T07:33:54+09:00"
+}

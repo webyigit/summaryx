@@ -123,25 +123,7 @@
    "keywords": [
     "album release",
     "new single",
-    "signing"
-   ]
-  },
-  {
-   "name": "Gospel Music Association News",
-   "url": "https://gospelmusic.org/news",
-   "keywords": [
-    "tour",
-    "label",
-    "signing",
-    "Dove Awards"
-   ]
-  },
-  {
-   "name": "GodTube Music News",
-   "url": "https://www.godtube.com/music-news/",
-   "keywords": [
-    "new album",
-    "tour"
+    "chart"
    ]
   },
   {
@@ -149,32 +131,33 @@
    "url": "https://www.klove.com/music/blog/music-news",
    "keywords": [
     "new music",
-    "live performance"
+    "new song feature"
    ]
   },
   {
-   "name": "The Christian Post (Entertainment)",
-   "url": "https://www.christianpost.com/entertainment/",
+   "name": "Worship Leader Magazine",
+   "url": "https://worshipleader.com/",
    "keywords": [
-    "The Chosen",
-    "interview"
+    "worship music",
+    "new music",
+    "Christmas"
    ]
   },
   {
-   "name": "데일리굿뉴스",
-   "url": "https://www.goodnews1.com/",
-   "keywords": [
-    "찬양",
-    "CCM",
-    "힙합"
-   ]
-  },
-  {
-   "name": "국민일보 더 미션 문화",
-   "url": "https://www.kmib.co.kr/article/listing.asp?sid1=mcu&sid2=0001",
+   "name": "크리스천투데이 문화",
+   "url": "https://www.christiantoday.co.kr/sections/cul_33/",
    "keywords": [
     "CCM",
-    "신곡"
+    "앨범",
+    "콰이어"
+   ]
+  },
+  {
+   "name": "기독일보 CCM",
+   "url": "https://www.christiandaily.co.kr/tags/ccm",
+   "keywords": [
+    "CCM",
+    "콘서트"
    ]
   }
  ],
@@ -187,6 +170,15 @@
     "총회",
     "선교",
     "기독교 박해"
+   ]
+  },
+  {
+   "name": "국민일보 미션라이프",
+   "url": "https://www.kmib.co.kr/news/index.asp?sid1=chr",
+   "keywords": [
+    "교회",
+    "목회",
+    "선교"
    ]
   },
   {
@@ -210,28 +202,19 @@
    ]
   },
   {
+   "name": "International Christian Concern",
+   "url": "https://persecution.org/news/",
+   "keywords": [
+    "persecution",
+    "religious freedom"
+   ]
+  },
+  {
    "name": "Christianity Today",
    "url": "https://www.christianitytoday.com/",
    "keywords": [
     "church news",
     "missions",
-    "religious freedom"
-   ]
-  },
-  {
-   "name": "국민일보 미션라이프",
-   "url": "https://www.kmib.co.kr/news/index.asp?sid1=chr",
-   "keywords": [
-    "교회",
-    "목회",
-    "선교"
-   ]
-  },
-  {
-   "name": "International Christian Concern",
-   "url": "https://persecution.org/news/",
-   "keywords": [
-    "persecution",
     "religious freedom"
    ]
   }
@@ -468,6 +451,21 @@
  ],
  "meme": [
   {
+   "name": "Know Your Meme (newest entries)",
+   "url": "https://knowyourmeme.com/memes/all?sort=newest",
+   "keywords": [
+    "new meme entries"
+   ]
+  },
+  {
+   "name": "Know Your Meme Trending",
+   "url": "https://trending.knowyourmeme.com/",
+   "keywords": [
+    "viral video",
+    "meme explained"
+   ]
+  },
+  {
    "name": "Bing News RSS (viral meme explained)",
    "url": "https://www.bing.com/news/search?q=viral+meme+explained&qft=sortbydate%3d%221%22&format=rss",
    "keywords": [
@@ -476,10 +474,11 @@
    ]
   },
   {
-   "name": "Know Your Meme (newest entries)",
-   "url": "https://knowyourmeme.com/memes/all?sort=newest",
+   "name": "Bing News RSS (챌린지 열풍)",
+   "url": "https://www.bing.com/news/search?q=%EC%B1%8C%EB%A6%B0%EC%A7%80+%EC%97%B4%ED%92%8D&qft=sortbydate%3d%221%22&format=rss&setlang=ko&cc=KR",
    "keywords": [
-    "new meme entries"
+    "챌린지 열풍",
+    "밈"
    ]
   }
  ],
@@ -660,6 +659,14 @@
     "배우",
     "인터뷰"
    ]
+  },
+  {
+   "name": "뉴스엔",
+   "url": "https://www.newsen.com/news_list.php?code=0300",
+   "keywords": [
+    "예능",
+    "드라마"
+   ]
   }
  ],
  "applesamsung": [
@@ -779,14 +786,6 @@
    "url": "https://kworb.net/youtube/trending/kr.html",
    "keywords": [
     "한국 인기 동영상(대부분 가로 영상)"
-   ]
-  },
-  {
-   "name": "Bing News RSS",
-   "url": "https://www.bing.com/news/search?q=%EC%87%BC%EC%B8%A0+%ED%99%94%EC%A0%9C&qft=sortbydate%3d%221%22&format=rss",
-   "keywords": [
-    "쇼츠 화제",
-    "쇼츠 조회수 돌파"
    ]
   }
  ],
@@ -943,6 +942,46 @@
    "keywords": [
     "discovery",
     "space"
+   ]
+  },
+  {
+   "name": "ScienceAlert",
+   "url": "https://www.sciencealert.com/latest",
+   "keywords": [
+    "space",
+    "nature",
+    "physics"
+   ]
+  },
+  {
+   "name": "Live Science",
+   "url": "https://www.livescience.com/news",
+   "keywords": [
+    "archaeology",
+    "animals"
+   ]
+  },
+  {
+   "name": "EarthSky",
+   "url": "https://earthsky.org/",
+   "keywords": [
+    "night sky",
+    "earth"
+   ]
+  },
+  {
+   "name": "NASA",
+   "url": "https://www.nasa.gov/news/",
+   "keywords": [
+    "earth observatory"
+   ]
+  },
+  {
+   "name": "Science News",
+   "url": "https://www.sciencenews.org/all-stories",
+   "keywords": [
+    "climate",
+    "nature"
    ]
   }
  ],
@@ -1422,11 +1461,28 @@
  ],
  "edu": [
   {
-   "name": "뉴시스 교육",
-   "url": "https://www.newsis.com/society/list/?cid=10200&scid=10205",
+   "name": "한국교육신문",
+   "url": "https://www.hangyo.com/news/section_list_all.html",
    "keywords": [
-    "국정감사",
-    "교육부"
+    "교권",
+    "국감",
+    "학생 건강"
+   ]
+  },
+  {
+   "name": "한국대학신문",
+   "url": "https://news.unn.net/news/articleList.html?view_type=sm",
+   "keywords": [
+    "대입",
+    "대학 정책"
+   ]
+  },
+  {
+   "name": "에듀진",
+   "url": "https://www.edujin.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "학종",
+    "입시 전략"
    ]
   },
   {
@@ -1437,26 +1493,25 @@
    ]
   },
   {
-   "name": "이투데이 교육",
-   "url": "https://www.etoday.co.kr/society/education",
-   "keywords": [
-    "문해력"
-   ]
-  },
-  {
-   "name": "한국교육신문",
-   "url": "https://www.hangyo.com/news/section_list_all.html",
-   "keywords": [
-    "교원",
-    "국감"
-   ]
-  },
-  {
    "name": "에듀프레스",
    "url": "https://www.edupress.kr/news/articleList.html?view_type=sm",
    "keywords": [
     "교육감",
     "대입"
+   ]
+  },
+  {
+   "name": "뉴시스 교육",
+   "url": "https://www.newsis.com/society/list/?cid=10200&scid=10205",
+   "keywords": [
+    "교육부"
+   ]
+  },
+  {
+   "name": "이투데이 교육",
+   "url": "https://www.etoday.co.kr/society/education",
+   "keywords": [
+    "문해력"
    ]
   }
  ],
@@ -1492,6 +1547,24 @@
    "url": "https://www.allkpop.com/",
    "keywords": [
     "K-pop news"
+   ]
+  },
+  {
+   "name": "스포츠경향",
+   "url": "https://sports.khan.co.kr/entertainment",
+   "keywords": [
+    "콘서트",
+    "차트",
+    "아이돌"
+   ]
+  },
+  {
+   "name": "코리아타임스 K-pop",
+   "url": "https://www.koreatimes.co.kr/entertainment/k-pop",
+   "keywords": [
+    "K-pop",
+    "album",
+    "tour"
    ]
   }
  ],
