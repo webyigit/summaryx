@@ -1,0 +1,35 @@
+{
+ "title": "\"AI에는 마스코트가 필요하고, 그건 사람만 만들 수 있다\"… 벅(Buck) CCO의 제언",
+ "originalTitle": "POV: AI needs mascots and only humans can make them",
+ "source": "It's Nice That",
+ "url": "https://www.itsnicethat.com/articles/pov-ai-needs-mascots-and-only-humans-can-make-them-animation-121026",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "모션 디자인 스튜디오 벅(Buck)의 최고크리에이티브책임자 케빈 워커가 It's Nice That 기고에서 AI 기업들이 잇따라 마스코트를 내세우는 현상을 분석했다. 메타의 '뮤즈', 오픈AI의 '닷츠', 앤트로픽의 '클로드(Claw'd)', 노션의 얼굴 캐릭터 등이 그 예다. 그는 이를 단순한 브랜딩이 아니라 팬데믹 이후의 불안, 빠른 기술 변화, 연결 속 외로움, 이해하기 힘든 시스템에 대한 반응으로 본다.",
+  "근거로 니컬러스 에플리 등의 논문 〈On Seeing Human〉이 제시한 의인화의 세 동기(사회적 연결 욕구, 세상을 예측·이해하려는 욕구, 자신을 모델로 삼는 경향)를 든다. 사례로는 벅이 노션과 작업한 AI 캐릭터를 소개했다. 일러스트레이터 로만 무라도프가 그린 최소한의 얼굴에 '생각 중', '쓰는 중', '검색 중', '오류' 같은 상태별 타이밍과 동작을 입혀, AI를 더 유능해 보이게 하기보다 낯선 상호작용을 따뜻하고 이해하기 쉽게 만드는 데 초점을 뒀다.",
+  "그는 얼굴이 시스템을 실제보다 똑똑하거나 감정이 있는 것처럼 보이게 할 위험도 인정하며, 신뢰는 스스로 얻어야 한다고 강조한다. 좋은 마스코트는 공예·관찰·공감·유머·절제가 필요한 '이야기 시스템'이라는 것이 결론이다."
+ ],
+ "keyPoints": [
+  "AI 기업들의 마스코트 경쟁을 의인화 심리로 분석",
+  "벅×노션 AI 캐릭터, 상태별 동작으로 친근함 설계",
+  "얼굴이 과신을 부를 위험… 신뢰는 따로 얻어야"
+ ],
+ "image": "https://m.itsnicethat.com/original_images/49_POV_Hero.png?class=w1440",
+ "facts": [
+  [
+   "필자",
+   "Kevin Walker(Buck CCO)"
+  ],
+  [
+   "형식",
+   "기고(POV)"
+  ],
+  [
+   "사례",
+   "Buck×Notion AI 캐릭터"
+  ]
+ ],
+ "id": "261013-design-02",
+ "category": "design",
+ "collectedAt": "2026-10-13T04:33:18+09:00"
+}
