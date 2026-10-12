@@ -833,6 +833,15 @@
  ],
  "game": [
   {
+   "name": "인벤",
+   "url": "https://m.inven.co.kr/webzine/wznews.php",
+   "keywords": [
+    "업데이트",
+    "e스포츠",
+    "출시"
+   ]
+  },
+  {
    "name": "경향게임스",
    "url": "https://www.khgames.co.kr/news/articleList.html?view_type=sm",
    "keywords": [
@@ -841,11 +850,20 @@
    ]
   },
   {
-   "name": "인벤",
-   "url": "https://m.inven.co.kr/webzine/wznews.php",
+   "name": "루리웹 게임뉴스",
+   "url": "https://bbs.ruliweb.com/news/522",
    "keywords": [
-    "업데이트",
-    "e스포츠"
+    "신작",
+    "스팀",
+    "출시"
+   ]
+  },
+  {
+   "name": "Nintendo Life",
+   "url": "https://www.nintendolife.com/news",
+   "keywords": [
+    "Switch 2",
+    "update"
    ]
   }
  ],
@@ -854,12 +872,42 @@
    "name": "Crunchyroll News (RSS)",
    "url": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
    "keywords": [
-    "anime film",
-    "release date"
+    "anime",
+    "opening ending"
+   ]
+  },
+  {
+   "name": "ComicBook.com Anime",
+   "url": "https://comicbook.com/anime/",
+   "keywords": [
+    "anime news"
+   ]
+  },
+  {
+   "name": "Siliconera Anime",
+   "url": "https://www.siliconera.com/category/anime/",
+   "keywords": [
+    "manga"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS 애니 극장판",
+   "url": "https://www.bing.com/news/search?q=%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98+%EA%B7%B9%EC%9E%A5%ED%8C%90+%EA%B0%9C%EB%B4%89&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "애니메이션 극장판 개봉"
    ]
   }
  ],
  "sports": [
+  {
+   "name": "스포츠경향",
+   "url": "https://sports.khan.co.kr/",
+   "keywords": [
+    "KBO",
+    "K리그",
+    "해외파"
+   ]
+  },
   {
    "name": "OSEN 스포츠",
    "url": "https://osen.co.kr/sports",
@@ -867,6 +915,24 @@
     "해외파",
     "아시안게임",
     "V-리그"
+   ]
+  },
+  {
+   "name": "일간스포츠",
+   "url": "https://isplus.com/section/sports",
+   "keywords": [
+    "KBO",
+    "피겨",
+    "NPB"
+   ]
+  },
+  {
+   "name": "MLB.com",
+   "url": "https://www.mlb.com/news",
+   "keywords": [
+    "MLB 포스트시즌",
+    "ALCS",
+    "NLCS"
    ]
   }
  ],
@@ -1662,10 +1728,28 @@
  "wineko": [
   {
    "name": "Bing 뉴스 RSS",
-   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8+%EC%B5%9C%EB%8C%80+%ED%95%A0%EC%9D%B8+%ED%96%89%EC%82%AC&format=rss&qft=sortbydate%3d%221%22",
+   "url": "https://www.bing.com/news/search?q=%EC%99%80%EC%9D%B8+%EC%88%98%EC%9E%85%EC%82%AC&format=rss&qft=sortbydate%3d%221%22",
    "keywords": [
-    "와인 할인 행사",
-    "와인페스타"
+    "와인 수입사",
+    "와인업계",
+    "와인 시음회",
+    "와인 매출"
+   ]
+  },
+  {
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "국내 와인 시장",
+    "와인 행사"
+   ]
+  },
+  {
+   "name": "와인21",
+   "url": "https://www.wine21.com/11_news/news_list.html",
+   "keywords": [
+    "국내 와인 뉴스",
+    "와인 이벤트"
    ]
   }
  ],
@@ -1872,12 +1956,11 @@
  ],
  "winetype": [
   {
-   "name": "Mashed (Shopping Tips·와인)",
-   "url": "https://www.mashed.com/category/wine/",
+   "name": "Decanter - Grape varieties",
+   "url": "https://www.decanter.com/wine/grape-varieties/",
    "keywords": [
-    "How much should you spend",
-    "Pinot Noir",
-    "Merlot"
+    "grape variety",
+    "Day"
    ]
   },
   {
@@ -1890,11 +1973,12 @@
    ]
   },
   {
-   "name": "Decanter - Grape varieties",
-   "url": "https://www.decanter.com/wine/grape-varieties/",
+   "name": "Mashed (Shopping Tips·와인)",
+   "url": "https://www.mashed.com/category/wine/",
    "keywords": [
-    "grape variety",
-    "Day"
+    "How much should you spend",
+    "Pinot Noir",
+    "Merlot"
    ]
   },
   {
@@ -1905,6 +1989,14 @@
     "Cabernet Sauvignon",
     "Sauvignon Blanc",
     "Merlot"
+   ]
+  },
+  {
+   "name": "Tidelines (WineLines 칼럼)",
+   "url": "https://tidelinesblog.com/",
+   "keywords": [
+    "WineLines",
+    "Chardonnay"
    ]
   }
  ],
@@ -1929,72 +2021,20 @@
    ]
   },
   {
-   "name": "소믈리에타임즈",
-   "url": "https://www.sommeliertimes.com/news/articleList.html?sc_section_code=S1N1&view_type=sm",
+   "name": "Club Oenologique",
+   "url": "https://www.cluboenologique.com/wine/",
    "keywords": [
-    "가문",
-    "샴페인 하우스",
-    "와이너리"
-   ]
-  },
-  {
-   "name": "Parksville Qualicum News",
-   "url": "https://pqbnews.com/",
-   "keywords": [
-    "winery acquires"
-   ]
-  },
-  {
-   "name": "PR Newswire",
-   "url": "https://www.prnewswire.com/",
-   "keywords": [
-    "winery anniversary",
-    "Wine Star Awards"
-   ]
-  },
-  {
-   "name": "Wine Industry Advisor",
-   "url": "https://wineindustryadvisor.com/",
-   "keywords": [
-    "winery founder",
-    "family winery",
-    "Wine Business Innovation Series"
-   ]
-  },
-  {
-   "name": "The Drinks Business",
-   "url": "https://www.thedrinksbusiness.com/",
-   "keywords": [
-    "champagne house",
-    "estate",
-    "family"
+    "winery story",
+    "winemaker interview"
    ]
   },
   {
    "name": "Wine Enthusiast",
-   "url": "https://www.wineenthusiast.com/",
+   "url": "https://www.wineenthusiast.com/culture/",
    "keywords": [
-    "Person of the Year",
-    "Wine Star Awards",
     "winery",
-    "podcast family winery"
-   ]
-  },
-  {
-   "name": "와인21",
-   "url": "https://www.wine21.com/11_news/news_list.html",
-   "keywords": [
-    "와이너리",
-    "와인메이커 인터뷰"
-   ]
-  },
-  {
-   "name": "Harpers Wine & Spirit",
-   "url": "https://harpers.co.uk/news/",
-   "keywords": [
-    "château",
-    "estate",
-    "appoints"
+    "acquisition",
+    "family winery"
    ]
   }
  ],
@@ -2031,6 +2071,14 @@
    "keywords": [
     "wine storage",
     "cellar"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS (wine storage)",
+   "url": "https://www.bing.com/news/search?q=wine+storage&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "wine storage",
+    "opened wine"
    ]
   }
  ],
