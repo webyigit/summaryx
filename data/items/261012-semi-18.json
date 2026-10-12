@@ -1,0 +1,21 @@
+{
+ "title": "AI 인터포저 커지자 HBM4E 발열 비상…삼성 '하이브리드 본딩·HPB', SK하이닉스 'iHBM'",
+ "originalTitle": "[News] AI Interposers Grow Larger, Raising HBM4E Cooling Challenges: How Samsung, SK hynix Are Responding",
+ "source": "TrendForce",
+ "url": "https://www.trendforce.com/news/2026/10/12/news-ai-interposers-grow-larger-raising-hbm4e-cooling-challenges-how-samsung-sk-hynix-are-responding/",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "AI 패키지에 연산 칩렛과 HBM을 더 많이 얹으면서 이를 잇는 인터포저가 급격히 커지고, 차세대 HBM의 발열 관리가 핵심 과제로 떠올랐다. 조선비즈를 인용한 트렌드포스에 따르면 현재 AI 인터포저는 EUV 장비 한 번 노광 최대 면적(858㎟)의 약 5.5배인데, 앞으로 9배·12배를 거쳐 최대 40배까지 커질 것으로 업계는 본다.",
+  "삼성전자는 내년 HBM4E 양산을 앞두고 두 갈래로 대응한다. D램 다이 사이 범프를 없애고 구리끼리 직접 붙이는 하이브리드 구리 본딩(HCB)으로 적층을 얇게 해 열을 빼고, 하이브리드 본딩 없이도 쓸 수 있는 '히트 패스 블록(HPB)'으로 베이스다이의 주요 발열원인 D2D PHY 주변에 전용 열 통로를 만든다. HPB는 HBM4E로 검증 중이며 HBM5부터 도입할 계획이다.",
+  "SK하이닉스는 전자신문 보도에 따르면 D2D PHY 주변에 열전도율은 높고 전기는 통하지 않는 소재를 둘러 열 통로를 만드는 'iHBM' 기술로 열저항을 약 30% 줄일 것으로 기대한다. 칩렛 기반 2.5D 패키징이 확산할수록 메모리 업체 간 열 설계 경쟁도 치열해질 전망이다."
+ ],
+ "keyPoints": [
+  "AI 인터포저, EUV 노광 면적의 최대 40배 전망",
+  "삼성, HCB·HPB로 HBM 열 통로 확보",
+  "SK하이닉스 iHBM, 열저항 약 30% 감소 기대"
+ ],
+ "image": "https://img.trendforce.com/blog/wp-content/uploads/2026/07/06163502/Samsung-Semiconductors-HBM4E-Shipment-of-Industry-First-Samples-624x468.jpg",
+ "id": "261012-semi-18",
+ "category": "semi",
+ "collectedAt": "2026-10-12T10:56:07+09:00"
+}
