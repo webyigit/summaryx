@@ -1663,11 +1663,18 @@
    ]
   },
   {
-   "name": "미쉐린 가이드 서울 선정 레스토랑(₩)",
+   "name": "미쉐린 가이드 서울 선정 레스토랑",
    "url": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurants/the-plate-michelin/1-price",
    "keywords": [
     "미쉐린 서울 노포",
     "웨이팅 맛집"
+   ]
+  },
+  {
+   "name": "위키트리 2026 서울미식 100선 정리",
+   "url": "https://www.wikitree.co.kr/articles/1164258",
+   "keywords": [
+    "서울미식 100선 2026"
    ]
   }
  ],
@@ -1694,45 +1701,52 @@
     "오산 맛집 선정",
     "경기 시군 맛집 지정"
    ]
+  },
+  {
+   "name": "Bing 뉴스 RSS(경기 맛집)",
+   "url": "https://www.bing.com/news/search?q=%EA%B2%BD%EA%B8%B0+%EB%A7%9B%EC%A7%91&format=rss",
+   "keywords": [
+    "경기 맛집",
+    "수원맛집 100선"
+   ]
   }
  ],
  "eatdj": [
   {
-   "name": "위키트리(대전빵축제 라인업)",
-   "url": "https://www.wikitree.co.kr/articles/1162266",
+   "name": "국제뉴스(대전빵축제 A존 라인업)",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3706407",
    "keywords": [
-    "2026 대전빵축제"
+    "2026 대전빵축제 A존"
+   ]
+  },
+  {
+   "name": "국제뉴스(대전빵축제 B존 라인업)",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3706960",
+   "keywords": [
+    "2026 대전빵축제 B존"
    ]
   },
   {
    "name": "Bing News RSS",
    "url": "https://www.bing.com/news/search?q=대전+맛집&format=rss",
    "keywords": [
-    "대전 맛집",
-    "대전 빵집 추천"
+    "대전 맛집"
    ]
   }
  ],
  "eatsj": [
   {
-   "name": "중도일보(세종사랑맛집 효과)",
-   "url": "https://www.joongdo.co.kr/web/view.php?key=20260611010003198",
+   "name": "세종의소리(세종사랑맛집 54곳 추가)",
+   "url": "https://www.sjsori.com/news/articleView.html?idxno=88817",
    "keywords": [
-    "세종사랑 맛집 44곳"
+    "세종사랑맛집 2026 추가"
    ]
   },
   {
-   "name": "대전일보(세종사랑맛집 2025 명단)",
-   "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2238296",
+   "name": "Bing News RSS",
+   "url": "https://www.bing.com/news/search?q=세종+맛집&format=rss",
    "keywords": [
-    "세종사랑맛집 44곳"
-   ]
-  },
-  {
-   "name": "세종의소리",
-   "url": "https://www.sjsori.com/",
-   "keywords": [
-    "세종사랑맛집 54곳 추가"
+    "세종 맛집"
    ]
   }
  ],
@@ -1743,18 +1757,15 @@
    "keywords": [
     "Japanese snack",
     "convenience store",
-    "Starbucks Japan",
-    "Burger King Japan"
+    "Starbucks Japan"
    ]
   },
   {
    "name": "VnExpress International Food",
    "url": "https://e.vnexpress.net/news/travel/food-recipes",
    "keywords": [
-    "TasteAtlas",
-    "street food",
-    "coffee",
-    "hawker"
+    "Michelin",
+    "street food"
    ]
   },
   {
@@ -1762,43 +1773,45 @@
    "url": "https://www.koreaherald.com/LifenCulture/Food",
    "keywords": [
     "Korean food",
-    "recipe"
+    "festival"
    ]
   }
  ],
  "shopguide": [
   {
-   "name": "탑텐 공식 브랜드 온라인몰",
-   "url": "https://display-topten10.goodwearmall.com/",
+   "name": "지오다노 공식 온라인몰",
+   "url": "https://www.giordano.co.kr/",
    "keywords": [
-    "신성통상 공식몰",
-    "탑텐 텐텐데이"
+    "지오다노 공식몰",
+    "㈜지오다노"
    ]
   }
  ],
  "shopmen": [
   {
-   "name": "Complex Style",
-   "url": "https://www.complex.com/style",
+   "name": "Hypebeast Fashion",
+   "url": "https://hypebeast.com/fashion",
    "keywords": [
     "collaboration",
     "menswear"
    ]
   },
   {
-   "name": "Hypebeast Fashion",
-   "url": "https://hypebeast.com/fashion",
+   "name": "Hypebeast Korea 패션",
+   "url": "https://hypebeast.kr/fashion",
    "keywords": [
-    "new arrivals"
+    "협업",
+    "컬렉션"
    ]
   }
  ],
  "shopdeal": [
   {
-   "name": "Bing 뉴스 RSS",
-   "url": "https://www.bing.com/news/search?q=%ED%8C%A8%EC%85%98+%ED%94%84%EB%A1%9C%EB%AA%A8%EC%85%98+%EC%BF%A0%ED%8F%B0&format=rss&qft=sortbydate%3d%221%22",
+   "name": "탑텐 공식 온라인몰 기획전",
+   "url": "https://display-topten10.goodwearmall.com/special/300295/view",
    "keywords": [
-    "패션 프로모션 쿠폰"
+    "탑텐 쿠폰",
+    "가을 준비 기획전"
    ]
   }
  ],
@@ -1858,29 +1871,38 @@
     "여행지",
     "리조트"
    ]
+  },
+  {
+   "name": "MTN 머니투데이방송",
+   "url": "https://news.mtn.co.kr/",
+   "keywords": [
+    "여행가는 달",
+    "추천 여행지"
+   ]
   }
  ],
  "tripworld": [
+  {
+   "name": "Lonely Planet",
+   "url": "https://www.lonelyplanet.com/articles",
+   "keywords": [
+    "best places to visit",
+    "itinerary"
+   ]
+  },
+  {
+   "name": "투어코리아",
+   "url": "https://www.tournews21.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "해외여행"
+   ]
+  },
   {
    "name": "iwafu",
    "url": "https://www.iwafu.com/kr/events",
    "keywords": [
     "일본 이벤트",
     "도쿄"
-   ]
-  },
-  {
-   "name": "LIVE JAPAN",
-   "url": "https://livejapan.com/ko/article-a0003566/",
-   "keywords": [
-    "일본 단풍"
-   ]
-  },
-  {
-   "name": "TTL뉴스",
-   "url": "https://www.ttlnews.com/news/articleList.html?view_type=sm",
-   "keywords": [
-    "해외 여행지"
    ]
   }
  ],
@@ -1889,20 +1911,19 @@
    "name": "위키트리 라이프·푸드",
    "url": "https://www.wikitree.co.kr/",
    "keywords": [
-    "10월 제철 수산물",
-    "늙은호박"
-   ]
-  },
-  {
-   "name": "비건뉴스",
-   "url": "https://www.vegannews.co.kr/",
-   "keywords": [
-    "극조생귤",
-    "10월 제철"
+    "10월 제철 수산물"
    ]
   }
  ],
  "bp": [
+  {
+   "name": "News-Medical High Blood Pressure",
+   "url": "https://www.news-medical.net/condition/High-Blood-Pressure",
+   "keywords": [
+    "hypertension",
+    "blood pressure"
+   ]
+  },
   {
    "name": "하이닥 뉴스",
    "url": "https://news.hidoc.co.kr/news/articleList.html",
@@ -1912,22 +1933,23 @@
    ]
   },
   {
-   "name": "ScienceDaily Health",
-   "url": "https://www.sciencedaily.com/news/health_medicine/",
+   "name": "AHA Newsroom",
+   "url": "https://newsroom.heart.org/news",
    "keywords": [
     "blood pressure",
-    "hypertension"
-   ]
-  },
-  {
-   "name": "News-Medical High Blood Pressure",
-   "url": "https://www.news-medical.net/condition/High-Blood-Pressure",
-   "keywords": [
     "hypertension"
    ]
   }
  ],
  "dm": [
+  {
+   "name": "News-Medical Diabetes",
+   "url": "https://www.news-medical.net/condition/Diabetes",
+   "keywords": [
+    "diabetes",
+    "GLP-1"
+   ]
+  },
   {
    "name": "하이닥 뉴스",
    "url": "https://news.hidoc.co.kr/news/articleList.html",
@@ -1938,22 +1960,47 @@
    ]
   },
   {
-   "name": "News-Medical Diabetes",
-   "url": "https://www.news-medical.net/condition/Diabetes",
-   "keywords": [
-    "diabetes"
-   ]
-  },
-  {
    "name": "Medical News Today",
    "url": "https://www.medicalnewstoday.com/news",
    "keywords": [
     "insulin",
     "diabetes"
    ]
+  },
+  {
+   "name": "AHA Newsroom",
+   "url": "https://newsroom.heart.org/news",
+   "keywords": [
+    "CKM",
+    "diabetes"
+   ]
   }
  ],
  "lipid": [
+  {
+   "name": "News-Medical",
+   "url": "https://www.news-medical.net/condition/Diabetes",
+   "keywords": [
+    "heart failure",
+    "cardiovascular"
+   ]
+  },
+  {
+   "name": "ScienceDaily Health",
+   "url": "https://www.sciencedaily.com/news/health_medicine/",
+   "keywords": [
+    "heart disease",
+    "stroke"
+   ]
+  },
+  {
+   "name": "Medical News Today",
+   "url": "https://www.medicalnewstoday.com/news",
+   "keywords": [
+    "heart",
+    "stroke"
+   ]
+  },
   {
    "name": "메디칼업저버",
    "url": "https://www.monews.co.kr/news/articleList.html?view_type=sm",
@@ -1961,53 +2008,21 @@
     "고지혈증",
     "심혈관"
    ]
-  },
-  {
-   "name": "하이닥 뉴스",
-   "url": "https://news.hidoc.co.kr/news/articleList.html",
-   "keywords": [
-    "심장",
-    "심혈관"
-   ]
-  },
-  {
-   "name": "코메디닷컴",
-   "url": "https://kormedi.com/category/news/",
-   "keywords": [
-    "동맥경화",
-    "심혈관"
-   ]
-  },
-  {
-   "name": "ScienceDaily Health",
-   "url": "https://www.sciencedaily.com/news/health_medicine/",
-   "keywords": [
-    "cholesterol",
-    "heart disease"
-   ]
   }
  ],
  "gecko": [
   {
-   "name": "Reptiles Magazine",
-   "url": "https://reptilesmagazine.com/",
-   "keywords": [
-    "crested gecko",
-    "crested gecko care"
-   ]
-  },
-  {
-   "name": "Pangea Reptile Blog",
-   "url": "https://pangeareptile.com/blogs/blog",
+   "name": "Dubia.com",
+   "url": "https://dubiaroaches.com/blogs/gecko-care",
    "keywords": [
     "crested gecko care"
    ]
   },
   {
-   "name": "ReptiFiles",
-   "url": "https://reptifiles.com/crested-gecko-care/",
+   "name": "Potawatomi Zoo",
+   "url": "https://potawatomizoo.org/",
    "keywords": [
-    "crested gecko care"
+    "crested gecko"
    ]
   }
  ],
@@ -2019,14 +2034,6 @@
     "lizard care sheet",
     "gecko care",
     "skink care"
-   ]
-  },
-  {
-   "name": "Reptiles Magazine",
-   "url": "https://reptilesmagazine.com/news/",
-   "keywords": [
-    "reptile news",
-    "lizard care"
    ]
   }
  ],
@@ -2155,6 +2162,15 @@
    ]
   },
   {
+   "name": "Retail Gazette",
+   "url": "https://retailgazette.co.uk/",
+   "keywords": [
+    "adidas",
+    "H&M",
+    "Zara"
+   ]
+  },
+  {
    "name": "FashionUnited",
    "url": "https://fashionunited.com/news/fashion",
    "keywords": [
@@ -2168,6 +2184,23 @@
    "url": "https://interbrand.com/best-global-brands/global/",
    "keywords": [
     "Best Global Brands 2025"
+   ]
+  },
+  {
+   "name": "Carscoops",
+   "url": "https://www.carscoops.com/",
+   "keywords": [
+    "Toyota",
+    "Hyundai",
+    "Range Rover"
+   ]
+  },
+  {
+   "name": "Mercedes Blog",
+   "url": "https://mercedesblog.com/",
+   "keywords": [
+    "Mercedes-Benz",
+    "Paris Motor Show"
    ]
   },
   {
@@ -2193,16 +2226,9 @@
    "url": "https://www.notebookcheck.net/News.152.0.html",
    "keywords": [
     "Sony",
-    "Nvidia",
-    "Xiaomi",
-    "Microsoft"
-   ]
-  },
-  {
-   "name": "9to5Google",
-   "url": "https://9to5google.com/",
-   "keywords": [
-    "Google"
+    "Microsoft",
+    "Apple",
+    "Samsung"
    ]
   }
  ],
@@ -2215,46 +2241,17 @@
    ]
   },
   {
-   "name": "Just Drinks",
-   "url": "https://www.just-drinks.com/news/",
-   "keywords": [
-    "Danone",
-    "PepsiCo"
-   ]
-  },
-  {
-   "name": "Khaosod English",
-   "url": "https://khaosodenglish.com/",
-   "keywords": [
-    "NESCAFÉ"
-   ]
-  },
-  {
-   "name": "SWI swissinfo.ch",
-   "url": "https://swissinfo.ch/eng/",
-   "keywords": [
-    "Nestlé"
-   ]
-  },
-  {
-   "name": "Yahoo Finance (Benzinga)",
-   "url": "https://finance.yahoo.com/",
-   "keywords": [
-    "Budweiser"
-   ]
-  },
-  {
-   "name": "Grocery Gazette",
-   "url": "https://www.grocerygazette.co.uk/",
-   "keywords": [
-    "Corona"
-   ]
-  },
-  {
-   "name": "BevNET",
-   "url": "https://www.bevnet.com/",
+   "name": "TheStreet",
+   "url": "https://www.thestreet.com/",
    "keywords": [
     "Monster Energy"
+   ]
+  },
+  {
+   "name": "Good Morning America",
+   "url": "https://www.goodmorningamerica.com/food/",
+   "keywords": [
+    "McDonald's"
    ]
   }
  ],
@@ -2267,33 +2264,17 @@
    ]
   },
   {
-   "name": "Cosmetics Business",
-   "url": "https://cosmeticsbusiness.com/",
+   "name": "TechRadar",
+   "url": "https://www.techradar.com/home",
    "keywords": [
-    "L'Oréal",
-    "P&G",
-    "Gillette"
+    "IKEA"
    ]
   },
   {
-   "name": "Verge Magazine",
-   "url": "https://vergemagazine.co.uk/",
+   "name": "SETHLUI.com",
+   "url": "https://sethlui.com/",
    "keywords": [
     "Sephora"
-   ]
-  },
-  {
-   "name": "NBC Chicago",
-   "url": "https://www.nbcchicago.com/",
-   "keywords": [
-    "IKEA"
-   ]
-  },
-  {
-   "name": "Men's Journal",
-   "url": "https://www.mensjournal.com/",
-   "keywords": [
-    "IKEA"
    ]
   }
  ],
@@ -2309,19 +2290,10 @@
  ],
  "poemnews": [
   {
-   "name": "Bing News RSS(시인 시집)",
-   "url": "https://www.bing.com/news/search?q=%EC%8B%9C%EC%9D%B8+%EC%8B%9C%EC%A7%91&format=rss&setlang=ko",
+   "name": "Bing News RSS(시인, 최신순)",
+   "url": "https://www.bing.com/news/search?q=%EC%8B%9C%EC%9D%B8&qft=sortbydate%3d%221%22&format=rss&setlang=ko",
    "keywords": [
-    "시인",
-    "시집"
-   ]
-  },
-  {
-   "name": "Bing News RSS(시인 문학상)",
-   "url": "https://www.bing.com/news/search?q=%EC%8B%9C%EC%9D%B8+%EB%AC%B8%ED%95%99%EC%83%81+%EC%88%98%EC%83%81&format=rss&setlang=ko",
-   "keywords": [
-    "시인",
-    "문학상"
+    "시인"
    ]
   },
   {
@@ -2335,26 +2307,11 @@
  ],
  "aicert": [
   {
-   "name": "NVIDIA Certification",
-   "url": "https://www.nvidia.com/en-us/learn/certification/",
-   "keywords": [
-    "NCP-GENL",
-    "NCP-AIO",
-    "NCP-AII"
-   ]
-  },
-  {
    "name": "Microsoft Learn",
    "url": "https://learn.microsoft.com/credentials/",
    "keywords": [
-    "DP-100"
-   ]
-  },
-  {
-   "name": "Microsoft Learn (GitHub Copilot)",
-   "url": "https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/",
-   "keywords": [
-    "GH-300"
+    "AI-103",
+    "AI-300"
    ]
   }
  ],
@@ -2364,41 +2321,20 @@
    "url": "https://www.bing.com/news/search?q=%EC%A4%91%EA%B3%A0+%EC%9D%98%EB%A5%98&format=rss",
    "keywords": [
     "중고 의류",
-    "리셀 패션",
-    "빈티지 중고 옷"
-   ]
-  },
-  {
-   "name": "파이낸셜뉴스",
-   "url": "https://www.fnnews.com",
-   "keywords": [
-    "당근절",
-    "번개장터"
-   ]
-  },
-  {
-   "name": "전자신문",
-   "url": "https://www.etnews.com",
-   "keywords": [
-    "패션 중고거래"
-   ]
-  },
-  {
-   "name": "머니투데이",
-   "url": "https://www.mt.co.kr",
-   "keywords": [
-    "크림 리셀"
-   ]
-  },
-  {
-   "name": "뉴시스",
-   "url": "https://www.newsis.com",
-   "keywords": [
-    "의류수거함"
+    "리셀 의류"
    ]
   }
  ],
  "lux1": [
+  {
+   "name": "WWD 코리아",
+   "url": "https://www.wwdkorea.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "샤넬",
+    "에르메스",
+    "루이 비통"
+   ]
+  },
   {
    "name": "FashionNetwork",
    "url": "https://ww.fashionnetwork.com/",
@@ -2411,23 +2347,31 @@
  ],
  "lux2": [
   {
-   "name": "FashionNetwork",
-   "url": "https://us.fashionnetwork.com/",
+   "name": "WWD 코리아",
+   "url": "https://www.wwdkorea.com/news/articleList.html?view_type=sm",
    "keywords": [
-    "Valentino",
-    "Gucci"
+    "디올",
+    "발렌시아가"
    ]
   },
   {
-   "name": "보그 코리아",
-   "url": "https://www.vogue.co.kr/",
+   "name": "FashionNetwork",
+   "url": "https://ww.fashionnetwork.com/",
    "keywords": [
-    "구찌",
-    "컬렉션"
+    "Loewe",
+    "Valentino"
    ]
   }
  ],
  "lux3": [
+  {
+   "name": "WWD 코리아",
+   "url": "https://www.wwdkorea.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "아크네 스튜디오",
+    "메종 마르지엘라"
+   ]
+  },
   {
    "name": "FashionNetwork",
    "url": "https://ww.fashionnetwork.com/",
@@ -2447,6 +2391,22 @@
     "Rolex",
     "Patek Philippe"
    ]
+  },
+  {
+   "name": "WWD 코리아",
+   "url": "https://www.wwdkorea.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "주얼리",
+    "워치"
+   ]
+  },
+  {
+   "name": "FashionNetwork USA",
+   "url": "https://us.fashionnetwork.com/",
+   "keywords": [
+    "Chanel",
+    "watch"
+   ]
   }
  ],
  "luxprice": [
@@ -2459,8 +2419,8 @@
    ]
   },
   {
-   "name": "아크네 스튜디오 공식몰",
-   "url": "https://www.acnestudios.com/kr/ko/woman/new-arrivals/",
+   "name": "아크네 스튜디오 공식몰(남성 신상품)",
+   "url": "https://www.acnestudios.com/kr/ko/man/new-arrivals/",
    "keywords": [
     "신상품",
     "가격"
@@ -2469,33 +2429,35 @@
  ],
  "poemdaily": [
   {
-   "name": "브런치 「자화상 — 우물 속의 사나이」(본문 대조)",
-   "url": "https://brunch.co.kr/@doyeol/15",
+   "name": "브런치 사야 「정지용 - 향수 해석」(본문 대조)",
+   "url": "https://brunch.co.kr/@habincoco/6",
    "keywords": [
-    "자화상",
+    "향수",
+    "정지용"
+   ]
+  },
+  {
+   "name": "주간경향 「정지용과 옥천 - 꿈엔들 잊힐리야」(본문 대조)",
+   "url": "https://weekly.khan.co.kr/article/201108162002161",
+   "keywords": [
+    "향수",
+    "옥천"
+   ]
+  },
+  {
+   "name": "새국어생활 권영민 「정지용의 향수」(2000 봄)",
+   "url": "https://www.korean.go.kr/nkview/nklife/2000_1/2000_0112.pdf",
+   "keywords": [
+    "향수",
+    "해설피"
+   ]
+  },
+  {
+   "name": "새국어소식 김옥순 「가을 하늘의 마법적 기능」(윤동주 「소년」)",
+   "url": "https://korean.go.kr/nkview/nknews/200201/42_7.html",
+   "keywords": [
+    "소년",
     "윤동주"
-   ]
-  },
-  {
-   "name": "국립국어원 「자화상」의 내면적 깊이와 아청빛 우주(본문 대조)",
-   "url": "https://www.korean.go.kr/nkview/nklife/1998_3/8-11.html",
-   "keywords": [
-    "자화상"
-   ]
-  },
-  {
-   "name": "서울신문 「님의 침묵」 기고(이은선)",
-   "url": "https://www.seoul.co.kr/news/2021/07/05/20210705022002",
-   "keywords": [
-    "님의 침묵",
-    "한용운"
-   ]
-  },
-  {
-   "name": "경기일보 [삶과 종교] 진정한 독립의 의미",
-   "url": "https://kyeonggi.com/article/20240314580151",
-   "keywords": [
-    "님의 침묵"
    ]
   }
  ],

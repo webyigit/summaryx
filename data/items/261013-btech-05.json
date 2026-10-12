@@ -1,0 +1,43 @@
+{
+ "title": "마이크로소프트, 윈도우 업데이트 인증서 교체…업데이트 안 한 PC는 2027년 6월부터 업데이트 끊긴다",
+ "originalTitle": "Windows Update: Outdated PCs will stop getting updates in June 2027",
+ "source": "Notebookcheck",
+ "url": "https://www.notebookcheck.net/Windows-Update-Outdated-PCs-will-stop-getting-updates-in-June-2027.1421432.0.html",
+ "publishedAt": "2026-10-11",
+ "summary": [
+  "마이크로소프트(Interbrand Best Global Brands 2025 2위)가 윈도우 PC가 진짜 윈도우 업데이트 서버와 통신하는지 확인하는 인증서를 바꾼다. 10월 8일 윈도우 메시지 센터에서 발표했으며, 현재 인증서는 2027년 5월 17일과 6월 19일에 만료된다. 새 인증서가 없는 PC는 윈도우 업데이트 접근이 완전히 끊겨 보안·기능 업데이트를 받지 못한다.",
+  "새 인증서는 정기 월간 업데이트로 배포돼 대부분은 할 일이 없다. 윈도우 11 25H2 이상은 조치 불필요, 24H2는 2025년 9월 보안 업데이트 이상, 나머지 지원 중인 윈도우 11·10은 2026년 7월 업데이트 이상을 2027년 6월 19일 전에 깔아야 한다. 윈도우 10 엔터프라이즈 2019 LTSC와 윈도우 서버 2019·2016은 5월 17일이 기한이다. 지원이 끝난 버전은 업그레이드 말고는 방법이 없다.",
+  "가장 위험한 건 확장 보안 업데이트(ESU)에 가입하지 않은 윈도우 10 PC로, 2025년 10월 이후 패치가 없어 7월 업데이트도 없다. ESU는 2027년 10월까지 가입할 수 있다. winver로 버전을, 설정의 업데이트 기록으로 7월 이후 누적 업데이트 설치 여부를 확인하고, 없으면 수동 확인이나 마이크로소프트 업데이트 카탈로그에서 받으면 된다. WSUS로 업데이트를 받는 기업 PC는 영향이 없다."
+ ],
+ "keyPoints": [
+  "업데이트 인증서 2027년 5·6월 만료",
+  "2026년 7월 이후 업데이트 깔면 대부분 무관",
+  "ESU 미가입 윈도우 10이 가장 위험"
+ ],
+ "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/windows-update-einstellungen-teaser22.jpg",
+ "facts": [
+  [
+   "선정 근거",
+   "Interbrand Best Global Brands 2025 2위(브랜드 가치 3885억 달러, +10.2%)"
+  ],
+  [
+   "국가",
+   "[확인 필요]"
+  ],
+  [
+   "창립",
+   "[확인 필요]"
+  ],
+  [
+   "대표 제품",
+   "윈도우·서피스·오피스"
+  ],
+  [
+   "공식 사이트",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261013-btech-05",
+ "category": "btech",
+ "collectedAt": "2026-10-13T01:34:15+09:00"
+}

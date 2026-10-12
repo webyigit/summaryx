@@ -1,0 +1,39 @@
+{
+ "title": "혈압 기록·알림 주는 AI 게임형 앱 썼더니 2기 고혈압 수축기 13.6mmHg↓…미사용군 9.0mmHg(美 러시대 850명 비교)",
+ "originalTitle": "AI-driven health app helps patients achieve better blood pressure control",
+ "source": "News-Medical (Rush University Medical Center)",
+ "url": "https://www.news-medical.net/news/20260916/AI-driven-health-app-helps-patients-achieve-better-blood-pressure-control.aspx",
+ "publishedAt": "2026-09-16",
+ "summary": [
+  "미국 성인의 절반 가까이가 고혈압 진단 기준에 해당하지만 혈압이 제대로 조절되는 사람은 25%에도 못 미친다. 진료와 진료 사이 집에서의 관리가 빈틈으로 꼽히는 가운데, 미국 러시대 의료원 연구팀(마이클 고틀립·크리스틴 팔록 교수)은 AI 피드백과 게임 요소를 넣은 무료 건강관리 앱 'Nuna'가 혈압 조절에 도움이 되는지 살펴 Journal of General Internal Medicine에 발표했다.",
+  "고혈압 치료를 받던 환자 425명이 앱을 쓰고, 인구학적 특성이 비슷한 425명은 쓰지 않았다. 앱 사용 6개월 전후 혈압을 비교하니 사용군의 혈압이 더 많이 내려갔고, 특히 시작 당시 조절되지 않던 2기 고혈압 환자의 수축기 혈압은 사용군 13.6mmHg, 대조군 9.0mmHg 낮아졌다. 매주 앱을 쓴 사람은 덜 쓴 사람보다 6개월 뒤 혈압이 조절될 가능성이 약 2.5배였고, 6개월 시점에도 87%가 앱을 계속 썼다.",
+  "앱은 혈압 기록과 맞춤 알림을 제공하고 의료진이 진료 사이 환자의 기록을 볼 수 있게 한다. 다만 무작위 배정이 아니라 환자가 스스로 앱 사용을 택한 대응 코호트 연구여서 선택 편향이 있을 수 있고, 심근경색·뇌졸중 같은 실제 사건 감소는 확인하지 않았다. 앱은 치료를 보조하는 도구일 뿐, 약 조정은 담당 의사와 상의해야 한다."
+ ],
+ "keyPoints": [
+  "AI·게임형 혈압 앱 사용 425명 vs 미사용 425명",
+  "2기 고혈압 수축기 13.6 vs 9.0mmHg 감소",
+  "매주 사용 시 혈압 조절 가능성 약 2.5배"
+ ],
+ "image": "https://www.news-medical.net/image-handler/picture/2014/7/High_Blood_Pressure-620x480.jpg",
+ "facts": [
+  [
+   "출처기관",
+   "미국 러시대 의료원(Rush University Medical Center) / Journal of General Internal Medicine(2026)"
+  ],
+  [
+   "근거 종류",
+   "연구(대응 코호트, 비무작위)"
+  ],
+  [
+   "대상",
+   "고혈압 치료 중인 환자 850명(앱 사용 425명·대조 425명)"
+  ],
+  [
+   "DOI",
+   "10.1007/s11606-026-10684-0"
+  ]
+ ],
+ "id": "261013-bp-01",
+ "category": "bp",
+ "collectedAt": "2026-10-13T01:34:15+09:00"
+}
