@@ -1,0 +1,35 @@
+{
+ "title": "곰벌레 단백질 조각+트레할로스로 적혈구 냉동 보존…쥐 적혈구 회수율 89%, 글리세롤 82%",
+ "originalTitle": "A trick from tardigrades could help human blood withstand freezing",
+ "source": "News-Medical",
+ "url": "https://www.news-medical.net/news/20261010/A-trick-from-tardigrades-could-help-human-blood-withstand-freezing.aspx",
+ "publishedAt": "2026-10-10",
+ "summary": [
+  "헌혈한 적혈구를 오래 보관하려면 얼려야 하는데, 지금 표준인 글리세롤은 해동 뒤 제거 과정이 번거롭고 세포 손상도 생긴다. 극한 환경에서도 살아남는 곰벌레(완보동물)에서 아이디어를 얻은 중국 연구팀은 곰벌레의 CAHS 단백질 일부 조각과 당의 일종인 트레할로스를 함께 써 적혈구를 냉동 보존하는 방법을 시험해 ACS Applied Materials & Interfaces에 발표했다.",
+  "적혈구에 두 물질을 섞어 액체질소로 얼렸다가 녹인 뒤 원심분리로 씻어 냈더니, 쥐 적혈구의 최대 89%가 온전히 회수돼 글리세롤 방식(약 82%)보다 높았다. 보존한 적혈구는 생체 적합했고, 빈혈 쥐에 수혈하자 염증 반응 없이 혈구 수와 헤모글로빈이 크게 늘었다.",
+  "다만 쥐 실험 단계이고 사람 혈액 시험은 보고되지 않았으며, 표본 수나 통계적 유의성도 기사에 나오지 않는다. 연구 책임자 레밍 순은 '극한 생물에게서 배운 교훈을 옮기려는 첫 시도'라고 설명했다. 실온 혈액 보존 같은 응용은 아직 먼 이야기다."
+ ],
+ "keyPoints": [
+  "곰벌레 CAHS 단백질 조각+트레할로스 활용",
+  "쥐 적혈구 회수율 89%, 글리세롤 약 82%",
+  "쥐 실험 단계…사람 혈액 검증 필요"
+ ],
+ "image": "https://www.news-medical.net/image-handler/picture/2016/5/3d_rendered_illustration_of_human_red_blood_cells-Sebastian_Kaulitzki-2000_0cda0d0f3cb64b54bebc8de4486ae6a5-620x480.jpg",
+ "facts": [
+  [
+   "출처기관",
+   "ACS Applied Materials & Interfaces (2026), 미국화학회 보도자료"
+  ],
+  [
+   "근거 종류",
+   "동물 실험(쥐)"
+  ],
+  [
+   "대상",
+   "적혈구 냉동 보존"
+  ]
+ ],
+ "id": "261013-health-20",
+ "category": "health",
+ "collectedAt": "2026-10-13T05:31:03+09:00"
+}

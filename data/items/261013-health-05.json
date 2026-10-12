@@ -1,0 +1,35 @@
+{
+ "title": "뇌전증인가, 기능성 발작인가…AI가 진료기록 읽고 신경과 전공의 정확도 최대 12.7%p 높였다",
+ "originalTitle": "AI helps neurologists distinguish epilepsy from functional seizures",
+ "source": "News-Medical",
+ "url": "https://www.news-medical.net/news/20261012/AI-helps-neurologists-distinguish-epilepsy-from-functional-seizures.aspx",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "뇌전증과 심리적 요인으로 생기는 '기능성(심인성 비뇌전증성) 발작'은 겉모습이 비슷해 구분이 어렵고, 잘못 진단되면 불필요한 항경련제를 먹거나 진단이 늦어진다. 미국 연구팀은 대형언어모델(LLM)이 전자의무기록 속 진료 노트만 보고 둘을 가려낼 수 있는지 시험해 npj Digital Medicine에 발표했다.",
+  "미국 두 기관의 기록 1만3,633건으로 공개 LLM 4종을 미세조정한 'EpiScreen'은 기관 내 평가에서 정확도 지표(AUC)가 최대 0.992, 다른 기관 자료에서도 0.875~0.980이었다. 신경과 전공의 6명·전문의 2명이 300개 사례를 판정한 실험에서 AI 단독 정확도는 81.0%로 의사들과 비슷했지만, AI 예측과 근거 문장을 함께 본 전공의 정확도는 87.7~89.0%, 전문의는 89.3%로 올랐다.",
+  "다만 과거 기록을 돌아본 후향 연구이고, 모든 진단이 비디오 뇌파검사로 확정된 것은 아니다. 실신·수면장애 같은 다른 유사 증상은 평가하지 않았다. 연구진은 실제 진료에 쓰기 전 전향적 시험이 필요하며, 확진 검사를 대신하지 않고 판단을 돕는 도구라고 밝혔다."
+ ],
+ "keyPoints": [
+  "진료 노트로 뇌전증·기능성 발작 구분하는 AI",
+  "AI 도움 받은 전공의 정확도 87.7~89.0%로↑",
+  "후향 연구…실제 진료 적용 전 검증 필요"
+ ],
+ "image": "https://www.news-medical.net/images/news/ImageForNews_848649_17917790415642697.jpg",
+ "facts": [
+  [
+   "출처기관",
+   "npj Digital Medicine (Zhou 외, 2026), MIMIC-IV·미네소타대 자료"
+  ],
+  [
+   "근거 종류",
+   "후향 연구(AI 진단 보조)"
+  ],
+  [
+   "대상",
+   "진료기록 1만3,633건, 판독 실험 300례"
+  ]
+ ],
+ "id": "261013-health-05",
+ "category": "health",
+ "collectedAt": "2026-10-13T05:31:03+09:00"
+}
