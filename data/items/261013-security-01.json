@@ -1,0 +1,39 @@
+{
+ "title": "하드웨어 지갑 '렛저' 리셀러 판매 기기서 무단 하드웨어 이식 발견…피해 추정 8600만 달러",
+ "originalTitle": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "암호화폐 하드웨어 지갑 제조사 렛저(Ledger)가 동남아 리셀러 '크립토빌리스(CryptoBilis)'를 통해 판매된 기기에서 자금 도난 신고가 잇따르자 이 리셀러를 통한 판매를 일시 중단했다. 블록체인 조사가 '스펙터'는 전체 피해액을 8600만 달러 이상으로 추산했다.",
+  "렛저는 조사 과정에서 피해 기기 1대에 허가받지 않은 하드웨어 이식물이 들어 있었다고 밝혔다. 10월 11일 업데이트에서는 영향을 받은 기기가 '제한된' 수이며 모두 크립토빌리스 판매분이라고 설명했다. 최근 90일 안에 이 리셀러에서 산 이용자는 설정을 미루고, 이미 설정했다면 새 복구 문구로 만든 새 서명 기기로 자산을 옮기라고 권고했다.",
+  "크립토빌리스도 조사가 끝날 때까지 하드웨어 지갑 재고 판매를 멈췄다. 두 회사는 복구 문구는 기기가 설정 중 직접 만들어야 하며, 미리 인쇄돼 있거나 남이 본 문구는 위험하다고 경고했다. 공급망을 거친 기기 변조가 실제 피해로 이어진 사례여서, 공식 판매처 구매의 중요성이 다시 부각됐다."
+ ],
+ "keyPoints": [
+  "렛저, 크립토빌리스 판매 기기서 무단 하드웨어 이식 확인",
+  "피해 추정 8600만 달러 이상, 리셀러 판매 중단",
+  "90일 내 구매자는 새 복구 문구로 자산 이전 권고"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4nzJQQovkKtR-dl3ihW4VRAfIxiKwNwwVEHyH06we8iIkQbaxVqhryWIwB9MflLHfBYAd_opklCfnkLxg-GKqB2yt4CisdNcf2lRvOoaYHo9Pa6m1OWatzNsFHmY1ICBH_0P2XX4ykgFE7Gqviz0C0_8J0Qqz36_3gygDyHbot9z5obuYEHunIFsZmPQV/s1600/ledgers.jpg",
+ "facts": [
+  [
+   "기업",
+   "렛저(Ledger)"
+  ],
+  [
+   "리셀러",
+   "크립토빌리스(CryptoBilis)"
+  ],
+  [
+   "추정 피해",
+   "8600만 달러 이상(블록체인 조사가 Specter)"
+  ],
+  [
+   "지역",
+   "동남아"
+  ]
+ ],
+ "id": "261013-security-01",
+ "category": "security",
+ "collectedAt": "2026-10-13T03:31:43+09:00"
+}

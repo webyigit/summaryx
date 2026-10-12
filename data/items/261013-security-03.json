@@ -1,0 +1,39 @@
+{
+ "title": "워드프레스 플러그인 '브릭스포지' CVSS 10.0 결함 실제 악용…인증 없이 원격 코드 실행",
+ "originalTitle": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "워드프레스 보안업체 패치스택(Patchstack)이 플러그인 '브릭스포지(Bricksforge)'의 최고 위험도(CVSS 10.0) 취약점 CVE-2026-85097이 실제 공격에 쓰이고 있다고 밝혔다. 로그인하지 않은 공격자가 PHP 파일을 올려 실행할 수 있어 사이트 전체가 장악될 수 있다. 3.1.8.9 이하 버전이 영향을 받는다.",
+  "패치스택은 10월 7일 처음 악용을 탐지했으며, 63개 IP에서 공격이 들어왔고 그중 6개가 요청의 약 46%를 차지했다. 자동화된 공격으로 보이나 특정 조직으로 지목하지는 않았다. 수정 버전은 워드펜스 기준 3.1.8.10이지만 기사는 4.0.1로 올릴 것을 권했다.",
+  "같은 기사는 'WPC 제품 번들'과 '닌자 폼' 플러그인의 XSS 결함을 통해 백도어 플러그인과 숨은 관리자 계정을 만드는 공격도 함께 전했다. 업데이트만으로는 이미 심긴 감염이 지워지지 않으므로 업로드 폴더의 낯선 파일, 숨은 관리자 계정, mu-plugins 폴더를 함께 점검해야 한다."
+ ],
+ "keyPoints": [
+  "브릭스포지 CVE-2026-85097, CVSS 10.0 실제 악용",
+  "3.1.8.9 이하 영향, 최신 버전 업데이트 권고",
+  "업데이트 후에도 숨은 관리자·업로드 파일 점검 필요"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrKeT1xQm0N8zjNRqWwsoqMm3kESRMqYnUJ9Wy6x9dEKlRVgZYDVqKqhu_2ZT7ZcCNd_RegNu2LtnUUQgL8R2OlK5LTyu9vKaCBRGTVrp05hGdB5wQrxFNi_eHnGxx-8yFR7maKT3tD_WBMVVBSeTyuku392tKdoOHIgvnj1tKQYU_Yq9anT5OKxUun4GW/s1600/wp-php.jpg",
+ "facts": [
+  [
+   "CVE",
+   "CVE-2026-85097"
+  ],
+  [
+   "CVSS",
+   "10.0"
+  ],
+  [
+   "영향 버전",
+   "3.1.8.9 이하"
+  ],
+  [
+   "첫 악용 탐지",
+   "2026-10-07(Patchstack)"
+  ]
+ ],
+ "id": "261013-security-03",
+ "category": "security",
+ "collectedAt": "2026-10-13T03:31:43+09:00"
+}

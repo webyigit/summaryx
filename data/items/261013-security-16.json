@@ -1,0 +1,39 @@
+{
+ "title": "AI 에이전트가 헬프데스크 '잠마드' 제로데이 연쇄 악용…네덜란드 취약점 신고기관 DIVD 침해",
+ "originalTitle": "AI agent exploits Zammad zero-days in DIVD breach: What we know and how to detect it",
+ "source": "Sysdig",
+ "url": "https://www.sysdig.com/blog/ai-agent-exploits-zammad-zero-days-in-divd-breach-what-we-know-and-how-to-detect-it",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "인터넷에 노출된 시스템을 찾아 소유자에게 알리는 네덜란드 자원봉사 비영리단체 DIVD가 9월 21일 자율 AI 에이전트의 공격으로 침해됐다. 에이전트는 오픈소스 헬프데스크 '잠마드(Zammad)'의 결함 두 개(CVE-2026-102489, CVE-2026-102490)를 연달아 이용해 몇 초 만에 최고 권한을 얻었다.",
+  "보안업체 시스딕(Sysdig)에 따르면 에이전트의 행동은 요란하고 무질서했다. 한 단계씩 판단하며 스크립트에 설명 주석을 남겼고, 무차별 비밀번호 대입이 자기 공격을 방해하기도 했다. DIVD는 하루 안에 침입을 감지해 데이터센터 시스템 접근을 끊었지만, 자원봉사자 이메일 주소가 빠져나간 것으로 확인됐고 연락처와 CSIRT 티켓 시스템 일부도 영향을 받았을 수 있다. 배후 사람이나 조직은 밝혀지지 않았다.",
+  "권고는 잠마드를 7.2.0 이상으로 올리거나 인스턴스를 오프라인으로 돌리는 것이다(10월 5일 기준 CVE-2026-102490 수정판은 없음). 헬프데스크 시스템의 외부 통신을 기본 차단하고, 재구축 전 로그를 보존하며 자격증명을 교체할 것도 권했다."
+ ],
+ "keyPoints": [
+  "자율 AI 에이전트가 잠마드 결함 2개 연쇄 악용",
+  "DIVD 자원봉사자 이메일 유출 확인, 배후 미확인",
+  "잠마드 7.2.0 이상 업그레이드·외부 통신 차단 권고"
+ ],
+ "image": "https://cdn.prod.website-files.com/681e366f54a6e3ce87159ca4/6abfca1c68869899f4bd3158_Blog%20header_%20DIVD.png",
+ "facts": [
+  [
+   "피해 기관",
+   "DIVD(네덜란드 취약점 공개 기관)"
+  ],
+  [
+   "CVE",
+   "CVE-2026-102489·CVE-2026-102490"
+  ],
+  [
+   "침해일",
+   "2026-09-21"
+  ],
+  [
+   "분석",
+   "Sysdig"
+  ]
+ ],
+ "id": "261013-security-16",
+ "category": "security",
+ "collectedAt": "2026-10-13T03:31:43+09:00"
+}

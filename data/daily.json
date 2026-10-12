@@ -1,35 +1,35 @@
 {
- "date": "2026-10-12",
+ "date": "2026-10-13",
  "verse": {
-  "ref": "시편 126:5",
-  "text": "눈물을 흘리며 씨를 뿌리는 자는 기쁨으로 거두리로다",
+  "ref": "갈라디아서 6:9",
+  "text": "우리가 선을 행하되 낙심하지 말찌니 피곤하지 아니하면 때가 이르매 거두리라",
   "version": "개역한글"
  },
  "english": {
-  "expression": "bear fruit",
-  "meaning": "(노력·계획 등이) 결실을 맺다, 성과를 거두다",
-  "example": "All those early mornings at the library finally bore fruit when she passed the exam.",
-  "exampleKo": "도서관에서 보낸 그 모든 이른 아침이, 그녀가 시험에 합격하면서 마침내 결실을 맺었다.",
-  "tip": "나무가 열매를 맺는 모습에서 나온 표현으로, 주어로 effort·work·plan·idea처럼 '노력이나 계획'이 옵니다. 과거형은 bore fruit, 완료형은 has borne fruit이고, 'Our efforts are starting to bear fruit.'(노력이 슬슬 성과를 내기 시작했어)처럼 진행형으로도 자주 씁니다."
+  "expression": "turn over a new leaf",
+  "meaning": "새 출발을 하다, 마음을 고쳐먹고 (생활 방식을) 더 낫게 바꾸다",
+  "example": "After a messy semester, he decided to turn over a new leaf and start studying every morning.",
+  "exampleKo": "엉망이었던 학기를 보낸 뒤, 그는 새 출발을 하기로 마음먹고 매일 아침 공부를 시작했다.",
+  "tip": "여기서 leaf는 나뭇잎이 아니라 '책의 한 장(페이지)'입니다. 책장을 넘겨 새 페이지에서 다시 시작한다는 뜻으로 1590년대부터 쓰인 표현이에요(Etymonline). 낙엽이 지는 계절이라 헷갈리기 쉽지만, 'I'm turning over a new leaf.'(나 이제 달라질 거야)처럼 습관을 바꾸겠다는 다짐에 자주 씁니다."
  },
  "quote": {
-  "text": "안개와 무르익은 결실의 계절.",
-  "original": "Season of mists and mellow fruitfulness",
-  "author": "존 키츠 (John Keats, 1795–1821), 시인 — 시 「가을에게(To Autumn)」(1819) 첫 행"
+  "text": "(가을이란) 두 번째 봄이지요. 모든 잎사귀가 꽃처럼 되는.",
+  "original": "Un deuxième printemps, où toutes les feuilles sont comme des fleurs.",
+  "author": "알베르 카뮈 (Albert Camus, 1913–1960), 작가 — 희곡 『오해(Le Malentendu)』(1944)에서 마르타가 \"가을이 뭐죠?\"라고 묻자 얀(Jan)이 하는 대사(막·장 [확인 필요]). 흔히 'Autumn is a second spring when every leaf is a flower'로 알려졌으나 원문과 다르게 다듬어진 문장임"
  },
  "poem": {
-  "title": "호수",
-  "poet": "정지용 (1902–1950)",
-  "text": "얼굴 하나야\n손바닥 둘로\n폭 가리지만,\n보고 싶은 마음\n호수만 하니\n눈 감을 수밖에.",
-  "source": "1930년 5월 『시문학』 발표(2호·3호로 자료마다 달라 호수 [확인 필요]), 『정지용 시집』(1935) 수록 · 마지막 행은 '눈 감을 밖에'로 적은 판본도 있어 원전 표기 [확인 필요]"
+  "title": "코스모스",
+  "poet": "윤동주 (1917–1945)",
+  "text": "청초한 코스모스는\n오직 하나인 나의 아가씨,\n\n달빛이 싸늘히 추운 밤이면\n옛 소녀가 못 견디게 그리워\n코스모스 핀 정원으로 찾아간다.\n\n코스모스는\n귀또리 울음에도 수줍어지고,\n\n코스모스 앞에 선 나는\n어렸을 적처럼 부끄러워지나니,\n\n내 마음은 코스모스의 마음이요\n코스모스의 마음은 내 마음이다.",
+  "source": "유고(생전 미발표) · 창작 연도·수록 시집(『하늘과 바람과 별과 시』 증보판 여부) [확인 필요] · 4연 첫 행 '귀또리'는 '귀뚜리'로 적은 판본도 있어 원전 표기 [확인 필요], 쉼표 유무도 판본마다 다름"
  },
  "art": {
-  "title": "슈리 라가, 라가말라 연작 중 — Shri Raga, from a Ragamala",
-  "artist": "작자 미상 · 인도 메와르 왕국 궁정 화가 (작가명 [확인 필요])",
-  "year": "1695년경",
-  "image": "https://openaccess-cdn.clevelandart.org/1931.451/1931.451_web.jpg",
-  "page": "https://clevelandart.org/art/1931.451",
-  "credit": "퍼블릭 도메인(CC0) · Cleveland Museum of Art, Edward L. Whittemore Fund",
-  "description": "인도 라자스탄의 메와르 왕국 궁정 회화가 전환점을 맞던 시기에 그려진 중요한 연작 가운데 한 점입니다. 훗날 왕위에 오른 아마르 싱 2세(재위 1698–1710)가 왕세자 시절 처음으로 세속 그림에 무굴 양식을 들여왔는데, 흰 돔 건축과 공간의 깊이를 내려는 시도에서 그 흔적이 보입니다. 그래도 화가는 여전히 가로 띠 구성과 대담한 색면을 씁니다. 슈리 라가는 '가을 달처럼 아름다운' 왕이 성자 나라다와 툼부루의 이야기를 듣는 모습으로 그려지는데, 아마르 싱은 장난스럽게 왕 자리에 자신의 초상을, 성자 자리에 여인을 넣었습니다. 음악에서 슈리 라가는 가을과 추수 축제와 이어지며, 아래쪽에서 춤추는 여성 악사들이 그 분위기를 전합니다."
+  "title": "맑은 가을날 — Sunny Autumn Day",
+  "artist": "조지 이니스 (George Inness, 1825–1894), 미국",
+  "year": "1892",
+  "image": "https://openaccess-cdn.clevelandart.org/1956.578/1956.578_web.jpg",
+  "page": "https://clevelandart.org/art/1956.578",
+  "credit": "퍼블릭 도메인(CC0) · Cleveland Museum of Art, Anonymous Gift",
+  "description": "조지 이니스는 약 50년 동안 1,000점이 넘는 작품을 남긴 다작의 화가였습니다. 세상을 떠나기 2년 전에 그린 이 그림은 그의 말기 양식을 잘 보여 주는데, 실제 풍경이 거의 영적인 환영처럼 바뀌어 있습니다. 투명한 색을 겹쳐 만든 부드럽고 흐릿한 형태와 대기의 느낌에는 자연을 신비롭게 바라본 화가의 시선이 담겨 있습니다. (캔버스에 유채, 81 × 106 cm)"
  }
 }

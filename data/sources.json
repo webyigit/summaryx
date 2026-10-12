@@ -434,6 +434,44 @@
    "keywords": [
     "콘서트"
    ]
+  },
+  {
+   "name": "NME",
+   "url": "https://www.nme.com/news/music",
+   "keywords": [
+    "news",
+    "tour"
+   ]
+  },
+  {
+   "name": "Stereogum",
+   "url": "https://stereogum.com/category/news",
+   "keywords": [
+    "news"
+   ]
+  },
+  {
+   "name": "Music Business Worldwide",
+   "url": "https://www.musicbusinessworldwide.com/",
+   "keywords": [
+    "industry"
+   ]
+  },
+  {
+   "name": "Exclaim!",
+   "url": "https://exclaim.ca/music/news",
+   "keywords": [
+    "tour"
+   ]
+  },
+  {
+   "name": "Bing News RSS",
+   "url": "https://www.bing.com/news/search?q=신곡+발매&format=rss",
+   "keywords": [
+    "신곡 발매",
+    "콘서트 개최",
+    "정규앨범"
+   ]
   }
  ],
  "ent": [
@@ -536,6 +574,23 @@
    "url": "https://www.slashfilm.com/category/movies/",
    "keywords": [
     "box office"
+   ]
+  },
+  {
+   "name": "이투데이",
+   "url": "https://www.etoday.co.kr/",
+   "keywords": [
+    "영화",
+    "개봉",
+    "영진위"
+   ]
+  },
+  {
+   "name": "스포츠경향",
+   "url": "https://sports.khan.co.kr/entertainment/movie",
+   "keywords": [
+    "영화",
+    "부산국제영화제"
    ]
   }
  ],
@@ -776,20 +831,36 @@
  ],
  "security": [
   {
-   "name": "데일리시큐",
-   "url": "https://www.dailysecu.com/news/articleList.html?view_type=sm",
-   "keywords": [
-    "개인정보 유출",
-    "금융권 해킹",
-    "다크웹"
-   ]
-  },
-  {
    "name": "보안뉴스",
    "url": "https://www.boannews.com/media/t_list.asp",
    "keywords": [
-    "공급망 해킹",
-    "개인정보 유출"
+    "개인정보 유출",
+    "OT 보안"
+   ]
+  },
+  {
+   "name": "데일리시큐",
+   "url": "https://www.dailysecu.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "개인정보 국외 이전",
+    "공급망 해킹"
+   ]
+  },
+  {
+   "name": "The Hacker News",
+   "url": "https://thehackernews.com/",
+   "keywords": [
+    "vulnerability",
+    "AI agent"
+   ]
+  },
+  {
+   "name": "SecurityWeek",
+   "url": "https://www.securityweek.com/",
+   "keywords": [
+    "breach",
+    "DDoS",
+    "M&A"
    ]
   },
   {
@@ -801,35 +872,17 @@
    ]
   },
   {
-   "name": "The Hacker News",
-   "url": "https://thehackernews.com/",
+   "name": "Cisco Talos",
+   "url": "https://blog.talosintelligence.com/",
    "keywords": [
-    "vulnerability",
-    "zero-day"
+    "malware research"
    ]
   },
   {
-   "name": "Dark Reading",
-   "url": "https://www.darkreading.com/",
+   "name": "Comparitech",
+   "url": "https://www.comparitech.com/news/",
    "keywords": [
-    "AI agent security",
-    "cybercrime arrest"
-   ]
-  },
-  {
-   "name": "SecurityWeek",
-   "url": "https://www.securityweek.com/",
-   "keywords": [
-    "breach",
-    "patch"
-   ]
-  },
-  {
-   "name": "데이터넷",
-   "url": "https://www.datanet.co.kr/news/articleList.html?view_type=sm",
-   "keywords": [
-    "금융권 해킹",
-    "OT 보안"
+    "ransomware statistics"
    ]
   }
  ],
@@ -847,21 +900,23 @@
    "url": "https://www.hankookilbo.com/news/culture/book",
    "keywords": [
     "새 책",
-    "번역"
+    "출판계"
    ]
   },
   {
    "name": "뉴시스 문화",
    "url": "https://www.newsis.com/culture/list/?cid=10700&scid=10701",
    "keywords": [
-    "[신간]"
+    "[신간]",
+    "책"
    ]
   },
   {
-   "name": "세계일보",
-   "url": "https://www.segye.com/",
+   "name": "채널예스(예스24)",
+   "url": "https://ch.yes24.com/",
    "keywords": [
-    "[새로 나온 책]"
+    "[칼럼]",
+    "[인터뷰]"
    ]
   },
   {
@@ -875,22 +930,16 @@
    "name": "Literary Hub",
    "url": "https://lithub.com/category/news/",
    "keywords": [
+    "Independent Press Top 40",
     "Best Reviewed Books"
-   ]
-  },
-  {
-   "name": "채널예스(예스24)",
-   "url": "https://ch.yes24.com/",
-   "keywords": [
-    "[리뷰]",
-    "[인터뷰]"
    ]
   },
   {
    "name": "CrimeReads",
    "url": "https://crimereads.com/",
    "keywords": [
-    "Best True Crime of the Month"
+    "New Books Coming Out This Week",
+    "Best Paperback Releases"
    ]
   }
  ],
@@ -915,6 +964,14 @@
    "url": "https://playbill.com/news",
    "keywords": [
     "West End"
+   ]
+  },
+  {
+   "name": "BroadwayWorld West End",
+   "url": "https://www.broadwayworld.com/westend/",
+   "keywords": [
+    "West End",
+    "Off-Broadway"
    ]
   }
  ],
@@ -1158,10 +1215,11 @@
    "keywords": [
     "구축",
     "홈페이지",
-    "콘텐츠",
-    "홍보",
     "플랫폼",
-    "고도화"
+    "고도화",
+    "홍보",
+    "콘텐츠",
+    "유지관리"
    ]
   }
  ],
@@ -2581,16 +2639,25 @@
  ],
  "worldus": [
   {
-   "name": "유로뉴스",
-   "url": "https://www.euronews.com/news/europe",
+   "name": "알자지라 미국·캐나다",
+   "url": "https://www.aljazeera.com/us-canada/",
    "keywords": [
-    "Panama"
+    "US",
+    "Canada"
+   ]
+  },
+  {
+   "name": "알자지라 중남미",
+   "url": "https://www.aljazeera.com/where/latin-america/",
+   "keywords": [
+    "Latin America"
    ]
   },
   {
    "name": "CBS News 정치",
    "url": "https://www.cbsnews.com/politics/",
    "keywords": [
+    "midterms",
     "DOJ"
    ]
   },
@@ -2598,8 +2665,18 @@
    "name": "The Rio Times",
    "url": "https://www.riotimesonline.com/",
    "keywords": [
-    "Chile",
-    "Dominican"
+    "Mexico",
+    "Colombia",
+    "Peru",
+    "Venezuela"
+   ]
+  },
+  {
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
+   "keywords": [
+    "미국",
+    "트럼프"
    ]
   }
  ],
@@ -2609,7 +2686,8 @@
    "url": "https://www.khan.co.kr/world",
    "keywords": [
     "중국",
-    "북한"
+    "북한",
+    "일본"
    ]
   },
   {
@@ -2617,6 +2695,24 @@
    "url": "https://www.newsis.com/world/list/?cid=10100&scid=10101",
    "keywords": [
     "중국"
+   ]
+  },
+  {
+   "name": "알자지라 아시아",
+   "url": "https://www.aljazeera.com/asia/",
+   "keywords": [
+    "India",
+    "Pakistan",
+    "Nepal"
+   ]
+  },
+  {
+   "name": "알자지라 아시아·태평양",
+   "url": "https://www.aljazeera.com/asia-pacific/",
+   "keywords": [
+    "North Korea",
+    "Taiwan",
+    "Australia"
    ]
   },
   {
@@ -2629,23 +2725,59 @@
  ],
  "worldeu": [
   {
-   "name": "경향신문 국제",
-   "url": "https://www.khan.co.kr/world",
+   "name": "알자지라 유럽",
+   "url": "https://www.aljazeera.com/where/europe/",
    "keywords": [
-    "영국",
-    "EU"
+    "Europe",
+    "Ukraine",
+    "UK"
    ]
   },
   {
    "name": "유로뉴스",
    "url": "https://www.euronews.com/news/europe",
    "keywords": [
-    "Portugal",
-    "Brussels"
+    "EU",
+    "Brussels",
+    "France"
+   ]
+  },
+  {
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/int/?cid=10100",
+   "keywords": [
+    "EU",
+    "나토",
+    "러시아"
+   ]
+  },
+  {
+   "name": "경향신문 국제",
+   "url": "https://www.khan.co.kr/world",
+   "keywords": [
+    "영국",
+    "EU"
    ]
   }
  ],
  "worldmea": [
+  {
+   "name": "알자지라 중동",
+   "url": "https://www.aljazeera.com/middle-east/",
+   "keywords": [
+    "Israel",
+    "Yemen",
+    "Iran"
+   ]
+  },
+  {
+   "name": "알자지라 아프리카",
+   "url": "https://www.aljazeera.com/africa/",
+   "keywords": [
+    "Ethiopia",
+    "Eritrea"
+   ]
+  },
   {
    "name": "경향신문 국제",
    "url": "https://www.khan.co.kr/world",
@@ -2655,10 +2787,10 @@
    ]
   },
   {
-   "name": "The Rio Times 아프리카",
-   "url": "https://www.riotimesonline.com/",
+   "name": "Africanews RSS",
+   "url": "https://www.africanews.com/feed/rss",
    "keywords": [
-    "Sudan"
+    "Africa"
    ]
   }
  ]
