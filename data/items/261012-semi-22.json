@@ -1,0 +1,35 @@
+{
+ "title": "CPU 가격 인상 도미노…인텔 최대 20%·퀄컴 10%, AMD도 검토",
+ "originalTitle": "[News] CPU Price Hike Wave: Intel Reportedly Up to 20%, Qualcomm 10%, AMD May Join as TSMC Costs Climb",
+ "source": "TrendForce",
+ "url": "https://www.trendforce.com/news/2026/10/12/news-cpu-price-hike-wave-intel-reportedly-up-to-20-qualcomm-10-amd-may-join-as-tsmc-costs-climb/",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "AI PC·서버 수요 증가와 첨단 공정 비용 상승이 겹치며 10월 들어 CPU 가격 인상이 빨라지고 있다. 트렌드포스는 공상시보를 인용해 인텔과 퀄컴이 일부 프로세서 가격을 올렸고 AMD도 조정을 준비 중이라고 전했다.",
+  "인텔은 2025년 말 이후 세 차례 가격을 올렸다. 9월 1일부터 적용된 조정에서 고급 GPU 타일을 단 팬서레이크 상위 모델이 15~20%로 가장 많이 올랐고, 메테오레이크·애로우레이크는 5~10% 인상됐다. 해당 GPU 타일은 TSMC N3E 공정에서 만든다. 퀄컴은 10월부터 스냅드래곤 X·X2 엘리트 등 PC 플랫폼 가격을 약 10% 올린 것으로 알려졌다. AMD는 인상 폭·시기가 확인되지 않았으며, TSMC 2nm로 6세대 에픽 '베니스' 생산을 늘리고 있다.",
+  "애널리스트들은 TSMC가 2027년 첨단 공정 5~10%, 첨단 패키징 10~15%, 성숙 공정 3~5% 가격을 올릴 것으로 본다. D램·SSD·CPU 비용 상승이 노트북 업체를 압박하는 가운데, 트렌드포스는 2026년 노트북 출하 감소 폭이 전년 대비 9.4%로 좁혀질 것으로 내다봤다."
+ ],
+ "keyPoints": [
+  "인텔 팬서레이크 상위 모델 15~20% 인상",
+  "퀄컴 PC 칩 약 10%↑, AMD도 준비",
+  "TSMC 2027년 공정가 인상 전망이 배경"
+ ],
+ "image": "https://img.trendforce.com/blog/wp-content/uploads/2026/02/06155903/Intel-CPU-624x417.png",
+ "facts": [
+  [
+   "인텔",
+   "팬서레이크 15~20%, 메테오·애로우레이크 5~10%"
+  ],
+  [
+   "퀄컴",
+   "스냅드래곤 X·X2 엘리트 약 10%"
+  ],
+  [
+   "TSMC 2027 전망",
+   "첨단 5~10%, 패키징 10~15%, 성숙 3~5%"
+  ]
+ ],
+ "id": "261012-semi-22",
+ "category": "semi",
+ "collectedAt": "2026-10-12T16:32:29+09:00"
+}
