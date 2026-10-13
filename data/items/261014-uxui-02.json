@@ -1,0 +1,35 @@
+{
+ "title": "접근성 트리가 AI 에이전트의 '눈'이 된다… 에이전트 시대 웹 접근성 점검법",
+ "originalTitle": "Secret agent bot: accessibility matters for the agents even if you can't see them",
+ "source": "UX Collective",
+ "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "패트릭 니먼은 스크린 리더가 수십 년 의존해 온 접근성 구조가 이제 챗GPT·클로드·제미나이 같은 AI 에이전트가 페이지를 읽을 수 있는지도 좌우한다고 주장한다. 자동화 트래픽이 사람 트래픽을 넘어섰다는 2026년 6월 클라우드플레어 보고서를 들며, 에이전트 가독성은 더 이상 틈새 문제가 아니라고 본다.",
+  "에이전트가 페이지를 받아들이는 방식은 스크린샷, 원본 HTML, 접근성 트리 세 가지인데, 트리가 가장 간결하고 구조적이다. 글은 Claude in Chrome의 read_page, 마이크로소프트 Playwright MCP 등이 트리나 접근성 스냅샷을 활용한다고 소개한다. CHI 2026의 A11y-CUA 연구에서는 에이전트 과제 성공률이 일반 조건 약 78%에서 키보드 전용 42%, 확대 화면 28%로 떨어졌다. 2026년 WebAIM Million 조사에선 상위 홈페이지 95.9%에서 접근성 오류가 발견됐다.",
+  "권고는 시맨틱 구조와 랜드마크, 모든 컨트롤의 이름·역할·상태 지정(잘못된 ARIA는 없느니만 못함), 의미 있는 대체 텍스트와 폼 레이블, 라이브 리전과 안정된 레이아웃이다. 전면 재구축 대신 결제·예약 같은 중요 흐름을 골라 개발자 도구로 접근성 트리를 보고 키보드만으로 완료해 보라고 조언한다."
+ ],
+ "keyPoints": [
+  "AI 에이전트도 접근성 트리로 웹페이지를 읽는다",
+  "키보드 전용 조건서 에이전트 성공률 78%→42%",
+  "중요 흐름부터 키보드·트리 점검하는 분류 접근"
+ ],
+ "image": "https://miro.medium.com/v2/resize:fit:1200/1*SKzV2f4dNvvQuIbxVtbL2A.png",
+ "facts": [
+  [
+   "필자",
+   "Patrick Neeman"
+  ],
+  [
+   "분야",
+   "웹 접근성·AI 에이전트"
+  ],
+  [
+   "인용 연구",
+   "A11y-CUA(CHI 2026), WebAIM Million 2026"
+  ]
+ ],
+ "category": "uxui",
+ "id": "261014-uxui-02",
+ "collectedAt": "2026-10-14T04:31:37+09:00"
+}
