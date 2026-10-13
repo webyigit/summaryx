@@ -1,0 +1,35 @@
+{
+ "title": "레스토랑 와인룸, 문 열 때마다 온도 튄다면… 냉각기보다 기록부터",
+ "originalTitle": "Restaurant Wine Room Temperature Recovery When Doors Open",
+ "source": "Rosehill Wine Cellars",
+ "url": "https://rosehillwinecellars.com/blogs/rwc-journal/restaurant-wine-room-temperature-recovery-when-doors-open",
+ "publishedAt": "2026-09-27",
+ "summary": [
+  "영업 중 레스토랑 와인룸 문이 자주 열리면 온도가 잠깐씩 오른다. 로즈힐 와인 셀러스는 이런 일시적 상승이 냉각기만의 문제가 아니라 방 구조나 센서 위치 때문일 수 있다며, '모든 레스토랑에 맞는 하나의 회복 시간은 없다'고 설명했다.",
+  "회복에 영향을 주는 요인은 문 여는 횟수와 시간, 단열·밀폐, 방 설계, 센서 위치, 냉각 성능이다. 또 공기 온도는 병보다 빨리 변하므로 센서 수치가 잠깐 튀었다고 와인도 같은 변화를 겪은 것은 아니라고 짚었다. 문 열림과 함께 오르면 외기 유입, 위치마다 다르면 단열·누기·센서 배치, 한가한 시간에도 불안정하면 공기 흐름·설치·정비 문제를 의심하라는 진단표를 제시했다.",
+  "센서 위치를 하나로 고정해 일정 간격으로 기록하고 문 열림과 바쁜 시간대, 정비 이력을 함께 적으라고 권한다. 병 꺼내기와 재입고를 묶어 출입을 줄이고, 문을 확실히 닫고, 큰 냉각기를 해결책으로 단정하지 말라고 조언했다."
+ ],
+ "keyPoints": [
+  "문 열림 온도 상승, 냉각기 탓만은 아냐",
+  "공기 온도는 병보다 빨리 변해",
+  "센서 고정·기록 후 한 번에 하나씩 조정"
+ ],
+ "facts": [
+  [
+   "대상",
+   "레스토랑 와인룸"
+  ],
+  [
+   "원인 후보",
+   "외기 유입·단열/누기·센서 위치·장비"
+  ],
+  [
+   "기록 항목",
+   "온도·문 열림·바쁜 시간·정비 이력"
+  ]
+ ],
+ "image": "https://rosehillwinecellars.com/cdn/shop/articles/restaurant-wine-room-temperature-recovery-when-doors-open.jpg?v=1790504142&width=2048",
+ "id": "261014-cellar-09",
+ "category": "cellar",
+ "collectedAt": "2026-10-14T06:33:40+09:00"
+}

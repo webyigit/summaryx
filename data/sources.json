@@ -1224,6 +1224,23 @@
     "스포츠",
     "게임"
    ]
+  },
+  {
+   "name": "Anime Corner 뉴스",
+   "url": "https://animecorner.me/category/news/",
+   "keywords": [
+    "anime news",
+    "collaboration"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS 애니메이션 신작·공개",
+   "url": "https://www.bing.com/news/search?q=%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98+%EA%B3%B5%EA%B0%9C&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "애니메이션 공개",
+    "애니메이션 신작",
+    "애니메이션 영화 11월 개봉"
+   ]
   }
  ],
  "sports": [
@@ -2443,6 +2460,30 @@
     "와인 축제",
     "와인페스타"
    ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "와인",
+    "주류"
+   ]
+  },
+  {
+   "name": "와인21 이벤트",
+   "url": "https://www.wine21.com/12_event/",
+   "keywords": [
+    "와인 디너",
+    "와인 시음회"
+   ]
+  },
+  {
+   "name": "뉴스토마토",
+   "url": "https://www.newstomato.com/",
+   "keywords": [
+    "나라셀라",
+    "와인 상장사"
+   ]
   }
  ],
  "cardesign": [
@@ -2707,6 +2748,31 @@
     "WineLines",
     "Chardonnay"
    ]
+  },
+  {
+   "name": "Vinetur (English)",
+   "url": "https://vinetur.com/en/",
+   "keywords": [
+    "grape variety",
+    "cultivar",
+    "Grenache"
+   ]
+  },
+  {
+   "name": "Bizcommunity (남아공 와인)",
+   "url": "https://www.bizcommunity.com/",
+   "keywords": [
+    "Chenin Blanc",
+    "Top 10"
+   ]
+  },
+  {
+   "name": "JancisRobinson.com (무료 기사)",
+   "url": "https://www.jancisrobinson.com/articles",
+   "keywords": [
+    "Chardonnay",
+    "wine of the week"
+   ]
   }
  ],
  "winery": [
@@ -2744,6 +2810,26 @@
     "winery",
     "acquisition",
     "family winery"
+   ]
+  },
+  {
+   "name": "Wine Industry Advisor",
+   "url": "https://wineindustryadvisor.com/",
+   "keywords": [
+    "family winery",
+    "new winery",
+    "estate",
+    "winemaker"
+   ]
+  },
+  {
+   "name": "The Drinks Business",
+   "url": "https://www.thedrinksbusiness.com/",
+   "keywords": [
+    "winery",
+    "founder",
+    "acquisition",
+    "winemaker"
    ]
   }
  ],
@@ -2788,6 +2874,47 @@
    "keywords": [
     "wine storage",
     "opened wine"
+   ]
+  },
+  {
+   "name": "Broadsheet (Food & Drink)",
+   "url": "https://www.broadsheet.com.au/national/food-and-drink",
+   "keywords": [
+    "wine collection",
+    "wine fridge",
+    "storage"
+   ]
+  },
+  {
+   "name": "note エスワン／OMASA",
+   "url": "https://note.com/sone_ltd",
+   "keywords": [
+    "ワインセラー",
+    "保存"
+   ]
+  },
+  {
+   "name": "Vinetur (FR)",
+   "url": "https://www.vinetur.com/fr/",
+   "keywords": [
+    "verrerie",
+    "Riedel"
+   ]
+  },
+  {
+   "name": "Wine Spectator Ask Dr. Vinny (Storage)",
+   "url": "https://www.winespectator.com/listing/ask-dr-vinny/storage",
+   "keywords": [
+    "storage",
+    "cellaring"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "와인",
+    "와인셀러"
    ]
   }
  ],
