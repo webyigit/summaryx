@@ -1,0 +1,39 @@
+{
+ "title": "깃랩, 인증 없이 서버 코드 실행 가능한 CVSS 10.0 결함 패치",
+ "originalTitle": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "깃랩이 커뮤니티 에디션(CE)과 엔터프라이즈 에디션(EE)에서 최고 위험도의 결함을 고친 업데이트를 내놨다. 월요일 공개된 권고문에 따르면 CI/CD 구성의 정규식 검증 미흡 때문에 특정 조건에서 인증되지 않은 사용자가 깃랩 서버에서 코드를 실행할 수 있다. 정수 오버플로로 분류된 이 결함은 CVE-2026-97229, CVSS 10.0이다.",
+  "영향 버전은 19.2.8 이전 19.2.x, 19.3.5 이전 19.3.x, 19.4.2 이전 19.4.x이며 19.4.2·19.3.5·19.2.8에서 수정됐다. 이번 업데이트는 조작된 저장소로 다른 사용자 브라우저에서 자바스크립트를 실행할 수 있는 XSS(CVE-2026-92883, 8.7), 개발자 권한으로 보호 브랜치 파이프라인을 실행할 수 있는 권한 결함(CVE-2026-16301, 8.5), 캐시 오염으로 보호된 환경 변수가 노출될 수 있는 결함(CVE-2026-14814, 8.2)도 함께 고쳤다.",
+  "깃랩은 몇 주 전 AI 게이트웨이 결함(CVE-2026-90970, 9.9)을, 지난달에는 공개 몇 시간 만에 실제 탐색 공격이 관측된 파일 읽기 결함(CVE-2026-85706, 10.0)을 패치한 바 있어 자체 운영 서버 관리자의 신속한 업데이트가 필요하다."
+ ],
+ "keyPoints": [
+  "CVE-2026-97229(CVSS 10.0) 비인증 코드 실행",
+  "19.4.2·19.3.5·19.2.8에서 수정",
+  "고위험 결함 3건도 함께 패치"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOWNiMkzMghhERT5BPyrVI9JdCWExRLtDNHIHPjmT_WnGhLHyWhahW3xPurPPQJUn7Yz0_g9Nk0zWinEKh4J71g9viLtNVx2fM2anNzhA514PAgZBxobRfeP1jSsovLI6iVi9HIUXxv_dLvK8DrKy5vZktoxrxyd0riB83XCR2dlne7lEgTqdXW1Rwhekz/s1600/gitlab-exploit.jpg",
+ "facts": [
+  [
+   "제품",
+   "GitLab CE/EE"
+  ],
+  [
+   "CVE",
+   "CVE-2026-97229 (CVSS 10.0)"
+  ],
+  [
+   "수정 버전",
+   "19.4.2, 19.3.5, 19.2.8"
+  ],
+  [
+   "함께 수정",
+   "CVE-2026-92883, CVE-2026-16301, CVE-2026-14814"
+  ]
+ ],
+ "id": "261014-security-07",
+ "category": "security",
+ "collectedAt": "2026-10-14T03:30:38+09:00"
+}

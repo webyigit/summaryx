@@ -802,6 +802,14 @@
    "keywords": [
     "실시간 속보"
    ]
+  },
+  {
+   "name": "스타데일리뉴스",
+   "url": "https://www.stardailynews.co.kr/",
+   "keywords": [
+    "신곡 발매",
+    "콘서트"
+   ]
   }
  ],
  "ent": [
@@ -986,6 +994,15 @@
    "keywords": [
     "영화",
     "개봉"
+   ]
+  },
+  {
+   "name": "코리아타임스 영화",
+   "url": "https://www.koreatimes.co.kr/entertainment/films",
+   "keywords": [
+    "Korean film",
+    "box office",
+    "BIFF"
    ]
   }
  ],
@@ -1523,6 +1540,15 @@
     "개인정보위",
     "해킹"
    ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "해킹",
+    "개인정보 유출",
+    "CI"
+   ]
   }
  ],
  "book": [
@@ -1580,6 +1606,14 @@
     "New Books Coming Out This Week",
     "Best Paperback Releases"
    ]
+  },
+  {
+   "name": "Frankfurter Buchmesse 보도자료",
+   "url": "https://www.buchmesse.de/en/press/press-releases",
+   "keywords": [
+    "Frankfurter Buchmesse",
+    "press release"
+   ]
   }
  ],
  "show": [
@@ -1618,6 +1652,15 @@
    "url": "https://www.newsis.com/realnews/",
    "keywords": [
     "실시간 속보"
+   ]
+  },
+  {
+   "name": "더뮤지컬 뉴스",
+   "url": "https://www.themusical.co.kr/News/List",
+   "keywords": [
+    "뮤지컬",
+    "연극",
+    "캐스팅"
    ]
   }
  ],
@@ -3898,6 +3941,15 @@
     "미국",
     "트럼프"
    ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "미국",
+    "트럼프",
+    "중남미"
+   ]
   }
  ],
  "worldasia": [
@@ -3948,6 +4000,15 @@
    "keywords": [
     "Taiwan Strait"
    ]
+  },
+  {
+   "name": "Focus Taiwan(중앙통신사 영문)",
+   "url": "https://focustaiwan.tw/politics",
+   "keywords": [
+    "Taiwan",
+    "China",
+    "defense"
+   ]
   }
  ],
  "worldeu": [
@@ -3984,6 +4045,15 @@
    "keywords": [
     "영국",
     "EU"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "유럽",
+    "러시아",
+    "우크라이나"
    ]
   }
  ],
@@ -4026,6 +4096,15 @@
    "keywords": [
     "Somalia",
     "Africa"
+   ]
+  },
+  {
+   "name": "뉴시스 국제",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "사우디",
+    "후티",
+    "중동"
    ]
   }
  ]

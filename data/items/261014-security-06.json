@@ -1,0 +1,43 @@
+{
+ "title": "LG 스마트TV webOS 결함 3개 연쇄로 같은 네트워크서 루트 장악 가능…패치 배포",
+ "originalTitle": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "LG 스마트TV 운영체제 webOS의 취약점 3개를 연결하면 같은 로컬 네트워크에 있는 공격자가 PIN 입력이나 사용자 조작 없이 일부 TV의 루트 권한을 얻을 수 있는 것으로 드러났다. 세부 내용은 SSD Secure Disclosure가 10월 12일 공개한 권고문에 담겼고, LG는 수정 업데이트를 내놓았다.",
+  "이 연쇄 공격은 webOS 7.5.7-25(펌웨어 04.54.40)를 쓰는 32LQ636BPSA와 27TQ600SW 두 모델에서 시험됐으며, 다른 모델·버전의 영향 여부는 기사에 나와 있지 않다. 2026년 5월 서울에서 열린 TyphoonPWN 2026의 LG webOS 부문에서 3위를 한 익명 연구자가 시연했다. CVE 번호는 아직 부여되지 않았고 실제 악용 사례도 보고되지 않았다.",
+  "해당 TV 사용자는 펌웨어 업데이트를 확인해야 하며, 당장 업데이트할 수 없는 경우를 위한 우회책은 없다. webOS는 2024년 비트디펜더가 인증 없이 네트워크 접근이 가능한 다른 결함을 공개해 그해 3월 패치된 적이 있고, TyphoonPWN 2025에서도 다른 경로의 연쇄 공격이 시연됐다."
+ ],
+ "keyPoints": [
+  "webOS 결함 3개 연쇄로 인증 없이 루트 획득",
+  "같은 로컬 네트워크·사용자 조작 없이 가능",
+  "LG 패치 배포, 우회책 없어 업데이트 필수"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs2Z0M9u8vYqE8SBNBzfOGoc4Crog-_PBWeZNY8IprfYaa08ZyZ_PTfMhosBFrQNS_f1JecVbl_HEq7sutExV_92yaZWVIA51YD59JOFa_fKZQyEvpZNUxai8pgDrQX_Kp_wQqJoEFFQIFEwa2c3vhyphenhyphenQtU0U9w5XDwjSAij3BPz_qRs7-t0eu8ZssOZuE/s1600/lg-tv.jpg",
+ "facts": [
+  [
+   "제품",
+   "LG 스마트TV(webOS 7.5.7-25, 펌웨어 04.54.40)"
+  ],
+  [
+   "시험 모델",
+   "32LQ636BPSA, 27TQ600SW"
+  ],
+  [
+   "권고문",
+   "SSD Secure Disclosure(10월 12일)"
+  ],
+  [
+   "CVE",
+   "미부여"
+  ],
+  [
+   "악용",
+   "보고 없음"
+  ]
+ ],
+ "id": "261014-security-06",
+ "category": "security",
+ "collectedAt": "2026-10-14T03:30:38+09:00"
+}
