@@ -1,0 +1,35 @@
+{
+ "title": "中 아콘 로보틱스, '전신 지능' 첫 시연…여러 회사 휴머노이드가 한 주방에서 동시 작업",
+ "originalTitle": "Archon Robotics Shares Debut Demo of Its Whole-Body Humanoid Intelligence",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/archon-robotics-debut-whole-body-intelligence",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "상하이의 아콘 로보틱스가 휴머노이드가 과제를 이해하고 온몸을 조율해 움직이게 하는 '전신 지능(WBI)' 접근법을 3분짜리 영상으로 처음 선보였다. 건물·도구가 사람 몸에 맞춰 설계된 만큼 로봇도 그 형태를 잘 쓰는 법을 배워야 한다는 문제의식에서 출발한다.",
+  "시스템은 과제 이해와 멀티모달 정보를 맡는 S1과, 목표를 실제 전신 동작으로 옮기는 '소뇌' 역할의 S0로 나뉜다. 영상에는 애지봇 A3, 부스터 T2, 개조한 유니트리 G1이 한 주방·식당 공간에서 걸레질 등 서로 다른 일을 동시에 하는 장면이 담겼다. 회사는 전체 시연이 정상 속도의 자율 작동이라고 밝혔고, 실수 교정 데이터(DAgger) 부분은 원격 조종을 썼다.",
+  "중국 여러 도시에서 모은 사람 시연 데이터로 사전학습하고 실제 로봇 데이터로 후학습했다. 다만 성공률·개입 횟수·데이터 규모 같은 수치는 없어, 기사는 성능 평가보다 연구 방향 소개에 가깝다고 평가했다. 2026년 4월 세워진 회사로 자율주행 연구 UniAD 출신이 창업했다."
+ ],
+ "keyPoints": [
+  "S1(이해)·S0(전신 제어) 두 층 구조",
+  "여러 기종 휴머노이드로 주방 작업 시연",
+  "성공률 등 정량 지표는 미공개"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/archon-whole-body-intelligence-hero-pyYwR8uZgQALvpGtJdkRlB6GF37VIB.webp",
+ "facts": [
+  [
+   "기업",
+   "아콘 로보틱스(상하이)"
+  ],
+  [
+   "기술",
+   "전신 지능(WBI)"
+  ],
+  [
+   "창업",
+   "2026년 4월(HKU 소개 기준)"
+  ]
+ ],
+ "id": "261013-robot-14",
+ "category": "robot",
+ "collectedAt": "2026-10-13T10:57:41+09:00"
+}

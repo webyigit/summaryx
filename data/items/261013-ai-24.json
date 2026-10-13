@@ -1,0 +1,39 @@
+{
+ "title": "알리바바 큐원 'QwenGyre'…몇 시간짜리 에이전트 강화학습을 최대 1.85배 빠르게",
+ "originalTitle": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
+ "source": "MarkTechPost",
+ "url": "https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "알리바바 큐원 팀이 몇 시간씩 이어지는 코딩 에이전트를 강화학습(RL)으로 훈련하는 프레임워크 'QwenGyre'를 소개했다. 모델이 아니라 학습 시스템으로, 한 번의 실행(롤아웃)이 100만 토큰 가까이 되는 '초장기' 과제를 겨냥한다. 이런 과제는 가장 느린 실행을 기다리느라 GPU가 놀거나, 하네스가 하위 에이전트를 만들며 실행이 나무처럼 갈라져 비용이 커지는 문제가 있었다.",
+  "QwenGyre는 GPU를 '셀' 단위로 나눠 롤아웃 서빙과 학습 사이를 실행 중단 없이 오가게 하는 탄력 스케줄러를 쓴다. 역할 전환은 평균 8.52초·3.46초였다. 또 실행 기록을 접두부를 공유하는 궤적 트리로 저장해 공통 부분은 한 번만 학습하고, 실행당 궤적을 최대 5개로 제한해 학습 시간을 25.2% 줄였다. 시간 초과된 실행도 남은 작업물로 점수를 매긴다. 하네스로는 클로드 코드를 그대로 썼다.",
+  "큐원 3.6 122B·큐원 3.8 2.4T에서 같은 점수 기준으로 비동기 방식보다 1.38~1.78배, 콜로케이트 방식보다 1.21~1.85배 빨랐다. 2.4T 모델은 48스텝을 75.42시간에 끝냈고 NL2RepoBench 통과율이 52.48%에서 58.54%로 올랐다. 다만 라이선스와 공개 코드는 아직 밝혀지지 않았다."
+ ],
+ "keyPoints": [
+  "큐원, 초장기 에이전트용 탄력 RL 프레임워크 공개",
+  "GPU를 학습·서빙 사이 무중단 전환",
+  "기존 방식 대비 1.21~1.85배 빠른 학습"
+ ],
+ "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-401-2-1024x768.png",
+ "facts": [
+  [
+   "개발",
+   "알리바바 큐원 팀"
+  ],
+  [
+   "논문",
+   "arXiv 2609.33848"
+  ],
+  [
+   "시험 모델",
+   "큐원 3.6 122B·큐원 3.8 2.4T"
+  ],
+  [
+   "코드",
+   "공개 안 됨"
+  ]
+ ],
+ "id": "261013-ai-24",
+ "category": "ai",
+ "collectedAt": "2026-10-13T10:57:41+09:00"
+}

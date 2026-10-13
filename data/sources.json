@@ -133,6 +133,15 @@
     "신차",
     "리뷰"
    ]
+  },
+  {
+   "name": "뉴시스 실시간 뉴스",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "자동차",
+    "전기차",
+    "모터쇼"
+   ]
   }
  ],
  "ccm": [
@@ -551,6 +560,14 @@
     "UX·UI 개편",
     "웹접근성"
    ]
+  },
+  {
+   "name": "Design Week",
+   "url": "https://www.designweek.co.uk/",
+   "keywords": [
+    "UI Design",
+    "design tools"
+   ]
   }
  ],
  "food": [
@@ -607,6 +624,15 @@
     "protein",
     "consumer trends"
    ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "식품",
+    "외식",
+    "여행"
+   ]
   }
  ],
  "music": [
@@ -661,6 +687,14 @@
     "콘서트 개최",
     "정규앨범"
    ]
+  },
+  {
+   "name": "뉴시스 연예",
+   "url": "https://www.newsis.com/entertainment/list?cid=10600&scid=10601",
+   "keywords": [
+    "그래미",
+    "음악"
+   ]
   }
  ],
  "ent": [
@@ -694,6 +728,14 @@
    "keywords": [
     "예능",
     "드라마"
+   ]
+  },
+  {
+   "name": "스타뉴스",
+   "url": "https://www.starnewskorea.com/",
+   "keywords": [
+    "예능",
+    "방송"
    ]
   }
  ],
@@ -961,6 +1003,14 @@
     "ALCS",
     "NLCS"
    ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "프로야구 결산",
+    "스포츠"
+   ]
   }
  ],
  "science": [
@@ -1010,6 +1060,14 @@
    "keywords": [
     "climate",
     "nature"
+   ]
+  },
+  {
+   "name": "사이언스타임즈",
+   "url": "https://www.sciencetimes.co.kr/nscvrg/list/menu/251",
+   "keywords": [
+    "과학 뉴스",
+    "연구 성과"
    ]
   }
  ],
@@ -1432,6 +1490,15 @@
    "keywords": [
     "airline traffic",
     "routes"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "식품",
+    "외식",
+    "여행"
    ]
   }
  ],
@@ -2480,6 +2547,23 @@
     "여행가는 달",
     "추천 여행지"
    ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "식품",
+    "외식",
+    "여행"
+   ]
+  },
+  {
+   "name": "트래블데일리",
+   "url": "https://www.traveldaily.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "지역 축제",
+    "제주"
+   ]
   }
  ],
  "tripworld": [
@@ -2504,6 +2588,15 @@
    "keywords": [
     "일본 이벤트",
     "도쿄"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "식품",
+    "외식",
+    "여행"
    ]
   }
  ],
@@ -2575,6 +2668,22 @@
     "CKM",
     "diabetes"
    ]
+  },
+  {
+   "name": "메디칼업저버",
+   "url": "https://www.monews.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "당뇨병",
+    "SGLT-2"
+   ]
+  },
+  {
+   "name": "메디파나뉴스",
+   "url": "https://www.medipana.com/news/articleList.html",
+   "keywords": [
+    "당뇨",
+    "혈당"
+   ]
   }
  ],
  "lipid": [
@@ -2608,6 +2717,14 @@
    "keywords": [
     "고지혈증",
     "심혈관"
+   ]
+  },
+  {
+   "name": "News-Medical Heart Disease",
+   "url": "https://www.news-medical.net/condition/Heart-Disease",
+   "keywords": [
+    "heart attack",
+    "cardiovascular"
    ]
   }
  ],

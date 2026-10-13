@@ -1,0 +1,35 @@
+{
+ "title": "MS 브래드 스미스 \"AI 규제 주도엔 영국이 적임\"…외부 평가 승인·킬스위치 의무화 주장",
+ "originalTitle": "Microsoft president says UK is best placed to drive AI regulation",
+ "source": "TechCrunch",
+ "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "브래드 스미스 마이크로소프트 사장이 BBC 팟캐스트에서 AI 규제가 시급하다며 \"우유나 세탁기도 AI 기업보다 더 많은 감독을 받는다\"고 말했다. 그는 AI가 '무기이자 도구'로 세계 사이버 보안을 위협한다며 국제 안전 규칙을 세울 때가 왔다고 강조했다.",
+  "스미스는 미국이나 EU보다 영국이 국제 규칙을 이끌기에 가장 좋은 위치라고 봤다. 2023년 출범한 영국 AI안전연구소(AISI)가 미국 프런티어 연구소들의 모델을 출시 전에 받아 시험해 왔기 때문이다. 트럼프 대통령이 지난달 앤트로픽·오픈AI에 영국 측 시험을 막으라고 요청했다는 보도도 있었지만, AISI는 여전히 최신 모델을 시험할 수 있다고 확인했다.",
+  "그는 백악관에서 주요 AI 기업들이 서명한 '도덕적 구속력' 문서가 좋은 출발이지만 부족하다며, 자율 규제는 책임감 있는 기업만 묶는다고 지적했다. 대신 악성 AI 에이전트 침해 시 통보 의무, 출시 전 외부 평가기관 승인, 통제를 잃었을 때 AI를 멈추는 킬스위치를 제안했다."
+ ],
+ "keyPoints": [
+  "스미스 \"AI 규제 시급, 영국이 주도해야\"",
+  "영국 AISI의 출시 전 모델 시험 역할 높이 평가",
+  "외부 승인·침해 통보·킬스위치 의무화 제안"
+ ],
+ "image": "https://techcrunch.com/wp-content/uploads/2018/10/GettyImages-1039496404.jpg?w=1024",
+ "facts": [
+  [
+   "인물",
+   "브래드 스미스(마이크로소프트 사장)"
+  ],
+  [
+   "발언 매체",
+   "BBC 팟캐스트"
+  ],
+  [
+   "관련 기관",
+   "영국 AI안전연구소(AISI)"
+  ]
+ ],
+ "id": "261013-ai-25",
+ "category": "ai",
+ "collectedAt": "2026-10-13T10:57:41+09:00"
+}

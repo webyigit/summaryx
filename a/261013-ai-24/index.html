@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>알리바바 큐원 &#x27;QwenGyre&#x27;…몇 시간짜리 에이전트 강화학습을 최대 1.85배 빠르게 | summaryx</title>
+<meta name="description" content="알리바바 큐원 팀이 몇 시간씩 이어지는 코딩 에이전트를 강화학습(RL)으로 훈련하는 프레임워크 &#x27;QwenGyre&#x27;를 소개했다. 모델이 아니라 학습 시스템으로, 한 번의 실행(롤아웃)이 100만 토큰 가까이 되는 &#x27;초장기&#x27; 과제를 겨냥한다. 이런 과제는 가장 느린 실행을">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="알리바바 큐원 &#x27;QwenGyre&#x27;…몇 시간짜리 에이전트 강화학습을 최대 1.85배 빠르게">
+<meta property="og:description" content="알리바바 큐원 팀이 몇 시간씩 이어지는 코딩 에이전트를 강화학습(RL)으로 훈련하는 프레임워크 &#x27;QwenGyre&#x27;를 소개했다. 모델이 아니라 학습 시스템으로, 한 번의 실행(롤아웃)이 100만 토큰 가까이 되는 &#x27;초장기&#x27; 과제를 겨냥한다. 이런 과제는 가장 느린 실행을">
+<meta property="og:image" content="https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-401-2-1024x768.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="../../#/a/261013-ai-24">
+<script>location.replace('../../#/a/261013-ai-24');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261013-ai-24">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">알리바바 큐원 &#x27;QwenGyre&#x27;…몇 시간짜리 에이전트 강화학습을 최대 1.85배 빠르게</h1>
+<p>알리바바 큐원 팀이 몇 시간씩 이어지는 코딩 에이전트를 강화학습(RL)으로 훈련하는 프레임워크 &#x27;QwenGyre&#x27;를 소개했다. 모델이 아니라 학습 시스템으로, 한 번의 실행(롤아웃)이 100만 토큰 가까이 되는 &#x27;초장기&#x27; 과제를 겨냥한다. 이런 과제는 가장 느린 실행을 기다리느라 GPU가 놀거나, 하네스가 하위 에이전트를 만들며 실행이 나무처럼 갈라져 비용이 커지는 문제가 있었다.</p><p>QwenGyre는 GPU를 &#x27;셀&#x27; 단위로 나눠 롤아웃 서빙과 학습 사이를 실행 중단 없이 오가게 하는 탄력 스케줄러를 쓴다. 역할 전환은 평균 8.52초·3.46초였다. 또 실행 기록을 접두부를 공유하는 궤적 트리로 저장해 공통 부분은 한 번만 학습하고, 실행당 궤적을 최대 5개로 제한해 학습 시간을 25.2% 줄였다. 시간 초과된 실행도 남은 작업물로 점수를 매긴다. 하네스로는 클로드 코드를 그대로 썼다.</p><p>큐원 3.6 122B·큐원 3.8 2.4T에서 같은 점수 기준으로 비동기 방식보다 1.38~1.78배, 콜로케이트 방식보다 1.21~1.85배 빨랐다. 2.4T 모델은 48스텝을 75.42시간에 끝냈고 NL2RepoBench 통과율이 52.48%에서 58.54%로 올랐다. 다만 라이선스와 공개 코드는 아직 밝혀지지 않았다.</p>
+<p><a href="https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/">원문 보기</a></p>
+</body></html>
