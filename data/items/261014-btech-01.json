@@ -1,0 +1,43 @@
+{
+ "title": "마이크로소프트, 3세대 AI 칩 '마이아 300' 공개…HBM4 288GB·2나노 공정",
+ "originalTitle": "Microsoft Maia 300 AI chip arrives with monstrous 288 GB HBM4 memory and 18 TB/s bandwidth",
+ "source": "Notebookcheck",
+ "url": "https://www.notebookcheck.net/Microsoft-Maia-300-AI-chip-arrives-with-monstrous-288-GB-HBM4-memory-and-18-TB-s-bandwidth.1422220.0.html",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "마이크로소프트가 엔비디아·AMD 의존을 줄이기 위한 3세대 자체 AI 가속기 '마이아 300'을 공개했다. 2023년 마이아 100, 올해 초 마이아 200에 이은 제품으로, 오픈AI가 자체 칩을 선보인 직후에 나왔다. 연산부는 TSMC N2P(2나노) 공정으로 만들고 메모리·입출력은 별도 칩렛으로 나눈 멀티 칩렛 구조다.",
+  "HBM4 8스택으로 메모리 288GB, 대역폭 초당 18TB를 갖췄다. 마이아 200(HBM3E 216GB, 초당 7TB)보다 메모리 성능을 크게 키워 추론 작업을 겨냥했다. FP4 기준 최대 13.8페타플롭스, 소비전력은 950W이며 랙당 96개, 최대 약 1만2000개를 묶는 클러스터를 지원한다.",
+  "마이크로소프트는 GPU 기반 시스템보다 메가와트당 토큰 처리량이 40% 많다고 주장했지만, 비교 대상이 구체적으로 공개되지 않아 검증은 어렵다고 Notebookcheck은 지적했다. 실제 배치는 2027년 예정이며, 로이터는 내년 100만 개 이상 배치 가능성을 보도했다."
+ ],
+ "keyPoints": [
+  "HBM4 288GB·초당 18TB, TSMC 2나노 칩렛",
+  "메가와트당 토큰 40% 더 많다는 자체 주장",
+  "2027년 데이터센터 본격 배치 예정"
+ ],
+ "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Microsoft-Maia-300.jpg",
+ "facts": [
+  [
+   "선정 근거",
+   "Interbrand Best Global Brands 2025 2위(브랜드 가치 3885억 달러, +10.2%)"
+  ],
+  [
+   "국가",
+   "[확인 필요]"
+  ],
+  [
+   "창립",
+   "[확인 필요]"
+  ],
+  [
+   "대표 제품",
+   "윈도·애저·서피스·마이아 AI 칩"
+  ],
+  [
+   "공식 사이트",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261014-btech-01",
+ "category": "btech",
+ "collectedAt": "2026-10-14T01:35:43+09:00"
+}

@@ -2515,6 +2515,14 @@
    "keywords": [
     "서울미식 100선 2026"
    ]
+  },
+  {
+   "name": "뉴시스 실시간 뉴스",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "맛집",
+    "웨이팅"
+   ]
   }
  ],
  "eatgg": [
@@ -2548,6 +2556,22 @@
     "경기 맛집",
     "수원맛집 100선"
    ]
+  },
+  {
+   "name": "경인일보 '로컬큐레이터가 간다'",
+   "url": "https://www.kyeongin.com/issue/I22001047",
+   "keywords": [
+    "로컬큐레이터가 간다 맛집",
+    "경기 동부 대표상점"
+   ]
+  },
+  {
+   "name": "데일리안 경기(과천시 맛집선발대회)",
+   "url": "https://www.dailian.co.kr/",
+   "keywords": [
+    "과천시 맛집선발대회",
+    "경기 시군 맛집 선정"
+   ]
   }
  ],
  "eatdj": [
@@ -2571,6 +2595,36 @@
    "keywords": [
     "대전 맛집"
    ]
+  },
+  {
+   "name": "충청투데이(두산 팬 대전 먹산 원정)",
+   "url": "https://www.cctoday.co.kr/news/articleView.html?idxno=2234210",
+   "keywords": [
+    "대전 빵집 웨이팅",
+    "정동문화사"
+   ]
+  },
+  {
+   "name": "세계일보(대전 빵시투어 개편, Daum)",
+   "url": "https://v.daum.net/v/uj3Y1DUZon",
+   "keywords": [
+    "대전 빵시투어",
+    "대전 빵집투어"
+   ]
+  },
+  {
+   "name": "네이트뷰(대전 현지인 추천 맛집 5)",
+   "url": "https://view.nate.com/travel/view/406177/",
+   "keywords": [
+    "대전 현지인 맛집"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간 뉴스",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "대전 맛집"
+   ]
   }
  ],
  "eatsj": [
@@ -2584,6 +2638,13 @@
   {
    "name": "Bing News RSS",
    "url": "https://www.bing.com/news/search?q=세종+맛집&format=rss",
+   "keywords": [
+    "세종 맛집"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간 뉴스",
+   "url": "https://www.newsis.com/realnews/",
    "keywords": [
     "세종 맛집"
    ]
@@ -2614,6 +2675,22 @@
     "Korean food",
     "festival"
    ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "음식",
+    "간식"
+   ]
+  },
+  {
+   "name": "뉴스와 생활정보",
+   "url": "https://www.news-wa.com/articleList/life/lifeinfo/",
+   "keywords": [
+    "한국 음식",
+    "해외 반응"
+   ]
   }
  ],
  "shopguide": [
@@ -2642,6 +2719,22 @@
     "협업",
     "컬렉션"
    ]
+  },
+  {
+   "name": "Complex Style",
+   "url": "https://www.complex.com/style",
+   "keywords": [
+    "menswear",
+    "collaboration"
+   ]
+  },
+  {
+   "name": "싱글리스트 뷰티패션",
+   "url": "https://www.slist.kr/news/articleList.html?sc_section_code=S1N9",
+   "keywords": [
+    "협업",
+    "컬렉션"
+   ]
   }
  ],
  "shopdeal": [
@@ -2651,6 +2744,14 @@
    "keywords": [
     "탑텐 쿠폰",
     "가을 준비 기획전"
+   ]
+  },
+  {
+   "name": "데일리안 생활경제",
+   "url": "https://www.dailian.co.kr/",
+   "keywords": [
+    "쓱세일",
+    "패션 특가"
    ]
   }
  ],
@@ -2690,6 +2791,30 @@
    "url": "https://www.weeklytoon.com/news/articleList.html?view_type=sm",
    "keywords": [
     "웹툰 캐릭터 애니메이션"
+   ]
+  },
+  {
+   "name": "웹툰가이드 뉴스칼럼",
+   "url": "https://www.webtoonguide.com/ko/board/news-column",
+   "keywords": [
+    "웹툰 OST",
+    "웹툰 작가 강연"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS 웹툰 인기",
+   "url": "https://www.bing.com/news/search?q=%EC%9B%B9%ED%88%B0+%EC%9D%B8%EA%B8%B0&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "웹툰 인기",
+    "웹툰 공모전"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS 신작 웹툰",
+   "url": "https://www.bing.com/news/search?q=%EC%8B%A0%EC%9E%91+%EC%9B%B9%ED%88%B0&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "신작 웹툰",
+    "웹툰 IP 게임"
    ]
   }
  ],
@@ -2750,6 +2875,22 @@
     "지역 축제",
     "제주"
    ]
+  },
+  {
+   "name": "경향신문",
+   "url": "https://www.khan.co.kr/",
+   "keywords": [
+    "단풍 명소",
+    "여행"
+   ]
+  },
+  {
+   "name": "세계일보 [여행&]",
+   "url": "https://www.segye.com/",
+   "keywords": [
+    "단풍 절정",
+    "가볼 만한 곳"
+   ]
   }
  ],
  "tripworld": [
@@ -2800,6 +2941,14 @@
     "일본 가을 축제",
     "미식 행사"
    ]
+  },
+  {
+   "name": "경향신문",
+   "url": "https://www.khan.co.kr/",
+   "keywords": [
+    "일본 여행",
+    "해외 가을 여행"
+   ]
   }
  ],
  "seasonal": [
@@ -2808,6 +2957,22 @@
    "url": "https://www.wikitree.co.kr/",
    "keywords": [
     "10월 제철 수산물"
+   ]
+  },
+  {
+   "name": "뉴스와 생활정보",
+   "url": "https://www.news-wa.com/articleList/life/lifeinfo/",
+   "keywords": [
+    "가을 제철",
+    "과일 고르는 법"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "제철",
+    "수산물"
    ]
   }
  ],
@@ -2834,6 +2999,15 @@
    "keywords": [
     "blood pressure",
     "hypertension"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "고혈압",
+    "당뇨",
+    "콜레스테롤"
    ]
   }
  ],
@@ -2886,6 +3060,15 @@
     "당뇨",
     "혈당"
    ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "고혈압",
+    "당뇨",
+    "콜레스테롤"
+   ]
   }
  ],
  "lipid": [
@@ -2928,6 +3111,32 @@
     "heart attack",
     "cardiovascular"
    ]
+  },
+  {
+   "name": "AHA Newsroom",
+   "url": "https://newsroom.heart.org/news",
+   "keywords": [
+    "cholesterol",
+    "heart disease"
+   ]
+  },
+  {
+   "name": "하이닥 뉴스",
+   "url": "https://news.hidoc.co.kr/news/articleList.html",
+   "keywords": [
+    "콜레스테롤",
+    "중성지방",
+    "심혈관"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "고혈압",
+    "당뇨",
+    "콜레스테롤"
+   ]
   }
  ],
  "gecko": [
@@ -2944,6 +3153,13 @@
    "keywords": [
     "crested gecko"
    ]
+  },
+  {
+   "name": "PetSmart Learning Center",
+   "url": "https://www.petsmart.com/learning-center/reptile-care/",
+   "keywords": [
+    "crested gecko care guide"
+   ]
   }
  ],
  "reptile": [
@@ -2954,6 +3170,14 @@
     "lizard care sheet",
     "gecko care",
     "skink care"
+   ]
+  },
+  {
+   "name": "Reptiles Magazine",
+   "url": "https://reptilesmagazine.com/category/lizards-care-sheets",
+   "keywords": [
+    "lizard care sheet",
+    "gecko care sheet"
    ]
   }
  ],
@@ -3096,6 +3320,22 @@
    "keywords": [
     "Louis Vuitton"
    ]
+  },
+  {
+   "name": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/",
+   "keywords": [
+    "LVMH",
+    "Louis Vuitton"
+   ]
+  },
+  {
+   "name": "Haute Living",
+   "url": "https://hauteliving.com/",
+   "keywords": [
+    "Chanel",
+    "Tiffany"
+   ]
   }
  ],
  "bcar": [
@@ -3173,6 +3413,21 @@
    "keywords": [
     "McDonald's"
    ]
+  },
+  {
+   "name": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/",
+   "keywords": [
+    "Coca-Cola"
+   ]
+  },
+  {
+   "name": "Just Drinks",
+   "url": "https://www.just-drinks.com/news/",
+   "keywords": [
+    "Coca-Cola",
+    "PepsiCo"
+   ]
   }
  ],
  "bbeauty": [
@@ -3195,6 +3450,27 @@
    "url": "https://sethlui.com/",
    "keywords": [
     "Sephora"
+   ]
+  },
+  {
+   "name": "Retail Technology Innovation Hub",
+   "url": "https://retailtechinnovationhub.com/",
+   "keywords": [
+    "IKEA"
+   ]
+  },
+  {
+   "name": "ScandAsia",
+   "url": "https://scandasia.com/",
+   "keywords": [
+    "IKEA"
+   ]
+  },
+  {
+   "name": "Classic Hits (Ireland)",
+   "url": "https://www.classichits.ie/news/",
+   "keywords": [
+    "IKEA"
    ]
   }
  ],
@@ -3223,6 +3499,14 @@
     "시집",
     "출간"
    ]
+  },
+  {
+   "name": "Bing News RSS(문학상 시인, 최신순)",
+   "url": "https://www.bing.com/news/search?q=%EB%AC%B8%ED%95%99%EC%83%81+%EC%8B%9C%EC%9D%B8&qft=sortbydate%3d%221%22&format=rss&setlang=ko",
+   "keywords": [
+    "문학상",
+    "시인"
+   ]
   }
  ],
  "aicert": [
@@ -3232,6 +3516,14 @@
    "keywords": [
     "AI-103",
     "AI-300"
+   ]
+  },
+  {
+   "name": "AWS Training and Certification Blog",
+   "url": "https://aws.amazon.com/blogs/training-and-certification/",
+   "keywords": [
+    "AI Business Strategist",
+    "microcredentials"
    ]
   }
  ],
@@ -3263,6 +3555,24 @@
     "Chanel",
     "Louis Vuitton"
    ]
+  },
+  {
+   "name": "한국섬유신문(ktnews)",
+   "url": "https://www.ktnews.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "루이 비통",
+    "명품",
+    "컬렉션"
+   ]
+  },
+  {
+   "name": "FashionNetwork USA",
+   "url": "https://us.fashionnetwork.com/",
+   "keywords": [
+    "Chanel",
+    "Loewe",
+    "luxury"
+   ]
   }
  ],
  "lux2": [
@@ -3280,6 +3590,15 @@
    "keywords": [
     "Loewe",
     "Valentino"
+   ]
+  },
+  {
+   "name": "FashionNetwork USA",
+   "url": "https://us.fashionnetwork.com/",
+   "keywords": [
+    "Chanel",
+    "Loewe",
+    "luxury"
    ]
   }
  ],
@@ -3326,6 +3645,15 @@
    "keywords": [
     "Chanel",
     "watch"
+   ]
+  },
+  {
+   "name": "한국섬유신문(ktnews)",
+   "url": "https://www.ktnews.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "루이 비통",
+    "명품",
+    "컬렉션"
    ]
   }
  ],
@@ -3378,6 +3706,30 @@
    "keywords": [
     "소년",
     "윤동주"
+   ]
+  },
+  {
+   "name": "새국어생활 권영민 「김소월의 산유화」(1999 겨울, 본문 대조)",
+   "url": "https://www.korean.go.kr/nkview/nklife/1999_4/1999_0410.pdf",
+   "keywords": [
+    "산유화",
+    "저만치"
+   ]
+  },
+  {
+   "name": "ppss 낮달 「1934년 12월, 국민시인 김소월 서른둘에 지다」(본문 대조)",
+   "url": "http://www.ppss.kr/news/articleView.html?idxno=231471",
+   "keywords": [
+    "김소월",
+    "산유화"
+   ]
+  },
+  {
+   "name": "브런치 김도열 「정지용, 호수」(본문 대조)",
+   "url": "https://brunch.co.kr/@doyeol/10",
+   "keywords": [
+    "호수",
+    "정지용"
    ]
   }
  ],

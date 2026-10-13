@@ -1,7 +1,11 @@
 {
- "updated": "2026-10-13",
+ "updated": "2026-10-14",
  "source": "아키인사이드(archiinside.kr)",
  "items": [
+  {
+   "title": "골목을 건물 안으로 들인 건축",
+   "url": "https://archiinside.kr/View.aspx?No=4255817"
+  },
   {
    "title": "강서구청, 49년 화곡동 시대 마감…10월 6일부터 마곡 통합신청사로 순차 이전",
    "url": "https://archiinside.kr/View.aspx?No=4255801"
@@ -45,10 +49,6 @@
   {
    "title": "[거장] 필리포 브루넬레스키, 르네상스 건축의 문을 열다",
    "url": "https://archiinside.kr/View.aspx?No=4220705"
-  },
-  {
-   "title": "[거장] `공간에 미래를 그리다` 세계 건축을 바꾼 거장들의 서사시",
-   "url": "https://archiinside.kr/View.aspx?No=4218757"
   }
  ]
 }

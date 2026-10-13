@@ -1,0 +1,51 @@
+{
+ "title": "AWS Securing Agent Identities Demonstrated — 에이전트 AI 신원·권한 보안 실습형 마이크로 자격(무료)",
+ "originalTitle": "AWS Securing Agent Identities Demonstrated",
+ "source": "AWS",
+ "url": "https://aws.amazon.com/blogs/training-and-certification/prove-your-agentic-ai-skills-two-new-microcredentials-now-available/#securing-agent-identities",
+ "publishedAt": "2026-09-29",
+ "summary": [
+  "AWS가 9월 29일 에이전트형 AI 역량을 검증하는 마이크로 자격 2종을 내놨고, 그중 하나가 'AWS Securing Agent Identities Demonstrated'다. 객관식 없이 실제 AWS 환경에서 힌트 없이 시간 제한 실습 과제를 푸는 방식이다.",
+  "평가 내용은 에이전트 AI 워크로드의 신원·접근 관리 강화다. 자체 호스팅 에이전트용 워크로드 아이덴티티 발급, 태그 기반 접근 제어, 범위가 제한된 JWT 인가, 호출자별 SigV4·JWT 선택, 에이전트를 JWT 신원 검증으로 옮기기, 토큰 작업 감사 등을 다룬다. Bedrock AgentCore·Cognito·IAM·CloudTrail·CloudWatch·Systems Manager가 쓰인다.",
+  "AWS Skill Builder에서 구독 없이 무료로 응시할 수 있고 통과하면 Credly 디지털 배지를 받는다. 클라우드 보안 엔지니어와 에이전트 AI를 보호하는 솔루션 아키텍트가 대상이다. 시험 시간·언어·유효기간은 공개되지 않았다."
+ ],
+ "keyPoints": [
+  "객관식 없는 시간 제한 실습형 평가",
+  "에이전트 신원·JWT·IAM 접근 제어 검증",
+  "Skill Builder에서 무료, Credly 배지 발급"
+ ],
+ "image": "https://d2908q01vomqb2.cloudfront.net/9109c85a45b703f87f1413a405549a2cea9ab556/2026/09/29/Prove-your-agentic-AI-skills-Two-new-Microcredentials-now-available-1.png",
+ "facts": [
+  [
+   "시행기관",
+   "Amazon Web Services(AWS)"
+  ],
+  [
+   "자격 종류",
+   "벤더(마이크로 자격)"
+  ],
+  [
+   "시험 일정",
+   "2026-09-29부터 상시 응시(AWS Skill Builder)"
+  ],
+  [
+   "응시료",
+   "무료(구독 불필요)"
+  ],
+  [
+   "시험 방식",
+   "실제 AWS 환경 시간 제한 실습, 객관식 없음(시간 [확인 필요])"
+  ],
+  [
+   "응시 자격",
+   "[확인 필요]"
+  ],
+  [
+   "난이도·대상",
+   "클라우드 보안 엔지니어·솔루션 아키텍트"
+  ]
+ ],
+ "id": "261014-aicert-02",
+ "category": "aicert",
+ "collectedAt": "2026-10-14T01:35:43+09:00"
+}

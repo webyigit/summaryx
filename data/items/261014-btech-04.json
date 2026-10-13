@@ -1,0 +1,43 @@
+{
+ "title": "애플 아이폰 18 프로, 셔터 속도 수동 설정하면 화질 떨어진다…DP리뷰 테스트",
+ "originalTitle": "Pro mode on Apple iPhone 18 Pro (Max) degrades image quality",
+ "source": "Notebookcheck",
+ "url": "https://www.notebookcheck.net/Pro-mode-on-Apple-iPhone-18-Pro-Max-degrades-image-quality.1422365.0.html",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "아이폰 18 프로·프로 맥스는 조리개를 f/1.5~f/4.0으로 바꿀 수 있는 4800만 화소 메인 카메라를 달았고, 기본 카메라 앱에서 셔터 속도도 직접 정할 수 있다. 사진가에게 반가운 '프로 모드'지만, 카메라 매체 DP리뷰의 비교 테스트에서는 셔터 속도를 수동으로 설정하면 화질이 눈에 띄게 나빠지는 것으로 나타났다.",
+  "원인은 '프레임 합성'이다. 아이폰은 평소 노출이 다른 여러 장을 빠르게 찍어 합쳐 명암 범위를 넓히고 노이즈를 줄이는데, 셔터 속도를 직접 고르면 이 합성을 건너뛴다. 그 결과 특히 야간에 사진이 더 어둡고 노이즈가 많아지며, 수동 셔터 상태에서는 야간 모드도 켤 수 없다. 반면 조리개만 수동으로 바꾸는 것은 처리에 큰 영향을 주지 않았다.",
+  "Notebookcheck은 어두운 곳에서는 수동 셔터 대신 자동 설정을 쓰는 편이 낫다고 조언했다. 하드웨어 제어 폭이 넓어졌어도 스마트폰 사진 품질은 여전히 연산 처리에 크게 기대고 있음을 보여 주는 사례다."
+ ],
+ "keyPoints": [
+  "수동 셔터 시 다중 프레임 합성 중단",
+  "야간에 더 어둡고 노이즈 많아져",
+  "조리개 수동 조절은 영향 적어"
+ ],
+ "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/iPhone-18-Pro60.jpg",
+ "facts": [
+  [
+   "선정 근거",
+   "Interbrand Best Global Brands 2025 1위(브랜드 가치 4709억 달러, -3.7%)"
+  ],
+  [
+   "국가",
+   "[확인 필요]"
+  ],
+  [
+   "창립",
+   "[확인 필요]"
+  ],
+  [
+   "대표 제품",
+   "아이폰·애플워치·맥"
+  ],
+  [
+   "공식 사이트",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261014-btech-04",
+ "category": "btech",
+ "collectedAt": "2026-10-14T01:35:43+09:00"
+}

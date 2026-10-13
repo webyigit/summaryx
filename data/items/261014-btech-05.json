@@ -1,0 +1,43 @@
+{
+ "title": "인텔, 메모리 최대 480GB 추론 전용 GPU 'D270' 공개…3D 그래픽 기능은 뺐다",
+ "originalTitle": "Intel's new GPU packs up to 480GB of memory — but skips 3D graphics",
+ "source": "Notebookcheck",
+ "url": "https://www.notebookcheck.net/Intel-s-new-GPU-packs-up-to-480GB-of-memory-but-skips-3D-graphics.1422369.0.html",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "인텔이 데이터센터 AI 추론용 가속기 'GPU D270'을 공개했다. 코드명 '크레센트 아일랜드'로 알려졌던 GPU D 시리즈의 첫 제품으로, Xe3P 아키텍처 기반이다. 게임용이 아니라 추론 전용이어서 기존 3D 그래픽·레이 트레이싱 하드웨어를 빼고 그 자리를 연산과 AI에 돌렸다.",
+  "고대역폭 메모리(HBM) 대신 LPDDR5X를 써 용량과 도입 비용을 우선했다. 인텔 레퍼런스 카드는 160GB이고 제조 파트너는 최대 480GB 제품을 낼 수 있다. 메모리 대역폭은 초당 1.5TB, FP8 최고 성능 1.3페타플롭스이며 350W 공랭식 PCIe 5.0 카드라 액체 냉각 없이 일반 서버에 꽂을 수 있다.",
+  "카드 한 장으로 약 3000억 매개변수 모델을, 8장 서버로 1조 매개변수 이상 모델을 돌릴 수 있다고 인텔은 밝혔다. 대형 언어 모델·긴 문맥 추론·에이전트 AI 등이 대상이며, 서버 업체·클라우드 기업 대상 샘플 공급을 시작했지만 가격과 정식 출시일은 공개하지 않았다."
+ ],
+ "keyPoints": [
+  "코드명 크레센트 아일랜드, Xe3P 추론 전용",
+  "LPDDR5X 160GB~480GB, 350W 공랭식",
+  "샘플 공급 시작, 가격·출시일 미정"
+ ],
+ "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/intel_gpu_D270_ai_01.jpg",
+ "facts": [
+  [
+   "선정 근거",
+   "Interbrand Best Global Brands 2025 71위(브랜드 가치 115억 달러, -41.7%)"
+  ],
+  [
+   "국가",
+   "[확인 필요]"
+  ],
+  [
+   "창립",
+   "[확인 필요]"
+  ],
+  [
+   "대표 제품",
+   "코어 프로세서·데이터센터 칩"
+  ],
+  [
+   "공식 사이트",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261014-btech-05",
+ "category": "btech",
+ "collectedAt": "2026-10-14T01:35:43+09:00"
+}
