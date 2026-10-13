@@ -1133,6 +1133,14 @@
    "keywords": [
     "해외 와인 뉴스"
    ]
+  },
+  {
+   "name": "Wine Industry Advisor",
+   "url": "https://wineindustryadvisor.com/",
+   "keywords": [
+    "wine industry news",
+    "wine tourism"
+   ]
   }
  ],
  "game": [
@@ -1938,6 +1946,16 @@
     "children",
     "Alzheimer's"
    ]
+  },
+  {
+   "name": "뉴시스 실시간 뉴스",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "건강",
+    "연구",
+    "질병관리청",
+    "식약처"
+   ]
   }
  ],
  "edu": [
@@ -2168,6 +2186,36 @@
     "오늘의 추천",
     "와인픽"
    ]
+  },
+  {
+   "name": "The Irish Times Drink (John Wilson)",
+   "url": "https://www.irishtimes.com/food/drink/",
+   "keywords": [
+    "affordable wines",
+    "wines for the weekend"
+   ]
+  },
+  {
+   "name": "James Suckling",
+   "url": "https://www.jamessuckling.com/monthly-tasting-report",
+   "keywords": [
+    "monthly tasting report",
+    "weekly tasting report"
+   ]
+  },
+  {
+   "name": "JancisRobinson.com",
+   "url": "https://www.jancisrobinson.com/articles/wines-week",
+   "keywords": [
+    "wine of the week"
+   ]
+  },
+  {
+   "name": "Tim Atkin MW",
+   "url": "https://timatkin.com/tasting-notes/",
+   "keywords": [
+    "tasting notes"
+   ]
   }
  ],
  "wineregion": [
@@ -2217,6 +2265,22 @@
     "BC wine harvest 2026",
     "Okanagan"
    ]
+  },
+  {
+   "name": "Harpers Wine & Spirit",
+   "url": "https://harpers.co.uk/news/",
+   "keywords": [
+    "harvest",
+    "vintage report"
+   ]
+  },
+  {
+   "name": "Wine Industry Advisor",
+   "url": "https://wineindustryadvisor.com/",
+   "keywords": [
+    "harvest 2026",
+    "vintage"
+   ]
   }
  ],
  "winepair": [
@@ -2246,6 +2310,29 @@
    "keywords": [
     "ワインに合う おつまみ",
     "丼 ワイン"
+   ]
+  },
+  {
+   "name": "소믈리에타임즈",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "한식 페어링",
+    "와인 디너"
+   ]
+  },
+  {
+   "name": "food-blog.co.za",
+   "url": "https://www.food-blog.co.za/",
+   "keywords": [
+    "wine pairing dinner",
+    "courses"
+   ]
+  },
+  {
+   "name": "Houston Press Food & Drink",
+   "url": "https://www.houstonpress.com/restaurants/",
+   "keywords": [
+    "wine dinner"
    ]
   }
  ],
@@ -2303,6 +2390,14 @@
    "keywords": [
     "Ask a Wine Pro",
     "explained"
+   ]
+  },
+  {
+   "name": "note.com (와인 입문 칼럼)",
+   "url": "https://note.com/",
+   "keywords": [
+    "ワイン ヴィンテージとは",
+    "ワイン 基礎知識"
    ]
   }
  ],

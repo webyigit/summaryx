@@ -1,0 +1,35 @@
+{
+ "title": "망막색소변성증으로 실명한 성인, 유전자치료+특수 고글로 사물 감지 개선…1상 10명, 최대 5년 추적(NEJM)",
+ "originalTitle": "Gene therapy and special goggles help some blind adults detect objects again",
+ "source": "News-Medical",
+ "url": "https://www.news-medical.net/news/20261012/Gene-therapy-and-special-goggles-help-some-blind-adults-detect-objects-again.aspx",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "망막색소변성증은 광수용체가 점차 사라져 실명에 이르는 유전 질환으로, 관련 유전자 변이가 100개가 넘어 대부분 승인된 치료가 없다. 광유전학 치료는 남아 있는 망막 신경세포에 빛에 반응하는 단백질 유전자를 넣어 변이 종류와 상관없이 빛 감지를 되살리려는 방법이다.",
+  "NEJM에 실린 1상 PIONEER 시험(Sahel 등)에서는 법적 실명 상태의 성인 10명(평균 54.8세)에게 호박색 빛에 반응하는 ChrimsonR 유전자를 담은 AAV 벡터 'GS030'을 시력이 더 나쁜 눈에 한 번 주사하고, 카메라 영상을 595nm 빛 펄스로 망막에 쏘는 고글을 쓰게 했다. 7명은 고글 착용 시 빛 민감도가 좋아졌고 6명은 임상적으로 의미 있는 기준에 도달했다. 행동 검사를 마친 8명의 평균 정확도는 사물 감지 약 22%p, 위치 파악 13%p 올랐다.",
+  "치료 중단에 이른 부작용은 없었지만 9명에게 눈 관련 이상반응 34건이 있었고 염증은 고용량에서 더 잦았다. 작은 공개·비무작위 시험이고 세밀한 시력이나 색각은 회복되지 않아, 연구진은 더 큰 대조 시험이 필요하다고 밝혔다."
+ ],
+ "keyPoints": [
+  "광유전학 유전자치료+고글, 실명 성인 10명 1상",
+  "7명 빛 민감도 개선, 사물 감지 정확도 약 22%p↑",
+  "세밀한 시력·색각 회복은 안 돼, 대조시험 필요"
+ ],
+ "image": "https://www.news-medical.net/images/news/ImageForNews_848705_17918602493934035.jpg",
+ "facts": [
+  [
+   "출처기관",
+   "NEJM 게재 PIONEER 연구(Sahel 등)"
+  ],
+  [
+   "근거 종류",
+   "연구(1상 임상시험)"
+  ],
+  [
+   "대상",
+   "망막색소변성증으로 법적 실명인 성인 10명"
+  ]
+ ],
+ "id": "261014-health-15",
+ "category": "health",
+ "collectedAt": "2026-10-14T05:33:50+09:00"
+}
