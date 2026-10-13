@@ -109,6 +109,63 @@
     "AX",
     "로봇"
    ]
+  },
+  {
+   "name": "Bing News RSS (최신순)",
+   "url": "https://www.bing.com/news/search?q=%EC%A0%9C%EC%A1%B0+AX&qft=sortbydate%3d%221%22&format=rss&setlang=ko&cc=KR",
+   "keywords": [
+    "제조 AX",
+    "AI 전환 기업",
+    "AI 에이전트 도입",
+    "AI 대전환",
+    "AX 지원"
+   ]
+  },
+  {
+   "name": "서울경제",
+   "url": "https://www.sedaily.com/",
+   "keywords": [
+    "AX",
+    "CAIO"
+   ]
+  },
+  {
+   "name": "아주경제",
+   "url": "https://www.ajunews.com/",
+   "keywords": [
+    "AI 전환",
+    "지자체 AI"
+   ]
+  },
+  {
+   "name": "아시아투데이",
+   "url": "https://www.asiatoday.co.kr/",
+   "keywords": [
+    "AI 에이전트"
+   ]
+  },
+  {
+   "name": "서울신문",
+   "url": "https://www.seoul.co.kr/",
+   "keywords": [
+    "AI 에이전트",
+    "유통 AI"
+   ]
+  },
+  {
+   "name": "핀포인트뉴스",
+   "url": "https://www.pinpointnews.co.kr/",
+   "keywords": [
+    "제조AI",
+    "스마트공장"
+   ]
+  },
+  {
+   "name": "머니투데이",
+   "url": "https://www.mt.co.kr/",
+   "keywords": [
+    "AI 대전환"
+   ]
   }
  ],
  "car": [
@@ -351,6 +408,15 @@
     "AI 도구",
     "AI 코딩",
     "테크 뉴스"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "통신",
+    "IT",
+    "국감"
    ]
   }
  ],
@@ -864,6 +930,15 @@
     "갤럭시",
     "삼성전자"
    ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "애플",
+    "삼성전자",
+    "갤럭시"
+   ]
   }
  ],
  "movie": [
@@ -1228,6 +1303,37 @@
     "AX",
     "로봇"
    ]
+  },
+  {
+   "name": "Bing 뉴스 RSS(로봇)",
+   "url": "https://www.bing.com/news/search?q=%EB%A1%9C%EB%B4%87&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "로봇"
+   ]
+  },
+  {
+   "name": "헬로티",
+   "url": "https://www.hellot.net/news/article_list_all.html",
+   "keywords": [
+    "로봇",
+    "피지컬 AI"
+   ]
+  },
+  {
+   "name": "경향신문",
+   "url": "https://www.khan.co.kr/",
+   "keywords": [
+    "로봇",
+    "규제특례"
+   ]
+  },
+  {
+   "name": "녹색경제신문",
+   "url": "https://www.greened.kr/",
+   "keywords": [
+    "로봇",
+    "CES"
+   ]
   }
  ],
  "semi": [
@@ -1332,6 +1438,24 @@
    "keywords": [
     "AI chip",
     "Nvidia"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "반도체",
+    "삼성전자",
+    "SK하이닉스"
+   ]
+  },
+  {
+   "name": "TrendForce Press Center",
+   "url": "https://www.trendforce.com/presscenter/news",
+   "keywords": [
+    "CPO",
+    "DRAM",
+    "HBM"
    ]
   }
  ],

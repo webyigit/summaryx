@@ -1,0 +1,35 @@
+{
+ "title": "로브로스 휴머노이드 20대, 네패스·성우하이텍·HD현대삼호 현장 실증 승인",
+ "originalTitle": "South Korea Approves 20-Robot Robros Trial Across Industrial Sites",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/robros-20-humanoid-industrial-trial-korea",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "한국 산업융합 규제특례심의위원회가 로브로스 휴머노이드 20대를 제조·물류 현장에 투입하는 실증 특례를 승인했다. 휴머노이즈데일리는 서울경제 보도를 인용해 이 결정이 시험을 허가한 것일 뿐 로봇이 공장 성능 시험을 통과했다는 뜻은 아니라고 강조했다.",
+  "참여 현장은 네패스·성우하이텍·HD현대삼호·딜리버리랩이다. 반도체 패키징 부품 세정, 자동차 차체 부품 위치 맞추기, 조선 자재 적재, 냉장 포장 유닛 운반 등을 맡는다. 고정형 산업용 로봇과 작업자를 분리하도록 짠 기존 규정 때문에 특례가 필요했고, 시험에는 위험성 평가와 완화 조치가 따르며 결과는 향후 안전 기준에 반영될 예정이다.",
+  "로브로스는 2027년 상반기를 목표로 제조·물류용 휴머노이드 AI 모델을 개발 중이며, 같은 시기까지 시뮬레이션 데이터 80만 시간과 사람 영상 20만 시간 확보를 목표로 한다. 기사는 이 모델이 이번 실증에 쓰이는지는 확인되지 않았고, 사람 개입 빈도와 작업 완수율 같은 현장 결과가 다음 판단 근거가 될 것이라고 봤다."
+ ],
+ "keyPoints": [
+  "규제특례로 휴머노이드 20대 산업 현장 실증 허용",
+  "반도체·자동차·조선·물류 4개 현장 투입",
+  "2027년 상반기 자체 AI 모델 목표…성과는 미검증"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/robros-igris-c-auto-bagger-hero-nrAb6BLqNF6pVVpU1075HpInHX39ZH.webp",
+ "facts": [
+  [
+   "기업",
+   "로브로스"
+  ],
+  [
+   "규모",
+   "휴머노이드 20대"
+  ],
+  [
+   "현장",
+   "네패스·성우하이텍·HD현대삼호·딜리버리랩"
+  ]
+ ],
+ "id": "261014-robot-02",
+ "category": "robot",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

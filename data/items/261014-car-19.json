@@ -1,0 +1,35 @@
+{
+ "title": "獨 대중교통 IT기업 INIT, 노르웨이 자율주행 관제 업체 '어플라이드 오토노미' 인수",
+ "originalTitle": "INIT enters autonomous fleet management market",
+ "source": "electrive",
+ "url": "https://www.electrive.com/2026/10/13/init-enters-autonomous-fleet-management-market/",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "독일 카를스루에의 대중교통 IT 업체 INIT가 2026년 10월 1일 노르웨이 기술 기업 어플라이드 오토노미의 지분 67.74%를 인수했다. 2017년 콩스베르그에서 설립된 어플라이드 오토노미는 대중교통·공항·물류에서 자율주행차를 운영·감시·관리하는 소프트웨어를 만든다. 모빌아이·웨이브처럼 자율주행 기술 자체를 개발하는 곳이 아니라, 여러 제조사의 자율주행차를 일상 운행에 통합하고 조율하는 '플릿 관리'에 집중한다.",
+  "핵심 플랫폼 'xFlow'는 자율주행차를 실시간으로 감시하고 필요하면 원격 지원을 한다. 노르웨이 스타방에르에서는 카르산의 전기 자율주행 버스 e-ATAK가 2026년 5월부터 안전요원 없이 정규 노선을 달리는데, 자율주행은 아다스텍이 맡고 xFlow가 관제센터에서 차량을 지켜본다. 로테르담 공항 프로젝트에도 쓰인다.",
+  "INIT는 앞으로 xFlow를 자사 관제 시스템 MOBILE-ITCS와 연결해 자율주행차와 일반 차량이 섞인 플릿을 함께 관리할 계획이다. INIT는 2030년까지 독일 대중교통에 자율주행차 1만 대 이상을 통합할 여건을 만드는 BRAVE10k 프로젝트도 이끌고 있다."
+ ],
+ "keyPoints": [
+  "INIT, 어플라이드 오토노미 지분 67.74% 인수",
+  "자율주행차 관제 플랫폼 xFlow 확보",
+  "스타방에르서 무인 자율버스 정규 운행 관제"
+ ],
+ "image": "https://www.electrive.com/media/2026/10/init-applied-autonomy-leitstelle-technische-aufsicht-autonomes-fahren.jpg",
+ "facts": [
+  [
+   "회사",
+   "INIT, Applied Autonomy"
+  ],
+  [
+   "인수 지분",
+   "67.74%"
+  ],
+  [
+   "인수일",
+   "2026-10-01"
+  ]
+ ],
+ "id": "261014-car-19",
+ "category": "car",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

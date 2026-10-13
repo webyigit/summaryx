@@ -1,0 +1,35 @@
+{
+ "title": "엔비디아·시스코, 레인당 400G 광모듈 'USFP' 규격 추진…베라 루빈 랙 설계도 개방",
+ "originalTitle": "[News] NVIDIA, Cisco Target 4× Bandwidth Density With 400G USFP Optical Module; Taiwan Suppliers Eye Gains",
+ "source": "TrendForce",
+ "url": "https://www.trendforce.com/news/2026/10/13/news-nvidia-cisco-target-4x-bandwidth-density-with-400g-usfp-optical-module-taiwan-suppliers-eye-gains/",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "엔비디아가 'OCP 글로벌 서밋'에서 시스코와 함께 레인당 400Gb/s 광모듈 규격 'USFP(Ultra-Dense Small Form Factor Pluggable)'를 발표했다. 두 회사는 기존 200Gb/s 광학보다 대역폭 밀도는 4배, 전력 효율은 1.3배이며 총 12.8Tb/s까지 확장할 수 있다고 밝혔다. 개방형 업계 규격으로 만들 계획이어서 대만 광부품 업체들이 소수 업체의 독자 기술 의존을 줄일 수 있다는 관측이 나온다.",
+  "대만 경제일보에 따르면 TSMC 3나노로 만든 베라 CPU 단독 MGX 랙이 양산·출하에 들어갔다. 클라우드 업체가 엔비디아 CPU를 다른 GPU·ASIC과 조합할 수 있는 구조로, 기존 x86 CPU보다 성능은 50%, 와트당 성능은 2배 높다고 한다. 폭스콘·QCT·위스트론 등 대만 업체 12곳이 파트너로 꼽혔다. 메타는 차세대 액체냉각 네트워크 랙에 스펙트럼-6 스위치 칩을 쓴다.",
+  "엔비디아는 3세대 MGX 1.2 규격으로 베라 루빈 랙과 컴퓨트 트레이 설계도 공개했다. 트레이 내부 케이블·호스·팬을 없앤 모듈형 액체냉각으로 조립·유지보수 시간을 시간 단위에서 분 단위로 줄이고 최대 5000A를 지원한다."
+ ],
+ "keyPoints": [
+  "USFP, 대역폭 밀도 4배·전력효율 1.3배",
+  "베라 CPU MGX 랙 양산 출하 시작",
+  "베라 루빈 랙 설계 MGX 1.2로 개방"
+ ],
+ "image": "https://img.trendforce.com/blog/wp-content/uploads/2026/10/13111042/NVIDIA-USFP-20261013-624x369.jpg",
+ "facts": [
+  [
+   "기업",
+   "엔비디아·시스코"
+  ],
+  [
+   "규격",
+   "USFP(레인당 400Gb/s)"
+  ],
+  [
+   "행사",
+   "OCP 글로벌 서밋 2026"
+  ]
+ ],
+ "id": "261014-semi-07",
+ "category": "semi",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

@@ -1,0 +1,39 @@
+{
+ "title": "홍보 전문가 판단을 AI로…PR 자동화 스타트업 '허니자', 대기자 하루 1만 명",
+ "originalTitle": "Honeyjar offers AI tools to improve PR and comms at every company",
+ "source": "TechCrunch",
+ "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "테크크런치 디스럽트 '스타트업 배틀필드 200'에 참가한 AI 스타트업 허니자는 최고 수준 홍보 전문가의 노하우를 누구나 쓸 수 있게 하겠다는 회사다. 수십 년 PR 경력의 미셸 마섹 CEO와 나디아 잠시디 CCO가 만들었고, 마섹은 포트폴리오사 110곳을 둔 오비어스 벤처스에서 마케팅·커뮤니케이션 수석 부사장을 지냈다.",
+  "플랫폼은 발표문 작성, 피칭할 기자 찾기, 미디어 리스트 작성, 뉴스·SNS 모니터링, 보도 추적, 강연 기회 발굴 등을 자동화한다. 창업자들은 신호 포착부터 전략·타이밍·실행까지 잇는 통합 커뮤니케이션 흐름이 목표이며, PR 전문가를 대체하려는 게 아니라 더 효율적으로 만드는 도구라고 설명한다. 대기자 명단에는 첫 24시간 만에 1만 명이 몰렸고 넥스트도어, 코코 로보틱스 등이 베타 테스트 중이다.",
+  "기자에게 AI가 쓴 피칭이 더 쏟아질 수 있다는 우려에 마섹은 초안은 고객 말투로 쓰지만 발송 여부는 고객이 정하며 사람을 빼지 않겠다고 답했다. '컴스 랩'으로 다른 PR 전문가의 판단도 학습시키고 있다."
+ ],
+ "keyPoints": [
+  "PR 업무 자동화 AI, 전문가 판단 학습",
+  "대기자 첫 24시간 1만 명",
+  "발송은 고객이 결정, 사람 개입 유지"
+ ],
+ "image": "https://techcrunch.com/wp-content/uploads/2026/10/honeyjar-founders.jpg?resize=960,1200",
+ "facts": [
+  [
+   "기업",
+   "Honeyjar"
+  ],
+  [
+   "창업자",
+   "미셸 마섹(CEO), 나디아 잠시디(CCO)"
+  ],
+  [
+   "행사",
+   "TechCrunch Disrupt Startup Battlefield 200"
+  ],
+  [
+   "베타",
+   "넥스트도어, 코코 로보틱스, 블룸버그 베타 등"
+  ]
+ ],
+ "id": "261014-ai-20",
+ "category": "ai",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

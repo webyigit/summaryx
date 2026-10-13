@@ -1,0 +1,43 @@
+{
+ "title": "이미지를 '필요한 만큼만' 쪼개 보는 멀티모달 모델, 토큰 43% 절약",
+ "originalTitle": "VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.07987",
+ "publishedAt": "2026-10-06",
+ "summary": [
+  "멀티모달 대형 언어모델(MLLM)은 이미지를 정해진 크기의 조각(패치) 토큰으로 촘촘히 바꿔 처리하기 때문에 비용이 크다. 하지만 이미지 속에는 세밀하게 봐야 할 부분과 간단히 요약해도 되는 부분이 섞여 있다. 연구진은 모델이 어디에 얼마나 세밀한 표현을 쓸지 스스로 배우는 '탄력적 시각 표현'을 제안했다.",
+  "VisionWeave는 공유 MRoPE 좌표 공간 안에서 원래의 세밀한 표현과 함께 거친 표현을 만드는 게이트 공간 풀러, 그리고 내용에 따라 둘 사이를 배분하는 세분화 라우터로 구성된다. 자기 증류만으로 학습했고, Qwen3.5-4B에서 검증한 뒤 Qwen3.8-27B로 키웠으며 A100 GPU 3만 시간 이상이 들었다.",
+  "Qwen3.8-27B에서 이미지마다 절약량을 조절해 평균 43.0% 적은 토큰으로 8개 벤치마크에서 원래 성능의 98.9%를 유지했다. 50%를 일괄로 줄이는 토큰 가지치기 방식은 88%에 그쳤다. SGLang 서빙 엔진에서는 처리량이 2.3배 늘고, 첫 토큰까지 시간은 54.4%, 출력 토큰당 시간은 60.6% 줄었다."
+ ],
+ "keyPoints": [
+  "영역마다 세밀도를 달리하는 시각 표현",
+  "토큰 43% 절약에도 성능 98.9% 유지",
+  "SGLang 처리량 2.3배 향상"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Yuan Feng, Qize Yang, Ruizhe Chen, Sibo Song, Haolin He, Muzhi Zhu, Zihan Liu, Yunfei Chu, Xize Cheng, Yuxuan Wang, Jin Xu, Xike Xie"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "컴퓨터비전(cs.CV)·cs.AI·cs.CL · 멀티모달 효율화"
+  ],
+  [
+   "arXiv ID",
+   "2610.07987"
+  ],
+  [
+   "코드",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261014-paper-06",
+ "category": "paper",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

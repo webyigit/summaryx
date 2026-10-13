@@ -1,0 +1,43 @@
+{
+ "title": "보기만 그럴듯한 3D 물체는 그만… 물리적으로 움직이는 3D 에셋 생성",
+ "originalTitle": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.13947",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "서랍이나 문처럼 관절로 움직이는 3D 물체를 AI로 만드는 연구는 그동안 겉모습을 그럴듯하게 만드는 데 집중해 왔다. 연구진은 목표를 '제대로 움직이고 기능하는' 3D 에셋으로 옮겼다.",
+  "제안한 Artisan은 Articraft 방법을 확장해 물리 시뮬레이션 피드백을 쓰는 멀티에이전트 파이프라인을 더했다. 형태·외관·관절 구조가 맞을 뿐 아니라, 움직일 때 부품끼리 부딪히지 않고 중력에도 안정적이며 질량·재질 속성까지 정확한 에셋을 만드는 것이 목표다.",
+  "연구진은 공간 충실도, 물리적 타당성, 후속 작업 성능, 전반적 품질 네 가지를 평가하는 벤치마크도 만들었다. ArtVIP·LightWheel의 기준 에셋 100개, 안정성 프롬프트 50개, 기준 질량이 있는 ABO 물체 50개로 구성된다. 10개 넘는 대표 모델과 비교한 결과, Artisan은 공간 충실도에서 경쟁력을 보이면서 충돌률은 가장 낮고 안정성은 가장 높았다."
+ ],
+ "keyPoints": [
+  "겉모습 넘어 움직임·물리까지 맞춘 3D 생성",
+  "물리 시뮬레이션 피드백 멀티에이전트",
+  "충돌률 최저·안정성 최고 기록"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Xudong Cai, Ruijie Zhu, Haoliang Shang, Ruining Li, Marc Pollefeys, Shangzhe Wu, Andrea Vedaldi, Chuanxia Zheng"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "컴퓨터비전(cs.CV) · 3D 생성"
+  ],
+  [
+   "arXiv ID",
+   "2610.13947"
+  ],
+  [
+   "코드",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261014-paper-17",
+ "category": "paper",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

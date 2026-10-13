@@ -1,0 +1,21 @@
+{
+ "title": "원 UI 9 업데이트 뒤 뜨는 '파란 아이콘'…위치 사용 알림 표시기",
+ "originalTitle": "Seeing a blue icon on your Galaxy phone after updating to One UI 9? Here's what it means",
+ "source": "SamMobile",
+ "url": "https://www.sammobile.com/news/blue-status-bar-icon-samsung-galaxy-devices-one-ui-9-what-it-means/",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "안드로이드 17 기반 원 UI 9로 업데이트한 갤럭시 사용자들이 화면 위쪽에 작은 파란 아이콘이 생겼다며 궁금해하고 있다. SamMobile에 따르면 이는 새로 추가된 '위치 개인정보 표시기'로, 앱이 위치 정보에 접근할 때 나타나 이를 쉽게 알아차리도록 해 준다.",
+  "지도 앱을 켜지 않았더라도 날씨 앱 등이 위치를 쓰면 아이콘이 뜰 수 있다. 어떤 앱인지 알고 싶으면 퀵패널을 내려 파란 표시기를 누르면 된다. 위치 권한을 '항상 허용'으로 준 앱은 백그라운드에서도 위치를 쓸 수 있는데, 처음 설정할 때 허용해 놓고 잊은 경우가 많다.",
+  "권한은 설정 > 위치 > 앱 권한에서 앱별로 '항상 허용', '앱 사용 중에만 허용', '매번 묻기', '허용 안 함' 중 고를 수 있다. 기사는 가능하면 '앱 사용 중에만 허용'을 쓰고, 위치가 필요 없는 앱은 차단하라고 권했다."
+ ],
+ "keyPoints": [
+  "파란 아이콘은 원 UI 9의 위치 사용 표시기",
+  "퀵패널에서 눌러 위치 쓰는 앱 확인",
+  "설정>위치>앱 권한에서 '사용 중에만' 권장"
+ ],
+ "image": "https://www.sammobile.com/wp-content/uploads/2026/10/Galaxy-S26-One-UI-9-Quick-Panel.jpg",
+ "id": "261014-applesamsung-15",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

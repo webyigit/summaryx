@@ -1,0 +1,35 @@
+{
+ "title": "흑연·구리 없는 배터리 음극…프라운호퍼, 알루미늄 음극 안정화 기술 개발",
+ "originalTitle": "Fraunhofer stabilises aluminium anodes for lithium-ion batteries",
+ "source": "electrive",
+ "url": "https://www.electrive.com/2026/10/13/fraunhofer-stabilises-aluminium-anodes-for-lithium-ion-batteries/",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "알루미늄은 값싸고 흔하며 용량도 커 리튬이온 배터리 음극의 흑연·실리콘을 대신할 후보로 꼽혀 왔지만, 충방전 때 부피가 변하면서 갈라지고 가루가 돼 수명이 짧다는 문제가 있었다. 독일 프라운호퍼 IPA와 슈투트가르트대 연구진이 이를 안정화하는 셀·전극 기술을 개발해 특허를 냈다.",
+  "시판 합금 알루미늄 포일이 활물질과 집전체 역할을 동시에 해 흑연·실리콘은 물론 기존 음극의 구리 포일도 필요 없고, 활물질 코팅 공정도 빠진다. 양극으로 리튬망간산화물(LMO)을 쓰면 인산이 없는 화학 구성으로 LFP 셀의 저렴한 대안이 될 수 있고, 불소·PFAS가 없는 셀도 가능하다고 연구진은 설명했다.",
+  "기존 생산 설비로 만들 수 있다는 점도 장점으로 꼽혔다. 여러 시제품이 시험 중이지만 사이클 수명과 에너지 밀도 수치는 아직 공개하지 않았고, 초기 용도로는 항공 화물·컨테이너 추적 장치·특수 의료기기가 거론됐다."
+ ],
+ "keyPoints": [
+  "알루미늄 포일이 음극 활물질·집전체 겸용",
+  "흑연·구리 포일·코팅 공정 생략 가능",
+  "시제품 시험 중, 수명·밀도 수치는 미공개"
+ ],
+ "image": "https://www.electrive.com/media/2026/10/batterie-mit-aluminium-anode.jpg",
+ "facts": [
+  [
+   "기관",
+   "프라운호퍼 IPA, 슈투트가르트대"
+  ],
+  [
+   "양극 후보",
+   "리튬망간산화물(LMO)"
+  ],
+  [
+   "단계",
+   "시제품 시험"
+  ]
+ ],
+ "id": "261014-car-06",
+ "category": "car",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

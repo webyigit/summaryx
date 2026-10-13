@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>이미지를 &#x27;필요한 만큼만&#x27; 쪼개 보는 멀티모달 모델, 토큰 43% 절약 | summaryx</title>
+<meta name="description" content="멀티모달 대형 언어모델(MLLM)은 이미지를 정해진 크기의 조각(패치) 토큰으로 촘촘히 바꿔 처리하기 때문에 비용이 크다. 하지만 이미지 속에는 세밀하게 봐야 할 부분과 간단히 요약해도 되는 부분이 섞여 있다. 연구진은 모델이 어디에 얼마나 세밀한 표현을 쓸지 스스로 ">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="이미지를 &#x27;필요한 만큼만&#x27; 쪼개 보는 멀티모달 모델, 토큰 43% 절약">
+<meta property="og:description" content="멀티모달 대형 언어모델(MLLM)은 이미지를 정해진 크기의 조각(패치) 토큰으로 촘촘히 바꿔 처리하기 때문에 비용이 크다. 하지만 이미지 속에는 세밀하게 봐야 할 부분과 간단히 요약해도 되는 부분이 섞여 있다. 연구진은 모델이 어디에 얼마나 세밀한 표현을 쓸지 스스로 ">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261014-paper-06">
+<script>location.replace('../../#/a/261014-paper-06');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261014-paper-06">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">이미지를 &#x27;필요한 만큼만&#x27; 쪼개 보는 멀티모달 모델, 토큰 43% 절약</h1>
+<p>멀티모달 대형 언어모델(MLLM)은 이미지를 정해진 크기의 조각(패치) 토큰으로 촘촘히 바꿔 처리하기 때문에 비용이 크다. 하지만 이미지 속에는 세밀하게 봐야 할 부분과 간단히 요약해도 되는 부분이 섞여 있다. 연구진은 모델이 어디에 얼마나 세밀한 표현을 쓸지 스스로 배우는 &#x27;탄력적 시각 표현&#x27;을 제안했다.</p><p>VisionWeave는 공유 MRoPE 좌표 공간 안에서 원래의 세밀한 표현과 함께 거친 표현을 만드는 게이트 공간 풀러, 그리고 내용에 따라 둘 사이를 배분하는 세분화 라우터로 구성된다. 자기 증류만으로 학습했고, Qwen3.5-4B에서 검증한 뒤 Qwen3.8-27B로 키웠으며 A100 GPU 3만 시간 이상이 들었다.</p><p>Qwen3.8-27B에서 이미지마다 절약량을 조절해 평균 43.0% 적은 토큰으로 8개 벤치마크에서 원래 성능의 98.9%를 유지했다. 50%를 일괄로 줄이는 토큰 가지치기 방식은 88%에 그쳤다. SGLang 서빙 엔진에서는 처리량이 2.3배 늘고, 첫 토큰까지 시간은 54.4%, 출력 토큰당 시간은 60.6% 줄었다.</p>
+<p><a href="https://arxiv.org/abs/2610.07987">원문 보기</a></p>
+</body></html>

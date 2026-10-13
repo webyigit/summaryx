@@ -1,0 +1,39 @@
+{
+ "title": "아멕스, AI 에이전트 '마음대로 결제' 막는 '의도 인텔리전스 프레임워크' 공개",
+ "originalTitle": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+ "source": "TechCrunch",
+ "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "아메리칸 익스프레스가 AI 에이전트가 결제를 끝내기 전에 고객의 구매 의도를 기록·확인하는 '의도 인텔리전스 프레임워크'를 내놨다. 사용자를 대신해 물건을 사는 에이전트가 LLM의 예측 불가능성 때문에 엉뚱한 구매를 할 수 있다는 위험에 대응한 것으로, 아멕스는 업계 표준이 되길 기대한다. 4월 출시한 에이전틱 커머스 개발 도구(ACE)에 포함된다.",
+  "고객의 지시와 가맹점 이름·최대 예산·상품 선호 같은 조건을 'Create Intent API'로 기록하면, 고객이 본인 인증 후 이를 승인한다. 시스템은 고유 '의도 ID'와 조건을 담은 '의도 증명 토큰'을 만들고, 에이전트는 이 토큰으로 결제 시점에 보안 결제 자격 증명을 받아 실제 카드 번호는 넘기지 않는다. 이 기록은 사기 방지와 분쟁 해결에도 쓰인다.",
+  "아멕스는 아직 에이전트 결제 관련 분쟁 증가는 없지만 규모가 커지기 전에 기술을 갖추겠다는 입장이다. 자체 조사에선 미국 소비자 66%가 향후 12개월간 최저가 탐색에 AI 에이전트를 쓸 의향이 있다고 답했다."
+ ],
+ "keyPoints": [
+  "결제 전 고객 의도 기록·승인하는 프레임워크",
+  "의도 ID·증명 토큰으로 카드 번호 비노출",
+  "미국 소비자 66% 에이전트로 최저가 탐색 의향"
+ ],
+ "image": "https://techcrunch.com/wp-content/uploads/2026/10/amex-GettyImages-171311164.jpg?resize=1200,800",
+ "facts": [
+  [
+   "기업",
+   "American Express"
+  ],
+  [
+   "발표",
+   "Intent Intelligence Framework"
+  ],
+  [
+   "포함 도구",
+   "ACE Developer Toolkit"
+  ],
+  [
+   "인물",
+   "해나 보지안(에이전틱 파트너십·전략 VP)"
+  ]
+ ],
+ "id": "261014-ai-15",
+ "category": "ai",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

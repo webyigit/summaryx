@@ -1,0 +1,35 @@
+{
+ "title": "리사 수 \"2026년은 추론의 해\"…AMD, 2030년 CPU 시장 2000억 달러로 상향",
+ "originalTitle": "[OCP in Focus] Lisa Su Calls 2026 \"Year of Inference\" as AMD Lifts 2030 CPU TAM Forecast to $200B+",
+ "source": "TrendForce",
+ "url": "https://www.trendforce.com/news/2026/10/13/ocp-in-focus-lisa-su-calls-2026-year-of-inference-as-amd-lifts-2030-cpu-tam-forecast-to-200b/",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "리사 수 AMD CEO는 12일 'OCP 글로벌 서밋 2026' 기조연설에서 2030년 데이터센터 AI 가속기 시장이 1조5000억 달러에 이를 것으로 봤다. 특히 CPU에 대해 1년 전 약 200억 달러 규모에 한 자릿수 성장으로 보던 시장이 에이전틱 AI로 새 수요를 맞고 있다며, 최근 9개월간 CPU 시장 전망을 세 차례 올렸다고 말했다. AMD는 이제 향후 4~5년 CPU 수요가 연평균 약 50% 늘어 2030년 2000억 달러를 넘을 것으로 본다.",
+  "수 CEO는 2026년을 \"추론의 해\"라고 부르며 앞으로 추론이 시장의 약 60%를 차지할 것이라고 했다. 헬리오스 랙은 9월 양산 출하를 시작해 오픈AI·메타·마이크로소프트·오라클·앤트로픽 등에 설치됐고 4분기와 내년 상반기까지 생산을 늘린다.",
+  "이날 공개한 '헬리온 에이전틱 AI 랙'은 표준 21인치 랙에 젠6 코어 3만2000개 이상과 인스팅트 MI350 GPU 최대 32개를 담는다. 수 CEO는 경쟁 랙보다 코어가 40% 많다고 밝혔으며, 11월 26일부터 공급하고 설계는 OCP에 기여할 예정이다."
+ ],
+ "keyPoints": [
+  "2030년 CPU 시장 전망 2000억 달러+로 상향",
+  "\"2026년은 추론의 해\"…추론이 시장 60%",
+  "에이전틱 AI용 '헬리온' 랙 11월 26일 공급"
+ ],
+ "image": "https://img.trendforce.com/blog/wp-content/uploads/2026/10/13140107/AMD-Helion-624x468.jpg",
+ "facts": [
+  [
+   "기업",
+   "AMD"
+  ],
+  [
+   "발언자",
+   "리사 수 CEO"
+  ],
+  [
+   "행사",
+   "OCP 글로벌 서밋 2026(10월 12일)"
+  ]
+ ],
+ "id": "261014-semi-06",
+ "category": "semi",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

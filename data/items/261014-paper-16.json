@@ -1,0 +1,43 @@
+{
+ "title": "추측 디코딩 초안을 문맥으로 바로잡아 최대 6.6배 가속",
+ "originalTitle": "Contextual Correction of Parallel Drafts for Speculative Decoding",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.12570",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "추측 디코딩은 작은 '초안 모델'이 여러 토큰을 미리 제안하면 큰 모델이 한꺼번에 검증하는 방식으로 대형 언어모델의 답변 속도를 높인다. 여러 위치를 동시에 예측하는 디퓨전 방식 초안 모델이 주목받지만, 같은 블록 안에서 함께 예측된 토큰들은 앞서 정해진 토큰을 보지 못해 단어 사이의 연결 관계가 끊긴다는 약점이 있다.",
+  "연구진이 제안한 DCOCO(DFlash Contextual Corrector)는 각 위치에서 가장 그럴듯한 후보 하나만 고르는 대신 여러 후보를 남기고, 이웃 위치들과 얼마나 잘 맞는지를 병렬로 점수 매겨 고른다. 병렬 초안의 장점은 지키면서 적은 추가 비용으로 문맥을 되살리는 가벼운 부가 모듈이다.",
+  "검증 모델 4종과 벤치마크 10개에서 그리디·확률적 디코딩, 긴 추론 유무를 가리지 않고 모든 설정에서 평균 처리량이 가장 높았으며, 일반 디코딩 대비 최대 6.6배 빨랐다. 동시 요청 4~32개의 서빙 환경에서는 가장 강한 경쟁 방법보다 6~23% 앞섰다."
+ ],
+ "keyPoints": [
+  "병렬 초안 토큰의 끊긴 문맥 복원",
+  "후보 여러 개를 이웃과 맞춰 병렬 채점",
+  "최대 6.6배 가속, 서빙서 6~23% 우위"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Roy Eisenstadt, Harel Lidar, Tal Gonen, Omer Luxembourg, Itamar Zimerman, Lior Wolf, Eli David, Ilan Naiman"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "계산언어학(cs.CL) · 추론 가속"
+  ],
+  [
+   "arXiv ID",
+   "2610.12570"
+  ],
+  [
+   "코드",
+   "[확인 필요]"
+  ]
+ ],
+ "id": "261014-paper-16",
+ "category": "paper",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

@@ -1,0 +1,43 @@
+{
+ "title": "엔비디아 PivotOPD, AI 에이전트가 '결정적 실수'에서 회복하게 가르친다",
+ "originalTitle": "NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes",
+ "source": "MarkTechPost",
+ "url": "https://www.marktechpost.com/2026/10/08/nvidia-pivotopd-teaches-multi-turn-ai-agents-to-recover-from-pivotal-mistakes/",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "여러 턴에 걸쳐 일하는 AI 에이전트는 한 번 잘못 행동하면 이후 상황이 꼬여 실수가 쌓인다. 엔비디아와 프린스턴대·메릴랜드대 연구진은 목표까지의 경로를 늘리거나 과제를 풀 수 없게 만드는 행동을 '결정적 실수'로 정의했다. Qwen3 세 모델의 실패 사례 262건 중 59%에 이런 실수가 있었고, 보통 30턴 중 8~12턴에 일어났다.",
+  "기존 온폴리시 증류는 결정적 실수 이후의 실패를 51%에서 49%로밖에 줄이지 못했다. PivotOPD는 더 큰 교사 모델이 실패 궤적을 되돌아보며 결정적 턴과 올바른 행동을 짚고, 이를 역 KL로 학습시키는 '예방 증류'와, 실수 뒤 몇 턴의 회복 행동을 순방향 KL로 가르치는 '회복 증류'를 하나의 PPO 업데이트로 결합했다.",
+  "ALFWorld·WebShop·검색 기반 질의응답에서 13개 기준 방법 중 Qwen3-1.7B·8B 학생 모두 평균 1위였고, 1.7B는 ALFWorld 73.7%를 기록했다. SWE-Bench Verified에서는 Nemotron 학생 성능을 62.8%에서 66.0%로 높였다. 재현한 실수 72건에서 회복률은 72.7%로 기본 모델(8.3%)을 크게 웃돌았다. 다시 실행 가능한 환경이 필요하다는 한계도 있다."
+ ],
+ "keyPoints": [
+  "실패 궤적 59%에 초반 '결정적 실수'",
+  "예방(역 KL)+회복(순방향 KL) 증류 결합",
+  "실수 후 회복률 8.3%→72.7%"
+ ],
+ "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-3-3-scaled.png",
+ "facts": [
+  [
+   "저자",
+   "Yinghui He, Yapei Chang, Khushi Bhardwaj, Daniele Molinari, Tugrul Konuk, Jan Kautz, Ali Hatamizadeh"
+  ],
+  [
+   "소속",
+   "NVIDIA, Princeton University, University of Maryland (기사 기준)"
+  ],
+  [
+   "분야",
+   "인공지능(cs.AI) · 에이전트 학습·지식 증류"
+  ],
+  [
+   "arXiv ID",
+   "2609.40285"
+  ],
+  [
+   "코드",
+   "프로젝트 페이지 https://research.nvidia.com/labs/lpr/pivotopd/ (코드 공개 예정)"
+  ]
+ ],
+ "id": "261014-paper-19",
+ "category": "paper",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

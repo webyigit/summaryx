@@ -1,0 +1,35 @@
+{
+ "title": "어플라이드, 50억 달러 'EPIC 센터' 공개…삼성·SK하이닉스·TSMC·인텔·마이크론 공동 R&D",
+ "originalTitle": "Global Chipmakers Forge R&D Alliance Against China's CXMT Rise",
+ "source": "BusinessKorea",
+ "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=278711",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "어플라이드 머티어리얼즈(AMAT)가 12일(현지시간) 미국 캘리포니아 서니베일에서 총 50억 달러를 투자한 공동 연구개발 거점 'EPIC 센터'를 공개했다. 반도체 공정·제조 장비 공동 R&D 시설로는 세계 최대라고 소개됐다. 창립 파트너로 삼성전자·SK하이닉스·TSMC·인텔·마이크론이, 혁신 파트너로 브로드컴·어드밴테스트·스크린·키옥시아·베시가 참여하고 스탠퍼드대·UC버클리도 함께한다. 곽노정 SK하이닉스 CEO는 AMAT와 협력해 HBM·D램·낸드의 기술 전환점에 대응하겠다고 밝혔다.",
+  "기사는 이를 중국 CXMT의 부상과 맞물려 봤다. CXMT는 최근 모바일 D램 LPDDR6 양산을 발표했고, 연내 4F² 구조로 서버용 DDR5 RDIMM을 내놓겠다고 했다. 카운터포인트리서치에 따르면 2분기 D램 점유율은 삼성전자 39%로 1위였고 CXMT는 10%로 1년 전 4%에서 두 배 넘게 늘었다. CXMT 양산 소식 뒤 마이크론·삼성전자·SK하이닉스 주가가 크게 떨어졌다.",
+  "삼성전자는 같은 날 개막한 OCP 글로벌 서밋에서 2나노 GAA 웨이퍼, 그록 LPU 웨이퍼 등을 전시했다. 심호준 삼성전자 AE팀 부사장은 개별 메모리를 넘어 \"AI 시스템 전체를 공동 최적화하겠다\"고 말했다."
+ ],
+ "keyPoints": [
+  "AMAT, 50억 달러 공동 R&D 'EPIC 센터' 개소",
+  "삼성·SK하이닉스·TSMC·인텔·마이크론 창립 참여",
+  "CXMT D램 점유율 10%로 1년 새 2배↑"
+ ],
+ "image": "https://www.businesskorea.co.kr/news/thumbnail/202610/278711_286405_1431_v150.jpg",
+ "facts": [
+  [
+   "기관",
+   "어플라이드 머티어리얼즈 EPIC 센터(서니베일)"
+  ],
+  [
+   "투자액",
+   "50억 달러"
+  ],
+  [
+   "창립 파트너",
+   "삼성전자·SK하이닉스·TSMC·인텔·마이크론"
+  ]
+ ],
+ "id": "261014-semi-08",
+ "category": "semi",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

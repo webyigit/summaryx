@@ -1,0 +1,35 @@
+{
+ "title": "트렌드포스 \"CPO 양산 관건은 광·전기 통합 테스트\"…2027년 테스트 구조 수렴 분수령",
+ "originalTitle": "Integrated Optical-Electrical Testing Platforms Become Key to CPO Mass Production, Reshaping the Test Equipment Supply Chain, Says TrendForce",
+ "source": "TrendForce",
+ "url": "https://www.trendforce.com/presscenter/news/20261013-13267.html",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "트렌드포스는 AI 데이터센터의 고속 전송 수요로 광·전 공동 패키징(CPO)이 양산에 다가서면서 테스트 시간과 비용을 줄이는 것이 핵심 과제가 됐다고 분석했다. 광 정렬은 이미 초 단위 이하로 빨라졌지만 광집적회로(PIC) 한 개를 전부 테스트하는 데 여전히 100초 넘게 걸려, 병목이 정렬 정확도에서 테스트 속도로 옮겨가고 있다는 것이다.",
+  "CPO 테스트에는 레이저 광원, 광 스위치, 광파워미터, 광스펙트럼분석기 등 여러 업체 장비가 필요해 제어·보정이 복잡하고, 스테이션마다 장비를 다 갖추면 비싼 장비가 놀게 된다. 이에 전기·광 측정을 묶는 통합 소프트웨어와 스테이션 간 장비 공유가 대안으로 제시됐다. 테라다인은 2025년 퀀티파이 포토닉스를 인수했고, 어드밴테스트는 9월 VIAVI·SENKO와 협력을 발표했다.",
+  "보고서는 대만 GMT글로벌·MPI·윈웨이·크로마, 중국 세마이트 등의 움직임도 짚었다. 트렌드포스는 2027년을 CPO 테스트 구조와 장비 투자 전략이 수렴하는 해로, 2028년을 대량 양산 준비가 검증되는 시기로 내다봤다."
+ ],
+ "keyPoints": [
+  "CPO 병목, 정렬 정확도→테스트 속도로",
+  "PIC 1개 전체 테스트 아직 100초 이상",
+  "2027년 테스트 구조 수렴, 2028년 양산 검증"
+ ],
+ "image": "https://img.trendforce.com/EDM/2026/10/20261013_154531_3.jpg",
+ "facts": [
+  [
+   "발표 기관",
+   "트렌드포스"
+  ],
+  [
+   "분야",
+   "CPO 테스트 장비"
+  ],
+  [
+   "전망",
+   "2027년 수렴·2028년 양산 검증"
+  ]
+ ],
+ "id": "261014-semi-19",
+ "category": "semi",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

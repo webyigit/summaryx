@@ -1,0 +1,43 @@
+{
+ "title": "디퓨전 모델 강화학습, GPU 시간 12분의 1로 줄였다",
+ "originalTitle": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.12572",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "이미지·영상을 만드는 디퓨전 모델을 사람이 원하는 방향으로 다듬을 때, 정답을 미분할 수 없는 '블랙박스' 보상으로 온라인 강화학습을 하는 방법이 널리 쓰인다. 연구진은 생성 과정을 거꾸로 따라가는 Flow-GRPO 계열은 어느 단계가 좋은 결과에 기여했는지 따지는 데 느리고, 순방향 방식인 DiffusionNFT는 효율적이지만 EMA(지수이동평균) 학습을 세심하게 조정하지 않으면 불안정하다고 지적한다.",
+  "제안한 DiffusionART는 프롬프트 하나에서 나온 여러 보상을 모아 공통 업데이트 방향을 만들고, 신뢰 영역(trust region)으로 걸러 낸 두 번째 업데이트를 더해 EMA 조정 없이도 안정적으로 학습한다. 미분 가능한 보상 모델이 필요 없고, 프롬프트당 샘플 수가 적어도 되며, 두 결과를 비교하는 쌍대 보상 모델도 쓸 수 있다.",
+  "HunyuanVideo-13B 영상 모델에서 DiffusionNFT와 Flow-GRPO-Fast가 학습 후반에 도달하는 보상 수준을 각각 12.02배, 11.72배 적은 GPU 시간으로 달성했다고 연구진은 밝혔다. 작업마다 따로 튜닝하지 않아도 된다는 점에서 대형 영상 생성 모델의 후처리 학습 비용을 크게 낮출 수 있는 방법으로 제시됐다."
+ ],
+ "keyPoints": [
+  "블랙박스 보상으로 디퓨전 모델을 강화학습",
+  "EMA 튜닝 없이 안정적인 업데이트 구조",
+  "HunyuanVideo-13B서 GPU 시간 약 12배 절감"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Zhenglin Wan, Jiayu Chen, Zhengfeiyang Zhang, Pengfei Zhou, Wangbo Zhao, Fangyuan Kong, Pengfei Wan, Kun Gai, Yang You"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "머신러닝(cs.LG) · 디퓨전 모델 강화학습"
+  ],
+  [
+   "arXiv ID",
+   "2610.12572"
+  ],
+  [
+   "코드",
+   "https://github.com/vanzll/DiffusionART"
+  ]
+ ],
+ "id": "261014-paper-01",
+ "category": "paper",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

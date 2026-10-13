@@ -1,0 +1,39 @@
+{
+ "title": "vLLM 시맨틱 라우터 '디시전 3.0'…글 대신 답변별 확률 내는 오픈 결정 모델 5종",
+ "originalTitle": "What is Decision 3.0? vLLM Semantic Router's New Open Decision Models",
+ "source": "MarkTechPost",
+ "url": "https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/",
+ "publishedAt": "2026-10-11",
+ "summary": [
+  "vLLM 시맨틱 라우터 팀이 텍스트·JSON·이미지를 읽고 정해진 질문에 답하는 멀티모달 결정 모델 '디시전 3.0'을 공개했다. 0.8B부터 27B까지 5개 크기이며 모두 아파치 2.0 라이선스다. 글을 생성하는 대신 선택형·예/아니오·점수형 질문마다 답변별 확률을 돌려줘, 라우터나 가드레일에서 출력 파싱 없이 임곗값으로 판단할 수 있다.",
+  "27B 'd3'는 Qwen3.8-27B, 나머지 4종은 Qwen3.5 체크포인트를 기반으로 미세조정했고 모든 크기에 비전 인코더가 들어 있다. 팀 자체 평가에서 d3는 텍스트 64.1점으로 퍼플렉시티 디사이더 v1.1(62.8), 제브(60.1)를 앞섰고 비전 71.6점을 기록했다. 9B 'd3-flash'(59.0)는 이전 디시전 2.0의 27B(55.9)보다 높았다.",
+  "다만 크기별 우위는 고르지 않고 MMMU-Pro 비전(46.2) 등에선 약했다. AMD MI325X 한 장 기준 지연 시간은 가장 작은 모델이 텍스트 21.7ms, 가장 큰 d3가 84ms다. 호스팅 API는 없고 직접 서버를 띄워 써야 하며 공식 양자화판도 없다."
+ ],
+ "keyPoints": [
+  "0.8B~27B 결정 모델 5종, 아파치 2.0",
+  "답변별 확률 반환해 라우터·가드레일용",
+  "자체 평가 텍스트 64.1점, API 없이 자체 호스팅"
+ ],
+ "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-41-2-scaled.png",
+ "facts": [
+  [
+   "개발",
+   "vLLM Semantic Router 팀"
+  ],
+  [
+   "모델",
+   "Decision 3.0(d3-nano~d3, 0.8B~27B)"
+  ],
+  [
+   "라이선스",
+   "Apache-2.0"
+  ],
+  [
+   "평가",
+   "팀 자체 평가(Jev Decision Index 0.3.1 기준)"
+  ]
+ ],
+ "id": "261014-ai-13",
+ "category": "ai",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

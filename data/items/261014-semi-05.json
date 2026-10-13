@@ -1,0 +1,35 @@
+{
+ "title": "SK하이닉스, OCP서 랙 단위 메모리 'MARS' 공개…첫 토큰 최대 5배 빨라져, HBF는 용량 14배",
+ "originalTitle": "[OCP in Focus] SK hynix Drives up to 5x Faster Time-to-First-Token with MARS; HBF Expands Capacity by 14x",
+ "source": "TrendForce",
+ "url": "https://www.trendforce.com/news/2026/10/13/ocp-in-focus-sk-hynix-drives-up-to-5x-faster-ttft-with-mars-hbf-expands-capacity-by-14x/",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "김호식 SK하이닉스 부사장이 'OCP 글로벌 서밋 2026'에서 컴퓨트와 메모리를 분리해 랙 단위 공유 자원으로 다루는 'MARS(Memory-Centric AI Rack-Scale System)'를 소개했다. 그는 기존 프로세서 중심 구조에서는 한 서버의 남는 메모리를 다른 서버가 쓰기 어렵고 메모리를 늘리려면 서버를 통째로 사야 해 GPU 과잉 투자와 총소유비용 증가로 이어진다고 지적했다.",
+  "MARS는 트레이 단위 메모리 풀 개념을 랙 단위로 넓힌 것으로, SK하이닉스는 이를 멀티턴 에이전틱 AI 추론 서비스에 적용해 늘어나는 KV 캐시를 GPU 메모리나 스토리지를 소진하지 않고 저장했다. 재계산 방식과 비교해 첫 토큰까지 걸리는 시간(TTFT)이 3~5배 개선됐고 꼬리 지연도 크게 줄었다고 밝혔다.",
+  "고대역폭플래시(HBF)는 대역폭이 HBM의 절반 수준이지만 용량은 약 14배라고 설명했다. 7월 OCP HBF 사양 0.7이 나왔고 SK하이닉스는 내년 초 1.0을 낼 계획이며, 콘셉트 시제품을 개발 중이고 HBF 큐브 샘플은 2028년 초를 예상했다."
+ ],
+ "keyPoints": [
+  "MARS로 메모리 분리·랙 단위 풀링",
+  "KV 캐시 저장해 TTFT 3~5배 개선",
+  "HBF 큐브 샘플 2028년 초 예상"
+ ],
+ "image": "https://img.trendforce.com/blog/wp-content/uploads/2026/10/13162537/SK-hynix-MARS-624x351.jpg",
+ "facts": [
+  [
+   "기업",
+   "SK하이닉스"
+  ],
+  [
+   "발표자",
+   "김호식 부사장"
+  ],
+  [
+   "행사",
+   "OCP 글로벌 서밋 2026"
+  ]
+ ],
+ "id": "261014-semi-05",
+ "category": "semi",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

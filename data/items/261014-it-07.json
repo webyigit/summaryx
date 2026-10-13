@@ -1,0 +1,39 @@
+{
+ "title": "커스텀 롬 '리니지OS 24' 출시…안드로이드 17 기반, 브라우저에서 설치하는 웹USB 도구",
+ "originalTitle": "LineageOS 24 launches based on Android 17 with app redesigns and simple flash tool",
+ "source": "9to5Google",
+ "url": "https://9to5google.com/2026/10/12/lineageos-24-launches-based-on-android-17-with-app-redesigns-and-simple-flash-tool/",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "오픈소스 안드로이드 배포판 리니지OS(LineageOS)가 안드로이드 17 기반의 '리니지OS 24'를 공식 출시했다. 안드로이드 17이 6월에 나온 뒤 예상보다 이른 출시로, 오는 12월 24일 프로젝트 10주년을 앞두고 있다. 24.0에는 지원 브랜치 전반에 2025년 8월부터 2026년 10월까지의 보안 패치가 들어갔다.",
+  "핵심 앱 대부분이 머티리얼 디자인 3 익스프레시브로 바뀌었고, 자르기·화이트밸런스·필터를 지원하는 이미지 편집기 'Canvas'가 새로 들어갔다. 업데이터는 스트리밍 업데이트를 기본 지원해 A/B 기기 설치 시간을 크게 줄였으며, 음악 앱 'Twelve'는 대용량 라이브러리 로딩과 젤리핀 지원이 개선됐다. 기본 브라우저 'Jelly'는 바로가기로 PWA 같은 앱을 쓸 수 있게 됐다.",
+  "브라우저에서 바로 실행하는 웹USB 설치 도구(ADB 패스트부트, 앰로직 번, 삼성 오딘)도 추가됐다. 다만 기기 위키 가이드가 기본 경로로 유지된다. 리눅스 커널 4.4·4.9 기기는 23.2·24.0 빌드 대상에서 빠지고 22.2에서 월간 보안 패치를 받는다. 지원 기기는 앞으로 몇 주에 걸쳐 늘어난다."
+ ],
+ "keyPoints": [
+  "안드로이드 17 기반 리니지OS 24 공식 출시",
+  "머티리얼 3 익스프레시브 디자인·편집기 Canvas 추가",
+  "웹USB 설치 도구, 커널 4.4·4.9 기기는 제외"
+ ],
+ "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/LineageOS-24-logo.webp?resize=1200,628",
+ "facts": [
+  [
+   "버전",
+   "LineageOS 24.0"
+  ],
+  [
+   "기반",
+   "Android 17"
+  ],
+  [
+   "보안 패치",
+   "2025년 8월~2026년 10월"
+  ],
+  [
+   "저자",
+   "Damien Wilde"
+  ]
+ ],
+ "id": "261014-it-07",
+ "category": "it",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

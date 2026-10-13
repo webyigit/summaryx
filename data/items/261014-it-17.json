@@ -1,0 +1,39 @@
+{
+ "title": "노르웨이, MS 광고 자회사 잔드르에 9200만 크로네 과징금…그라인더 이용자 데이터 무단 활용",
+ "originalTitle": "Norway fined a Microsoft subsidiary $9.6 million for allegedly misusing Grindr user data",
+ "source": "Engadget",
+ "url": "https://www.engadget.com/2284434/norway-fined-a-microsoft-subsidiary-96-million-for-allegedly-misusing-grindr-user-data/",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "노르웨이 데이터보호청(NDPA)이 마이크로소프트의 광고 기술 자회사 잔드르(Xandr)에 9200만 크로네(약 960만달러)의 과징금을 부과했다. 노르웨이 당국이 지금까지 부과한 과징금 중 가장 큰 액수다. 잔드르가 데이팅 앱 그라인더(Grindr) 이용자의 민감한 데이터를 광고에 쓰면서 '명시적 동의'를 받지 않고, 그라인더가 이미 동의를 받았다고 간주했다는 것이 당국의 판단이다.",
+  "NDPA에 따르면 이용자가 그라인더를 열 때 개인 데이터가 잔드르를 거쳐 광고 생태계의 수많은 참여자에게 전달됐고, 광고주들은 본인이 모르는 사이 맞춤 광고 노출을 두고 입찰했다. 위반 기간은 2018년 7월부터 2020년 4월까지이며, 과징금은 잔드르의 연간 총매출을 기준으로 산정됐다. 당국은 이를 '매우 심각한' 오용이라고 밝혔다.",
+  "사건은 2020년 노르웨이 소비자위원회의 신고로 시작됐고, 당시 잔드르는 MS 소유가 아니었다. 그라인더도 같은 이유로 이 기관에서 560만 유로 이상의 과징금을 받은 적이 있다. 잔드르는 3주 안에 이의를 제기할 수 있다."
+ ],
+ "keyPoints": [
+  "MS 자회사 잔드르에 9200만 크로네(약 960만달러) 과징금",
+  "그라인더 이용자 민감정보, 명시적 동의 없이 광고 활용",
+  "노르웨이 데이터보호청 사상 최대 과징금"
+ ],
+ "image": "https://www.engadget.com/img/gallery/norway-fined-a-microsoft-subsidiary-9-6-million-for-allegedly-misusing-grindr-user-data/l-intro-1791828674.jpg",
+ "facts": [
+  [
+   "처분 기관",
+   "노르웨이 데이터보호청(NDPA)"
+  ],
+  [
+   "대상",
+   "Xandr(마이크로소프트 자회사)"
+  ],
+  [
+   "과징금",
+   "9200만 크로네(약 960만달러)"
+  ],
+  [
+   "위반 기간",
+   "2018년 7월~2020년 4월"
+  ]
+ ],
+ "id": "261014-it-17",
+ "category": "it",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

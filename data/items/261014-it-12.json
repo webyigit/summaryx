@@ -1,0 +1,39 @@
+{
+ "title": "'크롬캐스트 위드 구글 TV' 11개월 만에 업데이트…4K 모델만 보안 패치 갱신",
+ "originalTitle": "Chromecast with Google TV gets first update of 2026",
+ "source": "9to5Google",
+ "url": "https://9to5google.com/2026/10/12/chromecast-google-tv-2026-update/",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "구글이 '크롬캐스트 위드 구글 TV(4K)'에 올해 첫 업데이트를 배포하기 시작했다. 직전 업데이트 이후 11개월 만이다. 구글 릴리스 노트에 따르면 펌웨어 버전은 UTTA.260813.002이며, 이번에는 4K 모델에만 배포된다.",
+  "이번 업데이트로 안드로이드 보안 패치 수준이 2025년 10월에서 2026년 8월로 올라간다. 구글은 이 밖에 '기타 버그 수정과 성능 개선'을 변경 사항으로 밝혔다. 사용자는 설정 > 시스템 > 정보 > 시스템 업데이트에서 설치할 수 있다.",
+  "보통 4K와 HD 두 모델이 함께 업데이트되지만, 이날 HD 모델용 새 버전은 나오지 않았다."
+ ],
+ "keyPoints": [
+  "크롬캐스트 위드 구글 TV(4K), 11개월 만에 업데이트",
+  "보안 패치 2025년 10월→2026년 8월",
+  "HD 모델은 이번 배포에서 빠져"
+ ],
+ "image": "https://9to5google.com/wp-content/uploads/sites/4/2024/07/Chromecast-with-Google-TV-v7.jpg?quality=82&strip=all&resize=1200,628",
+ "facts": [
+  [
+   "기기",
+   "Chromecast with Google TV (4K)"
+  ],
+  [
+   "펌웨어",
+   "UTTA.260813.002"
+  ],
+  [
+   "보안 패치",
+   "2026년 8월"
+  ],
+  [
+   "저자",
+   "Abner Li"
+  ]
+ ],
+ "id": "261014-it-12",
+ "category": "it",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

@@ -1,0 +1,31 @@
+{
+ "title": "휴머노이드 '주문'과 '실제 배치'는 다르다…발표 숫자 읽는 법",
+ "originalTitle": "Humanoid Orders vs. Actual Deployments: How Much Commercial Progress Is Really Happening?",
+ "source": "Robotics 24/7",
+ "url": "https://www.robotics247.com/article/humanoid-orders-vs-actual-deployments-how-much-commercial-progress-is-really-happening",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "휴머노이드 업계에서는 매주 수주 발표가 나오지만 실제 배치 대수는 드물게 공개되고 둘이 맞는 경우도 적다. 더로보틱라이프 창업자 라스 탤버트는 기고에서 2025년 출하량이 약 2만 대(중국산 95%), 2026년 상반기 1만9100대였다는 집계를 소개하며 발표의 성격을 구분해 봐야 한다고 주장했다.",
+  "그는 활동을 양해각서, 프레임워크·향후 주문, 파일럿, 실제 상업 배치 네 가지로 나눴다. 피규어 02는 BMW 스파턴버그 공장에서 11개월간 1250시간 넘게 일하며 부품 9만여 개를 옮겼지만 넓은 배치의 증거는 아니고, 어질리티는 3억 달러 넘는 디지트 v5 주문을 밝혔으나 합병 서류상 2025년 순매출은 약 180만 달러였다. 유비테크는 2025년 전신 휴머노이드 1079대를 출하했다.",
+  "필자는 발표를 볼 때 구속력 있는 계약인지, 숫자가 대수·금액·생산능력 중 무엇인지, '최대' 같은 조건이 붙었는지, 실제 설치·가동 시간·개입 횟수가 확인됐는지를 따져야 한다고 했다. 업계가 가동률·개입률·운영비를 꾸준히 공개하면 상업적 진전을 판단하기 쉬워질 것이라고 결론지었다."
+ ],
+ "keyPoints": [
+  "2025년 휴머노이드 출하 약 2만 대, 중국산 95%",
+  "주문·파일럿·실배치를 구분해야 한다는 분석",
+  "가동시간·개입률 공개가 진짜 지표"
+ ],
+ "image": "https://www.robotics247.com/images/2026_article/Gartner-humanoid-hype-manufacturing-supplychain-Robotics247-2026.jpg",
+ "facts": [
+  [
+   "필자",
+   "라스 탤버트(더로보틱라이프 창업자)"
+  ],
+  [
+   "형식",
+   "기고·분석"
+  ]
+ ],
+ "id": "261014-robot-05",
+ "category": "robot",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

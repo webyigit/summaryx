@@ -1,0 +1,39 @@
+{
+ "title": "구글, AI 스튜디오로 만든 '바이브 코딩' 앱을 구글 계정만으로 플레이스토어 배포 허용",
+ "originalTitle": "Google will let you distribute vibe-coded Android apps with just a Google account",
+ "source": "Engadget",
+ "url": "https://www.engadget.com/2282824/google-lets-anyone-upload-android-apps-to-play-store-via-ai-studio/",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "구글이 10월 플레이스토어 업데이트의 하나로, 누구나 바이브 코딩으로 만든 안드로이드 앱을 유료 개발자 계정 없이 구글 계정만으로 플레이스토어에 올릴 수 있게 했다. 대상은 구글 AI 스튜디오에서 만든 앱으로, 제미나이에 글로 지시해 앱을 만들고 추가 프롬프트나 코드 수정으로 다듬을 수 있다. 미국 등 일부 시장의 18세 이상 사용자부터 적용된다.",
+  "처음에는 만든 사람 본인의 기기(태블릿·컴퓨터 포함)에서만 새 '개인 보관함' 섹션으로 쓸 수 있고, 구글은 나중에 친구·가족과 안전하게 공유하는 기능도 낼 계획이다. 전 세계에 배포하려면 정식 개발자 계정으로 전환해 일반 안전 심사를 거쳐야 한다.",
+  "이 밖에 제미나이 대화에서 플레이스토어 앱 링크를 바로 보여주고, 취향 프로필 'Gamer DNA'로 게임을 추천하는 'Game Finder', 30초 게임 클립 녹화, 48시간 대결 'Sprints' 등 게임 기능도 추가됐다. 엔가젯은 이 변화를 AI 확대와 함께 플레이스토어 개방 압박 속에 경쟁력을 지키려는 시도로 봤다."
+ ],
+ "keyPoints": [
+  "AI 스튜디오 앱, 유료 개발자 계정 없이 배포 가능",
+  "처음엔 본인 기기 '개인 보관함'에서만 사용",
+  "Game Finder·게임 클립 녹화 등 게임 기능도 추가"
+ ],
+ "image": "https://www.engadget.com/img/gallery/google-will-let-you-distribute-vibe-coded-android-apps-with-just-a-google-account/l-intro-1791578617.jpg",
+ "facts": [
+  [
+   "대상",
+   "구글 AI 스튜디오로 만든 앱"
+  ],
+  [
+   "조건",
+   "미국 등 일부 시장 18세 이상, 구글 계정"
+  ],
+  [
+   "배포 범위",
+   "초기엔 본인 기기 '개인 보관함'"
+  ],
+  [
+   "저자",
+   "Ian Carlos Campbell"
+  ]
+ ],
+ "id": "261014-it-15",
+ "category": "it",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

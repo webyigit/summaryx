@@ -1,0 +1,43 @@
+{
+ "title": "스스로 성장하는 로봇 에이전트, 배운 걸 조합할 수 있을까",
+ "originalTitle": "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.13021",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "가상 환경에서 움직이며 일을 하는 '체화(embodied) 에이전트'가 경험을 쌓으며 스스로 발전하려면, 앞서 배운 것을 잊지 않고 새 과제에 활용하는 지속 학습 능력이 필요하다. 연구진은 이를 평가하는 체화 시뮬레이션 벤치마크 EmbodiedCLBench를 처음으로 내놨다고 밝혔다.",
+  "벤치마크는 에이전트가 기본 과제에서 배운 기술을 다시 조합해, 본 적 없는 더 복잡한 과제를 풀 수 있는지를 시험한다.",
+  "실험 결과 고급 과제는 사전 경험 없이(제로샷) 거의 풀리지 않았지만, 기본 과제에서 얻은 경험은 과제 복잡도가 높아져도 꾸준히 성능을 높였다. 다만 학습 샘플을 늘려도 이득이 비례해 커지지는 않았고, 현재 에이전트들은 추가 경험에서 의미 있는 정보를 뽑아내는 데 어려움을 겪었다. 경험을 '많이' 쌓는 것보다 '잘' 소화하는 방법이 과제로 남았다는 뜻이다."
+ ],
+ "keyPoints": [
+  "체화 에이전트 지속 학습 벤치마크 공개",
+  "기본 과제 경험이 복잡한 과제에도 도움",
+  "샘플을 늘려도 이득은 비례하지 않아"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Jie Huang, Yanan Chen, Ruixun Liu, Kaichen He, Xinyi He, Rui Huang, Zilong Zheng, Zhenliang Zhang, Yiwu Zhong"
+  ],
+  [
+   "소속",
+   "[확인 필요]"
+  ],
+  [
+   "분야",
+   "인공지능(cs.AI)·cs.CL·cs.CV · 체화 에이전트·지속 학습"
+  ],
+  [
+   "arXiv ID",
+   "2610.13021"
+  ],
+  [
+   "코드",
+   "https://pku-value-lab.github.io/EmbodiedCLBench-homepage"
+  ]
+ ],
+ "id": "261014-paper-05",
+ "category": "paper",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

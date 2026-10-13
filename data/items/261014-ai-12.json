@@ -1,0 +1,39 @@
+{
+ "title": "UAE TII, 에미리트 방언까지 알아듣는 1.6B 음성인식 'Falcon-ASR'…아랍어 WER 20.92%",
+ "originalTitle": "TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER",
+ "source": "MarkTechPost",
+ "url": "https://www.marktechpost.com/2026/10/11/tii-falcon-asr-arabic-speech-recognition/",
+ "publishedAt": "2026-10-11",
+ "summary": [
+  "아부다비 기술혁신연구소(TII)가 아랍어, 특히 에미리트 방언에 초점을 맞춘 16억 파라미터 음성인식 모델 'Falcon-ASR'를 공개했다. 영어·프랑스어·스페인어·포르투갈어도 하나의 가중치로 받아적으며, 언어를 따로 지정하지 않아도 스스로 감지하고 단어 단위 타임스탬프를 내 자막·회의록에 쓸 수 있다.",
+  "TII는 아랍어 테스트셋 6개 평균 단어 오류율(WER) 20.92%로 Audar-ASR-V1-Turbo(23.17%), Cohere Transcribe Arabic(25.87%)보다 낫다고 밝혔다. 비공개 에미리트·걸프 테스트셋에선 22.73%로 30B 규모 Qwen3-Omni보다 약 4포인트 앞섰고, 영어 테스트셋 7개 평균 WER은 5.74%였다.",
+  "다만 수치는 모두 TII 자체 측정이라 리더보드 등재나 외부 검증이 아니다. 현재는 60초·20MB 이하 클립만 넣을 수 있는 허깅페이스 데모로만 쓸 수 있고, 가중치·라이선스·하드웨어 요구사항은 공개되지 않았다. 프랑스어 등 나머지 언어 점수도 없다."
+ ],
+ "keyPoints": [
+  "1.6B 모델로 아랍어 등 5개 언어 인식",
+  "아랍어 평균 WER 20.92%(자체 측정)",
+  "현재 데모만 공개, 가중치 미공개"
+ ],
+ "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-401-scaled.png",
+ "facts": [
+  [
+   "개발",
+   "TII(아부다비 기술혁신연구소)"
+  ],
+  [
+   "모델",
+   "Falcon-ASR 1.6B"
+  ],
+  [
+   "성능(자체)",
+   "아랍어 WER 20.92%, 영어 5.74%"
+  ],
+  [
+   "공개",
+   "허깅페이스 데모(60초·20MB 제한)"
+  ]
+ ],
+ "id": "261014-ai-12",
+ "category": "ai",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

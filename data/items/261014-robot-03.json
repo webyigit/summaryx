@@ -1,0 +1,35 @@
+{
+ "title": "딥시크, 로봇 AI 스타트업 '윈버스' 시드 투자 주도 추진…기업가치 4억 달러",
+ "originalTitle": "DeepSeek Reportedly Plans to Lead Winverse AI Seed Round at $400 Million Valuation",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/deepseek-winverse-ai-seed-round-400-million-valuation",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "블룸버그 보도에 따르면 중국 AI 기업 딥시크가 로봇용 AI를 개발하는 스타트업 윈버스 AI의 시드 투자 라운드를 주도할 계획이다. 투자 규모는 수천만 달러이며, 투자 후 기업가치는 약 4억 달러로 거론된다. 거래는 아직 확정되지 않았고 조건과 참여 투자자는 바뀔 수 있다.",
+  "메이퇀 계열 롱Z 인베스트먼트 등도 투자를 약속한 것으로 전해졌다. 윈버스는 설립된 지 몇 달 안 된 스텔스 단계 회사로, 제품이나 기술 구조는 공개되지 않았다. 창업자 한후(Han Hu)는 텐센트에서 비전-언어·체화 파운데이션 모델 팀을 이끌었고, 마이크로소프트리서치 아시아·바이두리서치를 거쳤으며 ICCV 2021 최우수 논문상을 받은 '스윈 트랜스포머' 공동 저자다.",
+  "기사는 대형 AI 모델 개발사가 로봇 지능 기업에 자금을 대는 사례라는 점에 의미를 두면서도, 윈버스가 딥시크 모델을 어떻게 쓸지나 공동 개발 여부는 확인되지 않았다고 전했다. 딥시크와 관계자들은 블룸버그의 논평 요청에 응하지 않았다."
+ ],
+ "keyPoints": [
+  "딥시크, 윈버스 AI 시드 라운드 주도 계획",
+  "투자 후 기업가치 약 4억 달러, 미확정",
+  "창업자는 텐센트 출신 '스윈 트랜스포머' 저자"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/winverse-han-hu-deepseek-editorial-hero-dVipm4QNUBxcPVnfaEJ75uFDLLca4P.webp",
+ "facts": [
+  [
+   "투자사",
+   "딥시크(주도 예정)·롱Z 인베스트먼트"
+  ],
+  [
+   "대상",
+   "윈버스 AI"
+  ],
+  [
+   "출처",
+   "블룸버그 보도 인용"
+  ]
+ ],
+ "id": "261014-robot-03",
+ "category": "robot",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "유럽 첨단 패키징의 '빠진 중간층'…프라운호퍼·스위스비트, 소량 생산 공백 메운다",
+ "originalTitle": "Europe's Advanced Packaging Gap: Fraunhofer, Swissbit Target the Missing Middle",
+ "source": "EE Times",
+ "url": "https://www.eetimes.com/europe-advanced-packaging-gap-fraunhofer-swissbit-target-the-missing-middle/",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "유럽은 반도체 연구는 풍부하지만, 시제품 이후 수십~수천 개 규모의 첨단 패키징이 필요할 때 연구기관이 계속 맡기엔 많고 대형 OSAT에 맡기기엔 적은 '중간층' 공백이 있다고 EE타임스가 짚었다. 롤프 아셴브레너 프라운호퍼 IZM 부소장은 \"물량이 너무 적어 첨단 패키징을 이용할 수 없어서 우리를 찾는다\"고 말했다.",
+  "예로 연 100장 웨이퍼가 필요한 RF 업체, 웨이퍼 20장이 시장 전체 물량인 의료용 초소형 카메라, TSV로 배선을 뒤로 돌려야 하는 CT 검출기 등이 소개됐다. 프라운호퍼는 OSAT가 되려는 게 아니라 공정을 고객에 맞게 다듬고 검증해 산업계로 넘기는 것이 목표라고 했다.",
+  "스위스비트의 라르스 루스트 독일 법인 대표는 제품마다 고유 공정을 만들지 않고 공통 플랫폼과 표준 툴체인을 쓰면 소량 생산도 경제성이 있다고 강조했다. 약 3500개 제품 중 매달 150개 정도가 같은 장비·공정을 공유하며 생산된다. 두 사람은 유럽이 아시아의 대량 생산 생태계를 따라 하기보다 자동차·산업용 등 강점 분야의 플랫폼을 키워야 한다고 입을 모았다."
+ ],
+ "keyPoints": [
+  "연구소와 대형 OSAT 사이 소량 생산 공백",
+  "프라운호퍼, 공정 검증 후 산업계 이전 목표",
+  "스위스비트 \"공통 플랫폼으로 소량도 경제적\""
+ ],
+ "image": "https://www.eetimes.com/wp-content/uploads/300-mm-wafer-level-system-integration_Fraunhofer-IZM.jpg?resize=1200,675",
+ "facts": [
+  [
+   "기관",
+   "프라운호퍼 IZM·스위스비트"
+  ],
+  [
+   "지역",
+   "유럽"
+  ],
+  [
+   "주제",
+   "소량 첨단 패키징"
+  ]
+ ],
+ "id": "261014-semi-13",
+ "category": "semi",
+ "collectedAt": "2026-10-14T02:32:21+09:00"
+}
