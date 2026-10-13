@@ -1,0 +1,39 @@
+{
+ "title": "연속혈당측정기(CGM) 꾸준히 쓴 제2형 당뇨 환자, 3년간 당화혈색소 0.75~1.1%p 낮아…소변 알부민도 감소, 신기능(eGFR) 보존은 확인 안 돼(JAMA Netw Open)",
+ "originalTitle": "Researchers followed glucose monitor users for three years and found a possible kidney benefit",
+ "source": "News-Medical",
+ "url": "https://www.news-medical.net/news/20261012/Researchers-followed-glucose-monitor-users-for-three-years-and-found-a-possible-kidney-benefit.aspx",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "실시간 연속혈당측정기(rtCGM)가 혈당 관리에 도움이 된다는 근거는 있지만 장기간 콩팥 건강까지 좋아지는지는 불분명했다. 미국 카이저 퍼머넌트 북캘리포니아 자료를 쓴 연구팀은 혈당 조절이 나쁘거나(당화혈색소 8% 초과) 저혈당으로 응급실·입원 경험이 있는 제2형 당뇨 성인 2만5천여 명을 대상으로, rtCGM을 꾸준히 쓴 2,771명과 쓰지 않은 2만2,877명을 가상 임상시험 모방 방식으로 비교해 JAMA Network Open에 발표했다.",
+  "rtCGM 사용군의 당화혈색소는 1년째 7.83%로 대조군(8.93%)보다 1.10%p 낮았고, 3년째에도 0.75%p 차이가 유지됐다. 콩팥 손상 지표인 소변 알부민-크레아티닌 비(UACR)는 1~2년째엔 차이가 없다가 3년째 153 대 278mg/g으로 사용군이 낮았다. 반면 콩팥 기능을 나타내는 eGFR은 처음부터 사용군이 낮았고 3년째 차이가 사라졌을 뿐, 기능이 보존됐다는 증거는 없었다.",
+  "관찰 연구라 인과관계를 단정할 수 없고, rtCGM 사용자의 44.3%가 중간에 사용을 멈추는 등 탈락이 많아 3년째 분석 인원이 적었다(사용군 331명). 연구는 CGM 제조사 덱스콤 등이 지원했다. 혈당 측정 방법은 담당 의료진과 상의해 정하는 것이 좋다."
+ ],
+ "keyPoints": [
+  "rtCGM 사용군 당화혈색소 1년째 1.10%p 낮아",
+  "3년째 소변 알부민 비 153 대 278mg/g",
+  "eGFR 보존 증거는 없어…관찰 연구 한계"
+ ],
+ "image": "https://www.news-medical.net/images/news/ImageForNews_848652_17917848545616083.jpg",
+ "facts": [
+  [
+   "출처기관",
+   "카이저 퍼머넌트 북캘리포니아 자료, Karter AJ 등(JAMA Network Open, 2026)"
+  ],
+  [
+   "근거 종류",
+   "연구(관찰·가상 임상시험 모방)"
+  ],
+  [
+   "대상",
+   "혈당 조절 불량 또는 저혈당 병력 제2형 당뇨 성인 25,648건 배정"
+  ],
+  [
+   "연구비",
+   "덱스콤 등(연구 설계·분석 관여 없음 명시)"
+  ]
+ ],
+ "id": "261013-dm-10",
+ "category": "dm",
+ "collectedAt": "2026-10-13T16:31:41+09:00"
+}

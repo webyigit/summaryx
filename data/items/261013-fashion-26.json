@@ -1,0 +1,35 @@
+{
+ "title": "H&M, 사이버 공격 주장 조사 착수… '샤이니헌터스' 데이터 접근설, ASOS 공격 조직과 동일 가능성",
+ "originalTitle": "H&M investigates reports of cyberattack",
+ "source": "FashionNetwork",
+ "url": "https://ww.fashionnetwork.com/news/H-m-investigates-reports-of-cyberattack,1875100.html",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "H&M·코스·아르켓·몬키를 거느린 H&M 그룹이 사이버 범죄의 새 표적이 됐을 수 있다는 보도가 나왔다. '샤이니헌터스(Shinyhunters)'라는 조직이 지난주 회사 데이터 일부에 접근했다는 내용이다.",
+  "H&M은 더 타임스에 '제한된 범위의 H&M 그룹 데이터와 관련한 잠재적 사이버 보안 사고' 주장을 인지하고 있으며 사실 여부를 조사 중이라고 밝혔다. 다만 현재로서는 데이터 환경이 침해됐다는 징후가 없고, 추가 세부 사항은 아직 밝힐 수 없다고 했다. 더 타임스는 이 조직이 이름은 다르지만 지난주 ASOS 공격의 배후와 같을 수 있다고 전했는데, ASOS 공격은 해커가 신뢰할 만한 연락처를 사칭해 신입 직원에게서 로그인 정보를 빼낸 방식이었다.",
+  "H&M에도 같은 수법이 쓰였는지, 피해 범위가 어느 정도인지는 불분명하며 회사가 당국에 확정된 공격을 신고한 것으로 보이지는 않는다. 2025~2026년 패션·유통·럭셔리 업계에서는 M&S, 구찌·발렌시아가·맥퀸, 아디다스, 해러즈, 디올·루이비통 등이 잇따라 사이버 공격을 겪었다."
+ ],
+ "keyPoints": [
+  "샤이니헌터스, H&M 데이터 접근 주장",
+  "H&M '침해 징후 아직 없어'… 사실 확인 중",
+  "지난주 ASOS 공격 조직과 동일 가능성 보도"
+ ],
+ "image": "https://media.fashionnetwork.com/cdn-cgi/image/fit=cover,width=600,height=600,format=auto/m/65f1/71eb/38d5/6b17/b809/49fe/9e5d/5523/46fd/84f0/84f0.jpg",
+ "facts": [
+  [
+   "기업",
+   "H&M 그룹(H&M·코스·아르켓·몬키)"
+  ],
+  [
+   "주장 조직",
+   "샤이니헌터스(Shinyhunters)"
+  ],
+  [
+   "회사 입장",
+   "조사 중, 침해 징후 없음"
+  ]
+ ],
+ "id": "261013-fashion-26",
+ "category": "fashion",
+ "collectedAt": "2026-10-13T16:31:41+09:00"
+}
