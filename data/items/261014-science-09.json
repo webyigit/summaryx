@@ -1,0 +1,35 @@
+{
+ "title": "달에서는 우주비행사가 '걸어 다니는 고압 축전기'가 될 수도? 나사, 해결책 공모",
+ "originalTitle": "The moon could turn astronauts into 'walking, high voltage capacitors' that accidentally zap spacecraft",
+ "source": "Space.com",
+ "url": "https://www.space.com/astronomy/moon/the-moon-could-turn-astronauts-into-walking-high-voltage-capacitors-that-accidentally-zap-spacecraft",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "겨울에 문손잡이를 잡으면 '찌릿' 하고 정전기가 오르죠? 달에서는 이런 일이 훨씬 위험할 수 있어요. 나사는 2028년쯤 아르테미스 4호나 5호로 우주비행사를 달 남극 근처에 내려보낼 계획인데, 특히 햇빛이 전혀 들지 않는 그늘진 충돌구에 들어갈 때 우주복에 전기가 많이 쌓일 수 있어요.",
+  "모의실험에 따르면 두 가지 이유가 있어요. 물체끼리 닿고 비벼지며 전기가 옮겨 가는 '마찰 대전'과 주변 플라스마(전기를 띤 기체) 때문에 생기는 대전이에요. 그 결과 우주복은 전자가 많은 음전하를 띠게 돼요. 이 상태로 약간 양전하를 띤 착륙선에 돌아가면 불꽃(아크)이 튈 수 있어요. 우주복이 손상되거나, 산소로 찬 우주선 안에서 불이 날 수도 있고, 감전 위험도 있어요. 떠다니는 달 먼지는 불꽃이 더 먼 거리까지 튀게 만들어요.",
+  "나사는 상금 15만 달러를 건 '달 접지 챌린지'를 열어 해결책을 모으고 있어요. 착륙선에 닿기 전에 우주비행사와 우주복의 전기를 안전하게 빼 주는 작고 가벼운 장치가 필요하고, 마감은 1월 15일이에요."
+ ],
+ "keyPoints": [
+  "달 그늘 지역에서 우주복에 전기 쌓일 위험",
+  "착륙선에 닿을 때 불꽃·화재·감전 우려",
+  "나사, 상금 15만 달러 '달 접지 챌린지'"
+ ],
+ "image": "https://cdn.mos.cms.futurecdn.net/DVEtr9vCydjYEWwrGZpyKo-2048-80.jpg",
+ "facts": [
+  [
+   "기관",
+   "나사"
+  ],
+  [
+   "과제",
+   "Lunar Grounding Challenge(상금 15만 달러)"
+  ],
+  [
+   "마감",
+   "1월 15일"
+  ]
+ ],
+ "id": "261014-science-09",
+ "category": "science",
+ "collectedAt": "2026-10-14T07:32:17+09:00"
+}

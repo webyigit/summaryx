@@ -1,0 +1,35 @@
+{
+ "title": "화성 탐사 로버 '퍼서비어런스', 지구 밖 주행 거리 신기록…45.22㎞ 달렸다",
+ "originalTitle": "NASA's Perseverance Sets Off-World Record for Total Distance Driven",
+ "source": "NASA",
+ "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "지구가 아닌 다른 천체에서 가장 멀리 달린 탐사차는 무엇일까요? 지금까지는 2004년부터 2018년까지 화성을 누빈 나사의 '오퍼튜니티'(45.16㎞)였어요. 그런데 2026년 10월 11일, 화성 탐사 로버 '퍼서비어런스'가 누적 주행 거리 45.22㎞를 찍으며 이 기록을 넘어섰어요. 오퍼튜니티가 15년 가까이 걸린 거리를 약 5년 반 만에 달린 거예요.",
+  "비결은 '오토내브'라는 자율주행 기능이에요. 로버가 달리면서 땅을 찍어 3D로 위험물을 파악하고 스스로 길을 정해요. 퍼서비어런스 주행 거리의 90% 이상이 이 방식이었어요. 하루(화성일) 최대 412m까지 갈 수 있고, 원래 임무 계획은 약 20㎞(12.4마일) 이하만 달리는 것이었어요. 지금까지 암석·흙 시료 29개를 모았고, '체야바 폭포'라는 바위에서 생명의 흔적일 수 있는 신호도 찾았어요.",
+  "로버는 지금 예제로 충돌구 서쪽 가장자리의 '이두비' 지역으로 가고 있어요. 태양계에서 탐사한 땅 중 가장 오래된 편일 수 있는 곳이에요. 첫 임무 연장은 2028년 말쯤까지 이어지고, 이후 충돌로 솟아오른 옛 지각 덩어리 '레인보 폭포'로 향할 계획이에요."
+ ],
+ "keyPoints": [
+  "누적 45.22㎞로 오퍼튜니티 기록 경신",
+  "자율주행 '오토내브'가 거리의 90% 이상",
+  "시료 29개 수집, 2028년 말까지 임무 연장"
+ ],
+ "image": "https://assets.science.nasa.gov/content/dam/science/missions/mars2020/2026/perseverance-rover-updates/e1%20-%20PIA26812%20-%20NAVCAM%20record.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+ "facts": [
+  [
+   "탐사선",
+   "퍼서비어런스(나사 화성 로버)"
+  ],
+  [
+   "기록일",
+   "2026-10-11(화성일 2,006일째)"
+  ],
+  [
+   "누적 거리",
+   "45.22㎞"
+  ]
+ ],
+ "id": "261014-science-04",
+ "category": "science",
+ "collectedAt": "2026-10-14T07:32:17+09:00"
+}

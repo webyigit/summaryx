@@ -270,6 +270,42 @@
     "CCM",
     "콘서트"
    ]
+  },
+  {
+   "name": "CCM Magazine News",
+   "url": "https://www.ccmmagazine.com/news/",
+   "keywords": [
+    "new album",
+    "concert",
+    "tour"
+   ]
+  },
+  {
+   "name": "GMA(Gospel Music Association) News",
+   "url": "https://gospelmusic.org/news",
+   "keywords": [
+    "Dove Awards",
+    "signing",
+    "tour"
+   ]
+  },
+  {
+   "name": "기독일보 문화",
+   "url": "https://www.christiandaily.co.kr/sections/cul/",
+   "keywords": [
+    "찬양",
+    "워십",
+    "합창"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "CCM",
+    "찬양",
+    "합창"
+   ]
   }
  ],
  "christian": [
@@ -327,6 +363,16 @@
     "church news",
     "missions",
     "religious freedom"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "교회",
+    "기독교",
+    "목사",
+    "종교"
    ]
   }
  ],
@@ -643,6 +689,23 @@
    "keywords": [
     "실시간",
     "속보"
+   ]
+  },
+  {
+   "name": "이데일리 (신조어·한글 기획)",
+   "url": "https://www.edaily.co.kr/",
+   "keywords": [
+    "신조어",
+    "밈",
+    "유행어"
+   ]
+  },
+  {
+   "name": "스포츠경향",
+   "url": "https://sports.khan.co.kr/",
+   "keywords": [
+    "밈",
+    "화제"
    ]
   }
  ],
@@ -1352,6 +1415,22 @@
    "keywords": [
     "대학 연구",
     "로봇"
+   ]
+  },
+  {
+   "name": "Smithsonian Smart News",
+   "url": "https://www.smithsonianmag.com/smart-news/",
+   "keywords": [
+    "animals",
+    "archaeology"
+   ]
+  },
+  {
+   "name": "Space.com",
+   "url": "https://www.space.com/news",
+   "keywords": [
+    "space",
+    "night sky"
    ]
   }
  ],
@@ -2098,6 +2177,15 @@
     "연예",
     "방송",
     "가요"
+   ]
+  },
+  {
+   "name": "코리아헤럴드 K-pop",
+   "url": "https://m.koreaherald.com/kpop",
+   "keywords": [
+    "K-pop",
+    "tour",
+    "chart"
    ]
   }
  ],
