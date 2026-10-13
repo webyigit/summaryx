@@ -1,0 +1,49 @@
+{
+ "title": "앤트로픽, 'Claude Code Projects' 개편 베타… 코디네이터가 작업 쪼개 병렬 세션으로 돌린다",
+ "url": "https://tbreak.com/claude-code-projects-parallel-sessions/",
+ "source": "tbreak",
+ "publishedAt": "2026-09-18",
+ "image": "https://i0.wp.com/tbreak.com/wp-content/uploads/2026/09/projects-redesigned.jpg?fit=1200%2C600&ssl=1",
+ "originalTitle": "Anthropic gives Claude Code Projects a coordinator for parallel work",
+ "summary": [
+  "앤트로픽이 Claude Code Projects를 '코디네이터' 중심으로 다시 설계했다. 개발자가 목표를 설명하면 코디네이터가 요청 범위를 정하고, 여러 개의 Claude Code 세션(스레드)으로 일을 나눠 병렬로 돌린 뒤, 결과를 검토하고 하나로 모은다. 지금까지 세션을 직접 열고 일을 나누고 결과를 합치던 과정을 대신하는 방식이다.",
+  "각 작업 스레드는 자기 브랜치와 저장소 사본에서 돌아가므로, 겹치는 변경은 일반적인 병합 충돌로 드러난다. 예를 들어 API·웹·모바일 저장소를 연결한 프로젝트라면 코드베이스마다 스레드를 하나씩 만들어 테스트를 돌리고 PR을 연 뒤, 어떤 변경을 병합해야 하는지 보고할 수 있다. 스레드들은 프로젝트 메모리를 공유해 며칠에 걸친 작업에서도 결정과 지시가 이어지고, Projects 라이브러리에 사용자 파일과 Claude가 만든 아티팩트를 저장해 다음 스레드에서 다시 쓸 수 있다.",
+  "베타는 9월 17일 Claude Code 클라우드 세션을 쓰는 일부 Pro·Max 구독자부터 시작했다. 개발자의 도구·코드·사설망 자원과 함께 돌리는 로컬 실행은 '곧' 지원되고 모바일 지원도 계획돼 있다. 이후 더 많은 Pro·Max 사용자로 넓힌 뒤 Team·Enterprise 요금제로 확대하며, 기존 Projects는 앤트로픽이 업그레이드할 때까지 현재 버전을 유지한다.",
+  "주의할 점도 있다. 스레드 하나가 Claude Code 세션 하나로 계산돼 병렬 작업을 하면 요금제 한도에 더 빨리 닿을 수 있다. 사용자는 프로젝트별 사용량을 확인하고 코디네이터와 작업 스레드의 모델·노력 수준을 고를 수 있다. 기사는 이번 개편이 일을 넘겨주는 주체를 바꿀 뿐 코드 리뷰의 필요성까지 없애지는 않는다고 덧붙였다. 가격 정보는 기사에 없다."
+ ],
+ "keyPoints": [
+  "코디네이터가 목표를 쪼개 여러 Claude Code 세션으로 병렬 실행·검토·취합",
+  "스레드마다 별도 브랜치·저장소 사본, 프로젝트 메모리·라이브러리 공유",
+  "9월 17일 일부 Pro·Max(클라우드 세션) 베타, 이후 Team·Enterprise 확대",
+  "스레드 하나 = 세션 하나라 사용량 한도에 빨리 닿을 수 있음"
+ ],
+ "facts": [
+  [
+   "회사",
+   "Anthropic"
+  ],
+  [
+   "제품",
+   "Claude Code Projects(개편 베타)"
+  ],
+  [
+   "베타 시작",
+   "2026-09-17, 일부 Pro·Max 구독자(클라우드 세션)"
+  ],
+  [
+   "예정",
+   "로컬 실행 '곧', 모바일 지원 계획, 이후 Team·Enterprise"
+  ],
+  [
+   "가격",
+   "[확인 필요] (기사에 없음)"
+  ],
+  [
+   "같은 소식",
+   "MarkTechPost 2026-09-17 기사"
+  ]
+ ],
+ "id": "261013-ai-21",
+ "category": "ai",
+ "collectedAt": "2026-10-13T09:21:04+09:00"
+}

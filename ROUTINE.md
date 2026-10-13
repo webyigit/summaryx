@@ -58,7 +58,7 @@ WebSearch도 한 턴(회차) 안에서 모든 에이전트가 함께 **200회**�
   - uxui는 UX/UI와 직접 맞닿은 기사만(2026-10-13 사용자 요청): UX 리서치·방법론, UI·인터랙션 설계 분석, 디자인 시스템, 디자인 툴(Figma 등), 접근성, 다크 패턴·UX 규제, 'UX·UI 개편'을 명시하고 개선 내용을 설명한 사례. 앱·OS 기능 업데이트, 베타 코드 발견, 기기·루머 기사는 화면이 바뀌어도 넣지 않는다(해당하면 it·applesamsung으로). 애매하면 뺀다.
 
 - **공통 참고 사이트: 뉴시스 속보**(2026-10-13 사용자 요청). https://mobile.newsis.com/pushList.php 는 목록을 스크립트로 불러와 WebFetch로 비어 보이고 curl은 프록시가 막는다. 대신 같은 매체의 실시간 목록 https://www.newsis.com/realnews/ (최신순, 기사 URL은 www.newsis.com/view/NISX…)을 연다. 모든 회차·경량 갱신의 각 에이전트는 이 목록에서 담당 카테고리에 맞는 기사를 찾아 **기사 본문을 직접 열어 확인한 뒤** 넣는다. [오늘의 주요일정]·날씨·한 줄 [속보]만 있는 기사는 제외.
-- **사용자 지정 참고 사이트: MarkTechPost**(https://www.marktechpost.com/, 2026-10-13 사용자 요청) — ai·paper 담당은 매번 최신 목록을 연다. sources.json에서 빼지 말 것.
+- **사용자 지정 참고 사이트: MarkTechPost**(https://www.marktechpost.com/, 2026-10-13 사용자 요청) — ai·paper 담당은 매번 최신 목록을 연다. **tbreak**(https://tbreak.com/, 같은 날 요청)은 ai·it 담당. sources.json에서 빼지 말 것.
 - 각 카테고리의 대상 사이트·키워드는 `data/sources.json`에 있다. 이 사이트들과 키워드로 WebSearch/WebFetch 해서 최신 기사를 찾는다. 더 좋은 사이트를 찾으면 `sources`에 추가해도 된다.
 - WebSearch는 오래된 페이지가 섞이기 쉽다. 대상 사이트의 **최신 기사 목록 페이지를 WebFetch로 직접 열어** 고르는 방식을 우선한다. 한 매체에 몰리지 않게 가능하면 2곳 이상, 한국어 매체도 섞는다.
 - 카테고리마다 **최대 20건**, 최근 2일 이내 기사 우선(없으면 7일까지). 기준에 맞는 기사가 모자라면 찾은 만큼만(채우려고 품질을 낮추지 않는다).

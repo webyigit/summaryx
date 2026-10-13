@@ -41,6 +41,15 @@
     "오픈소스 모델",
     "AI 연구"
    ]
+  },
+  {
+   "name": "tbreak",
+   "url": "https://tbreak.com/",
+   "keywords": [
+    "AI 도구",
+    "AI 코딩",
+    "테크 뉴스"
+   ]
   }
  ],
  "ax": [
@@ -298,6 +307,15 @@
    "keywords": [
     "startup",
     "hardware"
+   ]
+  },
+  {
+   "name": "tbreak",
+   "url": "https://tbreak.com/",
+   "keywords": [
+    "AI 도구",
+    "AI 코딩",
+    "테크 뉴스"
    ]
   }
  ],
