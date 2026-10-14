@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>도커 허브, 2년간 남아 있던 &#x27;남의 이름으로 이미지 푸시&#x27; 결함 수정…CVSS 9.4 | summaryx</title>
+<meta name="description" content="도커 허브에서 개인 계정을 조직 계정으로 바꿀 때 개인 액세스 토큰(PAT)이 조직 소유자로 지정된 다른 사용자에게 넘어가는 결함이 수정됐다. 이 결함으로 한 사용자가 다른 사람 이름으로 이미지를 푸시·풀·삭제할 수 있었다. 범위는 레지스트리에 한정돼 웹 화면 접근이나">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="도커 허브, 2년간 남아 있던 &#x27;남의 이름으로 이미지 푸시&#x27; 결함 수정…CVSS 9.4">
+<meta property="og:description" content="도커 허브에서 개인 계정을 조직 계정으로 바꿀 때 개인 액세스 토큰(PAT)이 조직 소유자로 지정된 다른 사용자에게 넘어가는 결함이 수정됐다. 이 결함으로 한 사용자가 다른 사람 이름으로 이미지를 푸시·풀·삭제할 수 있었다. 범위는 레지스트리에 한정돼 웹 화면 접근이나">
+<meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEile879Rmv8zAdU5PMclUp5RnNGDb3h1u3aVZ-VigGjnO0RFcyCQ03s7_lIqMGDiow5ilPumq3B2_bsvewqRlepch4lFwLvOUEDQZPYd9Vv8untJVZFmrv5Zhgvj54cs4J_vCYW4GVY-XsQl7SXD-yrXbED6KpiWbTq-kL_0aNwef3xjV3cBGQ3dsodqAM/s1600/dock.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="../../#/a/261014-security-21">
+<script>location.replace('../../#/a/261014-security-21');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261014-security-21">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">도커 허브, 2년간 남아 있던 &#x27;남의 이름으로 이미지 푸시&#x27; 결함 수정…CVSS 9.4</h1>
+<p>도커 허브에서 개인 계정을 조직 계정으로 바꿀 때 개인 액세스 토큰(PAT)이 조직 소유자로 지정된 다른 사용자에게 넘어가는 결함이 수정됐다. 이 결함으로 한 사용자가 다른 사람 이름으로 이미지를 푸시·풀·삭제할 수 있었다. 범위는 레지스트리에 한정돼 웹 화면 접근이나 비밀번호·이메일·2단계 인증 변경, 계정 탈취는 불가능했다. 도커는 CVSS 4.0 기준 9.4점, &#x27;긴급&#x27;으로 평가했다.</p><p>결함은 2024년 8월 26일부터 열려 있다가 올해 9월 30일 수정돼 약 2년간 존재했다. 도커는 10월 2일 영향받은 사용자에게 알리고 8일 넘어간 토큰을 비활성화했으며 12일 보안 공지를 냈다. 기간 중 모든 전환과 약 30만 4000건의 푸시를 검토한 결과 악용 흔적은 없었다고 밝혔다.</p><p>결함은 연구자 페테르 몰나르와 크리슈티안 호자크가 &#x27;GhostPat&#x27;으로 이름 붙여 제보했고, 도커는 4시간 안에 고쳤다. 서버 측 수정이라 사용자가 설치할 것은 없지만, 쓰지 않거나 모르는 토큰은 폐기하고 조직 자동화에는 조직 액세스 토큰을 쓰라고 권고했다.</p>
+<p><a href="https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html">원문 보기</a></p>
+</body></html>

@@ -1,0 +1,40 @@
+{
+ "title": "심근경색 위험 예측, BMI보다 '신체 둥근 정도 지수(BRI)'가 조금 더 나아…英 바이오뱅크 39만 명 13년 추적",
+ "originalTitle": "Nearly 400,000 adults, six body measurements, and a surprising result for heart attack risk",
+ "source": "News-Medical",
+ "url": "https://www.news-medical.net/news/20261013/Nearly-400000-adults-six-body-measurements-and-a-surprising-result-for-heart-attack-risk.aspx",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "비만은 심근경색의 주요 위험 요인이지만, 흔히 쓰는 체질량지수(BMI)는 지방이 몸 어디에 쌓였는지를 반영하지 못한다. 연구진은 여러 신체 계측 지표 가운데 어느 것이 심근경색 위험을 가장 잘 예측하는지 비교했고, 결과는 학술지 Journal of Health, Population and Nutrition에 실렸다.",
+  "영국 바이오뱅크에 참여한 40~70세 39만5831명을 중앙값 13.3년 추적했고, 이 기간 심근경색 1만4419건이 발생했다. 신체 둥근 정도 지수(BRI), BMI, 허리둘레, 체중 보정 허리 지수(WWI), 체표면적(BSA), 체형 지수(ABSI) 6가지를 비교했다. 인구·생활습관·임상 요인을 보정했을 때 BRI 최상위 4분위는 최하위보다 심근경색 위험이 52% 높았고, WWI는 46%, 허리둘레는 40%, BMI와 ABSI는 32% 높았다. 체표면적은 위험과 관련이 없었다.",
+  "예측력(AUC)은 BRI가 0.710으로 다른 지표(0.697~0.708)보다 근소하게 높았지만, WWI와의 차이는 0.002에 불과했고 임상적으로 의미 있는 개선인지는 확인되지 않았다. 남성에서는 BRI가 가장 좋았고, 여성에서는 BRI와 WWI가 비슷했다.",
+  "계측은 처음 한 번만 했고, 참여자가 대부분 백인 자원자이며, 관찰 연구라 인과관계를 단정할 수 없다는 한계가 있다. 허리 중심의 복부 비만 지표를 함께 보는 것이 도움이 될 수 있다는 정도로 해석하고, 개인 위험 평가는 의료진과 상담하는 것이 좋다."
+ ],
+ "keyPoints": [
+  "BRI 최상위군 심근경색 위험 52%↑",
+  "예측력 BRI 0.710, 다른 지표와 차이는 근소",
+  "체표면적은 위험과 무관, 관찰 연구 한계"
+ ],
+ "image": "https://www.news-medical.net/images/news/ImageForNews_848782_17919319402105818.jpg",
+ "facts": [
+  [
+   "출처기관",
+   "Journal of Health, Population and Nutrition (UK Biobank 자료), News-Medical 보도"
+  ],
+  [
+   "근거 종류",
+   "연구(전향적 코호트)"
+  ],
+  [
+   "대상",
+   "영국 40~70세 성인 39만5831명"
+  ],
+  [
+   "추적 기간",
+   "중앙값 13.3년"
+  ]
+ ],
+ "id": "261014-lipid-05",
+ "category": "lipid",
+ "collectedAt": "2026-10-14T16:36:35+09:00"
+}

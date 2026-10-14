@@ -1,0 +1,35 @@
+{
+ "title": "이반티 VPN 제로데이 3개 연쇄 악용해 루트 권한 탈취…1개는 아직 미패치",
+ "originalTitle": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "보안업체 볼렉시티(Volexity)는 공격자가 이반티의 VPN 장비 '커넥트 시큐어'의 제로데이 결함 3개를 엮어 로그인 없이 루트 권한으로 명령을 실행했다고 밝혔다. 볼렉시티는 최신 패치가 적용된 22.8R2.4 버전 장비 한 곳에서 공격을 발견했으며, UTA0576으로 추적되는 공격자는 10월 3일부터 악용을 시작했다. 이반티는 '제한적인 실제 악용'을 인지하고 있다고 밝혔지만 피해 고객 수는 공개되지 않았다.",
+  "공격자는 접근 후 LDAP 도메인 계정 등 저장된 자격 증명을 훔치고 비밀번호 대입 공격을 벌였으며, 백도어나 웹셸은 남기지 않았다. 볼렉시티는 동기가 첩보보다 금전 목적일 가능성을 낮은 확신으로 평가했다. 이반티는 인증 우회·원격 코드 실행 결함은 고쳤지만 권한 상승 결함은 수 주 안에 나올 후속 릴리스에서 고칠 예정이다.",
+  "이반티는 해당 버전 고객에게 즉시 업그레이드를 권고했다. 볼렉시티는 이반티 무결성 점검 도구가 이번 연쇄 공격을 놓치므로 네트워크·메모리 포렌식으로 침해 여부를 따로 조사하라고 조언했다."
+ ],
+ "keyPoints": [
+  "커넥트 시큐어 제로데이 3개 연쇄로 루트 장악",
+  "10월 3일부터 악용, 자격 증명 탈취",
+  "권한 상승 결함은 아직 패치 없음"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZSH26NsXmSsQGaAbhNyJLMaBQKFCmabIbFZ_yi2sUGXjHQOVztQEQfXLarEAx1Fl9lRwGAryBE4zZEooJ4cochODcB4x8wQnPl3MRWiyBcpyEV6i8VPxvwcLHmShQVZVhuOcTjMXRhHAlx4Y0Uo85c74EVU4cea84YgXju02I9jlNzcGOFtLfa_am82Q/s1600/ivanti-hack.jpg",
+ "facts": [
+  [
+   "대상 제품",
+   "이반티 커넥트 시큐어(VPN)"
+  ],
+  [
+   "발견",
+   "볼렉시티"
+  ],
+  [
+   "패치 상태",
+   "3개 중 2개 수정"
+  ]
+ ],
+ "id": "261014-security-20",
+ "category": "security",
+ "collectedAt": "2026-10-14T16:36:35+09:00"
+}

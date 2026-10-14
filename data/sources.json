@@ -666,6 +666,14 @@
     "전시",
     "디자이너"
    ]
+  },
+  {
+   "name": "LukeW",
+   "url": "https://www.lukew.com/ff/",
+   "keywords": [
+    "product design",
+    "design essay"
+   ]
   }
  ],
  "meme": [
@@ -2605,6 +2613,14 @@
     "와인 시음회",
     "와인 수입사 상담회"
    ]
+  },
+  {
+   "name": "세계일보 와인홀릭",
+   "url": "https://www.segye.com/",
+   "keywords": [
+    "최현태 기자의 와인홀릭",
+    "소믈리에 대회"
+   ]
   }
  ],
  "cardesign": [
@@ -3359,6 +3375,14 @@
     "남성복",
     "패션 협업"
    ]
+  },
+  {
+   "name": "Hypebeast Korea",
+   "url": "https://hypebeast.kr/",
+   "keywords": [
+    "협업",
+    "컬렉션"
+   ]
   }
  ],
  "shopdeal": [
@@ -3376,6 +3400,22 @@
    "keywords": [
     "쓱세일",
     "패션 특가"
+   ]
+  },
+  {
+   "name": "뉴스핌",
+   "url": "https://www.newspim.com/",
+   "keywords": [
+    "쇼핑 페스타",
+    "공식몰 할인"
+   ]
+  },
+  {
+   "name": "CMN(코스메틱매거진)",
+   "url": "https://www.cmn.co.kr/",
+   "keywords": [
+    "뷰티 브랜드 세일",
+    "샘데이"
    ]
   }
  ],
@@ -3447,6 +3487,14 @@
    "keywords": [
     "웹툰",
     "만화"
+   ]
+  },
+  {
+   "name": "벤처스퀘어",
+   "url": "https://www.venturesquare.net/",
+   "keywords": [
+    "웹툰 AI",
+    "웹툰 플랫폼"
    ]
   }
  ],

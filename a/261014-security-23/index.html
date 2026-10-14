@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAP 파이썬용 클라우드 SDK에 CVSS 10.0 결함…OAuth2 자격 증명 유출 가능 | summaryx</title>
+<meta name="description" content="SAP가 비즈니스 기술 플랫폼(BTP)용 &#x27;파이썬 클라우드 SDK&#x27;에서 애플리케이션의 OAuth2 클라이언트 자격 증명이 공격자 서버로 전송될 수 있는 결함(CVE-2026-89111)을 공개했다. SAP는 서버 측 요청 위조(SSRF)로 분류하고 CVSS 10.0점을">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SAP 파이썬용 클라우드 SDK에 CVSS 10.0 결함…OAuth2 자격 증명 유출 가능">
+<meta property="og:description" content="SAP가 비즈니스 기술 플랫폼(BTP)용 &#x27;파이썬 클라우드 SDK&#x27;에서 애플리케이션의 OAuth2 클라이언트 자격 증명이 공격자 서버로 전송될 수 있는 결함(CVE-2026-89111)을 공개했다. SAP는 서버 측 요청 위조(SSRF)로 분류하고 CVSS 10.0점을">
+<meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKBZR5elkBVKRcFO6lyde7XYDVO73IBxDvnx9-UkLst3GhVFuK8Yz3QBVIIEJABDjZuJMn8tyf7RLLPIRV8J8qe-OUULjnQRaQNyWricSsOjlKJoyYu8WOvs5PxBWQpzuiq8hlDlOY7zY-qIYDgQ6NFuifS5GbHbnLBET0OTfmsMC8797Mo5un9_ECyg8/s1600/sap-hacker.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="../../#/a/261014-security-23">
+<script>location.replace('../../#/a/261014-security-23');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261014-security-23">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">SAP 파이썬용 클라우드 SDK에 CVSS 10.0 결함…OAuth2 자격 증명 유출 가능</h1>
+<p>SAP가 비즈니스 기술 플랫폼(BTP)용 &#x27;파이썬 클라우드 SDK&#x27;에서 애플리케이션의 OAuth2 클라이언트 자격 증명이 공격자 서버로 전송될 수 있는 결함(CVE-2026-89111)을 공개했다. SAP는 서버 측 요청 위조(SSRF)로 분류하고 CVSS 10.0점을 매겼다. 공격자가 테넌트 하위 도메인을 조작할 수 있는 멀티테넌트 애플리케이션이 영향을 받는다.</p><p>수정은 8월 21일 나온 0.45.2 버전에서 테넌트 하위 도메인 검사를 넣는 방식으로 이뤄졌다. 하지만 9월 10~18일 배포된 0.53.0~0.55.0 버전에서 일부 서비스 호출의 검사가 빠졌다가 0.55.1에서 복구됐고, 0.36 계열 구버전에는 검사가 없다. 검사가 들어간 버전은 0.45.2~0.52.2와 0.55.1~0.58.4다.</p><p>SAP는 당장 업그레이드할 수 없는 경우 SDK에 넘기기 전에 하위 도메인을 등록된 테넌트 목록과 대조하라고 권고했다. 8월 릴리스 노트는 이를 보안 언급 없이 버그 수정으로만 적었고, 보안 공지는 53일 뒤에 나왔다. 실제 공격은 보고되지 않았다.</p>
+<p><a href="https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html">원문 보기</a></p>
+</body></html>

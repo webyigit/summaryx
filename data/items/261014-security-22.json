@@ -1,0 +1,35 @@
+{
+ "title": "깃허브, npm '신뢰 게시' 설정 48시간 만료제 도입…1500여 개 패키지 탈취 위험 결함 대응",
+ "originalTitle": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "깃허브가 npm '신뢰 게시(trusted publishing)' 설정 중 검증되지 않은 것을 만든 지 48시간 뒤 자동 만료시키기로 했다. 공격자가 계정 정보를 훔치지 않고도 남의 패키지 새 버전을 올릴 수 있었던 결함에 대한 조치다. 이 결함은 블룸 시큐리티가 2026년 6월 6일 깃허브에 제보했으며, 누적 다운로드 1000만 회가 넘는 1500여 개 패키지가 영향을 받았다.",
+  "원인은 npm이 첫 게시가 성공하기 전까지 깃허브의 고유 숫자 ID가 아니라 '소유자/저장소' 이름으로 신뢰를 묶었다는 데 있다. 관리자가 저장소 이름을 바꾸거나 옮기거나 지우면 비게 된 이름을 다른 사람이 차지해 신뢰를 물려받을 수 있었다.",
+  "앞으로 설정은 첫 게시가 성공하면 영구화되고, 그 전에는 48시간 뒤 만료된다. 저장소 정체성을 바꾸면 새 신뢰 관계와 48시간 창이 필요하며, 깃허브 액션 issue_comment 이벤트에서 나온 게시 토큰은 거부된다. 블룸 시큐리티는 관리자들에게 등록된 저장소 이름이 여전히 자신이 관리하는 곳을 가리키는지 점검하고, 이름 변경·이전 시 설정을 지웠다가 다시 만들라고 권고했다."
+ ],
+ "keyPoints": [
+  "미검증 신뢰 게시 설정 48시간 뒤 만료",
+  "저장소 이름 기반 신뢰로 1500여 개 패키지 위험",
+  "관리자에게 바인딩 점검·재설정 권고"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3aDWaWT6PmRDL9d6tHPDisxclb_Ak7YZIxuS02EUFvNaWrc4_UKwUqW0RI1KT3r8zsneOguD6b85yg8mf3gAzZZOGuLi-mXckG_yzwmXXb3IchTBSVeRvPlUo7QU4Kp4yiM6QqPshmo4p0GQ55XZPTEDc0DZn9N84S_ZibZ4rkXuhZ3OvoHNCYH-wk0k-/s1600/git-npm.jpg",
+ "facts": [
+  [
+   "대상",
+   "npm 신뢰 게시(GitHub)"
+  ],
+  [
+   "발견",
+   "블룸 시큐리티(2026년 6월 6일 제보)"
+  ],
+  [
+   "영향",
+   "패키지 1500여 개·누적 1000만+ 다운로드"
+  ]
+ ],
+ "id": "261014-security-22",
+ "category": "security",
+ "collectedAt": "2026-10-14T16:36:35+09:00"
+}
