@@ -1,0 +1,43 @@
+{
+ "title": "장면 변화 추론을 가르치니 26개 중 22개 벤치마크 향상… WOVEN",
+ "originalTitle": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.12417",
+ "publishedAt": "2026-10-08",
+ "summary": [
+  "멀티모달 LLM은 공간·체화·물리·시간 추론에 약하다. Eric P. Xing·Mohit Bansal·Manling Li 등이 참여한 연구진은 이 약점들의 공통 원인이 시각 장면이 시간에 따라 어떻게 바뀌는지 따라가는 '시각 전이 추론' 부족이라고 보고, 이를 여러 과제에 통하는 공통 학습 기반으로 삼을 수 있는지 시험했다.",
+  "이를 위해 장면·행동·추론 유형별로 정리한 학습 자료 겸 벤치마크 WOVEN을 만들었다. 영상 생성 모델로 만든 다양한 장면 전개를 활용해 20개 장면 유형, 5개 행동 유형, 8개 추론 유형에 걸친 36,076개 예제를 담았다. GPT-5.4, Qwen3-VL-235B 등 38개 최신 모델은 사람보다 크게 뒤졌고, 규모를 키워도 사라지지 않는 체계적 실패를 보였다.",
+  "약 2,000개 규모의 학습 부분집합만으로 외부 벤치마크 26개 중 22개가 개선됐고 최대 27.3%p 올랐다. WOVEN 데이터가 과제 자체 학습 데이터의 30~50%를 대체해도 정확도가 비슷했다."
+ ],
+ "keyPoints": [
+  "시각 장면 변화 추론을 공통 기반으로",
+  "38개 최신 모델, 사람보다 크게 뒤져",
+  "2천 개 학습으로 22/26 벤치마크 개선"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Zheyu Fan, Yue Zhang, Mingkai Deng, Kangrui Wang, Qineng Wang, Canyu Chen, Jie Hao, Xing Fan, Chenlei Guo, Eric P. Xing, Mohit Bansal, Manling Li"
+  ],
+  [
+   "소속",
+   "[확인 필요] (arXiv 초록 페이지에 표기 없음)"
+  ],
+  [
+   "분야",
+   "컴퓨터비전(cs.CV) · 멀티모달 월드 모델"
+  ],
+  [
+   "arXiv ID",
+   "2610.12417"
+  ],
+  [
+   "코드",
+   "공개 링크 없음"
+  ]
+ ],
+ "id": "261015-paper-11",
+ "category": "paper",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

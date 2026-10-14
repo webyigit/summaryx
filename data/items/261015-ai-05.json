@@ -1,0 +1,43 @@
+{
+ "title": "27B 모델을 7.9GB로…2비트 '살루키 27B', 도구 호출은 원본보다 낫다",
+ "originalTitle": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
+ "source": "MarkTechPost",
+ "url": "https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "대형 모델을 개인 GPU에서 돌리려면 가중치를 낮은 비트로 줄이는 양자화가 필수지만, 보통 성능이 떨어진다. 언더독(콘웨이 리서치)은 큐원3.8-27B를 2비트 중심 혼합 정밀도로 압축한 '살루키 27B'를 아파치 2.0으로 공개했다. 용량은 BF16 원본 54GB에서 약 7.89GB로 줄었고, 기본 llama.cpp에서 돌아간다.",
+  "ISTA-DASLab의 양자화 연구 결과물을 바탕으로 도구 호출 능력을 지키는 쪽으로 추가 압축했다고 한다. 자체 측정에서 BFCL v4 기반 도구 호출 120문항 88점으로 원본(84점)보다 높았고, 병렬 도구 호출도 42 대 35로 앞섰다. SWE-bench Verified 50문항에서는 30개를 풀어 원본(33개)에 근접했다.",
+  "반면 수학·다단계 추론은 12~18점 떨어졌다. AIME 2025 점수는 원본 96.7에서 79.2로 내려갔다. 업체마다 측정 환경이 달라 직접 비교는 어렵고, 압축 레시피 전체는 공개되지 않았다."
+ ],
+ "keyPoints": [
+  "큐원3.8-27B를 2비트로 압축, 54GB→7.89GB",
+  "도구 호출은 원본보다 높은 점수(자체 측정)",
+  "수학·추론은 12~18점 하락, 레시피 비공개"
+ ],
+ "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-3-1-1-scaled.png",
+ "facts": [
+  [
+   "개발사",
+   "언더독(콘웨이 리서치)"
+  ],
+  [
+   "기반 모델",
+   "Qwen3.8-27B"
+  ],
+  [
+   "용량",
+   "약 7.89GB(GGUF, IQ2-mix)"
+  ],
+  [
+   "라이선스",
+   "Apache 2.0"
+  ],
+  [
+   "공개처",
+   "Hugging Face ConwayResearch/Underdog-Saluki-27B-1.0"
+  ]
+ ],
+ "category": "ai",
+ "id": "261015-ai-05",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

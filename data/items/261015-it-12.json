@@ -1,0 +1,35 @@
+{
+ "title": "왓츠앱, 계정 없이 웹 브라우저로 통화 참여하는 '게스트 통화' 도입",
+ "originalTitle": "WhatsApp adds a guest option for joining calls without an account",
+ "source": "Engadget",
+ "url": "https://www.engadget.com/2286108/whatsapp-adds-a-guest-option-for-joining-calls-without-an-account/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "왓츠앱이 계정이 없는 사람도 통화에 참여할 수 있는 '게스트 통화' 기능을 도입했다. 애플 계정이나 기기 없이 페이스타임 통화에 들어갈 수 있는 방식과 비슷하다. 게스트는 웹 브라우저로 1:1 또는 그룹 통화에 참여하며, 초대를 받아 수락할 수는 있지만 직접 통화를 걸 수는 없다.",
+  "통화 주최자가 게스트를 일일이 승인해야 입장할 수 있고, 게스트는 다른 사람의 전화번호를 보거나 메시지를 보내거나 참여자를 추가할 수 없다. 승인된 뒤에는 화면 공유, 손들기, 엄지·하트 반응을 쓸 수 있고 통화 시간 제한은 없다.",
+  "왓츠앱은 구글·아웃룩 캘린더에서 바로 왓츠앱 통화를 만드는 캘린더 플러그인도 '연내' 내놓을 계획이다. 올해 사용자 이름, 웹 암호화 통화, 아이패드 가입 등을 잇달아 추가한 데 이은 확장이다. 구체적인 배포 일정과 지역은 공개되지 않았다."
+ ],
+ "keyPoints": [
+  "계정 없이 브라우저로 통화 참여",
+  "주최자 승인 필수, 번호·메시지 접근 불가",
+  "구글·아웃룩 캘린더 플러그인 연내 예정"
+ ],
+ "image": "https://www.engadget.com/img/gallery/whatsapp-adds-a-guest-option-for-joining-calls-without-an-account/l-intro-1791928728.jpg",
+ "facts": [
+  [
+   "기업",
+   "메타(왓츠앱)"
+  ],
+  [
+   "참여 방식",
+   "웹 브라우저"
+  ],
+  [
+   "제한",
+   "통화 시작·메시지·번호 열람 불가"
+  ]
+ ],
+ "id": "261015-it-12",
+ "category": "it",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

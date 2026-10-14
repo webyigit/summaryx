@@ -1,0 +1,35 @@
+{
+ "title": "도요타 물류자동화 새 법인 TAL \"완전 무인 창고는 2%뿐…망가진 공정 자동화하면 탈 난다\"",
+ "originalTitle": "Toyota Automated Logistics provides options, a Swiss Army knife of technologies for customers",
+ "source": "Robotics 24/7",
+ "url": "https://www.robotics247.com/article/toyota-automated-logistics-provides-options-a-swiss-army-knife-of-technologies-for-customers",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "도요타인더스트리(TICO)가 지게차·무인운반차를 넘어 창고 자동화로 사업을 넓히려고 바스티안 솔루션스, 반데를란데의 창고 사업, 비아스토어를 묶어 '도요타 오토메이티드 로지스틱스(TAL)'를 출범시켰다. TAL은 MODEX 2026을 앞두고 공식 출범했다.",
+  "알렉스 헤인스 TAL 고객총괄은 통합업체 역량과 장비 제조사(OEM) 강점을 함께 갖춰 수작업 창고부터 반자동, 불을 끄고 돌아가는 완전 자동화 시설까지 '창고 안 모든 문제'를 다룰 수 있다고 말했다. 바스티안은 시스템 설계·소프트웨어·제어, 반데를란데는 식료품·소매용 상품-사람(G2P) 기술, 비아스토어는 팔레트 단위 자동화·크레인·미니로드를 맡는다. 헤인스는 완전 무인 창고가 시장의 약 2%에 불과하고, 수요가 바뀌는 대부분 창고는 여전히 사람이 일해 자동화가 더 어렵다고 했다.",
+  "그는 '망가진 공정을 자동화하면 곤란해진다'며 자동화 대상과 현재 공정 이해, 미래 공정 설계, 대안 검토, 결정이라는 다섯 가지 원칙을 제시했다. TAL은 코딩·업무 자동화·예지보전에 AI를 쓰고 있으며, 1년 안에 시장에 자리 잡을 것으로 내다봤다."
+ ],
+ "keyPoints": [
+  "바스티안·반데를란데·비아스토어 묶은 TAL 출범",
+  "완전 무인 창고는 시장의 약 2%",
+  "'망가진 공정 자동화 금물'…5대 원칙 제시"
+ ],
+ "image": "https://www.robotics247.com/images/2026_article/ToyotaAutomatedLogistics-warehouse-automation-main-Robotics247-2026.jpg",
+ "facts": [
+  [
+   "기업",
+   "도요타 오토메이티드 로지스틱스(TAL)"
+  ],
+  [
+   "모회사",
+   "도요타인더스트리(TICO)"
+  ],
+  [
+   "인터뷰",
+   "알렉스 헤인스 고객총괄"
+  ]
+ ],
+ "id": "261015-robot-09",
+ "category": "robot",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

@@ -1,0 +1,43 @@
+{
+ "title": "시청자가 개입하는 인터랙티브 영상 이야기, 맥락을 지키며 생성… VIS-Ground",
+ "originalTitle": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.09326",
+ "publishedAt": "2026-10-07",
+ "summary": [
+  "인터랙티브 영상 스토리텔링은 시청자가 영상 전개에 개입할 수 있게 하지만, 생성 도중 요청이 들어오면 문제가 생긴다. 시청자 요청이 원작 자료나 이미 만들어진 장면에 기대고 있는데, 그 의존 관계가 어느 입력에도 명시돼 있지 않을 수 있기 때문이다. 기존 시스템은 지시 따르기나 외부 서사 맞추기 중 한쪽에만 집중했다.",
+  "Tomas Pfister·Yale Song 등이 참여한 연구진은 이질적인 입력을 영상 생성이 실행할 수 있는 '제약 모델'로 바꾸는 VIS-Ground를 제안했다. 구조화된 맥락 추출로 상태와 맥락 간 의존성을 복원하고, 관련 의존성을 후보별 생성 제약으로 바꾼 뒤, 계획·검증·수정·렌더링을 거쳐 제약을 지키며 영상을 만드는 3단계 구조다.",
+  "세 가지 영상 생성 백본에서 종합 점수가 가장 높았고, 백본별 최강 기준 방법보다 평균 10.3점(절대값) 앞섰다. 서사와 지식 맞추기 모두 개선됐지만, 의존성 추출과 이를 영상에 충실히 그려내는 일은 여전히 과제로 남았다."
+ ],
+ "keyPoints": [
+  "시청자 개입 시 숨은 맥락 의존성 처리",
+  "맥락→제약 모델→제약 기반 영상 생성",
+  "최강 기준 대비 평균 10.3점 향상"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Bingxuan Li, Yiwen Song, Xueqing Wu, Yanzhou Pan, Yang Li, Kuang Su, Jingyun Liu, Sebastian Ko, Huan Zhang, Tong Zhang, Nanyun Peng, Tomas Pfister, Yale Song"
+  ],
+  [
+   "소속",
+   "[확인 필요] (arXiv 초록 페이지에 표기 없음)"
+  ],
+  [
+   "분야",
+   "컴퓨터비전(cs.CV) · 영상 생성·인터랙티브 스토리텔링"
+  ],
+  [
+   "arXiv ID",
+   "2610.09326"
+  ],
+  [
+   "코드",
+   "공개 링크 없음"
+  ]
+ ],
+ "id": "261015-paper-04",
+ "category": "paper",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

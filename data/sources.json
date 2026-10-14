@@ -67,6 +67,14 @@
     "AX",
     "로봇"
    ]
+  },
+  {
+   "name": "VentureBeat AI",
+   "url": "https://venturebeat.com/category/ai/",
+   "keywords": [
+    "AI 에이전트",
+    "기업 AI"
+   ]
   }
  ],
  "ax": [
@@ -173,6 +181,14 @@
    "keywords": [
     "AX 전환",
     "전사 AX"
+   ]
+  },
+  {
+   "name": "전자신문",
+   "url": "https://www.etnews.com/",
+   "keywords": [
+    "M.AX",
+    "AI 전환"
    ]
   }
  ],
@@ -1097,6 +1113,15 @@
     "삼성전자",
     "갤럭시"
    ]
+  },
+  {
+   "name": "지디넷코리아",
+   "url": "https://zdnet.co.kr/news/?lstcode=0020&page=1",
+   "keywords": [
+    "삼성전자",
+    "애플",
+    "갤럭시"
+   ]
   }
  ],
  "movie": [
@@ -1550,6 +1575,22 @@
     "robotics startup",
     "physical AI"
    ]
+  },
+  {
+   "name": "eWeek(로봇·피지컬 AI)",
+   "url": "https://www.eweek.com/",
+   "keywords": [
+    "physical AI",
+    "robotics"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS(robot humanoid)",
+   "url": "https://www.bing.com/news/search?q=robot+humanoid&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "robot",
+    "humanoid"
+   ]
   }
  ],
  "semi": [
@@ -1672,6 +1713,33 @@
     "CPO",
     "DRAM",
     "HBM"
+   ]
+  },
+  {
+   "name": "The Daily Gazette",
+   "url": "https://www.dailygazette.com/",
+   "keywords": [
+    "GlobalFoundries",
+    "Malta",
+    "fab"
+   ]
+  },
+  {
+   "name": "SCMP Tech",
+   "url": "https://www.scmp.com/tech",
+   "keywords": [
+    "Hua Hong",
+    "SMIC",
+    "China chips"
+   ]
+  },
+  {
+   "name": "MarketScreener (Reuters)",
+   "url": "https://www.marketscreener.com/news/",
+   "keywords": [
+    "Nvidia",
+    "Huawei",
+    "AI chip"
    ]
   }
  ],

@@ -1,0 +1,35 @@
+{
+ "title": "구글 홈 앱 버그…방마다 정리한 기기가 '나에게 연결됨'으로 몰려",
+ "originalTitle": "Google Home users are watching their carefully organized rooms fall apart",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/google-home-devices-ungrouped-rooms-bug-3722814/",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "지난 일주일 사이 구글 홈 이용자들 사이에서 방별로 배치해 둔 조명·스마트 플러그 등이 갑자기 '나에게 연결됨(Linked to you)' 항목으로 한꺼번에 옮겨지는 현상이 잇따라 보고됐다. 카사·타포 같은 타사 제품과 일반 스위치·전구, 구글 기기까지 포함돼 특정 브랜드 문제로 보이지 않는다.",
+  "기기 설정을 열면 원래 집과 방 정보가 그대로 남아 있어, 설정이 사라졌다기보다 화면 표시나 동기화 버그일 가능성이 크다. 안드로이드 앱을 강제 종료하면 잠시 제자리로 돌아오기도 하지만 다시 흩어지는 경우가 있고, 기기 재배정이나 앱 데이터 삭제도 확실한 해결책이 되지 못했다.",
+  "일부 이용자는 구글 홈 '퍼블릭 프리뷰'를 의심하며 프리뷰를 나오자 복구됐다고 했지만 영구적 해법으로 보기는 이르다. 아직 확인된 수정은 없고 구글도 공개적으로 문제를 인정하지 않았으며, 매체가 구글에 확인을 요청한 상태다."
+ ],
+ "keyPoints": [
+  "방별 기기가 '나에게 연결됨'으로 이동",
+  "설정 정보는 유지…표시·동기화 버그 추정",
+  "구글 공식 인정·수정 아직 없어"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2023/12/google-home-app-1-scaled.jpg",
+ "facts": [
+  [
+   "대상",
+   "구글 홈 앱 이용자"
+  ],
+  [
+   "영향 기기",
+   "카사·타포·구글 기기 등"
+  ],
+  [
+   "상태",
+   "공식 수정 없음(2026-10-13 기준)"
+  ]
+ ],
+ "id": "261015-it-07",
+ "category": "it",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

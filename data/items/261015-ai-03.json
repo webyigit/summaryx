@@ -1,0 +1,43 @@
+{
+ "title": "AI로 특수화학·핵심소재 '탈중국'…인도 심플리파이, 2500만 달러 유치",
+ "originalTitle": "Scimplify raises $25M to challenge China's grip on critical materials with AI",
+ "source": "TechCrunch",
+ "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "특수화학 소재와 핵심 광물 공급망은 중국 의존도가 높아 반도체·방산·에너지 기업들이 대체 공급처를 찾고 있다. 2023년 설립된 인도 벵갈루루의 심플리파이(Scimplify)는 AI로 제조 공정을 설계해 이 수요를 공략하며, 히타치벤처스 주도로 2500만 달러를 유치했다. 누적 투자는 8000만 달러이고, 소식통은 기업가치를 2억5000만 달러로 전했다.",
+  "자체 AI 플랫폼 '사이노드(Scinode)'가 생산 경로와 공장을 찾고 품질·규제 요건을 추적하며, 연구·제조·품질관리용 AI 에이전트가 고객 요구 조건에서 거꾸로 공정을 설계한다. 연구소에서 공정을 개발한 뒤 500곳 넘는 협력 공장에 넘기는 방식으로, 통상 12~18개월 걸리던 소재 개발을 2개월로 줄인 사례도 있다고 한다.",
+  "연환산 매출은 약 2억 달러로 1년 새 세 배가 됐고, 미국 매출도 약 6000만 달러로 늘었다. 고물에서 텅스텐 유도체를 만들고 희토류 소재도 개발 중이며, 투자금 일부로 미국·일본 생산을 늘릴 계획이다."
+ ],
+ "keyPoints": [
+  "인도 심플리파이, 2500만 달러 유치(히타치벤처스 주도)",
+  "AI 플랫폼 '사이노드'로 공정 설계, 개발 기간 단축",
+  "연환산 매출 약 2억 달러, 미국·일본 생산 확대"
+ ],
+ "image": "https://techcrunch.com/wp-content/uploads/2026/10/scimplify-co-founder-sachin-santhosh.jpg?resize=1200,800",
+ "facts": [
+  [
+   "회사",
+   "심플리파이(Scimplify, 인도 벵갈루루)"
+  ],
+  [
+   "투자 규모",
+   "2500만 달러(누적 8000만 달러)"
+  ],
+  [
+   "주도 투자사",
+   "히타치벤처스"
+  ],
+  [
+   "AI 플랫폼",
+   "사이노드(Scinode)"
+  ],
+  [
+   "연환산 매출",
+   "약 2억 달러"
+  ]
+ ],
+ "category": "ai",
+ "id": "261015-ai-03",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

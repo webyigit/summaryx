@@ -1,0 +1,21 @@
+{
+ "title": "애플 홈뷰에 온도·습도 센서 탑재…LG·슈나이더 온도조절기와 방별 연동",
+ "originalTitle": "Apple HomeView Includes Temperature and Humidity Sensors",
+ "source": "MacRumors",
+ "url": "https://www.macrumors.com/2026/10/14/apple-homeview-includes-sensors/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "애플 기술 사양에 따르면 홈뷰는 탁상형과 벽걸이형 모두 온도·습도 센서를 갖췄다. 주변광 센서, 가속도계와 함께 들어간다. 실내용으로 설계돼 약 화씨 59~86도(섭씨 약 15~30도), 상대습도 30~70% 환경에서 쓰도록 돼 있다.",
+  "큰 소리로 오래 음악을 틀면 측정이 부정확해질 수 있고, 켠 뒤에는 센서 보정 시간이 지나야 값이 표시된다. 애플은 '애플 홈 컬렉션'의 LG전자·슈나이더 일렉트릭 온도조절기가 홈뷰, 홈팟, 홈팟 미니나 두 회사 전용 센서에서 여러 방의 온도·습도를 받아올 수 있다고 설명했다.",
+  "이 온도조절기는 홈 앱의 '적응형 온도' 기능을 지원해, 아이폰의 온디바이스 지능으로 집에 있는지, 잘 준비 중인지, 외출했는지에 따라 설정을 바꾼다. 미국 가격은 LG·슈나이더 실내 센서가 39.95달러부터, 온도조절기가 199.95달러부터이며, 홈뷰는 299달러로 11월 13일 나온다."
+ ],
+ "keyPoints": [
+  "홈뷰 두 모델 모두 온도·습도 센서 내장",
+  "LG·슈나이더 온도조절기가 방별 값 활용",
+  "온도조절기 199.95달러, 센서 39.95달러부터"
+ ],
+ "image": "https://images.macrumors.com/t/RWmJ8R2Tp9VLrE5bqyxAuC6_4Xc=/1600x/article-new/2026/10/homeview-base.jpg",
+ "id": "261015-applesamsung-05",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

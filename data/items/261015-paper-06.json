@@ -1,0 +1,43 @@
+{
+ "title": "AI에게 '머릿속으로 시점 바꿔보기'를 가르친다… SpatialASM",
+ "originalTitle": "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.13832",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "사람은 어려운 공간 문제를 풀 때 유용한 시점을 골라 머릿속에서 장면 배치를 다시 그려본다. 상하이 AI 연구소·푸단대·홍콩중문대 연구진은 이를 '능동적 공간 심상화(ASM)'라 부르고, 현재 시각-언어 모델(LVLM)은 이 능력이 약하다고 지적했다.",
+  "SpatialASM은 시뮬레이션한 공간 장면으로 학습 단계에서 이 능력을 모델에 심는다. 입력 이미지에 근거한 가상 시점을 만드는 새 시점 생성기를 이용해, 언제 어떻게 시점을 계획하고 장면을 상상할지 보여주는 단계별 추론 궤적과, 시점 전환 상상력을 키우는 관점 바꾸기 과제를 자동으로 만들어 학습시켰다.",
+  "MindCube·MMSI·ViewSpatial 등 7개 공간 벤치마크에서 Qwen3-VL·Qwen3.5 계열 4개 백본의 평균 정확도가 1.2~3.5점 올랐고, Spatial457-6d에서는 최대 8.7점, MindCube에서는 5.2점 향상됐다. 일반 시각 질의응답 성능은 기준 대비 0.6점 이내로 유지됐다. 공간 추론용 학습 데이터 부족을 해결할 확장 가능한 방법으로 제시됐다."
+ ],
+ "keyPoints": [
+  "사람처럼 시점 계획·장면 상상 학습",
+  "7개 공간 벤치마크 평균 1.2~3.5점↑",
+  "일반 VQA 성능은 0.6점 이내 유지"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Yuhong Liu, Shenxi Wu, Junyi Chi, Beichen Zhang, Xuanlang Dai, Jiaqi Wang, Yuhang Zang, Dahua Lin"
+  ],
+  [
+   "소속",
+   "상하이 AI 연구소, 푸단대, 홍콩중문대, CPII(InnoHK), 상하이 혁신연구원"
+  ],
+  [
+   "분야",
+   "컴퓨터비전(cs.CV) · 공간 추론·멀티모달"
+  ],
+  [
+   "arXiv ID",
+   "2610.13832"
+  ],
+  [
+   "코드",
+   "https://github.com/InternLM/SpatialASM"
+  ]
+ ],
+ "id": "261015-paper-06",
+ "category": "paper",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

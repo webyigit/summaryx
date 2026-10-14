@@ -1,0 +1,43 @@
+{
+ "title": "글 대신 선택지에 확률 매기는 9B '드렉스 1.5' 오픈소스…결정 모델 경쟁 가열",
+ "originalTitle": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
+ "source": "MarkTechPost",
+ "url": "https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "AI 에이전트가 '어떤 선택을 할지'만 빠르게 정하도록 글을 생성하지 않고 선택지별 확률을 내는 '결정 모델'이 잇따르고 있다. 네이스AI(Nace.AI)는 89억5000만 매개변수의 결정 모델 '드렉스 1.5(Drex 1.5)'를 허깅페이스에 공개했고, 오픈라우터에서도 쓸 수 있게 했다.",
+  "큐원 3.5 9B를 증류한 모델 위에 별도의 '포인터 헤드'를 얹어 각 선택지를 채점한다. 객관식·예/아니요·점수형 질문을 지원하고, 타입세이프의 비공개 모델 '제브(Jev)'와 같은 API를 써 기존 제브 사용자가 환경 변수 몇 개만 바꾸면 옮겨올 수 있다고 한다. 37개 벤치마크로 된 디시전 인덱스에서 58.08점으로 제브(57.96)와 사실상 동률이며, 긴 문서 처리에 강한 반면 GPQA 다이아몬드·MMLU-Pro 같은 지식·추론에서는 크게 뒤진다.",
+  "24GB GPU 한 장이나 애플 실리콘에서 돌릴 수 있고, 오픈라우터 가격은 입력 100만 토큰당 0.04달러다. 다만 텍스트·코드는 만들지 못하며, 사용 제한이 있는 Open RAIL-M 라이선스라 상업적 사용 전 조건 확인이 필요하다."
+ ],
+ "keyPoints": [
+  "선택지별 확률만 출력하는 9B 결정 모델 공개",
+  "디시전 인덱스 58.08점, 비공개 '제브'와 동률권",
+  "지식·추론은 약점, Open RAIL-M 라이선스"
+ ],
+ "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-4-1-1-1024x768.png",
+ "facts": [
+  [
+   "개발사",
+   "네이스AI(Nace.AI)"
+  ],
+  [
+   "모델",
+   "Drex 1.5, 89억5000만 매개변수"
+  ],
+  [
+   "기반 모델",
+   "MiMo-V2.6-Distill-Qwen-9B"
+  ],
+  [
+   "라이선스",
+   "Nace.AI Open RAIL-M"
+  ],
+  [
+   "공개처",
+   "Hugging Face nace-ai/drex-v1.5, OpenRouter"
+  ]
+ ],
+ "category": "ai",
+ "id": "261015-ai-04",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

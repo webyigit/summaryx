@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>층 깊이 방향에도 &#x27;멀티헤드&#x27; 어텐션을… 다중 스트림 어텐션 잔차(MSAR) | summaryx</title>
+<meta name="description" content="트랜스포머는 층을 쌓을 때 이전 층의 결과를 더하는 &#x27;잔차 연결&#x27;을 쓴다. 최근 제안된 어텐션 잔차(AttnRes)는 깊이 방향으로 내용에 따라 이전 층 표현을 골라 가져오는 방식으로, 깊이 축의 단일 스트림 어텐션으로 볼 수 있다. 연구진은 문장 방향의 멀티헤드 어텐">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="층 깊이 방향에도 &#x27;멀티헤드&#x27; 어텐션을… 다중 스트림 어텐션 잔차(MSAR)">
+<meta property="og:description" content="트랜스포머는 층을 쌓을 때 이전 층의 결과를 더하는 &#x27;잔차 연결&#x27;을 쓴다. 최근 제안된 어텐션 잔차(AttnRes)는 깊이 방향으로 내용에 따라 이전 층 표현을 골라 가져오는 방식으로, 깊이 축의 단일 스트림 어텐션으로 볼 수 있다. 연구진은 문장 방향의 멀티헤드 어텐">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261015-paper-05">
+<script>location.replace('../../#/a/261015-paper-05');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261015-paper-05">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">층 깊이 방향에도 &#x27;멀티헤드&#x27; 어텐션을… 다중 스트림 어텐션 잔차(MSAR)</h1>
+<p>트랜스포머는 층을 쌓을 때 이전 층의 결과를 더하는 &#x27;잔차 연결&#x27;을 쓴다. 최근 제안된 어텐션 잔차(AttnRes)는 깊이 방향으로 내용에 따라 이전 층 표현을 골라 가져오는 방식으로, 깊이 축의 단일 스트림 어텐션으로 볼 수 있다. 연구진은 문장 방향의 멀티헤드 어텐션에서 착안해 이를 깊이 방향 멀티헤드로 확장한 MSAR를 제안했다.</p><p>MSAR는 여러 스케일의 인과적 합성곱으로 헤드마다 다른 관점을 주어, 각 헤드가 서로 다른 맥락에서 과거 층 표현을 가져오게 한다. 가져온 여러 스트림은 가벼운 적응형 혼합으로 하나의 층 입력으로 합친다. 단일 스트림을 유지하다 필요할 때만 확장하므로 별도의 다중 스트림 저장·통신이 필요 없고 추가 비용도 작다.</p><p>18B·28B 규모 MoE 모델에서 12개 다운스트림 벤치마크 모두 기존 잔차 연결, mHC, AttnRes보다 좋았다. 스케일링 실험에서는 같은 손실에 도달하는 연산 효율이 표준 잔차 대비 1.58배로 AttnRes(1.35배), mHC(1.30배)를 앞섰다.</p>
+<p><a href="https://arxiv.org/abs/2610.13630">원문 보기</a></p>
+</body></html>

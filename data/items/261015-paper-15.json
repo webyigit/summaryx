@@ -1,0 +1,43 @@
+{
+ "title": "LLM의 창의성은 '롱테일' 성능으로 잰다",
+ "originalTitle": "Evaluating LLM Creativity through Long-Tail Performance",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.12998",
+ "publishedAt": "2026-10-09",
+ "summary": [
+  "LLM 창의성 벤치마크는 과제와 지표가 제각각이라 같은 개념을 재고 있는지 불분명하다. 연구진은 창의성을 '기준이 되는 입력-출력 분포에서 드문 쌍, 즉 롱테일 영역의 과제를 얼마나 잘 해내는가'로 정의하자고 제안했다. 이는 '새로움 × 품질'이라는 틀에 기반하며, 새로움은 사전학습 데이터에 없는 n-그램으로 측정한다.",
+  "15개 벤치마크와 26개 공개 가중치 모델로 검증한 결과, 창의성 벤치마크는 일반 벤치마크보다 롱테일 쪽에 더 치우쳐 있었다. 또 창의성·일반 벤치마크 모두에서 롱테일 부분집합으로 매긴 모델 순위가 LM-Arena의 사람 창의성 평가와 더 잘 맞았다.",
+  "연구진은 기존 벤치마크의 롱테일 일부만 평균 내는 저비용 진단 지표 q@Tail(α)도 내놨다. 이를 창의성 향상 기법에 적용해 보니 롱테일 성능을 높여 LLM 창의성을 키울 여지가 아직 크다는 결과가 나왔다. 코드와 데이터는 공개됐다."
+ ],
+ "keyPoints": [
+  "창의성=드문 입력-출력에서의 성능",
+  "롱테일 순위가 사람 평가와 더 일치",
+  "저비용 지표 q@Tail(α) 제안"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Yichen Wang, Tenghao Huang, Vishakh Padmakumar, Mina Lee"
+  ],
+  [
+   "소속",
+   "[확인 필요] (arXiv 초록 페이지에 표기 없음)"
+  ],
+  [
+   "분야",
+   "자연어처리(cs.CL) · LLM 평가·창의성"
+  ],
+  [
+   "arXiv ID",
+   "2610.12998"
+  ],
+  [
+   "코드",
+   "https://github.com/YichenZW/longtail-creativity"
+  ]
+ ],
+ "id": "261015-paper-15",
+ "category": "paper",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

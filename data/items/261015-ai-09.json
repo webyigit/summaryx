@@ -1,0 +1,39 @@
+{
+ "title": "기업 에이전트 플랫폼, 오픈AI 43%·앤트로픽 22%…벤처비트 설문 \"모델 교체 땐 59% 성능 하락\"",
+ "originalTitle": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+ "source": "VentureBeat",
+ "url": "https://venturebeat.com/orchestration/openais-ai-agent-platform-is-used-by-twice-as-many-companies-as-anthropics-new-venturebeat-survey-finds",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "기업들이 AI 에이전트를 실제 업무에 붙이면서 어떤 회사의 에이전트 플랫폼을 쓰는지가 관심사다. 벤처비트 인텔리전스가 9월 직원 100명 이상 기업 관계자를 대상으로 한 세 차례 설문(각 100여 명)에 따르면, 에이전트 오케스트레이션 플랫폼을 쓰는 107곳 중 43%가 오픈AI, 22%가 앤트로픽, 21%가 구글 플랫폼을 쓰고 있었다.",
+  "다만 12개월 안에 도입을 계획하는 61곳에서는 앤트로픽(33%)이 오픈AI(30%)를 앞섰다. 클라우드는 구글 클라우드(51%)가 가장 많았고, 주력 생산 환경 공급자도 구글이 32%로 1위였다. 결제 데이터를 집계한 램프 자료에서는 앤트로픽에 돈을 내는 기업(43.8%)이 오픈AI(39.8%)보다 많아, 측정 방식에 따라 결과가 달라진다.",
+  "운영 중인 앱의 모델을 바꾼 기업은 62%였고, 그중 59%가 성능 저하로 재작업하거나 되돌렸다. 교체에 손이 거의 안 갔다는 응답은 19%뿐이었다. 기사는 모델을 교체할 때 프롬프트·도구·평가를 다시 시험할 예산을 잡으라고 조언했다."
+ ],
+ "keyPoints": [
+  "에이전트 플랫폼 사용률 오픈AI 43%·앤트로픽 22%",
+  "도입 계획 기업에선 앤트로픽 33%로 선두",
+  "모델 교체 기업 59%가 성능 저하 겪어"
+ ],
+ "image": "https://images.ctfassets.net/jdtwqhzvc2n1/7CU5s9TEPWuw7aDuBVjnOt/aae0e958d2e8b44242099dccf5fccf42/lead-image-candidate-2x1.png?w=800&q=75",
+ "facts": [
+  [
+   "조사 기관",
+   "벤처비트 인텔리전스(VB Pulse)"
+  ],
+  [
+   "조사 시기",
+   "2026년 9월"
+  ],
+  [
+   "응답자",
+   "오케스트레이션 109명·인프라 102명·컨텍스트 113명"
+  ],
+  [
+   "대상",
+   "직원 100명 이상 기업·컨설턴트"
+  ]
+ ],
+ "category": "ai",
+ "id": "261015-ai-09",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

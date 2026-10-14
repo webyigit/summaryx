@@ -1,0 +1,35 @@
+{
+ "title": "피지컬 인텔리전스, 로봇 AI 모델 학습·추론 API 베타 공개…\"작게 시작\"",
+ "originalTitle": "Physical Intelligence Opens API Beta for Robot Model Training and Inference",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/physical-intelligence-api-beta-robot-training-inference",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "로봇용 시각-언어-행동(VLA) 모델을 개발하는 미국 샌프란시스코의 피지컬 인텔리전스(PI)가 10월 13일 자사 로봇 모델을 학습시키고 실행할 수 있는 API 베타를 발표했다. 다른 회사 로봇에 들어갈 '두뇌'를 공급하는 방향으로 한 걸음 더 나아갔다는 평가다.",
+  "개발자는 PI가 관리하는 인프라에서 모델을 미세조정하고 호스팅 추론을 쓸 수 있다. 시연 데이터를 올려 정책을 학습하고, 실제 하드웨어에서 시험한 뒤 실패한 상황 주변의 데이터를 더 모으는 방식이다. 신청서를 받아 팀 단위로 순차 합류시키며, PI는 소규모로 시작한다고 밝혔다. 사례로는 알몬드의 양팔 로봇 'Axol'이 API로 나흘 만에 부품 디버링 시연에 도달했고, 액터의 휠로더가 덤프트럭 적재 작업에 상업 투입된 장면이 소개됐다. 시연 대부분은 클라우드 추론을 썼고 일부는 네트워크 연결이 어려웠다고 PI는 전했다.",
+  "PI는 이미 오픈소스 저장소 openpi로 π0·π0-FAST·π0.5를 배포하지만, 데이터 처리·학습·서빙은 사용자가 직접 꾸려야 했다. 기사는 관리형 API가 하드웨어 중심 팀의 인프라 부담을 덜 수 있지만, 학습된 정책이 실제로 쓸모 있는 일을 안정적으로 해내는지가 여전히 핵심 질문이라고 짚었다."
+ ],
+ "keyPoints": [
+  "PI, 로봇 모델 미세조정·호스팅 추론 API 베타",
+  "신청 후 순차 합류…소규모로 시작",
+  "오픈소스 openpi 대비 인프라 부담 줄여"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/physical-intelligence-api-beta-demo-TMiVhYaVj1UiDbgNTiXlJLxNa0Ul1R.webp",
+ "facts": [
+  [
+   "기업",
+   "피지컬 인텔리전스(미국 샌프란시스코)"
+  ],
+  [
+   "발표일",
+   "2026년 10월 13일"
+  ],
+  [
+   "형태",
+   "API 베타(신청제)"
+  ]
+ ],
+ "id": "261015-robot-01",
+ "category": "robot",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

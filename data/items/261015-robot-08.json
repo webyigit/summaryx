@@ -1,0 +1,35 @@
+{
+ "title": "오사로 '사이트웍스', SKU 등록 없이 집고 담는 딥러닝 피킹…\"성능 떨어지는 재학습 모델은 배포 안 해\"",
+ "originalTitle": "OSARO SightWorks advances AI-powered robotic picking and packing",
+ "source": "Robotics 24/7",
+ "url": "https://www.robotics247.com/article/osaro-sightworks-advances-ai-powered-robotic-picking-and-packing",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "물류 로봇 소프트웨어 기업 오사로(OSARO)의 '사이트웍스'는 상품이 자주 바뀌는 풀필먼트 현장에서 로봇팔의 피킹·포장·키팅·팔레타이징을 돕는 AI 인식 소프트웨어다. 품목(SKU)마다 따로 등록하거나 프로그래밍하지 않고 물체와 잡을 지점을 알아내는 것이 특징이다.",
+  "공동창업자 프리드모어 CEO는 '딥러닝 우선' 제품이라며 피스 피킹 모델이 이미 수백만 개 품목으로 학습됐다고 주장했다. 미리 학습된 모델이 RGB·3D 데이터로 신뢰도 지도를 만들고, 흡착컵인지 집게인지 같은 말단 장치 특성과 공기압 등에 맞춰 잡는 방법을 바꾼다. 현장에는 GPU 컴퓨터·카메라·모델이 함께 들어가 이미지를 현장에서 처리하고, 클라우드 연결 시 작업 결과를 모아 재학습하되 성능이 나아질 때만 새 모델을 자동 배포한다. 바크박스의 반려견 장난감, 케이스 히스토리의 맞춤 아이폰 케이스 키팅에 쓰이고 있다.",
+  "프리드모어는 작은 파운데이션 모델이 앞으로 2년 안팎에 인식을 넘어 기본적인 로봇 제어까지 맡을 것으로 내다봤다. 큰 모델도 내부 시험했지만 연산 요구가 줄어야 통합업체에 상용 제공할 수 있다고 했다."
+ ],
+ "keyPoints": [
+  "SKU 등록 없이 물체·파지점 인식",
+  "성능 개선될 때만 재학습 모델 자동 배포",
+  "작은 파운데이션 모델로 로봇 제어 확대 전망"
+ ],
+ "image": "https://www.robotics247.com/images/2026_article/OSARO-SightWorks-packing-main-Robotics247-2026.jpg",
+ "facts": [
+  [
+   "기업",
+   "오사로(OSARO)"
+  ],
+  [
+   "제품",
+   "사이트웍스(SightWorks)"
+  ],
+  [
+   "적용 사례",
+   "바크박스·케이스 히스토리 키팅"
+  ]
+ ],
+ "id": "261015-robot-08",
+ "category": "robot",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

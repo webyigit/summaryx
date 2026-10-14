@@ -1,0 +1,35 @@
+{
+ "title": "갤봇 '패시지', 휴머노이드가 장애물 넘고 숙이고 옆으로 비켜 지나간다",
+ "originalTitle": "Galbot's PASSAGE Helps Humanoids Step Over, Duck Under and Squeeze Past Obstacles",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/galbot-passage-humanoid-obstacle-traversal",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "중국 베이징의 체화 AI 기업 갤봇이 휴머노이드가 어수선한 공간을 지나갈 방법을 스스로 고르게 하는 연구 프레임워크 'PASSAGE'를 10월 13일 X에 소개했다. 9월 발표한 논문의 후속 공개로, 낮은 장애물은 넘고, 위쪽 가로막이 아래로는 몸을 숙이고, 좁은 틈은 몸을 옆으로 돌려 빠져나간다.",
+  "핵심 문제는 발이 지나갈 길이 있어도 어깨나 머리가 부딪힐 수 있다는 점이다. PASSAGE는 짧은 동작 순서를 만드는 계획기와 주변 형상에 반응하며 실행하는 제어기를 한 쌍으로 묶어, 장애물 종류마다 별도 정책을 둘 필요가 없게 했다. 가상현실과 관성 모션캡처로 가상 장면 1500곳에서 사람 동작 100시간을 모아 학습했고, 로봇에서는 라이다 정보를 받아 젯슨 AGX 오린에서 지도나 외부 연산 없이 돌아간다.",
+  "시뮬레이션에서는 처음 보는 150개 장면 750회 시도 중 98.67%가 목적지에 도착했지만, 장애물에 전혀 닿지 않는 조건으로는 70.3%였다. 유니트리 G1으로 처음 보는 배치 50곳을 한 번씩 시험해 넘어짐·안전 개입 없이 모두 마쳤고 45회는 접촉도 없었다. 기사는 연구팀의 제한된 평가일 뿐 실제 배치 신뢰성의 근거는 아니며, 코드는 '곧 공개' 상태라고 전했다."
+ ],
+ "keyPoints": [
+  "넘기·숙이기·옆걸음 동작을 계획기·제어기 한 쌍으로",
+  "사람 동작 100시간 학습, 젯슨 오린 온보드 실행",
+  "실물 G1 시험 50회 무낙상…접촉 없는 건 45회"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/galbot-passage-demo-hero-mbqmPoCwca7fYJiDvmbG1qSZmPc5ka.webp",
+ "facts": [
+  [
+   "기업",
+   "갤봇(중국 베이징, 2023년 5월 설립)"
+  ],
+  [
+   "기술",
+   "PASSAGE(장애물 통과 프레임워크)"
+  ],
+  [
+   "시험 로봇",
+   "유니트리 G1"
+  ]
+ ],
+ "id": "261015-robot-02",
+ "category": "robot",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "낫싱, 스마트안경 2종 개발 중 보도…하나는 챗GPT 탑재, 하나는 카메라 없는 '듣는 안경'",
+ "originalTitle": "Nothing reportedly launching two pairs of smart glasses, one with barely any AI",
+ "source": "9to5Google",
+ "url": "https://9to5google.com/2026/10/14/nothing-smart-glasses-report/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "낫싱이 자체 AI 스마트안경 두 종을 개발하고 있다는 보도가 나왔다. 윈퓨처(WinFuture)의 롤란드 콴트가 '믿을 만한 소식통'을 인용해 블루스카이에 전한 내용으로, 낫싱은 공식 확인하지 않았다.",
+  "첫 모델은 레이밴 메타처럼 카메라를 달고 번역 같은 AI 기능을 갖추며, 구글 제미나이 대신 챗GPT를 연동해 안드로이드 XR을 쓰지 않을 것으로 전해졌다. 낫싱은 이미 이어폰과 폰 소프트웨어에 챗GPT를 연동해 왔다. 두 번째 모델은 훨씬 단순해 카메라와 AI 기능 없이 이어폰처럼 통화와 휴대폰 음성 비서 호출을 맡는다. 두 제품 모두 빛에 따라 색이 변하는 변색 렌즈를 쓴다고 한다.",
+  "가격과 출시일은 알려지지 않았다. 앞선 보도들은 낫싱 스마트안경 출시 시기를 2027년으로 봤고, 지난 7월에는 낫싱이 앞으로 AI 기기에 집중할 것이라는 보도도 있었다."
+ ],
+ "keyPoints": [
+  "낫싱 스마트안경 2종 개발 보도(미확인)",
+  "카메라·챗GPT 모델과 오디오 전용 모델",
+  "출시 2027년 전망, 가격 미정"
+ ],
+ "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/03/nothing-phone-4a-pro-21.jpg?quality=82&strip=all&resize=1200,628",
+ "facts": [
+  [
+   "기업",
+   "낫싱(Nothing)"
+  ],
+  [
+   "출처",
+   "윈퓨처 롤란드 콴트 보도"
+  ],
+  [
+   "상태",
+   "회사 미확인 보도"
+  ]
+ ],
+ "id": "261015-it-19",
+ "category": "it",
+ "collectedAt": "2026-10-15T02:31:57+09:00"
+}
