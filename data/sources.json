@@ -3249,6 +3249,13 @@
    "keywords": [
     "대전 맛집"
    ]
+  },
+  {
+   "name": "Bing News RSS(대전 빵집)",
+   "url": "https://www.bing.com/news/search?q=대전+빵집&format=rss",
+   "keywords": [
+    "대전 빵집"
+   ]
   }
  ],
  "eatsj": [
@@ -3271,6 +3278,21 @@
    "url": "https://www.newsis.com/realnews/",
    "keywords": [
     "세종 맛집"
+   ]
+  },
+  {
+   "name": "대전일보(세종 뿌리깊은 가게 인증)",
+   "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2303210",
+   "keywords": [
+    "세종 뿌리깊은 가게"
+   ]
+  },
+  {
+   "name": "중도일보(세종 전동·전의·소정면 맛집)",
+   "url": "https://m.joongdo.co.kr/view.php?key=20251221010008058",
+   "keywords": [
+    "세종 읍면 맛집",
+    "세종사랑맛집"
    ]
   }
  ],
@@ -3571,6 +3593,14 @@
     "단풍 절정",
     "가볼 만한 곳"
    ]
+  },
+  {
+   "name": "중부뉴스통신",
+   "url": "https://www.jungbunews.com/",
+   "keywords": [
+    "축제 개막",
+    "문화거리"
+   ]
   }
  ],
  "tripworld": [
@@ -3765,6 +3795,15 @@
     "당뇨",
     "콜레스테롤"
    ]
+  },
+  {
+   "name": "코메디닷컴",
+   "url": "https://kormedi.com/",
+   "keywords": [
+    "당뇨",
+    "혈당",
+    "비만약"
+   ]
   }
  ],
  "lipid": [
@@ -3855,6 +3894,13 @@
    "url": "https://www.petsmart.com/learning-center/reptile-care/",
    "keywords": [
     "crested gecko care guide"
+   ]
+  },
+  {
+   "name": "Chewy",
+   "url": "https://pet-health-content-media.chewy.com/",
+   "keywords": [
+    "crested gecko care sheet"
    ]
   }
  ],
@@ -4032,6 +4078,14 @@
     "Chanel",
     "Tiffany"
    ]
+  },
+  {
+   "name": "FashionNetwork España",
+   "url": "https://es.fashionnetwork.com/",
+   "keywords": [
+    "Uniqlo",
+    "Zara"
+   ]
   }
  ],
  "bcar": [
@@ -4124,6 +4178,22 @@
     "Coca-Cola",
     "PepsiCo"
    ]
+  },
+  {
+   "name": "Grocery Gazette",
+   "url": "https://www.grocerygazette.co.uk/",
+   "keywords": [
+    "KFC",
+    "Nescafé"
+   ]
+  },
+  {
+   "name": "ESM Magazine",
+   "url": "https://www.esmmagazine.com/",
+   "keywords": [
+    "Nescafé",
+    "Nestlé"
+   ]
   }
  ],
  "bbeauty": [
@@ -4168,6 +4238,15 @@
    "keywords": [
     "IKEA"
    ]
+  },
+  {
+   "name": "Cosmetics Business",
+   "url": "https://cosmeticsbusiness.com/",
+   "keywords": [
+    "Sephora",
+    "L'Oréal",
+    "P&G"
+   ]
   }
  ],
  "poemread": [
@@ -4203,6 +4282,13 @@
     "문학상",
     "시인"
    ]
+  },
+  {
+   "name": "Bing News RSS(새 시집, 최신순)",
+   "url": "https://www.bing.com/news/search?q=%EC%83%88+%EC%8B%9C%EC%A7%91&qft=sortbydate%3d%221%22&format=rss&setlang=ko",
+   "keywords": [
+    "시집"
+   ]
   }
  ],
  "aicert": [
@@ -4220,6 +4306,21 @@
    "keywords": [
     "AI Business Strategist",
     "microcredentials"
+   ]
+  },
+  {
+   "name": "Google Cloud Certification",
+   "url": "https://cloud.google.com/learn/certification",
+   "keywords": [
+    "Professional Agentic Architect"
+   ]
+  },
+  {
+   "name": "NVIDIA Certification",
+   "url": "https://www.nvidia.com/en-us/learn/certification/",
+   "keywords": [
+    "NCP-OUSD",
+    "NCP-ARI"
    ]
   }
  ],
@@ -4268,6 +4369,15 @@
     "Chanel",
     "Loewe",
     "luxury"
+   ]
+  },
+  {
+   "name": "하퍼스 바자 코리아(워치&주얼리)",
+   "url": "https://www.harpersbazaar.co.kr/fashion/watchnjewelry",
+   "keywords": [
+    "샤넬",
+    "반클리프 아펠",
+    "워치"
    ]
   }
  ],
@@ -4351,6 +4461,15 @@
     "명품",
     "컬렉션"
    ]
+  },
+  {
+   "name": "하퍼스 바자 코리아(워치&주얼리)",
+   "url": "https://www.harpersbazaar.co.kr/fashion/watchnjewelry",
+   "keywords": [
+    "샤넬",
+    "반클리프 아펠",
+    "워치"
+   ]
   }
  ],
  "luxprice": [
@@ -4365,6 +4484,14 @@
   {
    "name": "아크네 스튜디오 공식몰(남성 신상품)",
    "url": "https://www.acnestudios.com/kr/ko/man/new-arrivals/",
+   "keywords": [
+    "신상품",
+    "가격"
+   ]
+  },
+  {
+   "name": "아크네 스튜디오 공식몰(여성 신상품)",
+   "url": "https://www.acnestudios.com/kr/ko/woman/new-arrivals/",
    "keywords": [
     "신상품",
     "가격"
@@ -4426,6 +4553,37 @@
    "keywords": [
     "호수",
     "정지용"
+   ]
+  },
+  {
+   "name": "한국민족문화대백과사전 「절정」(본문 대조)",
+   "url": "https://encykorea.aks.ac.kr/Article/E0049814",
+   "keywords": [
+    "절정",
+    "이육사"
+   ]
+  },
+  {
+   "name": "경북매일 「마실을 가다 - 안동시 도산면 원천리」(이육사 「절정」 전문, 본문 대조)",
+   "url": "https://kbmaeil.com/article/201412190117731",
+   "keywords": [
+    "절정",
+    "이육사"
+   ]
+  },
+  {
+   "name": "파이낸셜뉴스 「도쿄 하늘 아래 핀 윤동주의 시」(「쉽게 씌어진 시」 전문, 본문 대조)",
+   "url": "https://www.fnnews.com/news/202510172324319518",
+   "keywords": [
+    "쉽게 씌어진 시",
+    "윤동주"
+   ]
+  },
+  {
+   "name": "다음카페 문학과 고전 「쉽게 씌어진 시」 게시글(본문 대조)",
+   "url": "https://m.cafe.daum.net/Jaemin/NLaj/23",
+   "keywords": [
+    "쉽게 씌어진 시"
    ]
   }
  ],
