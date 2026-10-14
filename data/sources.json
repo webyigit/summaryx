@@ -166,6 +166,14 @@
    "keywords": [
     "AI 대전환"
    ]
+  },
+  {
+   "name": "Bing News RSS (AX 전환 최신순)",
+   "url": "https://www.bing.com/news/search?q=AX+%EC%A0%84%ED%99%98&qft=sortbydate%3d%221%22&format=rss&setlang=ko&cc=KR",
+   "keywords": [
+    "AX 전환",
+    "전사 AX"
+   ]
   }
  ],
  "car": [
@@ -463,6 +471,15 @@
     "통신",
     "IT",
     "국감"
+   ]
+  },
+  {
+   "name": "디일렉",
+   "url": "https://www.thelec.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "통신",
+    "AI 구독",
+    "IT 서비스"
    ]
   }
  ],
@@ -1516,6 +1533,14 @@
    "keywords": [
     "로봇",
     "CES"
+   ]
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/category/artificial-intelligence/",
+   "keywords": [
+    "robotics startup",
+    "physical AI"
    ]
   }
  ],
@@ -2572,6 +2597,14 @@
     "나라셀라",
     "와인 상장사"
    ]
+  },
+  {
+   "name": "푸드아이콘",
+   "url": "https://www.foodicon.co.kr/",
+   "keywords": [
+    "와인 시음회",
+    "와인 수입사 상담회"
+   ]
   }
  ],
  "cardesign": [
@@ -3310,6 +3343,22 @@
     "협업",
     "컬렉션"
    ]
+  },
+  {
+   "name": "Bing 뉴스 RSS 남성복",
+   "url": "https://www.bing.com/news/search?q=%EB%82%A8%EC%84%B1%EB%B3%B5&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "남성복",
+    "남성 전문관"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "남성복",
+    "패션 협업"
+   ]
   }
  ],
  "shopdeal": [
@@ -3390,6 +3439,14 @@
    "keywords": [
     "신작 웹툰",
     "웹툰 IP 게임"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "웹툰",
+    "만화"
    ]
   }
  ],
@@ -3523,6 +3580,22 @@
    "keywords": [
     "일본 여행",
     "해외 가을 여행"
+   ]
+  },
+  {
+   "name": "트래블데일리",
+   "url": "https://www.traveldaily.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "전세기",
+    "해외 미식"
+   ]
+  },
+  {
+   "name": "여행신문",
+   "url": "https://www.traveltimes.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "해외 골프 여행",
+    "여행지"
    ]
   }
  ],
