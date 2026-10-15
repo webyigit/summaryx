@@ -1,0 +1,21 @@
+{
+ "title": "AI가 찾은 리눅스 커널 'Vghost' 결함…로컬 사용자 루트 탈취, 가상머신 탈출도 가능",
+ "originalTitle": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "리눅스 커널의 vhost 하위 시스템에서 'Vghost'로 불리는 결함 CVE-2026-74580이 공개됐다. 텐센트 주췌(Zhuque) 연구소가 커널 취약점 연구용 다중 에이전트 AI 'Corvus AI'로 찾아냈다. 커널 4.11부터 7.2-rc4까지 영향을 받으며, /dev/vhost-net 같은 장치를 열 수 있는 로컬 사용자가 커널 메모리를 마음대로 읽고 써 루트 권한을 얻을 수 있다.",
+  "원인은 실행 중인 큐의 링 주소·크기를 바꿀 때 메모리 매핑 캐시를 비우지 않아 낡은 주소 변환이 남는 문제로, 2017년과 2020년의 서로 다른 코드 변경이 겹쳐 생겼다. 가상 IOMMU 뒤에 virtio 장치를 두는 특정 구성에서는 신뢰할 수 없는 게스트가 호스트의 QEMU 프로세스를 장악할 수도 있고, 이 경로에는 우회책이 없다. 텐센트는 배포판 커널 5종에서 루트 탈취를 재현했다.",
+  "수정은 재설정 때 캐시를 비우는 커밋으로 이뤄졌고, 레드햇·아마존 리눅스·오라클 리눅스는 패치를 냈다. 우분투는 22.04를 고쳤고 24.04·26.04는 진행 중이다. 심각도 점수는 kernel.org 8.8, 레드햇 7.3 등으로 갈리며 실제 악용 보고는 없다. 패치 전에는 vhost 장치 접근 권한을 줄이라고 권고됐다."
+ ],
+ "keyPoints": [
+  "커널 4.11~7.2-rc4 영향, 로컬 루트 탈취",
+  "텐센트 다중 에이전트 AI가 발견",
+  "일부 구성선 게스트→호스트 탈출 가능"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhavZnpNnmOBy6Wnkh7wfYD4-I32k65R7uyhYW32Doh3YVqtfJaagZZ_uo9JN-cixODo6h846eR89Aa55TGuMKfXmpjZEVZQ0ssFoP4-qVX6qrvSoyfRsu_q3MQcLKwolyKeE3Lw3MByz2Su8O0XOdRWNkJmyBdwpxsAtxi5y2goE7RhOSBPOLh4Evb60c/s1600/linux-exploit.jpg",
+ "id": "261015-security-08",
+ "category": "security",
+ "collectedAt": "2026-10-15T17:25:51+09:00"
+}

@@ -1,0 +1,21 @@
+{
+ "title": "윈도 스마트스크린 보호 구역(VBS 엔클레이브)서 코드 실행…4바이트 쓰기·타이밍 버그 연쇄",
+ "originalTitle": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "보안업체 도옌섹(Doyensec)이 윈도가 시스템이 뚫려도 비밀을 지키려고 쓰는 격리 메모리 영역 'VBS 엔클레이브' 안에서 자신들의 코드를 실행하는 데 성공했다고 공개했다. 대상은 마이크로소프트 디펜더 스마트스크린의 '향상된 피싱 보호' 기능을 맡은 SFAPE.dll로, 사용자가 윈도 로그인 비밀번호를 위험한 곳에 입력하면 경고하려고 비밀번호 해시를 보관한다.",
+  "공격은 원격이 아니라 이미 기기에서 낮은 수준의 코드가 실행 중이어야 하는 로컬 공격이다. 초기화 함수를 두 번째 부를 때 주소 검사 없이 고정 4바이트 값을 원하는 주소에 쓰는 결함에서 출발해, 타이밍 버그와 메모리 초기화를 엮어 엔클레이브가 실행할 코드 목록을 바꿨다. 격리는 깨졌지만 비밀번호 탈취까지 시연하지는 않았다.",
+  "결함은 CVE-2026-83498(CVSS 7.8)로, 마이크로소프트는 9월 8일 누적 업데이트 KB5124008로 윈도 11 24H2·25H2에서 고쳤고 악용 정황은 없었다고 밝혔다. 다만 윈도에는 취약한 엔클레이브를 일괄 차단하는 목록이 없어 비슷한 결함이 있는 옛 엣지 엔클레이브가 여전히 로드될 수 있다는 점이 과제로 지적됐다."
+ ],
+ "keyPoints": [
+  "스마트스크린 엔클레이브 격리 깨고 코드 실행",
+  "로컬 공격, 9월 누적 업데이트로 수정",
+  "취약 엔클레이브 차단 목록 부재 지적"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizNi7OCo6m5vsFkEP85LndyXnfiDgk2h5R0WwW_yHZ7mdK6Uh9xuLaI5ddFQJ45fW7jG8eC4VtIHJT1IQaUJCoAEMClMEiv9dA9kASwDQJj4l61ZSIlqW2bw605LQLL5kNUszoxI8Wkr54oguKY7guQGE9rwUmvzCVUjt19-0pWJpxir366NU5eqopHmk/s1600/enclave.jpg",
+ "id": "261015-security-14",
+ "category": "security",
+ "collectedAt": "2026-10-15T17:25:51+09:00"
+}

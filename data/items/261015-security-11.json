@@ -1,0 +1,21 @@
+{
+ "title": "오픈AI 회의실에 녹음 장치 몰래 설치한 직원 체포…\"사내 기술 대화 엿들으려\"",
+ "originalTitle": "Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say",
+ "source": "SecurityWeek (AP)",
+ "url": "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "오픈AI 엔지니어 압둘라흐만 알포잔(35, 사우디 국적)이 회사 회의실에 녹음 장치를 숨겨 기술 관련 민감한 대화를 엿들으려 한 혐의로 기소됐다. 오픈AI가 장치를 발견한 지 약 일주일 뒤 금요일에 체포됐고, 샌프란시스코 연방법원에 형사 고소장이 제출됐다. 혐의는 장치를 이용한 구두 통신 감청이다.",
+  "고소장에 따르면 장치는 9월 30일 회의실 TV 뒤 USB 포트에 꽂힌 채 화장지에 싸여 발견됐다. 설치 당시 회의실엔 카메라가 없었지만, 보안 영상에는 출입 권한이 없는 그가 전달 회의실 근처에 여섯 차례 나타난 모습이 담겼다. 오픈AI가 카메라를 단 뒤에는 그가 들어와 TV 뒤를 확인하는 장면이 찍혔다. 그는 업무 도구로 건물 주소·회의실·수용 인원·일정을 찾아본 것으로 조사됐다.",
+  "오픈AI는 '정교한 녹음 장치'를 발견해 FBI에 신고하고 해당 직원을 해고했다. 회사는 자사 모델로 직원을 특정했으며, 모델 가중치·소스 코드·고객 데이터에 접근한 정황은 없다고 밝혔다. FBI 수사는 계속되고 있고, 녹음한 대화를 어디에 쓰려 했는지는 고소장에 나오지 않았다."
+ ],
+ "keyPoints": [
+  "회의실 TV 뒤 USB에 녹음 장치 숨겨",
+  "구두 통신 감청 혐의로 기소·해고",
+  "오픈AI \"모델 가중치·코드 접근 정황 없어\""
+ ],
+ "image": "https://www.securityweek.com/wp-content/uploads/2026/06/OpenAI.jpeg",
+ "id": "261015-security-11",
+ "category": "security",
+ "collectedAt": "2026-10-15T17:25:51+09:00"
+}

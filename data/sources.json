@@ -1254,6 +1254,14 @@
     "wine industry news",
     "wine tourism"
    ]
+  },
+  {
+   "name": "The Irish Times - Drink",
+   "url": "https://www.irishtimes.com/food/drink/",
+   "keywords": [
+    "wine trends",
+    "John Wilson"
+   ]
   }
  ],
  "game": [
@@ -2720,6 +2728,13 @@
     "최현태 기자의 와인홀릭",
     "소믈리에 대회"
    ]
+  },
+  {
+   "name": "한국경제",
+   "url": "https://www.hankyung.com/",
+   "keywords": [
+    "와인 수입사 출시"
+   ]
   }
  ],
  "cardesign": [
@@ -3152,6 +3167,14 @@
     "와인",
     "와인셀러"
    ]
+  },
+  {
+   "name": "The Irish Times - Drink",
+   "url": "https://www.irishtimes.com/food/drink/",
+   "keywords": [
+    "decanting",
+    "John Wilson"
+   ]
   }
  ],
  "winedeal": [
@@ -3212,6 +3235,14 @@
    "url": "https://pyony.com/posts/",
    "keywords": [
     "편의점 이달의 와인"
+   ]
+  },
+  {
+   "name": "중앙이코노미뉴스",
+   "url": "https://www.joongangenews.com/",
+   "keywords": [
+    "와인나라 가을장터",
+    "와인 아울렛"
    ]
   }
  ],

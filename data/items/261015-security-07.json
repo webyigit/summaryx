@@ -1,0 +1,21 @@
+{
+ "title": "안드로이드 뱅킹 트로이목마 '히루도', 은행 앱을 변조판으로 바꿔치기해 보안 검사 무력화",
+ "originalTitle": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "네덜란드 모바일 보안업체 스렛패브릭(ThreatFabric)이 새 안드로이드 뱅킹 트로이목마 '히루도(Hirudo)'를 공개했다. 정상 은행 앱을 지우고 보안 검사를 피하도록 고친 변조판으로 바꿔 까는 것이 특징이다. 인도네시아 은행 앱 8종의 변조판이 확인됐고, 계정 탈취 대상은 인도네시아·중국·인도·멕시코·모로코·태국에 걸쳐 있다.",
+  "악성코드는 쇼핑·성인 영상·엔터테인먼트 앱으로 위장한 드로퍼(Shopora, KoiShort, ZoyaTV 등)로 퍼진다. 가짜 구글 플레이 페이지와 메타 플랫폼 광고로 피해자를 끌어들인 뒤, 앱 안에서 가짜 업데이트를 띄워 히루도를 설치하게 한다. 설치 뒤에는 인터넷이 막힌 가짜 VPN을 설정해 클라우드 기반 평판 검사를 줄이려 한다. 계정 탈취, 가짜 PIN·로그인 화면, 화면·카메라 캡처, 문자 탈취, 원격 조종 기능을 갖췄다.",
+  "변조된 은행 앱은 정상 서명 인증서를 흉내 내고 화면 캡처 차단(FLAG_SECURE)을 없애며, 플레이 인테그리티 요청을 공격자 서버로 넘긴다. 스렛패브릭은 이 엔진이 다른 앱·지역으로도 쉽게 옮겨질 수 있다며 은행이 서버 쪽에서 앱 신호를 검증해야 한다고 권고했다."
+ ],
+ "keyPoints": [
+  "정상 은행 앱을 변조판으로 바꿔 설치",
+  "인도네시아 은행 앱 8종 변조판 확인",
+  "가짜 업데이트·메타 광고로 유포"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj010OXrg2ZBrxwqSnpzd8SrIDY_dYOMtdnzIpG7YnCjv1QB58_HylDTkfFmXtZYci90doRcSrPdFfYLowM_S5t2RpD6UkCoWveJrKajQS-7d3sDtyI22FYN0TKy-pQpzWScUB_ROhXRNzZi9dzhgg02kH3WVtdGPNWYBLKv8qZgsa9kREW1SvZ2LTF2AWV/s1600/android-banking.jpg",
+ "id": "261015-security-07",
+ "category": "security",
+ "collectedAt": "2026-10-15T17:25:51+09:00"
+}
