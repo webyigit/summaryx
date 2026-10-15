@@ -1,0 +1,35 @@
+{
+ "title": "캐딜락 F1 머신 배선 16km 넘을 수도…GM이 밝힌 데이터·시뮬레이터 운용",
+ "originalTitle": "GM Says Cadillac's F1 Car May Carry More Than 10 Miles Of Wiring",
+ "source": "Carscoops",
+ "url": "https://www.carscoops.com/2287761/gm-cadillac-f1-10-miles-wiring/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "F1 신생 팀 캐딜락의 경주차 MAC-26에 약 10마일(16km)의 배선이 들어갈 수 있다고 GM이 영상 시리즈 'What Makes Fast'에서 밝혔다. 메르세데스-AMG 페트로나스 팀 차량의 배선은 약 3km로 알려져 있다.",
+  "차에 달린 센서는 엔진 출력, 타이어 공기압, 차 주변 공기 흐름 속도, 방향 변화를 밀리초 단위로 잰다. 이 데이터는 서킷의 엔지니어와 영국 실버스톤·미국 샬럿 운영 거점으로 실시간 전송돼 레이스 판단과 다음 경기 준비에 쓰이고, 샬럿의 드라이버 인 더 루프 시뮬레이터에도 들어가 차의 반응성과 예측 가능성을 평가한다.",
+  "발테리 보타스는 경기 뒤 시뮬레이터로 실제 차와 가상 차의 느낌을 맞춘다. 2026 마이애미 그랑프리 전에는 시뮬레이터 지원 드라이버 에이든 프라이스가 가상 서스펜션 개선안을 시험했고, GM 설계·생산 매니저 그렉 프라이스가 부품 제작을 도와 다음 날 아침 마이애미로 공수했다."
+ ],
+ "keyPoints": [
+  "MAC-26 배선 약 16km, 벤츠 팀의 5배 이상",
+  "센서 데이터 실버스톤·샬럿에 실시간 전송",
+  "시뮬레이터 개선안을 하룻밤 새 실차 부품으로"
+ ],
+ "image": "https://www.carscoops.com/img/gallery/gm-says-cadillacs-f1-car-may-carry-more-than-10-miles-of-wiring/l-intro-1792081070.jpg",
+ "facts": [
+  [
+   "팀",
+   "캐딜락 F1(GM)"
+  ],
+  [
+   "차량",
+   "MAC-26"
+  ],
+  [
+   "배선",
+   "약 10마일(16km)"
+  ]
+ ],
+ "id": "261016-car-13",
+ "category": "car",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

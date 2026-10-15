@@ -1,0 +1,35 @@
+{
+ "title": "테슬라, 중앙분리대 넘어 1명 숨진 사고에 'FSD/오토파일럿 작동' 보고…세부는 비공개",
+ "originalTitle": "Tesla confirms Autopilot/FSD was 'engaged' when car crossed a median and killed a man",
+ "source": "Electrek",
+ "url": "https://electrek.co/2026/10/15/tesla-driver-assist-median-crossing-vineland/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "8월 22일 오전 미국 뉴저지주 바인랜드 55번 도로에서 남쪽으로 달리던 테슬라가 잔디 중앙분리대를 넘어 나무를 들이받은 뒤 반대 차로의 쉐보레 SUV와 정면충돌했다. SUV 운전자인 68세 필립 이스트먼이 숨졌고 테슬라 운전자와 SUV 동승자는 중상을 입었다. 경찰 발표에는 운전 보조 기능 언급이 없었다.",
+  "그런데 테슬라가 미국 도로교통안전국(NHTSA) 상시 보고 명령에 따라 낸 보고서에는 2021년형 모델 Y의 자동화 상태가 자체 텔레매틱스 기준 '작동 확인'으로 적혀 있었다. 이 보고 의무는 충돌 30초 안에 레벨2 운전 보조가 켜져 있던 사망 사고에 적용된다. 다만 테슬라는 사고 경위, 소프트웨어 버전, 운영 영역 여부를 영업 비밀로 가렸다.",
+  "Electrek은 '30초 이내 작동'은 보고 기준일 뿐 분리대를 넘을 때 시스템이 조향했다는 증거는 아니라고 짚었다. 그러면서도 운전자 책임인 레벨2 시스템을 믿게 만드는 마케팅과 비공개 관행이 사고 원인 규명을 막는다고 비판했고, 테슬라는 이미 사고 보고 방식으로 NHTSA 조사를 받고 있다."
+ ],
+ "keyPoints": [
+  "NHTSA 보고서에 '운전 보조 작동 확인' 표기",
+  "경위·SW 버전 등은 영업 비밀로 비공개",
+  "보고 기준일 뿐 조향 증거는 아니라는 지적"
+ ],
+ "image": "https://electrek.co/wp-content/uploads/sites/3/2026/10/fatal-tesla-crash.jpeg?quality=82&strip=all&resize=1200,628",
+ "facts": [
+  [
+   "발생",
+   "2026년 8월 22일, 미국 뉴저지 바인랜드"
+  ],
+  [
+   "차량",
+   "2021년형 테슬라 모델 Y"
+  ],
+  [
+   "근거",
+   "NHTSA 상시 보고 명령(SGO) 보고서"
+  ]
+ ],
+ "id": "261016-car-06",
+ "category": "car",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

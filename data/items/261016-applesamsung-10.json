@@ -1,0 +1,35 @@
+{
+ "title": "iOS 27, 홈 화면 한 페이지 채우는 '초대형' 위젯 추가…캘린더·음악 등 11개 앱 17종",
+ "originalTitle": "iOS 27 adds brand new widgets for your iPhone's Home Screen",
+ "source": "9to5Mac",
+ "url": "https://9to5mac.com/2026/10/14/ios-27-adds-brand-new-widgets-for-your-iphones-home-screen/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "iOS 27에 '초대형(extra-large)' 위젯 크기가 새로 생겼다. 지금까지 가장 큰 '대형' 위젯은 홈 화면 칸 4×4를 차지했지만, 초대형 위젯은 4×6으로 늘어나 홈 화면 한 페이지를 거의 다 채운다.",
+  "9to5Mac에 따르면 기본 탑재된 초대형 위젯은 11개 애플 앱의 17종이다. 캘린더(목록·다음 일정), 홈(액세서리), 음악(최근 재생·추천·인기 차트), 뉴스(오늘·주제), 메모(폴더·빠른 메모), 사진(앨범·추천), 미리 알림(목록), 단축어, 주식(관심 목록), TV(이어 보기), 날씨(예보)가 포함됐다. 큰 화면 덕분에 일정이 많은 달력이나 긴 할 일 목록을 한 번에 볼 수 있다.",
+  "초대형 위젯은 모든 아이폰에서 쓸 수 있지만, 안쪽 화면이 큰 아이폰 듀오를 염두에 둔 기능으로 보인다고 매체는 분석했다. 폴더블 출시에 맞춰 iOS 화면 구성도 넓은 화면 중심으로 바뀌는 흐름이다."
+ ],
+ "keyPoints": [
+  "4×6 크기 '초대형' 위젯 신설",
+  "11개 앱 17종 기본 위젯 제공",
+  "아이폰 듀오 큰 화면 겨냥 분석"
+ ],
+ "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/shortcuts-widget-ios-27-extra-large.jpg?quality=82&strip=all&resize=1200,628",
+ "facts": [
+  [
+   "OS",
+   "iOS 27"
+  ],
+  [
+   "위젯 크기",
+   "초대형 4×6(기존 대형 4×4)"
+  ],
+  [
+   "기본 위젯",
+   "11개 앱 17종"
+  ]
+ ],
+ "id": "261016-applesamsung-10",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

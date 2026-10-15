@@ -1,0 +1,35 @@
+{
+ "title": "컨테이너 3개에 휴머노이드 공장을…스웨덴 스타트업 120ft, 57만6000유로로 출범",
+ "originalTitle": "Swedish Startup 120ft Wants to Fit a Humanoid-Run Factory Into Three Containers",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/120ft-sweden-humanoid-microfactories-funding",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "스톡홀름의 스타트업 120ft가 엔젤 투자자 22명에게서 57만6000유로를 받아 공개 활동을 시작했다. 40피트 컨테이너 3개로 이뤄진 '마이크로 공장'이 핵심으로, 하나는 부품 준비, 하나는 조립, 하나는 검사·포장을 맡는다. 브랜드는 로봇을 사거나 공장을 운영하지 않고 완제품 1개당 비용을 내며, 120ft가 설비를 소유·운영하고 로봇을 여러 고객이 함께 쓴다.",
+  "소형 가전·전자제품이 대상이며 최소 생산 단위는 100개다. 초기 시범은 5kg 미만의 단단한 부품을 나사나 압입으로 결합하는 작업에 한정하고, 케이블·유연 소재·접착은 나중에 다룬다. 고객이 부품 목록·도면·품질 기준을 내면 시뮬레이션으로 검증한 생산 지시로 바꾸고, 'Factory OS'가 AI 모델과 로봇을 조율한다.",
+  "회사는 조립 기술 하나를 프로그래밍하는 데 2025년 7주, 2026년 7시간이 걸렸고 2027년 7분이 목표라고 밝혔다. 기사는 이 수치가 측정값이 아닌 전망이며, 작업 성공률·사람 개입 수치는 공개되지 않았다고 짚었다. 웹사이트 이미지의 로봇은 유니트리 G1으로 보이지만 회사는 확인하지 않았다."
+ ],
+ "keyPoints": [
+  "40피트 컨테이너 3개로 휴머노이드 마이크로 공장",
+  "완제품 단위 과금, 최소 100개부터 생산",
+  "엔젤 22명에게 57만6000유로 투자 유치"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/120ft-container-microfactory-N0J9HxRIyTSjbjXoj80ncRPF15eKnl.webp",
+ "facts": [
+  [
+   "기업",
+   "120ft(스웨덴 스톡홀름)"
+  ],
+  [
+   "투자",
+   "57만6000유로(엔젤 22명)"
+  ],
+  [
+   "대표",
+   "마르틴 빌레르스"
+  ]
+ ],
+ "id": "261016-robot-03",
+ "category": "robot",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

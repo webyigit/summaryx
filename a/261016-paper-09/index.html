@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>추론 도중 &#x27;지금 얼마나 맞고 있나&#x27;를 추적하는 PPO… TPPO | summaryx</title>
+<meta name="description" content="언어모델 추론을 강화학습으로 훈련할 때 많이 쓰는 PPO는 &#x27;비평가(critic)&#x27;가 각 단계의 가치를 추정한다. 하지만 정답 여부가 맨 끝에만 주어지면, 비평가는 추론이 진행되며 가치가 어떻게 바뀌는지 제대로 따라가지 못한다. 연구진은 연속된 앞부분(prefix)의 ">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="추론 도중 &#x27;지금 얼마나 맞고 있나&#x27;를 추적하는 PPO… TPPO">
+<meta property="og:description" content="언어모델 추론을 강화학습으로 훈련할 때 많이 쓰는 PPO는 &#x27;비평가(critic)&#x27;가 각 단계의 가치를 추정한다. 하지만 정답 여부가 맨 끝에만 주어지면, 비평가는 추론이 진행되며 가치가 어떻게 바뀌는지 제대로 따라가지 못한다. 연구진은 연속된 앞부분(prefix)의 ">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261016-paper-09">
+<script>location.replace('../../#/a/261016-paper-09');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261016-paper-09">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">추론 도중 &#x27;지금 얼마나 맞고 있나&#x27;를 추적하는 PPO… TPPO</h1>
+<p>언어모델 추론을 강화학습으로 훈련할 때 많이 쓰는 PPO는 &#x27;비평가(critic)&#x27;가 각 단계의 가치를 추정한다. 하지만 정답 여부가 맨 끝에만 주어지면, 비평가는 추론이 진행되며 가치가 어떻게 바뀌는지 제대로 따라가지 못한다.</p><p>연구진은 연속된 앞부분(prefix)의 가치가 로그 오즈 공간에서 더해지는 베이즈 분해를 갖는다는 점을 보였다. 이를 바탕으로 위치별 스칼라 출력을 더해 가치 로짓을 만드는 TPPO를 설계하고, 최종 결과 감독으로 재구성한 가치에 맞춰 학습시켰다.</p><p>수학 추론 종합 점수가 PPO 대비 Qwen3-4B-Base에서 7.0점, Qwen3-8B-Base에서 8.4점 올랐고, 분포 밖 일반화도 좋아졌다. Qwen3-4B, Qwen2.5-Math-1.5B, Qwen3.5-9B와 카운트다운·과학 코딩 과제에서도 향상이 이어졌으며, 가치 변화 추적과 이점(advantage) 추정이 더 정확해졌다.</p>
+<p><a href="https://arxiv.org/abs/2610.16794">원문 보기</a></p>
+</body></html>

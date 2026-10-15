@@ -1,0 +1,43 @@
+{
+ "title": "실제 사용자 행동 기록이 LLM을 똑똑하게 만든다… Vela",
+ "originalTitle": "Vela: User Behavior as Supervision Sparks LLM Intelligence",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.14709",
+ "publishedAt": "2026-10-10",
+ "summary": [
+  "개인 비서나 추천 시스템에 쓰이는 LLM은 사용자의 취향과 다음 행동을 오랜 기간에 걸쳐 짐작해야 한다. 그런데 지금의 학습은 정적인 글이나 합성 데이터에 기대고 있어, 시간에 따라 바뀌는 행동을 담지 못한다. AllSpark Research 연구진은 실제 사용자 행동 기록 자체를 학습 신호로 쓰자고 제안했다.",
+  "Vela는 익명화된 사용자 10만 명의 행동 기록을 91개 실제 과제 템플릿에 맞춰 10만 개 과제와 풀이 궤적으로 바꾼다. 난이도 필터와 궤적 채택 기준을 거쳐 약 7만 5천 개 과제를 남겼다.",
+  "이 궤적으로 Qwen3.6-35B-A3B를 미세조정하자 사용자 관련 과제에서 최대 11.5점, 일반 벤치마크에서 평균 4점이 올랐다. 데이터를 늘릴수록 사용자 관련 성능이 더 좋아졌고, 미세조정 뒤 강화학습을 하면 기본 모델에서 바로 강화학습한 것보다 최대 7.7점 높았다. 연구진은 실제 사용자 행동이 확장 가능한 감독 신호라고 주장했다."
+ ],
+ "keyPoints": [
+  "사용자 10만 명 행동 기록을 과제로 변환",
+  "사용자 과제 최대 11.5점·일반 평균 4점↑",
+  "미세조정 후 강화학습 최대 7.7점 우위"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Yang Xiao, Yusong Sun, Haoyi Wu 외 17명(Chuan Mu 포함)"
+  ],
+  [
+   "소속",
+   "AllSpark Research (Hugging Face 논문 페이지 표기)"
+  ],
+  [
+   "분야",
+   "LLM 학습 데이터 · 사용자 모델링"
+  ],
+  [
+   "arXiv ID",
+   "2610.14709"
+  ],
+  [
+   "코드",
+   "https://github.com/AllSpark-Research/Vela"
+  ]
+ ],
+ "id": "261016-paper-10",
+ "category": "paper",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

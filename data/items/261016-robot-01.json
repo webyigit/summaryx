@@ -1,0 +1,39 @@
+{
+ "title": "애질리티 '디지트 5', 9분 충전에 하루 20시간 넘게 일한다…배터리 파트너는 英 나이오볼트",
+ "originalTitle": "Nine Minutes to Recharge: Agility Picks Nyobolt for Digit 5's Long Working Day",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/agility-digit-5-nyobolt-nine-minute-charging",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "미국 휴머노이드 기업 애질리티 로보틱스가 10월 15일 '디지트 5'의 9분 충전 시스템에 쓸 배터리 기술 파트너로 영국 케임브리지의 나이오볼트(Nyobolt)를 지정했다. 9분 충전 사양은 9월 디지트 5 공개 때 이미 나왔고, 이번 발표는 기술 파트너를 밝힌 것이다.",
+  "애질리티는 90분 일하고 9분 충전하는 주기로 24시간 중 20시간 넘게 가동할 수 있다고 설명했다. 작동 대비 충전 시간 비율은 디지트 4의 2:1에서 10:1로 높아진다. 기사는 이 비율만으로 계산하면 가동률이 약 67%에서 91%(하루 16시간→21.8시간)로 오르지만, 이동·정비·지연은 빠진 산술 값이라고 짚었다. 얼리 액세스는 2027년 상반기 예정이다.",
+  "나이오볼트는 자체 음극 소재·셀·전력전자를 개발하는 회사로, 더 작고 가벼운 팩에서 더 큰 출력이 필요했다고 밝혔다. 다만 팩 용량·무게·충전기 출력·수명 시험 결과는 공개되지 않았다. 애질리티는 투자자 설명회에서 디지트 5 출시 시점 부품원가를 약 15만 달러로 제시했으며, 실제 고객 현장에서 성능이 유지되는지는 아직 검증이 남았다."
+ ],
+ "keyPoints": [
+  "디지트 5 배터리 파트너로 나이오볼트 선정",
+  "90분 작동·9분 충전, 하루 20시간+ 가동 목표",
+  "팩 용량·수명 등 세부 사양은 비공개"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/agility-digit-5-nyobolt-battery-partnership-wZyC7rQNTwClaq49yciqf6A68HyZlc.webp",
+ "facts": [
+  [
+   "기업",
+   "애질리티 로보틱스(미국)"
+  ],
+  [
+   "파트너",
+   "나이오볼트(영국 케임브리지)"
+  ],
+  [
+   "충전 주기",
+   "90분 작동·9분 충전"
+  ],
+  [
+   "얼리 액세스",
+   "2027년 상반기"
+  ]
+ ],
+ "id": "261016-robot-01",
+ "category": "robot",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

@@ -1,0 +1,39 @@
+{
+ "title": "아이폰 듀오 A20 프로 첫 긱벤치…싱글 3986·멀티 1만1067점, 아이폰18 프로와 비슷",
+ "originalTitle": "iPhone Duo's A20 Pro Chip Benchmarked Ahead of Launch",
+ "source": "MacRumors",
+ "url": "https://www.macrumors.com/2026/10/14/iphone-duo-benchmark/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "출시를 앞둔 아이폰 듀오의 첫 긱벤치 7 점수가 공개됐다. 'iPhone19,4'로 표시된 기기는 iOS 27.1에서 싱글코어 3986점, 멀티코어 1만1067점을 기록해 여러 아이폰18 프로·프로 맥스 벤치마크와 비슷한 수준을 보였다.",
+  "두 기기 모두 애플의 2나노 A20 프로 칩(6코어 CPU·7코어 GPU)을 쓰며, CPU 기본 클럭은 아이폰18 프로와 같은 4.93GHz로 나왔다. 메모리는 11.30GB로 표시돼 12GB 램으로 해석된다. 애플은 A20 프로가 A19 프로보다 CPU 최대 20%, GPU 최대 40% 빠르다고 밝혔지만 이번 측정에는 GPU가 포함되지 않았다.",
+  "점수는 아이폰18 프로 최고 기록에는 다소 못 미치지만 단일 결과일 뿐이며, 실사용 차이는 발열 관리나 화면 두 개를 쓰는 구조에서 나올 수 있다고 MacRumors는 설명했다. 아이폰 듀오는 16일 사전 주문, 23일 출시된다."
+ ],
+ "keyPoints": [
+  "긱벤치 7 싱글 3986·멀티 11067점",
+  "2나노 A20 프로, 12GB 램 추정",
+  "아이폰18 프로와 비슷한 성능"
+ ],
+ "image": "https://images.macrumors.com/t/CF37ey2cPgDxE7XhXnqyT0kz1_Q=/1920x/article-new/2026/10/iphone-duo-feature.jpg",
+ "facts": [
+  [
+   "제품",
+   "아이폰 듀오(iPhone19,4)"
+  ],
+  [
+   "칩",
+   "A20 프로(2나노, 6코어 CPU·7코어 GPU)"
+  ],
+  [
+   "점수",
+   "싱글 3986, 멀티 11067(긱벤치 7)"
+  ],
+  [
+   "램",
+   "12GB 추정"
+  ]
+ ],
+ "id": "261016-applesamsung-07",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

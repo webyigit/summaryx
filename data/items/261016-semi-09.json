@@ -1,0 +1,39 @@
+{
+ "title": "미세화 넘어 3D로…ASM 'Flowable Carbon', 종횡비 200:1 낸드 구조까지 채운다",
+ "originalTitle": "Beyond Lithography: 3D Scaling Puts New Demands on Materials",
+ "source": "EE Times",
+ "url": "https://www.eetimes.com/beyond-lithography-3d-scaling-puts-new-demands-on-materials/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "로직과 메모리 구조가 수직으로 쌓이면서 반도체 제조의 과제가 더 작게 그리는 것에서 3차원 구조를 키우고 깎고 채우는 일로 옮겨가고 있다. 하이퍼프레임 리서치의 스티븐 숍코는 노광이 여전히 피치와 선폭을 정하지만, 대량 생산 가능 여부는 점점 증착·식각·소재 기술이 좌우한다고 짚었다. 첨단 칩 하나에 공정이 최대 1000단계에 이르러 공정이 하나 늘 때마다 수율 위험도 커진다.",
+  "ASM인터내셔널의 PECVD 기술 'Flowable Carbon'은 복잡한 3D 구조를 메우면서 표면을 평탄하게 만들어 일부 공정에서 CMP·에치백 단계를 없앨 수 있다고 회사는 설명한다. 기존 PECVD 탄소막은 깊이에 따라 막질이 달라지거나 빈틈이 생길 수 있는데, ASM은 종횡비 약 5:1~10:1의 GAA 구조와 약 200:1의 3D 낸드 구조에서 이를 시연했고 약 200~900°C에서 시험했다.",
+  "ASM 측은 이 기술이 이미 대량 생산에 쓰이고 있으며 모든 주요 칩 제조사와 협력 중이라고 밝혔다. 핀펫에서 나노시트로 넘어가며 소재 과학의 비중이 커졌고, 5~7년 안에 3D D램이 등장하면 채움 기술 수요가 더 늘 것으로 내다봤다. PECVD 시장에서는 어플라이드 머티어리얼즈·램리서치와 경쟁한다."
+ ],
+ "keyPoints": [
+  "3D 구조 시대, 증착·식각·소재가 승부처",
+  "ASM Flowable Carbon, 200:1 낸드 구조 충전",
+  "3D D램 등장 시 채움 기술 수요 확대 전망"
+ ],
+ "image": "https://www.eetimes.com/wp-content/uploads/ASM-XP8-Vertos-e1792002204136.png?resize=1200,675",
+ "facts": [
+  [
+   "기업",
+   "ASM인터내셔널"
+  ],
+  [
+   "기술",
+   "Flowable Carbon(PECVD)"
+  ],
+  [
+   "적용",
+   "GAA 로직·3D 낸드"
+  ],
+  [
+   "저자",
+   "Pat Brans"
+  ]
+ ],
+ "id": "261016-semi-09",
+ "category": "semi",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

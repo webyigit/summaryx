@@ -1,0 +1,35 @@
+{
+ "title": "뉴라 로보틱스, 촉각·소리·기억까지 쓰는 로봇 AI '뉴런 AI' 공개…휴머노이드 11분 빨래 시연 예고",
+ "originalTitle": "NEURA Gives Its Robot AI Touch, Sound and Memory Ahead of 11-Minute Laundry Demo",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/neura-neuron-ai-touch-sound-memory-laundry-demo",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "독일 뉴라 로보틱스가 10월 14일 시각에 촉각·소리·기억을 결합한 로봇 파운데이션 모델 '뉴런 AI(Neuron AI)'를 발표했다. 회사는 이를 '지각-언어-행동(PLA)' 모델이라 부르며, 3D 영상·촉각과 힘·소리·로봇 상태·언어를 시간 순서로 맞춰 행동으로 바꾸고 시야에서 사라진 물체도 기억한다고 설명했다. 나사가 제대로 물렸는지는 힘으로, 걸쇠가 잠겼는지는 '딸깍' 소리로 확인하는 식이다.",
+  "모델 하나가 4NE1 3·4세대, 바퀴형 4NE1, 양팔 플랫폼 2종 등 5가지 로봇에서 돌아가며, 추론은 클라우드 없이 로봇 안에서 한다. 학습에는 실제 로봇 데이터, 시뮬레이션, 센서 슈트로 수집한 사람 시연이 쓰였고 셰플러·보쉬와 산업 데이터 협력을 맺었다.",
+  "뉴라는 10월 20~22일 엔비디아 GTC 베를린에서 4NE1 휴머노이드가 빨래를 분류해 세탁기에 넣고 꺼내 건조기로 옮기는 11분짜리 작업을 사람 도움 없이 보여줄 계획이다. 기사는 반복 성공률이나 개입 데이터가 공개되지 않았다고 지적했다."
+ ],
+ "keyPoints": [
+  "시각+촉각·소리·기억 결합한 PLA 모델",
+  "로봇 5종에서 하나의 모델, 온디바이스 추론",
+  "GTC 베를린서 11분 빨래 작업 시연 예정"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/neura-neuron-ai-hands-3y4Mhhwg9x4NVPgjKcQKYhmJFusS48.webp",
+ "facts": [
+  [
+   "기업",
+   "뉴라 로보틱스(독일)"
+  ],
+  [
+   "모델",
+   "뉴런 AI(PLA)"
+  ],
+  [
+   "시연",
+   "NVIDIA GTC 베를린, 10월 20~22일"
+  ]
+ ],
+ "id": "261016-robot-02",
+ "category": "robot",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

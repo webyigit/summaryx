@@ -1,0 +1,43 @@
+{
+ "title": "도시 전체 3D 장면에서 말로 설명한 대상을 '직접 둘러보며' 찾는다… Urbex",
+ "originalTitle": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.18356",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "'저 빨간 지붕 건물 옆 주차장'처럼 말로 설명한 대상을 도시 규모 3D 장면에서 찾는 일은 보통 미리 뽑아 둔 후보들의 순위를 매기는 방식으로 다뤄졌다. 연구진은 이 방식이 후보를 미리 계산해야 하고 넓은 야외 장면에서는 확장이 어렵다고 봤다.",
+  "NeurIPS 2026에 채택된 이 논문의 Urbex는 찾기를 '능동 탐색'으로 바꾼 시각-언어 에이전트다. 여러 시점 이미지로 렌더링된 도시 장면을 돌아다니며 랜드마크를 조회하고, 특정 영역을 확대하고, 비스듬한 시점을 렌더링한 뒤 최종 위치 상자를 출력한다. 도구 사용 정책은 CityRefer 데이터에서 위치 정확도와 탐색 유도 보상으로 강화학습했다.",
+  "CityRefer에서 Hit@1과 IoU 모두 최고 성적을 냈고, 정답 상자 없이도 찾기가 가능했으며 가장 강한 순위 매기기 방식보다 추론이 크게 빨랐다. STPLS3D-Refer 제로샷 결과는 다른 장면에서도 더 견고함을 시사했다."
+ ],
+ "keyPoints": [
+  "후보 순위 대신 에이전트 능동 탐색",
+  "CityRefer서 Hit@1·IoU 최고",
+  "NeurIPS 2026 채택, 코드 공개"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Yu Wang, Rui Dai, Wei Chen, Yi Wang, Bo Dang, Kaikui Liu, Xiangxiang Chu, Yansheng Li"
+  ],
+  [
+   "소속",
+   "[확인 필요] (논문 페이지에 표기 없음)"
+  ],
+  [
+   "분야",
+   "컴퓨터비전(cs.CV)·인공지능(cs.AI) · 3D 공간 그라운딩"
+  ],
+  [
+   "arXiv ID",
+   "2610.18356"
+  ],
+  [
+   "코드",
+   "https://github.com/AMAP-ML/Urbex"
+  ]
+ ],
+ "id": "261016-paper-04",
+ "category": "paper",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

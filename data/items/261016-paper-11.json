@@ -1,0 +1,43 @@
+{
+ "title": "흉부 X선 판독 AI, '언제 도구를 쓸지'까지 배운다… X-Ragent",
+ "originalTitle": "X-Ragent: Tool-Augmented Reinforcement Learning for Evidence-Grounded Chest X-Ray Reasoning",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.16811",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "흉부 X선 판독은 영상 속 소견을 알아보는 것만으로 끝나지 않고, 과제에 맞는 근거를 함께 따져야 한다. 기존 도구 활용형 의료 에이전트는 외부 모듈로 근거를 가져오지만, 언제 추가 근거가 필요한지 배우는 장치가 없고 맞지 않는 수치 측정값이 진단 추론에 섞이는 것도 막지 못했다.",
+  "X-Ragent는 '추가 근거 찾기'와 '타당할 때만 쓰는 수치 측정'을 분리한 후학습 틀이다. 연구진은 도구 사용 순서와 판독문 형식의 진단 추론을 짝지은 7,700개 샘플 말뭉치 Rad-CoT를 만들고, Qwen3-VL-8B를 미세조정한 뒤 GRPO로 강화학습했다. 측정 일관성·도구 비용 같은 과정 보상은 진단이 맞았을 때만 주어, 과정이 좋아 보여도 틀린 진단을 상쇄하지 못하게 했다.",
+  "흉부 X선 벤치마크 3종에서 가장 좋은 결과를 냈고, 학습에 전혀 쓰지 않은 ChestAgentBench에서는 8.6점 올랐다."
+ ],
+ "keyPoints": [
+  "근거 찾기와 수치 측정 분리한 판독 AI",
+  "7,700개 샘플 Rad-CoT로 학습",
+  "미사용 ChestAgentBench서 8.6점↑"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Yi Wang, Zhenlong Yuan, Yuchan Guo 외 9명(Huawei Cao 포함)"
+  ],
+  [
+   "소속",
+   "Carnegie Mellon University (Hugging Face 논문 페이지 표기, 저자별 소속 미표기)"
+  ],
+  [
+   "분야",
+   "의료 AI · 도구 활용 강화학습"
+  ],
+  [
+   "arXiv ID",
+   "2610.16811"
+  ],
+  [
+   "코드",
+   "공개 링크 없음"
+  ]
+ ],
+ "id": "261016-paper-11",
+ "category": "paper",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

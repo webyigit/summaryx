@@ -1,0 +1,35 @@
+{
+ "title": "미쉐린 타이어에 RFID 태그…\"운전자 아닌 타이어 이력 추적용\"",
+ "originalTitle": "Michelin Tires Now Have RFID Tags, And Here's What They Track",
+ "source": "Carscoops",
+ "url": "https://www.carscoops.com/2286353/michelin-tires-rfid-tags-explained/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "미쉐린이 타이어에 RFID(무선주파수 식별) 태그를 넣고 있다. 칩과 안테나를 보호용 고무층 사이에 넣어 함께 가류하는 방식이다. 태그 ID는 회사 접두어·제품 코드·일련번호로 이뤄지고 기록 후 영구 잠금돼, 타이어마다 평생 따라다니는 고유 신분이 생긴다.",
+  "태그는 제조, 재고 관리, 배송, 정비, 재활용 단계에서 스캔돼 같은 타이어의 이력을 잇는다. 미쉐린 데이터 서비스에는 브랜드·제품 설명·규격이 담긴다. 배터리 없는 수동형이라 리더기가 쏘는 전파로 작동할 때만 정보를 돌려준다. 공기압·온도·트레드 깊이를 알려주는 센서는 블루투스 저전력을 쓰는 별도 장치다.",
+  "기사는 이 태그로 사람을 추적하려면 스캔 장비, 미쉐린 같은 데이터베이스 접근, 과거 스캔 기록이 모두 필요하다고 설명한다. NHTSA 연구도 스캔만으로 소유자 개인정보가 바로 드러나지 않는다고 봤다. 차를 추적하는 데는 번호판 카메라가 훨씬 현실적인 수단이라는 것이다."
+ ],
+ "keyPoints": [
+  "타이어마다 영구 고유 ID 부여",
+  "제조~재활용 단계별 이력 관리용",
+  "배터리 없는 수동형, 위치 추적 어려워"
+ ],
+ "image": "https://www.carscoops.com/img/gallery/michelin-tires-now-have-rfid-tags-and-heres-what-they-track/l-intro-1791896966.jpg",
+ "facts": [
+  [
+   "기업",
+   "미쉐린"
+  ],
+  [
+   "기술",
+   "수동형 RFID 태그"
+  ],
+  [
+   "추적 대상",
+   "타이어 생애 주기(운전자 아님)"
+  ]
+ ],
+ "id": "261016-car-11",
+ "category": "car",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

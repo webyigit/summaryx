@@ -1,0 +1,35 @@
+{
+ "title": "눈 가린 로봇이 촉각만으로 공 찾는다…로다 AI, 촉각 예측하는 영상-행동 모델 시연",
+ "originalTitle": "Rhoda Blindfolds Its Robot—and Lets Touch Guide the Search",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/rhoda-ai-touch-sensor-blindfolded-robot",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "로봇 AI 기업 로다 AI가 머리와 손목 카메라를 가린 로봇이 촉각만으로 상자 속 울퉁불퉁한 공을 찾아내는 시연을 공개했다. 회사는 새 촉각 센서를 자사 '다이렉트 비디오-액션' 모델과 결합해, 앞으로의 영상뿐 아니라 촉각 신호까지 예측하게 했다. 역동역학 모델이 이 예측을 로봇 동작으로 바꾸고, 새로 들어온 센서 값이 다음 예측에 반영된다.",
+  "10월 13일 기술 글에 따르면 모델은 매끈한 공과 울퉁불퉁한 공 하나씩으로 학습했고, 크기·단단함·표면 무늬가 다른 낯선 공 2개를 포함한 7개로 시험해 울퉁불퉁한 공 3개를 모두 집어냈다. 영상에는 다른 공을 고르거나 다시 훑는 장면도 있고 일부는 6~12배속이다.",
+  "센서는 무거운 하중 뒤에도 깃털 닿는 감각을 잡고, 수 밀리뉴턴부터 40뉴턴 이상까지 재며, 약 500Hz로 진동을 샘플링한다고 회사는 밝혔다. 기사는 성공률·시도 횟수가 공개되지 않아 신뢰성은 아직 수치로 확인되지 않는다고 덧붙였다."
+ ],
+ "keyPoints": [
+  "카메라 가리고 촉각만으로 물체 탐색",
+  "영상-행동 모델이 촉각 신호까지 예측",
+  "성공률·시도 횟수는 미공개"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/rhoda-touch-blindfolded-robot-8SOZA8vGPbmNK98VdDtRpJNlBKirMN.webp",
+ "facts": [
+  [
+   "기업",
+   "로다 AI"
+  ],
+  [
+   "기술",
+   "촉각 센서+다이렉트 비디오-액션 모델"
+  ],
+  [
+   "측정 범위",
+   "수 mN~40N 이상, 진동 약 500Hz"
+  ]
+ ],
+ "id": "261016-robot-04",
+ "category": "robot",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

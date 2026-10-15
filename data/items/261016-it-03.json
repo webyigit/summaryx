@@ -1,0 +1,21 @@
+{
+ "title": "어도비, 포토샵·프리미어를 엔비디아 'RTX 스파크'용으로 재설계…\"AI 작업 2배 빨라\"",
+ "originalTitle": "Adobe rebuilt Photoshop and Premiere for NVIDIA's RTX Spark platform",
+ "source": "Engadget",
+ "url": "https://www.engadget.com/2287388/adobe-rebuilt-photoshop-and-premiere-for-nvidia-rtx-spark/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "어도비가 포토샵, 영상 편집기 프리미어, 서브스턴스 3D를 엔비디아의 새 시스템온칩 'RTX 스파크'에 맞게 구조부터 다시 손봤다. RTX 스파크는 윈도 노트북과 소형 데스크톱에서 AI 작업을 기기 안에서 돌리도록 만든 칩으로, 기업·AI 개발자용인 DGX 스파크와 달리 크리에이터와 초보 개발자를 겨냥한다.",
+  "어도비 디파 수브라마니암 부사장은 최적화된 앱이 AI 작업과 각종 편집 과정에서 2배 빠르다고 밝혔다. 포토샵은 복잡한 작업의 렌더링이 빨라져 '라이트 리크' 효과나 '제거' 도구로 사물을 지울 때 결과가 실시간으로 보이게 된다. 프리미어는 렌더링·효과·AI 보조 편집·색 보정에서 체감 속도 향상을, 서브스턴스 3D 페인터는 무거운 텍스처 작업과 대형 프로젝트 열기·저장, 텍스처 내보내기 가속을 약속했다.",
+  "다만 기사에는 가격, 대상 하드웨어 모델, 업데이트 출시일, 2배 수치의 벤치마크 근거는 나오지 않았다."
+ ],
+ "keyPoints": [
+  "포토샵·프리미어·서브스턴스 3D 재설계",
+  "AI·편집 작업 2배 빠르다고 주장",
+  "출시일·벤치마크 근거는 미공개"
+ ],
+ "image": "https://www.engadget.com/img/gallery/adobe-rebuilt-photoshop-and-premiere-for-nvidias-rtx-spark-platform/l-intro-1792065422.jpg",
+ "id": "261016-it-03",
+ "category": "it",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BERT 사전학습의 통념을 다시 따져보니… 분류·검색 동시 최고 UltraBERT | summaryx</title>
+<meta name="description" content="최근 양방향 인코더(BERT 계열)는 대형 언어모델의 기술을 받아들였지만, 사전학습 방법은 여전히 소규모 시절의 관례를 따른다. 연구진(모델은 Hugging Face dmis-lab 조직으로 공개)은 핵심 학습 선택을 다시 점검했다. 세 가지를 발견했다. 인코더는 수조">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="BERT 사전학습의 통념을 다시 따져보니… 분류·검색 동시 최고 UltraBERT">
+<meta property="og:description" content="최근 양방향 인코더(BERT 계열)는 대형 언어모델의 기술을 받아들였지만, 사전학습 방법은 여전히 소규모 시절의 관례를 따른다. 연구진(모델은 Hugging Face dmis-lab 조직으로 공개)은 핵심 학습 선택을 다시 점검했다. 세 가지를 발견했다. 인코더는 수조">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261016-paper-16">
+<script>location.replace('../../#/a/261016-paper-16');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261016-paper-16">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">BERT 사전학습의 통념을 다시 따져보니… 분류·검색 동시 최고 UltraBERT</h1>
+<p>최근 양방향 인코더(BERT 계열)는 대형 언어모델의 기술을 받아들였지만, 사전학습 방법은 여전히 소규모 시절의 관례를 따른다. 연구진(모델은 Hugging Face dmis-lab 조직으로 공개)은 핵심 학습 선택을 다시 점검했다.</p><p>세 가지를 발견했다. 인코더는 수조 토큰 이후 하위 과제 성능이 포화돼 연산을 더 써도 소용없었다. 마스킹 비율은 낮으면 분류에, 높으면 검색에 유리했는데, 이는 모델이 클수록 높은 비율을 권하던 기존 연구와 반대다. 또 가지치기를 곁들인 증류는 낮은 비율에서 분류를 돕지만 높은 비율에서는 검색을 해쳤다.</p><p>이를 바탕으로 한 배치 안에서 낮은·높은 마스킹 비율에 각각 다른 LM 헤드를 쓰고, 증류는 낮은 비율에만 적용한 UltraBERT를 만들었다. GLUE 91.0, BEIR 47.7로 분류와 검색 모두에서 최고 성능에 오른 첫 인코더라고 연구진은 밝혔다. 150M·380M 모델과 임베딩 모델이 공개됐다.</p>
+<p><a href="https://arxiv.org/abs/2610.15028">원문 보기</a></p>
+</body></html>

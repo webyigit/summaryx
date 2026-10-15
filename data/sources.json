@@ -75,6 +75,14 @@
     "AI 에이전트",
     "기업 AI"
    ]
+  },
+  {
+   "name": "전자신문 AI·SW",
+   "url": "https://www.etnews.com/news/section.html?id1=04",
+   "keywords": [
+    "AI 에이전트",
+    "생성형 AI"
+   ]
   }
  ],
  "ax": [
@@ -190,6 +198,22 @@
     "M.AX",
     "AI 전환"
    ]
+  },
+  {
+   "name": "한국경제",
+   "url": "https://www.hankyung.com/",
+   "keywords": [
+    "AX 선도모델",
+    "중소기업 AI 전환"
+   ]
+  },
+  {
+   "name": "파이낸셜뉴스",
+   "url": "https://www.fnnews.com/",
+   "keywords": [
+    "AX",
+    "AI 전환"
+   ]
   }
  ],
  "car": [
@@ -248,6 +272,15 @@
     "자동차",
     "전기차",
     "모터쇼"
+   ]
+  },
+  {
+   "name": "글로벌오토뉴스",
+   "url": "https://www.global-autonews.com/",
+   "keywords": [
+    "완성차",
+    "전기차",
+    "모빌리티"
    ]
   }
  ],
@@ -1122,6 +1155,15 @@
     "애플",
     "갤럭시"
    ]
+  },
+  {
+   "name": "9to5Google",
+   "url": "https://9to5google.com/",
+   "keywords": [
+    "Samsung",
+    "Galaxy",
+    "One UI 9"
+   ]
   }
  ],
  "movie": [
@@ -1748,6 +1790,15 @@
     "Nvidia",
     "Huawei",
     "AI chip"
+   ]
+  },
+  {
+   "name": "한국경제 증권·반도체",
+   "url": "https://www.hankyung.com/",
+   "keywords": [
+    "삼성전자",
+    "SK하이닉스",
+    "반도체주"
    ]
   }
  ],

@@ -1,0 +1,39 @@
+{
+ "title": "구글 '유니버설 카트' 미국 출시…검색·제미나이에서 담은 상품 한곳에, 가격 내리면 알림",
+ "originalTitle": "Google's Universal Cart shopping tool launches in the US",
+ "source": "TechCrunch",
+ "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "구글이 15일 구글 검색과 제미나이 앱에서 찾은 상품을 모아 관리하는 쇼핑 도구 '유니버설 카트'를 미국에서 내놨다. 5월 구글 I/O에서 처음 선보인 기능으로, 여러 쇼핑몰의 상품을 한 장바구니에 담아 두고 나중에 다시 검색할 필요 없이 이어서 쇼핑할 수 있다.",
+  "담아 둔 상품 가격이 내려가거나 품절 상품이 다시 들어오면 알림을 보낸다. 결제 단계에서는 신용카드 혜택을 따져 결제 수단을 추천하고 쓸 수 있는 할인 코드도 찾아 준다. 결제는 구글이 올해 초 내놓은 개방형 표준 '유니버설 커머스 프로토콜(UCP)'을 바탕으로 하는데, AI 에이전트와 쇼핑몰이 결제까지 함께 처리하도록 만든 규격이다.",
+  "이번 출시는 검색 AI 모드의 대화형 상품 찾기, AI 에이전트가 근처 매장에 전화해 재고를 확인하는 '구글이 대신 전화' 같은 구글의 AI 쇼핑 확대 흐름의 하나다. 아마존과 오픈AI 등도 챗봇을 질문 답변 너머로 쓰게 하려고 에이전트 쇼핑 기능을 늘리고 있다."
+ ],
+ "keyPoints": [
+  "검색·제미나이 상품을 한 장바구니에",
+  "가격 인하·재입고 알림, 카드 혜택 추천",
+  "결제는 개방형 표준 UCP 기반"
+ ],
+ "image": "https://techcrunch.com/wp-content/uploads/2026/10/Google-UniversalCart.png?w=1200",
+ "facts": [
+  [
+   "기업",
+   "구글"
+  ],
+  [
+   "서비스",
+   "Universal Cart(미국)"
+  ],
+  [
+   "출시",
+   "2026-10-15"
+  ],
+  [
+   "기반 규격",
+   "Universal Commerce Protocol(UCP)"
+  ]
+ ],
+ "id": "261016-ai-12",
+ "category": "ai",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

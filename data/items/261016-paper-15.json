@@ -1,0 +1,43 @@
+{
+ "title": "여러 명이 함께 노는 AI 게임 세계, 계층 소통으로 확장… 텐센트 Multics",
+ "originalTitle": "Multics: Generative Multi-Player World Model with Hierarchical Communication",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.17201",
+ "publishedAt": "2026-10-12",
+ "summary": [
+  "여러 플레이어가 같은 환경을 각자 시점에서 보는 멀티플레이 월드 모델은 플레이어가 늘수록 안정적으로 생성하기 어렵다. 모두가 서로 연결되는 방식은 플레이어 수가 늘면 어텐션 비용이 제곱으로 커지고, 하나의 전역 표현에 모으는 방식은 서로 무관한 사건끼리 간섭한다.",
+  "텐센트 ARC Lab 연구진의 Multics는 플레이어·그룹·전역 3단계 계층 소통을 쓴다. 관련 있는 플레이어 정보를 모으는 그룹 토큰을 셀프 어텐션에 넣고, 이를 전역 토큰과 이어 그룹 간 소통을 하게 했다. 그룹 토큰 파라미터는 공유돼 플레이어 수가 달라도 같은 모듈을 쓰며, 최근 카메라 궤적을 바탕으로 관련 플레이어를 예산 안에서 동적으로 묶는다.",
+  "4인·6인 설정에서 최고 성능을 보고했고, 4인으로 학습한 모델이 재학습 없이 6·8·10인 추론으로 일반화하면서 셀프 어텐션 연산도 줄였다."
+ ],
+ "keyPoints": [
+  "플레이어·그룹·전역 3단계 소통",
+  "카메라 궤적 기반 동적 그룹 묶기",
+  "4인 학습→10인까지 재학습 없이 확장"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Kaiyi Huang, Wangbo Yu, Yukun Huang 외 6명(Ying Shan, Xihui Liu 포함)"
+  ],
+  [
+   "소속",
+   "Tencent ARC Lab (Hugging Face 논문 페이지 표기)"
+  ],
+  [
+   "분야",
+   "생성형 월드 모델 · 영상 생성"
+  ],
+  [
+   "arXiv ID",
+   "2610.17201"
+  ],
+  [
+   "코드",
+   "https://github.com/TencentARC/Multics"
+  ]
+ ],
+ "id": "261016-paper-15",
+ "category": "paper",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

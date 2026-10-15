@@ -1,0 +1,35 @@
+{
+ "title": "보스턴 다이내믹스 \"아틀라스 한 대 만드는 데 하루…내년엔 1시간으로\"",
+ "originalTitle": "Boston Dynamics Says Atlas Takes a Day to Build—and Wants to Cut That to an Hour",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/boston-dynamics-atlas-prototype-shop-build-time",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "보스턴 다이내믹스가 시제품 제작팀이 가공·조립·수리를 한데 묶어 개발 속도를 높이는 과정을 담은 약 6분 영상 '어떻게 아틀라스를 만드나'를 공개했다. 케이티 코너 선임 기술 프로그램 매니저는 지금 로봇 한 대를 만드는 데 하루 정도 걸리며 내년에는 1시간 수준으로 줄이는 것이 목표라고 말했다.",
+  "시제품 작업장은 제조 라인처럼 배치돼 같은 팀이 하드웨어를 만들고 시험하고 고친다. 기어 절삭처럼 정밀 가공은 공차가 까다로워 사내에 두고, 엔지니어가 작업장에서 바로 설계를 고칠 수 있어 부품이 당일이나 다음 날 조립되기도 한다. 월요일 아이디어가 금요일 적용되는 피드백 고리도 소개됐다.",
+  "기사는 피규어의 'BotQ 시간당 1대', 테슬라 옵티머스 주당 수백 대 보도, 애지봇 누적 2만 대 발표와 비교하면서도, 제작 시간·라인 처리량·주간 생산량·누적 생산량은 서로 다른 지표라 단순 비교할 수 없고 이 영상이 출하 속도를 보여주는 것은 아니라고 짚었다."
+ ],
+ "keyPoints": [
+  "아틀라스 1대 제작 약 하루 소요",
+  "내년 1시간, 이후 분 단위 목표",
+  "제작 시간≠생산량, 지표 비교 주의"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/boston-dynamics-atlas-prototype-shop-08jdAzWNMSLzHLOjBRjseepWKOJFY2.webp",
+ "facts": [
+  [
+   "기업",
+   "보스턴 다이내믹스"
+  ],
+  [
+   "로봇",
+   "아틀라스"
+  ],
+  [
+   "발언자",
+   "케이티 코너 선임 기술 프로그램 매니저"
+  ]
+ ],
+ "id": "261016-robot-06",
+ "category": "robot",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

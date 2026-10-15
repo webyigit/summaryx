@@ -1,0 +1,21 @@
+{
+ "title": "구글, 여러 쇼핑몰 상품 한 번에 담는 '유니버설 카트' 미국 출시…가격 하락·카드 혜택 알림",
+ "originalTitle": "Google rolling out Universal Cart that lets you shop the web and find deals with Gemini, Search",
+ "source": "9to5Google",
+ "url": "https://9to5google.com/2026/10/15/google-rolling-out-universal-cart-that-lets-you-shop-the-web-and-find-deals-with-gemini-search/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "구글이 5월 구글 I/O에서 미리 보여준 '유니버설 카트'를 미국에서 배포하기 시작했다. 한 쇼핑몰이 아니라 여러 판매처를 아우르는 장바구니로, 구글 검색·AI 모드·제미나이 앱에서 상품을 담을 수 있고 제미나이와 대화하면서 추가할 수도 있다. 결제할 때는 각 판매처로 연결해 준다.",
+  "담아 둔 상품은 구글이 할인과 가격 변동을 지켜보다 값이 내려가면 알려준다. 프로모션 코드나 캐시백 같은 카드 혜택처럼 놓치기 쉬운 절약 방법도 보여주는데, 구글은 이 기능을 구글 월렛이 뒷받침하며 카드 혜택을 파악해 가장 유리한 결제 수단 선택을 돕는다고 설명했다. 결제는 '유니버설 커머스 프로토콜(UCP)'로 이뤄진다.",
+  "서비스는 당분간 미국에서만 제공되며, 연말 쇼핑 성수기를 앞두고 나왔다."
+ ],
+ "keyPoints": [
+  "검색·AI 모드·제미나이에서 여러 쇼핑몰 상품 담기",
+  "가격 하락·프로모션·카드 혜택 알림",
+  "미국 한정, 연말 쇼핑 시즌 앞두고 출시"
+ ],
+ "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/google-universal-cart-1.jpg?quality=82&strip=all&resize=1200,628",
+ "id": "261016-it-05",
+ "category": "it",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

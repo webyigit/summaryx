@@ -1,0 +1,43 @@
+{
+ "title": "BERT 사전학습의 통념을 다시 따져보니… 분류·검색 동시 최고 UltraBERT",
+ "originalTitle": "UltraBERT: Beyond the Limit of BERT Pre-Training",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.15028",
+ "publishedAt": "2026-10-10",
+ "summary": [
+  "최근 양방향 인코더(BERT 계열)는 대형 언어모델의 기술을 받아들였지만, 사전학습 방법은 여전히 소규모 시절의 관례를 따른다. 연구진(모델은 Hugging Face dmis-lab 조직으로 공개)은 핵심 학습 선택을 다시 점검했다.",
+  "세 가지를 발견했다. 인코더는 수조 토큰 이후 하위 과제 성능이 포화돼 연산을 더 써도 소용없었다. 마스킹 비율은 낮으면 분류에, 높으면 검색에 유리했는데, 이는 모델이 클수록 높은 비율을 권하던 기존 연구와 반대다. 또 가지치기를 곁들인 증류는 낮은 비율에서 분류를 돕지만 높은 비율에서는 검색을 해쳤다.",
+  "이를 바탕으로 한 배치 안에서 낮은·높은 마스킹 비율에 각각 다른 LM 헤드를 쓰고, 증류는 낮은 비율에만 적용한 UltraBERT를 만들었다. GLUE 91.0, BEIR 47.7로 분류와 검색 모두에서 최고 성능에 오른 첫 인코더라고 연구진은 밝혔다. 150M·380M 모델과 임베딩 모델이 공개됐다."
+ ],
+ "keyPoints": [
+  "인코더는 수조 토큰 뒤 성능 포화",
+  "마스킹 비율 낮으면 분류·높으면 검색 유리",
+  "GLUE 91.0·BEIR 47.7 동시 최고"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Jungwoo Park, Taewhoo Lee, Jaewoo Kang"
+  ],
+  [
+   "소속",
+   "[확인 필요] (Hugging Face 조직 dmis-lab 게시)"
+  ],
+  [
+   "분야",
+   "자연어처리 · 인코더 사전학습"
+  ],
+  [
+   "arXiv ID",
+   "2610.15028"
+  ],
+  [
+   "코드",
+   "모델 https://huggingface.co/collections/dmis-lab/ultrabert"
+  ]
+ ],
+ "id": "261016-paper-16",
+ "category": "paper",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}

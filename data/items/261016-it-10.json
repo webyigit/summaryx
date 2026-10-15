@@ -1,0 +1,21 @@
+{
+ "title": "거래·분석 한 DB로…뮌헨공대 출신 '시더DB', 클라우드 버전 제한 출시",
+ "originalTitle": "CedarDB wants one database to handle both transactions and analytics, as AI agents raise the stakes",
+ "source": "TechCrunch",
+ "url": "https://techcrunch.com/2026/10/14/cedardb-wants-one-database-to-handle-both-transactions-and-analytics-as-ai-agents-raise-the-stakes/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "보통 기업은 주문·결제 같은 일상 거래를 저장하는 운영 데이터베이스와 추세를 분석하는 분석 데이터베이스를 따로 쓴다. 독일 뮌헨의 시더DB는 둘을 하나의 엔진으로 처리한다. 모리츠 지헤르트 CEO는 에이전틱 AI가 퍼지면서, 수년간의 거래는 잘 다루지만 자연어 분석 질문에 빨리 답하지 못하는 기업들의 수요가 생겼다고 말했다.",
+  "시더DB는 최신 하드웨어를 활용해 기존 엔진을 넘어서도록 처음부터 만든 뮌헨공대 연구 프로젝트 '움브라'에서 나온 스핀오프로, 공동창업자 5명 모두 움브라 연구진이다. CPU나 메모리를 늘리지 않고도 더 빠르다고 내세우며, 오픈소스 PostgreSQL과 호환돼 앱을 다시 만들 필요가 없다.",
+  "지난해 5월 온프레미스용 엔터프라이즈판과 무료 커뮤니티판을 내며 530만 유로 시드 투자를 받았고, 이번에 테크크런치 디스럽트 스타트업 배틀필드에서 클라우드 버전의 제한 출시를 발표했다. 6월 데이터브릭스가 비슷한 통합 구조 'LTAP'를 내놓은 것을 두고 지헤르트는 수요의 증거로 봤다. 직원은 14명이다."
+ ],
+ "keyPoints": [
+  "운영·분석 워크로드를 한 엔진에서 처리",
+  "PostgreSQL 호환, 뮌헨공대 '움브라' 출신",
+  "클라우드판 제한 출시, 데이터브릭스와 경쟁"
+ ],
+ "image": "https://techcrunch.com/wp-content/uploads/2026/10/CedarDB-Founders-Moritz-Sichert-Lukas-Vogel-Philipp-Fent-Dominik-Durner-and-Christian-Winter.png?resize=1200,933",
+ "id": "261016-it-10",
+ "category": "it",
+ "collectedAt": "2026-10-16T02:32:08+09:00"
+}
