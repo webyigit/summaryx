@@ -1,0 +1,39 @@
+{
+ "title": "시트릭스·포티넷·이반티, 취약점 29개 동시 패치…포티SIEM·샌드박스 치명적 결함 2개",
+ "originalTitle": "Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products",
+ "source": "SecurityWeek",
+ "url": "https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "시트릭스·포티넷·이반티가 같은 날 보안 업데이트를 내고 모두 29개 취약점을 고쳤다. 이 중 여러 개가 치명적 등급이라 기업 보안 담당자의 패치 부담이 커졌다.",
+  "포티넷은 권고 10건으로 13개를 고쳤다. 포티SIEM·포티샌드박스 관리 화면에서 인증 없이 코드를 실행하는 결함(CVE-2026-106173)과 인증을 우회하는 결함(CVE-2026-107656)이 치명적 등급이고, 포티애널라이저·포티매니저·포티메일에서는 인증된 공격자가 코드를 실행할 수 있는 SQL 삽입 결함 5개가 나왔다. 시트릭스는 워크스페이스 앱과 젠서버 등에서 가상머신 안에서 호스트를 멈추거나 장악할 수 있는 결함 등 9개를 수정했다.",
+  "이반티는 인튠용 패치 제품의 인증 정보 유출 결함, Xtraction의 자격증명 탈취 결함 등 7개를 고쳤다. 이 가운데 이미 공격에 쓰인 것으로 알려진 것은 커넥트 시큐어 VPN 제로데이 연쇄(CVE-2026-104935)뿐이다."
+ ],
+ "keyPoints": [
+  "3사 합쳐 취약점 29개 수정",
+  "포티SIEM·샌드박스 치명적 결함 2개",
+  "실제 악용은 이반티 VPN 제로데이"
+ ],
+ "image": "https://www.securityweek.com/wp-content/uploads/2025/07/software-vulnerability-patch-update.jpg",
+ "facts": [
+  [
+   "유형",
+   "취약점 패치"
+  ],
+  [
+   "기업",
+   "Citrix 9·Fortinet 13·Ivanti 7"
+  ],
+  [
+   "치명적",
+   "CVE-2026-106173·107656 등"
+  ],
+  [
+   "악용",
+   "Ivanti CVE-2026-104935"
+  ]
+ ],
+ "id": "261016-security-14",
+ "category": "security",
+ "collectedAt": "2026-10-16T03:31:33+09:00"
+}

@@ -1,0 +1,39 @@
+{
+ "title": "인도, 11월부터 4G 이상 휴대전화에 '가입자 실명' 발신자 표시 의무화…스팸·사기 차단",
+ "originalTitle": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "인도 통신부가 통신사에 2026년 11월 1일부터 걸려 온 전화에 발신 번호와 함께 가입자 등록 이름을 띄우도록 지시했다. 모르는 번호를 식별해 스팸과 사기 전화를 줄이려는 조치로, 10월 13일자 통신부 회람에 따른 발신자 이름 표시(CNAP) 서비스다. 우선 4G 이상 무선망이 대상이고 2G·3G와 유선망은 따로 검토한다.",
+  "받는 사람 연락처에 저장된 번호면 저장한 이름이, 아니면 발신 통신사 가입자 데이터베이스의 이름이 뜬다. 해외 전화에는 '국제 전화'라고 표시된다. 기업·대량 회선 가입자는 등록 상표나 상호를 '선호 이름'으로 쓸 수 있지만 증빙 서류를 내야 한다.",
+  "사생활 보호를 위해 통신사는 이름 표시를 막는 선택지(CLIR)를 제공해야 하고, 통화가 끝나면 발신자 이름을 보관하지 않는 '설계 단계 보안' 원칙도 요구받았다. 통신사·사생활 단체의 반응은 기사에 나오지 않았다."
+ ],
+ "keyPoints": [
+  "11월 1일부터 4G 이상 발신자 실명 표시",
+  "해외 전화는 '국제 전화' 표기",
+  "이름 숨김 선택지·통화 뒤 미보관 요구"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyJOEj0MfpVvrP-qAXhuoM2BBSjZ6TwPYR-nMG_g-tBvu7Er2cMlvMoVkJOUP1qE2sleu3a21YjvdCQ9u80FSBTx7NNP3cZNfradprnGu-EnIURCxZK4sA0cXbROZpdW8CJxZcxRfhJyhbIXa_Au_sha3mh5pFe-7k5EIimZQlUGIs_mGGKHGKArej6il7/s1600/4g.jpg",
+ "facts": [
+  [
+   "유형",
+   "통신 보안·정책"
+  ],
+  [
+   "국가",
+   "인도"
+  ],
+  [
+   "시행",
+   "2026-11-01"
+  ],
+  [
+   "근거",
+   "통신부 10월 13일 회람(CNAP)"
+  ]
+ ],
+ "id": "261016-security-08",
+ "category": "security",
+ "collectedAt": "2026-10-16T03:31:33+09:00"
+}

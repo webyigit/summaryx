@@ -1,0 +1,39 @@
+{
+ "title": "가짜 '윈도 보안 경고' 기술지원 사기, 클라우드플레어 페이지 도메인 2만 개 악용",
+ "originalTitle": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "보안업체 인포블록스가 2017년부터 활동해 온 트래픽 분배 시스템 'Help TDS'의 배후로 러시아어권 제휴 프로그램 '호테이카(Hotejka)'를 지목했다. 호테이카는 2018년 노출된 트래픽 수익화 조직 ROI777이 이름을 바꾼 것으로 보인다. 해킹된 워드프레스 사이트 방문자를 가짜 윈도 보안 경고 화면으로 보내 '고객지원 번호'로 전화하게 만드는 기술지원 사기가 핵심이다.",
+  "전화를 받은 콜센터 직원은 피해자에게 울트라뷰어 같은 원격 접속 프로그램을 깔게 한다. 인포블록스는 \"단순 카드 사기가 아니라 원격 접속 악성 작업\"이라고 설명했다. 시스템은 브라우저·위치·기기 정보 등을 살펴 방문자를 사기 페이지, 악성코드 배포지 등으로 나눠 보내며, 2026년 4월부터는 무료 클라우드플레어 페이지(pages.dev)에 하루 약 300개씩 일회용 사이트를 만들어 지금까지 2만 개 넘는 도메인이 확인됐다.",
+  "발라다 인젝터 등 약 20개 제휴 조직이 트래픽을 넘기고, 운영자들이 최소 수백만 달러를 번 것으로 추정됐다. 갑자기 화면을 가득 채우는 경고와 전화번호가 뜨면 전화하지 말고 브라우저를 닫는 것이 안전하다."
+ ],
+ "keyPoints": [
+  "2017년부터 활동한 기술지원 사기 유통망",
+  "클라우드플레어 페이지 도메인 2만 개 넘게 악용",
+  "원격 접속 프로그램 설치 유도해 PC 장악"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp2enQeK-5xZuEo_rLQje9W_odynVLALJCEvTyaMSolIfwVonZGMceQWA8yq9xPMD-C_RkIp-V03EqEBVTM5yMq9IHWRRfSHxWWDS6kCJVcVAsmlFXt5wD2pK7Bk-A6iBIDFS2o811n8e48B1Psni_qvrkJ0HMXtJlhaLwx7jkxEG-e0XDgtcAMUMLiNFV/s1600/hot.jpg",
+ "facts": [
+  [
+   "유형",
+   "기술지원 사기·트래픽 분배"
+  ],
+  [
+   "분석",
+   "인포블록스"
+  ],
+  [
+   "규모",
+   "pages.dev 도메인 2만 개 이상"
+  ],
+  [
+   "활동",
+   "2017년~"
+  ]
+ ],
+ "id": "261016-security-03",
+ "category": "security",
+ "collectedAt": "2026-10-16T03:31:33+09:00"
+}

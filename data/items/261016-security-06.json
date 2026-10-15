@@ -1,0 +1,39 @@
+{
+ "title": "드루팔 코어 '필드 UI' 치명적 원격 코드 실행 결함 패치…일부 모듈 통하면 로그인도 불필요",
+ "originalTitle": "Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "콘텐츠 관리 시스템 드루팔(Drupal)이 코어의 필드 UI 모듈에서 원격 코드 실행 결함(CVE-2026-108097)을 고친 11.4.10, 11.3.19, 10.6.19를 10월 14일 내놨다. 자체 위험 척도로 25점 중 19점, '치명적' 등급이다. 코어만으로는 닿지 않지만 여러 기여 모듈을 거치는 공격 경로가 있고, 그중 하나는 로그인이 필요 없다.",
+  "관리 화면 표를 만드는 과정에서 각 행이 가진 PHP 호출 정보를 검증 없이 실행한 것이 원인으로, 2020년 8.9.0부터 있던 코드다. 새 버전은 해당 호출을 아예 하지 않도록 바꿨다. 같은 날 비슷한 구조의 엔티티 리스트 모듈 치명적 결함과 링크·내비게이션 모듈의 XSS 결함도 함께 공개됐다.",
+  "문제는 지원이 끝난 버전이다. 10월 첫 주 drupal.org에 보고된 사이트 53만여 곳 중 15만여 곳(28.5%)이 수정본이 없는 버전을 쓰고 있었다. 보안팀은 공격 코드가 \"몇 시간이나 며칠 안에\" 나올 수 있다고 경고했고, 당장 업데이트가 어려우면 field_ui 모듈을 끄는 방법이 있다."
+ ],
+ "keyPoints": [
+  "필드 UI 결함, 위험도 25점 중 19점",
+  "일부 기여 모듈 경로는 로그인 불필요",
+  "사이트 28.5%가 수정본 없는 버전 사용"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWENfwA4xQHfwINduJpVTTiNeAmBkevujxbloFijpq7PQV8xOV-iApTx_f5g9ImW_oKJolO1RuhlNeDc2NwoWKOdPfjfdDzMhCuOsWtdyCZOOs2fTW4vmXYixSIdOCw2CwsvSgvEOPxqHUwSoRpxxoMRKKRqsqezOqVNpF5uQaU3cdI7z9L_Y_2WeTImA/s1600/drupal.jpg",
+ "facts": [
+  [
+   "유형",
+   "취약점 패치"
+  ],
+  [
+   "제품",
+   "Drupal 11.4.10·11.3.19·10.6.19"
+  ],
+  [
+   "CVE",
+   "CVE-2026-108097"
+  ],
+  [
+   "악용",
+   "10월 15일 기준 보고 없음"
+  ]
+ ],
+ "id": "261016-security-06",
+ "category": "security",
+ "collectedAt": "2026-10-16T03:31:33+09:00"
+}

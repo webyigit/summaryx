@@ -1,0 +1,39 @@
+{
+ "title": "넥스트JS, 긴급 패치로 '인증 없는 원격 코드 실행' 치명적 결함 2개 수정",
+ "originalTitle": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "웹 프레임워크 넥스트JS(Next.js)가 10월 14일 정기 일정 밖의 보안 업데이트로 인증 없이 원격 코드를 실행할 수 있는 치명적 결함 2개와 서비스 거부 결함 1개를 고쳤다. 수정 버전은 16.4.1과 15.5.28이다.",
+  "첫째는 캐시 컴포넌트를 켠 App Router 앱에서 'use cache' 함수가 여러 타입 배열을 반환할 때 생기는 문제(CVSS 9.5)로, 리액트 서버 컴포넌트 결함과 연결돼 있다. 둘째는 이미지 처리 패키지 sharp가 쓰는 librsvg의 메모리 버그로, 공격자가 올린 SVG를 처리하는 리눅스 서버에서 코드 실행이 가능하다. 다만 기본 설정은 SVG를 최적화하지 않아 dangerouslyAllowSVG 설정이나 next/og 사용 시에만 노출된다. 서버 액션 결함은 요청 하나로 CPU를 100%까지 끌어올릴 수 있다.",
+  "캐시·서버 액션 결함은 우회책이 없어 업그레이드만이 해법이며, 아직 CVE가 없어 npm audit에 잡히지 않을 수 있다. 8월 이후 세 번째 이미지 처리 관련 결함이라, 15버전 사용자는 sharp 0.35.5 이상인지도 확인해야 한다."
+ ],
+ "keyPoints": [
+  "16.4.1·15.5.28로 치명적 결함 2개 수정",
+  "SVG 처리 결함은 sharp 0.35.5로 해결",
+  "npm audit에 안 잡힐 수 있어 직접 확인"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9mXutJ2QPpC1NUCUZWdHjUDUGPSD3DaDY4b-T1EXbg07sNWADsV43EvUacKzn4Ohp2bRbD93t8kXBpv513XdMZEnMh8eNkY1bBaSuGICWbituq_jgWNCjQa_Cq6Ur0jInsfEwsHfdInKq4Tcp2kmfuYoCIMrgWcWwtzFlRPePDpW9gwemIkQpJXEVaHU/s1600/nextjs-rce.jpg",
+ "facts": [
+  [
+   "유형",
+   "취약점 패치"
+  ],
+  [
+   "제품",
+   "Next.js 16.4.1·15.5.28"
+  ],
+  [
+   "심각도",
+   "CVSS 9.5 2건"
+  ],
+  [
+   "악용",
+   "10월 15일 기준 보고 없음"
+  ]
+ ],
+ "id": "261016-security-05",
+ "category": "security",
+ "collectedAt": "2026-10-16T03:31:33+09:00"
+}

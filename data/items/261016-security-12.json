@@ -1,0 +1,39 @@
+{
+ "title": "美 유틸리티 기업 센터포인트 해킹…주민 106만 명 사회보장번호·운전면허번호 유출",
+ "originalTitle": "CenterPoint Energy Data Breach Impacts 1 Million Texans",
+ "source": "SecurityWeek",
+ "url": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "미국 휴스턴의 공공 유틸리티 기업 센터포인트 에너지가 텍사스 법무장관실에 주민 106만2060명의 개인정보가 유출됐다고 신고했다. 유출 정보에는 이름·주소와 함께 사회보장번호, 운전면허번호가 들어 있다.",
+  "사건은 9월 12일 한 해커가 이 회사에서 빼냈다며 2.5GB 압축 파일을 공개하면서 드러났다. 파일에는 전화번호 약 300만 개와 다른 개인정보가 담긴 것으로 전해졌고, 해커는 범죄 포럼에서 이용자 기록 약 750만 건을 갖고 있다고 주장했다. 회사는 약 한 달 전 미 증권거래위원회(SEC)에 고객 정보 도난을 알리며 해커의 공개 게시물로 사고를 알게 됐고 운영에는 영향이 없었다고 밝혔다.",
+  "회사는 인디애나·미네소타·오하이오에도 고객이 있지만 이 지역 피해 규모는 아직 불분명하다. SecurityWeek는 회사가 아직 피해자에게 통지문을 보내지 않은 것으로 보인다고 전했다."
+ ],
+ "keyPoints": [
+  "텍사스 주민 106만2060명 정보 유출",
+  "사회보장번호·운전면허번호 포함",
+  "해커 게시물 보고서야 사고 인지"
+ ],
+ "image": "https://www.securityweek.com/wp-content/uploads/2026/09/CenterPoint-Energy.jpeg",
+ "facts": [
+  [
+   "유형",
+   "개인정보 유출"
+  ],
+  [
+   "기업",
+   "센터포인트 에너지(미국)"
+  ],
+  [
+   "피해",
+   "텍사스 106만2060명"
+  ],
+  [
+   "인지",
+   "9월 12일 해커 게시물"
+  ]
+ ],
+ "id": "261016-security-12",
+ "category": "security",
+ "collectedAt": "2026-10-16T03:31:33+09:00"
+}

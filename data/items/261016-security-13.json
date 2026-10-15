@@ -1,0 +1,39 @@
+{
+ "title": "직원 AI 사용 보안 '하모닉 시큐리티', 5천만 달러 투자 유치…소형 언어모델로 AI 사용 분류",
+ "originalTitle": "Harmonic Security Raises $50 Million for Workforce AI Protection",
+ "source": "SecurityWeek",
+ "url": "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "직원이 쓰는 AI 도구의 보안을 다루는 하모닉 시큐리티가 크로스포인트 캐피털 파트너스 주도로 5천만 달러 규모 시리즈 B 투자를 받았다. 누적 투자액은 7600만 달러다. 2023년 앨러스테어 패터슨 CEO와 디지털 섀도스 창업자 출신 브라이언 울가오닐 CTO가 세웠다.",
+  "이 회사 플랫폼은 브라우저 AI, 데스크톱 AI 도구, 에이전트 워크플로까지 살펴 각 AI 작업을 분류하고 실시간으로 통제한다. 자체 소형 언어모델로 AI 대화 맥락을 읽어 개인 계정 사용이나 민감정보 노출 같은 위험을 드러내고, 같은 엔진으로 어떤 AI 사용이 실제 업무에 도움이 되는지 보여 주는 '사용 인텔리전스'도 제공한다.",
+  "패터슨 CEO는 \"모든 이사회가 AI 사용 위험을 어떻게 줄이고 가치를 얻고 있는지 묻는다\"고 말했다. 투자금은 미국·영국 엔지니어링과 영업 조직 확대에 쓴다. 기업 안 '섀도 AI' 관리가 보안 투자의 새 영역이 되고 있음을 보여 준다."
+ ],
+ "keyPoints": [
+  "시리즈 B 5천만 달러, 누적 7600만 달러",
+  "직원 AI 사용을 작업별로 분류·통제",
+  "소형 언어모델로 민감정보 노출 탐지"
+ ],
+ "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-1.jpeg",
+ "facts": [
+  [
+   "유형",
+   "보안 투자"
+  ],
+  [
+   "기업",
+   "Harmonic Security"
+  ],
+  [
+   "투자",
+   "시리즈 B 5천만 달러(Crosspoint 주도)"
+  ],
+  [
+   "창립",
+   "2023년"
+  ]
+ ],
+ "id": "261016-security-13",
+ "category": "security",
+ "collectedAt": "2026-10-16T03:31:33+09:00"
+}

@@ -1,0 +1,39 @@
+{
+ "title": "WinRAR 결함 악용한 '사일런트 링크스', 중앙아시아 등 CIS 정부기관 노려 원격 셸 설치",
+ "originalTitle": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "해킹조직 '사일런트 링크스(Silent Lynx)'가 2025년 6월부터 2026년 8월까지 독립국가연합(CIS) 정부기관을 노린 공격을 이어 온 것으로 나타났다. 시스코 탈로스는 이 활동을 UAT-6275, 리코디드퓨처는 TAG-193으로 부른다. 피해·미끼 주제는 카자흐스탄·키르기스스탄·우즈베키스탄·아르메니아·러시아 등 9개국에 걸쳐 있다.",
+  "공격은 매크로 문서, PS2EXE 다운로더, 깃허브에 올린 파워셸 스크립트, 그리고 WinRAR 취약점(CVE-2025-8088)을 노린 압축 파일 등 네 가지 경로로 진행됐다. 2026년 4월 압축 파일 결함을 이용한 것은 이 조직이 처음으로 보안 결함을 침투에 쓴 사례다. 최종적으로 폴셸·피클셸 등 자체 제작 원격 셸을 심어 감염 PC를 원격 조작했다.",
+  "외교 서한, 투르크메니스탄 영공 신청서, 정유 사업 제안 등을 미끼로 한 표적 피싱 메일은 해킹된 정부 계정에서 발송됐다. 탈로스는 이 조직이 환경·경제 부처와 에너지 인프라에 관심을 보이며 중앙아시아 정부망 침투를 계속 시도할 것으로 내다봤다. 오래된 WinRAR를 쓰는 기관은 업데이트가 필요하다."
+ ],
+ "keyPoints": [
+  "CIS 9개국 정부기관 겨냥, 2025년 6월부터",
+  "WinRAR 결함 CVE-2025-8088 첫 무기화",
+  "해킹된 정부 계정으로 피싱 메일 발송"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX-Vi04Qyk2-RKyXrnolcZ8TTBRKY43kIB_B7l-1Na3Xta_ed00DJtXclvIdp65s6Sdf3ksabzWKXmYTmKwx9xAlROi6eas704naXFtyx93xru04krAQ9kViM9rjKSgKhdMR0weIs4xOd7htm_gI_7CLg-N16wjCKt59vAoC-3UpMFJf8QawlMkfpRh745/s1600/winrar-hacker.jpg",
+ "facts": [
+  [
+   "유형",
+   "사이버 첩보"
+  ],
+  [
+   "조직",
+   "Silent Lynx(UAT-6275·TAG-193)"
+  ],
+  [
+   "취약점",
+   "WinRAR CVE-2025-8088"
+  ],
+  [
+   "분석",
+   "시스코 탈로스·리코디드퓨처"
+  ]
+ ],
+ "id": "261016-security-02",
+ "category": "security",
+ "collectedAt": "2026-10-16T03:31:33+09:00"
+}

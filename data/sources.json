@@ -1221,6 +1221,23 @@
     "box office",
     "BIFF"
    ]
+  },
+  {
+   "name": "경향신문 문화",
+   "url": "https://www.khan.co.kr/",
+   "keywords": [
+    "부산국제영화제",
+    "영화"
+   ]
+  },
+  {
+   "name": "한국일보 영화",
+   "url": "https://www.hankookilbo.com/",
+   "keywords": [
+    "영화",
+    "개봉",
+    "VOD"
+   ]
   }
  ],
  "shorts": [
@@ -1875,6 +1892,23 @@
     "개인정보 유출",
     "CI"
    ]
+  },
+  {
+   "name": "한국경제 IT·보안",
+   "url": "https://www.hankyung.com/it",
+   "keywords": [
+    "개인정보 노출",
+    "해킹"
+   ]
+  },
+  {
+   "name": "ZDNet Korea",
+   "url": "https://zdnet.co.kr/",
+   "keywords": [
+    "국감",
+    "KISA",
+    "해킹"
+   ]
   }
  ],
  "book": [
@@ -1939,6 +1973,14 @@
    "keywords": [
     "Frankfurter Buchmesse",
     "press release"
+   ]
+  },
+  {
+   "name": "뉴시스 출판",
+   "url": "https://www.newsis.com/cul/list/?cid=10700&scid=10704",
+   "keywords": [
+    "[신간]",
+    "출판"
    ]
   }
  ],
@@ -4960,6 +5002,14 @@
     "트럼프",
     "중남미"
    ]
+  },
+  {
+   "name": "경향신문 국제(미주)",
+   "url": "https://www.khan.co.kr/world/america/articles",
+   "keywords": [
+    "미국",
+    "트럼프"
+   ]
   }
  ],
  "worldasia": [
@@ -5019,6 +5069,16 @@
     "China",
     "defense"
    ]
+  },
+  {
+   "name": "베르나마(말레이시아 국영통신) 세계",
+   "url": "https://www.bernama.com/en/world/",
+   "keywords": [
+    "ASEAN",
+    "Indonesia",
+    "Thailand",
+    "Vietnam"
+   ]
   }
  ],
  "worldeu": [
@@ -5064,6 +5124,16 @@
     "유럽",
     "러시아",
     "우크라이나"
+   ]
+  },
+  {
+   "name": "뉴시스 국제-유럽",
+   "url": "https://www.newsis.com/int/list/?cid=10100&scid=10105",
+   "keywords": [
+    "유럽",
+    "러시아",
+    "우크라이나",
+    "영국"
    ]
   }
  ],

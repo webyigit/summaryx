@@ -1,0 +1,39 @@
+{
+ "title": "AI 앱 제작 도구 '랭플로' 치명적 결함, 허니팟에 공격 시도 1423건…일반 계정으로 서버 장악",
+ "originalTitle": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "AI 애플리케이션·에이전트 워크플로를 만드는 오픈소스 플랫폼 랭플로(Langflow)의 치명적 결함(CVE-2026-105740, CVSS 9.9)이 실제 공격에 쓰이고 있다고 보안업체 프레비디안이 경고했다. 1.9.0 이전 버전이 대상이며, 랭플로는 2025년 IBM이 인수한 데이터스택스 소속이다.",
+  "MCP 서버 설정에 사용자가 넣은 명령이 아무 검증 없이 셸에서 실행되는 것이 원인이다. 관리자가 아닌 일반 사용자도 로그인만 하면 서버 목록을 불러올 때마다 명령이 실행되도록 심을 수 있어, 서버 장악과 지속적인 백도어로 이어질 수 있다. 이 설정은 일반 워크플로 검토 화면에 보이지 않는다는 점도 위험 요소로 꼽혔다.",
+  "프레비디안 허니팟에는 9월 19일 이후 15개국 27개 IP에서 1423건의 공격 시도가 기록됐고, 10월 11일부터 급증했다. 1.9.0 이상으로 업데이트하고, 어려우면 자동 로그인을 끄고 외부 노출을 막으며 계정을 믿을 수 있는 사용자로 제한하라는 권고가 나왔다."
+ ],
+ "keyPoints": [
+  "랭플로 CVSS 9.9 결함 실제 공격",
+  "일반 계정으로도 서버 명령 실행 가능",
+  "9월 19일 이후 공격 시도 1423건"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1tlAL_zc7Hg-gD5PRFa08hoOp2KRDu9kNSJk8nhZ91us8q-K7qGfnoasa6gONBjZoEtGJqPEZY3rKMy4Uqozk89X-L7IQBV8IrDqnJYdtAsCC4d08mmQUI4r_zACmvDVdey82w7FC4lTIoYfqdwYYu2Bp_Ql0AwOB54KRYrHk9ixjo27rKLWEK0dwsfw3/s1600/langflow.jpg",
+ "facts": [
+  [
+   "유형",
+   "취약점·실제 악용"
+  ],
+  [
+   "제품",
+   "Langflow 1.9.0 이전"
+  ],
+  [
+   "CVE",
+   "CVE-2026-105740(CVSS 9.9)"
+  ],
+  [
+   "관측",
+   "프레비디안 허니팟"
+  ]
+ ],
+ "id": "261016-security-09",
+ "category": "security",
+ "collectedAt": "2026-10-16T03:31:33+09:00"
+}

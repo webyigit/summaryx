@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>엔진엑스, 결함 5개 패치…원격 코드 실행 가능성·TLS 클라이언트 인증서 검사 우회 | summaryx</title>
+<meta name="description" content="웹서버 엔진엑스(NGINX)가 10월 14일 안정판 1.30.6과 메인라인 1.31.7을 내고 취약점 5개를 고쳤다. F5는 메모리 결함 3개를 CVSS 4.0 기준 9.2(치명적), TLS 결함을 8.3, HTTP/3 결함을 6.9로 평가했다. 10월 15일 기준 실">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="엔진엑스, 결함 5개 패치…원격 코드 실행 가능성·TLS 클라이언트 인증서 검사 우회">
+<meta property="og:description" content="웹서버 엔진엑스(NGINX)가 10월 14일 안정판 1.30.6과 메인라인 1.31.7을 내고 취약점 5개를 고쳤다. F5는 메모리 결함 3개를 CVSS 4.0 기준 9.2(치명적), TLS 결함을 8.3, HTTP/3 결함을 6.9로 평가했다. 10월 15일 기준 실">
+<meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEionuV8CAd7SP0bgEbHyb-0hp7JWNkWpPjYtkNH9p86nRQrxDN1T97D1cragnVVzAwCEFCuqrwuysgwzxJLfvTXrYhMSGj5rbBzrpjW-VPvAmrc2-9EAR_hBmPigJUOjynvkm0ArpyasyzCOAWUWFYdCqzsbCJVOsxC09LnYwH2dcV4j4Vm9S9VDelXUlc/s1600/tls.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="../../#/a/261016-security-04">
+<script>location.replace('../../#/a/261016-security-04');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261016-security-04">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">엔진엑스, 결함 5개 패치…원격 코드 실행 가능성·TLS 클라이언트 인증서 검사 우회</h1>
+<p>웹서버 엔진엑스(NGINX)가 10월 14일 안정판 1.30.6과 메인라인 1.31.7을 내고 취약점 5개를 고쳤다. F5는 메모리 결함 3개를 CVSS 4.0 기준 9.2(치명적), TLS 결함을 8.3, HTTP/3 결함을 6.9로 평가했다. 10월 15일 기준 실제 공격 보고나 미 CISA 악용 목록 등재는 없다.</p><p>메모리 결함 3개는 alias·rewrite 조합, 정규식 map, 비동기 입출력(aio)과 SSI 사용 등 특정 설정에서 작업 프로세스를 멈추거나 코드 실행으로 이어질 수 있다. TLS 세션 티켓 결함(CVE-2026-97629)은 키 슬롯 하나가 초기화되지 않은 채 남아 클라이언트 인증서 검증을 우회하는 위조 세션이 생길 수 있는 문제이고, HTTP/3 결함은 백엔드로 넘기는 요청에 추가 데이터를 끼워 넣을 수 있게 한다.</p><p>1.28 이하 버전은 패치 대상이 아니어서 배포판이 수정본을 반영했는지 확인해야 하고, NGINX Plus 등 F5 제품 일부는 아직 수정 빌드가 없다. 올해 여덟 번째 보안 릴리스로, 지난 5월 결함은 공개 며칠 만에 악용된 전례가 있어 빠른 업데이트가 권고된다.</p>
+<p><a href="https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html">원문 보기</a></p>
+</body></html>
