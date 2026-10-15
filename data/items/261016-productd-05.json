@@ -1,0 +1,39 @@
+{
+ "title": "키보드 안에 윈도 PC를 통째로… HP '엘리트보드 G2a'",
+ "originalTitle": "HP EliteBoard G2a Hides a Windows PC in an Ordinary-Looking Keyboard",
+ "source": "Yanko Design",
+ "url": "https://www.yankodesign.com/2026/10/14/hp-eliteboard-g2a-hides-a-windows-pc-in-an-ordinary-looking-keyboard/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "HP가 풀사이즈 키보드 안에 윈도 PC를 넣은 '엘리트보드 G2a'를 내놨다. 겉보기엔 숫자 키패드와 백라이트를 갖춘 평범한 회색 업무용 키보드로, 로우 프로파일 키와 익숙한 배열을 그대로 유지했다. 크기는 14.1×4.7×0.7인치, 무게는 구성에 따라 약 1.49파운드다.",
+  "내부에는 50TOPS NPU를 갖춘 AMD 라이젠 AI 5 PRO 435 또는 라이젠 AI 7 PRO 450이 들어가고, 16GB·32GB 메모리와 512GB SSD를 조합한다. 메모리 슬롯 두 개로 64GB까지 늘릴 수 있다. 모니터가 65W 전원을 공급하면 USB-C 케이블 하나로 영상·데이터·전원을 모두 해결하며, 케이블은 일체형과 분리형 중 고를 수 있다.",
+  "선택 사항인 32Wh 배터리를 넣으면 케이블을 뽑아도 계속 작동하고, 스피커·마이크가 내장되며 무선 마우스가 함께 온다. 키보드 상판·메모리·SSD·배터리는 교체할 수 있게 설계했다. 미국 구성은 3,028달러부터 시작하고, 일체형 케이블·32GB 모델은 3,846달러다."
+ ],
+ "keyPoints": [
+  "풀사이즈 키보드에 라이젠 AI PC 내장",
+  "USB-C 한 가닥 연결, 선택형 32Wh 배터리",
+  "미국 3,028달러부터"
+ ],
+ "image": "https://www.yankodesign.com/images/design_news/2026/10/hp-eliteboard-g2a-hides-a-windows-pc-in-an-ordinary-looking-keyboard/hp-eliteboard-g2a-06.jpg",
+ "facts": [
+  [
+   "브랜드",
+   "HP"
+  ],
+  [
+   "크기·무게",
+   "14.1×4.7×0.7in, 약 1.49lb"
+  ],
+  [
+   "프로세서",
+   "Ryzen AI 5 PRO 435 / AI 7 PRO 450"
+  ],
+  [
+   "가격",
+   "$3,028부터(미국)"
+  ]
+ ],
+ "id": "261016-productd-05",
+ "category": "productd",
+ "collectedAt": "2026-10-16T04:34:47+09:00"
+}

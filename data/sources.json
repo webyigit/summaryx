@@ -2121,6 +2121,24 @@
     "설계공모",
     "건축가"
    ]
+  },
+  {
+   "name": "Bing 뉴스 RSS (공공건축, 7일)",
+   "url": "https://www.bing.com/news/search?q=%EA%B3%B5%EA%B3%B5%EA%B1%B4%EC%B6%95&qft=interval%3d%227%22&format=rss",
+   "keywords": [
+    "공공건축",
+    "건축문화제",
+    "공간문화대상"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS (건축상 수상, 7일)",
+   "url": "https://www.bing.com/news/search?q=%EA%B1%B4%EC%B6%95%EC%83%81+%EC%88%98%EC%83%81&qft=interval%3d%227%22&format=rss",
+   "keywords": [
+    "건축상",
+    "수상",
+    "지자체 건축상"
+   ]
   }
  ],
  "travel": [
@@ -2982,6 +3000,24 @@
     "design",
     "furniture",
     "product"
+   ]
+  },
+  {
+   "name": "디자인플러스(월간 디자인)",
+   "url": "https://design.co.kr/",
+   "keywords": [
+    "가구",
+    "리빙",
+    "제품 디자인"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "디자인",
+    "가전",
+    "가구"
    ]
   }
  ],
