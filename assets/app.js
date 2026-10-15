@@ -77,12 +77,7 @@
   }
   function pubHtml(a) {
     var d = a.publishedAt && a.publishedAt.slice(0, 10).split('-');
-    return '<span class="pub">' + (d && d.length === 3 ? d.join('.') + ' 게시' : '게시일 미확인') + updHtml(a) + '</span>';
-  }
-  // 사이트에 올라온(수집) 시각. collectedAt은 한국 시간(+09:00) 문자열
-  function updHtml(a) {
-    var m = (a.collectedAt || '').match(/^\d{4}-(\d{2})-(\d{2})T(\d{2}:\d{2})/);
-    return m ? '<span class="upd">' + m[1] + '.' + m[2] + ' ' + m[3] + ' 업데이트</span>' : '';
+    return '<span class="pub">' + (d && d.length === 3 ? d.join('.') + ' 게시' : '게시일 미확인') + '</span>';
   }
   function fact(a, k) {
     var f = (a.facts || []).filter(function (x) { return x[0] === k; })[0];
