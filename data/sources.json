@@ -1374,6 +1374,15 @@
     "스포츠",
     "게임"
    ]
+  },
+  {
+   "name": "게임메카",
+   "url": "https://www.gamemeca.com/news.php",
+   "keywords": [
+    "신작",
+    "e스포츠",
+    "업데이트"
+   ]
   }
  ],
  "webtoon": [
@@ -1430,6 +1439,29 @@
     "애니메이션 신작",
     "애니메이션 영화 11월 개봉"
    ]
+  },
+  {
+   "name": "AniTrendz 뉴스",
+   "url": "https://anitrendz.net/news/",
+   "keywords": [
+    "anime season",
+    "music video"
+   ]
+  },
+  {
+   "name": "지디넷코리아 애니메이션 검색",
+   "url": "https://search.zdnet.co.kr/?area=4&kwd=%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98&pageno=1",
+   "keywords": [
+    "애니메이션",
+    "AGF"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS 웹툰 애니메이션",
+   "url": "https://www.bing.com/news/search?q=%EC%9B%B9%ED%88%B0+%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "웹툰 애니메이션"
+   ]
   }
  ],
  "sports": [
@@ -1475,6 +1507,15 @@
    "keywords": [
     "프로야구 결산",
     "스포츠"
+   ]
+  },
+  {
+   "name": "뉴시스 스포츠",
+   "url": "https://www.newsis.com/sports/",
+   "keywords": [
+    "프로농구",
+    "골프",
+    "빙상"
    ]
   }
  ],
@@ -3211,6 +3252,22 @@
     "Chardonnay",
     "wine of the week"
    ]
+  },
+  {
+   "name": "The Eye Mexico",
+   "url": "https://theeyehuatulco.com/",
+   "keywords": [
+    "Nebbiolo",
+    "Valle de Guadalupe"
+   ]
+  },
+  {
+   "name": "Decanter - 월별 아카이브",
+   "url": "https://www.decanter.com/archive/2026/10/",
+   "keywords": [
+    "grape variety",
+    "buyer's guide"
+   ]
   }
  ],
  "winery": [
@@ -3268,6 +3325,23 @@
     "founder",
     "acquisition",
     "winemaker"
+   ]
+  },
+  {
+   "name": "WineNews (영문)",
+   "url": "https://winenews.it/en/",
+   "keywords": [
+    "winery",
+    "family",
+    "estate"
+   ]
+  },
+  {
+   "name": "Wine Spectator Winery Intel",
+   "url": "https://www.winespectator.com/ratings/winery-intel",
+   "keywords": [
+    "winery profile",
+    "new label"
    ]
   }
  ],
