@@ -340,3 +340,9 @@ html, body, a, button, input, .item, .chip, .sub { touch-action: manipulation; }
 .alinks { margin: 8px 0 0; padding-left: 18px; }
 .alinks li { margin: 4px 0; }
 .alinks a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+/* PC: 우측 상세 창은 폭 800px, 좌측 정렬 */
+@media (min-width: 1100px) {
+  .split { grid-template-columns: minmax(420px, 32%) minmax(0, 800px); justify-content: start; }
+  .rp { padding-right: 0; }
+}
