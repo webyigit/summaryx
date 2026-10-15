@@ -2495,6 +2495,14 @@
     "harvest 2026",
     "vintage"
    ]
+  },
+  {
+   "name": "Decanter",
+   "url": "https://www.decanter.com/wine-reviews-tastings/",
+   "keywords": [
+    "vintage report",
+    "region"
+   ]
   }
  ],
  "winepair": [
@@ -2612,6 +2620,21 @@
    "keywords": [
     "ワイン ヴィンテージとは",
     "ワイン 基礎知識"
+   ]
+  },
+  {
+   "name": "The Drinks Business",
+   "url": "https://www.thedrinksbusiness.com/category/news/",
+   "keywords": [
+    "what are",
+    "explained"
+   ]
+  },
+  {
+   "name": "The Irish Times Drink (John Wilson)",
+   "url": "https://www.irishtimes.com/food/drink/",
+   "keywords": [
+    "How to Drink Better"
    ]
   }
  ],

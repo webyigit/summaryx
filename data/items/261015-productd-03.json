@@ -1,0 +1,35 @@
+{
+ "title": "오늘 날씨가 100년 중 몇 번째인지 알려주는 전자종이 '웨더100'",
+ "originalTitle": "Weather100's E-Paper Displays Give Daily Weather a Century of Context",
+ "source": "Yanko Design",
+ "url": "https://www.yankodesign.com/2026/10/14/weather100s-e-paper-displays-give-daily-weather-a-century-of-context/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "일반 예보는 기온은 알려 주지만 그것이 그 지역에서 얼마나 이례적인지는 말해 주지 않는다. 디자이너 퍼거스 키팅이 만든 웨더100은 오늘 날씨를 같은 장소·같은 날짜의 약 100년 기록과 비교해 순위로 보여 주는 전자종이 디스플레이다.",
+  "화면은 위에 날씨 지표, 그 아래 동그라미 친 순위와 짧은 설명, 맨 위에 장소와 날짜만 두는 단순한 구성이다. 순위 1은 비교 기간 중 같은 날짜에서 가장 더운 날이라는 뜻이고, 강수는 숫자가 낮을수록 비가 많다. 10.2인치 화면에 흰색 금속 프레임을 두른 프로(179.99달러)와 4.2인치에 컬러 외장·충전 배터리를 갖춘 미니(79.99달러) 두 가지이며, 둘 다 백라이트 없이 실내 빛으로 읽힌다.",
+  "와이파이에 연결하면 매일 아침 7~8시에 순위를 받아 오고, 첫해 이후 데이터 서비스는 연 12달러다. 기사는 순위가 예보에 기반하고 사용 데이터셋이 공개되지 않았다는 점을 들어 공식 경보가 아닌 참고 정보로 보라고 했다."
+ ],
+ "keyPoints": [
+  "오늘 날씨를 약 100년 기록과 비교해 순위 표시",
+  "프로 10.2인치 179.99달러·미니 4.2인치 79.99달러",
+  "첫해 후 데이터 이용료 연 12달러"
+ ],
+ "image": "https://www.yankodesign.com/images/design_news/2026/10/weather100s-e-paper-displays-give-daily-weather-a-century-of-context/weather100-eink-display-05.jpg",
+ "facts": [
+  [
+   "디자인",
+   "Fergus Keatinge"
+  ],
+  [
+   "제품",
+   "Weather100 Pro·Mini"
+  ],
+  [
+   "가격",
+   "$179.99 / $79.99"
+  ]
+ ],
+ "id": "261015-productd-03",
+ "category": "productd",
+ "collectedAt": "2026-10-15T16:45:14+09:00"
+}

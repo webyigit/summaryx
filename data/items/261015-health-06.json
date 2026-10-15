@@ -1,0 +1,35 @@
+{
+ "title": "노화한 '좀비 세포'가 면역을 피하는 비결은 PD-L2…막자 생쥐 혈당·악력 개선(Cell Metabolism)",
+ "originalTitle": "Scientists discover how harmful \"zombie cells\" hide from the immune system",
+ "source": "ScienceDaily",
+ "url": "https://www.sciencedaily.com/releases/2026/10/261013015800.htm",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "노화(세포 노쇠) 세포는 분열을 멈췄지만 죽지 않고 남아 염증 물질을 내뿜어 '좀비 세포'로 불린다. 나이가 들수록 쌓여 노화 관련 질환에 기여하는데, 왜 면역계가 이들을 치우지 못하는지가 의문이었다. 미국 시더스-시나이 연구팀은 단백질 PD-L2가 이들이 면역 제거를 피하도록 돕는다는 연구를 Cell Metabolism에 발표했다.",
+  "PD-L2를 유전적으로 없애거나 차단한 생쥐에서는 노화 세포 축적과 염증 물질이 줄었고, 혈당 조절과 악력이 좋아졌다. 사람의 노화 세포도 젊은 세포보다 PD-L2를 더 많이 만들었고, 일부 조직에서는 나이가 들수록 PD-L2가 늘었다. 연구팀은 PD-L2 차단으로 면역계가 노화 세포를 치우게 하거나, PD-L2를 혈액 표지자로 쓸 가능성을 제시했다.",
+  "다만 가장 강한 근거는 생쥐 실험이고 사람 자료는 관찰 수준이다. 사람에서의 안전성과 효과는 확인되지 않았고, 일부 저자는 관련 특허·기업과 이해관계가 있다고 공개했다."
+ ],
+ "keyPoints": [
+  "노화 세포가 PD-L2로 면역 제거 회피",
+  "PD-L2 차단 생쥐, 염증↓·혈당 조절·악력↑",
+  "사람 효과·안전성은 아직 미확인"
+ ],
+ "image": "https://www.sciencedaily.com/images/1920/embryonic-stem-cells-cellular-therapy-regeneration.webp",
+ "facts": [
+  [
+   "출처기관",
+   "시더스-시나이, Cell Metabolism"
+  ],
+  [
+   "근거 종류",
+   "연구(동물실험·사람 조직 관찰)"
+  ],
+  [
+   "대상",
+   "노화 세포·노화 관련 질환"
+  ]
+ ],
+ "id": "261015-health-06",
+ "category": "health",
+ "collectedAt": "2026-10-15T16:45:14+09:00"
+}
