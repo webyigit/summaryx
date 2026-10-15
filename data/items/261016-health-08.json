@@ -1,0 +1,35 @@
+{
+ "title": "식수 리튬 많은 지역 아이들, 심장 부정맥 'WPW 증후군' 진단 더 많아…캘리포니아 230만 명 분석",
+ "originalTitle": "A study of 2.3 million California children raises questions about lithium in water",
+ "source": "News-Medical",
+ "url": "https://www.news-medical.net/news/20261014/A-study-of-23-million-California-children-raises-questions-about-lithium-in-water.aspx",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "임신 중 치료 목적으로 리튬을 복용하면 아기 심장 기형과 관련 있다는 사실은 알려져 있다. 연구팀은 지하수·지표수에 자연적으로 들어 있는 리튬이 심장에 비정상 전기 통로가 생기는 볼프-파킨슨-화이트(WPW) 증후군과 관련 있는지 보려고, 2016~2020년 캘리포니아 18세 미만 환자 230만여 명(평균 8.2세)의 기록을 카운티별 식수 리튬 농도와 비교해 Journal of Clinical Investigation에 발표했다.",
+  "카운티 평균 리튬은 1.49~213ppb(중앙값 12.5ppb)였고 WPW 진단은 686건(0.03%)이었다. 나이·성별·인종·보험·소득을 보정했을 때 리튬 상위 25%(32.6ppb 이상) 카운티의 WPW 진단 가능성은 60%, 보건 선별 기준인 10ppb 이상 지역은 33% 높았다. 상위 지역에서는 상심실성 빈맥·실신·두근거림 진단도 더 많았다. 뉴욕 190만여 명 자료에서는 10ppb 초과 시 22% 높았지만 32.6ppb 초과에서는 유의하지 않았다.",
+  "카운티 단위 관찰 연구라 인과관계를 말할 수 없고, 개인의 실제 섭취량이나 임신 중 어머니의 노출은 측정하지 않았다. 아이가 태어난 카운티에 계속 살았다고 가정했고 다른 환경 요인이 영향을 줬을 수도 있다. 연구팀은 식수 리튬이 조절 가능한 요인일 수 있어 더 연구할 가치가 있다고 결론지었다."
+ ],
+ "keyPoints": [
+  "리튬 상위 25% 카운티, 아이 WPW 진단 60%↑",
+  "뉴욕 자료에서도 10ppb 초과 시 22%↑",
+  "카운티 단위 관찰 연구…인과 아냐"
+ ],
+ "image": "https://www.news-medical.net/images/news/ImageForNews_848894_17920320907945557.jpg",
+ "facts": [
+  [
+   "출처기관",
+   "Journal of Clinical Investigation (2026)"
+  ],
+  [
+   "근거 종류",
+   "연구(카운티 단위 관찰 분석)"
+  ],
+  [
+   "대상",
+   "캘리포니아·뉴욕 18세 미만 환자"
+  ]
+ ],
+ "id": "261016-health-08",
+ "category": "health",
+ "collectedAt": "2026-10-16T05:32:16+09:00"
+}

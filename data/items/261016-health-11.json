@@ -1,0 +1,35 @@
+{
+ "title": "기증 모유에서 뽑은 항체, RSV·독감 바이러스 막았다…생쥐 코에 뿌리자 폐 손상 줄어(Science Advances)",
+ "originalTitle": "Breast milk antibodies show promise against multiple respiratory viruses",
+ "source": "News-Medical (AAAS)",
+ "url": "https://www.news-medical.net/news/20261014/Breast-milk-antibodies-show-promise-against-multiple-respiratory-viruses.aspx",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "모유에는 점막을 지키는 분비형 IgA 항체가 들어 있다. 연구팀은 인디애나폴리스와 피츠버그 모유은행을 통해 기증자 120명의 모유를 모아 여러 항체가 섞인 분비형 IgA 제제 'LCTG-001'을 정제하고, 실험실과 생쥐에서 호흡기 바이러스에 대한 효과를 시험해 Science Advances에 발표했다.",
+  "실험실에서 LCTG-001은 RSV, 아데노바이러스 5형, A형 독감(H1N1·H3N2)을 중화했다. H1N1 감염 생쥐에게 감염 약 2시간 전과 24시간 뒤 두 번 코로 넣어주자 정상 생쥐와 항체가 없는 생쥐 모두 병세와 폐 손상이 줄었다. 정상 생쥐에서 폐 바이러스 양은 초기에만 낮았다가 나중엔 대조군과 같아졌지만, 폐 손상은 덜했고 폐 장벽도 더 잘 유지됐다. 조류독감 H5N1(2.3.4.4b) 단백질에는 붙었지만 중화 효과는 거의 없었고 동물 실험은 하지 않았다.",
+  "연구는 항체 결핍 환자 등을 위한 점막 수동면역 연구를 뒷받침하는 단계로, 사람에서 효과는 확인되지 않았다. 보호 기전도 아직 명확하지 않고, 기사에는 생쥐 수나 자세한 통계가 나오지 않는다."
+ ],
+ "keyPoints": [
+  "기증자 120명 모유에서 분비형 IgA 제제 정제",
+  "RSV·독감 등 중화, 생쥐 폐 손상 감소",
+  "사람 효과 미확인, H5N1 중화는 미미"
+ ],
+ "image": "https://www.news-medical.net/image-handler/picture/2016/6/Breast_milk_-_Mukhina_Viktoriia-2000_c3f24a01ac934e0e823904f74dcd22e9-620x480.jpg",
+ "facts": [
+  [
+   "출처기관",
+   "Science Advances (2026), 미국과학진흥회(AAAS) 보도자료"
+  ],
+  [
+   "근거 종류",
+   "실험실·동물 실험(생쥐)"
+  ],
+  [
+   "대상",
+   "호흡기 바이러스 감염 예방 연구"
+  ]
+ ],
+ "id": "261016-health-11",
+ "category": "health",
+ "collectedAt": "2026-10-16T05:32:16+09:00"
+}

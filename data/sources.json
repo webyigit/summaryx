@@ -1321,6 +1321,15 @@
     "wine trends",
     "John Wilson"
    ]
+  },
+  {
+   "name": "Meininger's International",
+   "url": "https://www.meininger.de/en/news",
+   "keywords": [
+    "wine trade",
+    "wine exports",
+    "appointments"
+   ]
   }
  ],
  "game": [
@@ -2210,6 +2219,15 @@
     "외식",
     "여행"
    ]
+  },
+  {
+   "name": "Skift Meetings",
+   "url": "https://meetings.skift.com/",
+   "keywords": [
+    "meetings",
+    "incentive travel",
+    "event costs"
+   ]
   }
  ],
  "health": [
@@ -2622,6 +2640,23 @@
     "vintage report",
     "region"
    ]
+  },
+  {
+   "name": "WineNews (IT)",
+   "url": "https://winenews.it/it/",
+   "keywords": [
+    "vendemmia 2026",
+    "Doc",
+    "consorzio"
+   ]
+  },
+  {
+   "name": "Los Gatan",
+   "url": "https://losgatan.com/",
+   "keywords": [
+    "harvest 2026",
+    "Santa Cruz Mountains"
+   ]
   }
  ],
  "winepair": [
@@ -2674,6 +2709,21 @@
    "url": "https://www.houstonpress.com/restaurants/",
    "keywords": [
     "wine dinner"
+   ]
+  },
+  {
+   "name": "Yahoo Creators Lifestyle",
+   "url": "https://creators.yahoo.com/lifestyle/",
+   "keywords": [
+    "wine pairing",
+    "pair with wine"
+   ]
+  },
+  {
+   "name": "Bing News RSS (pair with wine)",
+   "url": "https://www.bing.com/news/search?q=%22pair+with%22+wine+dish&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "\"pair with\" wine dish"
    ]
   }
  ],
@@ -2754,6 +2804,14 @@
    "url": "https://www.irishtimes.com/food/drink/",
    "keywords": [
     "How to Drink Better"
+   ]
+  },
+  {
+   "name": "소믈리에타임즈 (와인 칼럼)",
+   "url": "https://www.sommeliertimes.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "와인 여행",
+    "와인 칼럼"
    ]
   }
  ],
