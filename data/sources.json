@@ -2209,6 +2209,14 @@
    "keywords": [
     "문해력"
    ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "교육",
+    "수능"
+   ]
   }
  ],
  "kpop": [
@@ -3506,6 +3514,22 @@
    "keywords": [
     "뷰티 브랜드 세일",
     "샘데이"
+   ]
+  },
+  {
+   "name": "주간한국",
+   "url": "https://weekly.hankooki.com/",
+   "keywords": [
+    "자주 장날",
+    "생활용품 할인"
+   ]
+  },
+  {
+   "name": "쿠키뉴스",
+   "url": "https://www.kukinews.com/",
+   "keywords": [
+    "가을 할인전",
+    "뷰티 페스타"
    ]
   }
  ],
