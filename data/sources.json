@@ -363,6 +363,41 @@
     "찬양",
     "합창"
    ]
+  },
+  {
+   "name": "GodTube Music News",
+   "url": "https://www.godtube.com/music-news/",
+   "keywords": [
+    "new album",
+    "Christmas album",
+    "live album"
+   ]
+  },
+  {
+   "name": "Today's Christian Entertainment News",
+   "url": "https://todayschristianent.com/news/",
+   "keywords": [
+    "music news",
+    "Dove Week"
+   ]
+  },
+  {
+   "name": "데일리굿뉴스 교계",
+   "url": "https://www.goodnews1.com/",
+   "keywords": [
+    "찬양",
+    "음악회",
+    "합창"
+   ]
+  },
+  {
+   "name": "크리스천투데이 문화 전체",
+   "url": "https://www.christiantoday.co.kr/sections/cul/",
+   "keywords": [
+    "찬양",
+    "워십",
+    "문화상"
+   ]
   }
  ],
  "christian": [
@@ -1264,6 +1299,14 @@
    "keywords": [
     "한국 인기 동영상(대부분 가로 영상)"
    ]
+  },
+  {
+   "name": "Bing News RSS",
+   "url": "https://www.bing.com/news/search?q=%EC%87%BC%EC%B8%A0+%ED%99%94%EC%A0%9C&qft=sortbydate%3d%221%22&format=rss",
+   "keywords": [
+    "쇼츠 화제",
+    "유튜브 쇼츠 떡상"
+   ]
   }
  ],
  "wine": [
@@ -1598,6 +1641,14 @@
    "keywords": [
     "space",
     "night sky"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "철새",
+    "과학"
    ]
   }
  ],

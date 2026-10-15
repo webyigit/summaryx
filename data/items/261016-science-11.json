@@ -1,0 +1,35 @@
+{
+ "title": "'윤초' 없애고 '윤시'로…시계 맞추는 규칙이 54년 만에 바뀐다",
+ "originalTitle": "It's Official: Timekeepers Have Gotten Rid of the Leap Second—and Introduced the Leap Hour Instead",
+ "source": "Smithsonian",
+ "url": "https://www.smithsonianmag.com/smart-news/its-official-timekeepers-have-gotten-rid-of-the-leap-second-and-introduced-the-leap-hour-instead-180989685/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "우리가 쓰는 세계 표준시(UTC)는 아주 정확한 원자시계로 맞추지만, 지구가 도는 속도는 조금씩 들쭉날쭉하다. 그래서 1972년부터 원자시계 시간과 지구 자전으로 정한 천문시(UT1)의 차이가 0.9초에 가까워지면 1초를 끼워 넣는 '윤초'를 써 왔고, 지금까지 27번 더했다.",
+  "프랑스에서 열린 국제도량형총회는 10월 15일 윤초를 없애는 데 투표했다. 대신 두 시간의 차이가 3600초, 즉 1시간이 되면 '윤시(leap hour)'를 넣기로 했다. 윤초는 컴퓨터에 말썽을 일으키곤 했는데, 2012년 6월 30일 윤초 때는 레딧이 멈추기도 했다. 게다가 2020년쯤부터 지구 자전이 빨라지면서 1초를 빼는 '음의 윤초'가 처음 필요해질 수도 있었는데, 그런 상황용 소프트웨어는 한 번도 시험된 적이 없어 걱정이 컸다.",
+  "윤시는 수백 년, 어쩌면 수천 년 뒤에나 필요할 것으로 보인다. 국제지구자전국(IERS)의 크리스티앙 비주아르는 '결정을 뒤로 미루는 것'이라고 말했다. 앞으로 천문학자와 지구과학자들은 점점 벌어지는 표준시와 천문시의 차이를 따로 계산해야 한다."
+ ],
+ "keyPoints": [
+  "국제도량형총회, 윤초 폐지 투표",
+  "차이가 1시간 되면 '윤시' 넣기로",
+  "윤시는 수백~수천 년 뒤에나 필요"
+ ],
+ "image": "https://th-thumbnailer.cdn-si-edu.com/zMaJY3I3U85H3aAoB8sQq8oEIxM=/fit-in/1600x0/filters:focal(1920x1353:1921x1354)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/52/e0/52e0ad1d-3ad1-4f1b-ac1b-29c99056f9a8/wall_clocks_at_ikea_store.jpg",
+ "facts": [
+  [
+   "결정 기관",
+   "국제도량형총회(CGPM)"
+  ],
+  [
+   "결정일",
+   "2026-10-15"
+  ],
+  [
+   "지금까지 윤초",
+   "1972년 이후 27번"
+  ]
+ ],
+ "id": "261016-science-11",
+ "category": "science",
+ "collectedAt": "2026-10-16T07:32:53+09:00"
+}
