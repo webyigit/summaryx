@@ -3467,6 +3467,14 @@
     "한국 음식",
     "해외 반응"
    ]
+  },
+  {
+   "name": "Eatbook",
+   "url": "https://eatbook.sg/",
+   "keywords": [
+    "Japanese food Singapore",
+    "new opening"
+   ]
   }
  ],
  "shopguide": [
@@ -3476,6 +3484,14 @@
    "keywords": [
     "지오다노 공식몰",
     "㈜지오다노"
+   ]
+  },
+  {
+   "name": "유니클로 공식 온라인 스토어",
+   "url": "https://www.uniqlo.com/kr/ko/",
+   "keywords": [
+    "유니클로 공식몰",
+    "에프알엘코리아"
    ]
   }
  ],
@@ -3584,6 +3600,14 @@
    "keywords": [
     "가을 할인전",
     "뷰티 페스타"
+   ]
+  },
+  {
+   "name": "더빅데이터",
+   "url": "https://www.thebigdata.co.kr/",
+   "keywords": [
+    "카드 페스타",
+    "백화점 리워드"
    ]
   }
  ],
@@ -3846,6 +3870,20 @@
     "제철",
     "수산물"
    ]
+  },
+  {
+   "name": "세계일보 음식",
+   "url": "https://www.segye.com/",
+   "keywords": [
+    "10월 제철 식재료"
+   ]
+  },
+  {
+   "name": "한국경제 프라이스&",
+   "url": "https://www.hankyung.com/",
+   "keywords": [
+    "제철 과일 고르는 법"
+   ]
   }
  ],
  "bp": [
@@ -4067,6 +4105,13 @@
     "lizard care sheet",
     "gecko care sheet"
    ]
+  },
+  {
+   "name": "Dubia.com",
+   "url": "https://dubiaroaches.com/blogs/gecko-care",
+   "keywords": [
+    "gecko care sheet"
+   ]
   }
  ],
  "archproj": [
@@ -4104,6 +4149,15 @@
     "건축",
     "건축가",
     "준공"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "건축",
+    "준공",
+    "개관"
    ]
   }
  ],
@@ -4435,6 +4489,13 @@
    "keywords": [
     "시집"
    ]
+  },
+  {
+   "name": "Bing News RSS(시집, 최신순)",
+   "url": "https://www.bing.com/news/search?q=%EC%8B%9C%EC%A7%91&qft=sortbydate%3d%221%22&format=rss&setlang=ko",
+   "keywords": [
+    "시집"
+   ]
   }
  ],
  "aicert": [
@@ -4467,6 +4528,14 @@
    "keywords": [
     "NCP-OUSD",
     "NCP-ARI"
+   ]
+  },
+  {
+   "name": "CompTIA",
+   "url": "https://www.comptia.org/en-us/certifications/",
+   "keywords": [
+    "SecAI+",
+    "CY0-001"
    ]
   }
  ],
@@ -4525,6 +4594,15 @@
     "반클리프 아펠",
     "워치"
    ]
+  },
+  {
+   "name": "보그 코리아(패션 뉴스)",
+   "url": "https://www.vogue.co.kr/fashion/fashion-news/",
+   "keywords": [
+    "샤넬",
+    "루이 비통",
+    "디자이너"
+   ]
   }
  ],
  "lux2": [
@@ -4570,6 +4648,15 @@
     "Coach",
     "Marc Jacobs",
     "Tory Burch"
+   ]
+  },
+  {
+   "name": "FashionNetwork USA",
+   "url": "https://us.fashionnetwork.com/",
+   "keywords": [
+    "Ralph Lauren",
+    "Coach",
+    "luxury"
    ]
   }
  ],
@@ -4641,6 +4728,14 @@
    "keywords": [
     "신상품",
     "가격"
+   ]
+  },
+  {
+   "name": "SSF SHOP 메종 키츠네",
+   "url": "https://www.ssfshop.com/Maison-Kitsune/main?brandShopNo=BDMA07A22&brndShopId=BQMKT",
+   "keywords": [
+    "메종 키츠네",
+    "정상가"
    ]
   }
  ],
@@ -4730,6 +4825,37 @@
    "url": "https://m.cafe.daum.net/Jaemin/NLaj/23",
    "keywords": [
     "쉽게 씌어진 시"
+   ]
+  },
+  {
+   "name": "새국어생활 이상섭 「윤동주의 '심각한' 아이러니 — 참회록 깊이 읽기」(2004 가을, 본문 대조)",
+   "url": "https://www.korean.go.kr/nkview/nklife/2004_3/2004_0311.pdf",
+   "keywords": [
+    "참회록",
+    "윤동주"
+   ]
+  },
+  {
+   "name": "세계일보 「흑백 세상에 새겨진… 뜨거웠던 미완의 청춘」(「참회록」 전문, 본문 대조)",
+   "url": "https://www.segye.com/newsView/20160210001495",
+   "keywords": [
+    "참회록",
+    "동주"
+   ]
+  },
+  {
+   "name": "새국어소식 김옥순 「한용운의 시 '알 수 없어요'」(2003.12, 본문 대조)",
+   "url": "https://www.korean.go.kr/nkview/nknews/200312/65_8.html",
+   "keywords": [
+    "알 수 없어요",
+    "한용운"
+   ]
+  },
+  {
+   "name": "한국교육신문 [강마을에서 책읽기] 알 수 없어요(본문 대조)",
+   "url": "https://www.hangyo.com/mobile/article.html?no=96615",
+   "keywords": [
+    "알 수 없어요"
    ]
   }
  ],
