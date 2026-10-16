@@ -3619,6 +3619,15 @@
     "맛집",
     "웨이팅"
    ]
+  },
+  {
+   "name": "핫식신(네이트뷰) 서울 맛집 리스트",
+   "url": "https://view.nate.com/author/viewus-cp-2023-0058/",
+   "keywords": [
+    "서울 노포 맛집",
+    "서울 오래가게",
+    "해장국 맛집"
+   ]
   }
  ],
  "eatgg": [
@@ -3667,6 +3676,15 @@
    "keywords": [
     "과천시 맛집선발대회",
     "경기 시군 맛집 선정"
+   ]
+  },
+  {
+   "name": "핫식신(네이트뷰) 지역 맛집 리스트",
+   "url": "https://view.nate.com/author/viewus-cp-2023-0058/",
+   "keywords": [
+    "성남 맛집",
+    "이천 맛집",
+    "경기 맛집 5곳"
    ]
   }
  ],
@@ -3973,6 +3991,14 @@
    "keywords": [
     "롯데마트 PB페스타"
    ]
+  },
+  {
+   "name": "매일신문 경제",
+   "url": "https://www.imaeil.com/",
+   "keywords": [
+    "대구 백화점 세일",
+    "아울렛 할인"
+   ]
   }
  ],
  "toon": [
@@ -4248,6 +4274,14 @@
    "keywords": [
     "제철 과일 고르는 법"
    ]
+  },
+  {
+   "name": "비건뉴스",
+   "url": "https://www.vegannews.co.kr/",
+   "keywords": [
+    "제철 고르는 법",
+    "수확 시기"
+   ]
   }
  ],
  "bp": [
@@ -4282,6 +4316,14 @@
     "고혈압",
     "당뇨",
     "콜레스테롤"
+   ]
+  },
+  {
+   "name": "메디칼업저버",
+   "url": "https://www.monews.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "고혈압",
+    "폐고혈압"
    ]
   }
  ],
@@ -4450,6 +4492,20 @@
    "keywords": [
     "crested gecko care sheet"
    ]
+  },
+  {
+   "name": "Gecko Time",
+   "url": "https://geckotime.com/tag/crested-gecko/",
+   "keywords": [
+    "crested gecko"
+   ]
+  },
+  {
+   "name": "BeWild Reptile Rescue",
+   "url": "https://bewildnc.org/crested-gecko/",
+   "keywords": [
+    "crested gecko care"
+   ]
   }
  ],
  "reptile": [
@@ -4475,6 +4531,13 @@
    "url": "https://dubiaroaches.com/blogs/gecko-care",
    "keywords": [
     "gecko care sheet"
+   ]
+  },
+  {
+   "name": "Gecko Time",
+   "url": "https://geckotime.com/",
+   "keywords": [
+    "gecko care"
    ]
   }
  ],
@@ -4650,6 +4713,14 @@
     "Uniqlo",
     "Zara"
    ]
+  },
+  {
+   "name": "FashionNetwork Deutschland",
+   "url": "https://de.fashionnetwork.com/",
+   "keywords": [
+    "Inditex",
+    "Zara"
+   ]
   }
  ],
  "bcar": [
@@ -4758,6 +4829,13 @@
     "Nescafé",
     "Nestlé"
    ]
+  },
+  {
+   "name": "NBC Chicago",
+   "url": "https://www.nbcchicago.com/",
+   "keywords": [
+    "McDonald's"
+   ]
   }
  ],
  "bbeauty": [
@@ -4810,6 +4888,13 @@
     "Sephora",
     "L'Oréal",
     "P&G"
+   ]
+  },
+  {
+   "name": "KOKH Fox 25 (okcfox)",
+   "url": "https://okcfox.com/",
+   "keywords": [
+    "IKEA"
    ]
   }
  ],
@@ -4901,6 +4986,36 @@
     "SecAI+",
     "CY0-001"
    ]
+  },
+  {
+   "name": "Oracle University Blog",
+   "url": "https://blogs.oracle.com/oracleuniversity/",
+   "keywords": [
+    "Agentic AI Foundations",
+    "1Z0-1157"
+   ]
+  },
+  {
+   "name": "ISC2",
+   "url": "https://www.isc2.org/new-ai-certification",
+   "keywords": [
+    "AI security certification"
+   ]
+  },
+  {
+   "name": "Claude 블로그(Anthropic)",
+   "url": "https://claude.com/blog/four-role-based-claude-certifications",
+   "keywords": [
+    "Claude Certified"
+   ]
+  },
+  {
+   "name": "한국경제 AICE",
+   "url": "https://www.hankyung.com/",
+   "keywords": [
+    "AICE",
+    "정기시험"
+   ]
   }
  ],
  "usedwear": [
@@ -4910,6 +5025,14 @@
    "keywords": [
     "중고 의류",
     "리셀 의류"
+   ]
+  },
+  {
+   "name": "이데일리",
+   "url": "https://www.edaily.co.kr/",
+   "keywords": [
+    "리커머스",
+    "중고 명품"
    ]
   }
  ],
@@ -5101,6 +5224,22 @@
     "메종 키츠네",
     "정상가"
    ]
+  },
+  {
+   "name": "아미 공식몰(남성 액세서리 신상품)",
+   "url": "https://amiparis.com/ko-kr/collections/men-new-accessories",
+   "keywords": [
+    "신상품",
+    "가격"
+   ]
+  },
+  {
+   "name": "마리끌레르 코리아 뷰티",
+   "url": "https://www.marieclairekorea.com/beauty/",
+   "keywords": [
+    "신제품",
+    "가격"
+   ]
   }
  ],
  "poemdaily": [
@@ -5220,6 +5359,36 @@
    "url": "https://www.hangyo.com/mobile/article.html?no=96615",
    "keywords": [
     "알 수 없어요"
+   ]
+  },
+  {
+   "name": "경북매일 이상규 「전남 강진 김영랑 시인의 기다림의 미학」(본문 대조)",
+   "url": "https://kbmaeil.com/article/202412020412573",
+   "keywords": [
+    "모란이 피기까지는",
+    "김영랑"
+   ]
+  },
+  {
+   "name": "새국어소식 김옥순 「김영랑의 시 '모란이 피기까지는'」(2004.10, 본문 대조)",
+   "url": "https://www.korean.go.kr/nkview/nknews/200410/75_8.html",
+   "keywords": [
+    "모란이 피기까지는"
+   ]
+  },
+  {
+   "name": "새국어소식 김옥순 「김소월의 '초혼(招魂)'」(2002.2, 본문 대조)",
+   "url": "https://korean.go.kr/nkview/nknews/200202/43_6.html",
+   "keywords": [
+    "초혼",
+    "김소월"
+   ]
+  },
+  {
+   "name": "다음카페 「초혼 김소월... 한글이 이리도 아름다운가!」(본문 대조)",
+   "url": "https://m.cafe.daum.net/qqq888/Ljuo/567",
+   "keywords": [
+    "초혼"
    ]
   }
  ],

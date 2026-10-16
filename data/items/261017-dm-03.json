@@ -1,0 +1,35 @@
+{
+ "title": "동물성 단백질 끊고 완전 채식으로 바꾸자 이틀 만에 간의 포도당 생성·암모니아 처리 떨어졌다…다시 먹이니 1~2일 새 회복(생쥐 실험, 제네바대)",
+ "originalTitle": "Switching to a vegan diet rapidly alters liver metabolism",
+ "source": "News-Medical",
+ "url": "https://www.news-medical.net/news/20261013/Switching-to-a-vegan-diet-rapidly-alters-liver-metabolism.aspx",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "간은 아미노산을 분해해 포도당을 만들고, 그 과정에서 생기는 독성 부산물인 암모니아를 처리한다. 스위스 제네바대 의대 세포생리대사학과·당뇨센터 피에르 메힐러 교수팀은 단백질 공급원이 바뀔 때 간 대사가 얼마나 빨리 달라지는지 생쥐로 살펴 학술지 Molecular Metabolism에 발표했다.",
+  "동물성·식물성 단백질을 함께 먹는 락토-베지테리언 식단 생쥐와 식물성 단백질만 먹는 비건 식단 생쥐를 비교한 결과, 비건 식단으로 바꾼 지 이틀 만에 포도당 생성 효율이 떨어지고 간의 암모니아 제거 능력이 낮아졌으며 신체 활동도 크게 줄었다. 간 효소 글루탐산 탈수소효소(GDH)가 없는 생쥐에서는 암모니아가 심하게 쌓이고 혈당 조절도 손상됐다. 동물성 단백질을 다시 주자 이런 변화는 1~2일 안에 되돌아갔다.",
+  "메힐러 교수는 몸이 식단 구성의 작은 변화에도 1~2일 안에 적응한다고 설명했다. 다만 생쥐 실험이고 기사에 표본 수·수치가 없어 사람에게 그대로 적용하기 어렵다. 당뇨병이 있거나 식단을 크게 바꾸려는 경우 의료진·영양 전문가와 상의하는 것이 안전하다."
+ ],
+ "keyPoints": [
+  "비건 식단 이틀 만에 간 포도당 생성 효율 저하",
+  "GDH 결핍 생쥐는 암모니아 축적·혈당 조절 손상",
+  "동물성 단백질 재공급 1~2일 만에 회복, 생쥐 결과"
+ ],
+ "image": "https://www.news-medical.net/image-handler/picture/2017/1/Digital_illustration_of_liver_in_colour_background-Liya_Graphics_0fff2ea2f60c4e71b4991068b748916f-620x480.jpg",
+ "facts": [
+  [
+   "출처기관",
+   "스위스 제네바대 의대 세포생리대사학과·당뇨센터(Molecular Metabolism)"
+  ],
+  [
+   "근거 종류",
+   "연구(동물 실험)"
+  ],
+  [
+   "대상",
+   "생쥐(락토-베지테리언 vs 비건 식단, GDH 결핍 생쥐 포함)"
+  ]
+ ],
+ "id": "261017-dm-03",
+ "category": "dm",
+ "collectedAt": "2026-10-17T01:35:36+09:00"
+}

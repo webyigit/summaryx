@@ -1,0 +1,51 @@
+{
+ "title": "Claude Certified Developer: Foundations — Claude API·도구 사용·에이전트 개발 입문 자격",
+ "originalTitle": "Four role-based certifications for the people who put Claude to work for customers",
+ "source": "Claude 블로그(Anthropic)",
+ "url": "https://claude.com/blog/four-role-based-claude-certifications#claude-certified-developer-foundations",
+ "publishedAt": "2026-07-23",
+ "summary": [
+  "Anthropic이 Claude를 고객 현장에 도입하는 사람들을 위한 역할별 자격 4종을 내놓았고, 그중 새로 생긴 'Claude Certified Developer: Foundations'는 Claude로 애플리케이션을 만드는 엔지니어를 위한 파운데이션 등급 자격이다. 시험 범위로 Claude API, 도구 사용(tool use), 에이전트 개발을 꼽았다.",
+  "모든 시험은 피어슨(Pearson Professional Assessments)을 통해 감독·신원 확인 방식으로 치른다. 다만 시험은 Claude 파트너 네트워크(Claude Partner Network) 회원에게 열려 있고, 준비 과정은 Anthropic 파트너 아카데미에서 제공한다. 공지에는 문항 수·시간·응시료·언어가 나와 있지 않다.",
+  "Anthropic은 모든 자격 경로가 파운데이션 등급에서 시작해 프로페셔널 등급으로 올라간다고 설명했다. 개발자에게는 Claude 기반 에이전트 개발 역량을 공식적으로 증명하는 첫 단계지만, 파트너사 소속이 아니면 응시 방법을 따로 확인해야 한다."
+ ],
+ "keyPoints": [
+  "Claude로 앱 만드는 엔지니어용 입문 자격",
+  "API·도구 사용·에이전트 개발 범위",
+  "파트너 네트워크 회원 대상, 피어슨 감독 시험"
+ ],
+ "image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a628425f57672f0b3ea9847_og_four-role-based-claude-certifications.jpg",
+ "facts": [
+  [
+   "시행기관",
+   "Anthropic"
+  ],
+  [
+   "자격 종류",
+   "벤더"
+  ],
+  [
+   "시험 일정",
+   "[확인 필요]"
+  ],
+  [
+   "응시료",
+   "[확인 필요]"
+  ],
+  [
+   "시험 방식",
+   "피어슨(Pearson Professional Assessments) 감독·신원 확인 시험(문항 수·시간 [확인 필요])"
+  ],
+  [
+   "응시 자격",
+   "Claude 파트너 네트워크 회원(준비 과정: Anthropic 파트너 아카데미)"
+  ],
+  [
+   "난이도·대상",
+   "파운데이션(입문) — Claude로 애플리케이션을 만드는 엔지니어"
+  ]
+ ],
+ "id": "261017-aicert-03",
+ "category": "aicert",
+ "collectedAt": "2026-10-17T01:35:36+09:00"
+}
