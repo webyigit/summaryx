@@ -31,5 +31,8 @@
  "image": null,
  "id": "261010-poemread-01",
  "category": "poemread",
- "collectedAt": "2026-10-10T01:31:27+09:00"
+ "collectedAt": "2026-10-10T01:31:27+09:00",
+ "poemText": "I\n\n나뭇가지 위에 일렁이는 햇살 무늬,\n시냇물 흐르던 자리의 반짝임,\n분홍빛 얼굴들, 사랑의 언약, 달빛 어린 오월,\n이것들은 우리가 머물기를 바랐던 것들,\n그러나 그것들은 떠나가고 있었다.\n\nII\n\n눈처럼 텅 빈 계절들,\n스러져 가는 세상의 소리 없는 피 흘림,\n비탄에 잠긴 뭇사람의 신음,\n이것들은 우리가 떠나기를 바랐던 것들,\n그러나 그것들은 머물러 있었다.\n\nIII\n\n그때 우리는 시간을 더 가까이 들여다보았고,\n그의 유령 같은 팔이 돌고 있는 것을 보았다,\n서글픈 것들을 한창때의 것들과 함께 쓸어 가며,\n불길한 것들도 숭고한 것들도\n똑같이 녹여 없애는 것을.",
+ "poemOrig": "I\n\nThe moving sun-shapes on the spray,\nThe sparkles where the brook was flowing,\nPink faces, plightings, moonlit May,\nThese were the things we wished would stay;\nBut they were going.\n\nII\n\nSeasons of blankness as of snow,\nThe silent bleed of a world decaying,\nThe moan of multitudes in woe,\nThese were the things we wished would go;\nBut they were staying.\n\nIII\n\nThen we looked closelier at Time,\nAnd saw his ghostly arms revolving\nTo sweep off woeful things with prime,\nThings sinister with things sublime\nAlike dissolving.",
+ "poemSource": "원문: Thomas Hardy, 1922(『Late Lyrics and Earlier』) · 번역: AI 번역(참고용) · 원문 대조: poets.org"
 }

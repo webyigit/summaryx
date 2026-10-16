@@ -955,7 +955,7 @@
       }).join('') + '</table>' : '') +
       (a.poemText ? '<div class="poemtxt">' + esc(a.poemText).replace(/\n/g, '<br>') +
         (a.poemSource ? '<small>' + esc(a.poemSource) + '</small>' : '') + '</div>' : '') +
-      (a.poemOrig ? '<details class="poemorig"><summary>원문 보기</summary><div class="poemtxt">' + esc(a.poemOrig).replace(/\n/g, '<br>') + '</div></details>' : '') +
+      (a.poemOrig ? '<details class="poemorig"><summary>원어로 읽기</summary><div class="poemtxt">' + esc(a.poemOrig).replace(/\n/g, '<br>') + '</div></details>' : '') +
       (!a.poemText && a.poemLink ? '<div class="poemtxt poemlink">' + (a.poemNote ? '<p>' + esc(a.poemNote) + '</p>' : '') +
         '<a class="cta" href="' + esc(a.poemLink.url) + '" target="_blank" rel="noopener">' + esc(a.poemLink.label || '시 전문 읽기') + ' ↗</a></div>' : '') +
       (a.ingredients && a.ingredients.length ? '<div class="points"><b>재료</b><ul>' +

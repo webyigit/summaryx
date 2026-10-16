@@ -31,5 +31,10 @@
  "image": null,
  "id": "261009-poemread-08",
  "category": "poemread",
- "collectedAt": "2026-10-09T01:31:09+09:00"
+ "collectedAt": "2026-10-09T01:31:09+09:00",
+ "poemLink": {
+  "url": "https://poets.org/poem/wish-we-were-daddies",
+  "label": "poets.org에서 시 전문 읽기"
+ },
+ "poemNote": "저작권이 있는 작품이라 전문은 원문 페이지에서 볼 수 있어요. (시인 생존)"
 }

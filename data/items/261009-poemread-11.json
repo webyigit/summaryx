@@ -31,5 +31,8 @@
  "image": null,
  "id": "261009-poemread-11",
  "category": "poemread",
- "collectedAt": "2026-10-09T01:31:09+09:00"
+ "collectedAt": "2026-10-09T01:31:09+09:00",
+ "poemText": "가벼운 날개의 연기여, 이카로스의 새여,\n솟구쳐 날아오르며 네 깃털을 녹이는구나.\n노래 없는 종달새, 새벽의 전령이여,\n마을들 위를 둥지 삼아 맴도는구나.\n아니면 떠나가는 꿈, 한밤 환영의\n어렴풋한 형상이 옷자락을 걷어 올리는구나.\n밤에는 별을 가리고, 낮에는\n빛을 어둡게 하며 해를 지워 버리는구나.\n가거라, 나의 향이여, 이 화덕에서 위로,\n그리고 신들께 이 맑은 불꽃을 용서해 달라 빌어 다오.",
+ "poemOrig": "Light-winged Smoke, Icarian bird,\nMelting thy pinions in thy upward flight;\nLark without song, and messenger of dawn,\nCircling above the hamlets as thy nest;\nOr else, departing dream, and shadowy form\nOf midnight vision, gathering up thy skirts;\nBy night star-veiling, and by day\nDarkening the light and blotting out the sun;\nGo thou, my incense, upward from this hearth,\nAnd ask the gods to pardon this clear flame.",
+ "poemSource": "원문: Henry David Thoreau, 1843(『The Dial』) · 번역: AI 번역(참고용) · 원문 대조: poets.org"
 }

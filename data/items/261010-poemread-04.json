@@ -31,5 +31,10 @@
  "image": null,
  "id": "261010-poemread-04",
  "category": "poemread",
- "collectedAt": "2026-10-10T01:31:27+09:00"
+ "collectedAt": "2026-10-10T01:31:27+09:00",
+ "poemLink": {
+  "url": "https://poets.org/poem/mira-market",
+  "label": "poets.org에서 시 전문 읽기"
+ },
+ "poemNote": "저작권이 있는 작품이라 전문은 원문 페이지에서 볼 수 있어요. (번역자 저작권 · © 2026 Chloe Martinez 번역)"
 }

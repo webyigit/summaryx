@@ -31,5 +31,8 @@
  "image": null,
  "id": "261011-poemread-01",
  "category": "poemread",
- "collectedAt": "2026-10-11T01:30:29+09:00"
+ "collectedAt": "2026-10-11T01:30:29+09:00",
+ "poemText": "당신의 향기가 방 안에 있어요.\n순식간에 나를 휩싸고 무너뜨려요!\n재스민, 밤 재스민, 더없이 완벽한 향기,\n동트기 전 이슬을 묵직하게 머금은!\n당신의 얼굴이 거울 속에 있었어요. 나는 보았죠,\n당신이 미소 짓다가 갑자기 사라지는 것을,\n눈물 한 방울의 흔적만 남겨 두고서.\n이별로 더욱 사랑스러워진, 슬픔에 잠긴 얼굴이여!\n밤 재스민은 이 추운 곳에서 피어날 수 없어요.\n바깥 거리는 눈에 젖어 낯설고 을씨년스럽고,\n차갑게 헐벗은 나무들은 이리저리 흔들려요.\n당신의 다정한 얼굴에게 이 밤은 너무 거칠고,\n당신의 낮은 목소리에게 바람의 미친 울부짖음은 너무 시끄러워요.\n그래도 아, 당신의 향기가 여기 있어요 — 당신의 오두막 문가에\n무성하게 무리 지어 자라던 그 재스민 향기가!",
+ "poemOrig": "Your scent is in the room.\nSwiftly it overwhelms and conquers me!\nJasmines, night jasmines, perfect of perfume,\nHeavy with dew before the dawn of day!\nYour face was in the mirror. I could see\nYou smile and vanish suddenly away,\nLeaving behind the vestige of a tear.\nSad suffering face, from parting grown so dear!\nNight jasmines cannot bloom in this cold place;\nWithout the street is wet and weird with snow;\nThe cold nude trees are tossing to and fro;\nToo stormy is the night for your fond face;\nFor your low voice too loud the wind's mad roar.\nBut oh, your scent is here—jasmines that grow\nLuxuriant, clustered round your cottage door!",
+ "poemSource": "원문: Claude McKay, 1922(『Harlem Shadows』) · 번역: AI 번역(참고용) · 원문 대조: poets.org"
 }
