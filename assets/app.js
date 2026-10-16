@@ -686,7 +686,7 @@
       groups = D.groups.map(function (g) { return [g.id, g.name, D.terms.filter(function (t) { return t.group === g.id; }).length]; });
       ph = '용어·영문·설명 검색 (예: RAG, 환각)'; gsel = wikiG;
     } else if (k === 'study') {
-      html += '<div class="rule">' + (D.intro || []).map(esc).join('<br>') + '</div>';
+      if ((D.intro || []).length) html += '<div class="rule">' + D.intro.map(esc).join('<br>') + '</div>';
       groups = (D.tracks || []).map(function (t) { return [t.id, t.name, D.stages.filter(function (s) { return (s.tracks || []).indexOf(t.id) >= 0; }).length]; });
       ph = '단계·지식 검색 (예: 파이썬, RAG)'; gsel = wst.study.g;
       var tr = (D.tracks || []).filter(function (t) { return t.id === gsel; })[0];
