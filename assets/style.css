@@ -370,3 +370,9 @@ html, body, a, button, input, .item, .chip, .sub { touch-action: manipulation; }
 .wnav a { color: var(--ink); }
 .wsch th, .wsch td { font-size: 13px; }
 .wsch tr.next td { font-weight: 800; color: var(--accent); }
+.poemtxt small { display: block; margin-top: 12px; font-size: 11px; line-height: 1.5; color: var(--sub); }
+.poemorig { margin: -6px 0 14px; }
+.poemorig summary { cursor: pointer; font-size: 13px; color: var(--sub); padding: 4px 0; }
+.poemorig .poemtxt { font-size: 14.5px; margin-top: 8px; }
+.poemlink p { margin: 0 0 10px; font-size: 14px; line-height: 1.6; }
+.poemlink .cta { margin: 0; }

@@ -953,7 +953,11 @@
       (a.facts && a.facts.length ? '<table class="facts">' + a.facts.map(function (f) {
         return '<tr><th>' + esc(f[0]) + '</th><td>' + (/^https?:\/\//.test(f[1] || '') ? '<a href="' + esc(f[1]) + '" target="_blank" rel="noopener">' + esc(f[1]) + '</a>' : esc(f[1])) + '</td></tr>';
       }).join('') + '</table>' : '') +
-      (a.poemText ? '<div class="poemtxt">' + esc(a.poemText).replace(/\n/g, '<br>') + '</div>' : '') +
+      (a.poemText ? '<div class="poemtxt">' + esc(a.poemText).replace(/\n/g, '<br>') +
+        (a.poemSource ? '<small>' + esc(a.poemSource) + '</small>' : '') + '</div>' : '') +
+      (a.poemOrig ? '<details class="poemorig"><summary>원문 보기</summary><div class="poemtxt">' + esc(a.poemOrig).replace(/\n/g, '<br>') + '</div></details>' : '') +
+      (!a.poemText && a.poemLink ? '<div class="poemtxt poemlink">' + (a.poemNote ? '<p>' + esc(a.poemNote) + '</p>' : '') +
+        '<a class="cta" href="' + esc(a.poemLink.url) + '" target="_blank" rel="noopener">' + esc(a.poemLink.label || '시 전문 읽기') + ' ↗</a></div>' : '') +
       (a.ingredients && a.ingredients.length ? '<div class="points"><b>재료</b><ul>' +
         a.ingredients.map(function (k) { return '<li>' + esc(k) + '</li>'; }).join('') + '</ul></div>' : '') +
       (a.steps && a.steps.length ? '<div class="points steps"><b>만드는 법</b><ol>' +
