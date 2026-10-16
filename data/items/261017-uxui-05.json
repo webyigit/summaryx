@@ -1,0 +1,22 @@
+{
+ "title": "NN/g \"합성 사용자, 결론은 사람과 같았지만 다양성은 사라졌다\"… 120명 vs 604명 비교 실험",
+ "originalTitle": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
+ "source": "Nielsen Norman Group",
+ "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "AI가 만든 가상 참여자로 사용자 조사를 대신하려는 '합성 사용자' 도구가 늘자, 닐슨 노먼 그룹(NN/g)이 실제 비교 실험 결과를 내놨다. NN/g는 앞서 UX 용어 설문에서 던진 개방형 질문(사용자 인사이트를 제품 제안으로 바꾸는 일을 가장 잘 설명하는 분야는?)을 2026년 2월 합성 사용자 플랫폼의 가상 응답자 120명에게 다시 물어, 실제 테크·디자인 실무자 604명의 답과 비교했다.",
+  "큰 결론은 같았다. 두 집단 모두 이 일을 부르는 대표 용어로 'UX'를 꼽았다. UX 관련 용어 사용률은 합성 응답자 84%, 사람 약 70%로 차이는 통계적으로 유의했지만 결론을 바꾸진 않았다.",
+  "차이는 다양성에서 드러났다. 사람은 '휴먼 팩터 공학', '여정 관리' 등 50개가 넘는 다양한 표현을 썼지만, 합성 응답자는 십여 개 표현으로 수렴해 드문 용어를 하나도 내놓지 않았다('모드 붕괴'). 직무별 차이도 과장되거나 뭉개졌다. 합성 PM의 93%가 UX 용어를 쓴 반면 실제 PM은 44%에 그쳤다. 플랫폼이 질문을 바꿔 말하는 경우도 있어 결과에 영향을 줬을 수 있다.",
+  "NN/g는 합성 응답자를 가설을 만들거나 흔한 패턴을 확인하는 데는 쓰되, 실제 사용자 생각을 확정하는 데는 쓰지 말라고 권했다. 드문 응답·새 용어·하위 집단 차이가 중요할 땐 사람 참여자가 필요하며, 합성 데이터는 집단 간 차이를 실제보다 작게 보여줄 수 있다는 점을 경계하라고 했다."
+ ],
+ "keyPoints": [
+  "합성 120명·사람 604명, 'UX'가 대표 용어로 결론 같아",
+  "사람 50개 넘는 표현 vs 합성 십여 개로 수렴",
+  "가설 탐색엔 쓰되 하위 집단 판단은 사람으로"
+ ],
+ "image": "https://media.nngroup.com/media/articles/opengraph_images/Synthetic_Users_vs._Human_Respondents__Same_Conclusion_Less_Variation.png",
+ "id": "261017-uxui-05",
+ "category": "uxui",
+ "collectedAt": "2026-10-17T04:38:55+09:00"
+}

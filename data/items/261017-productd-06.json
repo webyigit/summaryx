@@ -1,0 +1,39 @@
+{
+ "title": "전자종이 화면으로 슈퍼 마리오를 30fps로… DIY 휴대 게임기 '잉크보이'",
+ "originalTitle": "This Tiny E-Paper Game Boy lets you play Super Mario Land at 30 FPS on a reading screen",
+ "source": "Yanko Design",
+ "url": "https://www.yankodesign.com/2026/10/15/this-tiny-e-paper-game-boy-lets-you-play-super-mario-land-at-30-fps-on-a-reading-screen/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "전자종이는 전력을 적게 쓰지만 화면을 바꾸는 속도가 느려 게임에는 맞지 않는다고 여겨졌다. 제작자 '보 메이드 잇(Bo Made It)'의 DIY 휴대 게임기 '잉크보이(InkBoy)'는 이 한계를 디스플레이 구동 방식을 바꿔 풀고, 게임보이 게임 '슈퍼 마리오 랜드'를 초당 30프레임으로 돌린다.",
+  "전자종이는 전기 펄스로 입자를 움직여 그림을 만드는데, 잉크보이는 훨씬 짧은 펄스를 쓰고 화면 전체 대신 바뀐 픽셀만 갱신해 특유의 깜빡임을 없앴다. 회색조 모드와 디더링으로 음영을 흉내 내는 더 빠른 흑백 모드가 있다. 전자종이가 붙은 ESP32 보드에, 3D 프린팅 케이스에 넣은 ESP32-C3 컨트롤러를 USB-C로 연결했고 블루투스와 스피커를 갖췄다. 게임은 microSD에서 불러오고 저장·이어하기를 지원한다.",
+  "웬팅 장의 이전 실험 '페이퍼보이'를 바탕으로 했다. 일부 게임은 목표 프레임을 못 내고 잔상이 생기며, 특이한 구동 방식이 화면에 장기적으로 어떤 영향을 줄지는 불확실하다. 판매 계획은 없는 DIY 프로젝트로 보인다."
+ ],
+ "keyPoints": [
+  "전자종이로 게임보이 게임 30fps 구동",
+  "바뀐 픽셀만 짧은 펄스로 갱신",
+  "잔상·화면 수명은 한계로 남아"
+ ],
+ "image": "https://www.yankodesign.com/images/design_news/2026/10/this-tiny-e-paper-game-boy-lets-you-play-super-mario-land-at-30-fps-on-a-screen-built-for-reading/GameBoy-on-E-Paper-ESP32-DIY-5.jpg",
+ "facts": [
+  [
+   "제작",
+   "Bo Made It"
+  ],
+  [
+   "프로젝트",
+   "InkBoy 전자종이 휴대 게임기"
+  ],
+  [
+   "하드웨어",
+   "ESP32 전자종이 보드 + ESP32-C3 컨트롤러"
+  ],
+  [
+   "유형",
+   "DIY 프로젝트(판매 미정)"
+  ]
+ ],
+ "id": "261017-productd-06",
+ "category": "productd",
+ "collectedAt": "2026-10-17T04:38:55+09:00"
+}

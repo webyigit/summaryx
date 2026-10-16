@@ -645,6 +645,15 @@
     "컬렉션",
     "업계"
    ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "패션",
+    "무신사",
+    "브랜드"
+   ]
   }
  ],
  "art": [
@@ -795,6 +804,15 @@
     "product design",
     "design essay"
    ]
+  },
+  {
+   "name": "Surface",
+   "url": "https://www.surfacemag.com/articles/",
+   "keywords": [
+    "designer of the day",
+    "collectible design",
+    "exhibition"
+   ]
   }
  ],
  "meme": [
@@ -938,6 +956,24 @@
    "keywords": [
     "Generative UI",
     "UX 디자이너"
+   ]
+  },
+  {
+   "name": "Nielsen Norman Group",
+   "url": "https://www.nngroup.com/articles/",
+   "keywords": [
+    "UX research",
+    "synthetic users",
+    "UX maps"
+   ]
+  },
+  {
+   "name": "디지털 인사이트",
+   "url": "https://ditoday.com/",
+   "keywords": [
+    "UX",
+    "UI·UX 리뉴얼",
+    "게임 UX"
    ]
   }
  ],
@@ -2342,6 +2378,23 @@
     "수상",
     "지자체 건축상"
    ]
+  },
+  {
+   "name": "Bing 뉴스 RSS (건축가, 7일)",
+   "url": "https://www.bing.com/news/search?q=%EA%B1%B4%EC%B6%95%EA%B0%80&qft=interval%3d%227%22&format=rss",
+   "keywords": [
+    "건축가",
+    "건축 강연",
+    "건축문화제"
+   ]
+  },
+  {
+   "name": "美術手帖 뉴스",
+   "url": "https://bijutsutecho.com/magazine/news",
+   "keywords": [
+    "建築賞",
+    "建築家"
+   ]
   }
  ],
  "travel": [
@@ -3166,6 +3219,15 @@
     "구상의 자동차디자인 담론",
     "디자인 칼럼"
    ]
+  },
+  {
+   "name": "Top Gear",
+   "url": "https://www.topgear.com/car-news",
+   "keywords": [
+    "first look",
+    "retro",
+    "concept"
+   ]
   }
  ],
  "package": [
@@ -3333,6 +3395,15 @@
     "new logo",
     "rebrand",
     "name and logo"
+   ]
+  },
+  {
+   "name": "월간 디자인",
+   "url": "https://design.co.kr/",
+   "keywords": [
+    "포스터",
+    "그래픽",
+    "아이덴티티"
    ]
   }
  ],
