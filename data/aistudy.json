@@ -102,6 +102,41 @@
      "url": "https://www.boostcourse.org/",
      "free": true,
      "lang": "ko"
+    },
+    {
+     "title": "LLM 제대로 이해하기 (Phase 2 전체)",
+     "by": "AI 완전정복 로드맵",
+     "url": "https://webyigit.github.io/AI.Study/#phase-2",
+     "free": true,
+     "lang": "ko"
+    },
+    {
+     "title": "컨텍스트 윈도우와 토큰 한계가 실무에 미치는 영향 (2-2)",
+     "by": "AI 완전정복 로드맵",
+     "url": "https://webyigit.github.io/AI.Study/lessons/2-2-context-window-token-limits.html",
+     "free": true,
+     "lang": "ko"
+    },
+    {
+     "title": "환각(Hallucination) 이해하고 대응하기 (2-3)",
+     "by": "AI 완전정복 로드맵",
+     "url": "https://webyigit.github.io/AI.Study/lessons/2-3-hallucination.html",
+     "free": true,
+     "lang": "ko"
+    },
+    {
+     "title": "GPT vs Claude vs Gemini vs 오픈소스 모델 비교 (2-4)",
+     "by": "AI 완전정복 로드맵",
+     "url": "https://webyigit.github.io/AI.Study/lessons/2-4-model-comparison.html",
+     "free": true,
+     "lang": "ko"
+    },
+    {
+     "title": "멀티모달 AI (이미지·음성·영상) (2-6)",
+     "by": "AI 완전정복 로드맵",
+     "url": "https://webyigit.github.io/AI.Study/lessons/2-6-multimodal-ai.html",
+     "free": true,
+     "lang": "ko"
     }
    ],
    "wiki": [
@@ -835,6 +870,13 @@
      "url": "https://www.3blue1brown.com/topics/neural-networks",
      "free": true,
      "lang": "en"
+    },
+    {
+     "title": "Transformer와 어텐션, 직관적으로 이해하기 (2-1)",
+     "by": "AI 완전정복 로드맵",
+     "url": "https://webyigit.github.io/AI.Study/lessons/2-1-transformer-attention.html",
+     "free": true,
+     "lang": "ko"
     }
    ],
    "wiki": [
@@ -964,6 +1006,20 @@
      "url": "https://www.deeplearning.ai/short-courses/",
      "free": true,
      "lang": "en"
+    },
+    {
+     "title": "RAG(검색증강생성) 개념 (2-5)",
+     "by": "AI 완전정복 로드맵",
+     "url": "https://webyigit.github.io/AI.Study/lessons/2-5-rag.html",
+     "free": true,
+     "lang": "ko"
+    },
+    {
+     "title": "AI 에이전트란 무엇인가 (2-7)",
+     "by": "AI 완전정복 로드맵",
+     "url": "https://webyigit.github.io/AI.Study/lessons/2-7-ai-agents.html",
+     "free": true,
+     "lang": "ko"
     }
    ],
    "wiki": [
