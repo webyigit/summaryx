@@ -1,0 +1,39 @@
+{
+ "title": "백업 프로그램 'AOMEI 백업퍼' 업데이트 서버 몇 분간 변조…11개국 기업에 백도어 설치",
+ "originalTitle": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "윈도용 백업 소프트웨어 AOMEI 백업퍼가 2026년 5~7월 업데이트 경로를 통해 악성코드를 받아 설치한 사실이 드러났다. 공격자는 AOMEI 서버에서 프로그램이 내려받는 업데이트 정보를 고쳐, 해당 시간대에 업데이트를 확인한 PC가 백도어를 내려받아 실행하게 만들었다. 소프트웨어 취약점을 악용한 것은 아니었다.",
+  "구글 위협정보그룹(GTIG)·맨디언트와 매니지엔진 위협분석랩에 따르면 변조는 5월 28일, 7월 16일, 7월 20일(UTC)에 각각 10분 안팎으로만 이뤄졌고, 확인되지 않은 시점이 더 있을 수 있다. 업데이트 파일 이름과 체크섬을 담은 설정 파일에 서명이 없어 체크섬 검사가 사실상 의미가 없었다. 미국·브라질·인도·스페인 등 11개국의 IT 서비스·통신·고등교육 기관이 피해를 입었고, GTIG는 공격 그룹을 UNC7017로 추적하지만 국가는 특정하지 않았다. 악성코드는 원격 제어 도구를 심고 원격 셸을 열었으며, 중국 소재 PC에서는 작동을 멈췄다.",
+  "매니지엔진은 6월 7일 AOMEI에 알렸고 AOMEI는 7월 29일 조치를 마쳤다고 밝혔지만, 공격자가 어떻게 서버를 고칠 수 있었는지는 밝혀지지 않았다. 연구진은 서버가 고쳐져도 이미 감염된 PC는 그대로라며 4~7월 사이 침해 여부를 점검하고, 보고서에 공개된 도메인·IP 차단과 외부로 나가는 SMB·WebDAV 차단을 권고했다."
+ ],
+ "keyPoints": [
+  "5~7월 업데이트 서버 변조로 백도어 유포",
+  "11개국 IT·통신·대학 피해, UNC7017 추적",
+  "서버 조치와 별개로 감염 PC 점검 필요"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhuPumyjeBRpQZo5_3mvqZ2_kXuPiOK02cH-ARofYrny0mQ2-rv55w7yBxMTBe3ymCW7c77quZ4xlkdDG9FcEhBYFr7GWmbyPE_1K1xqU0mvT-h51Z8hLg-LnWl32MeOy-aumsGO9-j8VSOSOfVUDB2k1vWOpEdyGEWV9ipF4kf3HVP1Au2ClbkYtAJrc/s1600/backup-hacked.jpg",
+ "facts": [
+  [
+   "대상",
+   "AOMEI 백업퍼(윈도 백업 SW)"
+  ],
+  [
+   "변조 시점",
+   "2026-05-28, 07-16, 07-20(UTC)"
+  ],
+  [
+   "피해 범위",
+   "11개국 IT·통신·고등교육"
+  ],
+  [
+   "분석",
+   "GTIG·맨디언트, 매니지엔진"
+  ]
+ ],
+ "category": "security",
+ "id": "261017-security-01",
+ "collectedAt": "2026-10-17T03:32:36+09:00"
+}

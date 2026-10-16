@@ -1335,6 +1335,14 @@
     "개봉",
     "VOD"
    ]
+  },
+  {
+   "name": "뉴스핌 영화",
+   "url": "https://www.newspim.com/",
+   "keywords": [
+    "영화",
+    "개봉"
+   ]
   }
  ],
  "shorts": [
@@ -2167,6 +2175,14 @@
    "url": "https://www.newsis.com/cul/list/?cid=10700&scid=10704",
    "keywords": [
     "[신간]",
+    "출판"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "책",
     "출판"
    ]
   }

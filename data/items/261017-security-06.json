@@ -1,0 +1,35 @@
+{
+ "title": "포티넷 방화벽 결함 악용한 신종 악성코드 '피어스티치'…통신 관리업체서 방화벽 500여 대 정보 유출",
+ "originalTitle": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "팔로알토 네트웍스 유닛42가 포티넷 FortiOS 결함을 악용해 설치된 신종 악성코드 '피어스티치(PEERSTITCH)'를 공개했다. 메모리에서만 돌며 디스크에 파일을 남기지 않고 대기 포트도 열지 않아 발견이 어렵다.",
+  "악용된 결함은 FortiOS 명령 해석기의 경로 조작 문제(CVE-2025-61624, CVSS 5.4)로 FortiOS·FortiPAM·FortiProxy·FortiSwitchManager에 영향을 주며 2026년 4월 패치됐다. 유닛42는 2024년 9월 시작된 통신 관리서비스 업체 장기 침투(CL-STA-0954, UNC5820)를 조사하다 이를 찾았다. 공격자는 FortiManager 결함(FortiJump)으로 처음 들어와 관리 중인 FortiGate 방화벽 500여 대의 설정 파일·암호 자료·DB를 빼냈고, 무단 VPN 세션을 만들고 로그와 관리자 계정을 지워 흔적을 감췄다.",
+  "기사는 포티넷 제품의 4월 패치와 FortiJump 패치 적용 여부를 확인하고, 노출됐을 수 있는 관리자·VPN 자격 증명을 교체하라는 점을 짚었다."
+ ],
+ "keyPoints": [
+  "FortiOS 결함으로 메모리 상주 악성코드 설치",
+  "통신 관리업체 방화벽 500여 대 정보 유출",
+  "4월 패치·자격 증명 교체 필요"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMvdc6m999SfUEEWC89wHnBiUX9WAMCSdWtbFP_lrH4DuREHfOJL7G29LkM4uAvittg3XsHxnq6dq_VEX1zB_jCGi5RJDbQZlrq37gHSCXpRrn11FEN-hezQn0Dt4Xcw4DcanklKW_8iLEnQN6JpzkQ7JHBOS1_dMzDAs2h_jJcWDqOGjbkMoeabOCkSFK/s1600/f.jpg",
+ "facts": [
+  [
+   "CVE",
+   "CVE-2025-61624 (CVSS 5.4)"
+  ],
+  [
+   "분석",
+   "팔로알토 유닛42"
+  ],
+  [
+   "피해",
+   "FortiGate 500여 대 설정·DB 유출"
+  ]
+ ],
+ "category": "security",
+ "id": "261017-security-06",
+ "collectedAt": "2026-10-17T03:32:36+09:00"
+}

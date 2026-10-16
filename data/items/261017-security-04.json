@@ -1,0 +1,39 @@
+{
+ "title": "中 연계 해커, 원격지원 솔루션 '비욘드트러스트' 제로데이로 서버 장악…CVSS 9.3",
+ "originalTitle": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Deploy SAWFLY and BARECLAW Malware",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "중국 연계 사이버 첩보 조직 '아머리 캐슬'(UNC5221·워프 판다로도 추적)이 원격지원 제품 비욘드트러스트 리모트 서포트(옛 봄가)의 알려지지 않은 결함을 2026년 8월 말부터 악용했다고 구글 위협정보그룹·맨디언트가 밝혔다. 이 조직은 2023년 10월부터 법률 서비스·SaaS·아웃소싱·기술 기업·정부를 노려 왔다.",
+  "결함(CVE-2026-102764, CVSS 9.3)은 내부 메시징 구성 요소의 출처 검증이 부실해 원격 공격자가 장비에서 파일 작업을 할 수 있는 문제다. 공격자는 8월 29일 자체 설치형 장비 한 대를 처음 뚫은 뒤 웹셸과 프록시 도구를 심고 루트 권한을 얻었으며, 탈취한 관리자 계정으로 원격지원 대상 시스템에 접속해 내부 문서를 빼내려 했다. 로그를 지워 흔적도 없앴다.",
+  "비욘드트러스트는 10월 9일까지 SaaS 고객 패치를 마쳤고, 24.3.1~26.2.3 버전 자체 설치 고객은 BT26-05-RS 패치를 직접 적용해야 한다(그 이전 버전은 업그레이드 먼저). 맨디언트는 악용 기간에 인터넷에 노출된 취약 장비는 점검 전까지 침해된 것으로 보라고 권고했다."
+ ],
+ "keyPoints": [
+  "비욘드트러스트 원격지원 제로데이 악용",
+  "中 연계 '아머리 캐슬', 8월 29일 첫 공격",
+  "자체 설치형은 BT26-05-RS 패치 직접 적용"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic5zD5GBvYxe93igsDOMdwS6eyfDORIWio42Z9UY0enK0XKWYcQlLB9RLx3iO_V1xm8vqBxMVZ_R8Lt-xxOumO5_RIFN3hgB-yZyGGlVMypRx5lm2GJq-1c9cbzfRcjrMAIfBI67L4QUI-MwjjQjKL1RcgPnzFdYuAF3k1y2Ev-ppSmiG8sdQ5dbJkbjKR/s1600/beyond.jpg",
+ "facts": [
+  [
+   "CVE",
+   "CVE-2026-102764 (CVSS 9.3)"
+  ],
+  [
+   "제품",
+   "BeyondTrust Remote Support"
+  ],
+  [
+   "공격 조직",
+   "Armory Castle(UNC5221)"
+  ],
+  [
+   "패치",
+   "BT26-05-RS"
+  ]
+ ],
+ "category": "security",
+ "id": "261017-security-04",
+ "collectedAt": "2026-10-17T03:32:36+09:00"
+}

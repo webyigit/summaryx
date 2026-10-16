@@ -1,0 +1,35 @@
+{
+ "title": "아치 리눅스 사용자 저장소에 '가짜 yay·paru' 대량 등록…루트 권한으로 악성 스크립트 실행",
+ "originalTitle": "Fake Arch Linux packages push malware with root privileges",
+ "source": "BleepingComputer",
+ "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "아치 리눅스 커뮤니티 패키지 저장소(AUR)에 인기 도구 yay·paru를 흉내 낸 악성 패키지가 대량으로 올라왔다. 'marchos1as' 계정이 철자를 살짝 바꾼 이름으로 올렸고 10월 13일 발견됐다. 메일링 리스트에는 '수백 개 AUR 패키지가 악성코드와 함께 대량 업로드됐다'는 제목의 글이 올라왔다.",
+  "패키지에는 정상 코드와 함께 설치 스크립트가 들어 있어, 외부 셸 스크립트를 루트 권한으로 받아 실행했다. 이 스크립트는 웨이백머신 주소를 거쳐 러시아 호스팅 서비스 깃플릭의 저장소에서 내려받아졌다. 커뮤니티가 몇 분 만에 악성임을 확인했고 AUR 팀은 계정을 막고 패키지를 지웠다.",
+  "AUR에서는 6월에도 약 400개 패키지가 자격 증명 탈취 악성코드를 퍼뜨렸다. 비슷한 이름의 저장소를 쓴 npm 공격과의 관련성은 확인되지 않았다. 의심 패키지를 설치한 사용자는 시스템이 침해됐다고 보고 즉시 조치해야 한다."
+ ],
+ "keyPoints": [
+  "AUR에 yay·paru 사칭 악성 패키지",
+  "설치 시 외부 스크립트를 루트로 실행",
+  "계정 차단·삭제, 설치자는 침해 간주"
+ ],
+ "image": "https://www.bleepstatic.com/content/hl-images/2025/07/18/arch-linux-white.jpg",
+ "facts": [
+  [
+   "대상",
+   "Arch User Repository(AUR)"
+  ],
+  [
+   "발견",
+   "2026-10-13"
+  ],
+  [
+   "사칭 도구",
+   "yay, paru"
+  ]
+ ],
+ "category": "security",
+ "id": "261017-security-11",
+ "collectedAt": "2026-10-17T03:32:36+09:00"
+}

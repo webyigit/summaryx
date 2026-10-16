@@ -1,0 +1,35 @@
+{
+ "title": "MS, 정기 패치 며칠 만에 오피스 결함 30여 개 추가 수정…원격 코드 실행 20여 개",
+ "originalTitle": "Microsoft Patches Two Dozen RCE Flaws in Office",
+ "source": "SecurityWeek",
+ "url": "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "마이크로소프트가 역대 최다 규모였던 10월 정기 보안 업데이트 며칠 뒤, 새 결함 30여 개를 추가로 고쳤다. 대부분 오피스 제품군 결함이고, 그중 약 20여 개가 '높음' 등급의 원격 코드 실행 결함이다. 6개 정도는 미리보기 창만으로도 악용될 수 있다.",
+  "악용하려면 조작된 문서를 받는 사람이 열어야 하는 경우가 대부분이다. 원인은 주로 버퍼 오버플로였고, 해제 후 사용·경로 조작 오류 등도 있었다. 워드가 가장 많은 패치를 받았고 엑셀·아웃룩·파워포인트·셰어포인트는 몇 개씩이었다. 오피스 밖에서는 ASP.NET Core 서비스 거부, Identity Web 권한 상승, Node.js용 인증 라이브러리(MSAL) 정보 노출 결함이 수정됐다.",
+  "MS는 이번에 고친 결함 가운데 제로데이로 악용된 것은 없다고 밝혔다. 같은 날 맥용 오피스 LTSC 2021·2024와 맥용 오피스 365 업데이트도 나왔다."
+ ],
+ "keyPoints": [
+  "오피스 결함 30여 개 추가 패치",
+  "원격 코드 실행 20여 개, 미리보기 악용 6개",
+  "제로데이 악용은 없어, 맥용도 업데이트"
+ ],
+ "image": "https://www.securityweek.com/wp-content/uploads/2026/01/Microsoft-Office-apps.jpeg",
+ "facts": [
+  [
+   "업체",
+   "마이크로소프트"
+  ],
+  [
+   "규모",
+   "새 결함 30여 개(오피스 RCE 약 24개)"
+  ],
+  [
+   "악용",
+   "제로데이 악용 없음"
+  ]
+ ],
+ "category": "security",
+ "id": "261017-security-09",
+ "collectedAt": "2026-10-17T03:32:36+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "美 파산법원 통지 일주일째 멈춰…운영 맡은 BAE시스템스 '보안 사고'",
+ "originalTitle": "BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts",
+ "source": "SecurityWeek",
+ "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "미국 연방 사법부의 파산 통지 센터(BNC)를 운영하는 방산·IT 기업 BAE시스템스에서 보안 사고가 나, 전국 연방 파산법원의 통지 발송이 약 일주일째 멈췄다. BNC는 미국 모든 연방 파산법원의 통지를 처리한다.",
+  "BAE는 10월 9일 밤 미국 법원행정처에 처음 알렸고, 행정처는 15일 센터가 통지를 만들거나 보내지 못하고 있다고 밝혔다. 9일 이후 센터를 거친 종이·전자 통지는 전달되지 않았고, 채권자 등록 서비스도 멈춰 전자소송 이용자가 채권자 우편 목록을 만들 수 없다. 변호사·관재인에게 가는 전자 접수 알림은 계속 나가고, 법원은 사건 접수를 이어가고 있다.",
+  "BAE는 'BNC 시스템에 한정된 보안 사고'라며 조사와 복구를 진행 중이라고 했다. 다만 원인이 사이버 공격인지, 데이터가 유출됐는지는 밝히지 않았고 복구 일정도 나오지 않았다."
+ ],
+ "keyPoints": [
+  "BAE 운영 파산 통지 센터 보안 사고",
+  "10월 9일 이후 통지 발송 중단",
+  "원인·유출 여부·복구 일정 미공개"
+ ],
+ "image": "https://www.securityweek.com/wp-content/uploads/2023/04/law-court-order-lawsuit-e1782819788980.jpg",
+ "facts": [
+  [
+   "피해 기관",
+   "미국 파산 통지 센터(BNC)"
+  ],
+  [
+   "운영사",
+   "BAE시스템스"
+  ],
+  [
+   "최초 신고",
+   "2026-10-09"
+  ]
+ ],
+ "category": "security",
+ "id": "261017-security-07",
+ "collectedAt": "2026-10-17T03:32:36+09:00"
+}

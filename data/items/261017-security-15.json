@@ -1,0 +1,35 @@
+{
+ "title": "CVE 올해 7만 건 돌파했지만 \"발견이 곧 악용은 아냐\"…실제 악용 목록은 37% 증가",
+ "originalTitle": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
+ "source": "Cisco Talos",
+ "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "시스코 탈로스가 뉴스레터에서 3분기 취약점 동향을 분석했다. AI로 취약점 발견이 쏟아지며 '버그 대란'이라는 말까지 나오지만, 실제 공격으로 이어지는 비율은 그만큼 늘지 않았다는 내용이다.",
+  "9월 말까지 공개된 CVE는 7만 건을 넘어 전례 없는 수준이었다. 전년 대비 CVE는 105% 늘었지만 미국 CISA의 '실제 악용 취약점(KEV)' 목록 등록은 37% 증가에 그쳤다. 2026년 CVE 가운데 공개 당일 KEV에 오른 비율은 29%로 2025년보다 2%포인트 정도 높았다. 네트워크 장비 관련 CVE는 27%였다. 반면 KEV 항목의 약 33%는 2025년 이전 CVE로, 오래된 패치 밀림이 문제라는 분석이다.",
+  "필자는 공포도 방심도 아닌, 쌓인 구형 취약점 패치를 줄이는 데 집중하라고 조언했다. KEV에는 강제 포렌식 점검이 필요한 항목을 표시하는 열이 새로 생겼다."
+ ],
+ "keyPoints": [
+  "CVE 9월 말 7만 건 돌파, 전년비 105%↑",
+  "실제 악용(KEV) 등록은 37% 증가",
+  "KEV 3분의 1은 2025년 이전 결함"
+ ],
+ "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2026/10/threat_source-1.jpg",
+ "facts": [
+  [
+   "발행",
+   "Cisco Talos Threat Source"
+  ],
+  [
+   "CVE 수",
+   "7만 건 이상(9월 말)"
+  ],
+  [
+   "KEV 증가",
+   "전년 대비 37%"
+  ]
+ ],
+ "category": "security",
+ "id": "261017-security-15",
+ "collectedAt": "2026-10-17T03:32:36+09:00"
+}

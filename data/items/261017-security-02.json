@@ -1,0 +1,35 @@
+{
+ "title": "'행사 초대장'으로 대만 연구기관 관계자 노린 구글 계정 피싱…AI로 미끼 문구 작성 추정",
+ "originalTitle": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "시스코 탈로스가 'UAT-11985'로 이름 붙인 지능형 지속 위협(APT) 조직이 대만 연구기관 관계자를 겨냥해 구글 계정 비밀번호와 2단계 인증 코드를 가로채는 피싱을 벌이고 있다. 2026년 중반 처음 포착됐으며, 탈로스는 미끼 문구가 AI의 도움을 받아 만들어졌을 가능성이 크다고 봤다.",
+  "공격자는 대만 유럽연합센터, 국립정치대학 국제관계연구소, 대만연구원 등을 사칭해 공개 행사 초청 메일을 보냈다. 메일은 장황한 지정학 설명, 받는 사람을 띄우는 개인화 문구, 행사 안내로 구성됐고, 링크는 구글 폼처럼 보이지만 공격자 서버로 연결된다. 실제 행사 포스터에 악성 QR코드를 넣은 경우도 있어 인쇄물을 본 사람까지 노릴 수 있다. 가짜 로그인 화면에 입력한 정보는 실시간으로 진짜 구글 인증에 전달돼, 피해자 모르게 계정을 넘겨받을 수 있다.",
+  "가짜 로그인 페이지는 간체·번체 중국어와 영어만 지원해 중국어 사용자를 노린 것으로 보인다. 기사에는 피해 규모가 나오지 않았다."
+ ],
+ "keyPoints": [
+  "대만 연구기관 사칭 행사 초대 메일",
+  "가짜 구글 로그인으로 비번·인증 코드 탈취",
+  "포스터에 악성 QR코드 넣은 사례도"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPclyw7bJ19im5Qmzj9jgFlsM4XJqPK6hyphenhyphenRDCcQ0bnpWrteeTWgPNlip5T0P_oj_AC6V3osZ2xIpYipKjXWQw3BfFEQ1n28dleNCLRi7difLnPLY8Yc-oJ6BCVZ1V0VBpF_ZNu36qM_yCvyvbgBsSfh2AXq-IBIk7QjnBSR_T7s8ajMCOkIEhA5YGeYWg4/s1600/google-phish.jpg",
+ "facts": [
+  [
+   "조직",
+   "UAT-11985(시스코 탈로스 명명)"
+  ],
+  [
+   "대상",
+   "대만 연구기관 관계자"
+  ],
+  [
+   "수법",
+   "행사 초대 메일·QR코드, 중간자 피싱"
+  ]
+ ],
+ "category": "security",
+ "id": "261017-security-02",
+ "collectedAt": "2026-10-17T03:32:36+09:00"
+}

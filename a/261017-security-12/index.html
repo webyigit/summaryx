@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PDF 처리 엔진 &#x27;고스트스크립트&#x27; 치명적 결함…워드프레스서 PDF 올려 서버 장악 가능 | summaryx</title>
+<meta name="description" content="PDF·포스트스크립트 해석 엔진 고스트스크립트에서 조작된 PDF로 원격 코드 실행이 가능한 치명적 힙 버퍼 오버플로 결함(CVE-2026-39919)이 공개됐다. 워드펜스 연구진이 AI 분석 시스템 &#x27;아르고스&#x27;로 8월 23일 찾았으며 9.21~10.07.1 버전이 영향">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PDF 처리 엔진 &#x27;고스트스크립트&#x27; 치명적 결함…워드프레스서 PDF 올려 서버 장악 가능">
+<meta property="og:description" content="PDF·포스트스크립트 해석 엔진 고스트스크립트에서 조작된 PDF로 원격 코드 실행이 가능한 치명적 힙 버퍼 오버플로 결함(CVE-2026-39919)이 공개됐다. 워드펜스 연구진이 AI 분석 시스템 &#x27;아르고스&#x27;로 8월 23일 찾았으며 9.21~10.07.1 버전이 영향">
+<meta property="og:image" content="https://www.bleepstatic.com/content/hl-images/2026/10/13/ghostscript.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="../../#/a/261017-security-12">
+<script>location.replace('../../#/a/261017-security-12');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261017-security-12">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">PDF 처리 엔진 &#x27;고스트스크립트&#x27; 치명적 결함…워드프레스서 PDF 올려 서버 장악 가능</h1>
+<p>PDF·포스트스크립트 해석 엔진 고스트스크립트에서 조작된 PDF로 원격 코드 실행이 가능한 치명적 힙 버퍼 오버플로 결함(CVE-2026-39919)이 공개됐다. 워드펜스 연구진이 AI 분석 시스템 &#x27;아르고스&#x27;로 8월 23일 찾았으며 9.21~10.07.1 버전이 영향을 받는다.</p><p>워드프레스에서는 이미지매직이 PDF 썸네일을 만들 때 고스트스크립트를 부른다. 연구진은 인증 없이 코드를 실행하는 개념증명에 성공했지만, 환경에 따라 성공 여부가 크게 달랐다. 공격자가 PDF를 올릴 수 있고 사이트가 미리보기를 만들어야 한다는 조건도 붙는다. 데비안·우분투·페도라 등 리눅스 환경 10곳과 공식 워드프레스 도커 이미지에 모두 취약 코드가 있었다. 아직 실제 악용은 확인되지 않았다.</p><p>개발사 아티펙스는 9월 8일 10.08.0 버전을 냈다. 워드프레스 관리자는 호스팅 업체에 버전을 확인하고, 도커 사용자는 이미지를 새로 빌드하며, 업데이트가 어려우면 PDF 업로드나 이미지매직 PDF 렌더링을 막으라고 권고했다.</p>
+<p><a href="https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/">원문 보기</a></p>
+</body></html>
