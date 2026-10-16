@@ -1,0 +1,35 @@
+{
+ "title": "알츠하이머 생쥐 기억 리듬 '감마파' 되살렸다…PV 신경세포는 한꺼번에가 아니라 '차례로' 켜진다(UTHealth, Neuron)",
+ "originalTitle": "Scientists restore memory-linked neuron function in Alzheimer's mice",
+ "source": "News-Medical",
+ "url": "https://www.news-medical.net/news/20261015/Scientists-restore-memory-linked-neuron-function-in-Alzheimers-mice.aspx",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "뇌의 빠른 전기 리듬인 감마 진동은 학습·기억·정보 처리에 관여한다. 이 리듬을 만드는 것은 파브알부민(PV) 억제성 신경세포다. 미국 UTHealth 휴스턴 연구팀은 글래드스톤연구소·앨런뇌과학연구소와 함께 PV 세포의 작동 방식과 알츠하이머병에서의 변화를 분석해 Neuron에 발표했다.",
+  "연구팀은 PV 세포가 그동안 생각한 것처럼 한꺼번에 발화하지 않고 차례로 동원되며, 그 순서와 타이밍이 감마 진동의 시작과 유지를 조절한다는 것을 확인했다. 알츠하이머병에서는 진단 전 경도인지장애 단계부터 감마 진동이 변하고 PV 세포 기능이 점차 떨어진다고 설명했다. 사람 아밀로이드 단백질을 넣어 뇌에 플라크가 쌓이게 한 생쥐에서 나트륨 채널 구성 단위를 보강해 PV 세포 기능을 높이자 감마 진동이 개선됐다. 제1저자 케란 마 박사는 이를 'PV 세포를 조절해 감마 진동을 높일 수 있다는 원리 증명'이라고 했다.",
+  "다만 생쥐 모델은 사람 알츠하이머병을 일부만 흉내 내며, 치료법이 입증된 것은 아니다. 표본 수 등 세부 수치와 사람 대상 시험은 기사에 없다."
+ ],
+ "keyPoints": [
+  "PV 신경세포, 차례로 켜지며 감마 리듬 조절",
+  "알츠하이머 생쥐서 PV 기능 높이자 감마파 개선",
+  "생쥐 원리 증명 단계…치료법 아냐"
+ ],
+ "image": "https://www.news-medical.net/image-handler/picture/2016/2/Alzheimers_amyloid_plaque_-_Juan_Gaertner_9638f1223d534b518a192c8478871d65-620x480.jpg",
+ "facts": [
+  [
+   "출처기관",
+   "미국 UTHealth 휴스턴·글래드스톤연구소·앨런뇌과학연구소 (Neuron, 2026)"
+  ],
+  [
+   "근거 종류",
+   "연구(생쥐 실험)"
+  ],
+  [
+   "대상",
+   "아밀로이드 플라크 생쥐 모델"
+  ]
+ ],
+ "id": "261017-health-17",
+ "category": "health",
+ "collectedAt": "2026-10-17T05:33:59+09:00"
+}

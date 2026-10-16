@@ -1040,6 +1040,24 @@
     "외식",
     "여행"
    ]
+  },
+  {
+   "name": "식품저널 foodnews",
+   "url": "https://www.foodnews.co.kr/news/articleList.html?view_type=sm",
+   "keywords": [
+    "공정위",
+    "신제품",
+    "식품 수출"
+   ]
+  },
+  {
+   "name": "Restaurant Dive",
+   "url": "https://www.restaurantdive.com/",
+   "keywords": [
+    "restaurant chains",
+    "menu",
+    "supply chain"
+   ]
   }
  ],
  "music": [
@@ -2904,6 +2922,37 @@
     "harvest 2026",
     "Santa Cruz Mountains"
    ]
+  },
+  {
+   "name": "HOGAPAGE (DE)",
+   "url": "https://www.hogapage.de/nachrichten/beverage/wein-sekt/",
+   "keywords": [
+    "Weinernte 2026",
+    "Destatis"
+   ]
+  },
+  {
+   "name": "MeinBezirk.at",
+   "url": "https://www.meinbezirk.at/",
+   "keywords": [
+    "Erntebilanz 2026",
+    "Burgenland Wein"
+   ]
+  },
+  {
+   "name": "Agronews Castilla y León",
+   "url": "https://www.agronewscastillayleon.com/",
+   "keywords": [
+    "vendimia 2026",
+    "cosecha vino"
+   ]
+  },
+  {
+   "name": "Vozpópuli Castilla y León",
+   "url": "https://www.vozpopuli.com/espana/castilla-y-leon/",
+   "keywords": [
+    "vendimia Ribera del Duero"
+   ]
   }
  ],
  "winepair": [
@@ -2971,6 +3020,22 @@
    "url": "https://www.bing.com/news/search?q=%22pair+with%22+wine+dish&format=rss&qft=sortbydate%3d%221%22",
    "keywords": [
     "\"pair with\" wine dish"
+   ]
+  },
+  {
+   "name": "The Suburban (Mandi Robertson 와인 칼럼)",
+   "url": "https://www.thesuburban.com/columnists/mandi_robertson_wines/",
+   "keywords": [
+    "wine recommendations",
+    "pairing"
+   ]
+  },
+  {
+   "name": "Bing News RSS (food and wine pairing)",
+   "url": "https://www.bing.com/news/search?q=%22food+and+wine+pairing%22&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "\"food and wine pairing\"",
+    "sommelier pairing dish"
    ]
   }
  ],

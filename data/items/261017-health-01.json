@@ -1,0 +1,35 @@
+{
+ "title": "면역세포 '전 단계' 세포를 오래 키워 CAR 장착…USC, 재생 가능한 세포 면역치료 플랫폼 제시(Cell)",
+ "originalTitle": "USC Scientists Discover How to Create a Never-ending Supply of Cancer-fighting Cells",
+ "source": "ScienceDaily",
+ "url": "https://www.sciencedaily.com/releases/2026/10/261015003803.htm",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "CAR 면역세포 치료는 환자마다 세포를 새로 만들어야 해 비용과 시간이 많이 든다. 미국 USC 켁 의대 연구팀은 다 자란 대식세포 대신, 대식세포 등으로 자라기 전 단계인 '과립구-단핵구 전구세포(GMP)'를 이용하는 방법을 국제학술지 Cell에 발표했다.",
+  "연구팀은 GMP가 너무 일찍 성숙하지 않으면서 실험실에서 오래 살아남고 늘어나도록 하는 화학 배양 조건을 만들었다. 생쥐·사람 GMP에 암 표지를 겨냥하는 CAR를 넣고, 일부에는 주변 T세포 등을 끌어들이는 추가 신호도 넣었다. 생쥐에 주입하자 골수 등 조혈 부위에 자리 잡아 CAR 대식세포를 만들었고, 혈액암·고형암 모델에서 병의 진행을 늦췄으며 두 장치를 함께 넣은 세포의 효과가 더 컸다. 유전성 면역질환인 만성 육아종병 생쥐에서는 세균과 싸우는 능력을 되살렸다. 스탠퍼드 연구진도 GMP의 장기 배양·유전자 조작을 독립적으로 확인했다.",
+  "다만 결과는 모두 동물·실험실 단계이고 기사에 구체적 수치는 없다. 제목의 '끝없는 공급'과 달리 본문은 '잠재적으로 재생 가능한' 공급원이라고 설명하며, 사람에게서의 안전성·효과는 아직 확인되지 않았다."
+ ],
+ "keyPoints": [
+  "대식세포 전 단계 GMP를 장기 배양·CAR 장착",
+  "생쥐 혈액암·고형암 진행 늦춰",
+  "동물 단계, 사람 효과·안전성 미확인"
+ ],
+ "image": "https://www.sciencedaily.com/images/1920/body-immune-response-lymphocytes-t-cells-cancer-immunotherapy.webp",
+ "facts": [
+  [
+   "출처기관",
+   "미국 USC 켁 의대 (Cell, 2026)"
+  ],
+  [
+   "근거 종류",
+   "연구(생쥐·세포 실험)"
+  ],
+  [
+   "대상",
+   "생쥐 암·면역질환 모델, 생쥐·사람 전구세포"
+  ]
+ ],
+ "id": "261017-health-01",
+ "category": "health",
+ "collectedAt": "2026-10-17T05:33:59+09:00"
+}
