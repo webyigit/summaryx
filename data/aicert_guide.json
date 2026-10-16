@@ -10,6 +10,10 @@
    "name": "클라우드·글로벌"
   },
   {
+   "id": "pm",
+   "name": "프로젝트 관리"
+  },
+  {
    "id": "course",
    "name": "교육 수료·기타"
   }
@@ -756,6 +760,394 @@
    ]
   },
   {
+   "id": "aws-clf",
+   "name": "AWS Cloud Practitioner",
+   "full": "AWS Certified Cloud Practitioner (CLF-C02)",
+   "org": "Amazon Web Services",
+   "orgUrl": "https://aws.amazon.com/certification/",
+   "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+   "group": "cloud",
+   "level": "입문",
+   "type": "벤더 인증",
+   "for": "IT 배경이 없더라도 AWS 클라우드의 기본 개념을 처음 익히려는 기획·영업·관리 직군과 입문 개발자에게 맞습니다.",
+   "about": [
+    "AWS 클라우드의 개념, 보안·규정 준수, 주요 서비스, 요금·지원 체계를 폭넓게 다루는 기초(Foundational) 인증입니다. AWS는 최대 6개월 정도의 AWS 클라우드 경험을 권장하지만 필수는 아니라고 안내합니다.",
+    "출제 영역 비중은 클라우드 개념 24%, 보안·규정 준수 30%, 클라우드 기술·서비스 34%, 요금·지원 12%입니다. 어소시에이트 이상 AWS 인증을 준비하기 전 첫 단계로 많이 선택합니다."
+   ],
+   "exam": [
+    [
+     "방식",
+     "Pearson VUE 시험장 또는 온라인 감독, 한국어 포함 12개 언어 제공(독일어·이탈리아어판은 2026-12-31 이후 폐지 예정)"
+    ],
+    [
+     "문항·시간",
+     "65문항(채점 50 + 비채점 15, 객관식·복수 응답) · 90분"
+    ],
+    [
+     "응시료",
+     "100 USD (환율 등 추가 비용 가능)"
+    ],
+    [
+     "합격 기준",
+     "환산 점수 100~1,000점 중 700점 이상 (시험 가이드 기준)"
+    ],
+    [
+     "유효 기간",
+     "3년"
+    ]
+   ],
+   "schedule": [],
+   "scheduleNote": "상시 응시(시험센터·온라인 감독) — 정기 회차 없음, 원하는 날짜를 골라 예약. 불합격 시 14일 후 재응시 가능.",
+   "checked": "2026-10-16",
+   "prep": [
+    "공식 시험 가이드(CLF-C02)에서 4개 출제 영역과 비중을 확인합니다.",
+    "AWS Skill Builder의 무료 Cloud Practitioner 학습 과정과 공식 연습 문제로 기본 개념을 정리합니다.",
+    "프리 티어 계정으로 EC2·S3·IAM 등 핵심 서비스를 직접 만져 보고 요금·지원 플랜 차이를 비교해 둡니다."
+   ],
+   "wiki": [
+    "data-center"
+   ]
+  },
+  {
+   "id": "aws-saa",
+   "name": "AWS Solutions Architect – Associate",
+   "full": "AWS Certified Solutions Architect – Associate (SAA-C03)",
+   "org": "Amazon Web Services",
+   "orgUrl": "https://aws.amazon.com/certification/",
+   "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+   "group": "cloud",
+   "level": "중급",
+   "type": "벤더 인증",
+   "for": "AWS 서비스로 클라우드 아키텍처를 설계해 본 경험이 1년 정도 있는 엔지니어·아키텍트에게 맞습니다.",
+   "about": [
+    "보안성·복원력·성능·비용 효율을 갖춘 AWS 아키텍처를 설계하는 능력을 검증하는 어소시에이트 인증입니다. 깊은 코딩 경험은 요구하지 않으며, AWS는 클라우드 솔루션 설계 실무 1년 이상을 권장합니다.",
+    "출제 영역은 보안 아키텍처 30%, 복원력 26%, 고성능 24%, 비용 최적화 20%입니다. IT 경험이 없다면 Cloud Practitioner를 먼저 취득하도록 안내합니다."
+   ],
+   "exam": [
+    [
+     "방식",
+     "Pearson VUE 시험장 또는 온라인 감독, 한국어 포함 10개 언어 제공(이탈리아어판은 2026-12-31 이후 폐지 예정)"
+    ],
+    [
+     "문항·시간",
+     "65문항(채점 50 + 비채점 15) · 130분"
+    ],
+    [
+     "응시료",
+     "150 USD (환율 등 추가 비용 가능)"
+    ],
+    [
+     "합격 기준",
+     "환산 점수 100~1,000점 중 720점 이상 (시험 가이드 기준)"
+    ],
+    [
+     "유효 기간",
+     "3년"
+    ]
+   ],
+   "schedule": [],
+   "scheduleNote": "상시 응시(시험센터·온라인 감독) — 정기 회차 없음, 원하는 날짜를 골라 예약. 불합격 시 14일 후 재응시 가능.",
+   "checked": "2026-10-16",
+   "prep": [
+    "공식 시험 가이드(SAA-C03)의 4개 영역과 세부 과제를 체크리스트로 만듭니다.",
+    "Well-Architected Framework 문서와 VPC·IAM·S3·RDS·오토스케일링 등 핵심 서비스의 설계 패턴을 정리합니다.",
+    "AWS Skill Builder 공식 연습 시험으로 시나리오형 문제에 익숙해지고 틀린 문제의 서비스 선택 근거를 복습합니다."
+   ],
+   "wiki": [
+    "data-center"
+   ]
+  },
+  {
+   "id": "aws-dva",
+   "name": "AWS Developer – Associate",
+   "full": "AWS Certified Developer – Associate (DVA-C02)",
+   "org": "Amazon Web Services",
+   "orgUrl": "https://aws.amazon.com/certification/",
+   "url": "https://aws.amazon.com/certification/certified-developer-associate/",
+   "group": "cloud",
+   "level": "중급",
+   "type": "벤더 인증",
+   "for": "AWS 서비스로 애플리케이션을 개발·운영해 본 경험이 1년 이상인 개발자에게 맞습니다.",
+   "about": [
+    "AWS 서비스를 활용한 애플리케이션 개발, 보안, 배포, 문제 해결·최적화 역량을 검증하는 어소시에이트 인증입니다. 출제 비중은 AWS 서비스 개발 32%, 보안 26%, 배포 24%, 문제 해결·최적화 18%입니다.",
+    "시험이 개편 중이며, 새 버전 DVA-C03 접수는 2026-10-27에 열리고 현행 DVA-C02는 2026-11-30까지 응시할 수 있습니다. 개편 후 문항·출제 영역은 새 시험 가이드를 확인해야 합니다."
+   ],
+   "exam": [
+    [
+     "방식",
+     "Pearson VUE 시험장 또는 온라인 감독, 한국어 포함 6개 언어 제공(영어·일본어·한국어·포르투갈어(브라질)·중국어 간체·스페인어(중남미))"
+    ],
+    [
+     "문항·시간",
+     "65문항(채점 50 + 비채점 15) · 130분 (DVA-C02 기준)"
+    ],
+    [
+     "응시료",
+     "150 USD (환율 등 추가 비용 가능)"
+    ],
+    [
+     "합격 기준",
+     "환산 점수 100~1,000점 중 720점 이상 (DVA-C02 시험 가이드 기준)"
+    ],
+    [
+     "유효 기간",
+     "3년 (DevOps Engineer – Professional 취득으로도 갱신 가능)"
+    ]
+   ],
+   "schedule": [],
+   "scheduleNote": "상시 응시(시험센터·온라인 감독) — 정기 회차 없음. 단, DVA-C02는 2026-11-30이 마지막 응시일이며 DVA-C03 접수는 2026-10-27부터 시작.",
+   "checked": "2026-10-16",
+   "prep": [
+    "응시 시점에 맞는 버전(DVA-C02 또는 DVA-C03)의 공식 시험 가이드를 먼저 확인합니다.",
+    "Lambda·API Gateway·DynamoDB·SQS/SNS·CodePipeline 등으로 작은 서버리스 앱을 직접 배포해 봅니다.",
+    "IAM 정책, KMS 암호화, CloudWatch·X-Ray 기반 디버깅을 실습하고 공식 연습 문제로 점검합니다."
+   ],
+   "wiki": [
+    "api"
+   ]
+  },
+  {
+   "id": "aws-soa",
+   "name": "AWS CloudOps Engineer – Associate",
+   "full": "AWS Certified CloudOps Engineer – Associate (SOA-C03, 구 SysOps Administrator – Associate)",
+   "org": "Amazon Web Services",
+   "orgUrl": "https://aws.amazon.com/certification/",
+   "url": "https://aws.amazon.com/certification/certified-cloudops-engineer-associate/",
+   "group": "cloud",
+   "level": "중급",
+   "type": "벤더 인증",
+   "for": "AWS에서 워크로드를 배포·관리·운영해 본 경험이 1년 정도 있는 시스템 관리자·운영 엔지니어에게 맞습니다.",
+   "about": [
+    "기존 SysOps Administrator – Associate가 최신 시험 버전(SOA-C03)과 함께 CloudOps Engineer – Associate로 이름이 바뀌었습니다. 새 이름은 SOA-C03 합격자에게만 적용되며, 기존 SysOps 보유자는 취득일로부터 3년간 자격이 그대로 유지됩니다.",
+    "출제 영역은 모니터링·로깅·분석·복구·성능 최적화 22%, 안정성·비즈니스 연속성 22%, 배포·프로비저닝·자동화 22%, 보안·규정 준수 16%, 네트워킹·콘텐츠 전송 18%입니다."
+   ],
+   "exam": [
+    [
+     "방식",
+     "Pearson VUE 시험장 또는 온라인 감독, 영어·일본어·한국어·중국어 간체 제공(한국어·중국어 간체판은 2026-11-19 이후 폐지 예정)"
+    ],
+    [
+     "문항·시간",
+     "65문항(채점 50 + 비채점 15) · 130분"
+    ],
+    [
+     "응시료",
+     "150 USD (환율 등 추가 비용 가능)"
+    ],
+    [
+     "합격 기준",
+     "환산 점수 100~1,000점 중 720점 이상 (시험 가이드 기준)"
+    ],
+    [
+     "유효 기간",
+     "3년 (DevOps Engineer – Professional 취득으로도 갱신 가능)"
+    ]
+   ],
+   "schedule": [],
+   "scheduleNote": "상시 응시(시험센터·온라인 감독) — 정기 회차 없음. 한국어 시험은 2026-11-19 이후 폐지 예정이므로 한국어로 보려면 그 전에 예약.",
+   "checked": "2026-10-16",
+   "prep": [
+    "공식 시험 가이드(SOA-C03)의 5개 영역을 기준으로 학습 범위를 정합니다.",
+    "CloudWatch 경보·로그, Systems Manager, CloudFormation, 백업·다중 AZ 구성을 직접 실습합니다.",
+    "VPC 라우팅·보안 그룹·Route 53 등 네트워크 문제 해결 시나리오를 공식 연습 문제로 반복합니다."
+   ],
+   "wiki": []
+  },
+  {
+   "id": "aws-dea",
+   "name": "AWS Data Engineer – Associate",
+   "full": "AWS Certified Data Engineer – Associate (DEA-C01)",
+   "org": "Amazon Web Services",
+   "orgUrl": "https://aws.amazon.com/certification/",
+   "url": "https://aws.amazon.com/certification/certified-data-engineer-associate/",
+   "group": "cloud",
+   "level": "중급",
+   "type": "벤더 인증",
+   "for": "데이터 엔지니어링·데이터 아키텍처 경력 2~3년, AWS 실무 1~2년 정도의 데이터 엔지니어에게 맞습니다.",
+   "about": [
+    "AWS에서 데이터 수집·변환, 파이프라인 오케스트레이션, 데이터 모델링, 수명 주기 관리, 데이터 품질을 다루는 능력을 검증하는 어소시에이트 인증입니다.",
+    "출제 영역은 데이터 수집·변환 34%, 데이터 저장소 관리 26%, 데이터 운영·지원 22%, 데이터 보안·거버넌스 18%입니다. ML·생성형 AI 파이프라인의 데이터 기반을 다지는 데도 도움이 됩니다."
+   ],
+   "exam": [
+    [
+     "방식",
+     "Pearson VUE 시험장 또는 온라인 감독, 영어·일본어·한국어·중국어 간체 제공"
+    ],
+    [
+     "문항·시간",
+     "65문항(채점 50 + 비채점 15) · 130분"
+    ],
+    [
+     "응시료",
+     "150 USD (환율 등 추가 비용 가능)"
+    ],
+    [
+     "합격 기준",
+     "환산 점수 100~1,000점 중 720점 이상 (시험 가이드 기준)"
+    ],
+    [
+     "유효 기간",
+     "3년"
+    ]
+   ],
+   "schedule": [],
+   "scheduleNote": "상시 응시(시험센터·온라인 감독) — 정기 회차 없음, 원하는 날짜를 골라 예약. 불합격 시 14일 후 재응시 가능.",
+   "checked": "2026-10-16",
+   "prep": [
+    "공식 시험 가이드(DEA-C01)의 4개 영역과 대상 서비스 목록을 확인합니다.",
+    "Glue·Kinesis·Redshift·Athena·Lake Formation으로 수집→변환→적재 파이프라인을 직접 구성해 봅니다.",
+    "Step Functions·MWAA 오케스트레이션과 IAM·암호화 기반 데이터 거버넌스를 정리하고 공식 연습 문제로 점검합니다."
+   ],
+   "wiki": [
+    "machine-learning"
+   ]
+  },
+  {
+   "id": "aws-sap",
+   "name": "AWS Solutions Architect – Professional",
+   "full": "AWS Certified Solutions Architect – Professional (SAP-C02)",
+   "org": "Amazon Web Services",
+   "orgUrl": "https://aws.amazon.com/certification/",
+   "url": "https://aws.amazon.com/certification/certified-solutions-architect-professional/",
+   "group": "cloud",
+   "level": "고급",
+   "type": "벤더 인증",
+   "for": "AWS로 클라우드 솔루션을 설계·구현한 경험이 2년 이상인 시니어 아키텍트에게 맞습니다.",
+   "about": [
+    "복잡한 조직 구조, 신규 솔루션 설계, 기존 솔루션 개선, 워크로드 마이그레이션·현대화를 다루는 프로페셔널 인증입니다. 출제 비중은 조직 복잡성 26%, 신규 솔루션 29%, 지속적 개선 25%, 마이그레이션·현대화 20%입니다.",
+    "시험이 개편 중이며, 새 버전 SAP-C03 접수는 2026-10-27에 열리고 현행 SAP-C02는 2026-11-16까지 응시할 수 있습니다. 개편 후 세부 사항은 새 시험 가이드를 확인해야 합니다."
+   ],
+   "exam": [
+    [
+     "방식",
+     "Pearson VUE 시험장 또는 온라인 감독, 한국어 포함 6개 언어 제공(영어·일본어·한국어·포르투갈어(브라질)·중국어 간체·스페인어(중남미))"
+    ],
+    [
+     "문항·시간",
+     "75문항(채점 65 + 비채점 10) · 180분 (SAP-C02 기준)"
+    ],
+    [
+     "응시료",
+     "300 USD (환율 등 추가 비용 가능)"
+    ],
+    [
+     "합격 기준",
+     "환산 점수 100~1,000점 중 750점 이상 (SAP-C02 시험 가이드 기준)"
+    ],
+    [
+     "유효 기간",
+     "3년"
+    ]
+   ],
+   "schedule": [],
+   "scheduleNote": "상시 응시(시험센터·온라인 감독) — 정기 회차 없음. 단, SAP-C02는 2026-11-16이 마지막 응시일이며 SAP-C03 접수는 2026-10-27부터 시작.",
+   "checked": "2026-10-16",
+   "prep": [
+    "응시 시점에 맞는 버전(SAP-C02 또는 SAP-C03)의 공식 시험 가이드를 확인합니다.",
+    "Organizations·Control Tower·Transit Gateway·하이브리드 연결 등 멀티 계정·대규모 네트워크 설계를 정리합니다.",
+    "긴 시나리오 문제가 많으므로 공식 연습 시험으로 180분 시간 배분과 마이그레이션 전략(7R) 판단을 연습합니다."
+   ],
+   "wiki": [
+    "data-center"
+   ]
+  },
+  {
+   "id": "aws-dop",
+   "name": "AWS DevOps Engineer – Professional",
+   "full": "AWS Certified DevOps Engineer – Professional (DOP-C02)",
+   "org": "Amazon Web Services",
+   "orgUrl": "https://aws.amazon.com/certification/",
+   "url": "https://aws.amazon.com/certification/certified-devops-engineer-professional/",
+   "group": "cloud",
+   "level": "고급",
+   "type": "벤더 인증",
+   "for": "AWS 환경의 프로비저닝·운영·관리 경험이 2년 이상이고 개발 수명 주기와 스크립팅에 익숙한 DevOps 엔지니어에게 맞습니다.",
+   "about": [
+    "CI/CD 자동화, 인프라 코드(IaC), 복원력, 모니터링·로깅, 사고 대응, 보안·규정 준수를 다루는 프로페셔널 인증입니다.",
+    "출제 비중은 SDLC 자동화 22%, 구성 관리·IaC 17%, 복원력 15%, 모니터링·로깅 15%, 사고·이벤트 대응 14%, 보안·규정 준수 17%입니다. 취득하면 Developer·CloudOps 어소시에이트 자격 갱신도 인정됩니다."
+   ],
+   "exam": [
+    [
+     "방식",
+     "Pearson VUE 시험장 또는 온라인 감독, 영어·일본어·한국어·중국어 간체 제공(한국어판은 2026-12-31 이후 폐지 예정)"
+    ],
+    [
+     "문항·시간",
+     "75문항(채점 65 + 비채점 10) · 180분"
+    ],
+    [
+     "응시료",
+     "300 USD (환율 등 추가 비용 가능)"
+    ],
+    [
+     "합격 기준",
+     "환산 점수 100~1,000점 중 750점 이상 (시험 가이드 기준)"
+    ],
+    [
+     "유효 기간",
+     "3년"
+    ]
+   ],
+   "schedule": [],
+   "scheduleNote": "상시 응시(시험센터·온라인 감독) — 정기 회차 없음. 한국어 시험은 2026-12-31 이후 폐지 예정이므로 한국어로 보려면 그 전에 예약.",
+   "checked": "2026-10-16",
+   "prep": [
+    "공식 시험 가이드(DOP-C02)의 6개 영역을 기준으로 학습 계획을 세웁니다.",
+    "CodePipeline·CodeBuild·CodeDeploy와 CloudFormation/CDK로 배포 파이프라인을 직접 구성하고 블루/그린·카나리 배포를 실습합니다.",
+    "CloudWatch·EventBridge·Systems Manager 기반 자동 복구와 Config·Security Hub 규정 준수 점검을 정리합니다."
+   ],
+   "wiki": []
+  },
+  {
+   "id": "aws-scs",
+   "name": "AWS Security – Specialty",
+   "full": "AWS Certified Security – Specialty (SCS-C03)",
+   "org": "Amazon Web Services",
+   "orgUrl": "https://aws.amazon.com/certification/",
+   "url": "https://aws.amazon.com/certification/certified-security-specialty/",
+   "group": "cloud",
+   "level": "고급",
+   "type": "벤더 인증",
+   "for": "IT 보안 경력 5년, AWS 워크로드 보안 실무 2년 이상인 보안 엔지니어·아키텍트에게 맞습니다.",
+   "about": [
+    "AWS 환경의 탐지, 사고 대응, 인프라 보안, 자격 증명·접근 관리, 데이터 보호, 보안 거버넌스를 다루는 스페셜티 인증입니다. 현재 시험 코드는 SCS-C03입니다(이전 SCS-C02에서 변경).",
+    "출제 비중은 탐지 16%, 사고 대응 14%, 인프라 보안 18%, IAM 20%, 데이터 보호 18%, 보안 기반·거버넌스 14%입니다. AI 워크로드를 운영할 때 필요한 권한·암호화 설계에도 직접 연결됩니다."
+   ],
+   "exam": [
+    [
+     "방식",
+     "Pearson VUE 시험장 또는 온라인 감독, 영어·일본어·한국어·포르투갈어(브라질)·중국어 간체·스페인어(중남미) 제공(중국어 간체·스페인어·포르투갈어판은 2026-12-31 이후 폐지 예정)"
+    ],
+    [
+     "문항·시간",
+     "65문항(채점 50 + 비채점 15) · 170분"
+    ],
+    [
+     "응시료",
+     "300 USD (환율 등 추가 비용 가능)"
+    ],
+    [
+     "합격 기준",
+     "환산 점수 100~1,000점 중 750점 이상 (시험 가이드 기준)"
+    ],
+    [
+     "유효 기간",
+     "3년"
+    ]
+   ],
+   "schedule": [],
+   "scheduleNote": "상시 응시(시험센터·온라인 감독) — 정기 회차 없음, 원하는 날짜를 골라 예약. 불합격 시 14일 후 재응시 가능.",
+   "checked": "2026-10-16",
+   "prep": [
+    "공식 시험 가이드(SCS-C03)의 6개 영역과 세부 과제를 확인합니다.",
+    "IAM 정책 평가 논리, SCP, KMS 키 정책, GuardDuty·Security Hub·Detective를 실습 계정에서 직접 설정해 봅니다.",
+    "사고 대응 런북(격리·포렌식·복구) 시나리오를 정리하고 공식 연습 문제로 점검합니다."
+   ],
+   "wiki": [
+    "ai-safety"
+   ]
+  },
+  {
    "id": "gcp-pmle",
    "name": "Google Cloud Professional ML Engineer",
    "full": "Google Cloud Professional Machine Learning Engineer",
@@ -1438,6 +1830,100 @@
     "tool-use",
     "ai-safety"
    ]
+  },
+  {
+   "id": "pmp",
+   "name": "PMP",
+   "full": "Project Management Professional (PMP)",
+   "org": "Project Management Institute (PMI)",
+   "orgUrl": "https://www.pmi.org/",
+   "url": "https://www.pmi.org/certifications/project-management-pmp",
+   "group": "pm",
+   "level": "고급",
+   "type": "국제 자격",
+   "for": "수년간 프로젝트를 직접 이끌어 온 PM·PL·PMO 담당자가 실무 역량을 국제적으로 인정받고 싶을 때 맞습니다.",
+   "about": [
+    "PMI가 주관하는 대표적인 프로젝트 관리 국제 자격으로, 예측형(워터폴)·애자일·하이브리드 방식을 아우르는 프로젝트 리딩 역량을 평가합니다. 응시하려면 학력에 따른 프로젝트 관리 경력과 35시간 교육 이수가 필요합니다.",
+    "시험은 180문항·240분으로 한국어를 포함한 여러 언어로 제공됩니다. 취득 후에는 3년마다 PDU 60점을 쌓아 자격을 유지해야 합니다."
+   ],
+   "exam": [
+    [
+     "응시 자격",
+     "고졸: 프로젝트 관리 경력 5년 / 전문학사·직업 학위: 4년 / 학사 이상: 3년 / PMI GAC 인증 학위: 2년 (최근 10년 이내 경력) + 프로젝트 관리 교육 35시간(유효한 CAPM 보유 시 대체)"
+    ],
+    [
+     "문항·시간",
+     "180문항 · 240분 (10분 휴식 2회 포함)"
+    ],
+    [
+     "응시료",
+     "[확인 필요] (회원·비회원 요금 상이)"
+    ],
+    [
+     "유효 기간",
+     "3년, 주기마다 PDU 60점 취득(교육 35점 이상, 기여 25점 이하, 탤런트 트라이앵글 영역별 8점 이상)"
+    ],
+    [
+     "방식",
+     "Pearson VUE 시험장(권장) 또는 온라인 감독, 한국어 포함 15개 언어 제공"
+    ]
+   ],
+   "schedule": [],
+   "scheduleNote": "상시 응시(Pearson VUE 시험장·온라인) — 정기 회차 없음, 신청 승인 후 응시료 납부와 함께 예약. 1년 안에 최대 3회 응시 가능. 신청 승인 후 응시 가능 기간 [확인 필요].",
+   "checked": "2026-10-16",
+   "prep": [
+    "PMI 공식 PMP 시험 내용 개요(ECO)를 내려받아 출제 영역과 과제를 확인합니다.",
+    "PMI 공인 교육 파트너(ATP) 과정 등으로 35시간 교육을 이수하고 경력 내역을 프로젝트별로 정리해 신청서를 준비합니다.",
+    "애자일·하이브리드 상황 판단형 문제가 많으므로 모의고사로 240분 시간 배분을 연습합니다."
+   ],
+   "wiki": []
+  },
+  {
+   "id": "capm",
+   "name": "CAPM",
+   "full": "Certified Associate in Project Management (CAPM)",
+   "org": "Project Management Institute (PMI)",
+   "orgUrl": "https://www.pmi.org/",
+   "url": "https://www.pmi.org/certifications/certified-associate-capm",
+   "group": "pm",
+   "level": "입문",
+   "type": "국제 자격",
+   "for": "프로젝트 관리 경력이 없거나 짧은 학생·주니어 실무자가 PM 기초를 공식적으로 증명하고 싶을 때 맞습니다.",
+   "about": [
+    "PMI의 입문용 프로젝트 관리 자격으로, 실무 경력 없이 고등학교 졸업 이상 학력과 23시간 교육만으로 응시할 수 있습니다. 예측형·애자일 등 프로젝트 관리의 기본 개념과 용어를 평가합니다.",
+    "유효한 CAPM은 이후 PMP 응시 시 35시간 교육 요건을 대신할 수 있어 PMP로 가는 첫 단계로 활용됩니다. 3년마다 PDU 15점을 쌓아 유지합니다."
+   ],
+   "exam": [
+    [
+     "응시 자격",
+     "고등학교 졸업(또는 동등 학력), 만 18세 이상, 시험 전 프로젝트 관리 교육 23시간 이수"
+    ],
+    [
+     "문항·시간",
+     "150문항(채점 135 + 비채점 15) · 180분"
+    ],
+    [
+     "응시료",
+     "[확인 필요] (회원·비회원 요금 상이)"
+    ],
+    [
+     "유효 기간",
+     "3년, 주기마다 PDU 15점 취득(교육 9점 이상, 기여 6점 이하)"
+    ],
+    [
+     "방식",
+     "Pearson VUE 시험장(권장) 또는 온라인 감독, 한국어 포함 제공"
+    ]
+   ],
+   "schedule": [],
+   "scheduleNote": "상시 응시(Pearson VUE 시험장·온라인) — 정기 회차 없음, 신청 승인 후 응시료 납부와 함께 예약. 1년 안에 최대 3회 응시 가능.",
+   "checked": "2026-10-16",
+   "prep": [
+    "PMI 공식 CAPM 시험 내용 개요(ECO)로 출제 범위를 확인합니다.",
+    "PMI 온디맨드 CAPM 시험 준비 과정이나 강사 주도 과정으로 23시간 교육을 이수합니다.",
+    "PMBOK 지침서의 용어·원칙과 애자일 기본 개념을 정리하고 모의고사로 점검합니다."
+   ],
+   "wiki": []
   }
  ]
 }
