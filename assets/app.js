@@ -64,6 +64,7 @@
   }
   var votes = load('votes', {});         // id -> 1 | -1
   var bookmarks = load('bookmarks', {}); // id -> article snapshot
+  var sdone = load('studyDone', {});     // 스터디 단계 id -> 완료 날짜
 
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
@@ -651,9 +652,10 @@
   }
   function studyItem(s) {
     var D = wdata.study;
-    return '<a class="item wterm wstage" href="#/wiki/study/' + esc(s.id) + '" data-w="study/' + esc(s.id) + '">' +
-      '<span class="wno">' + esc(s.no) + '</span><div class="txt">' +
-      '<div class="meta"><span class="tag">' + esc(s.level || '') + '</span><span>' + esc((s.tracks || []).map(function (t) { return D.tName[t]; }).join(' · ')) + '</span>' +
+    var dn = sdone[s.id];
+    return '<a class="item wterm wstage' + (dn ? ' done' : '') + '" href="#/wiki/study/' + esc(s.id) + '" data-w="study/' + esc(s.id) + '">' +
+      '<span class="wno">' + (dn ? '✓' : esc(s.no)) + '</span><div class="txt">' +
+      '<div class="meta"><span class="tag">' + esc(s.level || '') + '</span>' + (dn ? '<span class="tag ok">완료</span>' : '') + '<span>' + esc((s.tracks || []).map(function (t) { return D.tName[t]; }).join(' · ')) + '</span>' +
       (s.duration ? '<span class="pub">' + esc(s.duration) + '</span>' : '') + '</div>' +
       '<h3>' + esc(s.title) + '</h3><p>' + esc(s.goal) + '</p></div></a>';
   }
@@ -664,9 +666,22 @@
       '<h3>' + esc(c.name) + (c.full && c.full !== c.name ? ' <small>' + esc(c.full) + '</small>' : '') + '</h3>' +
       '<p>' + esc(c.org) + ' · ' + esc(nx ? '다음 시험 ' + (nx.s.label ? nx.s.label + ' ' : '') + nx.s.date : (c.scheduleNote || '일정 [확인 필요]')) + '</p></a>';
   }
+  function studyProg() {
+    var D = wdata.study, g = wst.study.g, tr = (D.tracks || []).filter(function (t) { return t.id === g; })[0];
+    var st = D.stages.filter(function (s) { return !tr || (s.tracks || []).indexOf(tr.id) >= 0; });
+    var n = st.filter(function (s) { return sdone[s.id]; }).length, pct = st.length ? Math.round(n * 100 / st.length) : 0;
+    var nx = st.filter(function (s) { return !sdone[s.id]; })[0];
+    return '<div class="wpl"><b>' + (tr ? esc(tr.name) + ' 과정 ' : '내 학습 ') + n + ' / ' + st.length + '단계 완료</b><span>' + pct + '%</span></div>' +
+      '<div class="wbar"><i style="width:' + pct + '%"></i></div>' +
+      (nx ? '<a class="wnext" href="#/wiki/study/' + esc(nx.id) + '">' + (n ? '이어서 학습' : '시작하기') + ' · ' + esc(nx.no + '. ' + nx.title) + ' ›</a>'
+          : '<p class="wnext">모든 단계를 마쳤어요 🎉</p>') +
+      '<small>완료 기록은 이 브라우저에만 저장돼요.</small>';
+  }
   function wikiResults() {
     var k = wikiResults.k, $r = document.getElementById('wres');
     if (!$r) return;
+    var $p = document.getElementById('wprog');
+    if ($p) $p.innerHTML = studyProg();
     var q = k === 't' ? wikiQ : wst[k].q, g = k === 't' ? wikiG : wst[k].g;
     var res = k === 't' ? wikiFind(q, g) : k === 'study' ? studyFind(q, g) : certFind(q, g);
     var unit = k === 't' ? '개 용어' : k === 'study' ? '단계' : '개 자격';
@@ -679,7 +694,7 @@
   function wikiView(k) {
     k = k || 't';
     renderChips(null);
-    if (!wdata[k]) { $list.innerHTML = wtabs(k) + '<div class="empty">불러오는 중…</div>'; wLoad(k, function () { if (location.hash.indexOf('#/wiki') === 0) route(); }); return; }
+    if (!wdata[k]) { $list.innerHTML = wtabs(k) + '<div class="empty">불러오는 중…</div>'; wLoad(k, function () { state.leftHref = null; if (location.hash.indexOf('#/wiki') === 0) route(); }); return; }
     var D = wdata[k], html = wtabs(k), groups, ph, gsel;
     if (k === 't') {
       html += '<div class="rule">AI 뉴스를 읽을 때 자주 나오는 말을 쉽게 풀었어요. 용어를 누르면 설명, 심화 자료, 관련 기사로 이어져요.</div>';
@@ -691,6 +706,7 @@
       ph = '단계·지식 검색 (예: 파이썬, RAG)'; gsel = wst.study.g;
       var tr = (D.tracks || []).filter(function (t) { return t.id === gsel; })[0];
       if (tr && tr.desc) html += '<div class="fit"><b>' + esc(tr.name) + '</b>' + esc(tr.desc) + '</div>';
+      html += '<div class="wprog" id="wprog">' + studyProg() + '</div>';
     } else {
       html += '<div class="rule">AI 관련 자격증의 주관 기관, 시험 방식, 일정을 모았어요. 일정은 ' + esc(fmtDate(D.updatedAt)) + ' 기준이니 접수 전 공식 사이트에서 꼭 다시 확인하세요.</div>';
       groups = D.groups.map(function (g) { return [g.id, g.name, D.certs.filter(function (c) { return c.group === g.id; }).length]; });
@@ -761,7 +777,7 @@
         '<div class="note">summaryx가 정리한 용어 설명이에요(기준일 ' + esc(D.updatedAt || '') + '). 외부 자료는 각 사이트에서 열려요.</div>';
     } else if (k === 'study') {
       var s = x, prev = D.stages[D.stages.indexOf(s) - 1], next = D.stages[D.stages.indexOf(s) + 1];
-      h += '<div class="meta"><span class="tag">스터디 · ' + esc(s.no) + '단계 · ' + esc(s.level || '') + '</span>' +
+      h += '<div class="meta"><span class="tag">스터디 · ' + esc(s.no) + '단계 · ' + esc(s.level || '') + '</span>' + (sdone[s.id] ? '<span class="tag ok">완료</span>' : '') +
         (s.duration ? '<span class="pub">' + esc(s.duration) + '</span>' : '') + '</div>' +
         '<h1>' + esc(s.title) + '</h1>' +
         '<p class="orig">' + esc((s.tracks || []).map(function (t) { return D.tName[t]; }).join(' · ')) + ' 과정</p>' +
@@ -774,6 +790,7 @@
         ((s.resources || []).length ? '<div class="sh"><b>학습 자료</b><small>' + s.resources.length + '개</small></div>' + linkList(s.resources.map(function (r) { return { title: r.title, url: r.url, by: r.by, kind: r.free === false ? '유료' : '무료', lang: r.lang }; })) : '') +
         ((s.wiki || []).length ? '<div class="sh"><b>관련 용어</b></div>' + termBadges(s.wiki) : '') +
         ((s.certs || []).length && wdata.cert ? '<div class="sh"><b>관련 자격증</b></div><div class="badges">' + s.certs.filter(function (c) { return wdata.cert.byId[c]; }).map(function (c) { return '<a class="badge" href="#/wiki/cert/' + esc(c) + '">' + esc(wdata.cert.byId[c].name) + '</a>'; }).join('') + '</div>' : '') +
+        '<button type="button" class="cta wdone' + (sdone[s.id] ? ' on' : '') + '" data-sid="' + esc(s.id) + '">' + (sdone[s.id] ? '✓ 완료한 단계예요 (' + esc(fmtDate(sdone[s.id])) + ') · 취소' : '이 단계 완료로 표시') + '</button>' +
         '<div class="wnav">' + (prev ? '<a href="#/wiki/study/' + esc(prev.id) + '">‹ ' + esc(prev.no + '. ' + prev.title) + '</a>' : '<span></span>') +
         (next ? '<a href="#/wiki/study/' + esc(next.id) + '">' + esc(next.no + '. ' + next.title) + ' ›</a>' : '<span></span>') + '</div>';
       if (!wdata.cert) wLoad('cert', function () { if (location.hash === '#/wiki/study/' + id) wikiDetail(k, id); });
@@ -796,6 +813,15 @@
         '<div class="note">일정·응시료는 바뀔 수 있어요. 접수 전 공식 사이트에서 다시 확인하세요. [확인 필요] 표시는 공식 자료로 확인하지 못한 값이에요.</div>';
     }
     $det.innerHTML = h + '</article>';
+    var $b = $det.querySelector('.wdone');
+    if ($b) $b.addEventListener('click', function () {
+      var sid = $b.getAttribute('data-sid'), d = new Date();
+      if (sdone[sid]) delete sdone[sid];
+      else sdone[sid] = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+      save('studyDone', sdone);
+      wikiDetail('study', sid);
+      if (document.getElementById('wres') && wikiResults.k === 'study') wikiResults();
+    });
   }
 
   // ---- 검색 ----

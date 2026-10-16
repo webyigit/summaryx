@@ -376,3 +376,15 @@ html, body, a, button, input, .item, .chip, .sub { touch-action: manipulation; }
 .poemorig .poemtxt { font-size: 14.5px; margin-top: 8px; }
 .poemlink p { margin: 0 0 10px; font-size: 14px; line-height: 1.6; }
 .poemlink .cta { margin: 0; }
+.tag.ok { background: var(--accent); color: #fff; padding: 1px 7px; border-radius: 8px; font-size: 11px; }
+.wstage.done .wno { background: var(--accent); color: #fff; }
+.wstage.done h3 { color: var(--sub); }
+.wprog { background: var(--card); border-radius: 14px; padding: 14px 16px; margin: 0 0 12px; box-shadow: var(--shadow); }
+.wprog .wpl { display: flex; justify-content: space-between; align-items: baseline; font-size: 14px; }
+.wprog .wpl span { color: var(--accent); font-weight: 700; }
+.wprog .wbar { height: 8px; border-radius: 4px; background: var(--line); margin: 8px 0 10px; overflow: hidden; }
+.wprog .wbar i { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+.wprog .wnext { display: block; font-size: 13.5px; font-weight: 600; color: var(--ink); margin: 0 0 6px; }
+.wprog small { font-size: 11px; color: var(--sub); }
+button.cta.wdone { width: 100%; border: 0; font: inherit; font-weight: 700; cursor: pointer; }
+button.cta.wdone.on { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
