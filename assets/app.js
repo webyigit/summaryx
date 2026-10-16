@@ -568,12 +568,12 @@
     });
   }
 
-  // ---- AI Wiki: AI 용어 사전(data/aiwiki.json). 검색은 용어·영문·별칭·설명 전체에서 찾는다 ----
+  // ---- AI Wiki: 용어집(data/aiwiki.json) · 스터디(data/aistudy.json) · 자격증(data/aicert_guide.json) ----
   var wiki = null, wikiQ = '', wikiG = '';
-  function wikiLoad(cb) {
-    if (wiki) { cb(); return; }
-    if (wikiLoad._p) { wikiLoad._p.then(cb); return; }
-    wikiLoad._p = fetchJson('data/aiwiki.json').then(function (d) {
+  var WSRC = { t: 'data/aiwiki.json', study: 'data/aistudy.json', cert: 'data/aicert_guide.json' };
+  var wdata = {}, wprom = {}, wst = { study: { q: '', g: '' }, cert: { q: '', g: '' } };
+  function wikiPrep(k, d) {
+    if (k === 't') {
       d.byId = {}; d.gName = {};
       d.groups.forEach(function (g) { d.gName[g.id] = g.name; });
       d.terms.forEach(function (t) {
@@ -583,18 +583,40 @@
       });
       d.terms.sort(function (a, b) { return a.term.localeCompare(b.term, 'ko'); });
       wiki = d;
+    } else if (k === 'study') {
+      d.byId = {}; d.tName = {};
+      (d.tracks || []).forEach(function (t) { d.tName[t.id] = t.name; });
+      d.stages.sort(function (a, b) { return a.no - b.no; });
+      d.stages.forEach(function (s) {
+        d.byId[s.id] = s;
+        s._s = [s.title, s.goal, s.why, (s.knowledge || []).map(function (k) { return k.title + ' ' + (k.points || []).join(' '); }).join(' '), (s.practice || []).join(' ')].join(' ').toLowerCase();
+      });
+    } else {
+      d.byId = {}; d.gName = {};
+      d.groups.forEach(function (g) { d.gName[g.id] = g.name; });
+      d.certs.forEach(function (c) {
+        d.byId[c.id] = c;
+        c._s = [c.name, c.full, c.org, c.type, c.level, c['for'], (c.about || []).join(' ')].join(' ').toLowerCase();
+      });
+    }
+    wdata[k] = d;
+  }
+  function wLoad(k, cb) {
+    if (wdata[k]) { cb(); return; }
+    if (!wprom[k]) wprom[k] = fetchJson(WSRC[k]).then(function (d) { wikiPrep(k, d); });
+    wprom[k].then(cb).catch(function () {
+      wprom[k] = null;
+      $list.innerHTML = '<div class="sec-title">AI Wiki</div><div class="empty">데이터를 불러오지 못했어요.</div>';
     });
-    wikiLoad._p.then(cb).catch(function () {
-      wikiLoad._p = null;
-      $list.innerHTML = '<div class="sec-title">AI Wiki</div><div class="empty">AI Wiki를 불러오지 못했어요.</div>';
-    });
+  }
+  function wikiLoad(cb) { wLoad('t', cb); }
+  function wMatch(s, q) {
+    var ws = (q || '').toLowerCase().split(/\s+/).filter(Boolean);
+    return ws.every(function (w) { return s.indexOf(w) >= 0; });
   }
   function wikiFind(q, g) {
     var ws = (q || '').toLowerCase().split(/\s+/).filter(Boolean);
-    var res = wiki.terms.filter(function (t) {
-      if (g && t.group !== g) return false;
-      return ws.every(function (w) { return t._s.indexOf(w) >= 0; });
-    });
+    var res = wiki.terms.filter(function (t) { return (!g || t.group === g) && wMatch(t._s, q); });
     if (ws.length) {
       // 용어 이름·영문·별칭에 맞는 항목을 먼저
       var hit = function (t) { return ws.every(function (w) { return t._k.indexOf(w) >= 0; }) ? 1 : 0; };
@@ -602,74 +624,178 @@
     }
     return res;
   }
+  function studyFind(q, g) { return wdata.study.stages.filter(function (s) { return (!g || (s.tracks || []).indexOf(g) >= 0) && wMatch(s._s, q); }); }
+  function certFind(q, g) { return wdata.cert.certs.filter(function (c) { return (!g || c.group === g) && wMatch(c._s, q); }); }
+  // 지금 이후의 가장 가까운 시험(또는 접수) 일정
+  function certNext(c) {
+    var today = new Date().toISOString().slice(0, 10), best = null;
+    (c.schedule || []).forEach(function (s) {
+      var m = String(s.date || '').match(/\d{4}[.\-]\s?\d{1,2}[.\-]\s?\d{1,2}/);
+      if (!m) return;
+      var d = m[0].replace(/\s/g, '').split(/[.\-]/), iso = d[0] + '-' + ('0' + d[1]).slice(-2) + '-' + ('0' + d[2]).slice(-2);
+      if (iso >= today && (!best || iso < best.iso)) best = { iso: iso, s: s };
+    });
+    return best;
+  }
+  var WTABS = [['t', '용어집', '#/wiki'], ['study', '스터디', '#/wiki/study'], ['cert', '자격증', '#/wiki/cert']];
+  function wtabs(k) {
+    return '<div class="wtabs">' + WTABS.map(function (x) {
+      return '<a href="' + x[2] + '"' + (x[0] === k ? ' class="on"' : '') + '>' + x[1] + '</a>';
+    }).join('') + '</div>';
+  }
   function wikiItem(t) {
-    return '<a class="item wterm" href="#/wiki/t/' + esc(t.id) + '" data-w="' + esc(t.id) + '">' +
+    return '<a class="item wterm" href="#/wiki/t/' + esc(t.id) + '" data-w="t/' + esc(t.id) + '">' +
       '<div class="meta"><span class="tag">' + esc(wiki.gName[t.group] || '') + '</span></div>' +
       '<h3>' + esc(t.term) + (t.en ? ' <small>' + esc(t.en) + '</small>' : '') + '</h3>' +
       '<p>' + esc(t.short) + '</p></a>';
   }
+  function studyItem(s) {
+    var D = wdata.study;
+    return '<a class="item wterm wstage" href="#/wiki/study/' + esc(s.id) + '" data-w="study/' + esc(s.id) + '">' +
+      '<span class="wno">' + esc(s.no) + '</span><div class="txt">' +
+      '<div class="meta"><span class="tag">' + esc(s.level || '') + '</span><span>' + esc((s.tracks || []).map(function (t) { return D.tName[t]; }).join(' · ')) + '</span>' +
+      (s.duration ? '<span class="pub">' + esc(s.duration) + '</span>' : '') + '</div>' +
+      '<h3>' + esc(s.title) + '</h3><p>' + esc(s.goal) + '</p></div></a>';
+  }
+  function certItem(c) {
+    var D = wdata.cert, nx = certNext(c);
+    return '<a class="item wterm" href="#/wiki/cert/' + esc(c.id) + '" data-w="cert/' + esc(c.id) + '">' +
+      '<div class="meta"><span class="tag">' + esc(D.gName[c.group] || '') + '</span><span>' + esc([c.level, c.type].filter(Boolean).join(' · ')) + '</span></div>' +
+      '<h3>' + esc(c.name) + (c.full && c.full !== c.name ? ' <small>' + esc(c.full) + '</small>' : '') + '</h3>' +
+      '<p>' + esc(c.org) + ' · ' + esc(nx ? '다음 시험 ' + (nx.s.label ? nx.s.label + ' ' : '') + nx.s.date : (c.scheduleNote || '일정 [확인 필요]')) + '</p></a>';
+  }
   function wikiResults() {
-    var res = wikiFind(wikiQ, wikiG), $r = document.getElementById('wres');
-    if (!$r) return res;
-    $r.innerHTML = '<div class="day">' + (wikiQ ? '‘' + esc(wikiQ) + '’ ' : '') + (wikiG ? esc(wiki.gName[wikiG]) + ' ' : '') + res.length + '개 용어</div>' +
-      (res.length ? '<div class="list">' + res.map(wikiItem).join('') + '</div>'
-                  : '<div class="empty">맞는 용어가 없어요.<br><br><a href="#/search/' + encodeURIComponent(wikiQ) + '">기사에서 ‘' + esc(wikiQ) + '’ 찾기</a></div>');
+    var k = wikiResults.k, $r = document.getElementById('wres');
+    if (!$r) return;
+    var q = k === 't' ? wikiQ : wst[k].q, g = k === 't' ? wikiG : wst[k].g;
+    var res = k === 't' ? wikiFind(q, g) : k === 'study' ? studyFind(q, g) : certFind(q, g);
+    var unit = k === 't' ? '개 용어' : k === 'study' ? '단계' : '개 자격';
+    $r.innerHTML = '<div class="day">' + (q ? '‘' + esc(q) + '’ ' : '') + res.length + unit + '</div>' +
+      (res.length ? '<div class="list">' + res.map(k === 't' ? wikiItem : k === 'study' ? studyItem : certItem).join('') + '</div>'
+                  : '<div class="empty">맞는 항목이 없어요.' + (q ? '<br><br><a href="#/search/' + encodeURIComponent(q) + '">기사에서 ‘' + esc(q) + '’ 찾기</a>' : '') + '</div>');
     wikiActive();
     return res;
   }
-  function wikiView() {
+  function wikiView(k) {
+    k = k || 't';
     renderChips(null);
-    if (!wiki) { $list.innerHTML = '<div class="sec-title">AI Wiki</div><div class="empty">불러오는 중…</div>'; wikiLoad(function () { if (location.hash.indexOf('#/wiki') === 0) route(); }); return; }
-    $list.innerHTML = '<div class="sec-title">AI Wiki<small>' + wiki.terms.length + '개 용어</small></div>' +
-      '<div class="rule">AI 뉴스를 읽을 때 자주 나오는 말을 쉽게 풀었어요. 용어를 누르면 설명과 관련 기사로 이어져요.</div>' +
-      '<form class="sbox" id="wform"><input id="wq" type="search" enterkeyhint="search" placeholder="용어·영문·설명 검색 (예: RAG, 환각)" value="' + esc(wikiQ) + '" autocomplete="off">' +
+    if (!wdata[k]) { $list.innerHTML = wtabs(k) + '<div class="empty">불러오는 중…</div>'; wLoad(k, function () { if (location.hash.indexOf('#/wiki') === 0) route(); }); return; }
+    var D = wdata[k], html = wtabs(k), groups, ph, gsel;
+    if (k === 't') {
+      html += '<div class="rule">AI 뉴스를 읽을 때 자주 나오는 말을 쉽게 풀었어요. 용어를 누르면 설명, 심화 자료, 관련 기사로 이어져요.</div>';
+      groups = D.groups.map(function (g) { return [g.id, g.name, D.terms.filter(function (t) { return t.group === g.id; }).length]; });
+      ph = '용어·영문·설명 검색 (예: RAG, 환각)'; gsel = wikiG;
+    } else if (k === 'study') {
+      html += '<div class="rule">' + (D.intro || []).map(esc).join('<br>') + '</div>';
+      groups = (D.tracks || []).map(function (t) { return [t.id, t.name, D.stages.filter(function (s) { return (s.tracks || []).indexOf(t.id) >= 0; }).length]; });
+      ph = '단계·지식 검색 (예: 파이썬, RAG)'; gsel = wst.study.g;
+      var tr = (D.tracks || []).filter(function (t) { return t.id === gsel; })[0];
+      if (tr && tr.desc) html += '<div class="fit"><b>' + esc(tr.name) + '</b>' + esc(tr.desc) + '</div>';
+    } else {
+      html += '<div class="rule">AI 관련 자격증의 주관 기관, 시험 방식, 일정을 모았어요. 일정은 ' + esc(fmtDate(D.updatedAt)) + ' 기준이니 접수 전 공식 사이트에서 꼭 다시 확인하세요.</div>';
+      groups = D.groups.map(function (g) { return [g.id, g.name, D.certs.filter(function (c) { return c.group === g.id; }).length]; });
+      ph = '자격증·기관 검색 (예: AWS, 빅데이터)'; gsel = wst.cert.g;
+    }
+    var q = k === 't' ? wikiQ : wst[k].q;
+    html += '<form class="sbox" id="wform"><input id="wq" type="search" enterkeyhint="search" placeholder="' + ph + '" value="' + esc(q) + '" autocomplete="off">' +
       '<button type="submit">검색</button></form>' +
-      '<div class="subs wgroups"><a href="#" class="sub' + (wikiG ? '' : ' on') + '" data-g="">전체</a>' +
-      wiki.groups.map(function (g) {
-        var n = wiki.terms.filter(function (t) { return t.group === g.id; }).length;
-        return '<a href="#" class="sub' + (wikiG === g.id ? ' on' : '') + '" data-g="' + esc(g.id) + '">' + esc(g.name) + ' ' + n + '</a>';
-      }).join('') + '</div><div id="wres"></div>';
-    wikiResults();
+      '<div class="subs wgroups"><a href="#" class="sub' + (gsel ? '' : ' on') + '" data-g="">전체</a>' +
+      groups.map(function (g) { return '<a href="#" class="sub' + (gsel === g[0] ? ' on' : '') + '" data-g="' + esc(g[0]) + '">' + esc(g[1]) + ' ' + g[2] + '</a>'; }).join('') +
+      '</div><div id="wres"></div>';
+    $list.innerHTML = html;
+    wikiResults.k = k; wikiResults();
     var $q = document.getElementById('wq');
-    $q.addEventListener('input', function () { wikiQ = $q.value.trim(); wikiResults(); });
-    document.getElementById('wform').addEventListener('submit', function (e) { e.preventDefault(); wikiQ = $q.value.trim(); wikiResults(); $q.blur(); });
+    function setQ() { if (k === 't') wikiQ = $q.value.trim(); else wst[k].q = $q.value.trim(); wikiResults(); }
+    $q.addEventListener('input', setQ);
+    document.getElementById('wform').addEventListener('submit', function (e) { e.preventDefault(); setQ(); $q.blur(); });
     $list.querySelectorAll('.wgroups .sub').forEach(function (b) {
       b.addEventListener('click', function (e) {
-        e.preventDefault(); wikiG = b.getAttribute('data-g');
+        e.preventDefault();
+        var g = b.getAttribute('data-g');
+        if (k === 't') wikiG = g; else wst[k].g = g;
+        if (k === 'study') { wikiView(k); return; }
         $list.querySelectorAll('.wgroups .sub').forEach(function (x) { x.classList.toggle('on', x === b); });
         wikiResults();
       });
     });
   }
+  function wikiFirst(k) {
+    var r = k === 't' ? wikiFind(wikiQ, wikiG) : k === 'study' ? studyFind(wst.study.q, wst.study.g) : certFind(wst.cert.q, wst.cert.g);
+    return r[0] && r[0].id;
+  }
   function wikiActive() {
     if (!WIDE.matches) return;
-    var m = location.hash.match(/^#\/wiki\/t\/(.+)$/), id = m ? decodeURIComponent(m[1]) : null;
+    var m = location.hash.match(/^#\/wiki\/(t|study|cert)\/(.+)$/), id = m ? m[1] + '/' + decodeURIComponent(m[2]) : null;
     $list.querySelectorAll('.wterm').forEach(function (el) { el.classList.toggle('active', el.getAttribute('data-w') === id); });
   }
-  function wikiDetail(id) {
+  function linkList(arr) {
+    return '<ul class="alinks wrefs">' + arr.map(function (r) {
+      var sub = [r.by, r.kind, r.lang === 'ko' ? '한국어' : r.lang === 'en' ? '영어' : ''].filter(Boolean).join(' · ');
+      return '<li><a href="' + esc(r.url) + '" target="_blank" rel="noopener">' + esc(r.title) + '</a>' + (sub ? '<small>' + esc(sub) + '</small>' : '') + '</li>';
+    }).join('') + '</ul>';
+  }
+  function termBadges(ids) {
+    if (!wiki || !ids || !ids.length) return '';
+    var v = ids.filter(function (r) { return wiki.byId[r]; });
+    return v.length ? '<div class="badges">' + v.map(function (r) { return '<a class="badge" href="#/wiki/t/' + esc(r) + '">' + esc(wiki.byId[r].term) + '</a>'; }).join('') + '</div>' : '';
+  }
+  function wikiDetail(k, id) {
     if (!WIDE.matches) $chips.style.display = 'none';
-    if (!wiki) { $det.innerHTML = '<div class="empty">불러오는 중…</div>'; wikiLoad(function () { wikiDetail(id); wikiActive(); }); return; }
-    var t = wiki.byId[id];
-    if (!t) { $det.innerHTML = '<div class="empty">용어를 찾을 수 없어요.<br><br><a href="#/wiki">AI Wiki로</a></div>'; return; }
-    var kw = (t.aka && t.aka[0]) || t.term;
-    $det.innerHTML = '<article class="detail wiki">' +
-      '<a class="back" href="#/wiki">‹ AI Wiki</a>' +
-      '<div class="meta"><span class="tag">AI Wiki · ' + esc(wiki.gName[t.group] || '') + '</span></div>' +
-      '<h1>' + esc(t.term) + '</h1>' +
-      (t.en || (t.aka && t.aka.length) ? '<p class="orig">' + esc([t.en].concat(t.aka || []).filter(Boolean).join(' · ')) + '</p>' : '') +
-      '<div class="points"><b>한 줄 정의</b><p>' + esc(t.short) + '</p></div>' +
-      '<div class="body">' + (t.body || []).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') + '</div>' +
-      (t.example ? '<div class="fit"><b>예</b>' + esc(t.example) + '</div>' : '') +
-      ((t.related || []).length ? '<div class="sh"><b>함께 보면 좋은 용어</b></div><div class="badges">' +
-        t.related.filter(function (r) { return wiki.byId[r]; }).map(function (r) {
-          return '<a class="badge" href="#/wiki/t/' + esc(r) + '">' + esc(wiki.byId[r].term) + '</a>';
-        }).join('') + '</div>' : '') +
-      ((t.refs || []).length ? '<div class="sh"><b>더 읽을거리</b></div><ul class="alinks">' + t.refs.map(function (r) {
-        return '<li><a href="' + esc(r.url) + '" target="_blank" rel="noopener">' + esc(r.title) + '</a></li>';
-      }).join('') + '</ul>' : '') +
-      '<a class="cta" href="#/search/' + encodeURIComponent(kw) + '">‘' + esc(kw) + '’ 관련 기사 보기</a>' +
-      '<div class="note">summaryx가 정리한 용어 설명이에요(기준일 ' + esc(wiki.updatedAt || '') + '). 최신 소식은 관련 기사에서 확인하세요.</div>' +
-      '</article>';
+    var need = k === 't' ? ['t'] : [k, 't'];
+    var miss = need.filter(function (x) { return !wdata[x]; });
+    if (miss.length) { $det.innerHTML = '<div class="empty">불러오는 중…</div>'; wLoad(miss[0], function () { wikiDetail(k, id); wikiActive(); }); return; }
+    var D = wdata[k], x = D.byId[id], back = { t: '#/wiki', study: '#/wiki/study', cert: '#/wiki/cert' }[k];
+    if (!x) { $det.innerHTML = '<div class="empty">항목을 찾을 수 없어요.<br><br><a href="' + back + '">AI Wiki로</a></div>'; return; }
+    var h = '<article class="detail wiki"><a class="back" href="' + back + '">‹ AI Wiki</a>';
+    if (k === 't') {
+      var t = x, kw = (t.aka && t.aka[0]) || t.term, deep = (t.refs || []).concat(t.deep || []);
+      h += '<div class="meta"><span class="tag">용어집 · ' + esc(D.gName[t.group] || '') + '</span></div>' +
+        '<h1>' + esc(t.term) + '</h1>' +
+        (t.en || (t.aka && t.aka.length) ? '<p class="orig">' + esc([t.en].concat(t.aka || []).filter(Boolean).join(' · ')) + '</p>' : '') +
+        '<div class="points"><b>한 줄 정의</b><p>' + esc(t.short) + '</p></div>' +
+        '<div class="body">' + (t.body || []).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') + '</div>' +
+        (t.example ? '<div class="fit"><b>예</b>' + esc(t.example) + '</div>' : '') +
+        ((t.related || []).length ? '<div class="sh"><b>함께 보면 좋은 용어</b></div>' + termBadges(t.related) : '') +
+        '<a class="cta" href="#/search/' + encodeURIComponent(kw) + '">‘' + esc(kw) + '’ 관련 기사 보기</a>' +
+        (deep.length ? '<div class="sh"><b>더 깊이 알아보기</b><small>' + deep.length + '개 자료</small></div>' + linkList(deep) : '') +
+        '<div class="note">summaryx가 정리한 용어 설명이에요(기준일 ' + esc(D.updatedAt || '') + '). 외부 자료는 각 사이트에서 열려요.</div>';
+    } else if (k === 'study') {
+      var s = x, prev = D.stages[D.stages.indexOf(s) - 1], next = D.stages[D.stages.indexOf(s) + 1];
+      h += '<div class="meta"><span class="tag">스터디 · ' + esc(s.no) + '단계 · ' + esc(s.level || '') + '</span>' +
+        (s.duration ? '<span class="pub">' + esc(s.duration) + '</span>' : '') + '</div>' +
+        '<h1>' + esc(s.title) + '</h1>' +
+        '<p class="orig">' + esc((s.tracks || []).map(function (t) { return D.tName[t]; }).join(' · ')) + ' 과정</p>' +
+        '<div class="points"><b>목표</b><p>' + esc(s.goal) + '</p>' + (s.why ? '<p class="why">' + esc(s.why) + '</p>' : '') + '</div>' +
+        (s.knowledge || []).map(function (kn) {
+          return '<div class="wk"><h4>' + esc(kn.title) + '</h4><ul>' + (kn.points || []).map(function (p) { return '<li>' + esc(p) + '</li>'; }).join('') + '</ul></div>';
+        }).join('') +
+        ((s.practice || []).length ? '<div class="sh"><b>직접 해 보기</b></div><ul class="wlist">' + s.practice.map(function (p) { return '<li>' + esc(p) + '</li>'; }).join('') + '</ul>' : '') +
+        ((s.check || []).length ? '<div class="sh"><b>다음 단계 전 점검</b></div><ul class="wlist chk">' + s.check.map(function (p) { return '<li>' + esc(p) + '</li>'; }).join('') + '</ul>' : '') +
+        ((s.resources || []).length ? '<div class="sh"><b>학습 자료</b><small>' + s.resources.length + '개</small></div>' + linkList(s.resources.map(function (r) { return { title: r.title, url: r.url, by: r.by, kind: r.free === false ? '유료' : '무료', lang: r.lang }; })) : '') +
+        ((s.wiki || []).length ? '<div class="sh"><b>관련 용어</b></div>' + termBadges(s.wiki) : '') +
+        ((s.certs || []).length && wdata.cert ? '<div class="sh"><b>관련 자격증</b></div><div class="badges">' + s.certs.filter(function (c) { return wdata.cert.byId[c]; }).map(function (c) { return '<a class="badge" href="#/wiki/cert/' + esc(c) + '">' + esc(wdata.cert.byId[c].name) + '</a>'; }).join('') + '</div>' : '') +
+        '<div class="wnav">' + (prev ? '<a href="#/wiki/study/' + esc(prev.id) + '">‹ ' + esc(prev.no + '. ' + prev.title) + '</a>' : '<span></span>') +
+        (next ? '<a href="#/wiki/study/' + esc(next.id) + '">' + esc(next.no + '. ' + next.title) + ' ›</a>' : '<span></span>') + '</div>';
+      if (!wdata.cert) wLoad('cert', function () { if (location.hash === '#/wiki/study/' + id) wikiDetail(k, id); });
+    } else {
+      var c = x, nx = certNext(c);
+      h += '<div class="meta"><span class="tag">자격증 · ' + esc(D.gName[c.group] || '') + '</span><span>' + esc([c.level, c.type].filter(Boolean).join(' · ')) + '</span></div>' +
+        '<h1>' + esc(c.name) + '</h1>' + (c.full && c.full !== c.name ? '<p class="orig">' + esc(c.full) + '</p>' : '') +
+        '<div class="points"><b>주관 기관</b><p>' + (c.orgUrl ? '<a href="' + esc(c.orgUrl) + '" target="_blank" rel="noopener">' + esc(c.org) + '</a>' : esc(c.org)) + '</p>' +
+        (c['for'] ? '<p class="why">' + esc(c['for']) + '</p>' : '') + '</div>' +
+        '<div class="body">' + (c.about || []).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') + '</div>' +
+        ((c.exam || []).length ? '<table class="facts"><tbody>' + c.exam.map(function (r) { return '<tr><th>' + esc(r[0]) + '</th><td>' + esc(r[1]) + '</td></tr>'; }).join('') + '</tbody></table>' : '') +
+        '<div class="sh"><b>시험 일정</b><small>' + esc(c.checked ? fmtDate(c.checked) + ' 확인' : '') + '</small></div>' +
+        (c.scheduleNote ? '<div class="fit">' + esc(c.scheduleNote) + '</div>' : '') +
+        ((c.schedule || []).length ? '<table class="facts wsch"><thead><tr><th>회차</th><th>접수</th><th>시험일</th><th>발표</th></tr></thead><tbody>' +
+          c.schedule.map(function (s) { return '<tr' + (nx && nx.s === s ? ' class="next"' : '') + '><td>' + esc(s.label) + '</td><td>' + esc(s.apply || '') + '</td><td>' + esc(s.date || '') + '</td><td>' + esc(s.result || '') + '</td></tr>'; }).join('') +
+          '</tbody></table>' : '') +
+        ((c.prep || []).length ? '<div class="sh"><b>준비 팁</b></div><ul class="wlist">' + c.prep.map(function (p) { return '<li>' + esc(p) + '</li>'; }).join('') + '</ul>' : '') +
+        ((c.wiki || []).length ? '<div class="sh"><b>관련 용어</b></div>' + termBadges(c.wiki) : '') +
+        (c.url ? '<a class="cta" href="' + esc(c.url) + '" target="_blank" rel="noopener">공식 시험 안내·접수 페이지</a>' : '') +
+        '<div class="note">일정·응시료는 바뀔 수 있어요. 접수 전 공식 사이트에서 다시 확인하세요. [확인 필요] 표시는 공식 자료로 확인하지 못한 값이에요.</div>';
+    }
+    $det.innerHTML = h + '</article>';
   }
 
   // ---- 검색 ----
@@ -898,7 +1024,7 @@
     if (parts[0] === 'bookmarks') { setTab('bookmarks'); bookmarksView(); return; }
     if (parts[0] === 'links') { setTab('links'); linksView(); return; }
     if (parts[0] === 'sources') { setTab('sources'); sourcesView(); return; }
-    if (parts[0] === 'wiki') { setTab('wiki'); wikiView(); return; }
+    if (parts[0] === 'wiki') { setTab('wiki'); wikiView(parts[1] === 'study' || parts[1] === 'cert' ? parts[1] : 't'); return; }
     setTab('home');
     if (parts[0] === 'c' && CAT_SEC[parts[1]]) home(CAT_SEC[parts[1]], parts[1]);
     else if (parts[0] === 's' && SEC[parts[1]]) home(parts[1], null, parts[1] === 'bid' && /^(s|l|5|10)$/.test(parts[2] || '') ? parts[2] : parts[1] === 'luxury' && /^(10|50|100)$/.test(parts[2] || '') ? parts[2] : null);
@@ -921,14 +1047,14 @@
     layout();
     var h = location.hash || '#/';
     var parts = h.replace(/^#\/?/, '').split('/');
-    if (parts[0] === 'wiki' && parts[1] === 't' && parts[2]) {
-      var wid = decodeURIComponent(parts.slice(2).join('/'));
+    if (parts[0] === 'wiki' && /^(t|study|cert)$/.test(parts[1] || '') && parts[2]) {
+      var wk = parts[1], wid = decodeURIComponent(parts.slice(2).join('/')), wl = wk === 't' ? '#/wiki' : '#/wiki/' + wk;
       if (WIDE.matches) {
-        if (state.leftHref !== '#/wiki') { renderList('#/wiki'); state.leftHref = '#/wiki'; $list.scrollTop = 0; }
-        wikiDetail(wid); $det.scrollTop = 0; wikiActive(); fitPanes();
+        if (state.leftHref !== wl) { renderList(wl); state.leftHref = wl; $list.scrollTop = 0; }
+        wikiDetail(wk, wid); $det.scrollTop = 0; wikiActive(); fitPanes();
         return;
       }
-      setTab('wiki'); wikiDetail(wid); window.scrollTo(0, 0); return;
+      setTab('wiki'); wikiDetail(wk, wid); window.scrollTo(0, 0); return;
     }
     if (parts[0] === 'a' && parts[1]) {
       var id = decodeURIComponent(parts[1]);
@@ -949,8 +1075,8 @@
       state.leftHref = h; $list.scrollTop = 0;
       if (parts[0] === 'wiki') {
         // 우측에는 첫 용어 설명
-        var w0 = wiki && wikiFind(wikiQ, wikiG)[0];
-        if (w0) wikiDetail(w0.id); else $det.innerHTML = '<div class="empty">왼쪽에서 용어를 고르세요.</div>';
+        var wk0 = parts[1] === 'study' || parts[1] === 'cert' ? parts[1] : 't', w0 = wdata[wk0] && wikiFirst(wk0);
+        if (w0) { wikiDetail(wk0, w0); wikiActive(); } else $det.innerHTML = '<div class="empty">왼쪽에서 항목을 고르세요.</div>';
         fitPanes(); return;
       }
       // 우측에는 목록 첫 기사를 보여 준다

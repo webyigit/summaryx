@@ -58,6 +58,29 @@
      "title": "Wikipedia (영문): Artificial intelligence",
      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
     }
+   ],
+   "deep": [
+    {
+     "title": "What Is Artificial Intelligence (AI)?",
+     "by": "IBM Think",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.ibm.com/think/topics/artificial-intelligence"
+    },
+    {
+     "title": "AI Index Report",
+     "by": "Stanford HAI",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://hai.stanford.edu/ai-index"
+    },
+    {
+     "title": "Elements of AI",
+     "by": "University of Helsinki · MinnaLearn",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://www.elementsofai.com/"
+    }
    ]
   },
   {
@@ -86,6 +109,29 @@
      "title": "Wikipedia (영문): Artificial general intelligence",
      "url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
     }
+   ],
+   "deep": [
+    {
+     "title": "What is Artificial General Intelligence (AGI)?",
+     "by": "IBM Think",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.ibm.com/think/topics/artificial-general-intelligence"
+    },
+    {
+     "title": "Levels of AGI for Operationalizing Progress on the Path to AGI",
+     "by": "Morris et al. (Google DeepMind)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2311.02462"
+    },
+    {
+     "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+     "by": "Bubeck et al. (Microsoft Research)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2303.12712"
+    }
    ]
   },
   {
@@ -110,7 +156,23 @@
     "inference",
     "foundation-model"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "What Is an AI Model?",
+     "by": "IBM Think",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.ibm.com/think/topics/ai-model"
+    },
+    {
+     "title": "Introduction to Machine Learning",
+     "by": "Google for Developers",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://developers.google.com/machine-learning/intro-to-ml"
+    }
+   ]
   },
   {
    "id": "parameter",
@@ -134,7 +196,30 @@
     "slm",
     "open-weight"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Linear regression (weights & bias)",
+     "by": "Google Machine Learning Crash Course",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://developers.google.com/machine-learning/crash-course/linear-regression"
+    },
+    {
+     "title": "Scaling Laws for Neural Language Models",
+     "by": "Kaplan et al. (OpenAI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2001.08361"
+    },
+    {
+     "title": "Training Compute-Optimal Large Language Models (Chinchilla)",
+     "by": "Hoffmann et al. (DeepMind)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2203.15556"
+    }
+   ]
   },
   {
    "id": "training-data",
@@ -159,7 +244,23 @@
     "ai-copyright",
     "supervised-learning"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "FineWeb: decanting the web for the finest text data at scale",
+     "by": "Hugging Face",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1"
+    },
+    {
+     "title": "Datasheets for Datasets",
+     "by": "Gebru et al.",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1803.09010"
+    }
+   ]
   },
   {
    "id": "training",
@@ -183,7 +284,23 @@
     "gradient-descent",
     "gpu"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "A Recipe for Training Neural Networks",
+     "by": "Andrej Karpathy",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://karpathy.github.io/2019/04/25/recipe/"
+    },
+    {
+     "title": "Neural Networks: Zero to Hero",
+     "by": "Andrej Karpathy",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://karpathy.ai/zero-to-hero.html"
+    }
+   ]
   },
   {
    "id": "inference",
@@ -206,7 +323,30 @@
     "latency",
     "reasoning-model"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "What is AI Inference?",
+     "by": "IBM Think",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.ibm.com/think/topics/ai-inference"
+    },
+    {
+     "title": "Optimizing your LLM in production",
+     "by": "Hugging Face Blog",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://huggingface.co/blog/optimize-llm"
+    },
+    {
+     "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM)",
+     "by": "Kwon et al. (UC Berkeley)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2309.06180"
+    }
+   ]
   },
   {
    "id": "nlp",
@@ -229,7 +369,30 @@
     "token",
     "embedding"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "CS224N: Natural Language Processing with Deep Learning",
+     "by": "Stanford University",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://web.stanford.edu/class/cs224n/"
+    },
+    {
+     "title": "Speech and Language Processing (3rd ed. draft)",
+     "by": "Dan Jurafsky & James H. Martin",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://web.stanford.edu/~jurafsky/slp3/"
+    },
+    {
+     "title": "딥 러닝을 이용한 자연어 처리 입문",
+     "by": "유원준·안상준 (WikiDocs)",
+     "kind": "강의",
+     "lang": "ko",
+     "url": "https://wikidocs.net/book/2155"
+    }
+   ]
   },
   {
    "id": "computer-vision",
@@ -251,7 +414,30 @@
     "multimodal",
     "deep-learning"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "CS231n: Deep Learning for Computer Vision (course notes)",
+     "by": "Stanford University",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://cs231n.github.io/"
+    },
+    {
+     "title": "Community Computer Vision Course",
+     "by": "Hugging Face Learn",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://huggingface.co/learn/computer-vision-course/unit0/welcome/welcome"
+    },
+    {
+     "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT)",
+     "by": "Dosovitskiy et al. (Google)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2010.11929"
+    }
+   ]
   },
   {
    "id": "machine-learning",
@@ -279,6 +465,22 @@
     {
      "title": "Wikipedia (영문): Machine learning",
      "url": "https://en.wikipedia.org/wiki/Machine_learning"
+    }
+   ],
+   "deep": [
+    {
+     "title": "Machine Learning Crash Course",
+     "by": "Google for Developers",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://developers.google.com/machine-learning/crash-course"
+    },
+    {
+     "title": "CS229 Lecture Notes",
+     "by": "Andrew Ng & Tengyu Ma (Stanford)",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://cs229.stanford.edu/main_notes.pdf"
     }
    ]
   },
@@ -308,6 +510,29 @@
     {
      "title": "Wikipedia (영문): Deep learning",
      "url": "https://en.wikipedia.org/wiki/Deep_learning"
+    }
+   ],
+   "deep": [
+    {
+     "title": "Deep Learning (book)",
+     "by": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://www.deeplearningbook.org/"
+    },
+    {
+     "title": "MIT 6.S191: Introduction to Deep Learning",
+     "by": "MIT",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://introtodeeplearning.com/"
+    },
+    {
+     "title": "Dive into Deep Learning (한국어판)",
+     "by": "d2l.ai",
+     "kind": "강의",
+     "lang": "ko",
+     "url": "https://ko.d2l.ai/"
     }
    ]
   },
@@ -339,6 +564,22 @@
      "title": "Wikipedia (영문): Neural network (machine learning)",
      "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)"
     }
+   ],
+   "deep": [
+    {
+     "title": "But what is a Neural Network?",
+     "by": "3Blue1Brown",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://www.3blue1brown.com/lessons/neural-networks"
+    },
+    {
+     "title": "Neural Networks and Deep Learning",
+     "by": "Michael Nielsen",
+     "kind": "강의",
+     "lang": "en",
+     "url": "http://neuralnetworksanddeeplearning.com/"
+    }
    ]
   },
   {
@@ -366,6 +607,22 @@
      "title": "Wikipedia (영문): Supervised learning",
      "url": "https://en.wikipedia.org/wiki/Supervised_learning"
     }
+   ],
+   "deep": [
+    {
+     "title": "What Is Supervised Learning?",
+     "by": "IBM Think",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.ibm.com/think/topics/supervised-learning"
+    },
+    {
+     "title": "Supervised learning (User Guide)",
+     "by": "scikit-learn",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://scikit-learn.org/stable/supervised_learning.html"
+    }
    ]
   },
   {
@@ -388,7 +645,23 @@
     "pretraining",
     "embedding"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "What Is Unsupervised Learning?",
+     "by": "IBM Think",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.ibm.com/think/topics/unsupervised-learning"
+    },
+    {
+     "title": "Unsupervised learning (User Guide)",
+     "by": "scikit-learn",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://scikit-learn.org/stable/unsupervised_learning.html"
+    }
+   ]
   },
   {
    "id": "reinforcement-learning",
@@ -415,6 +688,29 @@
     {
      "title": "Wikipedia (영문): Reinforcement learning",
      "url": "https://en.wikipedia.org/wiki/Reinforcement_learning"
+    }
+   ],
+   "deep": [
+    {
+     "title": "Reinforcement Learning: An Introduction (2nd ed.)",
+     "by": "Richard S. Sutton & Andrew G. Barto",
+     "kind": "강의",
+     "lang": "en",
+     "url": "http://incompleteideas.net/book/the-book-2nd.html"
+    },
+    {
+     "title": "Spinning Up in Deep RL",
+     "by": "OpenAI",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://spinningup.openai.com/en/latest/"
+    },
+    {
+     "title": "Deep Reinforcement Learning Course",
+     "by": "Hugging Face Learn",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://huggingface.co/learn/deep-rl-course/unit0/introduction"
     }
    ]
   },
@@ -444,6 +740,22 @@
      "title": "Wikipedia (영문): Overfitting",
      "url": "https://en.wikipedia.org/wiki/Overfitting"
     }
+   ],
+   "deep": [
+    {
+     "title": "Datasets, generalization, and overfitting",
+     "by": "Google Machine Learning Crash Course",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://developers.google.com/machine-learning/crash-course/overfitting"
+    },
+    {
+     "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+     "by": "Srivastava, Hinton et al. (JMLR)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://jmlr.org/papers/v15/srivastava14a.html"
+    }
    ]
   },
   {
@@ -466,7 +778,23 @@
     "training",
     "parameter"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Gradient descent, how neural networks learn",
+     "by": "3Blue1Brown",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://www.3blue1brown.com/lessons/gradient-descent"
+    },
+    {
+     "title": "An overview of gradient descent optimization algorithms",
+     "by": "Sebastian Ruder",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.ruder.io/optimizing-gradient-descent/"
+    }
+   ]
   },
   {
    "id": "backpropagation",
@@ -488,7 +816,23 @@
     "neural-network",
     "training"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Calculus on Computational Graphs: Backpropagation",
+     "by": "Chris Olah",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://colah.github.io/posts/2015-08-Backprop/"
+    },
+    {
+     "title": "What is backpropagation really doing?",
+     "by": "3Blue1Brown",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://www.3blue1brown.com/lessons/backpropagation"
+    }
+   ]
   },
   {
    "id": "cnn",
@@ -510,7 +854,30 @@
     "deep-learning",
     "neural-network"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Convolutional Neural Networks (CS231n notes)",
+     "by": "Stanford University",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://cs231n.github.io/convolutional-networks/"
+    },
+    {
+     "title": "CNN Explainer",
+     "by": "Georgia Tech Polo Club",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://poloclub.github.io/cnn-explainer/"
+    },
+    {
+     "title": "Deep Residual Learning for Image Recognition (ResNet)",
+     "by": "He et al. (Microsoft Research)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1512.03385"
+    }
+   ]
   },
   {
    "id": "transformer",
@@ -537,6 +904,29 @@
      "title": "Wikipedia (영문): Transformer (deep learning)",
      "url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)"
     }
+   ],
+   "deep": [
+    {
+     "title": "Attention Is All You Need",
+     "by": "Vaswani et al. (Google)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1706.03762"
+    },
+    {
+     "title": "The Illustrated Transformer",
+     "by": "Jay Alammar",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://jalammar.github.io/illustrated-transformer/"
+    },
+    {
+     "title": "The Annotated Transformer",
+     "by": "Harvard NLP",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://nlp.seas.harvard.edu/annotated-transformer/"
+    }
    ]
   },
   {
@@ -560,7 +950,30 @@
     "context-window",
     "token"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Attention? Attention!",
+     "by": "Lilian Weng",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://lilianweng.github.io/posts/2018-06-24-attention/"
+    },
+    {
+     "title": "Attention in Transformers, Step-by-Step",
+     "by": "3Blue1Brown",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://www.3blue1brown.com/lessons/attention"
+    },
+    {
+     "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+     "by": "Bahdanau, Cho, Bengio",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1409.0473"
+    }
+   ]
   },
   {
    "id": "embedding",
@@ -588,6 +1001,29 @@
     {
      "title": "Wikipedia (영문): Word embedding",
      "url": "https://en.wikipedia.org/wiki/Word_embedding"
+    }
+   ],
+   "deep": [
+    {
+     "title": "Embeddings",
+     "by": "Google Machine Learning Crash Course",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://developers.google.com/machine-learning/crash-course/embeddings"
+    },
+    {
+     "title": "The Illustrated Word2vec",
+     "by": "Jay Alammar",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://jalammar.github.io/illustrated-word2vec/"
+    },
+    {
+     "title": "Efficient Estimation of Word Representations in Vector Space (word2vec)",
+     "by": "Mikolov et al. (Google)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1301.3781"
     }
    ]
   },
@@ -620,6 +1056,22 @@
      "title": "Wikipedia (영문): Generative artificial intelligence",
      "url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence"
     }
+   ],
+   "deep": [
+    {
+     "title": "What is Generative AI?",
+     "by": "IBM Think",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.ibm.com/think/topics/generative-ai"
+    },
+    {
+     "title": "Generative AI for Beginners (21 Lessons)",
+     "by": "Microsoft",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://github.com/microsoft/generative-ai-for-beginners"
+    }
    ]
   },
   {
@@ -650,6 +1102,29 @@
      "title": "Wikipedia (영문): Large language model",
      "url": "https://en.wikipedia.org/wiki/Large_language_model"
     }
+   ],
+   "deep": [
+    {
+     "title": "Large Language Models explained briefly",
+     "by": "3Blue1Brown",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://www.3blue1brown.com/lessons/mini-llm"
+    },
+    {
+     "title": "A Survey of Large Language Models",
+     "by": "Zhao et al.",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2303.18223"
+    },
+    {
+     "title": "Language Models are Few-Shot Learners (GPT-3)",
+     "by": "Brown et al. (OpenAI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2005.14165"
+    }
    ]
   },
   {
@@ -673,7 +1148,23 @@
     "llm",
     "embedding"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Tokenization algorithms (Summary of the tokenizers)",
+     "by": "Hugging Face Transformers Docs",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://huggingface.co/docs/transformers/tokenizer_summary"
+    },
+    {
+     "title": "Neural Machine Translation of Rare Words with Subword Units (BPE)",
+     "by": "Sennrich, Haddow, Birch",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1508.07909"
+    }
+   ]
   },
   {
    "id": "context-window",
@@ -697,7 +1188,23 @@
     "context-engineering",
     "attention"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Context windows",
+     "by": "Anthropic (Claude Platform Docs)",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows"
+    },
+    {
+     "title": "Lost in the Middle: How Language Models Use Long Contexts",
+     "by": "Liu et al. (Stanford)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2307.03172"
+    }
+   ]
   },
   {
    "id": "pretraining",
@@ -721,7 +1228,30 @@
     "llm",
     "training"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+     "by": "Devlin et al. (Google)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1810.04805"
+    },
+    {
+     "title": "Improving Language Understanding by Generative Pre-Training (GPT-1)",
+     "by": "Radford et al. (OpenAI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf"
+    },
+    {
+     "title": "FineWeb: decanting the web for the finest text data at scale",
+     "by": "Hugging Face",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1"
+    }
+   ]
   },
   {
    "id": "foundation-model",
@@ -744,7 +1274,23 @@
     "fine-tuning",
     "eu-ai-act"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "What Are Foundation Models?",
+     "by": "IBM Think",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.ibm.com/think/topics/foundation-models"
+    },
+    {
+     "title": "On the Opportunities and Risks of Foundation Models",
+     "by": "Bommasani et al. (Stanford CRFM)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2108.07258"
+    }
+   ]
   },
   {
    "id": "multimodal",
@@ -768,7 +1314,23 @@
     "text-to-image",
     "gemini"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Multimodality and Large Multimodal Models (LMMs)",
+     "by": "Chip Huyen",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://huyenchip.com/2023/10/10/multimodal.html"
+    },
+    {
+     "title": "Learning Transferable Visual Models From Natural Language Supervision (CLIP)",
+     "by": "Radford et al. (OpenAI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2103.00020"
+    }
+   ]
   },
   {
    "id": "diffusion-model",
@@ -795,6 +1357,29 @@
      "title": "Wikipedia (영문): Diffusion model",
      "url": "https://en.wikipedia.org/wiki/Diffusion_model"
     }
+   ],
+   "deep": [
+    {
+     "title": "What are Diffusion Models?",
+     "by": "Lilian Weng",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://lilianweng.github.io/posts/2021-07-11-diffusion-models/"
+    },
+    {
+     "title": "Denoising Diffusion Probabilistic Models",
+     "by": "Ho, Jain, Abbeel",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2006.11239"
+    },
+    {
+     "title": "The Annotated Diffusion Model",
+     "by": "Hugging Face Blog",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://huggingface.co/blog/annotated-diffusion"
+    }
    ]
   },
   {
@@ -818,7 +1403,23 @@
     "deepfake",
     "deep-learning"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Generative Adversarial Networks (course)",
+     "by": "Google for Developers",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://developers.google.com/machine-learning/gan"
+    },
+    {
+     "title": "Generative Adversarial Networks",
+     "by": "Goodfellow et al.",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1406.2661"
+    }
+   ]
   },
   {
    "id": "text-to-image",
@@ -843,7 +1444,30 @@
     "ai-copyright",
     "prompt-engineering"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "The Illustrated Stable Diffusion",
+     "by": "Jay Alammar",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://jalammar.github.io/illustrated-stable-diffusion/"
+    },
+    {
+     "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+     "by": "Rombach et al.",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2112.10752"
+    },
+    {
+     "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents (DALL-E 2)",
+     "by": "Ramesh et al. (OpenAI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2204.06125"
+    }
+   ]
   },
   {
    "id": "hallucination",
@@ -872,6 +1496,29 @@
      "title": "Wikipedia (영문): Hallucination (artificial intelligence)",
      "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)"
     }
+   ],
+   "deep": [
+    {
+     "title": "Why language models hallucinate",
+     "by": "OpenAI",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://openai.com/index/why-language-models-hallucinate/"
+    },
+    {
+     "title": "Extrinsic Hallucinations in LLMs",
+     "by": "Lilian Weng",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://lilianweng.github.io/posts/2024-07-07-hallucination/"
+    },
+    {
+     "title": "A Survey on Hallucination in Large Language Models",
+     "by": "Huang et al.",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2311.05232"
+    }
    ]
   },
   {
@@ -894,7 +1541,23 @@
     "hallucination",
     "vector-db"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Citations",
+     "by": "Anthropic (Claude Platform Docs)",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://platform.claude.com/docs/en/build-with-claude/citations"
+    },
+    {
+     "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+     "by": "Asai et al.",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2310.11511"
+    }
+   ]
   },
   {
    "id": "temperature",
@@ -916,7 +1579,23 @@
     "prompt-engineering",
     "api"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "How to generate text: using different decoding methods for language generation with Transformers",
+     "by": "Hugging Face Blog",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://huggingface.co/blog/how-to-generate"
+    },
+    {
+     "title": "The Curious Case of Neural Text Degeneration (nucleus sampling)",
+     "by": "Holtzman et al.",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1904.09751"
+    }
+   ]
   },
   {
    "id": "slm",
@@ -940,7 +1619,30 @@
     "quantization",
     "llm"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "What are Small Language Models (SLM)?",
+     "by": "IBM Think",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.ibm.com/think/topics/small-language-models"
+    },
+    {
+     "title": "Phi-3 Technical Report",
+     "by": "Microsoft",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2404.14219"
+    },
+    {
+     "title": "Distilling the Knowledge in a Neural Network",
+     "by": "Hinton, Vinyals, Dean",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1503.02531"
+    }
+   ]
   },
   {
    "id": "reasoning-model",
@@ -964,7 +1666,30 @@
     "inference-cost",
     "llm"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Learning to reason with LLMs",
+     "by": "OpenAI",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    {
+     "title": "Understanding Reasoning LLMs",
+     "by": "Sebastian Raschka",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://magazine.sebastianraschka.com/p/understanding-reasoning-llms"
+    },
+    {
+     "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+     "by": "DeepSeek-AI",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2501.12948"
+    }
+   ]
   },
   {
    "id": "open-weight",
@@ -989,7 +1714,23 @@
     "qwen",
     "fine-tuning"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "The Open Source AI Definition 1.0",
+     "by": "Open Source Initiative",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://opensource.org/ai/open-source-ai-definition"
+    },
+    {
+     "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+     "by": "Touvron et al. (Meta)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2307.09288"
+    }
+   ]
   },
   {
    "id": "moe",
@@ -1017,6 +1758,29 @@
     {
      "title": "Wikipedia (영문): Mixture of experts",
      "url": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+    }
+   ],
+   "deep": [
+    {
+     "title": "Mixture of Experts Explained",
+     "by": "Hugging Face Blog",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://huggingface.co/blog/moe"
+    },
+    {
+     "title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+     "by": "Shazeer et al. (Google)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1701.06538"
+    },
+    {
+     "title": "Mixtral of Experts",
+     "by": "Mistral AI",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2401.04088"
     }
    ]
   },
@@ -1048,6 +1812,29 @@
      "title": "Wikipedia (영문): Prompt engineering",
      "url": "https://en.wikipedia.org/wiki/Prompt_engineering"
     }
+   ],
+   "deep": [
+    {
+     "title": "Prompt engineering overview",
+     "by": "Anthropic (Claude Platform Docs)",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview"
+    },
+    {
+     "title": "프롬프트 엔지니어링 가이드",
+     "by": "DAIR.AI",
+     "kind": "해설",
+     "lang": "ko",
+     "url": "https://www.promptingguide.ai/kr"
+    },
+    {
+     "title": "Prompt engineering",
+     "by": "OpenAI Platform Docs",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+    }
    ]
   },
   {
@@ -1071,7 +1858,23 @@
     "jailbreak",
     "chatbot"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Giving Claude a role with a system prompt",
+     "by": "Anthropic (Claude Platform Docs)",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/system-prompts"
+    },
+    {
+     "title": "System Prompts (release notes)",
+     "by": "Anthropic",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://platform.claude.com/docs/en/release-notes/system-prompts"
+    }
+   ]
   },
   {
    "id": "few-shot",
@@ -1096,7 +1899,23 @@
     "chain-of-thought",
     "fine-tuning"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Language Models are Few-Shot Learners (GPT-3)",
+     "by": "Brown et al. (OpenAI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+     "title": "Few-shot 프롬프팅",
+     "by": "DAIR.AI Prompt Engineering Guide",
+     "kind": "해설",
+     "lang": "ko",
+     "url": "https://www.promptingguide.ai/kr/techniques/fewshot"
+    }
+   ]
   },
   {
    "id": "chain-of-thought",
@@ -1119,7 +1938,30 @@
     "prompt-engineering",
     "few-shot"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+     "by": "Wei et al. (Google)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2201.11903"
+    },
+    {
+     "title": "Large Language Models are Zero-Shot Reasoners",
+     "by": "Kojima et al.",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2205.11916"
+    },
+    {
+     "title": "Chain-of-Thought 프롬프팅",
+     "by": "DAIR.AI Prompt Engineering Guide",
+     "kind": "해설",
+     "lang": "ko",
+     "url": "https://www.promptingguide.ai/kr/techniques/cot"
+    }
+   ]
   },
   {
    "id": "context-engineering",
@@ -1141,7 +1983,23 @@
     "rag",
     "ai-agent"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Effective context engineering for AI agents",
+     "by": "Anthropic Engineering",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+    },
+    {
+     "title": "Lost in the Middle: How Language Models Use Long Contexts",
+     "by": "Liu et al. (Stanford)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2307.03172"
+    }
+   ]
   },
   {
    "id": "rag",
@@ -1171,6 +2029,29 @@
      "title": "Wikipedia (영문): Retrieval-augmented generation",
      "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
     }
+   ],
+   "deep": [
+    {
+     "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+     "by": "Lewis et al. (Meta AI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2005.11401"
+    },
+    {
+     "title": "Introducing Contextual Retrieval",
+     "by": "Anthropic",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.anthropic.com/news/contextual-retrieval"
+    },
+    {
+     "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+     "by": "Gao et al.",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2312.10997"
+    }
    ]
   },
   {
@@ -1194,7 +2075,30 @@
     "rag",
     "grounding"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "What is a Vector Database & How Does it Work?",
+     "by": "Pinecone Learn",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.pinecone.io/learn/vector-database/"
+    },
+    {
+     "title": "Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs (HNSW)",
+     "by": "Malkov, Yashunin",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1603.09320"
+    },
+    {
+     "title": "The Faiss library",
+     "by": "Douze et al. (Meta)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2401.08281"
+    }
+   ]
   },
   {
    "id": "ai-agent",
@@ -1224,6 +2128,29 @@
      "title": "Wikipedia (영문): Intelligent agent",
      "url": "https://en.wikipedia.org/wiki/Intelligent_agent"
     }
+   ],
+   "deep": [
+    {
+     "title": "LLM Powered Autonomous Agents",
+     "by": "Lilian Weng",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://lilianweng.github.io/posts/2023-06-23-agent/"
+    },
+    {
+     "title": "Building Effective Agents",
+     "by": "Anthropic Engineering",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.anthropic.com/engineering/building-effective-agents"
+    },
+    {
+     "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+     "by": "Yao et al.",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2210.03629"
+    }
    ]
   },
   {
@@ -1248,7 +2175,30 @@
     "mcp",
     "api"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Tool use with Claude",
+     "by": "Anthropic (Claude Platform Docs)",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview"
+    },
+    {
+     "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+     "by": "Schick et al. (Meta AI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2302.04761"
+    },
+    {
+     "title": "Function calling",
+     "by": "OpenAI Platform Docs",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://platform.openai.com/docs/guides/function-calling"
+    }
+   ]
   },
   {
    "id": "mcp",
@@ -1280,6 +2230,22 @@
      "title": "Wikipedia (영문): Model Context Protocol",
      "url": "https://en.wikipedia.org/wiki/Model_Context_Protocol"
     }
+   ],
+   "deep": [
+    {
+     "title": "Model Context Protocol Specification: Architecture",
+     "by": "Model Context Protocol (Anthropic 외)",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://modelcontextprotocol.io/specification/2026-07-28/architecture"
+    },
+    {
+     "title": "Introducing the Model Context Protocol",
+     "by": "Anthropic",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://www.anthropic.com/news/model-context-protocol"
+    }
    ]
   },
   {
@@ -1303,7 +2269,23 @@
     "mcp",
     "temperature"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Messages - Claude API Reference",
+     "by": "Anthropic",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://platform.claude.com/docs/en/api/messages"
+    },
+    {
+     "title": "API design guide",
+     "by": "Google Cloud",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://docs.cloud.google.com/apis/design"
+    }
+   ]
   },
   {
    "id": "fine-tuning",
@@ -1333,6 +2315,29 @@
      "title": "Wikipedia (영문): Fine-tuning (deep learning)",
      "url": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)"
     }
+   ],
+   "deep": [
+    {
+     "title": "LLM Course, Chapter 3: Fine-tuning a pretrained model",
+     "by": "Hugging Face",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://huggingface.co/learn/llm-course/chapter3/1"
+    },
+    {
+     "title": "Universal Language Model Fine-tuning for Text Classification (ULMFiT)",
+     "by": "Jeremy Howard, Sebastian Ruder",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1801.06146"
+    },
+    {
+     "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+     "by": "Tim Dettmers 외",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2305.14314"
+    }
    ]
   },
   {
@@ -1355,7 +2360,30 @@
     "parameter",
     "stable-diffusion"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+     "by": "Edward J. Hu 외 (Microsoft)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2106.09685"
+    },
+    {
+     "title": "LoRA (PEFT conceptual guide)",
+     "by": "Hugging Face",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://huggingface.co/docs/peft/main/en/conceptual_guides/lora"
+    },
+    {
+     "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+     "by": "Tim Dettmers 외",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2305.14314"
+    }
+   ]
   },
   {
    "id": "rlhf",
@@ -1382,6 +2410,29 @@
      "title": "Wikipedia (영문): Reinforcement learning from human feedback",
      "url": "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback"
     }
+   ],
+   "deep": [
+    {
+     "title": "Training language models to follow instructions with human feedback (InstructGPT)",
+     "by": "Long Ouyang 외 (OpenAI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2203.02155"
+    },
+    {
+     "title": "Illustrating Reinforcement Learning from Human Feedback (RLHF)",
+     "by": "Nathan Lambert 외 (Hugging Face)",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://huggingface.co/blog/rlhf"
+    },
+    {
+     "title": "Deep reinforcement learning from human preferences",
+     "by": "Paul Christiano 외",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1706.03741"
+    }
    ]
   },
   {
@@ -1405,7 +2456,23 @@
     "quantization",
     "on-device-ai"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Distilling the Knowledge in a Neural Network",
+     "by": "Geoffrey Hinton, Oriol Vinyals, Jeff Dean",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1503.02531"
+    },
+    {
+     "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+     "by": "Victor Sanh 외 (Hugging Face)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1910.01108"
+    }
+   ]
   },
   {
    "id": "chatbot",
@@ -1429,7 +2496,23 @@
     "rag",
     "chatgpt"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Speech and Language Processing (3rd ed. draft), Ch.26 Conversation and its Structure",
+     "by": "Dan Jurafsky, James H. Martin (Stanford)",
+     "kind": "강의",
+     "lang": "en",
+     "url": "https://web.stanford.edu/~jurafsky/slp3/"
+    },
+    {
+     "title": "Introducing ChatGPT",
+     "by": "OpenAI",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://openai.com/index/chatgpt/"
+    }
+   ]
   },
   {
    "id": "benchmark",
@@ -1452,7 +2535,30 @@
     "red-teaming",
     "model"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Measuring Massive Multitask Language Understanding (MMLU)",
+     "by": "Dan Hendrycks 외",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2009.03300"
+    },
+    {
+     "title": "Holistic Evaluation of Language Models (HELM)",
+     "by": "Percy Liang 외 (Stanford CRFM)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2211.09110"
+    },
+    {
+     "title": "AI Index Report",
+     "by": "Stanford HAI",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://hai.stanford.edu/ai-index"
+    }
+   ]
   },
   {
    "id": "llm-as-judge",
@@ -1474,7 +2580,23 @@
     "bias",
     "red-teaming"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+     "by": "Lianmin Zheng 외 (LMSYS)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2306.05685"
+    },
+    {
+     "title": "A Survey on LLM-as-a-Judge",
+     "by": "Jiawei Gu 외",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2411.15594"
+    }
+   ]
   },
   {
    "id": "ai-alignment",
@@ -1497,7 +2619,30 @@
     "red-teaming",
     "agi"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "AI Alignment: A Comprehensive Survey",
+     "by": "Jiaming Ji 외 (PKU)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2310.19852"
+    },
+    {
+     "title": "Constitutional AI: Harmlessness from AI Feedback",
+     "by": "Yuntao Bai 외 (Anthropic)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2212.08073"
+    },
+    {
+     "title": "Claude's Constitution",
+     "by": "Anthropic",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://www.anthropic.com/constitution"
+    }
+   ]
   },
   {
    "id": "ai-safety",
@@ -1521,7 +2666,30 @@
     "eu-ai-act",
     "korea-ai-act"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Concrete Problems in AI Safety",
+     "by": "Dario Amodei 외",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1606.06565"
+    },
+    {
+     "title": "International AI Safety Report 2025",
+     "by": "Yoshua Bengio 외 (국제 전문가 패널)",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025"
+    },
+    {
+     "title": "AI안전연구소 (AISI)",
+     "by": "한국전자통신연구원 산하 인공지능안전연구소",
+     "kind": "공식 문서",
+     "lang": "ko",
+     "url": "https://www.aisi.re.kr/"
+    }
+   ]
   },
   {
    "id": "bias",
@@ -1544,7 +2712,23 @@
     "eu-ai-act",
     "llm-as-judge"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Towards a Standard for Identifying and Managing Bias in Artificial Intelligence (NIST SP 1270)",
+     "by": "NIST",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.Sp.1270.pdf"
+    },
+    {
+     "title": "Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification",
+     "by": "Joy Buolamwini, Timnit Gebru (PMLR 81)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://proceedings.mlr.press/v81/buolamwini18a.html"
+    }
+   ]
   },
   {
    "id": "prompt-injection",
@@ -1567,7 +2751,30 @@
     "guardrail",
     "system-prompt"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "LLM01:2025 Prompt Injection",
+     "by": "OWASP Gen AI Security Project",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/"
+    },
+    {
+     "title": "Prompt injection explained, with video, slides, and a transcript",
+     "by": "Simon Willison",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://simonwillison.net/2023/May/2/prompt-injection-explained/"
+    },
+    {
+     "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+     "by": "Kai Greshake 외",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2302.12173"
+    }
+   ]
   },
   {
    "id": "jailbreak",
@@ -1589,7 +2796,23 @@
     "red-teaming",
     "guardrail"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Jailbroken: How Does LLM Safety Training Fail?",
+     "by": "Alexander Wei, Nika Haghtalab, Jacob Steinhardt",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2307.02483"
+    },
+    {
+     "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+     "by": "Andy Zou 외 (CMU)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2307.15043"
+    }
+   ]
   },
   {
    "id": "red-teaming",
@@ -1612,7 +2835,30 @@
     "ai-safety",
     "benchmark"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned",
+     "by": "Deep Ganguli 외 (Anthropic)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2209.07858"
+    },
+    {
+     "title": "Red Teaming Language Models with Language Models",
+     "by": "Ethan Perez 외 (DeepMind)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2202.03286"
+    },
+    {
+     "title": "Artificial Intelligence Risk Management Framework: Generative AI Profile (NIST AI 600-1)",
+     "by": "NIST",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    }
+   ]
   },
   {
    "id": "guardrail",
@@ -1635,7 +2881,23 @@
     "ai-safety",
     "hallucination"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations",
+     "by": "Hakan Inan 외 (Meta)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2312.06674"
+    },
+    {
+     "title": "NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails",
+     "by": "Traian Rebedea 외 (NVIDIA)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2310.10501"
+    }
+   ]
   },
   {
    "id": "deepfake",
@@ -1658,7 +2920,23 @@
     "korea-ai-act",
     "eu-ai-act"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "FaceForensics++: Learning to Detect Manipulated Facial Images",
+     "by": "Andreas Rössler 외",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1901.08971"
+    },
+    {
+     "title": "DeepFakes and Beyond: A Survey of Face Manipulation and Fake Detection",
+     "by": "Ruben Tolosana 외",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2001.00179"
+    }
+   ]
   },
   {
    "id": "ai-watermark",
@@ -1682,7 +2960,30 @@
     "eu-ai-act",
     "ai-copyright"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "A Watermark for Large Language Models",
+     "by": "John Kirchenbauer 외 (UMD)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2301.10226"
+    },
+    {
+     "title": "C2PA (Coalition for Content Provenance and Authenticity) Specifications",
+     "by": "C2PA",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://c2pa.org/"
+    },
+    {
+     "title": "SynthID",
+     "by": "Google DeepMind",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://deepmind.google/models/synthid/"
+    }
+   ]
   },
   {
    "id": "xai",
@@ -1704,7 +3005,30 @@
     "deep-learning",
     "eu-ai-act"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Interpretable Machine Learning: A Guide for Making Black Box Models Explainable",
+     "by": "Christoph Molnar",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://christophm.github.io/interpretable-ml-book/"
+    },
+    {
+     "title": "A Unified Approach to Interpreting Model Predictions (SHAP)",
+     "by": "Scott Lundberg, Su-In Lee",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1705.07874"
+    },
+    {
+     "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier (LIME)",
+     "by": "Marco Tulio Ribeiro 외",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1602.04938"
+    }
+   ]
   },
   {
    "id": "ai-copyright",
@@ -1727,7 +3051,23 @@
     "ai-watermark",
     "genai"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Copyright and Artificial Intelligence (Part 1–3 보고서)",
+     "by": "U.S. Copyright Office",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://www.copyright.gov/ai/index.html"
+    },
+    {
+     "title": "Copyright Office Releases Part 2 of Artificial Intelligence Report (Copyrightability)",
+     "by": "U.S. Copyright Office",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://copyright.gov/newsnet/2025/1060.html"
+    }
+   ]
   },
   {
    "id": "eu-ai-act",
@@ -1756,6 +3096,29 @@
      "title": "Wikipedia (영문): Artificial Intelligence Act",
      "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act"
     }
+   ],
+   "deep": [
+    {
+     "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act) 원문",
+     "by": "EUR-Lex (EU 관보)",
+     "kind": "법령",
+     "lang": "en",
+     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+    },
+    {
+     "title": "AI Act | Shaping Europe's digital future",
+     "by": "European Commission",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    },
+    {
+     "title": "The AI Act Explorer",
+     "by": "Future of Life Institute (artificialintelligenceact.eu)",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://artificialintelligenceact.eu/ai-act-explorer/"
+    }
    ]
   },
   {
@@ -1780,7 +3143,16 @@
     "ai-safety",
     "deepfake"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "인공지능 발전과 신뢰 기반 조성 등에 관한 기본법",
+     "by": "법제처 국가법령정보센터",
+     "kind": "법령",
+     "lang": "ko",
+     "url": "https://www.law.go.kr/법령/인공지능발전과신뢰기반조성등에관한기본법"
+    }
+   ]
   },
   {
    "id": "gpu",
@@ -1809,6 +3181,22 @@
     {
      "title": "Wikipedia (영문): Graphics processing unit",
      "url": "https://en.wikipedia.org/wiki/Graphics_processing_unit"
+    }
+   ],
+   "deep": [
+    {
+     "title": "Making Deep Learning Go Brrrr From First Principles",
+     "by": "Horace He",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://horace.io/brrr_intro.html"
+    },
+    {
+     "title": "GPU Glossary",
+     "by": "Modal",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://modal.com/gpu-glossary"
     }
    ]
   },
@@ -1839,6 +3227,22 @@
      "title": "Wikipedia (영문): Neural processing unit",
      "url": "https://en.wikipedia.org/wiki/Neural_processing_unit"
     }
+   ],
+   "deep": [
+    {
+     "title": "Efficient Processing of Deep Neural Networks: A Tutorial and Survey",
+     "by": "Vivienne Sze 외 (MIT)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1703.09039"
+    },
+    {
+     "title": "What is an NPU? And why is it key to unlocking on-device generative AI?",
+     "by": "Qualcomm",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.qualcomm.com/news/onq/2024/02/what-is-an-npu-and-why-is-it-key-to-unlocking-on-device-generative-ai"
+    }
    ]
   },
   {
@@ -1861,7 +3265,23 @@
     "gemini",
     "data-center"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+     "by": "Norman P. Jouppi 외 (Google)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1704.04760"
+    },
+    {
+     "title": "TPU architecture",
+     "by": "Google Cloud",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://docs.cloud.google.com/tpu/docs/system-architecture-tpu-vm"
+    }
+   ]
   },
   {
    "id": "hbm",
@@ -1888,6 +3308,22 @@
      "title": "Wikipedia (영문): High Bandwidth Memory",
      "url": "https://en.wikipedia.org/wiki/High_Bandwidth_Memory"
     }
+   ],
+   "deep": [
+    {
+     "title": "High Bandwidth Memory (HBM3) DRAM, JESD238",
+     "by": "JEDEC",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://www.jedec.org/standards-documents/docs/jesd238a"
+    },
+    {
+     "title": "Efficient Processing of Deep Neural Networks: A Tutorial and Survey (메모리 대역폭·데이터 이동 비용)",
+     "by": "Vivienne Sze 외 (MIT)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/1703.09039"
+    }
    ]
   },
   {
@@ -1909,7 +3345,23 @@
     "npu",
     "deep-learning"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "CUDA Programming Guide",
+     "by": "NVIDIA",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html"
+    },
+    {
+     "title": "An Even Easier Introduction to CUDA (Updated)",
+     "by": "Mark Harris (NVIDIA)",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://developer.nvidia.com/blog/even-easier-introduction-cuda/"
+    }
+   ]
   },
   {
    "id": "data-center",
@@ -1933,7 +3385,23 @@
     "inference-cost",
     "tpu"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Energy and AI: Executive summary",
+     "by": "International Energy Agency (IEA)",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://www.iea.org/reports/energy-and-ai/executive-summary"
+    },
+    {
+     "title": "AI is set to drive surging electricity demand from data centres",
+     "by": "International Energy Agency (IEA)",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://www.iea.org/news/ai-is-set-to-drive-surging-electricity-demand-from-data-centres-while-offering-the-potential-to-transform-how-the-energy-sector-works"
+    }
+   ]
   },
   {
    "id": "inference-cost",
@@ -1957,7 +3425,30 @@
     "inference",
     "moe"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM)",
+     "by": "Woosuk Kwon 외 (UC Berkeley)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2309.06180"
+    },
+    {
+     "title": "Fast Inference from Transformers via Speculative Decoding",
+     "by": "Yaniv Leviathan 외 (Google)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2211.17192"
+    },
+    {
+     "title": "AI Index Report (추론 비용 추이)",
+     "by": "Stanford HAI",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://hai.stanford.edu/ai-index"
+    }
+   ]
   },
   {
    "id": "token-pricing",
@@ -1980,7 +3471,23 @@
     "inference-cost",
     "context-window"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Pricing (Claude Platform Docs)",
+     "by": "Anthropic",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+     "title": "Gemini Developer API pricing",
+     "by": "Google AI for Developers",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://ai.google.dev/gemini-api/docs/pricing"
+    }
+   ]
   },
   {
    "id": "latency",
@@ -2003,7 +3510,23 @@
     "slm",
     "on-device-ai"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Reducing latency",
+     "by": "Anthropic (Claude Platform Docs)",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-latency"
+    },
+    {
+     "title": "Fast Inference from Transformers via Speculative Decoding",
+     "by": "Yaniv Leviathan 외 (Google)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2211.17192"
+    }
+   ]
   },
   {
    "id": "quantization",
@@ -2027,7 +3550,30 @@
     "open-weight",
     "inference-cost"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Quantization (Transformers documentation)",
+     "by": "Hugging Face",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://huggingface.co/docs/transformers/en/main_classes/quantization"
+    },
+    {
+     "title": "양자화 (Transformers 한국어 문서)",
+     "by": "Hugging Face",
+     "kind": "공식 문서",
+     "lang": "ko",
+     "url": "https://huggingface.co/docs/transformers/v4.46.2/ko/main_classes/quantization"
+    },
+    {
+     "title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+     "by": "Elias Frantar 외",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2210.17323"
+    }
+   ]
   },
   {
    "id": "on-device-ai",
@@ -2051,7 +3597,30 @@
     "quantization",
     "latency"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Apple Intelligence Foundation Language Models Tech Report 2025",
+     "by": "Apple Machine Learning Research",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://machinelearning.apple.com/research/apple-foundation-models-tech-report-2025"
+    },
+    {
+     "title": "Gemini Nano",
+     "by": "Android Developers (Google)",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://developer.android.com/ai/gemini-nano"
+    },
+    {
+     "title": "What is an NPU? And why is it key to unlocking on-device generative AI?",
+     "by": "Qualcomm",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://www.qualcomm.com/news/onq/2024/02/what-is-an-npu-and-why-is-it-key-to-unlocking-on-device-generative-ai"
+    }
+   ]
   },
   {
    "id": "gpt",
@@ -2074,7 +3643,30 @@
     "llm",
     "copilot"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Improving Language Understanding by Generative Pre-Training (GPT-1)",
+     "by": "Alec Radford 외 (OpenAI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf"
+    },
+    {
+     "title": "Language Models are Few-Shot Learners (GPT-3)",
+     "by": "Tom B. Brown 외 (OpenAI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+     "title": "GPT-4 Technical Report",
+     "by": "OpenAI",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2303.08774"
+    }
+   ]
   },
   {
    "id": "chatgpt",
@@ -2103,6 +3695,22 @@
      "title": "Wikipedia (영문): ChatGPT",
      "url": "https://en.wikipedia.org/wiki/ChatGPT"
     }
+   ],
+   "deep": [
+    {
+     "title": "Introducing ChatGPT",
+     "by": "OpenAI",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://openai.com/index/chatgpt/"
+    },
+    {
+     "title": "Training language models to follow instructions with human feedback (InstructGPT)",
+     "by": "Long Ouyang 외 (OpenAI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2203.02155"
+    }
    ]
   },
   {
@@ -2130,6 +3738,29 @@
     {
      "title": "Wikipedia (영문): Claude (language model)",
      "url": "https://en.wikipedia.org/wiki/Claude_(language_model)"
+    }
+   ],
+   "deep": [
+    {
+     "title": "Models overview (Claude Platform Docs)",
+     "by": "Anthropic",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://platform.claude.com/docs/en/about-claude/models/overview"
+    },
+    {
+     "title": "Model system cards",
+     "by": "Anthropic",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://www.anthropic.com/system-cards"
+    },
+    {
+     "title": "Claude's Constitution",
+     "by": "Anthropic",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://www.anthropic.com/constitution"
     }
    ]
   },
@@ -2160,6 +3791,22 @@
      "title": "Wikipedia (영문): Gemini (language model)",
      "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)"
     }
+   ],
+   "deep": [
+    {
+     "title": "Gemini: A Family of Highly Capable Multimodal Models",
+     "by": "Gemini Team (Google)",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2312.11805"
+    },
+    {
+     "title": "Gemini — Google DeepMind",
+     "by": "Google DeepMind",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://deepmind.google/models/gemini/"
+    }
    ]
   },
   {
@@ -2188,6 +3835,22 @@
      "title": "Wikipedia (영문): Llama (language model)",
      "url": "https://en.wikipedia.org/wiki/Llama_(language_model)"
     }
+   ],
+   "deep": [
+    {
+     "title": "The Llama 3 Herd of Models",
+     "by": "Llama Team (Meta AI)",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2407.21783"
+    },
+    {
+     "title": "LLaMA: Open and Efficient Foundation Language Models",
+     "by": "Hugo Touvron 외 (Meta AI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2302.13971"
+    }
    ]
   },
   {
@@ -2211,7 +3874,30 @@
     "llama",
     "eu-ai-act"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Mistral 7B",
+     "by": "Albert Q. Jiang 외 (Mistral AI)",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2310.06825"
+    },
+    {
+     "title": "Mixtral of Experts",
+     "by": "Albert Q. Jiang 외 (Mistral AI)",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2401.04088"
+    },
+    {
+     "title": "Documentation - Mistral AI",
+     "by": "Mistral AI",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://docs.mistral.ai/"
+    }
+   ]
   },
   {
    "id": "deepseek",
@@ -2233,7 +3919,30 @@
     "reasoning-model",
     "qwen"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+     "by": "DeepSeek-AI",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2501.12948"
+    },
+    {
+     "title": "DeepSeek-V3 Technical Report",
+     "by": "DeepSeek-AI",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2412.19437"
+    },
+    {
+     "title": "deepseek-ai/DeepSeek-R1 (GitHub)",
+     "by": "DeepSeek-AI",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://github.com/deepseek-ai/DeepSeek-R1"
+    }
+   ]
   },
   {
    "id": "qwen",
@@ -2257,7 +3966,23 @@
     "llama",
     "fine-tuning"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Qwen3 Technical Report",
+     "by": "Qwen Team (Alibaba Cloud)",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2505.09388"
+    },
+    {
+     "title": "QwenLM/Qwen3 (GitHub)",
+     "by": "Qwen Team (Alibaba Cloud)",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://github.com/QwenLM/Qwen3"
+    }
+   ]
   },
   {
    "id": "grok",
@@ -2278,7 +4003,23 @@
     "chatbot",
     "chatgpt"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Models and Pricing (xAI Docs)",
+     "by": "xAI",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://docs.x.ai/docs/models"
+    },
+    {
+     "title": "xai-org/grok-1 (GitHub, Grok-1 오픈 가중치)",
+     "by": "xAI",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://github.com/xai-org/grok-1"
+    }
+   ]
   },
   {
    "id": "hyperclova-x",
@@ -2302,7 +4043,30 @@
     "nlp",
     "sovereign-ai"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "HyperCLOVA X Technical Report",
+     "by": "NAVER Cloud HyperCLOVA X Team",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2404.01954"
+    },
+    {
+     "title": "HyperCLOVA X THINK Technical Report",
+     "by": "NAVER Cloud HyperCLOVA X Team",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2506.22403"
+    },
+    {
+     "title": "HyperCLOVA X Technical Report Reaffirms its Superiority Over Global Models, Open Source AI, and Translators",
+     "by": "NAVER Corp.",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://navercorp.com/en/media/pressReleasesDetail?seq=31721"
+    }
+   ]
   },
   {
    "id": "exaone",
@@ -2325,7 +4089,30 @@
     "open-weight",
     "sovereign-ai"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "EXAONE 4.0: Unified Large Language Models Integrating Non-reasoning and Reasoning Modes",
+     "by": "LG AI Research",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2507.11407"
+    },
+    {
+     "title": "Unveiling EXAONE 4.0, the next generation of hybrid AI",
+     "by": "LG AI Research",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://www.lgresearch.ai/blog/view?seq=576"
+    },
+    {
+     "title": "EXAONE 3.0 7.8B Instruction Tuned Language Model",
+     "by": "LG AI Research",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2408.03541"
+    }
+   ]
   },
   {
    "id": "sovereign-ai",
@@ -2348,7 +4135,23 @@
     "data-center",
     "korea-ai-act"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "What Is Sovereign AI? / How Nations Are Deploying AI for Strategic Priorities",
+     "by": "Calista Redmond (NVIDIA Blog)",
+     "kind": "해설",
+     "lang": "en",
+     "url": "https://blogs.nvidia.com/blog/what-is-sovereign-ai/"
+    },
+    {
+     "title": "HyperCLOVA X Technical Report (한국어·한국 문화 특화 모델 사례)",
+     "by": "NAVER Cloud HyperCLOVA X Team",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2404.01954"
+    }
+   ]
   },
   {
    "id": "copilot",
@@ -2371,7 +4174,30 @@
     "ai-agent",
     "chatgpt"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "GitHub Copilot documentation",
+     "by": "GitHub",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://docs.github.com/en/copilot"
+    },
+    {
+     "title": "Evaluating Large Language Models Trained on Code (Codex)",
+     "by": "Mark Chen 외 (OpenAI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2107.03374"
+    },
+    {
+     "title": "Microsoft Copilot documentation",
+     "by": "Microsoft Learn",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://learn.microsoft.com/en-us/copilot/"
+    }
+   ]
   },
   {
    "id": "midjourney",
@@ -2393,7 +4219,23 @@
     "diffusion-model",
     "ai-copyright"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "Midjourney Help Center (Learn about Midjourney)",
+     "by": "Midjourney",
+     "kind": "공식 문서",
+     "lang": "en",
+     "url": "https://docs.midjourney.com/"
+    },
+    {
+     "title": "High-Resolution Image Synthesis with Latent Diffusion Models (확산 모델 배경)",
+     "by": "Robin Rombach 외",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2112.10752"
+    }
+   ]
   },
   {
    "id": "stable-diffusion",
@@ -2417,7 +4259,30 @@
     "midjourney",
     "open-weight"
    ],
-   "refs": []
+   "refs": [],
+   "deep": [
+    {
+     "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+     "by": "Robin Rombach 외 (LMU Munich, Runway)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2112.10752"
+    },
+    {
+     "title": "SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis",
+     "by": "Dustin Podell 외 (Stability AI)",
+     "kind": "논문",
+     "lang": "en",
+     "url": "https://arxiv.org/abs/2307.01952"
+    },
+    {
+     "title": "Stable Diffusion 3: Research Paper",
+     "by": "Stability AI",
+     "kind": "기술 보고서",
+     "lang": "en",
+     "url": "https://stability.ai/news/stable-diffusion-3-research-paper"
+    }
+   ]
   }
  ]
 }
