@@ -228,6 +228,29 @@
    "keywords": [
     "AI 에이전트 도입"
    ]
+  },
+  {
+   "name": "철강금속신문",
+   "url": "https://www.snmnews.com/",
+   "keywords": [
+    "AX 실증산단",
+    "철강 AI"
+   ]
+  },
+  {
+   "name": "조세금융신문",
+   "url": "https://www.tfmedia.co.kr/",
+   "keywords": [
+    "AX",
+    "사내 AI"
+   ]
+  },
+  {
+   "name": "스트레이트뉴스",
+   "url": "https://www.straightnews.co.kr/",
+   "keywords": [
+    "보험 AI 전환"
+   ]
   }
  ],
  "car": [
@@ -1229,6 +1252,15 @@
     "Apple Watch",
     "Android"
    ]
+  },
+  {
+   "name": "AppleInsider",
+   "url": "https://appleinsider.com/",
+   "keywords": [
+    "Envirodigm",
+    "Minions",
+    "iPhone Duo"
+   ]
   }
  ],
  "movie": [
@@ -1788,6 +1820,30 @@
    "keywords": [
     "robot",
     "humanoid"
+   ]
+  },
+  {
+   "name": "Bing 뉴스 RSS(피지컬 AI 로봇)",
+   "url": "https://www.bing.com/news/search?q=%ED%94%BC%EC%A7%80%EC%BB%AC+AI+%EB%A1%9C%EB%B4%87&format=rss&qft=sortbydate%3d%221%22",
+   "keywords": [
+    "피지컬 AI",
+    "로봇"
+   ]
+  },
+  {
+   "name": "로봇신문 홈(최신)",
+   "url": "https://www.irobotnews.com/",
+   "keywords": [
+    "로봇",
+    "휴머노이드"
+   ]
+  },
+  {
+   "name": "인공지능신문",
+   "url": "https://www.aitimes.kr/",
+   "keywords": [
+    "피지컬 AI",
+    "로봇"
    ]
   }
  ],

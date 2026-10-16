@@ -1,0 +1,35 @@
+{
+ "title": "칩 적층 시대, 열이 설계 최대 난제로…시놉시스·지멘스 등 EDA 업계 \"타이밍·열·전력 함께 풀어야\"",
+ "originalTitle": "Why Heat Is Becoming A Bigger Chip Design Issue",
+ "source": "Semiconductor Engineering",
+ "url": "https://semiengineering.com/why-heat-is-becoming-a-bigger-chip-design-issue/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "칩을 쌓아 올리면서 식히기 어려워지자 열이 반도체 설계의 핵심 문제로 떠올랐다. 세미컨덕터 엔지니어링이 DAC에서 연 좌담에는 시놉시스·실바코·빈치·키사이트 EDA·지멘스 EDA 관계자 5명이 참여했다.",
+  "시놉시스 랭 린은 전압을 낮추면 열은 줄지만 타이밍과 성능이 나빠진다며, 여러 작업 부하에서 타이밍·열·전력 무결성을 함께 최적화하는 루프가 필요하지만 아직 이를 완전히 닫는 도구는 없다고 말했다. 빈치 측은 온도에 따라 저항이 변하므로 순간 온도 변화를 모델링해야 하며 내년부터 결합 시뮬레이션이 주요 과제가 될 것으로 봤다. 실바코 측은 HBM 16단을 한 패키지에 넣은 것도 정의에 따라 이미 3D-IC라고 짚었고, 키사이트 측은 완전한 3D-IC는 시간문제라며 유체를 순환시키는 적층형 냉각 같은 고가 해법을 언급했다.",
+  "지멘스 측은 업계가 각 분야를 따로 보는 관행을 바꿔야 한다고 했고, 배치·배선 엔지니어가 AI 에이전트로 열 문제를 다루기 시작했다는 언급도 나왔다. 다만 AI 결과가 틀리면 설계도 틀린다는 경고가 함께 나왔다."
+ ],
+ "keyPoints": [
+  "3D 적층으로 열이 칩 설계 핵심 문제로",
+  "타이밍·열·전력 동시 최적화 도구는 아직 없어",
+  "내년부터 결합 시뮬레이션이 주요 과제 전망"
+ ],
+ "image": "https://semiengineering.com/wp-content/uploads/2026/09/Screenshot-2026-09-12-at-3.09.59-PM.png?fit=1216%2C998&ssl=1",
+ "facts": [
+  [
+   "형식",
+   "DAC 좌담(Semiconductor Engineering)"
+  ],
+  [
+   "참여 기업",
+   "시놉시스, 실바코, 빈치, 키사이트 EDA, 지멘스 EDA"
+  ],
+  [
+   "키워드",
+   "3D-IC, 열 관리, 결합 시뮬레이션"
+  ]
+ ],
+ "id": "261017-semi-11",
+ "category": "semi",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

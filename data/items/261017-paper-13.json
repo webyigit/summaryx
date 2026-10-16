@@ -1,0 +1,43 @@
+{
+ "title": "사물·글자·워터마크·그림자까지 지운다… 마이크로소프트 'LensErase'",
+ "originalTitle": "LensErase: A Foundation Model for Erase Anything",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.18072",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "사진에서 원치 않는 물체를 지우는 기술은 대상이 다양하고 크기·비율·해상도가 제각각이라 범용 모델을 만들기 어렵다. 마이크로소프트 연구진은 마스크로 지정한 영역의 물체, 글자, 워터마크와 그에 딸린 그림자·반사 같은 효과, 여러 물체 동시 제거까지 다루는 범용 지우기 모델 LensErase를 공개했다.",
+  "이를 위해 원본 이미지·지울 영역 마스크·결과 이미지 묶음 1억 107만 쌍의 데이터셋 LensErase-100M을 만들고, 텍스트-이미지 모델 Lens에서 출발해 생성 능력을 지우기에 옮겼다. 마스크 정보를 원본 이미지 토큰에 직접 넣는 3D 위치 인코딩 Mask-Aware RoPE로 별도 마스크 토큰 없이 효율을 높였다.",
+  "지도 미세조정 뒤 영역별 보상으로 강화학습을 했고, 추론 때는 TraceFusion으로 편집하지 않은 부분의 화질을 지켰다. 공개 벤치마크 6개와 자체 LensErase-Bench에서 참조 기반 지표와 시각-언어 모델 평가 모두 크게 앞섰다. 코드가 공개됐다."
+ ],
+ "keyPoints": [
+  "물체·글자·워터마크·그림자 범용 제거",
+  "1억 107만 쌍 데이터셋 LensErase-100M",
+  "6개 공개 벤치마크서 큰 폭 향상"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Yunuo Chen, Xiuyu Wu, Qinhong Yang 외 11명(Dongdong Chen, Baining Guo 포함)"
+  ],
+  [
+   "소속",
+   "Microsoft(Hugging Face 조직 표기)"
+  ],
+  [
+   "분야",
+   "컴퓨터비전 · 이미지 편집·지우기"
+  ],
+  [
+   "arXiv ID",
+   "2610.18072"
+  ],
+  [
+   "코드",
+   "https://github.com/LensFamily/LensErase (프로젝트 https://lensfamily.github.io/LensErase/)"
+  ]
+ ],
+ "id": "261017-paper-13",
+ "category": "paper",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

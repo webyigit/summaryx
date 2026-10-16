@@ -1,0 +1,43 @@
+{
+ "title": "최고 모델도 절반 가까이 실패… 코딩 에이전트 '하네스' 만들기 벤치마크",
+ "originalTitle": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.20344",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "코딩 에이전트는 모델 자체뿐 아니라 모델을 감싸 도구 호출·파일 처리·명령 실행을 관리하는 '하네스'가 성능을 좌우한다. 연구진은 LLM이 이 하네스를 문서만 보고 직접 만들 수 있는지 평가하는 2단계 벤치마크 Doc2Harness를 제안했다.",
+  "1단계에서는 빌드 모델이 격리된 컨테이너 안에서 인터페이스 뼈대와 개발 문서를 보고 하네스를 만든다. 2단계에서는 완성된 하네스를 고정한 채 대본대로 움직이는 가짜 모델로 구동하고, 모델 요청·디스크 파일·종료 코드·명령 출력 네 가지 관찰 채널로 테스트마다 채점한다.",
+  "최신 모델 19개를 각각 세 번씩 빌드해 328개 테스트로 평가한 결과, 1위 GPT-6 Astra의 통과율은 53.05%, 최하위는 27.44%였다. 최고 모델도 절반 가까이 실패했고, 여러 모듈에 걸친 공통 기능을 나누는 부분에서 실패가 몰렸다. 연구진은 장기 하네스 엔지니어링을 결정론적으로 평가하는 첫 벤치마크라고 밝혔다."
+ ],
+ "keyPoints": [
+  "문서만 보고 코딩 에이전트 하네스 구축",
+  "19개 모델·328개 테스트로 평가",
+  "1위 GPT-6 Astra도 통과율 53.05%"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Yuyao Ge, Shenghua Liu, Peizhong Gao, Chendi Ge, Chenxu Liu, Yiwei Wang, Lingrui Mei, Baolong Bi, Jiayu Yao, Jiafeng Guo, Xueqi Cheng"
+  ],
+  [
+   "소속",
+   "[확인 필요] (arXiv 초록 페이지에 표기 없음)"
+  ],
+  [
+   "분야",
+   "소프트웨어공학(cs.SE)·인공지능(cs.AI) · 코딩 에이전트 평가"
+  ],
+  [
+   "arXiv ID",
+   "2610.20344"
+  ],
+  [
+   "코드",
+   "공개 링크 없음"
+  ]
+ ],
+ "id": "261017-paper-03",
+ "category": "paper",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

@@ -1,0 +1,43 @@
+{
+ "title": "KAIST, 강화학습 롤아웃 1.8배 빠르게… INT4 KV 캐시 양자화 'KV4-RL'",
+ "originalTitle": "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.14448",
+ "publishedAt": "2026-10-10",
+ "summary": [
+  "검증 가능한 보상 강화학습(RLVR)에서 비동기 롤아웃은 긴 답 생성 중에도 하드웨어를 놀리지 않아 효율적이다. 하지만 동시 처리가 늘수록 디코딩 단계마다 KV 캐시 부담이 커진다. KAIST 연구진은 같은 부하 조건에서 KV 캐시 양자화가 가중치·활성값 양자화보다 롤아웃을 훨씬 빠르게 한다는 점을 확인했다.",
+  "다만 INT4 KV 롤아웃은 잘린 중요도 샘플링을 써도 학습을 해칠 수 있었다. 제안한 KV4-RL은 보정 없는 INT4 KV 양자화에, 어텐션 싱크와 최근 맥락 같은 일부 위치만 INT8로 보호하는 방식을 더했다. 이렇게 샘플러와 학습기 사이 불일치를 줄이면서 INT4의 속도 이점은 대부분 지켰다.",
+  "Qwen3-8B-Base로 GRPO 400회 학습에서 BF16 롤아웃 대비 롤아웃 누적 1.80배, 전체 반복 누적 1.27배 빨라졌고, 마지막 50회에서는 롤아웃이 1.97배까지 빨라졌다. 6개 벤치마크 평균 정확도는 4B·8B 모두 BF16 학습과 0.5%p 이내 차이였다."
+ ],
+ "keyPoints": [
+  "강화학습 롤아웃에 INT4 KV 캐시 적용",
+  "어텐션 싱크·최근 맥락만 INT8 보호",
+  "롤아웃 1.80배 가속, 정확도 차 0.5%p 이내"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Sihwan Park, Sung-Yub Kim, Doohyuk Jang, Eunho Yang"
+  ],
+  [
+   "소속",
+   "KAIST AI(Hugging Face 조직 표기)"
+  ],
+  [
+   "분야",
+   "머신러닝 · 강화학습 효율·양자화"
+  ],
+  [
+   "arXiv ID",
+   "2610.14448"
+  ],
+  [
+   "코드",
+   "공개 링크 없음"
+  ]
+ ],
+ "id": "261017-paper-14",
+ "category": "paper",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

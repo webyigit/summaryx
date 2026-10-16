@@ -1,0 +1,39 @@
+{
+ "title": "블랙 포레스트 랩스, 5.6B 이미지 모델 'FLUX 3 이미지 클라인' 가중치 공개…연매출 500만 달러 미만은 상업 무료",
+ "originalTitle": "Black Forest Labs opens FLUX 3 Image Klein weights, with free commercial use limited to smaller businesses",
+ "source": "VentureBeat",
+ "url": "https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "독일 블랙 포레스트 랩스(BFL)가 56억 매개변수 이미지 모델 'FLUX 3 이미지 클라인'의 가중치를 공개했다. 개발자가 자기 하드웨어에서 이미지를 생성·편집·맞춤화하도록 만든 모델로, 7월 발표한 상위 모델 FLUX 3 이미지의 네이티브 4K 출력, 참조 이미지 기반 편집 등을 이어받았고 VRAM 8GB 소비자용 GPU·노트북에서도 돈다고 회사는 밝혔다.",
+  "미세조정용 기본 체크포인트, 지연을 줄인 증류판, FP8·NVFP4·INT8 경량판이 함께 나왔다. 텍스트 생성, 기존 이미지 편집, 여러 참조 이미지 기반 생성, 경계 상자로 위치 지정도 지원하며 ComfyUI·디퓨저스 등과 호환된다. 'FLUX 커뮤니티 라이선스'에 따라 개인과 연매출 500만 달러 미만 기업은 무료로 상업적으로 쓸 수 있고, 그 이상은 별도 계약이나 API를 써야 한다. API 가격은 1K 이미지 0.009달러, 4K 0.036달러다.",
+  "BFL은 자체 평가에서 다른 공개 가중치 모델보다 생성·편집이 앞선다고 했지만 벤처비트는 독립 재현되지 않은 수치라고 짚었다. 로빈 롬바흐 CEO는 FLUX 3가 창작부터 로보틱스까지 다양한 필요에 맞게 쓰일 수 있다고 말했다."
+ ],
+ "keyPoints": [
+  "5.6B 'FLUX 3 이미지 클라인' 가중치 공개",
+  "VRAM 8GB에서 구동, 4K 출력·참조 편집 지원",
+  "연매출 500만 달러 미만 상업 무료, API 1K당 0.009달러"
+ ],
+ "image": "https://images.ctfassets.net/jdtwqhzvc2n1/1f3tY0rpH62SuCyKqdYuzi/e09f099f2d602f2b771df72641bb4d7c/minimalist-retromodern-2474973291.jpg?w=800&q=75",
+ "facts": [
+  [
+   "기업",
+   "블랙 포레스트 랩스(독일)"
+  ],
+  [
+   "모델",
+   "FLUX 3 이미지 클라인(56억 매개변수)"
+  ],
+  [
+   "라이선스",
+   "FLUX 커뮤니티 라이선스(연매출 500만 달러 미만 상업 무료)"
+  ],
+  [
+   "작성",
+   "칼 프란젠(벤처비트)"
+  ]
+ ],
+ "id": "261017-ai-09",
+ "category": "ai",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

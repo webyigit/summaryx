@@ -1,0 +1,43 @@
+{
+ "title": "틀린 풀이엔 교사도 길을 잃는다… '첨삭'으로 증류를 살린 CriticOPD",
+ "originalTitle": "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.20572",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "온폴리시 증류(OPD)는 학생 모델이 직접 만든 풀이에 교사 모델이 토큰 단위 피드백을 주는 학습법이다. 이는 교사가 학생의 어떤 중간 풀이든 정답 쪽으로 이끌 수 있다는 가정, 즉 '회복 가능성'에 기댄다. 연구진은 학생 풀이가 틀렸을 때 교사가 실수를 알아보면서도 잘못된 길을 그대로 이어간다는 점을 보였다.",
+  "제안한 CriticOPD는 교사가 틀린 풀이에 대한 첨삭(비평)을 쓰고, 학생이 지적된 오류를 고쳐 풀이를 다시 쓰게 한다. 교사는 첨삭을 특권 정보로 둔 채 고친 풀이를 채점하고, 학생은 첨삭을 보지 않은 채 고친 풀이로 학습한다.",
+  "Qwen3 학생 모델 두 개로 수학 추론 벤치마크 6개를 시험한 결과 기존 OPD보다 좋았고, 경시대회 수준 문제에서 향상 폭이 가장 컸다. 저자 게시글에 따르면 평균 정확도는 Qwen3-1.7B에서 4.57%p, Qwen3-0.6B에서 4.06%p 올랐다. 코드가 공개됐다."
+ ],
+ "keyPoints": [
+  "틀린 풀이엔 교사 피드백도 신뢰 하락",
+  "교사 첨삭→학생 수정→수정본으로 학습",
+  "6개 수학 벤치마크서 기존 OPD 앞서"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Kaixiang Zhao, Tianrun Yu, Shangzhe Li, Yuxiao Yang, Amanda Hughes, Weitong Zhang, Taylor W. Killian"
+  ],
+  [
+   "소속",
+   "[확인 필요] (arXiv 초록 페이지에 표기 없음)"
+  ],
+  [
+   "분야",
+   "머신러닝 · 지식 증류·수학 추론"
+  ],
+  [
+   "arXiv ID",
+   "2610.20572"
+  ],
+  [
+   "코드",
+   "https://github.com/kzhao5/CriticOPD (프로젝트 https://kzhao5.github.io/CriticOPD-website/)"
+  ]
+ ],
+ "id": "261017-paper-10",
+ "category": "paper",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

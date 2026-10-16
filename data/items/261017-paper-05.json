@@ -1,0 +1,43 @@
+{
+ "title": "맥락을 빼도 효과가 남게… 프롬프트 효과를 모델 안에 새기는 Cortex",
+ "originalTitle": "Cortex: Consolidating Context into Parametric Memory",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.20399",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "LLM에 추가 맥락을 주면 성능이 좋아지지만, 그 맥락을 빼면 효과도 사라진다. 연구진은 생물의 기억 공고화에서 착안해, 맥락이 준 이득을 다른 능력은 해치지 않으면서 모델 가중치에 심는 과정을 '기억 공고화(MC)'로 정의했다. 맥락 기반 편집, 기술 학습, 행동 조정을 하나의 목표로 묶은 셈이다.",
+  "다섯 가지 과제군으로 공고화 성공도와 기존 능력 유지도를 함께 재는 시험대를 만들고, 단일·묶음·연속 업데이트 세 방식을 다뤘다. 제안 방법 Cortex는 맥락이 쓰일 만한 질문을 미리 만든 뒤, 맥락을 줬을 때의 출력을 저랭크 업데이트나 FFN 층 구조 업데이트로 증류해 모델에 합친다.",
+  "4B~120B 규모의 밀집·MoE, 텍스트·멀티모달 모델 대부분 설정에서 공고화-유지 균형이 가장 좋은 쪽에 있었다. 14B 모델에 사실 편집을 50번 연속 했을 때 Cortex-Structural은 맥락 이득의 88.9%를 되살리면서 다른 과제 성능은 99.8% 유지했다."
+ ],
+ "keyPoints": [
+  "맥락 효과를 가중치에 심는 '기억 공고화'",
+  "4B~120B 모델서 공고화·유지 균형 우수",
+  "연속 편집 50회에도 이득 88.9% 회복"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Jintian Zhang, Feng He, Xinnian Liang, Ziwen Xu, Haoming Xu, Haojing Huang, Shuangzhi Wu, Ningyu Zhang"
+  ],
+  [
+   "소속",
+   "[확인 필요] (arXiv 초록 페이지에 표기 없음)"
+  ],
+  [
+   "분야",
+   "자연어처리(cs.CL) 외 cs.AI·cs.CV·cs.LG·cs.MA · 모델 편집·메모리"
+  ],
+  [
+   "arXiv ID",
+   "2610.20399"
+  ],
+  [
+   "코드",
+   "공개 링크 없음"
+  ]
+ ],
+ "id": "261017-paper-05",
+ "category": "paper",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

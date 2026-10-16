@@ -1,0 +1,35 @@
+{
+ "title": "에이전틱 AI가 CPU 몸값 올린다…\"CPU:GPU 1대4에서 1대1로 갈 수도\"",
+ "originalTitle": "Agentic AI Alters The CPU-GPU Balance",
+ "source": "Semiconductor Engineering",
+ "url": "https://semiengineering.com/agentic-ai-alters-the-cpu-gpu-balance/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "지금까지 LLM 서비스에서 CPU는 주로 GPU와 통신을 관리하는 '호스트' 역할이었고 CPU와 GPU 비율은 보통 1대4 정도였다. 세미컨덕터 엔지니어링은 AI 에이전트가 모델 출력을 평가하고 다음 행동을 정하는 판단 로직을 돌려야 해 CPU가 강한 영역의 일이 늘고, 업계 추정으로는 이 비율이 1대1까지 갈 수 있다고 전했다.",
+  "에이전트는 모델 자체가 아니라 모델 위의 조율 계층으로, 요청 하나가 여러 번의 모델 질의를 낳아 연산량이 많다. 반면 답하기 전에 추론을 더 하는 추론 모델의 작업은 주로 GPU·가속기에서 돈다고 Arm 측은 설명했다. 기사는 전문가 혼합(MoE), 특정 분야용 소형 언어모델(SLM), 마지막 층만 학습하는 저전력 리저버 컴퓨팅까지 다양한 모델 구조를 함께 짚었다.",
+  "델로스 데이터 CEO는 'CPU가 돌아왔지만 데이터센터의 다른 영역과는 전혀 다른 방식으로 쓰인다'고 했고, QCI CTO는 '그래서 지금 CPU가 매우 비싸지고 있다'고 말했다. 기사는 AI가 한 구조로 모이지 않고 여러 모델로 갈라지는 가운데, 에이전틱 AI가 GPU 수요를 줄이지 않으면서 CPU에 추가 부담을 준다고 결론지었다."
+ ],
+ "keyPoints": [
+  "에이전트 판단 로직은 CPU 몫…CPU 수요 확대",
+  "CPU:GPU 비율 1:4에서 1:1 가능성 거론",
+  "추론 모델 연산은 여전히 GPU 중심"
+ ],
+ "image": "https://semiengineering.com/wp-content/uploads/2026/10/SLM-vs.-MoE-Moyer.jpg?fit=434%2C263&ssl=1",
+ "facts": [
+  [
+   "필자",
+   "브라이언 모이어(Semiconductor Engineering)"
+  ],
+  [
+   "인용 기업",
+   "시놉시스, Arm, 델로스 데이터, QCI"
+  ],
+  [
+   "핵심 수치",
+   "CPU:GPU 1:4 → 1:1(업계 추정)"
+  ]
+ ],
+ "id": "261017-semi-10",
+ "category": "semi",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

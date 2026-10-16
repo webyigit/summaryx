@@ -1,0 +1,43 @@
+{
+ "title": "화난 사용자 앞에서 흔들리는 AI 에이전트… 감정 반영 벤치마크 τ-Emotion-Bench",
+ "originalTitle": "τ-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.19560",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "여러 단계로 도구를 호출하는 LLM 에이전트는 도구 오류뿐 아니라 사용자와의 소통이 서툴러서도 실패한다. 그런데 기존 벤치마크는 대부분 사용자가 협조적이고 감정이 안정적이라고 가정한다. 애리조나주립대 연구진은 과제 목표는 고정한 채 사용자 감정만 바꿔 에이전트를 시험하는 10개 분야 벤치마크 τ-Emotion-Bench를 만들었다.",
+  "벤치마크 제작과 학습 데이터 생성을 함께 하는 파이프라인 Tracer도 제안했다. 정책 규칙을 따르는 과제를 만들고, 에이전트·가상 사용자·환경이 상호작용하는 궤적을 기록한다. 불만이 쌓인 사용자는 비효율적인 대화를 끝낼 수 있어, 사용자에게 지나치게 기대는 궤적은 걸러지고 도구를 잘 쓰는 궤적이 남는다.",
+  "가상 사용자 두 종으로 실험한 결과 최신 에이전트도 평균 성공률과 꾸준한 완수 사이에 큰 격차가 있었다. Tracer 데이터로 학습한 Qwen3 모델은 크기와 상관없이 좋아졌고, 처음 보는 분야와 τ-Bench·τ-Trait로도 효과가 이어졌다."
+ ],
+ "keyPoints": [
+  "사용자 감정만 바꿔 에이전트 신뢰성 시험",
+  "불만 사용자가 대화 끝내는 Tracer 파이프라인",
+  "Tracer 학습 Qwen3, 미지 분야로도 전이"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Rishitosh Kumar Singh, Amir Saeidi, Shamanthak Hegde, Shrinidhi Kumbhar, Chitta Baral"
+  ],
+  [
+   "소속",
+   "애리조나주립대(Hugging Face 페이지 표기)"
+  ],
+  [
+   "분야",
+   "자연어처리 · 에이전트 평가"
+  ],
+  [
+   "arXiv ID",
+   "2610.19560"
+  ],
+  [
+   "코드",
+   "https://github.com/sahsaeedi/tau-emotion-bench (프로젝트 https://tau-emotion-bench.github.io/)"
+  ]
+ ],
+ "id": "261017-paper-15",
+ "category": "paper",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

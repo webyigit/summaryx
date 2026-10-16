@@ -1,0 +1,35 @@
+{
+ "title": "심보틱, 독일 분류 기술 기업 셀루메이션 인수…수백 개 셀이 물건 방향 바꾸는 '셀루베이어'",
+ "originalTitle": "Symbotic acquires cellumation to advance next-generation sortation technology",
+ "source": "Robotics 24/7",
+ "url": "https://www.robotics247.com/article/symbotic-acquires-cellumation-to-advance-next-generation-sortation-technology",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "AI 물류 로봇 기업 심보틱이 독일 브레멘의 자동화 기업 셀루메이션(cellumation GmbH)을 인수했다. 인수 조건은 공개되지 않았다. 셀루메이션은 이름과 본사를 그대로 유지해 기존 고객을 계속 지원하고 심보틱의 유럽 확장을 돕는다. 공동 창업자인 헨드릭 타머 CEO와 클라우디오 우리아르테 CTO도 경영을 이어간다.",
+  "셀루메이션의 특허 기술 '셀루베이어'는 따로 제어되는 전방향 셀 수백 개로 이루어져, 각 셀이 물건을 어느 방향으로든 움직인다. 바닥 자체가 물건을 옮기고 방향까지 정하는 셈이다. 심보틱은 기존 컨베이어보다 처리량이 많고 다룰 수 있는 상품이 넓으며 공간을 훨씬 적게 쓴다고 설명했다. 이미 우편·전자상거래·물류 기업 현장에서 쓰이고 있다.",
+  "릭 코헨 심보틱 회장은 이 기술을 '게임 체인저'라 부르며 2026년 2월 폭스 로보틱스 인수에 이은 포트폴리오 확장이라고 밝혔다. 다만 처리량·면적·비용 수치는 공개되지 않았고 주장은 회사 발표에 기반한다."
+ ],
+ "keyPoints": [
+  "심보틱, 독일 셀루메이션 인수(조건 비공개)",
+  "전방향 셀 수백 개로 옮기고 분류하는 셀루베이어",
+  "2월 폭스 로보틱스 이어 또 인수"
+ ],
+ "image": "https://www.robotics247.com/images/2026_article/Symbotic-cellumation-acquisition-sortation-main-Robotics247-2026.jpg",
+ "facts": [
+  [
+   "인수 기업",
+   "심보틱"
+  ],
+  [
+   "피인수",
+   "셀루메이션(독일 브레멘)"
+  ],
+  [
+   "기술",
+   "셀루베이어(전방향 셀 분류)"
+  ]
+ ],
+ "id": "261017-robot-02",
+ "category": "robot",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "앤트로픽 \"美 신체 노동 업무 74% 로봇이 기술적으로 가능…비용 맞는 건 0.3%뿐\"",
+ "originalTitle": "Anthropic report finds robots can handle 74% of US physical tasks, but cost is the catch",
+ "source": "Crypto Briefing",
+ "url": "https://cryptobriefing.com/anthropic-report-robots-physical-jobs-cost/",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "앤트로픽이 9월 30일 낸 보고서 '로봇은 어떤 일을 할 수 있나(What work can robots do?)'는 미국 직업 900개 가까이를 O*NET 데이터로 업무 단위까지 쪼갠 뒤, 지금의 로봇 기술로 할 수 있는 일을 '로봇 노출 지수'로 매겼다.",
+  "결론은 신체 노동 업무의 74%, 경제 전체 근로시간으로는 약 34%를 로봇이 기술적으로 처리할 수 있다는 것이다. 하지만 사람보다 싸게 할 수 있는 업무는 0.3%뿐이고, 지금 당장 자동화로 완전히 대체될 수 있는 노동자는 약 30만 명으로 추산됐다. 로봇 가격이 과거 속도로 내려가면 비용 경쟁력이 있는 업무가 10%에 이르기까지 약 40년이 걸리며, 그러려면 로봇 비용이 70% 줄어야 한다.",
+  "노출은 고르지 않았다. 가장 노출된 10개 직업 중 9개가 택시 기사(지수 2.2) 같은 운전직이고 창고 업무도 상위였다. 노출이 큰 노동자의 시급은 약 23달러로 노출되지 않은 노동자(약 53달러)보다 낮았다. 기사는 이 분석이 정형화된 환경의 신체 노동에 한정된다며, 74%는 기술적 가능성이고 실제 자동화 시점은 비용이 정한다고 짚었다."
+ ],
+ "keyPoints": [
+  "신체 노동 업무 74%는 로봇이 기술적으로 가능",
+  "사람보다 싼 업무는 0.3%…약 30만 명 대체 수준",
+  "운전직·창고 등 저임금 직군 노출 커"
+ ],
+ "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/10/14082103/library-anthropic-report-finds-robots-can-handle-74-of-us-physic-800x450.png",
+ "facts": [
+  [
+   "보고서",
+   "앤트로픽 'What work can robots do?'(9월 30일)"
+  ],
+  [
+   "분석 대상",
+   "미국 직업 약 900개(O*NET)"
+  ],
+  [
+   "핵심 수치",
+   "기술 가능 74%·비용 경쟁력 0.3%"
+  ]
+ ],
+ "id": "261017-robot-01",
+ "category": "robot",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

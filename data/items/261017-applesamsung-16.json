@@ -1,0 +1,39 @@
+{
+ "title": "갤럭시 A16 5G, 원 UI 9.0 세 번째 베타…재부팅 반복·초광각 녹색 사진 고쳐",
+ "originalTitle": "Galaxy A16 5G gets third One UI 9.0 beta update",
+ "source": "SamMobile",
+ "url": "https://www.sammobile.com/news/galaxy-a16-5g-gets-third-one-ui-9-0-beta-update/",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "원 UI 9.0(안드로이드 17) 베타 프로그램에 참여한 갤럭시 A16 5G 사용자들이 세 번째 베타를 받고 있다. 펌웨어 버전은 A166PXXU9ZZJ8, 용량은 약 303.46MB이며 인도에서 배포가 시작됐다.",
+  "이번 베타는 세 가지 문제를 고쳤다. 소프트웨어 업그레이드 후 기기가 계속 재시작되던 현상, 갤러리에서 초광각 카메라 사진이 녹색 빛으로 보이던 현상, 플래시를 켜고 찍은 사진이 까맣게 나오던 현상이다. 62개 보안 문제를 고친 2026년 10월 보안 패치도 들어갔다.",
+  "설정 > 소프트웨어 업데이트 > 업데이트 확인에서 받을 수 있다. 베타 종료나 정식 원 UI 9.0 배포 일정은 아직 발표되지 않았다."
+ ],
+ "keyPoints": [
+  "A16 5G 원 UI 9.0 베타 3, 인도 배포",
+  "재부팅 반복·초광각 색·플래시 사진 수정",
+  "10월 보안 패치(62건) 포함"
+ ],
+ "image": "https://www.sammobile.com/wp-content/uploads/2025/01/Galaxy-A16-5G-cameras.jpg",
+ "facts": [
+  [
+   "기기",
+   "갤럭시 A16 5G"
+  ],
+  [
+   "펌웨어",
+   "A166PXXU9ZZJ8(약 303.46MB)"
+  ],
+  [
+   "배포 지역",
+   "인도"
+  ],
+  [
+   "보안 패치",
+   "2026년 10월"
+  ]
+ ],
+ "id": "261017-applesamsung-16",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

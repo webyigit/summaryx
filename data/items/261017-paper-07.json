@@ -1,0 +1,43 @@
+{
+ "title": "말투 말고 '결정'을 베낀다… 토큰 대신 행동을 증류하는 ActionOPD",
+ "originalTitle": "ActionOPD: Distilling Decisions, Not Tokens",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.19820",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "뛰어난 LLM 에이전트의 능력을 작은 모델에 옮기는 방법은 두 갈래다. 오프라인 모방은 촘촘한 지도를 주지만 학생이 훈련 데이터에 없던 상황을 만나면 약하고, 토큰 단위 온폴리시 증류(OPD)는 이 문제를 풀지만 교사의 토큰 확률과 같은 토크나이저가 필요하다.",
+  "칭화대 NICS-EFC 그룹 등 연구진의 ActionOPD는 의미 단위의 '행동'을 지도 단위로 삼는다. 학생이 실제로 도달한 상태에서 학생과 블랙박스 교사 양쪽의 행동을 뽑고, 학생 행동이 교사 행동과 의미상 맞으면 보상을 준다. 학생은 교사의 추론 문장을 따라 쓸 필요가 없고 교사의 토큰 확률도 쓰지 않는다.",
+  "Qwen3-4B·8B 학생을 두 교사로 도구 사용 과제에 학습시킨 결과, 분포 밖 벤치마크 4개에서 평균 3.3~6.9%p 올랐다. 학생이 클수록, 교사가 강할수록 효과가 컸고, 교사와 학생이 다른 모델 계열이어도 됐다. τ²-bench에서는 오프라인 증류·토큰 OPD와 비슷한 성능을 냈다."
+ ],
+ "keyPoints": [
+  "토큰 대신 의미 단위 행동을 증류",
+  "블랙박스 교사·다른 토크나이저도 가능",
+  "분포 밖 벤치마크 평균 3.3~6.9%p↑"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Huining Yuan, Xiangmin Yi, Zelai Xu, Zixu Wang, Xinlei Chen, Xiao-Ping Zhang, Yu Wang, Chao Yu"
+  ],
+  [
+   "소속",
+   "Tsinghua-NICS-EFC(Hugging Face 페이지 표기, 저자별 소속 미표기)"
+  ],
+  [
+   "분야",
+   "인공지능 · 에이전트 지식 증류"
+  ],
+  [
+   "arXiv ID",
+   "2610.19820"
+  ],
+  [
+   "코드",
+   "https://github.com/thu-nics/ActionOPD (프로젝트 https://thu-nics.github.io/ActionOPD/)"
+  ]
+ ],
+ "id": "261017-paper-07",
+ "category": "paper",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

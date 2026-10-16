@@ -1,0 +1,39 @@
+{
+ "title": "OCP 2026 주인공은 '전력'…나비타스·인피니언·TI, 800V 데이터센터 전원 부품 공개",
+ "originalTitle": "Data Center Power a Prominent Highlight of OCP 2026",
+ "source": "EE Times",
+ "url": "https://www.eetimes.com/data-center-power-a-prominent-highlight-of-ocp-2026/",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "10월 12~15일 미국 새너제이에서 열린 OCP 글로벌 서밋 2026에서는 AI 작업으로 데이터센터 전력 수요가 커지면서 전력 반도체·전원 장치가 크게 주목받았다.",
+  "나비타스 반도체는 엔비디아와 함께 개발한 24kW급 질화갈륨(GaN) 기반 800V→12V DC-DC 전력 보드를 선보였다. 중간 50V 변환 단계를 없애고 한 번에 12V로 바꾸며, 전부하 효율 97%, 전력 밀도 2000W/in³ 이상이 목표다. 인피니언은 OCP 오픈랙 V3 규격을 맞춘 27kW 3상 AI 서버 전원장치(PSU) 레퍼런스 보드를 내놨는데, 전력 밀도 116W/in³로 규격 최소치(94W/in³)를 넘고 20ms 홀드업 에너지 버퍼를 내장했다. ±400V·800V DC용 핫스왑 컨트롤러도 소개했다.",
+  "텍사스인스트루먼트(TI)는 칩 5개로 짜던 회로를 한 패키지로 대신하는 첫 800V 절연형 핫스왑 컨트롤러 'LMI800PS'와 전원 레일의 순간 이상을 잡는 3GSPS ADC를 공개했다. 나비타스와 TI 제품은 엔비디아 MGX 'AI 팩토리' 전시벽에도 올랐다."
+ ],
+ "keyPoints": [
+  "나비타스, 엔비디아와 24kW GaN 800V→12V 보드",
+  "인피니언, 27kW 오픈랙 V3 AI 서버 PSU",
+  "TI, 첫 800V 절연형 핫스왑 컨트롤러"
+ ],
+ "image": "https://www.eetimes.com/wp-content/uploads/Hero-image-OCP-e1792161163978.jpeg?resize=1200,675",
+ "facts": [
+  [
+   "행사",
+   "OCP 글로벌 서밋 2026(10월 12~15일, 새너제이)"
+  ],
+  [
+   "기업",
+   "나비타스 반도체, 인피니언, 텍사스인스트루먼트"
+  ],
+  [
+   "주요 제품",
+   "24kW GaN DC-DC 보드, 27kW PSU, LMI800PS"
+  ],
+  [
+   "키워드",
+   "800V DC 데이터센터 전력"
+  ]
+ ],
+ "id": "261017-semi-09",
+ "category": "semi",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

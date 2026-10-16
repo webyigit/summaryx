@@ -1,0 +1,43 @@
+{
+ "title": "같은 블록을 두 번 돌릴 때 첫 번째는 가볍게… 반복형 MoE LatentLoop",
+ "originalTitle": "LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.19975",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "반복형(루프) MoE는 같은 블록을 여러 번 돌려 파라미터를 재사용해, 같은 예산으로 더 좋은 성능을 노리는 구조다. 연구진은 블록 하나를 두 번 적용하는 모델에서 각 회차의 잔차 계수를 따로 학습시켜 봤는데, 첫 회차가 일관되게 더 작은 크기를 배웠다. 첫 회차를 줄이면 성능이 같거나 좋아졌지만 두 번째를 줄이면 나빠졌다.",
+  "이 비대칭성에서 나온 LatentLoop는 첫 회차에서 시퀀스를 압축하고 두 번째 회차는 원래 해상도로 처리하며, 아낀 연산을 더 큰 은닉 차원에 쓴다. MoE 가중치는 두 회차가 공유하되 어텐션 파라미터는 회차마다 따로 둔다.",
+  "1.3B~7B 규모 15개 구성, 최대 10^21 FLOPs 넘는 학습에서 검증 손실이 꾸준히 낮았다. 같은 손실 기준으로 일반 MoE 대비 19.0%, 기존 루프 모델 대비 7.9% 연산 절감이 예측됐고, 모든 크기에서 9개 벤치마크 평균이 0샷·5샷 모두 올랐다."
+ ],
+ "keyPoints": [
+  "첫 회차는 압축, 둘째 회차는 원래 해상도",
+  "일반 MoE 대비 연산 19.0% 절감 예측",
+  "1.3B~7B 전 크기서 벤치마크 향상"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Zefeng He, Yunkai Chai, Xiaoyang Chen, Tong Zhu, Zongliang Wu, Yun Luo, Yafu Li, Yu Cheng"
+  ],
+  [
+   "소속",
+   "[확인 필요] (arXiv 초록 페이지에 표기 없음)"
+  ],
+  [
+   "분야",
+   "머신러닝(cs.LG) · 모델 아키텍처·효율"
+  ],
+  [
+   "arXiv ID",
+   "2610.19975"
+  ],
+  [
+   "코드",
+   "공개 링크 없음"
+  ]
+ ],
+ "id": "261017-paper-06",
+ "category": "paper",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

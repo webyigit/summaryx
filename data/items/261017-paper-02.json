@@ -1,0 +1,43 @@
+{
+ "title": "시연 대신 '합성 경험'으로 게임을 배우는 AI… 텐센트 Player-1",
+ "originalTitle": "Player-1: Learning to Play from Synthetic Experience",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.20584",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "게임을 하는 AI 에이전트는 보통 사람의 플레이 시연을 따라 배우지만, 시연만으로는 다양한 상황을 충분히 경험하기 어렵다. 텐센트 ARC 등 연구진은 합성된 경험으로 게임 에이전트를 후학습시키는 프레임워크 Player-1을 내놨다.",
+  "연구진은 컴퓨터 사용 에이전트의 행동 공간을 게임에 맞게 넓히고, 6,044개 게임 플레이 궤적으로 모델을 미세조정했다. 이어 2D·3D 합성 환경 16개로 이뤄진 Player-1-Gym을 만들어 PPO 강화학습을 진행했다.",
+  "그 결과 마인크래프트 기반 MineDojo-300에서 성능이 올랐고, ViZDoom-10과 GameWorld에서도 추가 향상을 보였다. 실제 게임 데이터를 모으지 않고도 합성 환경에서 경험을 쌓아 게임 실력을 키울 수 있음을 보여준 사례다. 코드와 프로젝트 페이지가 공개됐다."
+ ],
+ "keyPoints": [
+  "게임 플레이 궤적 6,044개로 미세조정",
+  "합성 환경 16개 Player-1-Gym서 PPO",
+  "MineDojo·ViZDoom·GameWorld 향상"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Mingyu Ouyang, Yiran Wang, Siyuan Hu, Xingyilang Yin, Huiqiang Sun, Guangzhi Wang, Junfu Pu, Cheng Cheng, Honghao Chen, Ying Shan, Mike Zheng Shou, Hwee Tou Ng"
+  ],
+  [
+   "소속",
+   "[확인 필요] (arXiv 초록 페이지에 표기 없음)"
+  ],
+  [
+   "분야",
+   "컴퓨터비전(cs.CV)·인공지능(cs.AI)·HCI(cs.HC) · 게임 에이전트"
+  ],
+  [
+   "arXiv ID",
+   "2610.20584"
+  ],
+  [
+   "코드",
+   "https://github.com/TencentARC/Player-1 (프로젝트 https://player-1-project.github.io/)"
+  ]
+ ],
+ "id": "261017-paper-02",
+ "category": "paper",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

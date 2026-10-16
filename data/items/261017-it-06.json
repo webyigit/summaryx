@@ -1,0 +1,35 @@
+{
+ "title": "맵퀘스트, 지도에 '플록' 감시 카메라·번호판 인식기 위치 표시…켜고 끄는 레이어로",
+ "originalTitle": "MapQuest will now show you where Flock cameras are in your neighborhood",
+ "source": "Engadget",
+ "url": "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "지도 앱 맵퀘스트가 동네에 설치된 감시 카메라와 차량 번호판 인식기 위치를 지도에 보여 주는 기능을 추가했다. 맵퀘스트는 최근 몇 달 새 인기가 급상승했는데, 구글 지도·애플 지도와 달리 온타리오호 이름을 '아메리카호'로 바꾸지 않은 일이 계기가 됐다는 분석이다. 최근에는 안드로이드 오토 지원과 대중교통 길찾기도 넣었다.",
+  "새 기능은 교통·사고 정보 옆에 있는 켜고 끄는 레이어 형태다. 미국에서 논란이 된 플록(Flock) 카메라뿐 아니라 모토로라 솔루션스(비질런트), 제네텍, 액시스, 액손, 레오나르도(ELSAG), 버카다 등 여러 업체의 실외 감시 카메라와 번호판 인식기가 표시된다. 맵퀘스트는 록웰의 노래 'Somebody's Watching Me'를 깐 짧은 영상으로 기능을 알렸다.",
+  "엔가젯은 출퇴근길에 이 카메라들을 쉽게 피하기는 어렵겠지만, 우리 동네에 감시 장비가 얼마나 퍼져 있는지 한눈에 볼 수 있다는 점에서 의미가 있다고 평가했다. 특히 동네에서 감시 카메라를 없애려는 주민들에게 유용한 정보가 될 수 있다고 덧붙였다."
+ ],
+ "keyPoints": [
+  "맵퀘스트, 감시 카메라·번호판 인식기 레이어 추가",
+  "플록·모토로라·액손·버카다 등 업체 장비 표시",
+  "동네 감시 장비 분포를 한눈에 확인"
+ ],
+ "image": "https://www.engadget.com/img/gallery/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/l-intro-1792159874.jpg",
+ "facts": [
+  [
+   "서비스",
+   "맵퀘스트"
+  ],
+  [
+   "기능",
+   "감시 카메라·번호판 인식기 지도 레이어"
+  ],
+  [
+   "표시 업체",
+   "플록, 모토로라 솔루션스, 제네텍, 액시스, 액손, 버카다 등"
+  ]
+ ],
+ "id": "261017-it-06",
+ "category": "it",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

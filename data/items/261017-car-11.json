@@ -1,0 +1,39 @@
+{
+ "title": "\"PHEV 실제 CO2, 공식 수치의 6배\"…T&E, 연료비도 연 680유로 더 든다",
+ "originalTitle": "Plug-in hybrids emit six times more CO2 than officially stated",
+ "source": "electrive",
+ "url": "https://www.electrive.com/2026/10/16/plug-in-hybrids-emit-six-times-more-co2-than-officially-stated/",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "유럽 환경단체 T&E가 유럽환경청 자료를 분석한 결과, 2024년 등록된 플러그인 하이브리드(PHEV)의 실제 CO2 배출량이 공식 수치의 평균 약 6배였다. 2023년에는 약 5배여서 격차가 계속 커지고 있다. 공식 수치보다 연료비도 연평균 680유로 더 든다고 T&E는 추산했다.",
+  "공식 시험값으로는 PHEV가 일반 내연기관·하이브리드차보다 CO2를 83% 덜 내야 하지만, 실제로는 14% 적은 데 그쳤다. 배터리 모드로 달린 거리의 약 3분의 1에서도 엔진이 돌았던 것이 주요 원인이다. 올여름 ICCT의 약 800만 대 분석도 비슷하게 약 5배라는 결과를 냈다.",
+  "EU는 전기 주행 비율을 정하는 '유틸리티 팩터'를 고쳐 왔고, 제조사들은 배터리를 키워 대응했다. 폭스바겐 티구안은 전기 주행거리를 55km에서 119km로 늘렸다. T&E는 유틸리티 팩터를 2025/26년 수준으로 묶으면 실제 배출이 여전히 56% 과소평가된다며 동결에 반대했다."
+ ],
+ "keyPoints": [
+  "2024년 PHEV 실제 CO2, 공식치의 약 6배",
+  "전기 모드 주행 3분의 1에서도 엔진 작동",
+  "T&E \"유틸리티 팩터 동결하면 56% 과소평가\""
+ ],
+ "image": "https://www.electrive.com/media/2026/10/auspuff-co2-verbrenner-hyundai-symbolbild.jpeg",
+ "facts": [
+  [
+   "발표 기관",
+   "T&E(유럽환경청 자료 분석)"
+  ],
+  [
+   "결과",
+   "2024년 PHEV 실제 CO2 공식치의 약 6배"
+  ],
+  [
+   "추가 연료비",
+   "연평균 680유로"
+  ],
+  [
+   "관련 연구",
+   "ICCT 약 800만 대 분석(2023년 약 5배)"
+  ]
+ ],
+ "id": "261017-car-11",
+ "category": "car",
+ "collectedAt": "2026-10-17T02:35:41+09:00"
+}

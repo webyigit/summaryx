@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>맥락을 빼도 효과가 남게… 프롬프트 효과를 모델 안에 새기는 Cortex | summaryx</title>
+<meta name="description" content="LLM에 추가 맥락을 주면 성능이 좋아지지만, 그 맥락을 빼면 효과도 사라진다. 연구진은 생물의 기억 공고화에서 착안해, 맥락이 준 이득을 다른 능력은 해치지 않으면서 모델 가중치에 심는 과정을 &#x27;기억 공고화(MC)&#x27;로 정의했다. 맥락 기반 편집, 기술 학습, 행동 조">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="맥락을 빼도 효과가 남게… 프롬프트 효과를 모델 안에 새기는 Cortex">
+<meta property="og:description" content="LLM에 추가 맥락을 주면 성능이 좋아지지만, 그 맥락을 빼면 효과도 사라진다. 연구진은 생물의 기억 공고화에서 착안해, 맥락이 준 이득을 다른 능력은 해치지 않으면서 모델 가중치에 심는 과정을 &#x27;기억 공고화(MC)&#x27;로 정의했다. 맥락 기반 편집, 기술 학습, 행동 조">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261017-paper-05">
+<script>location.replace('../../#/a/261017-paper-05');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261017-paper-05">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">맥락을 빼도 효과가 남게… 프롬프트 효과를 모델 안에 새기는 Cortex</h1>
+<p>LLM에 추가 맥락을 주면 성능이 좋아지지만, 그 맥락을 빼면 효과도 사라진다. 연구진은 생물의 기억 공고화에서 착안해, 맥락이 준 이득을 다른 능력은 해치지 않으면서 모델 가중치에 심는 과정을 &#x27;기억 공고화(MC)&#x27;로 정의했다. 맥락 기반 편집, 기술 학습, 행동 조정을 하나의 목표로 묶은 셈이다.</p><p>다섯 가지 과제군으로 공고화 성공도와 기존 능력 유지도를 함께 재는 시험대를 만들고, 단일·묶음·연속 업데이트 세 방식을 다뤘다. 제안 방법 Cortex는 맥락이 쓰일 만한 질문을 미리 만든 뒤, 맥락을 줬을 때의 출력을 저랭크 업데이트나 FFN 층 구조 업데이트로 증류해 모델에 합친다.</p><p>4B~120B 규모의 밀집·MoE, 텍스트·멀티모달 모델 대부분 설정에서 공고화-유지 균형이 가장 좋은 쪽에 있었다. 14B 모델에 사실 편집을 50번 연속 했을 때 Cortex-Structural은 맥락 이득의 88.9%를 되살리면서 다른 과제 성능은 99.8% 유지했다.</p>
+<p><a href="https://arxiv.org/abs/2610.20399">원문 보기</a></p>
+</body></html>
