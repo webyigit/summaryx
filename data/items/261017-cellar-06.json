@@ -1,0 +1,39 @@
+{
+ "title": "'UV 없는 조명'도 와인을 상하게 한다… 셀러 조명은 370~450nm까지 막아야",
+ "originalTitle": "Wine Display Lighting UV Rating Requirements: Architectural Preservation Standards",
+ "source": "Rosehill Wine Cellars",
+ "url": "https://rosehillwinecellars.com/blogs/rwc-journal/wine-display-lighting-uv-rating-requirements-architectural-preservation-standards",
+ "publishedAt": "2026-09-23",
+ "summary": [
+  "로즈힐 와인 셀러스가 와인 진열 조명의 기준을 정리했다. 'UV 없음'으로 팔리는 조명도 와인에 '빛 손상(lightstrike)'을 일으킬 수 있어, 자외선뿐 아니라 370~450nm 파장대 전체를 관리해야 한다는 주장이다. 와인 속 리보플래빈이 약 370nm와 446nm 빛을 흡수해 황 화합물을 만들고, 젖은 양털·양배추 같은 냄새가 나며 이 반응은 밀봉된 병 안에서도 일어난다.",
+  "투명 병은 주변 자외선의 70~75%를 통과시키고 초록 병도 보호가 제한적이며 갈색 병이 낫지만, 병보다 광원을 관리하는 것이 우선이라고 했다. 햇빛 아래에서는 투명 병이 약 3시간, 초록 병이 약 18시간이면 상할 수 있다고 소개했다. 상시 진열 조도는 50럭스 미만, 점검 작업은 짧게 최대 200럭스, 색온도 2700~3000K와 연색지수 90 이상을 권했다.",
+  "동작 감지 센서로 병이 95% 이상 시간 동안 어둠에 있게 하고, 조명 전원 장치는 단열 공간 밖에 두며 24V 저전압 배선을 쓰라는 조언도 있다. 100W 조명은 시간당 약 341BTU의 열을 더하므로 셀러 온도(약 55°F) 유지에도 영향을 준다. 업체가 자사 시공 서비스를 함께 소개한다."
+ ],
+ "keyPoints": [
+  "리보플래빈이 370·446nm 빛 흡수해 이취 발생",
+  "상시 진열 조도 50럭스 미만 권장",
+  "투명 병은 햇빛 약 3시간이면 손상 가능"
+ ],
+ "facts": [
+  [
+   "관리 파장",
+   "370~450nm(420nm 미만 방출 0 권장)"
+  ],
+  [
+   "조도",
+   "상시 진열 50럭스 미만, 점검 최대 200럭스"
+  ],
+  [
+   "색온도·연색",
+   "2700~3000K, CRI 90 이상"
+  ],
+  [
+   "출처 성격",
+   "셀러 업체 블로그(자사 제품·서비스 소개 포함)"
+  ]
+ ],
+ "image": "https://rosehillwinecellars.com/cdn/shop/articles/wine-display-lighting-uv-rating-requirements-architectural-preservation-standards.jpg?v=1790159178&width=2048",
+ "category": "cellar",
+ "id": "261017-cellar-06",
+ "collectedAt": "2026-10-17T06:35:04+09:00"
+}

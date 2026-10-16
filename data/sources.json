@@ -1629,6 +1629,15 @@
    "keywords": [
     "웹툰 애니메이션"
    ]
+  },
+  {
+   "name": "톱스타뉴스",
+   "url": "https://www.topstarnews.net/",
+   "keywords": [
+    "극장판",
+    "애니메이션 개봉",
+    "특전"
+   ]
   }
  ],
  "sports": [
@@ -1683,6 +1692,24 @@
     "프로농구",
     "골프",
     "빙상"
+   ]
+  },
+  {
+   "name": "SPOTV NEWS 야구",
+   "url": "https://www.spotvnews.co.kr/news/articleList.html?sc_section_code=S1N2&view_type=sm",
+   "keywords": [
+    "KBO",
+    "준플레이오프",
+    "해외파"
+   ]
+  },
+  {
+   "name": "SPOTV NEWS 해외축구",
+   "url": "https://www.spotvnews.co.kr/news/articleList.html?sc_section_code=S1N5&view_type=sm",
+   "keywords": [
+    "유로파리그",
+    "해외파",
+    "손흥민"
    ]
   }
  ],
@@ -3557,6 +3584,22 @@
     "grape variety",
     "buyer's guide"
    ]
+  },
+  {
+   "name": "Vinetur - Learning",
+   "url": "https://www.vinetur.com/en/learning/",
+   "keywords": [
+    "Sangiovese",
+    "grape variety"
+   ]
+  },
+  {
+   "name": "Vinography - Wine News 주간 읽을거리",
+   "url": "https://www.vinography.com/",
+   "keywords": [
+    "What I'm Reading",
+    "grape"
+   ]
   }
  ],
  "winery": [
@@ -3724,6 +3767,15 @@
    "keywords": [
     "decanting",
     "John Wilson"
+   ]
+  },
+  {
+   "name": "JancisRobinson.com (Learn: How to store wine)",
+   "url": "https://www.jancisrobinson.com/learn/drinking-wine/how-to-store-wine",
+   "keywords": [
+    "wine storage",
+    "cellar",
+    "temperature"
    ]
   }
  ],
