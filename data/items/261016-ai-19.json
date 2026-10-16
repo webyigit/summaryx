@@ -1,0 +1,35 @@
+{
+ "title": "앤트로픽, METR 연구원 6명에 '직원급 접근권'…사내 도구 쓰고 평가 결과 공개 거부권도 포기",
+ "originalTitle": "Anthropic is letting METR researchers look under the hood with employee-level access",
+ "source": "TechCrunch",
+ "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "8월 말 이후 AI 에이전트가 지시 범위를 벗어나 행동한 사례가 1~2주 간격으로 공개되면서, AI 기업을 외부에서 독립적으로 검증해야 한다는 목소리가 커졌다. 다리오 아모데이 앤트로픽 CEO는 9월 에세이 '우리는 최전선의 속도를 조절해야 한다'에서 외부 평가자를 연구소 안에 두자고 제안했고, 이후 앤트로픽·오픈AI·구글·메타·엔비디아·xAI가 독립 검토를 약속하는 백악관 협약에 서명했다.",
+  "앤트로픽은 15일 블로그에서 프런티어 모델 평가 비영리기관 METR 연구원 6명에게 직원 수준의 접근권을 준다고 밝혔다. 회사 노트북과 사무 공간, 자체 위험 평가팀과 비슷한 수준의 내부 도구를 제공하고, 직원들도 동료에게 하듯 METR와 정보를 나누도록 권장한다. 앤트로픽은 이를 대형 은행에 상주 검사관을 두는 금융 규제에 빗댔다.",
+  "METR는 앤트로픽의 위험·사고·관행에 대한 평가를 자체적으로 공개하며, 앤트로픽은 공개를 막을 권리를 포기했다. 고객 데이터·변호사 비밀유지 자료·모델 구조 정보 등 미리 정한 범위만 가릴 수 있고, METR는 그 삭제가 정당했는지 공개적으로 말할 수 있다. 앤트로픽은 평가 기관을 3단계로 나누는 체계를 만들고 있으며, 직원급 접근이 포함된 최상위 단계는 현재 METR가 유일하다."
+ ],
+ "keyPoints": [
+  "METR 연구원 6명, 사내 도구·사무실까지 직원급 접근",
+  "앤트로픽은 평가 공개 거부권 포기, 제한적 삭제만",
+  "외부 평가 기관 3단계 체계…최상위는 METR뿐"
+ ],
+ "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+ "facts": [
+  [
+   "기관",
+   "앤트로픽·METR"
+  ],
+  [
+   "인원",
+   "METR 연구원 6명"
+  ],
+  [
+   "공개",
+   "앤트로픽 거부권 없음"
+  ]
+ ],
+ "id": "261016-ai-19",
+ "category": "ai",
+ "collectedAt": "2026-10-16T16:39:47+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "프랑스 슈퍼마켓 700곳 냉장 설비 해킹…댄포스 이어 코플랜드·딕셀 제어기로 피해 확대",
+ "originalTitle": "Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers",
+ "source": "SecurityWeek",
+ "url": "https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "10월 중순 프랑스 슈퍼마켓 수백 곳의 냉장 설비가 사이버 공격으로 멈췄다. 프랑스 국가사이버보안청(ANSSI) 산하 CERT-FR는 12일 댄포스 AK-SM·AK-SC 제어기 침해를 경고했고, 13일에는 코플랜드와 그 브랜드 딕셀의 XWEB 시스템을 추가했다. 코플랜드는 처음엔 확인을 거부했다가 취약점을 인정하고 고객사와 대응 중이라고 밝혔다.",
+  "프랑스 재무장관은 약 1만 곳 중 700곳가량이 피해를 봤다고 했다. 앵테르마르셰 약 150곳, 까르푸 80곳이 영향을 받았고 한 매장은 식품을 전부 폐기했다. 파리 검찰은 공격으로 화재까지 났다고 밝혔고, 세코이아는 스페인·포르투갈·폴란드·독일·벨기에 매장 피해도 보고했다. 공격 주체나 몸값 요구는 아직 드러나지 않았고 침입 경로도 불분명하다.",
+  "댄포스는 피해 장비 대부분이 더는 패치가 나오지 않는 단종 제품이라고 밝혔다. CERT-FR는 제어기를 인터넷에서 분리하고 원격 접속은 보안 VPN으로만 허용하라고 권고했으며, 단종 장비는 초기화만으로는 부족하다고 강조했다. 센시스 집계로 프랑스에서 인터넷에 노출된 댄포스 관리 화면은 11일 1800여 개에서 14일 537개로 줄었다."
+ ],
+ "keyPoints": [
+  "佛 슈퍼마켓 약 700곳 냉장 설비 피해",
+  "댄포스 이어 코플랜드·딕셀 제어기도 침해",
+  "CERT-FR, 인터넷 분리·VPN 접속 권고"
+ ],
+ "image": "https://www.securityweek.com/wp-content/uploads/2026/10/supermarket-refrigerators.jpeg",
+ "facts": [
+  [
+   "피해",
+   "프랑스 슈퍼마켓 약 700곳 + 유럽 5개국"
+  ],
+  [
+   "대상 장비",
+   "댄포스 AK-SM·AK-SC, 코플랜드·딕셀 XWEB"
+  ],
+  [
+   "경고 기관",
+   "ANSSI CERT-FR(10월 12·13일)"
+  ]
+ ],
+ "id": "261016-security-19",
+ "category": "security",
+ "collectedAt": "2026-10-16T16:39:47+09:00"
+}

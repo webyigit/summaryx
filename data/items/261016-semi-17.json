@@ -1,0 +1,39 @@
+{
+ "title": "삼성, 갤럭시 디스플레이 구동칩 UMC 독점 깬다…글로벌파운드리 추가 검토, 성숙 공정 부족 탓",
+ "originalTitle": "Samsung May End UMC's Galaxy DDI Exclusivity by Adding GlobalFoundries as Mature-Node Capacity Tightens",
+ "source": "TrendForce",
+ "url": "https://www.trendforce.com/news/2026/10/16/news-samsung-may-end-umcs-galaxy-ddi-exclusivity-by-adding-globalfoundries-as-mature-node-capacity-tightens/",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "삼성전자가 갤럭시 OLED 스마트폰에 들어가는 디스플레이 구동칩(DDI)의 두 번째 생산처로 글로벌파운드리를 검토하고 있다고 트렌드포스가 지디넷코리아 보도를 인용해 전했다. 그동안 이 칩은 대만 UMC가 사실상 독점 생산해 왔다. 글로벌파운드리의 22·28나노 공정과 싱가포르·독일 공장이 후보로 거론되며, 이르면 2027년 말 갤럭시 A 시리즈 같은 중저가 모델부터 적용될 수 있다.",
+  "배경에는 2025년 하반기부터 이어진 성숙 공정 공급 부족이 있다. 7월 공개된 갤럭시 Z 폴드8 수요가 예상을 넘자 삼성이 UMC에 DDI 긴급 증산을 요청했지만, 22나노 DDI 생산능력이 꽉 차 대응하지 못했다. 삼성은 9월 폴드8 부품 생산 계획을 10% 줄여 10월로 미뤘다고 한다.",
+  "파운드리 업계는 전력반도체·인터포저·광통신 부품 등 마진 높은 AI 관련 제품으로 생산능력을 옮기면서 DDI·이미지센서 몫을 줄이고 있다. 일부 12인치 성숙 공정 가격은 2~3분기에 5~10% 올랐고 2027년에는 더 폭넓은 인상이 예상된다. 다만 삼성·UMC·글로벌파운드리 누구도 공식 확인하지 않은 업계 전언이다."
+ ],
+ "keyPoints": [
+  "갤럭시 DDI 2차 공급처로 글로벌파운드리 검토",
+  "폴드8 수요 급증에 UMC 22나노 증산 실패",
+  "성숙 공정 가격 5~10% 상승, 2027년 추가 인상"
+ ],
+ "image": "https://img.trendforce.com/blog/wp-content/uploads/2026/10/14155333/Samsung-Galaxy-Z-Fold8-Ultra-Galaxy-Z-Fold8-Galaxy-Z-Flip8-20261014-624x310.jpg",
+ "facts": [
+  [
+   "기업",
+   "삼성전자·UMC·글로벌파운드리"
+  ],
+  [
+   "대상",
+   "갤럭시 OLED용 DDI(22·28나노)"
+  ],
+  [
+   "적용 시점",
+   "이르면 2027년 말(갤럭시 A 우선)"
+  ],
+  [
+   "원출처",
+   "지디넷코리아(업계 관계자)"
+  ]
+ ],
+ "id": "261016-semi-17",
+ "category": "semi",
+ "collectedAt": "2026-10-16T16:39:47+09:00"
+}

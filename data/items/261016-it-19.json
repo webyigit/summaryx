@@ -1,0 +1,39 @@
+{
+ "title": "E Ink '칼레이도 4' 발표…색 영역 2배·4만 색, 영상 18fps로 컬러 전자책 한 단계 진화",
+ "originalTitle": "E Ink's new Kaleido 4 could inch us closer to the perfect color e-reader",
+ "source": "Engadget",
+ "url": "https://www.engadget.com/2288006/e-ink-kaleido-4-could-inch-us-closer-to-the-perfect-color-e-reader/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "전자종이 업체 E Ink가 컬러 전자종이 기술의 새 세대 '칼레이도(Kaleido) 4'를 발표했다. 아마존·코보·북스 등 주요 전자책 브랜드가 E Ink 화면을 쓰는 만큼, 차세대 컬러 전자책 단말기와 필기 태블릿의 화면 품질을 가늠할 기술이다.",
+  "E Ink에 따르면 칼레이도 4는 색 영역(볼륨)을 두 배로 넓혀 4만 가지 이상의 색을 표현하고, 흰색 반사율과 명암비도 높였다. 디스플레이 구조에 산화물 백플레인을 더해 전자종이의 약점이던 화면 갱신 속도를 개선했고, 초당 18프레임으로 영상도 보여줄 수 있다. 일반 스마트폰 OLED의 120Hz에는 크게 못 미치지만 전자종이로서는 의미 있는 수치다. 아마존도 초기 킨들 컬러소프트의 칼레이도 화면에 비슷한 산화물 백플레인 변경을 적용했다고 밝힌 바 있다.",
+  "칼레이도는 흑백 안료 위에 컬러 필터를 얹는 방식이라 흑백 전자종이보다 글자가 흐릿해 보이는 한계가 있어, 일부 기기는 색 안료를 직접 쓰는 '갤러리 3'을 택하기도 한다. 현재 칼레이도 4를 공식 탑재한 기기는 중국에서만 파는 한왕(Hanvon)의 'M10 C II' 하나뿐이고, 이전 세대와의 직접 비교도 아직 이뤄지지 않아 실제 개선 폭은 제품이 늘어나야 확인될 전망이다."
+ ],
+ "keyPoints": [
+  "색 영역 2배, 4만 색 이상 표현",
+  "산화물 백플레인으로 갱신 속도 개선, 영상 18fps",
+  "탑재 기기는 아직 중국 한왕 M10 C II뿐"
+ ],
+ "image": "https://www.engadget.com/img/gallery/e-inks-new-kaleido-4-could-inch-us-closer-to-the-perfect-color-e-reader/l-intro-1792089646.jpg",
+ "facts": [
+  [
+   "기업",
+   "E Ink"
+  ],
+  [
+   "기술",
+   "Kaleido 4 컬러 전자종이"
+  ],
+  [
+   "주요 사양",
+   "4만 색 이상, 영상 18fps"
+  ],
+  [
+   "첫 탑재 기기",
+   "한왕 M10 C II(중국 한정)"
+  ]
+ ],
+ "id": "261016-it-19",
+ "category": "it",
+ "collectedAt": "2026-10-16T16:39:47+09:00"
+}

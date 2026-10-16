@@ -1,0 +1,39 @@
+{
+ "title": "리눅스 커널 치명적 결함 '폰이스케이프'…가상머신 안에서 호스트 메모리 읽혀, 패치 배포",
+ "originalTitle": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+ "source": "The Hacker News",
+ "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "리눅스 커널 네트워킹 코드에서 게스트 가상머신(VM) 안의 코드가 호스트 메모리를 읽을 수 있는 치명적 결함(CVE-2026-99999, 별칭 '폰이스케이프')이 공개됐다. 보안업체 pwn.ai의 파울로스 이베로가 8월 버셀(Vercel) 보안 챌린지에서 찾아 비공개로 먼저 제보했다. 심각도는 10점 만점에 9.3점이다.",
+  "버셀은 실제 운영 샌드박스에서 메모리 읽기가 가능함을 확인했고, 연구자는 버셀과 같은 환경을 꾸민 실험실에서 호스트 다운과 코드 실행까지 보여 줬다. 다만 버셀은 고객 파일·비밀값·데이터 접근 사례는 없었다고 밝혔다. 결함이 특정 업체 설정이 아니라 공용 커널 코드에 있어, 같은 커널 계층으로 고객을 나누는 다른 클라우드도 영향을 받을 수 있다. 공격하려면 먼저 게스트 안에서 코드를 실행해야 하고, 실제 악용 보고는 아직 없다.",
+  "수정은 레드햇 마이클 치르킨이 작성한 커밋으로 안정 버전에 반영됐으며, 5.10.272·5.15.223·6.1.190·6.6.159·6.12.113·6.18.57·7.2.11부터 고쳐졌다. 게스트가 아니라 호스트 커널을 업데이트하고 재부팅해야 하며, 배포판은 버전 번호를 바꾸지 않고 고칠 수 있어 업체 공지를 확인해야 한다."
+ ],
+ "keyPoints": [
+  "게스트 VM에서 호스트 메모리 읽기 가능, 9.3점",
+  "공용 커널 코드라 여러 클라우드 영향 가능",
+  "호스트 커널 업데이트·재부팅 필요"
+ ],
+ "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0Y0ZP5acV4vjjJV9at7yMnz0frJTAeLd3nGmqMIcifTwGoe2NsB7pDInUjGa6aocyqoM3o-NyXKpsfyy1LRdkH5UG67UVYC_lNZDYArvg-hkmtifcalWo67Mkl3A4_2qwXomi7iJURUjoiSlBdEWtJL5N63jfuMDjI7ewZHLlTZBXlkc4zqwyxKox7eE/s1600/pwnescape-main.jpg",
+ "facts": [
+  [
+   "취약점",
+   "CVE-2026-99999(PwnEscape)"
+  ],
+  [
+   "심각도",
+   "9.3(치명적)"
+  ],
+  [
+   "발견",
+   "pwn.ai 파울로스 이베로"
+  ],
+  [
+   "악용",
+   "보고 없음"
+  ]
+ ],
+ "id": "261016-security-18",
+ "category": "security",
+ "collectedAt": "2026-10-16T16:39:47+09:00"
+}

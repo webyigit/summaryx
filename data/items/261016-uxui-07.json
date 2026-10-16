@@ -1,0 +1,35 @@
+{
+ "title": "AI로 만든 무료 '어도비 복제 앱' 7종…디자인 툴의 '냅스터 모먼트'인가",
+ "originalTitle": "AI just cloned Adobe's apps for free. Is this design software's Napster moment?",
+ "source": "Creative Boom",
+ "url": "https://www.creativeboom.com/news/ai-just-cloned-adobes-apps-for-free-is-this-design-softwares-napster-moment/",
+ "publishedAt": "2026-10-13",
+ "summary": [
+  "개발자 브랜던 토머스가 'ArtCraft'라는 이름으로 포토샵·일러스트레이터·프리미어·라이트룸·애프터 이펙트·인디자인·아크로뱃 프로의 화면과 도구를 재현한 무료 오픈소스 앱 7종을 공개했다. 기사에 따르면 그는 앤트로픽의 AI 모델로 앱을 만들었고, 스크린숏상 원본과 매우 비슷하다.",
+  "토머스는 어도비 구독을 해지하려다 조기 해지 수수료를 낸 데 불만을 품고 프로젝트를 시작했다며 'AI로 소프트웨어를 오픈소스로 다시 만들어 광고를 걷어내고 독립적인 웹으로 돌아갈 수 있다'고 주장했다.",
+  "크리에이티브 붐의 톰 메이는 1999년 등장해 2년 만에 문을 닫았지만 음반 산업을 영구히 바꾼 냅스터에 빗대며, 크리에이티브 소프트웨어 개발 비용이라는 어도비의 진입장벽을 AI가 허물 수 있는지 물었다. 그는 구독 피로를 언급하며 소프트웨어 기업이 락인보다 서비스로 충성도를 얻어야 한다고 봤지만, 결과는 '솔직히 모르겠다'고 했다."
+ ],
+ "keyPoints": [
+  "ArtCraft, 어도비 앱 7종 무료 오픈소스 복제",
+  "AI 모델로 개발, 구독 해지 수수료가 계기",
+  "AI가 디자인 툴 진입장벽 허무나 논쟁"
+ ],
+ "image": "https://media.creativeboom.com/ea9102c9-4b4c-48bc-86eb-55b602eb4998/conversions/d3512325f6d35bc3e8f339b9f1c502523afe0d4f-medium.webp",
+ "facts": [
+  [
+   "개발자",
+   "브랜던 토머스"
+  ],
+  [
+   "프로젝트",
+   "ArtCraft(무료 오픈소스 7종)"
+  ],
+  [
+   "대상",
+   "어도비 크리에이티브 앱"
+  ]
+ ],
+ "id": "261016-uxui-07",
+ "category": "uxui",
+ "collectedAt": "2026-10-16T16:39:47+09:00"
+}

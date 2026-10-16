@@ -1,0 +1,35 @@
+{
+ "title": "\"테슬라, AI5·AI6 단가 압박에 팹 정보 요구\"…국내 반도체 엔지니어 주장에 삼성-테라팹 긴장",
+ "originalTitle": "Korean Chip Engineer Accuses Tesla of Pressuring Samsung on AI5/AI6 Pricing, Poaching Talent for Terafab",
+ "source": "TrendForce",
+ "url": "https://www.trendforce.com/news/2026/10/16/news-korean-chip-engineer-accuses-tesla-of-pressuring-samsung-on-ai5ai6-pricing-poaching-talent-for-terafab/",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "한국의 한 반도체 엔지니어가 X 계정(@TTHUEONE)에 테슬라가 AI5·AI6 칩 계약과 관련해 삼성전자에 내부 팹 정보 접근과 감사 권한을 요구하면서 파운드리 가격을 깎으려 했다고 주장했다. 테슬라 반도체 공장 '테라팹'이 삼성 텍사스 테일러 팹 인력을 다수 빼갔고, TSMC가 테슬라 요구를 들어주지 않아 삼성으로 왔다는 주장도 했다. 트렌드포스는 이를 검증되지 않은 주장이라고 전했다.",
+  "트렌드포스가 모은 국내 보도에 따르면 테라팹 예정지는 테일러 공장에서 차로 30분 거리라 인력·장비 경쟁 우려가 나왔고, 머스크가 테일러에 개인 사무실을 두고 AI6 생산에 직접 관여하면 삼성 2나노 운영 정보가 테라팹으로 흘러갈 수 있다는 지적도 있다. 삼성은 2027년 2나노 양산을 앞두고 한국 수율 엔지니어를 파견하고 현지 채용을 늘리고 있으며, 9월부터 테일러에서 AI5 시험 생산과 수율 검증을 진행 중이다.",
+  "머스크는 최근 마이크론의 메모리 가격이 합리적이고 다른 곳은 과도하다고 말해 삼성을 겨냥했다는 해석을 낳았다. TSMC 웨이 회장은 테라팹 협의를 인정하면서도 TSMC가 참여하는 팹은 직접 운영해야 한다고 선을 그었다. 테슬라 물량이 테일러 팹 초기 가동률을 받쳐 줄 핵심인 만큼 TSMC의 테라팹 참여 여부가 삼성 수주에 변수가 될 전망이다."
+ ],
+ "keyPoints": [
+  "엔지니어 \"테슬라, 단가 압박·팹 감사권 요구\"",
+  "테라팹, 테일러 팹 인력 영입 의혹(미검증)",
+  "삼성 테일러, AI5 시험 생산·2027년 2나노 양산"
+ ],
+ "image": "https://img.trendforce.com/blog/wp-content/uploads/2026/07/02184636/Elon-Musk-Optimus-20260702_-624x468.jpg",
+ "facts": [
+  [
+   "기업",
+   "테슬라·삼성전자·TSMC"
+  ],
+  [
+   "쟁점",
+   "AI5·AI6 파운드리 계약, 테라팹 인력 영입"
+  ],
+  [
+   "성격",
+   "미검증 개인 주장 + 국내 보도 종합"
+  ]
+ ],
+ "id": "261016-semi-16",
+ "category": "semi",
+ "collectedAt": "2026-10-16T16:39:47+09:00"
+}
