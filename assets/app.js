@@ -568,6 +568,110 @@
     });
   }
 
+  // ---- AI Wiki: AI 용어 사전(data/aiwiki.json). 검색은 용어·영문·별칭·설명 전체에서 찾는다 ----
+  var wiki = null, wikiQ = '', wikiG = '';
+  function wikiLoad(cb) {
+    if (wiki) { cb(); return; }
+    if (wikiLoad._p) { wikiLoad._p.then(cb); return; }
+    wikiLoad._p = fetchJson('data/aiwiki.json').then(function (d) {
+      d.byId = {}; d.gName = {};
+      d.groups.forEach(function (g) { d.gName[g.id] = g.name; });
+      d.terms.forEach(function (t) {
+        d.byId[t.id] = t;
+        t._k = [t.term, t.en, (t.aka || []).join(' ')].join(' ').toLowerCase();
+        t._s = [t._k, t.short, (t.body || []).join(' '), t.example || ''].join(' ').toLowerCase();
+      });
+      d.terms.sort(function (a, b) { return a.term.localeCompare(b.term, 'ko'); });
+      wiki = d;
+    });
+    wikiLoad._p.then(cb).catch(function () {
+      wikiLoad._p = null;
+      $list.innerHTML = '<div class="sec-title">AI Wiki</div><div class="empty">AI Wiki를 불러오지 못했어요.</div>';
+    });
+  }
+  function wikiFind(q, g) {
+    var ws = (q || '').toLowerCase().split(/\s+/).filter(Boolean);
+    var res = wiki.terms.filter(function (t) {
+      if (g && t.group !== g) return false;
+      return ws.every(function (w) { return t._s.indexOf(w) >= 0; });
+    });
+    if (ws.length) {
+      // 용어 이름·영문·별칭에 맞는 항목을 먼저
+      var hit = function (t) { return ws.every(function (w) { return t._k.indexOf(w) >= 0; }) ? 1 : 0; };
+      res = res.filter(hit).concat(res.filter(function (t) { return !hit(t); }));
+    }
+    return res;
+  }
+  function wikiItem(t) {
+    return '<a class="item wterm" href="#/wiki/t/' + esc(t.id) + '" data-w="' + esc(t.id) + '">' +
+      '<div class="meta"><span class="tag">' + esc(wiki.gName[t.group] || '') + '</span></div>' +
+      '<h3>' + esc(t.term) + (t.en ? ' <small>' + esc(t.en) + '</small>' : '') + '</h3>' +
+      '<p>' + esc(t.short) + '</p></a>';
+  }
+  function wikiResults() {
+    var res = wikiFind(wikiQ, wikiG), $r = document.getElementById('wres');
+    if (!$r) return res;
+    $r.innerHTML = '<div class="day">' + (wikiQ ? '‘' + esc(wikiQ) + '’ ' : '') + (wikiG ? esc(wiki.gName[wikiG]) + ' ' : '') + res.length + '개 용어</div>' +
+      (res.length ? '<div class="list">' + res.map(wikiItem).join('') + '</div>'
+                  : '<div class="empty">맞는 용어가 없어요.<br><br><a href="#/search/' + encodeURIComponent(wikiQ) + '">기사에서 ‘' + esc(wikiQ) + '’ 찾기</a></div>');
+    wikiActive();
+    return res;
+  }
+  function wikiView() {
+    renderChips(null);
+    if (!wiki) { $list.innerHTML = '<div class="sec-title">AI Wiki</div><div class="empty">불러오는 중…</div>'; wikiLoad(function () { if (location.hash.indexOf('#/wiki') === 0) route(); }); return; }
+    $list.innerHTML = '<div class="sec-title">AI Wiki<small>' + wiki.terms.length + '개 용어</small></div>' +
+      '<div class="rule">AI 뉴스를 읽을 때 자주 나오는 말을 쉽게 풀었어요. 용어를 누르면 설명과 관련 기사로 이어져요.</div>' +
+      '<form class="sbox" id="wform"><input id="wq" type="search" enterkeyhint="search" placeholder="용어·영문·설명 검색 (예: RAG, 환각)" value="' + esc(wikiQ) + '" autocomplete="off">' +
+      '<button type="submit">검색</button></form>' +
+      '<div class="subs wgroups"><a href="#" class="sub' + (wikiG ? '' : ' on') + '" data-g="">전체</a>' +
+      wiki.groups.map(function (g) {
+        var n = wiki.terms.filter(function (t) { return t.group === g.id; }).length;
+        return '<a href="#" class="sub' + (wikiG === g.id ? ' on' : '') + '" data-g="' + esc(g.id) + '">' + esc(g.name) + ' ' + n + '</a>';
+      }).join('') + '</div><div id="wres"></div>';
+    wikiResults();
+    var $q = document.getElementById('wq');
+    $q.addEventListener('input', function () { wikiQ = $q.value.trim(); wikiResults(); });
+    document.getElementById('wform').addEventListener('submit', function (e) { e.preventDefault(); wikiQ = $q.value.trim(); wikiResults(); $q.blur(); });
+    $list.querySelectorAll('.wgroups .sub').forEach(function (b) {
+      b.addEventListener('click', function (e) {
+        e.preventDefault(); wikiG = b.getAttribute('data-g');
+        $list.querySelectorAll('.wgroups .sub').forEach(function (x) { x.classList.toggle('on', x === b); });
+        wikiResults();
+      });
+    });
+  }
+  function wikiActive() {
+    if (!WIDE.matches) return;
+    var m = location.hash.match(/^#\/wiki\/t\/(.+)$/), id = m ? decodeURIComponent(m[1]) : null;
+    $list.querySelectorAll('.wterm').forEach(function (el) { el.classList.toggle('active', el.getAttribute('data-w') === id); });
+  }
+  function wikiDetail(id) {
+    if (!WIDE.matches) $chips.style.display = 'none';
+    if (!wiki) { $det.innerHTML = '<div class="empty">불러오는 중…</div>'; wikiLoad(function () { wikiDetail(id); wikiActive(); }); return; }
+    var t = wiki.byId[id];
+    if (!t) { $det.innerHTML = '<div class="empty">용어를 찾을 수 없어요.<br><br><a href="#/wiki">AI Wiki로</a></div>'; return; }
+    var kw = (t.aka && t.aka[0]) || t.term;
+    $det.innerHTML = '<article class="detail wiki">' +
+      '<a class="back" href="#/wiki">‹ AI Wiki</a>' +
+      '<div class="meta"><span class="tag">AI Wiki · ' + esc(wiki.gName[t.group] || '') + '</span></div>' +
+      '<h1>' + esc(t.term) + '</h1>' +
+      (t.en || (t.aka && t.aka.length) ? '<p class="orig">' + esc([t.en].concat(t.aka || []).filter(Boolean).join(' · ')) + '</p>' : '') +
+      '<div class="points"><b>한 줄 정의</b><p>' + esc(t.short) + '</p></div>' +
+      '<div class="body">' + (t.body || []).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') + '</div>' +
+      (t.example ? '<div class="fit"><b>예</b>' + esc(t.example) + '</div>' : '') +
+      ((t.related || []).length ? '<div class="sh"><b>함께 보면 좋은 용어</b></div><div class="badges">' +
+        t.related.filter(function (r) { return wiki.byId[r]; }).map(function (r) {
+          return '<a class="badge" href="#/wiki/t/' + esc(r) + '">' + esc(wiki.byId[r].term) + '</a>';
+        }).join('') + '</div>' : '') +
+      ((t.refs || []).length ? '<div class="sh"><b>더 읽을거리</b></div><ul class="alinks">' + t.refs.map(function (r) {
+        return '<li><a href="' + esc(r.url) + '" target="_blank" rel="noopener">' + esc(r.title) + '</a></li>';
+      }).join('') + '</ul>' : '') +
+      '<a class="cta" href="#/search/' + encodeURIComponent(kw) + '">‘' + esc(kw) + '’ 관련 기사 보기</a>' +
+      '<div class="note">summaryx가 정리한 용어 설명이에요(기준일 ' + esc(wiki.updatedAt || '') + '). 최신 소식은 관련 기사에서 확인하세요.</div>' +
+      '</article>';
+  }
+
   // ---- 검색 ----
   var searches = load('searches', []); // 최근 검색어(최신순)
   var STOP = ' 공개 출시 시작 만에 추진 올해 2026 2027 2027년 10월 11월 12월 9월 동시 도입 조건 마지막 세계 돌파 추가 기반 최초 개막 한국 만든 다시 만의 이상 앞두고 지원 진출 반등 위해 위한 이후 첫 관련 통해 발표 공식 사상 새로운 가장 역대 확인 기록 계획 예정 1위 처음 대해 분기 함께 따라 넘어 이유 중인 이번 ';
@@ -624,6 +728,11 @@
       var flat = [];
       groups.forEach(function (g) { flat = flat.concat(g.items); });
       setCtx(flat, '#/search/' + encodeURIComponent(q));
+      if (wiki) {
+        var wr = wikiFind(q).slice(0, 8);
+        if (wr.length) html += '<div class="sh"><b>AI Wiki 용어</b><small>' + wr.length + '개</small></div><div class="badges">' +
+          wr.map(function (t) { return '<a class="badge" href="#/wiki/t/' + esc(t.id) + '">📘 ' + esc(t.term) + '</a>'; }).join('') + '</div>';
+      } else wikiLoad(function () { if (decodeURIComponent(location.hash) === '#/search/' + q) searchView(q); });
       html += '<div class="sec-title">‘' + esc(q) + '’ 검색 결과<small>' + res.length + '건</small></div>';
       if (!res.length) html += '<div class="empty">검색 결과가 없어요. 다른 단어로 찾아보세요.</div>';
       else {
@@ -789,6 +898,7 @@
     if (parts[0] === 'bookmarks') { setTab('bookmarks'); bookmarksView(); return; }
     if (parts[0] === 'links') { setTab('links'); linksView(); return; }
     if (parts[0] === 'sources') { setTab('sources'); sourcesView(); return; }
+    if (parts[0] === 'wiki') { setTab('wiki'); wikiView(); return; }
     setTab('home');
     if (parts[0] === 'c' && CAT_SEC[parts[1]]) home(CAT_SEC[parts[1]], parts[1]);
     else if (parts[0] === 's' && SEC[parts[1]]) home(parts[1], null, parts[1] === 'bid' && /^(s|l|5|10)$/.test(parts[2] || '') ? parts[2] : parts[1] === 'luxury' && /^(10|50|100)$/.test(parts[2] || '') ? parts[2] : null);
@@ -811,6 +921,15 @@
     layout();
     var h = location.hash || '#/';
     var parts = h.replace(/^#\/?/, '').split('/');
+    if (parts[0] === 'wiki' && parts[1] === 't' && parts[2]) {
+      var wid = decodeURIComponent(parts.slice(2).join('/'));
+      if (WIDE.matches) {
+        if (state.leftHref !== '#/wiki') { renderList('#/wiki'); state.leftHref = '#/wiki'; $list.scrollTop = 0; }
+        wikiDetail(wid); $det.scrollTop = 0; wikiActive(); fitPanes();
+        return;
+      }
+      setTab('wiki'); wikiDetail(wid); window.scrollTo(0, 0); return;
+    }
     if (parts[0] === 'a' && parts[1]) {
       var id = decodeURIComponent(parts[1]);
       if (WIDE.matches) {
@@ -828,6 +947,12 @@
     renderList(h);
     if (WIDE.matches) {
       state.leftHref = h; $list.scrollTop = 0;
+      if (parts[0] === 'wiki') {
+        // 우측에는 첫 용어 설명
+        var w0 = wiki && wikiFind(wikiQ, wikiG)[0];
+        if (w0) wikiDetail(w0.id); else $det.innerHTML = '<div class="empty">왼쪽에서 용어를 고르세요.</div>';
+        fitPanes(); return;
+      }
       // 우측에는 목록 첫 기사를 보여 준다
       var first = state.ctx && state.ctx.ids[0];
       if (first) { detail(first); $det.scrollTop = 0; markActive(first); }
