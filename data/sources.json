@@ -214,6 +214,20 @@
     "AX",
     "AI 전환"
    ]
+  },
+  {
+   "name": "로봇신문",
+   "url": "https://www.irobotnews.com/news/articleList.html?view_type=sm",
+   "keywords": [
+    "제조 AX"
+   ]
+  },
+  {
+   "name": "전자신문",
+   "url": "https://www.etnews.com/news/section.html?id1=04",
+   "keywords": [
+    "AI 에이전트 도입"
+   ]
   }
  ],
  "car": [
@@ -1198,6 +1212,22 @@
     "Samsung",
     "Galaxy",
     "One UI 9"
+   ]
+  },
+  {
+   "name": "지디넷코리아 반도체",
+   "url": "https://zdnet.co.kr/news/?lstcode=0050",
+   "keywords": [
+    "삼성전자",
+    "스마트폰 감산"
+   ]
+  },
+  {
+   "name": "tbreak",
+   "url": "https://tbreak.com/",
+   "keywords": [
+    "Apple Watch",
+    "Android"
    ]
   }
  ],
@@ -3920,6 +3950,28 @@
    "keywords": [
     "카드 페스타",
     "백화점 리워드"
+   ]
+  },
+  {
+   "name": "뉴스웰",
+   "url": "https://www.newswell.co.kr/",
+   "keywords": [
+    "쿠팡 스포츠페스타"
+   ]
+  },
+  {
+   "name": "뉴스락",
+   "url": "https://www.newslock.co.kr/",
+   "keywords": [
+    "공식몰 기획전",
+    "텀블러 할인"
+   ]
+  },
+  {
+   "name": "청년일보",
+   "url": "https://www.youthdaily.co.kr/",
+   "keywords": [
+    "롯데마트 PB페스타"
    ]
   }
  ],

@@ -1,0 +1,21 @@
+{
+ "title": "메타 초대형 공개 모델 '뮤즈 스파크 오픈', 애플과 손잡고 맥 스튜디오 2대로 구동",
+ "originalTitle": "Meta and Apple Bring Muse Spark Open AI Model to Mac Studio",
+ "source": "MacRumors",
+ "url": "https://www.macrumors.com/2026/10/15/meta-muse-spark-open-mac-studio/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "메타가 '미국 최고 성능의 오픈 웨이트 모델'이라고 소개한 '뮤즈 스파크 오픈'을 공개하면서, 애플과 협력해 이 모델을 책상 위 맥 스튜디오에서 돌릴 수 있게 했다. 모델은 전체 8160억 개, 활성 420억 개 파라미터에 100만 토큰 문맥 창을 갖췄고 코딩·에이전트 작업과 다단계 추론에 강하다는 것이 메타 설명이다.",
+  "기준 구성은 512GB 메모리를 단 M5 울트라 맥 스튜디오 2대를 최신 MLX 프레임워크로 묶는 방식이다. 애플의 통합 메모리 구조 덕분에 각 기기의 GPU가 최대 512GB를 쓸 수 있어 두 대로 모델 전체를 올릴 수 있고, 초당 1.2TB인 메모리 대역폭이 토큰마다 필요한 일부 파라미터를 읽기에 충분하다고 한다. 메타는 두 대가 1TB 통합 메모리를 가진 한 시스템처럼 동작한다고 설명했다.",
+  "저커버그는 존 터너스 애플 CEO에게 감사를 전했고, 메타 AI 책임자 알렉산더 왕은 자주 부딪혀 온 두 회사의 협력이 의외의 변화라고 말했다. 다만 512GB 맥 스튜디오는 이달 말 출시 예정이며 256GB 모델도 1만 달러가 넘는다. 모델은 허깅페이스 등에서 제한적 상업 이용 라이선스로 무료 내려받을 수 있다."
+ ],
+ "keyPoints": [
+  "8160억 파라미터·100만 토큰 오픈 웨이트 모델",
+  "512GB M5 울트라 맥 스튜디오 2대+MLX로 구동",
+  "512GB 모델은 이달 말 출시 예정"
+ ],
+ "image": "https://images.macrumors.com/t/MyTz3YsXEfhbGqeisTvS0AcCX_I=/2000x/article-new/2026/10/muse-spark-open-zuck.jpg",
+ "id": "261016-applesamsung-22",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-16T10:56:12+09:00"
+}

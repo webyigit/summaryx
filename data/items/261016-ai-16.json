@@ -1,0 +1,35 @@
+{
+ "title": "엔비디아, 120B 오픈 멀티모달 에이전트 모델 '네모트론 3.5 슈퍼 VL' 공개…활성 12B·100만 토큰",
+ "originalTitle": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
+ "source": "MarkTechPost",
+ "url": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "엔비디아가 기업용 상시 에이전트를 겨냥한 오픈 비전-언어 모델 '네모트론 3.5 슈퍼 VL'을 내놓았다. 전체 1200억 파라미터 중 토큰당 120억 개만 쓰는 전문가 혼합(MoE) 구조로, 텍스트·이미지·문서·영상(2분 이하 MP4)을 입력받아 추론·도구 호출·코딩을 하며 문맥은 최대 100만 토큰이다.",
+  "맘바-2·MoE·어텐션 층을 섞은 구조에 C-RADIO 비전 인코더를 붙였고, 네모트론 3 울트라에서 증류해 약 26조 토큰으로 학습했다. 엔비디아 자체 측정으로 GPQA-다이아몬드 89.90, SWE-벤치 베리파이드 71.07, 브라우즈컴프 77.5를 기록했다. NVFP4 체크포인트는 DGX 스파크 1대나 H200 1장에서 돈다.",
+  "라이선스는 OpenMDW-1.1이며 데이터셋·학습 레시피도 공개했다. 허깅페이스·오픈라우터 등에서 받을 수 있다. 함께 나온 엣지용 '볼트 74B-A9B'는 2비트 양자화로 24GB 메모리에 들어가고, 4GB급 '볼트 E4B'는 10월 23일 나온다. 기사는 업체마다 측정 방식이 달라 작은 점수 차는 조심해서 봐야 한다고 덧붙였다."
+ ],
+ "keyPoints": [
+  "전체 120B·활성 12B MoE, 문맥 100만 토큰",
+  "텍스트·이미지·영상 입력, 도구 호출·코딩",
+  "OpenMDW 라이선스, 엣지용 볼트 모델도 공개"
+ ],
+ "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-401-13-scaled.png",
+ "facts": [
+  [
+   "개발사",
+   "엔비디아"
+  ],
+  [
+   "규모",
+   "120B 전체 / 12B 활성"
+  ],
+  [
+   "라이선스",
+   "OpenMDW-1.1"
+  ]
+ ],
+ "id": "261016-ai-16",
+ "category": "ai",
+ "collectedAt": "2026-10-16T10:56:12+09:00"
+}

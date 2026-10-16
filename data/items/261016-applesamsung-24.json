@@ -1,0 +1,21 @@
+{
+ "title": "아이폰 없이 애플워치를 안드로이드폰에…오픈소스 도구로 울트라 2 연결 성공, 루팅은 필수",
+ "originalTitle": "Developer pairs an Apple Watch Ultra 2 with Android, no iPhone needed, but you'll have to root your phone",
+ "source": "tbreak",
+ "url": "https://tbreak.com/apple-watch-android-pairing-open-source/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "애플워치는 처음 설정할 때부터 아이폰이 있어야 쓸 수 있지만, 깃허브에 공개된 오픈소스 도구 'Apple Watch Companion'이 아이폰 없이 애플워치 울트라 2를 안드로이드폰과 짝지어 활성화하는 데 성공했다. 안드로이드 어소리티가 처음 보도했고, X에 공유된 게시물은 AI의 도움을 받은 역공학으로 만들었다고 설명했다.",
+  "연결 후에는 안드로이드에서 배터리 정보를 확인하고 워치 페이스를 관리하며 일부 설정을 바꿀 수 있고, 워치 화면 일부를 조작할 수도 있다. 다만 통화와 건강 데이터 연동은 빠지거나 미완성이며 아이폰과 같은 기능 수준에는 이르지 못했다. 폰을 루팅하고 매지스크를 깔아야 하며, 원플러스 13과 watchOS 26.2를 쓰는 울트라 2 조합에서만 검증됐다.",
+  "화웨이·비보·샤오미 방식이나 '머지 워치' 앱은 첫 설정에 아이폰이 필요하다는 점에서 이 프로젝트와 다르다. tbreak는 개념 증명에 가까운 실험이라며 이 도구만 믿고 안드로이드용으로 애플워치를 사지 말고, 루팅 실험은 주력 폰이 아닌 기기에서 하라고 권했다."
+ ],
+ "keyPoints": [
+  "아이폰 없이 애플워치 울트라 2 활성화",
+  "통화·건강 데이터 연동은 아직 안 돼",
+  "루팅·매지스크 필요, 원플러스 13서만 검증"
+ ],
+ "image": "https://i0.wp.com/tbreak.com/wp-content/uploads/2026/09/feature_2f8398f9.jpg?fit=1200%2C675&ssl=1",
+ "id": "261016-applesamsung-24",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-16T10:56:12+09:00"
+}
