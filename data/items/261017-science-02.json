@@ -1,0 +1,35 @@
+{
+ "title": "외계 생명 흔적, 전기 신호로 가려낸다…금 나노선 사이 '아주 작은 틈' 센서",
+ "originalTitle": "New Electrical Test Can Help Identify Signs of Extraterrestrial Life in Space",
+ "source": "ScienceAlert",
+ "url": "https://www.sciencealert.com/a-simple-new-chip-could-spot-signs-of-alien-life-its-already-passed-its-first-test",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "생명의 재료인 아미노산에는 오른손·왼손처럼 서로 거울에 비친 모양인 'L형'과 'D형'이 있다. 지구 생물은 거의 한쪽만 쓰기 때문에, 어떤 형이 많은지를 보면 그 아미노산이 생물이 만든 것인지 저절로 생긴 것인지 짐작할 수 있다.",
+  "일본 오사카대 다카히토 오시로·마사테루 다니구치 연구팀은 금 나노선 두 개 사이에 아주 작은 틈을 만든 센서로 이 차이를 가려냈다. 아미노산이 틈을 지나갈 때 흐르는 미세한 전류를 재고, 기계학습으로 신호를 해석하니 분자 하나 수준에서 80% 넘는 정확도로 L형과 D형을 구별했다. 호주에 떨어진 머치슨 운석과 칠레 아타카마 사막 흙으로 시험했더니 기존 분석 장비와 비슷하게 아미노산의 주요 특징을 잡아냈다. 연구는 '네이처 커뮤니케이션즈'에 실렸다.",
+  "다만 멀리서 외계 생명을 찾아내는 장치는 아니어서 시료를 직접 모아야 하고, 처음 보는 분자를 어떻게 다룰지도 숙제다. 탐사선이나 로버에 싣기까지는 아직 시간이 걸린다."
+ ],
+ "keyPoints": [
+  "아미노산의 L형·D형을 전류로 구별",
+  "분자 하나 수준에서 정확도 80% 넘어",
+  "운석·사막 흙 시험 통과, 탐사선 탑재는 아직"
+ ],
+ "image": "https://www.sciencealert.com/images/2026/10/Signs-Of-Life-1200x675.png",
+ "facts": [
+  [
+   "연구팀",
+   "일본 오사카대 오시로 다카히토·다니구치 마사테루"
+  ],
+  [
+   "시험 시료",
+   "머치슨 운석, 아타카마 사막 흙"
+  ],
+  [
+   "학술지",
+   "Nature Communications"
+  ]
+ ],
+ "id": "261017-science-02",
+ "category": "science",
+ "collectedAt": "2026-10-17T07:34:43+09:00"
+}

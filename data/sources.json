@@ -435,6 +435,15 @@
     "워십",
     "문화상"
    ]
+  },
+  {
+   "name": "아이굿뉴스(기독교연합신문)",
+   "url": "https://www.igoodnews.net/",
+   "keywords": [
+    "CCM",
+    "찬양",
+    "예배사역"
+   ]
   }
  ],
  "christian": [
@@ -502,6 +511,26 @@
     "기독교",
     "목사",
     "종교"
+   ]
+  },
+  {
+   "name": "데일리굿뉴스",
+   "url": "https://www.goodnews1.com/",
+   "keywords": [
+    "교회",
+    "교계",
+    "선교",
+    "연합"
+   ]
+  },
+  {
+   "name": "기독신문",
+   "url": "https://www.kidok.com/",
+   "keywords": [
+    "총회",
+    "노회",
+    "목회",
+    "선교"
    ]
   }
  ],
@@ -870,6 +899,20 @@
    "keywords": [
     "밈",
     "화제"
+   ]
+  },
+  {
+   "name": "Bing News RSS (meme goes viral)",
+   "url": "https://www.bing.com/news/search?q=meme+goes+viral&qft=sortbydate%3d%221%22&format=rss",
+   "keywords": [
+    "meme goes viral"
+   ]
+  },
+  {
+   "name": "Know Your Meme Editorials",
+   "url": "https://knowyourmeme.com/editorials",
+   "keywords": [
+    "meme explained"
    ]
   }
  ],
