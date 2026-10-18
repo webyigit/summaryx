@@ -4049,6 +4049,15 @@
    "keywords": [
     "대전 빵집"
    ]
+  },
+  {
+   "name": "식신(Daum, 대전 노포 맛집 5곳)",
+   "url": "https://v.daum.net/v/8bRENJiPfj",
+   "keywords": [
+    "대전 노포 맛집",
+    "대전 칼국수",
+    "두부두루치기"
+   ]
   }
  ],
  "eatsj": [
@@ -4214,6 +4223,14 @@
     "협업",
     "컬렉션"
    ]
+  },
+  {
+   "name": "위키트리",
+   "url": "https://www.wikitree.co.kr/",
+   "keywords": [
+    "무신사 에디션",
+    "남성 패션 협업"
+   ]
   }
  ],
  "shopdeal": [
@@ -4301,6 +4318,22 @@
    "keywords": [
     "대구 백화점 세일",
     "아울렛 할인"
+   ]
+  },
+  {
+   "name": "세계일보",
+   "url": "https://www.segye.com/",
+   "keywords": [
+    "아우터 할인",
+    "패션 페스타"
+   ]
+  },
+  {
+   "name": "뉴시스 실시간",
+   "url": "https://www.newsis.com/realnews/",
+   "keywords": [
+    "할인",
+    "페스타"
    ]
   }
  ],
@@ -4628,6 +4661,15 @@
     "고혈압",
     "폐고혈압"
    ]
+  },
+  {
+   "name": "ScienceDaily Health",
+   "url": "https://www.sciencedaily.com/news/health_medicine/",
+   "keywords": [
+    "blood pressure",
+    "salt",
+    "hypertension"
+   ]
   }
  ],
  "dm": [
@@ -4765,6 +4807,15 @@
     "당뇨",
     "콜레스테롤"
    ]
+  },
+  {
+   "name": "코메디닷컴",
+   "url": "https://kormedi.com/",
+   "keywords": [
+    "심장",
+    "심혈관",
+    "FDA"
+   ]
   }
  ],
  "gecko": [
@@ -4808,6 +4859,21 @@
    "url": "https://bewildnc.org/crested-gecko/",
    "keywords": [
     "crested gecko care"
+   ]
+  },
+  {
+   "name": "PubMed Central (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/",
+   "keywords": [
+    "Correlophus ciliatus",
+    "crested gecko case report"
+   ]
+  },
+  {
+   "name": "Proceedings of the West Virginia Academy of Science",
+   "url": "https://pwvas.org/",
+   "keywords": [
+    "crested gecko behavior"
    ]
   }
  ],
@@ -5024,6 +5090,13 @@
     "Inditex",
     "Zara"
    ]
+  },
+  {
+   "name": "Sneaker News",
+   "url": "https://sneakernews.com/",
+   "keywords": [
+    "Nike"
+   ]
   }
  ],
  "bcar": [
@@ -5139,6 +5212,15 @@
    "keywords": [
     "McDonald's"
    ]
+  },
+  {
+   "name": "이데일리",
+   "url": "https://www.edaily.co.kr/",
+   "keywords": [
+    "다논",
+    "네슬레",
+    "펩시"
+   ]
   }
  ],
  "bbeauty": [
@@ -5198,6 +5280,13 @@
    "url": "https://okcfox.com/",
    "keywords": [
     "IKEA"
+   ]
+  },
+  {
+   "name": "Beauty Independent",
+   "url": "https://www.beautyindependent.com/",
+   "keywords": [
+    "Sephora"
    ]
   }
  ],
@@ -5319,6 +5408,22 @@
     "AICE",
     "정기시험"
    ]
+  },
+  {
+   "name": "ISACA Credentialing",
+   "url": "https://www.isaca.org/credentialing",
+   "keywords": [
+    "AAIA",
+    "AAISM",
+    "AAIR"
+   ]
+  },
+  {
+   "name": "PMI Certifications",
+   "url": "https://www.pmi.org/certifications/ai-project-management-cpmai",
+   "keywords": [
+    "PMI-CPMAI"
+   ]
   }
  ],
  "usedwear": [
@@ -5420,6 +5525,22 @@
     "Loewe",
     "luxury"
    ]
+  },
+  {
+   "name": "Cyprus Mail(Reuters)",
+   "url": "https://cyprus-mail.com/",
+   "keywords": [
+    "Gucci",
+    "Kering"
+   ]
+  },
+  {
+   "name": "FashionNetwork Brasil",
+   "url": "https://br.fashionnetwork.com/",
+   "keywords": [
+    "Celine",
+    "luxo"
+   ]
   }
  ],
  "lux3": [
@@ -5447,6 +5568,14 @@
     "Ralph Lauren",
     "Coach",
     "luxury"
+   ]
+  },
+  {
+   "name": "PAUSE Magazine",
+   "url": "https://pausemag.co.uk/",
+   "keywords": [
+    "Acne Studios",
+    "collaboration"
    ]
   }
  ],
@@ -5492,6 +5621,22 @@
     "샤넬",
     "반클리프 아펠",
     "워치"
+   ]
+  },
+  {
+   "name": "Who What Wear",
+   "url": "https://www.whowhatwear.com/",
+   "keywords": [
+    "Omega",
+    "watch"
+   ]
+  },
+  {
+   "name": "지피코리아",
+   "url": "https://www.gpkorea.com/",
+   "keywords": [
+    "불가리",
+    "명품 전시"
    ]
   }
  ],
@@ -5692,6 +5837,22 @@
    "url": "https://m.cafe.daum.net/qqq888/Ljuo/567",
    "keywords": [
     "초혼"
+   ]
+  },
+  {
+   "name": "새국어소식 김옥순 현대시 감상(2002.7, 김소월 「가는 길」 본문 대조)",
+   "url": "https://www.korean.go.kr/nkview/nknews/200207/48_8.html",
+   "keywords": [
+    "가는 길",
+    "김소월"
+   ]
+  },
+  {
+   "name": "새국어생활 김현자 「머뭇거림과 망설임이 갖는 소월 시의 아름다움, 가는 길」(본문 대조)",
+   "url": "https://www.korean.go.kr/nkview/nklife/1997_4/1997_0410.pdf",
+   "keywords": [
+    "가는 길",
+    "김소월"
    ]
   }
  ],

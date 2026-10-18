@@ -1,0 +1,43 @@
+{
+ "title": "소니, 컨트롤러 입력까지 읽는 '프레임 생성' 특허…플레이스테이션 6에 들어갈까",
+ "originalTitle": "PlayStation 6 likely to have Sony's own take on Frame Generation, according to latest patent",
+ "source": "Notebookcheck",
+ "url": "https://www.notebookcheck.net/PlayStation-6-likely-to-have-Sony-s-own-take-on-Frame-Generation-according-to-latest-patent.1426715.0.html",
+ "publishedAt": "2026-10-17",
+ "summary": [
+  "소니는 Interbrand Best Global Brands 2025에서 34위(브랜드 가치 223억 달러, +7.2%)에 오른 전자·엔터테인먼트 브랜드다. 소니가 '제너레이션 슈퍼 샘플링(Generation Super Sampling, US-20260320740-A1)'이라는 프레임 생성 기술 특허를 출원했다. 기사는 차세대 플레이스테이션 6에 쓰일 수 있다고 봤지만 확정된 것은 아니다.",
+  "엔비디아 DLSS 같은 기존 프레임 생성은 게임 엔진의 움직임 정보(모션 벡터)에 기대지만, 소니 방식은 컨트롤러 입력까지 활용해 플레이어의 움직임을 미리 예측한다. 프레임 생성의 약점인 입력 지연을 줄이거나 감추려는 것이며, 한 프레임 넘게 앞서 예측하는 것도 가능하다고 한다.",
+  "기사는 현재 콘솔이 120Hz가 상한이라 그보다 많이 만든 프레임은 화면 깨짐을 부를 수 있고, 개발사가 최적화를 소홀히 할 핑계가 될 수 있다며 이런 기능은 켜고 끌 수 있는 선택 사항이어야 한다고 지적했다."
+ ],
+ "keyPoints": [
+  "특허 'Generation Super Sampling' 출원",
+  "컨트롤러 입력으로 움직임 예측, 지연 감소",
+  "PS6 탑재는 미확정"
+ ],
+ "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/new-patent-reveals-frame-gen-in-next-gen-playstation.jpg.jpeg",
+ "facts": [
+  [
+   "선정 근거",
+   "Interbrand Best Global Brands 2025 34위(브랜드 가치 223억 달러, +7.2%)"
+  ],
+  [
+   "국가",
+   "[확인 필요]"
+  ],
+  [
+   "창립",
+   "[확인 필요]"
+  ],
+  [
+   "대표 제품",
+   "플레이스테이션, 워크맨, 헤드폰·스피커"
+  ],
+  [
+   "공식 사이트",
+   "[확인 필요]"
+  ]
+ ],
+ "category": "btech",
+ "id": "261019-btech-03",
+ "collectedAt": "2026-10-19T08:48:22+09:00"
+}

@@ -1,0 +1,39 @@
+{
+ "title": "짜게 먹은 생쥐의 혈압·기억 저하, 콩 유래 성분 'LPC70'이 줄였다…日 후지타보건대, 프로스타글란딘 신호 조절(동물실험)",
+ "originalTitle": "Scientists discover a natural compound that could protect the brain from too much salt",
+ "source": "ScienceDaily",
+ "url": "https://www.sciencedaily.com/releases/2026/10/261017230032.htm",
+ "publishedAt": "2026-10-18",
+ "summary": [
+  "소금을 많이 먹으면 고혈압 위험이 커진다는 것은 잘 알려져 있고, 최근엔 기억력·사회적 행동에도 해를 줄 수 있다는 우려가 나온다. 일본 후지타보건대 연구팀은 콩에서 얻은 리소레시틴 성분 LPC70이 고염식 생쥐에서 어떤 작용을 하는지 살펴 Neurochemistry International에 발표했다.",
+  "고염식은 생쥐의 혈압을 높이고 사회적 상호작용과 물체 인식 기억을 떨어뜨렸지만, 움직임과 불안 행동은 크게 바뀌지 않았다. LPC70을 함께 먹인 생쥐에선 이런 혈압·행동 변화가 줄었다. 콩팥에서는 고염식으로 늘어난 COX-2와 PGE2 수용체 EP3가 감소했고, 전전두엽에서는 고염식으로 줄었던 보호성 PGD2 수용체 DP1이 회복됐다.",
+  "다만 생쥐 실험이며 기사에 표본 수·용량·통계 방법이 제시되지 않아 예비 결과로 봐야 하고, 사람에게도 같은 효과가 있는지는 임상 연구가 필요하다. 연구 일부는 식품 원료 기업 쓰지제유의 지원을 받았고 저자 1명이 이 회사 소속이다. 특정 성분 섭취보다 소금 줄이기와 혈압 관리가 우선이다."
+ ],
+ "keyPoints": [
+  "고염식 생쥐, 혈압↑·사회성·기억 저하",
+  "콩 유래 LPC70 투여 시 변화 완화",
+  "동물실험·기업 지원, 사람 효과는 미확인"
+ ],
+ "image": "https://www.sciencedaily.com/images/1920/brain-shield-dementia-protection.webp",
+ "facts": [
+  [
+   "출처기관",
+   "일본 후지타보건대, Neurochemistry International 197권(2026)"
+  ],
+  [
+   "근거 종류",
+   "연구(동물실험)"
+  ],
+  [
+   "대상",
+   "고염식 생쥐"
+  ],
+  [
+   "이해관계",
+   "쓰지제유(Tsuji Oil Mills) 일부 연구비 지원, 저자 1명 소속"
+  ]
+ ],
+ "id": "261019-bp-03",
+ "category": "bp",
+ "collectedAt": "2026-10-19T08:48:22+09:00"
+}
