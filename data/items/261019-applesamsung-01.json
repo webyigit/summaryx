@@ -1,0 +1,39 @@
+{
+ "title": "아이폰 듀오 배터리 4883mAh…EU 에너지 라벨로 용량 공개",
+ "originalTitle": "Apple Reveals iPhone Duo's Battery Capacity",
+ "source": "MacRumors",
+ "url": "https://www.macrumors.com/2026/10/18/iphone-duo-battery-capacity/",
+ "publishedAt": "2026-10-18",
+ "summary": [
+  "애플이 첫 폴더블 아이폰 '아이폰 듀오'의 배터리 용량을 직접 공개했다. 금요일 게시한 유럽연합(EU) 에너지 라벨에 총 배터리 용량이 4,883mAh로 적혀 있다.",
+  "이 수치는 앞서 유출된 정보와 맞아떨어진다. 당시 아이폰 듀오에 2,962mAh와 1,921mAh짜리 배터리 셀 두 개가 들어간다는 보도가 있었는데, 두 셀을 더하면 라벨 수치와 같다.",
+  "아이폰 듀오는 eSIM 전용 모델이라 물리 SIM 슬롯 때문에 배터리가 조금 작아지는 지역별 변형이 없다. 따라서 4,883mAh는 전 세계 공통 용량이 될 것으로 보인다. 비교하면 아이픽스잇 분해 결과 eSIM 전용 아이폰18 프로는 4,288mAh, 아이폰18 프로 맥스는 5,567mAh로, 듀오는 두 모델 사이에 자리한다."
+ ],
+ "keyPoints": [
+  "EU 에너지 라벨에 총 4,883mAh 표기",
+  "유출된 2,962+1,921mAh 두 셀 구성과 일치",
+  "eSIM 전용이라 전 세계 같은 용량"
+ ],
+ "image": "https://images.macrumors.com/t/HyAEO6I-nDaqTyyr4AZQMr7GPdQ=/1600x/article-new/2026/09/iphone-duo-closed-1.jpg",
+ "facts": [
+  [
+   "제품",
+   "아이폰 듀오"
+  ],
+  [
+   "배터리",
+   "4,883mAh(2,962mAh+1,921mAh 두 셀)"
+  ],
+  [
+   "근거",
+   "애플 EU 에너지 라벨"
+  ],
+  [
+   "비교",
+   "아이폰18 프로 4,288mAh·프로 맥스 5,567mAh(아이픽스잇)"
+  ]
+ ],
+ "id": "261019-applesamsung-01",
+ "category": "applesamsung",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "DHL 프라이트, 中 슈퍼판서 전기트럭 '이토파스 600' 정식 투입…주 2000km 운행",
+ "originalTitle": "DHL Freight deploys SuperPanther eTopas 600 in daily operations",
+ "source": "electrive",
+ "url": "https://www.electrive.com/2026/10/15/dhl-freight-deploys-superpanther-etopas-600-in-daily-operations/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "DHL 프라이트가 유럽에서 생산된 첫 슈퍼판서 '이토파스 600' 배터리 전기 대형트럭을 시험에서 정식 운영으로 돌렸다. 9월부터 네덜란드를 출발해 벨기에를 오가며 주당 약 2000km를 달리고, 정해진 셔틀 노선이 아닌 국내·국경 간 운송에 두루 쓰인다. DHL은 1회 충전 주행거리를 최대 500km로 밝혔다.",
+  "차량은 CATL의 621kWh LFP 배터리를 얹고 연속 394kW, 최대 692kW를 낸다. CCS2 커넥터 두 개로 합계 최대 660kW 충전이 가능해 20→80%를 최대 38분에 채운다. 앞서 오스트리아 2주 실증에서 약 1900km를 달려 100km당 102kWh를 썼다.",
+  "이토파스 600은 여름부터 오스트리아 슈타이어 오토모티브에서 반조립(SKD) 방식으로 만들어지며, 10월 초 오스트리아 물류사 가르트너가 20대를 주문했다. 슈퍼판서는 2027년 말까지 유럽에 1000대를 목표로 한다. 하이디 판엘딕 DHL 프라이트 네덜란드·벨기에 CEO는 앞으로 몇 달 안에 약 40대를 더 들인다고 밝혔다."
+ ],
+ "keyPoints": [
+  "유럽 생산 첫 이토파스 600, 9월 정식 운영",
+  "621kWh LFP·최대 660kW 충전",
+  "DHL, 수개월 내 전기차 약 40대 추가"
+ ],
+ "image": "https://www.electrive.com/media/2026/10/202610-dhl-freight-handover-superpanther-niederlande.jpg",
+ "facts": [
+  [
+   "회사",
+   "DHL 프라이트, 슈퍼판서"
+  ],
+  [
+   "운행 구간",
+   "네덜란드~벨기에"
+  ],
+  [
+   "배터리",
+   "CATL 621kWh LFP"
+  ]
+ ],
+ "id": "261019-car-08",
+ "category": "car",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}

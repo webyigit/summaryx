@@ -1,0 +1,39 @@
+{
+ "title": "미스트랄, 첫 시계열 예측 모델 '타임스트랄'…209M 모델이 GPU 없이 CPU서 0.14초",
+ "originalTitle": "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google's TimesFM-3",
+ "source": "MarkTechPost",
+ "url": "https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/",
+ "publishedAt": "2026-10-18",
+ "summary": [
+  "미스트랄 AI가 첫 시계열 기반 모델 '타임스트랄(Timestral)'을 내놨다. 따로 학습하지 않아도 바로 예측하는 제로샷 모델로 5M·28M·123M·209M 4종이며, 최대 3만2768 시점까지 과거 데이터를 읽는다. 미스트랄은 209M 모델이 GIFT-Eval·TIME·fev-bench에서 사전학습 제로샷 모델 가운데 1위라고 밝혔다. GPU 없이 일반 서버 CPU에서도 돌아가도록 설계됐다.",
+  "구조는 32시점씩 묶어 처리하는 트랜스포머로, 한 번에 최대 1024시점을 예측하고 시점마다 21개 분위수를 내놓는다. 여러 변수를 함께 예측하고 외부 변수(공변량)도 받는다. 8스레드 CPU에서 15분 단위 3주치 기록으로 하루 뒤를 예측하는 데 5M 모델은 10ms, 209M 모델은 140ms가 걸렸다. 28M 모델도 4배쯤 큰 아마존 Chronos-2를 GIFT-Eval·TIME에서 앞섰다는 것이 회사 설명이다.",
+  "다만 GIFT-Eval에서 2위 모델과의 차이는 0.003에 불과하고, 경쟁 모델 수치 일부는 모델 카드에서 가져온 것이다. 가중치는 수정 MIT 라이선스, 추론 코드는 아파치 2.0이며 209M 모델은 공개 프리뷰 단계다."
+ ],
+ "keyPoints": [
+  "미스트랄 첫 시계열 모델, 5M~209M 4종",
+  "209M, 3대 벤치마크 제로샷 1위(회사 발표)",
+  "CPU 추론 10~140ms, 수정 MIT 라이선스"
+ ],
+ "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-454-8-scaled.png",
+ "facts": [
+  [
+   "기업",
+   "미스트랄 AI"
+  ],
+  [
+   "모델",
+   "Timestral 5M·28M·123M·209M"
+  ],
+  [
+   "컨텍스트",
+   "최대 32,768 시점"
+  ],
+  [
+   "라이선스",
+   "가중치 수정 MIT, 코드 Apache-2.0"
+  ]
+ ],
+ "id": "261019-ai-07",
+ "category": "ai",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}

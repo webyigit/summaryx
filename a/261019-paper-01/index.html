@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>강화학습 중 &#x27;흔들린 학습&#x27;은 걸러낸다… 중간 체크포인트로 거르는 증류법 Waypoint-OPD | summaryx</title>
+<meta name="description" content="큰 모델을 강화학습(RL)으로 다듬은 뒤, 그 변화를 다른 모델(학생)에게 옮기는 &#x27;정책 이동 증류&#x27;가 쓰인다. 교사 모델의 RL 전후 출력 확률 차이를 학생의 학습 신호로 삼는 방식인데, 연구진은 처음과 끝만 비교하면 학습 도중 초반과 후반의 변화가 서로 상쇄되는 등">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="강화학습 중 &#x27;흔들린 학습&#x27;은 걸러낸다… 중간 체크포인트로 거르는 증류법 Waypoint-OPD">
+<meta property="og:description" content="큰 모델을 강화학습(RL)으로 다듬은 뒤, 그 변화를 다른 모델(학생)에게 옮기는 &#x27;정책 이동 증류&#x27;가 쓰인다. 교사 모델의 RL 전후 출력 확률 차이를 학생의 학습 신호로 삼는 방식인데, 연구진은 처음과 끝만 비교하면 학습 도중 초반과 후반의 변화가 서로 상쇄되는 등">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261019-paper-01">
+<script>location.replace('../../#/a/261019-paper-01');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261019-paper-01">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">강화학습 중 &#x27;흔들린 학습&#x27;은 걸러낸다… 중간 체크포인트로 거르는 증류법 Waypoint-OPD</h1>
+<p>큰 모델을 강화학습(RL)으로 다듬은 뒤, 그 변화를 다른 모델(학생)에게 옮기는 &#x27;정책 이동 증류&#x27;가 쓰인다. 교사 모델의 RL 전후 출력 확률 차이를 학생의 학습 신호로 삼는 방식인데, 연구진은 처음과 끝만 비교하면 학습 도중 초반과 후반의 변화가 서로 상쇄되는 등 일관되지 않은 학습이 가려질 수 있다고 지적했다.</p><p>Waypoint-OPD는 같은 RL 과정의 중간 체크포인트를 &#x27;경유지&#x27;로 함께 본다. 학생이 실제로 만들어 낸 문장 앞부분마다 초반 변화와 후반 변화가 같은 방향인지 확인하고, 방향이 엇갈리는 곳에서는 최종 변화 신호를 줄인다(게이트). 추가 비용은 고정된 교사로 한 번 더 점수를 매기는 정도다.</p><p>Qwen3-4B를 교사로, Qwen3-8B·14B·30B-A3B를 학생으로 수학·코드 추론에서 실험한 결과 여섯 설정 모두에서 분야 평균 점수가 가장 높았다. Qwen3-8B 학생 실험에서 게이트를 없애거나 무작위로 섞으면 수학 성능이 떨어져, 방향 일치 확인이 효과의 핵심임을 보였다.</p>
+<p><a href="https://arxiv.org/abs/2610.21601">원문 보기</a></p>
+</body></html>

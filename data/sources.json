@@ -251,6 +251,37 @@
    "keywords": [
     "보험 AI 전환"
    ]
+  },
+  {
+   "name": "투데이에너지",
+   "url": "https://www.todayenergy.kr/",
+   "keywords": [
+    "제조AI전환",
+    "M.AX"
+   ]
+  },
+  {
+   "name": "경북일보",
+   "url": "https://www.kyongbuk.co.kr/",
+   "keywords": [
+    "산단공",
+    "제조AX"
+   ]
+  },
+  {
+   "name": "경북매일",
+   "url": "https://www.kbmaeil.com/",
+   "keywords": [
+    "경북 AI 전환"
+   ]
+  },
+  {
+   "name": "Bing News RSS (제조AI 7일)",
+   "url": "https://www.bing.com/news/search?q=%EC%A0%9C%EC%A1%B0AI&qft=interval%3d%227%22&format=rss&setlang=ko&cc=KR",
+   "keywords": [
+    "제조AI",
+    "스마트공장 AI"
+   ]
   }
  ],
  "car": [

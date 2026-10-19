@@ -1,0 +1,39 @@
+{
+ "title": "엔비디아, GPU 관리 플랫폼 '런에이아이(Run:ai)' 통째로 오픈소스…아파치 2.0",
+ "originalTitle": "NVIDIA Open Sources Run:ai Under Apache 2.0 for Kubernetes GPU Orchestration",
+ "source": "MarkTechPost",
+ "url": "https://www.marktechpost.com/2026/10/18/nvidia-runai-open-source-gpu-orchestration-kubernetes/",
+ "publishedAt": "2026-10-18",
+ "summary": [
+  "엔비디아가 GPU 오케스트레이션 플랫폼 'Run:ai' 전체를 아파치 2.0 라이선스로 깃허브에 공개했다. Run:ai는 엔비디아 GPU를 갖춘 쿠버네티스·오픈시프트 클러스터 위에서 개발·학습·추론 작업을 나눠 배치하는 플랫폼으로, 이번 공개로 'DSX AI 팩토리' 플랫폼의 일부가 됐다. 플랫폼 팀은 유료 구독 없이 코드를 살펴보고 고치고 직접 운영할 수 있다.",
+  "공개 범위는 컨트롤 플레인, 클러스터 서비스, 설치 도구, CLI, MCP 서버까지다. 따로 쓸 수 있는 4개 구성 요소로 나뉘는데, CNCF 샌드박스 프로젝트인 'KAI 스케줄러', 작업마다 메모리 상한을 두는 'GPU 분할 오퍼레이터', 프로젝트·부서·할당량을 관리하는 'KAI 리소스 관리', 작업 유형을 기술하는 'Workload Map' 라이브러리다. 로컬 개발용 스크립트는 가짜 GPU 8개를 흉내 내 GPU 없이도 돌려 볼 수 있다.",
+  "운영 환경은 소스에서 직접 배포하거나 구독이 필요 없는 NGC 커뮤니티 헬름 차트를 쓰면 되지만, 엔터프라이즈 지원은 빠진다. 상용판은 엔비디아 AI 엔터프라이즈 등으로 계속 판매한다. AMD·인텔 가속기는 지원하지 않고, 플랫폼 단위 벤치마크도 공개되지 않았다."
+ ],
+ "keyPoints": [
+  "Run:ai 전체 아파치 2.0으로 깃허브 공개",
+  "스케줄러·GPU 분할 등 4개 요소 따로 도입 가능",
+  "AMD·인텔 미지원, 엔터프라이즈 지원은 상용판"
+ ],
+ "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-454-9-scaled.png",
+ "facts": [
+  [
+   "기업",
+   "엔비디아"
+  ],
+  [
+   "라이선스",
+   "Apache 2.0"
+  ],
+  [
+   "구성",
+   "KAI 스케줄러·GPU 분할 오퍼레이터·KAI 리소스 관리·Workload Map"
+  ],
+  [
+   "저장소",
+   "github.com/dsx-ai-factory/run-ai"
+  ]
+ ],
+ "id": "261019-ai-06",
+ "category": "ai",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}

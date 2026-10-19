@@ -1,0 +1,39 @@
+{
+ "title": "유니트리 '유니유니', 말로 여러 로봇의 군무를 짜고 바꾼다…공연용 군집 제어 시스템",
+ "originalTitle": "Unitree's UniUni Lets Operators Choreograph Robot Teams With Natural Language",
+ "source": "Humanoids Daily",
+ "url": "https://www.humanoidsdaily.com/news/unitree-uniuni-robot-swarm-choreography-control",
+ "publishedAt": "2026-10-17",
+ "summary": [
+  "중국 유니트리 로보틱스가 여러 로봇의 공연을 한꺼번에 조율하는 제어 시스템 '유니유니(UniUni)'를 공개했다. 춤 동작과 대형을 바꾸고 배터리를 감시하며 개별 로봇을 멈추는 기능을 묶었고, 홍보 영상에서는 자연어로 안무를 바꾸는 기능도 보여줬다. 회사는 X(옛 트위터)로 발표했다.",
+  "영상 속 라이다 화면은 무대를 점군 모델로 만들고, 유니트리는 센티미터 수준의 공간 구축을 내세웠다. 안무 편집기에서는 로봇마다 타임라인 트랙이 있고 동작 라이브러리에서 춤 동작을 고른다. 프롬프트 창에 원하는 변경을 쓰면 'AI 안무'가 위치 격자와 함께 제안한다. 감시 화면에는 로봇별 배터리·온도·비상정지 버튼이 있다.",
+  "Humanoids Daily는 영상이 연출된 홍보물일 뿐 설정 시간이나 신뢰성을 측정한 시험은 아니라고 짚었다. 기반 모델, 생성된 동작의 사전 검증 방식, 가격·출시 시기·지원 기종·최대 로봇 수는 밝히지 않았다. 산업 작업용 분산 협업이 아니라 공연과 조작자 제어에 초점이 맞춰져 있다. 유니트리는 2026년 8월 19일 상하이 커촹반에 상장했다."
+ ],
+ "keyPoints": [
+  "여러 로봇 공연을 묶어 제어하는 유니유니",
+  "자연어 'AI 안무'·라이다 무대 지도·비상정지",
+  "가격·최대 로봇 수 등 세부는 미공개"
+ ],
+ "image": "https://7jopx6ax2qhwmgqx.public.blob.vercel-storage.com/images/unitree-uniuni-swarm-control-stage-J5J7oI6Z6F0b4BOxIHdbtymCkVaEzO.webp",
+ "facts": [
+  [
+   "기업",
+   "유니트리 로보틱스(중국 항저우)"
+  ],
+  [
+   "제품",
+   "UniUni 공연 제어 시스템"
+  ],
+  [
+   "기능",
+   "안무 편집·자연어 수정·배터리 감시·비상정지"
+  ],
+  [
+   "미공개",
+   "가격·출시·최대 로봇 수"
+  ]
+ ],
+ "id": "261019-robot-10",
+ "category": "robot",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}

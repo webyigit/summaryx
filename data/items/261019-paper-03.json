@@ -1,0 +1,43 @@
+{
+ "title": "글로 답을 쓰지 않고 '고르는' 공간지능 모델 MJev-Spatial… 4B로 1위·속도도 빨라",
+ "originalTitle": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.22276",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "멀티모달 모델에게 '어느 물체가 더 가까운가', '몇 미터인가', '어디를 가리키나' 같은 공간 질문을 하면 보통 글자를 하나씩 생성해 답한다. 느리고, 사실상 고르기만 하면 되는 문제에도 긴 생성 과정을 거친다는 한계가 있다.",
+  "MJev-Spatial은 사람이 직관적으로 바로 판단하는 '시스템 1'처럼, 선택형·수치형·위치 지정형 공간 질문을 모두 분류 문제로 바꿔 푼다. 모델 내부에 이미 있는 어텐션의 쿼리·키 투영을 그대로 써서 후보 답에 점수를 매기므로 새 매개변수가 하나도 늘지 않는다. Qwen3.5-4B를 바탕으로 1,230만 쌍의 질문-답 데이터로 학습했다.",
+  "비교한 8개 모델 가운데 종합 점수 65.64%로 가장 높았고, 글자를 하나씩 생성하는 원래 모델보다 훨씬 빠르게 동작했다고 연구진은 밝혔다. 코드도 공개했다."
+ ],
+ "keyPoints": [
+  "공간 질문을 생성 대신 분류로 풀어",
+  "기존 어텐션 재활용, 추가 매개변수 0",
+  "Qwen3.5-4B 기반, 8개 모델 중 65.64% 1위"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Luozheng Qin, Yuhan Zhu, Changhai Zhou 등 12명"
+  ],
+  [
+   "소속",
+   "arXiv 페이지 미표기"
+  ],
+  [
+   "분야",
+   "컴퓨터 비전(cs.CV) · 공간 추론 멀티모달 모델"
+  ],
+  [
+   "arXiv ID",
+   "2610.22276"
+  ],
+  [
+   "코드",
+   "https://github.com/Fr0zenCrane/MJev-Spatial"
+  ]
+ ],
+ "id": "261019-paper-03",
+ "category": "paper",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}

@@ -1,0 +1,35 @@
+{
+ "title": "[시승] 포르쉐 카이엔 S 쿠페 일렉트릭, 최대 386kW 충전에 10→80% 16분",
+ "originalTitle": "Porsche Cayenne S Coupé Electric test: The PPE has moved a step further",
+ "source": "electrive",
+ "url": "https://www.electrive.com/2026/10/15/porsche-cayenne-s-coupe-electric-test-the-ppe-has-moved-a-step-further/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "일렉트라이브가 포르쉐 첫 전기 카이엔의 S 쿠페를 시승했다. 마칸과 같은 PPE 플랫폼이지만 배터리 차체 통합과 S의 뒤 모터를 새로 개발했고, SUV에 처음으로 '포르쉐 액티브 라이드'를 쓸 수 있다. S는 평소 400kW, 런치 컨트롤 때 490kW를 내 0→100km/h 3.8초이며, 공차중량은 2560kg이다.",
+  "배터리는 총 113kWh(실사용 약 108kWh)로 니켈 약 86% NMCA 양극과 실리콘 6% 음극을 쓴 파우치 셀 192개를 넣었다. 기자가 EnBW 충전기에서 재 보니 SoC 44%에서 최고 386kW, 10→80%는 제원대로 약 16분이 걸렸다. 팬 소음을 줄이는 '콰이어트 차징'으로도 16분이었지만, 내비게이션 목적지를 설정해야만 배터리 예열이 된다.",
+  "시승 차의 WLTP 주행거리는 616km, 실제 전비는 100km당 약 20~27kWh였다. 기본 S 쿠페는 13만300유로지만 옵션 6만9440유로가 붙어 시승 차는 19만9740유로였다. 기자는 급속 충전을 가장 큰 강점으로, 무게·조작성·가격을 약점으로 꼽았다."
+ ],
+ "keyPoints": [
+  "S 쿠페 490kW(LC), 0→100km/h 3.8초",
+  "실측 최고 386kW 충전, 10→80% 16분",
+  "기본 13만300유로, 시승 차 19만9740유로"
+ ],
+ "image": "https://www.electrive.com/media/2026/10/porsche-cayenne-s-coupe-electric-fahrbericht-2026-02-min.jpg",
+ "facts": [
+  [
+   "브랜드",
+   "포르쉐"
+  ],
+  [
+   "모델",
+   "카이엔 S 쿠페 일렉트릭"
+  ],
+  [
+   "배터리",
+   "113kWh(실사용 약 108kWh)"
+  ]
+ ],
+ "id": "261019-car-20",
+ "category": "car",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}

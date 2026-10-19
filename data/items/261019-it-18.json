@@ -1,0 +1,35 @@
+{
+ "title": "구글 플레이에 가짜 왓츠앱 한 달 넘게…다운로드 50만 회, 검색 광고 자리까지 차지",
+ "originalTitle": "After Chrome, we now have a WhatsApp dupe on the Play Store with 500,000+ downloads",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/fake-whatsapp-app-3724337/",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "왓츠앱 메신저를 흉내 낸 가짜 앱이 9월부터 구글 플레이 스토어에 올라 50만 회 넘게 다운로드됐다. 기사가 나온 시점까지도 삭제되지 않았다. 같은 주 초에는 가짜 구글 크롬 앱이 10만 회 넘게 다운로드된 뒤 내려진 일도 있었다.",
+  "레딧 사용자가 왓츠앱을 검색하자 진짜 앱 대신 비슷하게 생긴 앱이 스폰서(광고) 결과로 떴다고 올리면서 알려졌다. 개발자 이름은 'Agment Assets sallu'로 다른 앱은 없으며, 공식 왓츠앱(다운로드 100억 회 이상) 페이지의 스크린숏과 설명을 그대로 베꼈다. 다만 기자가 모바일·웹에서 직접 검색했을 땐 공식 앱이 맨 위에 나와 모든 사용자에게 광고가 뜨는 것은 아니었다.",
+  "보안업체 비트디펜더는 구글 플레이 '앞서 해보기(Early Access)' 프로그램 앱은 공개 리뷰가 꺼져 있어 가짜를 알아보기 어렵다고 지적했는데, 이 앱도 이를 악용한 것으로 보인다. 앱을 내려받을 땐 개발자 이름 등 세부 정보를 꼭 확인해야 한다."
+ ],
+ "keyPoints": [
+  "가짜 왓츠앱, 플레이 스토어서 50만 회 다운로드",
+  "검색 광고 자리 차지, 한 달 넘게 방치",
+  "리뷰 꺼진 '앞서 해보기' 악용 추정"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2023/05/Holding-smartphone-with-WhatsApp-logo-on-the-screen-Stock-photo.jpg",
+ "facts": [
+  [
+   "플랫폼",
+   "구글 플레이 스토어"
+  ],
+  [
+   "가짜 개발자",
+   "Agment Assets sallu"
+  ],
+  [
+   "다운로드",
+   "50만 회 이상"
+  ]
+ ],
+ "id": "261019-it-18",
+ "category": "it",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}

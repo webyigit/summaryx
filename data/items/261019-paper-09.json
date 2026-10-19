@@ -1,0 +1,43 @@
+{
+ "title": "사진 몇 장으로 3D 장면을 한 번에… 먼 시점 화질 높인 InfiniSplat v2",
+ "originalTitle": "InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views",
+ "source": "arXiv",
+ "url": "https://arxiv.org/abs/2610.20341",
+ "publishedAt": "2026-10-14",
+ "summary": [
+  "3D 가우시안 스플래팅(3DGS)은 장면을 작은 3D 점(가우시안)들로 표현해 새로운 시점의 이미지를 빠르게 그려 내는 기술이다. 그중 '피드포워드' 방식은 장면마다 오래 최적화하지 않고 입력 사진에서 바로 3D 장면을 만들어 낸다.",
+  "연구진은 추정한 형상을 바탕으로 가우시안의 속성을 잘 예측하기가 어렵고, 특히 만들려는 시점이 입력 사진과 멀수록 더 어렵다는 점을 분석했다. InfiniSplat v2는 형상 예측을 고정된 별도 가지로 떼어 내 속성 예측과 분리했고, 훈련 때는 실제 카메라 위치로 예측한 가우시안을 정렬한 뒤 큰 각도의 목표 시점으로 학습시켰다.",
+  "6개 데이터셋에서 하나의 모델로 카메라 위치를 아는 경우와 모르는 경우 모두 비교 방법 중 가장 좋은 지각 품질 지표(LPIPS·DISTS 평균)를 냈다. 카메라 위치를 아는 경우 가장 강한 비교 모델보다 LPIPS는 25.8%, DISTS는 32.9% 낮췄다. 또 이미지 복원 손실만으로 배운 불투명도가 형상이 맞지 않는 점을 스스로 억누르는 경향도 관찰했다."
+ ],
+ "keyPoints": [
+  "사진에서 바로 3D 장면 만드는 피드포워드 3DGS",
+  "형상 가지 분리·큰 각도 시점 학습",
+  "LPIPS 25.8%·DISTS 32.9% 개선"
+ ],
+ "image": null,
+ "facts": [
+  [
+   "저자",
+   "Yongzhen Hu, Hao Yu, Jiawei Wang 등 10명(Xiaowei Zhou, Sida Peng 포함)"
+  ],
+  [
+   "소속",
+   "arXiv 페이지 미표기"
+  ],
+  [
+   "분야",
+   "컴퓨터 비전(cs.CV) · 3D 재구성"
+  ],
+  [
+   "arXiv ID",
+   "2610.20341"
+  ],
+  [
+   "코드",
+   "프로젝트 https://zju3dv.github.io/InfiniSplat2/"
+  ]
+ ],
+ "id": "261019-paper-09",
+ "category": "paper",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}

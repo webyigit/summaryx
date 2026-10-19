@@ -1,0 +1,35 @@
+{
+ "title": "유튜브, 데스크톱 검색에 AI 답변 'Ask YouTube' 시험…영상 핵심 장면 붙여 보여줘, 창작자 클릭 감소 우려",
+ "originalTitle": "YouTube's new search feature takes a page from Google Search, and that's bad news for creators",
+ "source": "Android Authority",
+ "url": "https://www.androidauthority.com/youtube-ask-youtube-desktop-search-test-3724434/",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "유튜브가 데스크톱 검색 결과 맨 위에 AI 답변 'Ask YouTube' 미리보기를 띄우는 시험을 시작했다. 미국에서 영어로 검색하는 일부 로그인 사용자만 대상이다. 앞서 모바일에 먼저 나온 기능을 PC로 넓힌 것이다.",
+  "열린 질문이나 방법·기술을 묻는 검색(예: 페인트 벽 얼룩 지우는 법)에 AI 요약이 뜨고, 관련 영상의 타임스탬프 핵심 장면이 함께 붙는다. '더 보기'를 누르면 전체 답변과 후속 질문이 가능하고, 아래로 내리면 기존 영상 목록이 나온다. 유튜브 검색을 구글 검색처럼 문제 해결 도구로 바꾸려는 흐름으로 풀이된다.",
+  "Android Authority는 빠른 답과 장면 요약이 편리하지만 창작자 영상 클릭을 줄일 수 있다고 지적했다. 구글 AI 개요가 웹사이트 트래픽을 떨어뜨린 것과 비슷한 일이 벌어질 수 있는데, 답변에 쓰인 영상의 창작자 보상 방안은 나오지 않았다. 아직 소규모 시험이며 확대 일정은 없다."
+ ],
+ "keyPoints": [
+  "유튜브 데스크톱 검색에 AI 답변 시험",
+  "미국·영어·일부 로그인 사용자 대상",
+  "창작자 트래픽 감소 우려, 보상안 없음"
+ ],
+ "image": "https://www.androidauthority.com/wp-content/uploads/2026/03/youtube-logo-google-pixel-10a-3-scaled.jpg",
+ "facts": [
+  [
+   "서비스",
+   "유튜브 Ask YouTube"
+  ],
+  [
+   "대상",
+   "미국 데스크톱 영어 검색 일부 사용자"
+  ],
+  [
+   "근거",
+   "유튜브 지원 커뮤니티 공지"
+  ]
+ ],
+ "id": "261019-it-03",
+ "category": "it",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}

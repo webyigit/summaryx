@@ -1,0 +1,35 @@
+{
+ "title": "시놉시스 CEO \"칩 설계 AI, 보조 도구에서 에이전트로\"…40개 넘는 에이전트로 사양서→RTL 자동화",
+ "originalTitle": "How Close Are We To Fully Autonomous Chip Design?",
+ "source": "Semiconductor Engineering",
+ "url": "https://semiengineering.com/how-close-are-we-to-fully-autonomous-chip-design/",
+ "publishedAt": "2026-10-15",
+ "summary": [
+  "사신 가지 시놉시스 CEO는 세미콘 웨스트에서 AI가 칩 설계를 보조 도구 단계에서 여러 에이전트를 조율하는 단계로 옮겨놓았다고 말했다. 시놉시스는 2016년께 강화학습을 도입했고 지금은 각 툴에 특화된 작업 에이전트 40여 개를 운용한다. 자율 에이전트는 고객 사양서를 검증된 RTL로 바꿀 수 있는데, 예전엔 여러 엔지니어가 몇 달 걸리던 일이다.",
+  "다만 그는 아키텍처 정의와 제조 전 최종 승인은 여전히 사람이 맡고, 업계의 더 큰 문제는 엔지니어 부족이라고 했다. 물리 설계·사인오프의 자율화에 대해서는 \"지금 가능하냐면 아니다\"라면서도 더 많은 자율화를 지향한다고 밝혔다. 인터페이스 IP는 하이퍼스케일러 맞춤형이 늘고 있고, 앤시스 인수로 얻은 멀티피직스 사인오프는 소프트웨어 정의 차량 등 피지컬 AI에 쓰인다. 3D IC에서는 열 응력이 칩렛을 휘게 하거나 깨뜨릴 수 있다.",
+  "모델이 3~4개월마다 바뀌면서 고객은 18개월인 실리콘 주기를 1년 이하로 줄이길 원한다. 가지 CEO는 가장 걱정되는 것으로 \"속도\"를 세 번 반복해 꼽았다."
+ ],
+ "keyPoints": [
+  "시놉시스, 툴별 AI 에이전트 40여 개 운용",
+  "사양서→검증된 RTL 자동 변환 가능",
+  "실리콘 주기 18개월→1년 이하 요구"
+ ],
+ "image": "https://semiengineering.com/wp-content/uploads/2026/10/Screenshot-2026-10-14-at-12.42.34-PM.png",
+ "facts": [
+  [
+   "발언자",
+   "사신 가지 시놉시스 CEO"
+  ],
+  [
+   "작성",
+   "Ed Sperling(Semiconductor Engineering)"
+  ],
+  [
+   "AI 에이전트",
+   "40개 이상"
+  ]
+ ],
+ "id": "261019-semi-13",
+ "category": "semi",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}

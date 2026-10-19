@@ -1,0 +1,35 @@
+{
+ "title": "윈도 10월 보안 업데이트 뒤 와이파이·VPN 자동 로그인 실패?…NTLMv1 차단 기본값 변경 탓",
+ "originalTitle": "Lost Wi-Fi or VPN after Windows' October update? NTLMv1 is the likely culprit",
+ "source": "tbreak",
+ "url": "https://tbreak.com/ntlmv1-windows-update-wifi-vpn-fix/",
+ "publishedAt": "2026-10-17",
+ "summary": [
+  "10월 13일 배포된 윈도 보안 업데이트 이후 일부 PC에서 와이파이·유선·VPN 자동 로그인이 실패하는 문제가 보고됐다. 원인은 레지스트리 값 'BlockNtlmv1SSO'가 없을 때의 기본 동작이 '감사(0, 기록만 하고 허용)'에서 '강제(1, 차단)'로 바뀐 것이다. 윈도 11 24H2·25H2·26H2와 윈도 서버 2025에서 Credential Guard가 꺼져 있고 해당 값이 없을 때 적용된다.",
+  "PEAP-MSCHAPv2·EAP-MSCHAPv2 같은 MS-CHAPv2 기반 로그인이 막힐 수 있으며, 마이크로소프트에 따르면 자격 증명을 직접 입력하면 여전히 된다. 이벤트 뷰어 Microsoft-Windows-NTLM/Operational에 이벤트 ID 4025가 찍히면 이 문제일 가능성이 크다. 임시로는 해당 레지스트리 값을 0으로 만들면 재부팅 없이 복구되지만 보안 보호가 줄어든다. 근본 해결책은 Credential Guard를 켜거나 MS-CHAPv2 방식을 벗어나는 것이다.",
+  "NTLM은 1993년 나온 인증 방식으로 MS가 2024년 지원 중단 목록에 올렸다. 기사는 업데이트 삭제는 권하지 않고, 회사 기기는 IT 부서와 먼저 상의하라고 조언했다. 일반 가정용 와이파이 비밀번호 사용자는 영향이 적다."
+ ],
+ "keyPoints": [
+  "10월 윈도 업데이트로 NTLMv1 SSO 기본 차단",
+  "MS-CHAPv2 와이파이·VPN 자동 로그인 실패",
+  "레지스트리 임시 조치, 근본은 Credential Guard"
+ ],
+ "image": "https://i0.wp.com/tbreak.com/wp-content/uploads/2026/10/windows-11-8gb-ram-more-responsive.jpg?fit=1200%2C717&ssl=1",
+ "facts": [
+  [
+   "기업",
+   "마이크로소프트"
+  ],
+  [
+   "대상",
+   "윈도 11 24H2·25H2·26H2, 윈도 서버 2025"
+  ],
+  [
+   "관련 문서",
+   "KB5066470, KB5127648"
+  ]
+ ],
+ "id": "261019-it-11",
+ "category": "it",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}

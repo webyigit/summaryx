@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>로봇이 &#x27;장면이 어떻게 바뀌어야 하나&#x27;를 배운다… 상태 변화 학습하는 VLA-Δ | summaryx</title>
+<meta name="description" content="비전-언어-행동(VLA) 모델은 이미지·언어로 사전학습한 지식을 로봇 제어에 끌어와 여러 벤치마크에서 좋은 성적을 낸다. 하지만 대부분 &#x27;이 화면이면 이 동작&#x27;처럼 관찰과 시범 동작을 바로 잇는 법만 배우고, 그 사이 물리적 장면이 어떻게 바뀌어야 하는지에 대한 신호는">
+<meta property="og:site_name" content="summaryx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="로봇이 &#x27;장면이 어떻게 바뀌어야 하나&#x27;를 배운다… 상태 변화 학습하는 VLA-Δ">
+<meta property="og:description" content="비전-언어-행동(VLA) 모델은 이미지·언어로 사전학습한 지식을 로봇 제어에 끌어와 여러 벤치마크에서 좋은 성적을 낸다. 하지만 대부분 &#x27;이 화면이면 이 동작&#x27;처럼 관찰과 시범 동작을 바로 잇는 법만 배우고, 그 사이 물리적 장면이 어떻게 바뀌어야 하는지에 대한 신호는">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="../../#/a/261019-paper-13">
+<script>location.replace('../../#/a/261019-paper-13');</script>
+</head><body style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:16px">
+<p><a href="../../#/a/261019-paper-13">summaryx에서 보기</a></p>
+<h1 style="font-size:20px">로봇이 &#x27;장면이 어떻게 바뀌어야 하나&#x27;를 배운다… 상태 변화 학습하는 VLA-Δ</h1>
+<p>비전-언어-행동(VLA) 모델은 이미지·언어로 사전학습한 지식을 로봇 제어에 끌어와 여러 벤치마크에서 좋은 성적을 낸다. 하지만 대부분 &#x27;이 화면이면 이 동작&#x27;처럼 관찰과 시범 동작을 바로 잇는 법만 배우고, 그 사이 물리적 장면이 어떻게 바뀌어야 하는지에 대한 신호는 받지 못한다. 연구진은 이 때문에 관찰-행동 대응을 외우기 쉽다고 봤다.</p><p>기존에도 언어 추론이나 미래 프레임·잠재 상태 예측 같은 중간 단계를 넣는 방법이 있었지만 물리적 변화 자체를 직접 가르치지는 않았다. VLA-Δ는 현재 상태와 미래 상태의 물리적 차이를 학습 목표로 삼는다. 대규모 사전학습 데이터셋을 만들고 과제 관련 의미와 시각적 움직임 변화를 담은 상태 변화 라벨을 붙여 연속 동작 생성을 더 직접 지도했다.</p><p>실제 사용할 때는 현재 관찰만으로 바로 동작을 내놓아 추가 연산 부담이 없다. LIBERO·RoboTwin 벤치마크에서 최신 모델과 대등한 성능을 냈고, 실제 로봇 실험에서는 π0.5를 앞섰다. 코드는 깃허브에 공개했다.</p>
+<p><a href="https://arxiv.org/abs/2610.21306">원문 보기</a></p>
+</body></html>

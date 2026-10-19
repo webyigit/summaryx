@@ -1,0 +1,39 @@
+{
+ "title": "AI 모델끼리 서로 풀이 검사·수정…스탠퍼드 등 'SAT' 팀 전략, 수학 정확도 66.7%",
+ "originalTitle": "A new framework teaches AI models to audit and repair each other's reasoning, improving accuracy",
+ "source": "VentureBeat",
+ "url": "https://venturebeat.com/orchestration/a-new-framework-teaches-ai-models-to-audit-and-repair-each-others-reasoning-improving-accuracy",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "기업의 멀티 에이전트 시스템은 대개 미리 짠 파이프라인이나 단순 다수결에 기댄다. 스탠퍼드대·투게더AI·에모리대 연구진은 정해진 모델 묶음이 과거 협업 기록을 돌아보며 재사용할 팀워크 전략을 스스로 익히는 'SAT(Self-Organizing Agent Teams)'를 제안했다. 전략에는 대화 구조, 역할, 서로의 풀이를 검사하는 방식이 담긴다.",
+  "SAT는 소량의 문제로 기본 전략을 돌린 뒤 가장 성적이 좋은 모델이 6차례에 걸쳐 전략을 고쳐 쓰고, 정답을 외운 전략을 걸러 최대 10개를 확정한다. 실제 풀이 때는 10개 전략을 모두 돌리고 판정 모델이 답을 고른다. o3-mini·클로드 소네트 4·딥시크-V3 팀은 수학·물리에서 평균 66.7%로 같은 연산량의 단일 모델(58.7%)·혼합 에이전트(57.3%)·토론(52.7%)을 앞섰고, AIME 2026에서는 71.2%로 가장 강한 구성원보다 29점 높았다.",
+  "지식·논리 과제에서는 72.8%로 단일 모델(72.1%)과 비슷했다. 정답 풀이가 하나라도 나온 문제는 87.9%였지만 판정 모델이 고르지 못한 경우가 많았다. 공식 코드는 없지만 논문 부록에 전략 20개의 프롬프트가 실렸다."
+ ],
+ "keyPoints": [
+  "모델 팀이 협업 기록 보고 전략 스스로 학습",
+  "수학·물리 66.7%, AIME 2026 71.2%",
+  "지식 과제는 판정 모델이 정답 고르기 어려워"
+ ],
+ "image": "https://images.ctfassets.net/jdtwqhzvc2n1/Koxx8k2trFe278qyQnzSZ/86d35ed2e83e8f83904c4b9b11610a85/multi-agent_solution.jpeg?w=800&q=75",
+ "facts": [
+  [
+   "연구 기관",
+   "스탠퍼드대·투게더AI·에모리대"
+  ],
+  [
+   "기법",
+   "SAT(Self-Organizing Agent Teams)"
+  ],
+  [
+   "분야",
+   "멀티 에이전트 추론"
+  ],
+  [
+   "기자",
+   "Ben Dickson"
+  ]
+ ],
+ "id": "261019-ai-10",
+ "category": "ai",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}

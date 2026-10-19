@@ -1,0 +1,35 @@
+{
+ "title": "세미콘 웨스트 2026 폐막…자이스 웨이퍼 검사 진출·패널 레벨 패키징·인력 양성이 화두",
+ "originalTitle": "SEMICON West 2026 Displays AI-Era Chipmaking, Workforce Development",
+ "source": "EE Times",
+ "url": "https://www.eetimes.com/semicon-west-2026-displays-ai-era-chipmaking-workforce-development/",
+ "publishedAt": "2026-10-16",
+ "summary": [
+  "13~15일 미국 샌프란시스코 모스콘 센터에서 열린 '세미콘 웨스트 2026'은 아짓 마노차 SEMI CEO가 AI·IoT·양자컴퓨팅 덕분에 반도체가 1조 달러 산업이 됐다고 말하며 막을 올렸다. 노광부터 첨단 패키징까지 다양한 주제가 다뤄졌고, 사신 가지 시놉시스 CEO는 칩 설계의 자율형 AI를 이야기했다.",
+  "자이스 SMT는 웨이퍼 휨을 측정·보정하는 'DUNE'과 패키지 내부 구조를 파괴하지 않고 보여주는 300mm 장비 'NLX'로 웨이퍼 검사 시장에 진출했다. 라구 나약은 웨이퍼 평탄도가 큰 문제가 됐다고 말했다. 미쓰비시케미컬은 장비·유연 전자 필름·첨단 패키징용 소재를, 폰아르데네는 패널 레벨 패키징 진출을, 하이덴하인은 ±150nm 정확도·최고 초속 1m의 'METIS HP' 플랫폼을 선보였다.",
+  "인력 양성도 큰 주제였다. 케이트 갈레고 피닉스 시장은 팹 견습 제도를 소개했고, WGNSTAR와 합병하는 ABM은 연간 약 500명이 거쳐 가는 아이다호 보이시 교육센터를 내세웠다."
+ ],
+ "keyPoints": [
+  "SEMI \"반도체는 1조 달러 산업\"",
+  "자이스, DUNE·NLX로 웨이퍼 검사 진출",
+  "팹 견습·교육센터 등 인력 양성 부각"
+ ],
+ "image": "https://www.eetimes.com/wp-content/uploads/Hero-image-10.jpg?resize=1200,675",
+ "facts": [
+  [
+   "행사",
+   "세미콘 웨스트 2026"
+  ],
+  [
+   "기간·장소",
+   "2026-10-13~15, 샌프란시스코 모스콘 센터"
+  ],
+  [
+   "주요 발표",
+   "자이스 DUNE·NLX, 하이덴하인 METIS HP"
+  ]
+ ],
+ "id": "261019-semi-12",
+ "category": "semi",
+ "collectedAt": "2026-10-19T13:47:23+09:00"
+}
